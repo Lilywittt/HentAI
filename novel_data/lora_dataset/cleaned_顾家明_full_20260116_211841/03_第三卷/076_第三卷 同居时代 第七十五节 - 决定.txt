@@ -1,0 +1,311 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在路边被三个染发青年骚扰，他们试图勒索钱财。",
+            "interlocutor_info": {
+                "name": "红头发青年",
+                "relationship_tag": "陌生人/潜在威胁"
+            },
+            "trigger": {
+                "sender": "红头发青年",
+                "content": "“嗨，兄弟，身上有钱吗？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的观察者",
+                "inner_monologue": "我在想一个问题，这些人为什么非要冒险做这种事？",
+                "external_action": "脸上露出一丝淡淡的笑容，却没有说话",
+                "speech_text": null,
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "绿头发青年因顾家明沉默而推搡他，试图激怒他。",
+            "interlocutor_info": {
+                "name": "绿头发青年",
+                "relationship_tag": "陌生人/挑衅者"
+            },
+            "trigger": {
+                "sender": "绿头发青年",
+                "content": "“喂，跟你说话呢！”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "隐忍的强者",
+                "inner_monologue": "我在想一个问题，这些人为什么非要冒险做这种事？",
+                "external_action": "轻描淡写地捏住绿头发青年的手腕，导致对方痛苦弯曲",
+                "speech_text": "“我在想一个问题。”",
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明制服红头发和绿头发青年后，黄头发青年犹豫不决。",
+            "interlocutor_info": {
+                "name": "黄头发青年",
+                "relationship_tag": "陌生人/犹豫的旁观者"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "黄头发青年见状也知道不妙，望着家明的淡然笑容，一时间进也不是退也不是",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "威慑的掌控者",
+                "inner_monologue": "我的手再多动一下，你们的手就断了……你们有家人吗？",
+                "external_action": "保持淡然笑容，控制住两人",
+                "speech_text": "“我的手再多动一下，你们的手就断了……你们有家人吗？”",
+                "mood_state": "严肃"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明教训红头发和绿头发青年，让他们反思自己的行为。",
+            "interlocutor_info": {
+                "name": "红头发和绿头发青年",
+                "relationship_tag": "陌生人/被教训者"
+            },
+            "trigger": {
+                "sender": "红头发和绿头发青年",
+                "content": "“有有有有有有有……有！”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "哲理的教导者",
+                "inner_monologue": "既然有牵挂的人，为什么还非要以身犯险呢？",
+                "external_action": "保持控制，继续对话",
+                "speech_text": "“那就是有牵挂的了，既然有牵挂的人，为什么还非要以身犯险呢？你们说是吧？”",
+                "mood_state": "深思"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明进一步质问红头发和绿头发青年，指出他们行为的可耻。",
+            "interlocutor_info": {
+                "name": "红头发和绿头发青年",
+                "relationship_tag": "陌生人/被教训者"
+            },
+            "trigger": {
+                "sender": "红头发和绿头发青年",
+                "content": "“是是是是是是是……是！我们……我们不敢了……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "批判的反思者",
+                "inner_monologue": "可是……这不是让别人只能欺负弱小吗？",
+                "external_action": "保持控制，继续对话",
+                "speech_text": "“可是……这不是让别人只能欺负弱小吗？只会欺负弱小的人，好像也没什么光彩的，你们说是吧？”",
+                "mood_state": "失望"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明释放红头发和绿头发青年，看着他们逃离。",
+            "interlocutor_info": {
+                "name": "红头发和绿头发青年",
+                "relationship_tag": "陌生人/逃离者"
+            },
+            "trigger": {
+                "sender": "红头发和绿头发青年",
+                "content": "“我们……我们不敢了……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "释然的旁观者",
+                "inner_monologue": "突然觉得自己也有些傻，原本有了牵挂的杀手，便不能成为纯粹的杀人者。",
+                "external_action": "叹了口气，放开他们的手",
+                "speech_text": "“走吧。”",
+                "mood_state": "自嘲"
+            }
+        },
+        {
+            "scene_snapshot": "灵静从后巷出来，与顾家明会合，分享工作奖励。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣/女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "“等很久了吗？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "关心的男友",
+                "inner_monologue": "今天怎么这么晚才出来，有点担心。",
+                "external_action": "推起自行车",
+                "speech_text": "“唔，不算久，今天怎么这么晚才出来。”",
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "灵静提到张经理送她星梦船票，顾家明表达醋意。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣/女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "“刚才好有意思哦，张经理说是发给我最近这段时间工作出色的奖励，你猜猜是什么。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "调侃的男友",
+                "inner_monologue": "玫瑰花？你才工作几天哪，怎么会有奖励，那个张经理难道想追你？",
+                "external_action": "信口胡说",
+                "speech_text": "“……玫瑰花？”",
+                "mood_state": "戏谑"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明进一步质疑张经理的动机，表达对灵静的占有欲。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣/女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "“哪有啊，别胡说了。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "吃醋的男友",
+                "inner_monologue": "有人觊觎我家灵静的美色，我吃醋不是很正常吗？",
+                "external_action": "回过了头",
+                "speech_text": "“嗯，我家的灵静到哪儿都受欢迎……不过就算工作再出色，也不至于送船票吧。”",
+                "mood_state": "嫉妒"
+            }
+        },
+        {
+            "scene_snapshot": "灵静安慰顾家明，表示如果张经理有不良意图就辞职。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣/女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "“吃醋了？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "自信的男友",
+                "inner_monologue": "我知道灵静不会红杏出墙，但还是要表达我的在意。",
+                "external_action": "笑道",
+                "speech_text": "“有人觊觎我家灵静的美色，我吃醋不是很正常吗？”",
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在篮球场边找到雅涵，调侃她的变化。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "朋友/老师"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "家明出现在球场一侧，走了过来",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "玩笑的朋友",
+                "inner_monologue": "两天不见，变了很多哦，终于练成九阴真经了？",
+                "external_action": "笑脸出现在雅涵眼前",
+                "speech_text": "“两天不见，变了很多哦，终于练成九阴真经了？气势好吓人。”",
+                "mood_state": "幽默"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵回应顾家明的玩笑，提到船票的事情。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "朋友/老师"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "“肚子很饿，没工夫跟你开玩笑。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "调戏的朋友",
+                "inner_monologue": "不会是因为我不去，打击到你了吧。嗯……难道你一直暗恋我？",
+                "external_action": "继续调侃",
+                "speech_text": "“喔，不会是因为我不去，打击到你了吧。嗯……难道你一直暗恋我？”",
+                "mood_state": "戏弄"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明告诉雅涵他还在考虑是否接受船票，引发雅涵情绪波动。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "朋友/老师"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "“你走开，别在外面逗我笑，不是要把船票还给我吗？我正在烦该转手送给谁呢。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "深思的决策者",
+                "inner_monologue": "事实上，我还在考虑呢，一些关于人生的无聊思考……",
+                "external_action": "坐在雅涵的身边，淡淡地说着",
+                "speech_text": "“嗯，事实上，我还在考虑呢……”",
+                "mood_state": "犹豫"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵询问顾家明不去的原因，他含糊回应。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "朋友/老师"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "“那个……呃……为什么不去……有什么事情吗？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "回避的谈话者",
+                "inner_monologue": "是遇上了一些事情，目前正在寻求比较理想的解决途径……",
+                "external_action": "淡淡一笑",
+                "speech_text": "“唔，是遇上了一些事情，目前正在寻求比较理想的解决途径……嗯，一些关于人生的无聊思考……”",
+                "mood_state": "含糊"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵开玩笑说顾家明可能遇到爱情难题，他转移话题到许默追求雅涵。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "朋友/老师"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "“难道是情窦初开的小男孩遇上爱情难题了？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "转移话题的朋友",
+                "inner_monologue": "就是关于姐姐你的事啊，那个可怜的许默不是在追求你吗？",
+                "external_action": "顺手接住飞来的篮球",
+                "speech_text": "“就是关于姐姐你的事啊，那个可怜的许默不是在追求你吗？他肯定还能搞得到船票，如果你也上船，岂不是便宜了别人，别忘了，你可是我家的童养媳啊，那个许默知道了你的身份还想抢人，实在太无耻了。”",
+                "mood_state": "调侃"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在篮球场投出一个惊艳的球，宣布决定去玩。",
+            "interlocutor_info": {
+                "name": "环境",
+                "relationship_tag": "旁观者/篮球场人群"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "篮球场那边传来：“同学，把球扔过来”的声音",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "决断的展现者",
+                "inner_monologue": "嗯，其实灵静跟沙沙也很想去玩，所以，我决定了，好好玩一次吧……",
+                "external_action": "深吸一口气，在球上砰的一拍，起跳投篮，球空心落网",
+                "speech_text": "“嗯，其实灵静跟沙沙也很想去玩，所以，我决定了，好好玩一次吧……”",
+                "mood_state": "坚定"
+            }
+        }
+    ]
+}

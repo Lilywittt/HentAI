@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在草地上接电话，得知谭君荣买凶杀他，但认为对方不敢动手。",
+            "interlocutor_info": {
+                "name": "柳正",
+                "relationship_tag": "长辈/保护者"
+            },
+            "trigger": {
+                "sender": "柳正",
+                "content": "告知顾家明谭君荣买凶杀他，并表达担忧。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静自信的年轻人",
+                "inner_monologue": "我大概知道怎么回事，其实事情比较复杂，那家伙未必也真的敢……",
+                "external_action": "皱起了眉头，望向远处的谭君荣。",
+                "speech_text": "放心吧，柳叔，你也知道我们这是跟方之天在一起呢，到处是特种兵啊、便衣武警什么的，杀人……谁敢啊……",
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明挂掉电话后，天雨正则询问情况。",
+            "interlocutor_info": {
+                "name": "天雨正则",
+                "relationship_tag": "朋友/盟友"
+            },
+            "trigger": {
+                "sender": "天雨正则",
+                "content": "询问电话内容，表示关心。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "低调内敛的伙伴",
+                "inner_monologue": "没什么，我把自己也给摆了一道……",
+                "external_action": "吐了口气。",
+                "speech_text": "没什么。",
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在帐篷中与朋友们玩闹，讨论谭君荣的异常行为。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "朋友/竞争对手"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "提出打赌，赌谭君荣是否来找灵静。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "调皮挑衅的同伴",
+                "inner_monologue": "也许不是对灵静的呢……这家伙有病，但可以趁机捉弄一下东方婉。",
+                "external_action": "目光闪烁半天，方才豁出去似的点了点头。",
+                "speech_text": "好吧，那你说……赌什么？",
+                "mood_state": "狡黠"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明与东方婉敲定打赌的具体内容。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "朋友/竞争对手"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "提出赌注，如果顾家明输，要在大庭广众下对罗圆圆说侮辱性的话。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "自信果断的赌徒",
+                "inner_monologue": "OK，赌了！反正我赢定了，这家伙肯定不是来找灵静的。",
+                "external_action": "重重地点了点头。",
+                "speech_text": "OK，赌了！",
+                "mood_state": "自信"
+            }
+        }
+    ]
+}

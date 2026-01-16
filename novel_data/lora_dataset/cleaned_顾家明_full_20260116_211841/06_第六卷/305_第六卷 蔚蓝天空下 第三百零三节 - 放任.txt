@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "酒吧负责人报告吧台骚乱，提到黄浩兵是顾家明的亲戚。",
+            "interlocutor_info": {
+                "name": "酒吧负责人",
+                "relationship_tag": "下属或报告者"
+            },
+            "trigger": {
+                "sender": "酒吧负责人",
+                "content": "报告吧台骚乱，提到黄浩兵是顾家明的亲戚。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的决策者",
+                "inner_monologue": "我不需要插手黄浩兵的事，让他自己处理。",
+                "external_action": "挥手示意不用插手。",
+                "speech_text": "今天这件事，不用插手，让他们闹。",
+                "mood_state": "淡漠"
+            }
+        },
+        {
+            "scene_snapshot": "小孟建议切断黄浩兵的毒品供应。",
+            "interlocutor_info": {
+                "name": "小孟",
+                "relationship_tag": "下属或助手"
+            },
+            "trigger": {
+                "sender": "小孟",
+                "content": "建议切断黄浩兵的毒品供应。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "深思熟虑的旁观者",
+                "inner_monologue": "沙沙可能无意中帮了黄浩兵，但我不干涉他的堕落。",
+                "external_action": "摇头表示不管他。",
+                "speech_text": "算了吧，不管他，你也不用放话出去……",
+                "mood_state": "冷漠"
+            }
+        },
+        {
+            "scene_snapshot": "小孟出手打碎酒瓶并击倒攻击黄浩兵的人。",
+            "interlocutor_info": {
+                "name": "小孟",
+                "relationship_tag": "下属或助手"
+            },
+            "trigger": {
+                "sender": "小孟",
+                "content": "出手打碎酒瓶并击倒攻击黄浩兵的人。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "观察者",
+                "inner_monologue": "小孟处理了局面，我不需要亲自出手。",
+                "external_action": "蹲下搜索倒地者的物品。",
+                "speech_text": null,
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明指示处理闹事者，包括对女性实施报复。",
+            "interlocutor_info": {
+                "name": "沙竹帮帮众",
+                "relationship_tag": "下属或执行者"
+            },
+            "trigger": {
+                "sender": "沙竹帮帮众",
+                "content": "询问如何处理闹事者。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷酷的裁决者",
+                "inner_monologue": "这些人威胁了薰，必须按他们的言论惩罚。",
+                "external_action": "指示拖出去实施报复。",
+                "speech_text": "说过毁容的，拖出去毁容，说轮奸的，拖出去轮奸，说拍裸照的，轮奸之后拍裸照，她们想怎么样，就怎么样。",
+                "mood_state": "冷酷"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明与被打伤的黄浩兵对视。",
+            "interlocutor_info": {
+                "name": "黄浩兵",
+                "relationship_tag": "亲戚或堕落者"
+            },
+            "trigger": {
+                "sender": "黄浩兵",
+                "content": "被打得满脸是血，惊愕地看着顾家明。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "疏远的旁观者",
+                "inner_monologue": "黄浩兵已经堕落，我不关心他的死活。",
+                "external_action": "蹲下与黄浩兵对视。",
+                "speech_text": "需要我帮你叫救护车吗？",
+                "mood_state": "淡漠"
+            }
+        }
+    ]
+}

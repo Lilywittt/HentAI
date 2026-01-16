@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在洗手间战斗中迅速击败棕发大汉和瘦高个，展现出惊人的战斗技巧。",
+            "interlocutor_info": {
+                "name": "棕发大汉",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "棕发大汉",
+                "content": "棕发大汉在背后发出杀气，转身挥拳攻击顾家明。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的战斗者",
+                "inner_monologue": "我直接选择反击，利用他的惯性将他撞向墙壁。",
+                "external_action": "将棕发大汉拦腰撞出，推着他冲向墙壁。",
+                "speech_text": null,
+                "mood_state": "专注"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在战斗中同时应对棕发大汉和瘦高个的攻击，灵活闪避并反击。",
+            "interlocutor_info": {
+                "name": "瘦高个",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "瘦高个",
+                "content": "瘦高个被变故吓到，下意识地朝顾家明踢出一记侧身旋踢。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "敏捷的战士",
+                "inner_monologue": "我后撤旋身，抓住机会踢中他的小腿弱点。",
+                "external_action": "后撤旋身跳出，踢中瘦高个的小腿。",
+                "speech_text": null,
+                "mood_state": "果断"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在击败敌人后，检查棕发大汉的身体并评论他们的战斗方式。",
+            "interlocutor_info": {
+                "name": "天雨正则",
+                "relationship_tag": "盟友"
+            },
+            "trigger": {
+                "sender": "天雨正则",
+                "content": "天雨正则对顾家明的速度表示惊讶，说“你可真够快的……”。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "分析者",
+                "inner_monologue": "这些人太弱了，连基本的战术都不懂。",
+                "external_action": "蹲下抹了抹棕发大汉的身上。",
+                "speech_text": "最初级的不死异能，可以极大地加快自身伤势愈合速度，可以忍痛，对于枪支之类的机械伤害可以降到最低，最适合的运用方法是跟人对射……连把枪都不肯带，玩肉搏，这些人……真的是菜鸟中的菜鸟了……",
+                "mood_state": "轻蔑"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明和天雨正则讨论如何处理尸体和获取信息，气氛转为冷静分析。",
+            "interlocutor_info": {
+                "name": "天雨正则",
+                "relationship_tag": "盟友"
+            },
+            "trigger": {
+                "sender": "天雨正则",
+                "content": "天雨正则提议将冰冻的脑袋带回日本，剩余的给炎黄觉醒。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "务实者",
+                "inner_monologue": "我需要确保没有活口，并获取有用信息。",
+                "external_action": "走到瘦高个身前，卸掉他的下巴并划伤手臂观察恢复速度。",
+                "speech_text": "我可不想留活口。",
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明审问瘦高个关于“伯爵”的信息，得知其矮小特征后突然愣住。",
+            "interlocutor_info": {
+                "name": "瘦高个",
+                "relationship_tag": "俘虏"
+            },
+            "trigger": {
+                "sender": "瘦高个",
+                "content": "瘦高个描述“伯爵”很矮，穿黑斗篷戴面具。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "警觉的调查者",
+                "inner_monologue": "侏儒……这让我联想到一些事情。",
+                "external_action": "捏碎了一片白瓷碎片，陡然间愣住了。",
+                "speech_text": "侏儒……",
+                "mood_state": "警觉"
+            }
+        }
+    ]
+}

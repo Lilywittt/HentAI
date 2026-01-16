@@ -1,0 +1,140 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "东方婉在厨房铁笼前盯着狼狗，东方路进来询问并提到顾家明。",
+            "interlocutor_info": {
+                "name": "东方路",
+                "relationship_tag": "妹妹的哥哥，朋友"
+            },
+            "trigger": {
+                "sender": "东方路",
+                "content": "干嘛呢？雷庆把你逼到走投无路啦？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静旁观者",
+                "inner_monologue": "我在这里看狗，东方路突然出现，还提到雷庆，估计是想调侃我。",
+                "external_action": "扭头望了一眼身边的男子，望了望腕上的手表",
+                "speech_text": "我看能不能吓到它，不过不管怎么盯着。它只是越来越暴躁……",
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "东方路建议东方婉向顾家明请教技巧，并提到假扮男朋友的事。",
+            "interlocutor_info": {
+                "name": "东方路",
+                "relationship_tag": "妹妹的哥哥，朋友"
+            },
+            "trigger": {
+                "sender": "东方路",
+                "content": "你不去问一下顾家明？听说你又找他假扮你男朋友了……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "不屑一顾",
+                "inner_monologue": "东方路又在拿顾家明开玩笑，我才懒得理他这种建议。",
+                "external_action": "有些遗憾地回头望了望那条依旧在狂暴状态地狼狗",
+                "speech_text": "只是看见了狗，突然想起来，所以才想要试一下，问顾家明那家伙……切，我才懒得问呢。",
+                "mood_state": "轻蔑"
+            }
+        },
+        {
+            "scene_snapshot": "东方路调侃东方婉和顾家明是欢喜冤家，东方婉反驳。",
+            "interlocutor_info": {
+                "name": "东方路",
+                "relationship_tag": "妹妹的哥哥，朋友"
+            },
+            "trigger": {
+                "sender": "东方路",
+                "content": "欢喜冤家？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "反感",
+                "inner_monologue": "东方路真是无聊，把我和顾家明扯到一起，这种玩笑一点意思都没有。",
+                "external_action": "脸上露出可怕的神情，浑身一颤",
+                "speech_text": "冤家这个词是不是有些暧昧啊，你妹妹我全身都起鸡皮疙瘩了，跟顾家明……咦……",
+                "mood_state": "厌恶"
+            }
+        },
+        {
+            "scene_snapshot": "东方路提醒东方婉顾家明已有女朋友，让她不要喜欢上他。",
+            "interlocutor_info": {
+                "name": "东方路",
+                "relationship_tag": "妹妹的哥哥，朋友"
+            },
+            "trigger": {
+                "sender": "东方路",
+                "content": "顾家明已经有女朋友了，你可千万不要喜欢上他，切记、切记……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "恼怒",
+                "inner_monologue": "东方路又在胡说八道，我怎么可能喜欢顾家明，他真是多管闲事。",
+                "external_action": "横眉娇嗔的样子，举起手便要打他",
+                "speech_text": "哥！",
+                "mood_state": "生气"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉在宴会厅搜索顾家明未果，看到雷庆并感到嫌恶。",
+            "interlocutor_info": {
+                "name": "雷庆",
+                "relationship_tag": "讨厌的追求者"
+            },
+            "trigger": {
+                "sender": "雷庆",
+                "content": "笑着挥了挥手",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷漠",
+                "inner_monologue": "雷庆这家伙又来了，真烦人，我得避开他，找顾家明当挡箭牌。",
+                "external_action": "嫌恶地将目光转到一边",
+                "speech_text": null,
+                "mood_state": "烦躁"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉找不到顾家明，坐下后应子丰过来打招呼。",
+            "interlocutor_info": {
+                "name": "应子丰",
+                "relationship_tag": "应家子弟，熟人"
+            },
+            "trigger": {
+                "sender": "应子丰",
+                "content": "这不是小婉吗？好久不见了。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "礼貌社交",
+                "inner_monologue": "应子丰突然出现，我得保持礼貌，毕竟他是应家的人。",
+                "external_action": "站起身来，在记忆中搜索着眼前这名微有些傲气的面孔，立即便得到了答案，随后也笑起来",
+                "speech_text": "嗨，你是……应子丰吧？",
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "雷庆走近与应子丰握手，东方婉注意到并继续搜索顾家明。",
+            "interlocutor_info": {
+                "name": "雷庆",
+                "relationship_tag": "讨厌的追求者"
+            },
+            "trigger": {
+                "sender": "雷庆",
+                "content": "嗨，子丰，好久不见了，上个月没见你在江海了啊？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "警觉",
+                "inner_monologue": "雷庆和应子丰认识，这可能会让事情更复杂，我得赶紧找到顾家明。",
+                "external_action": "微微眯起了双眼",
+                "speech_text": null,
+                "mood_state": "警惕"
+            }
+        }
+    ]
+}

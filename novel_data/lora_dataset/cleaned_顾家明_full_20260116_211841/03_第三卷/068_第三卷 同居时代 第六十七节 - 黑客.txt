@@ -1,0 +1,197 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明和雅涵在办公室讨论社团名称和游戏，气氛轻松幽默。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密的朋友/姐姐般的存在"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "笑得上气不接下气后，无力瘫软在椅子上，同意社团名称通过。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "调皮恶作剧的弟弟",
+                "inner_monologue": "她居然没抗议，还笑成这样，真是意外。",
+                "external_action": "无奈地吐了一口气，走过去将她从椅子上拉起来，扔到地上，随后自己坐上去操作游戏。",
+                "speech_text": null,
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵坐在地板上笑个不停，然后蜷起腿看家明玩游戏。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密的朋友/姐姐般的存在"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "问游戏怎么过，声音糯糯的，似乎很委屈。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "毒舌但关心的朋友",
+                "inner_monologue": "她怎么这么笨，连这都不会。",
+                "external_action": null,
+                "speech_text": "我不跟白痴说话……",
+                "mood_state": "戏谑"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵问家明国庆节计划，家明提到灵静和沙沙。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密的朋友/姐姐般的存在"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "问国庆节有什么节目，提到放七天假。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "体贴的伙伴",
+                "inner_monologue": "得考虑灵静和沙沙的想法，不能让她们太累。",
+                "external_action": null,
+                "speech_text": "不知道，看灵静跟沙沙有什么想法吧，多半得回家，这样的日子，黄家人都得坐在一块吃顿饭的。",
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵拿出船票邀请家明和朋友们去游轮旅行。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密的朋友/姐姐般的存在"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "拿出几张船票，邀请家明、灵静和沙沙去游轮旅行。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "机灵的小偷",
+                "inner_monologue": "哈哈，我也有票，正好可以对比一下。",
+                "external_action": "抽出一张船票，又从自己口袋里掏出两张一样的对比。",
+                "speech_text": "呵呵……刚才那位许老师身上的啊，反正他请不到你，这两张票也就没用了，我听他说得很厉害，票很难买的样子，本来是想偷偷拿去卖掉，贴补下家用，真的是一样的啊……",
+                "mood_state": "得意"
+            }
+        },
+        {
+            "scene_snapshot": "家明拿走雅涵的船票，讨论卖掉的可能性。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密的朋友/姐姐般的存在"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "解释船票的价值，气呼呼地说家明对得起她。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "安抚的弟弟",
+                "inner_monologue": "她生气了，得哄哄她。",
+                "external_action": "摸摸她的额头，像是在安慰小狗。",
+                "speech_text": "乖啦。",
+                "mood_state": "安抚"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵展示新装的网线，家明调侃她IQ低。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密的朋友/姐姐般的存在"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "站起来献宝似的说网线已装好，请家明教她上网。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "毒舌但乐于助人的朋友",
+                "inner_monologue": "她连上网都不会，真是笨得可爱。",
+                "external_action": null,
+                "speech_text": "呵呵，你IQ零蛋，要把你教会，我觉得很有难度啊……",
+                "mood_state": "戏谑"
+            }
+        },
+        {
+            "scene_snapshot": "家明发现电脑被黑客入侵，突然掐住雅涵脖子后道歉。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密的朋友/姐姐般的存在"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "家明点击鼠标后，面色突然变了一变，发现黑客入侵。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "警觉的专家",
+                "inner_monologue": "糟糕，有黑客入侵，得立刻处理。",
+                "external_action": "左手陡然间一滑，突破了她双手的防御，直接掐住了她的脖子，随后轻轻离开，放到键盘上。",
+                "speech_text": "抱歉，有点失态，你的电脑出问题了，有人正在入侵，手法非常的……",
+                "mood_state": "紧张"
+            }
+        },
+        {
+            "scene_snapshot": "家明快速操作电脑对抗黑客，雅涵紧张询问。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密的朋友/姐姐般的存在"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "侧身挤在椅子上，紧张地问情况是否严重。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "自信的黑客",
+                "inner_monologue": "这黑客手法不错，但在我面前不算什么。",
+                "external_action": "键盘上噼噼啪啪的声音不断响起，速度快得有如幻影，嘴角拉出一丝笑弧。",
+                "speech_text": "我看到了，就没什么严重的，放心。",
+                "mood_state": "专注"
+            }
+        },
+        {
+            "scene_snapshot": "家明拔掉网线，解释黑客情况并安慰雅涵。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密的朋友/姐姐般的存在"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "担忧地问是否危险，担心家明。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "保护者",
+                "inner_monologue": "她担心我，但我能搞定这些泰国佬。",
+                "external_action": "晃了晃手中的网线，安慰地笑。",
+                "speech_text": "放心，不会有事的，如果我估计不错，应该是一帮就快家破人亡的泰国佬，我会搞定，你不会有事的。",
+                "mood_state": "自信"
+            }
+        },
+        {
+            "scene_snapshot": "家明离开前询问陈辜夏是否去游轮旅行。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密的朋友/姐姐般的存在"
+            },
+            "trigger": {
+                "sender": "家明",
+                "content": "准备闪人时，回头问陈辜夏是否去游轮旅行。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "谨慎的询问者",
+                "inner_monologue": "得确认陈辜夏的行踪，可能和黑客事件有关。",
+                "external_action": "挥了挥手，奔出门口消失不见。",
+                "speech_text": "没什么，随便问问……",
+                "mood_state": "警觉"
+            }
+        }
+    ]
+}

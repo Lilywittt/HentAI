@@ -1,0 +1,26 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明打开房门，意外看到两个女孩以尴尬姿势纠缠在床上。",
+            "interlocutor_info": {
+                "name": "灵静和沙沙",
+                "relationship_tag": "亲密的朋友/同学"
+            },
+            "trigger": {
+                "sender": "灵静和沙沙",
+                "content": "两个女孩以诱人姿势交缠，全身赤裸，望向房门。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "冷静的旁观者",
+                "inner_monologue": "我真是被吓到了，这绝对是重生后最惊人的场面。",
+                "external_action": "站在门口怔了半晌，喷出牛奶，随后低笑并关门。",
+                "speech_text": null,
+                "mood_state": "amused"
+            }
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "灵静穿着新工作服在客厅展示，让沙沙和家明评价。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "在厨房门口旋转展示新工作服，问家明怎么样。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "体贴的男友",
+                "inner_monologue": "I think this outfit is cheaply made, but she's so excited about her first job—I should focus on encouraging her rather than criticizing.",
+                "external_action": "洗干净手走出来，上下打量灵静，随后笑道。",
+                "speech_text": "这是临时买的衣服，质量不怎么好，以前穿更好的衣服也没见你这么兴奋过。",
+                "mood_state": "amused"
+            }
+        },
+        {
+            "scene_snapshot": "家明替灵静扎马尾，沙沙开玩笑说让家明也扎马尾。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "趴在家明身上打量他，提议让家明留长发扎马尾。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "幽默的男友",
+                "inner_monologue": "I don't want to look like a clown with a ponytail, even if I don't care about others' opinions—better change the subject quickly.",
+                "external_action": "被沙沙搂着脖子左摇右晃，笑着替灵静整理头发。",
+                "speech_text": "两位女王，你们放了我吧……啊，菜要烧了、菜要烧了，沙沙饶命啊……",
+                "mood_state": "playful"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵来到三人的家，心中感到暧昧和忧虑。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "朋友/暗恋对象"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "内心思考三人同居的暧昧关系和家明的未来。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "低调的观察者",
+                "inner_monologue": "I notice her discomfort, but I want to keep things low-key and avoid drawing attention to any potential complications.",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "neutral"
+            }
+        }
+    ]
+}

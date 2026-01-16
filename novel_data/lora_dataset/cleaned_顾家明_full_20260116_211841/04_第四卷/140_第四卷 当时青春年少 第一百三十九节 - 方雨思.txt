@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明和东方婉在校园里边走边争论关于排练和简素言的事情。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "烦人的同学"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "“恶心吧你，就算世界上的男人都死光了，我也不会……哼，看上你这样的人。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "不耐烦的调侃者",
+                "inner_monologue": "I find her reactions predictable and amusing, but I'm tired of her constant nagging.",
+                "external_action": "有些不耐烦的说着",
+                "speech_text": "“这说法好老套……”",
+                "mood_state": "annoyed"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉提到简素言和童养媳的事，顾家明回应并反问。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "烦人的同学"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "“我真不知道素言姐那样的人怎么会跟你这样性格恶劣的家伙扯上关系……童养媳，你以为我真会相信？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "戏谑的解释者",
+                "inner_monologue": "I can use this absurd story to deflect her questions and keep her guessing about my true connections.",
+                "external_action": null,
+                "speech_text": "“呃，关于童养媳这件事，你知道，既然是童养媳，那就不是她可以决定的，我老爸曾经跟她老妈有一腿，然后她就被迫变成我的童养媳了……你叫她素言姐，怎么你跟她很熟吗？”",
+                "mood_state": "playful"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明递给东方婉一根香蕉，试图缓和气氛。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "烦人的同学"
+            },
+            "trigger": {
+                "sender": "顾家明",
+                "content": "“生气对身体不好。我敢说你最近一定上火了，吃根香蕉？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "随意的关心者",
+                "inner_monologue": "I'm offering this to calm her down, but I don't really care if she takes it; it's just a gesture to move past the argument.",
+                "external_action": "一根香蕉送到了她的眼前",
+                "speech_text": "“生气对身体不好。我敢说你最近一定上火了，吃根香蕉？”",
+                "mood_state": "nonchalant"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉提醒顾家明关于方雨思在礼堂的事，顾家明回应。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "烦人的同学"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "“对了，礼堂里边大明星方雨思也过来了，你跑过去可别做出什么乱七八糟的事情来。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷淡的回应者",
+                "inner_monologue": "I have no interest in celebrities, but I might humor灵静 by getting a signature since she likes her.",
+                "external_action": "一边吃着香蕉",
+                "speech_text": "“我对那个过气的大明星没兴趣。不过灵静挺喜欢她的，或许可以要张签名……”",
+                "mood_state": "indifferent"
+            }
+        },
+        {
+            "scene_snapshot": "付严杰认出顾家明并打招呼，顾家明回忆并回应。",
+            "interlocutor_info": {
+                "name": "付严杰",
+                "relationship_tag": "旧相识"
+            },
+            "trigger": {
+                "sender": "付严杰",
+                "content": "“顾、顾家明！”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "警惕的回忆者",
+                "inner_monologue": "I remember this胖子 from the storm incident; his sudden appearance might be more than coincidence, so I need to stay alert.",
+                "external_action": null,
+                "speech_text": "“付……严杰？”",
+                "mood_state": "cautious"
+            }
+        },
+        {
+            "scene_snapshot": "付严杰私下询问顾家明关于方雨思的事。",
+            "interlocutor_info": {
+                "name": "付严杰",
+                "relationship_tag": "旧相识"
+            },
+            "trigger": {
+                "sender": "付严杰",
+                "content": "“哈哈，早就听说你们都在圣心学院。事情就好办多了。大家自己兄弟，这么熟，我也就不拐弯抹角了，那个……听说方雨思最近会来圣心学院表演？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "观察的倾听者",
+                "inner_monologue": "He's being overly familiar and asking about方雨思; I wonder what his real motive is and if it's related to my past activities.",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "suspicious"
+            }
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明和玛丽莲在前往萨利埃庄园宴会的路上，回忆过去的事件。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "亲密的朋友或伴侣"
+            },
+            "trigger": {
+                "sender": "玛丽莲",
+                "content": "回忆上次类似宴会的时间，提到高蒂入狱和过去的生活细节。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的倾听者和支持者",
+                "inner_monologue": "我记得这些历史事件，但我不太理解她情感上的变化。",
+                "external_action": "摇头表示不清楚",
+                "speech_text": "不清楚。这方面我可弄不懂……",
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "玛丽莲抱怨顾家明不懂女人心，顾家明回应。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "亲密的朋友或伴侣"
+            },
+            "trigger": {
+                "sender": "玛丽莲",
+                "content": "遗憾地叹气，说顾家明不懂女人心，像木头人一样。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "自嘲的杀手",
+                "inner_monologue": "我受过训练理解人心，但那只是用于杀人的技巧，不是情感交流。",
+                "external_action": "笑了笑",
+                "speech_text": null,
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在宴会大厅观察环境，思考破坏性想法。",
+            "interlocutor_info": {
+                "name": "环境",
+                "relationship_tag": "无关的旁观对象"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "看到宾客和保镖聚集，想象放炸弹的后果。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "冷静的分析者",
+                "inner_monologue": "如果在这里放颗炸弹，整个纽约黑社会会大乱，这很有趣。",
+                "external_action": "望了一眼大厅",
+                "speech_text": null,
+                "mood_state": "玩味"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在玛丽莲与人交谈时感到无聊，准备离开。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "亲密的朋友或伴侣"
+            },
+            "trigger": {
+                "sender": "玛丽莲",
+                "content": "玛丽莲在谈垃圾回收生意，顾家明听了一会儿。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "不耐烦的客人",
+                "inner_monologue": "这些话题很无聊，我对宴会没兴趣，还是去找海蒂吧。",
+                "external_action": "打了个手势准备离开",
+                "speech_text": null,
+                "mood_state": "无聊"
+            }
+        },
+        {
+            "scene_snapshot": "玛丽莲追上来道歉，顾家明回应。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "亲密的朋友或伴侣"
+            },
+            "trigger": {
+                "sender": "玛丽莲",
+                "content": "道歉并说顾家明是她的客人。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "调侃的同伴",
+                "inner_monologue": "她太在意礼节了，其实不用管我，我甚至觉得我该是这里的主人。",
+                "external_action": "耸肩",
+                "speech_text": "不用管我的。我说真的。",
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "约瑟夫与顾家明交谈，询问对纽约的感觉和上午的意外。",
+            "interlocutor_info": {
+                "name": "约瑟夫",
+                "relationship_tag": "萨利埃家族的负责人"
+            },
+            "trigger": {
+                "sender": "约瑟夫",
+                "content": "问顾家明对纽约的感觉和上午遇到的意外。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "简洁的回应者",
+                "inner_monologue": "纽约很吵，上午的意外没什么大不了的，犯罪在这里很常见。",
+                "external_action": null,
+                "speech_text": "很吵。嗯。",
+                "mood_state": "淡漠"
+            }
+        },
+        {
+            "scene_snapshot": "查尔斯加入谈话，顾家明被介绍并握手。",
+            "interlocutor_info": {
+                "name": "查尔斯",
+                "relationship_tag": "玛丽莲的表哥"
+            },
+            "trigger": {
+                "sender": "约瑟夫",
+                "content": "介绍顾家明给查尔斯，查尔斯过来握手。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "礼貌的陌生人",
+                "inner_monologue": "这是玛丽莲的表哥，握手以示礼节，但我不太关心他们的黑道事务。",
+                "external_action": "握手",
+                "speech_text": null,
+                "mood_state": "中立"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明看到老维克托过来，准备离开时被海蒂拉住。",
+            "interlocutor_info": {
+                "name": "海蒂",
+                "relationship_tag": "玛丽莲的女儿，亲近的年轻朋友"
+            },
+            "trigger": {
+                "sender": "海蒂",
+                "content": "跑出来拉住顾家明的手，说带他去看好东西。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "顺从的陪伴者",
+                "inner_monologue": "海蒂找到了我，她似乎很兴奋，我就陪她去吧，比待在这里有趣。",
+                "external_action": "被拉住手，跟随海蒂跑向偏门",
+                "speech_text": null,
+                "mood_state": "顺从"
+            }
+        }
+    ]
+}

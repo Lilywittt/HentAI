@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "段静娴在阳台上大声训斥家明和灵静，指责他们经常惹事受伤。",
+            "interlocutor_info": {
+                "name": "段静娴",
+                "relationship_tag": "严厉的长辈/灵静的母亲"
+            },
+            "trigger": {
+                "sender": "段静娴",
+                "content": "大声吼叫，批评家明和灵静总是受伤惹事，提到月池薰差点死掉，并质问他们是否以为自己很了不起。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "顺从的晚辈",
+                "inner_monologue": "我确实有点像名侦探柯南，总是卷入麻烦，但这话可不敢说出来。",
+                "external_action": "站着不敢顶嘴，当灵静想说话时捂住她的嘴。",
+                "speech_text": "呵呵，好的、好的，叶妈妈，我们先去吃早餐了……呵呵……",
+                "mood_state": "subdued"
+            }
+        },
+        {
+            "scene_snapshot": "家明和灵静被段静娴安排在医院帮忙看伤科患者，灵静感到不适。",
+            "interlocutor_info": {
+                "name": "叶灵静",
+                "relationship_tag": "亲密的女友/关心他的人"
+            },
+            "trigger": {
+                "sender": "叶灵静",
+                "content": "埋怨家明不该留在医院帮忙，担心他的枪伤。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "安抚的男友",
+                "inner_monologue": "灵静总是这么担心我，我得让她放心，这点伤不算什么。",
+                "external_action": "拉起灵静的手，笑着解释。",
+                "speech_text": "放心啦，自从你跟阿姨说我想当外科医生，又不是第一次被叫到这里帮忙了。没什么重活会让我们干的，顶多是在旁边看着，有什么关系……我被打了一个洞，营养全流走了，现在肚子饿得要死，去吃早餐啦，你看我走得都摇摇晃晃了……",
+                "mood_state": "playful"
+            }
+        },
+        {
+            "scene_snapshot": "家明和灵静在医院外的小炒店讨论东方路和小孟知道家明身份的事情。",
+            "interlocutor_info": {
+                "name": "叶灵静",
+                "relationship_tag": "亲密的女友/担忧的伴侣"
+            },
+            "trigger": {
+                "sender": "叶灵静",
+                "content": "询问家明是否担心身份暴露给东方路和小孟，并建议他当时不承认。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的分析者",
+                "inner_monologue": "灵静太单纯了，不承认反而会更麻烦，东方路是个聪明人，会权衡利弊。",
+                "external_action": "笑着解释，求饶当灵静生气时。",
+                "speech_text": "呵呵，放心吧，不会有事的。傻妞，你想啊，假如我当时根本不承认，那就只有后来直接杀掉他们了，否则他们以后查来查去，就只会弄得越来越大，现在的话……小孟那边不敢说的，至于东方路，呵……他不会说。",
+                "mood_state": "confident"
+            }
+        },
+        {
+            "scene_snapshot": "家明在吃饭时思考李云秀和雅涵的问题，心绪飘向如何处理身份保密。",
+            "interlocutor_info": {
+                "name": "李云秀",
+                "relationship_tag": "潜在的威胁/炎黄觉醒的异能者"
+            },
+            "trigger": {
+                "sender": "internal",
+                "content": "回忆起李云秀可能报告他的身份给炎黄觉醒，考虑是否要杀她。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "strategic thinker",
+                "inner_monologue": "李云秀肯定会报告，但杀她没必要，让东方路去处理更合适，他擅长这种事。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "calculating"
+            }
+        },
+        {
+            "scene_snapshot": "家明去张家别墅看望生病的雅涵，被佣人带到治疗室外。",
+            "interlocutor_info": {
+                "name": "张敬安和小妈",
+                "relationship_tag": "雅涵的家人/有一定距离的长辈"
+            },
+            "trigger": {
+                "sender": "佣人",
+                "content": "通报家明想看望雅涵，张敬安和小妈讨论后允许他上来。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "礼貌的访客",
+                "inner_monologue": "雅涵病得这么重，我得来看看她，希望她能好起来。",
+                "external_action": "拿着一束康乃馨，出现在治疗室外。",
+                "speech_text": null,
+                "mood_state": "concerned"
+            }
+        }
+    ]
+}

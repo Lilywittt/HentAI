@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在厨房门口与叶妈妈交谈，被要求去买酱油。",
+            "interlocutor_info": {
+                "name": "叶妈妈",
+                "relationship_tag": "亲近的长辈"
+            },
+            "trigger": {
+                "sender": "叶妈妈",
+                "content": "厨房里没酱油了，家明你帮忙出去买一瓶吧，对了，灵静呢？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "阳光开朗的男孩",
+                "inner_monologue": "我正好可以出去透透气，顺便看看灵静和沙沙在做什么。",
+                "external_action": "脸上带着阳光的笑容，出现在厨房门口",
+                "speech_text": "什么事？叶爸在上厕所哦。",
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在武馆看到灵静和沙沙在擂台上打闹。",
+            "interlocutor_info": {
+                "name": "灵静和沙沙",
+                "relationship_tag": "亲密的女友和朋友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "怎么啦……啊——灵静你耍赖，你偷袭，哈哈，家明救命啊……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "旁观者",
+                "inner_monologue": "她们俩总是这样打打闹闹，像两个百合一样亲密无间。",
+                "external_action": "无奈地挥了挥手中的钞票",
+                "speech_text": "我去打酱油，你们继续……",
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明独自走在小区街道上，反思自己的生活。",
+            "interlocutor_info": {
+                "name": "无",
+                "relationship_tag": "自我反思"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "天空之中，艳阳高照，街道间静静地停了两辆小轿车，居民楼里传出菜肴香味和电视机声音。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "沉思者",
+                "inner_monologue": "这样的生活是我曾经渴望的，但为什么我还是感到失落？人果然都是不知足的。",
+                "external_action": "深吸一口气，举头望向天空，摇头一笑，快速往回跑去",
+                "speech_text": null,
+                "mood_state": "失落"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在吃饭时与家人讨论星梦号游轮旅行。",
+            "interlocutor_info": {
+                "name": "灵静和沙沙",
+                "relationship_tag": "亲密的女友和朋友"
+            },
+            "trigger": {
+                "sender": "叶妈妈",
+                "content": "灵静、沙沙，昨天买那两套礼服的时候家明不在，你们待会穿出来给家明看看好了。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "体贴的男友",
+                "inner_monologue": "我其实在犹豫是否要去旅行，因为最近心事重重，但不想让她们担心。",
+                "external_action": "一笑",
+                "speech_text": "反正上去了我迟早看得到的，何况……何况不是还没定好去不去吗？",
+                "mood_state": "犹豫"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在小阁楼里与灵静私下交谈，分享心事。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密的女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "你有心事。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "坦诚的伴侣",
+                "inner_monologue": "我确实有心事，关于失去杀手之心的恐惧，但不想让灵静和沙沙卷入危险。",
+                "external_action": "目光望向窗外，表情复杂但平静",
+                "speech_text": "呵，的确有……不是跟雅涵姐有什么矛盾，只是……我自己出了些问题，本来这些问题无关紧要，可是突然间，我又发现自己有些介意，灵静，我现在如果不说，你和沙沙会生气吗？",
+                "mood_state": "复杂"
+            }
+        }
+    ]
+}

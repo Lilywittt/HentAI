@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Romance"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "叶灵静、沙沙和家明在醉酒后醒来，发现三人赤裸地躺在一起，场面尴尬而混乱。",
+            "interlocutor_info": {
+                "name": "家明",
+                "relationship_tag": "暗恋对象和亲密朋友"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "三人赤裸地躺在一起，地毯上有血迹，表明发生了性关系。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "害羞而不知所措的少女",
+                "inner_monologue": "我怎么会和家明、沙沙这样……这太尴尬了，我该怎么办？",
+                "external_action": "退到墙脚的花瓶旁，并拢双膝，双手环抱，赤裸的身体像艺术品一样。",
+                "speech_text": null,
+                "mood_state": "尴尬"
+            }
+        },
+        {
+            "scene_snapshot": "阿丑小猫舔叶灵静的脚趾，家明和沙沙看着这一幕，气氛沉默而紧张。",
+            "interlocutor_info": {
+                "name": "家明",
+                "relationship_tag": "暗恋对象和亲密朋友"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "阿丑小猫舔叶灵静的脚趾，打破了沉默。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "脆弱而情绪化的少女",
+                "inner_monologue": "连小猫都在添乱，我该怎么面对家明和沙沙？我们以后怎么办？",
+                "external_action": "抬脚想推开小猫，但小猫不肯退让。",
+                "speech_text": "我们……怎么办……",
+                "mood_state": "不知所措"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙道歉说对不起叶灵静，叶灵静回应安慰她。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "最好的朋友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "灵静，我对不起你……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "体贴而宽容的朋友",
+                "inner_monologue": "沙沙在道歉，但这不是她的错，我们都需要面对这个意外。",
+                "external_action": "抹了抹眼泪。",
+                "speech_text": "没有的，沙沙，我们是最好的朋友。",
+                "mood_state": "安慰"
+            }
+        },
+        {
+            "scene_snapshot": "叶灵静站起来，赤裸地走到沙沙和家明面前，提出三人要永远在一起。",
+            "interlocutor_info": {
+                "name": "家明",
+                "relationship_tag": "暗恋对象和亲密朋友"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "长时间的沉默和思考后，叶灵静决定主动面对。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "坚定而情感外露的领导者",
+                "inner_monologue": "我不能让这件事破坏我们的关系，我们必须一起面对，永远不分开。",
+                "external_action": "赤裸地站起来，牙齿咬下唇，擦泪水，拉沙沙起来，走到家明面前。",
+                "speech_text": "我也不知道我们该怎么办……但是从今天开始，你要对我们好，不许欺负我们，不许离开我们，要永远跟我们在一起……我们三个人……永远都要在一起的……",
+                "mood_state": "决心"
+            }
+        },
+        {
+            "scene_snapshot": "叶灵静和沙沙洗好澡后，叶灵静告诉家明水已放好，她去拿衣服。",
+            "interlocutor_info": {
+                "name": "家明",
+                "relationship_tag": "暗恋对象和亲密朋友"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "叶灵静和沙沙洗完澡，围着浴袍出现。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "害羞而体贴的少女",
+                "inner_monologue": "洗完澡还是觉得尴尬，但我要尽量自然些，照顾家明。",
+                "external_action": "脸上红扑扑的，神情不自然。",
+                "speech_text": "呃……我们洗好了，沙沙说……她还有些累，想睡一会儿，所以……呃，水已经放好了，我上去替家明你拿衣服，你也去洗澡吧……",
+                "mood_state": "害羞"
+            }
+        }
+    ]
+}

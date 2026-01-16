@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在酒店房间门口遭遇炸弹爆炸，但幸存并追踪袭击者。",
+            "interlocutor_info": {
+                "name": "穆清清",
+                "relationship_tag": "关心他的警察同事"
+            },
+            "trigger": {
+                "sender": "穆清清",
+                "content": "询问顾家明身份并表达担忧",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "沉默寡言的幸存者",
+                "inner_monologue": "我需要处理这个威胁，不能让她卷入危险。",
+                "external_action": "插入钥匙但未推开门，避免爆炸伤害",
+                "speech_text": null,
+                "mood_state": "警觉"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明追踪袭击者到小巷，面对其威胁。",
+            "interlocutor_info": {
+                "name": "袭击者",
+                "relationship_tag": "未知的敌人"
+            },
+            "trigger": {
+                "sender": "袭击者",
+                "content": "挥动钢管攻击并威胁同归于尽",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的复仇者",
+                "inner_monologue": "这个威胁必须消除，以保护自己和他人。",
+                "external_action": "单手抓住钢管，反击并制造爆炸",
+                "speech_text": null,
+                "mood_state": "决绝"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明返回酒店，面对同事的关心和混乱场面。",
+            "interlocutor_info": {
+                "name": "丁雄",
+                "relationship_tag": "同事"
+            },
+            "trigger": {
+                "sender": "丁雄",
+                "content": "质问顾家明去了哪里",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "低调的回归者",
+                "inner_monologue": "事情解决了，但不必解释细节。",
+                "external_action": "默默出现，被穆清清拉住手",
+                "speech_text": null,
+                "mood_state": "平静"
+            }
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "东方婉与混混对峙，许毅婷求助，顾家明旁观。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "社团成员/麻烦制造者"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "哼，你们别以为一张欠条有什么了不起，你们这些人有谁不知道的吗？坑蒙拐骗什么都做，赌场里都是出千，故意放高利贷害人，你们……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静旁观者",
+                "inner_monologue": "东方婉又在逞强了，这样激怒混混只会让事情更糟，我得看看情况再决定是否介入。",
+                "external_action": "站在旁边不说话",
+                "speech_text": null,
+                "mood_state": "警觉"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉与混混争吵升级，顾家明介入询问枪的事情。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "社团成员/麻烦制造者"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "就我说的，怎么了，你想闹事吗，告诉你，那点钱对我来说只是小事情，但是我……干嘛？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "务实提醒者",
+                "inner_monologue": "东方婉太冲动了，我得提醒她现实情况，否则我们都会陷入危险。",
+                "external_action": "拍了拍东方婉的肩膀",
+                "speech_text": "喂，你的四位保镖大人都有带枪吗？",
+                "mood_state": "担忧"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明发现永盛帮大批人马逼近，提醒东方婉。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "社团成员/麻烦制造者"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "切，你又搞什么，一般电影里都会回答：我会相信你吗……我看了，我……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "讽刺现实者",
+                "inner_monologue": "东方婉还这么天真，我得用幽默点醒她，但情况真的很危险。",
+                "external_action": "无奈地耸了耸肩",
+                "speech_text": "那好吧。虽然这样说很像喜剧电影上的无聊台词，但是……回头看看后边……",
+                "mood_state": "讽刺"
+            }
+        },
+        {
+            "scene_snapshot": "永盛帮百人逼近，东方婉害怕，顾家明建议逃跑。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "社团成员/麻烦制造者"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "那……那我们现在怎么办？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "理性逃生者",
+                "inner_monologue": "东方婉吓傻了，我得赶紧带她离开，硬拼不是办法。",
+                "external_action": "试图挣脱东方婉的手",
+                "speech_text": "还用说，当然是逃啦，你如果……喂，你拉着我的手干嘛，你不逃我逃，你以为你的保镖都能一个打五十个吗……",
+                "mood_state": "焦急"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉谎称顾家明是沙竹帮关系，引发永盛帮敌意。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "社团成员/麻烦制造者"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "……谁你不用管，但是这是我男朋友，沙竹帮老大柳正是他干爹，我们是来……谈判的……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "紧张应变者",
+                "inner_monologue": "东方婉这个蠢女人，提沙竹帮简直是火上浇油，我得准备应对突发情况。",
+                "external_action": "浑身肌肉一紧",
+                "speech_text": null,
+                "mood_state": "紧张"
+            }
+        },
+        {
+            "scene_snapshot": "黎鸣下令攻击，顾家明出手反击。",
+            "interlocutor_info": {
+                "name": "黎鸣",
+                "relationship_tag": "敌对帮派成员"
+            },
+            "trigger": {
+                "sender": "黎鸣",
+                "content": "干，沙竹帮的！兄弟们操家伙，准备……嗷——",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "果断反击者",
+                "inner_monologue": "情况危急，必须立刻制止他们，用最快的方式解决威胁。",
+                "external_action": "出绝招攻击黎鸣要害",
+                "speech_text": null,
+                "mood_state": "果断"
+            }
+        }
+    ]
+}

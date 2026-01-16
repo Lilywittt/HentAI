@@ -1,0 +1,159 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在病房里与沙沙互动，沙沙喂他吃橘子罐头。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密的朋友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "家明，来，我今天买来的橘子罐头，吃一口，张嘴，啊——",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "顺从但调侃的同伴",
+                "inner_monologue": "我有点担心罐头里的色素，但沙沙这么热情，还是别扫兴了。",
+                "external_action": "张嘴吃橘子",
+                "speech_text": "啊……不过他们说罐头里有色素……",
+                "mood_state": "顺从"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明调侃沙沙变脸快，沙沙威胁要打他。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密的朋友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "让你吃你就吃！不许说话！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "胆小但幽默的同伴",
+                "inner_monologue": "沙沙又在假装凶了，我得配合一下，免得她真动手。",
+                "external_action": "专心吃橘子",
+                "speech_text": "喔……沙沙你变脸的速度真快，跟四川师傅学过吧？",
+                "mood_state": "调侃"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明询问沙沙为什么早来医院，沙沙解释原因。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密的朋友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "今天学校朗诵比赛啊，本来就计划好了的，你忘记啦？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "好奇的询问者",
+                "inner_monologue": "沙沙翘课来看我，我得问问原因，顺便关心一下灵静。",
+                "external_action": "摇头示意吃饱",
+                "speech_text": "对了，沙沙，今天怎么来得这么早？你不用上课吗？",
+                "mood_state": "好奇"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙询问日语谢谢的意思，顾家明解释并调侃她。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密的朋友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "家明，阿里嘎多是什么意思？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "知识渊博的同伴",
+                "inner_monologue": "沙沙又忘了日语，我得提醒她，顺便开个玩笑。",
+                "external_action": "翻白眼",
+                "speech_text": "谢谢。",
+                "mood_state": "调侃"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明询问沙沙为什么怕月池薰，沙沙解释原因。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密的朋友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "也不是怕啦，可是我觉得她很厉害啊……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "好奇的询问者",
+                "inner_monologue": "沙沙对月池薰这么在意，我得问问她到底在怕什么。",
+                "external_action": "满脸疑惑",
+                "speech_text": "你干嘛这么怕她？",
+                "mood_state": "疑惑"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明坏心地议论月池薰的吃相，沙沙拍他并笑。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密的朋友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "你看，她吃东西的姿势好优雅。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "坏心眼的调侃者",
+                "inner_monologue": "沙沙这么崇拜月池薰，我得说点坏话逗逗她。",
+                "external_action": "滔滔不绝地议论",
+                "speech_text": "那已经不像人了好不好？……",
+                "mood_state": "戏谑"
+            }
+        },
+        {
+            "scene_snapshot": "灵静进入病房，沙沙询问比赛结果并开玩笑。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密的朋友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "怎么样？得到奖了吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "旁观者",
+                "inner_monologue": "沙沙又在闹灵静了，我得看着她们玩。",
+                "external_action": "在床上看着",
+                "speech_text": null,
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙强吻灵静，两人摔倒，顾家明旁观并回忆往事。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密的朋友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "来，作为奖励，灵静小美女，让怀沙哥哥亲一个。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "好奇的观察者",
+                "inner_monologue": "看着沙沙和灵静玩闹，我不禁想起以前的经历，好奇她们未来的关系会怎样发展。",
+                "external_action": "在床上看着",
+                "speech_text": null,
+                "mood_state": "好奇"
+            }
+        }
+    ]
+}

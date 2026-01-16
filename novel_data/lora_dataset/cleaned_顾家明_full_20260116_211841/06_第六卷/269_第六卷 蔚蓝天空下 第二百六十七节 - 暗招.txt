@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Other"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "东方婉在车上与许毅婷聊天，讨论顾家明和东方路的关系。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "商业伙伴兼同学"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "那天你看到顾家明了吧？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "旁观者",
+                "inner_monologue": "我懒得管这些闲事，东方路突然夸我，肯定没安好心，估计是想对灵静搞什么暗招。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "indifferent"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉在超市大楼楼梯间看到顾家明被雷庆带向咖啡厅。",
+            "interlocutor_info": {
+                "name": "雷庆",
+                "relationship_tag": "讨厌的追求者"
+            },
+            "trigger": {
+                "sender": "雷庆",
+                "content": "雷庆在保镖簇拥下将顾家明带向咖啡厅。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "被动参与者",
+                "inner_monologue": "雷庆这家伙又来烦我，带我去咖啡厅肯定没好事，不过有雅涵老师在，我倒要看看他玩什么花样。",
+                "external_action": "被雷庆带向咖啡厅，有些不情愿。",
+                "speech_text": null,
+                "mood_state": "annoyed"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明坐在咖啡厅里，东方婉在窗外偷看。",
+            "interlocutor_info": {
+                "name": "张雅涵",
+                "relationship_tag": "老师兼保护者"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "咖啡厅环境，雷庆与张雅涵交谈，顾家明坐在旁边。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "无聊的旁观者",
+                "inner_monologue": "雅涵老师跟雷庆说话，我就在旁边等着，反正这事跟我关系不大，打发时间就好。",
+                "external_action": "靠在玻璃窗上百无聊赖地玩手表。",
+                "speech_text": null,
+                "mood_state": "bored"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明似乎注意到东方婉在偷看。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "商业伙伴兼同学"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "东方婉在窗外偷看咖啡厅内的情况。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "警觉的观察者",
+                "inner_monologue": "东方婉在那边偷看，估计是好奇雷庆和雅涵老师的事，我假装没看见，免得她多事。",
+                "external_action": "目光若无其事地划过东方婉的方向，打了个呵欠。",
+                "speech_text": null,
+                "mood_state": "nonchalant"
+            }
+        }
+    ]
+}

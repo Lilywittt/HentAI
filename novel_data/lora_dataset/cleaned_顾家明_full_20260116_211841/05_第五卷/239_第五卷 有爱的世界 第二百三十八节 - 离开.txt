@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Romance"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "玛丽莲发现海蒂和家明在床上，误会他们发生了关系。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "情人"
+            },
+            "trigger": {
+                "sender": "玛丽莲",
+                "content": "灯光亮起来，然后便照见了房间里的一切事物，落在地上的睡裙，属于女孩的白色内裤、踢飞的拖鞋，以及正死死箍着家明的腰，从被褥中探出头来的混血女孩。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "尴尬的辩解者",
+                "inner_monologue": "I need to show I'm innocent, but this looks bad.",
+                "external_action": "欲盖弥彰地举起双手，仿佛在证明他没有碰过海蒂一下，低着头却不说话",
+                "speech_text": null,
+                "mood_state": "尴尬"
+            }
+        },
+        {
+            "scene_snapshot": "玛丽莲质问家明为什么碰海蒂，情绪激动。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "情人"
+            },
+            "trigger": {
+                "sender": "玛丽莲",
+                "content": "你为什么要这样做？海蒂才刚十四岁啊。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "沉默的承受者",
+                "inner_monologue": "I can't explain this easily; she's too upset to listen.",
+                "external_action": "点了点头，家明神色复杂，没有说话",
+                "speech_text": null,
+                "mood_state": "复杂"
+            }
+        },
+        {
+            "scene_snapshot": "玛丽莲歇斯底里地指责家明，并开始脱衣服。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "情人"
+            },
+            "trigger": {
+                "sender": "玛丽莲",
+                "content": "你喜欢怎么样？上我就够了，你为什么要碰她！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的拒绝者",
+                "inner_monologue": "I need to stop this; she's losing control.",
+                "external_action": "一伸手，家明推开了她，翻身坐在床边",
+                "speech_text": "别这样。",
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "家明否认碰过海蒂，但玛丽莲不相信。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "情人"
+            },
+            "trigger": {
+                "sender": "玛丽莲",
+                "content": "玛丽莲那绝望的目光没有变化，似乎又在等着家明的解释",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "决断的离开者",
+                "inner_monologue": "I have to leave; this situation is too messy.",
+                "external_action": "起身扣上了衣扣",
+                "speech_text": "不过那不重要了，海蒂……以后会跟你说的……",
+                "mood_state": "决断"
+            }
+        },
+        {
+            "scene_snapshot": "家明在客厅告诉玛丽莲他要离开。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "情人"
+            },
+            "trigger": {
+                "sender": "玛丽莲",
+                "content": "脚步声到了她的身边，停住",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "理性的告别者",
+                "inner_monologue": "I need to explain my departure clearly to avoid more pain.",
+                "external_action": "提着袋子站了起来",
+                "speech_text": "我想我是该走的时候了。海蒂是个好女孩，我没碰她，这是真话，你会知道的，不过问题不在这个，我想我得走了，已经到了离开的时间，再留下，事情就变得复杂了……",
+                "mood_state": "理性"
+            }
+        },
+        {
+            "scene_snapshot": "家明在黑暗中回望别墅，反思离开的原因。",
+            "interlocutor_info": {
+                "name": "海蒂",
+                "relationship_tag": "女儿般的存在"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "黑暗中，家明回过了头，望着不远处的那栋别墅。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "反思的决策者",
+                "inner_monologue": "I should have left earlier; staying would only cause more problems with Marylin and Heidi.",
+                "external_action": "回过了头，望着不远处的那栋别墅",
+                "speech_text": null,
+                "mood_state": "反思"
+            }
+        }
+    ]
+}

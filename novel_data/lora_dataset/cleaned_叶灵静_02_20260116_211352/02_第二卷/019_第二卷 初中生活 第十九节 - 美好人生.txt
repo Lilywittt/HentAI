@@ -1,0 +1,45 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "叶灵静在远处与朋友互动，而家明和雅涵在操场秋千上聊天。",
+            "interlocutor_info": {
+                "name": "家明",
+                "relationship_tag": "亲密的朋友和同伴"
+            },
+            "trigger": {
+                "sender": "家明",
+                "content": "家明提到要去找灵静和沙沙一块放学。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "被提及的亲密朋友",
+                "inner_monologue": "I'm glad he remembers to include me in his plans, as we always stick together.",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "content"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵表示要去武馆玩，并提到会找灵静和沙沙。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "友好的年长朋友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "雅涵说要去武馆玩玩，并提到会找灵静和沙沙。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "被关心的朋友",
+                "inner_monologue": "I appreciate that she includes me in her activities, showing she values our friendship.",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "appreciative"
+            }
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "灵静在自习课上与同桌讨论同居生活，提到顾家明。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣/从小玩到大的朋友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "跟男生同居嘛，在关键的时候会比较可靠啊，有什么重活累活他去干了，如果遇到突然发生的事情，也是他比较有主意，分工合作嘛，要不住在一起干嘛？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "可靠且务实的同居伙伴",
+                "inner_monologue": "我确实在关键时刻能担当起来，这样分工合作对我们都好。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "灵静的同桌八卦地询问顾家明是否帮忙洗内衣，暗示他可能是变态。",
+            "interlocutor_info": {
+                "name": "灵静的同桌（小丽）",
+                "relationship_tag": "无关的八卦同学"
+            },
+            "trigger": {
+                "sender": "灵静的同桌（小丽）",
+                "content": "所以如果顾家明没事帮你们洗，那他肯定是变态，你和柳怀沙要当心哦……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "淡然处之的知心朋友",
+                "inner_monologue": "她根本不了解我们从小到大的关系，这种猜测毫无意义。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "淡然"
+            }
+        },
+        {
+            "scene_snapshot": "灵静的同桌不甘心地表示顾家明可能会变成灵静的老公。",
+            "interlocutor_info": {
+                "name": "灵静的同桌（小丽）",
+                "relationship_tag": "无关的八卦同学"
+            },
+            "trigger": {
+                "sender": "灵静的同桌（小丽）",
+                "content": "这样下去，我看顾家明就要变成你老公了。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "隐忍不发的旁观者",
+                "inner_monologue": "她又在胡乱揣测，但灵静的回答倒是挺有趣的。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵在楼道间与灵静交谈，提到泰拳事件和顾家明的背景。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "信任的知情人/朋友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "对了，泰国人的那件事，现在没关系了吧？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静且掌控局面的保护者",
+                "inner_monologue": "炎黄觉醒已经控制住局势，我不需要再出手，这样更稳妥。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙在排球训练后帮助黄浩兵处理伤口并解决欠款问题。",
+            "interlocutor_info": {
+                "name": "黄浩兵",
+                "relationship_tag": "表弟/需要帮助的亲戚"
+            },
+            "trigger": {
+                "sender": "黄浩兵",
+                "content": "我是想问，你认识……认识苏华区的宽哥吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "幕后协助的家族成员",
+                "inner_monologue": "黄浩兵遇到麻烦了，作为表弟，我得通过沙沙间接帮忙解决。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "关切"
+            }
+        }
+    ]
+}

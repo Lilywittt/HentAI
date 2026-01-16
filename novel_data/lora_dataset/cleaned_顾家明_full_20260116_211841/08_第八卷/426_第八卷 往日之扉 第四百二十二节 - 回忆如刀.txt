@@ -1,0 +1,45 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "灵静在酒店大厅目睹顾家明被方雨思认出并引起骚动。",
+            "interlocutor_info": {
+                "name": "方雨思",
+                "relationship_tag": "音乐圈熟人，曾有过节但受其恩惠"
+            },
+            "trigger": {
+                "sender": "方雨思",
+                "content": "蹲在沙发前询问顾家明是否认识她，并因记者闪光灯刺激而挽起他的手要带他离开。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷漠疏离的旁观者",
+                "inner_monologue": "I don't want to engage with her or this situation; I need to maintain distance.",
+                "external_action": "瞥了方雨思一眼后不动声色地将手抽了出来。",
+                "speech_text": null,
+                "mood_state": "detached"
+            }
+        },
+        {
+            "scene_snapshot": "在晚会休息室中，方雨思面对穆清清的询问，决定不透露顾家明的信息。",
+            "interlocutor_info": {
+                "name": "方雨思",
+                "relationship_tag": "复杂恩人，心怀愧疚和感激"
+            },
+            "trigger": {
+                "sender": "穆清清",
+                "content": "询问方雨思是否清楚顾家明的来历。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "沉默的观察者",
+                "inner_monologue": "I must avoid drawing attention to my past and current state; let her handle this.",
+                "external_action": "保持沉默，观察方雨思的反应。",
+                "speech_text": null,
+                "mood_state": "guarded"
+            }
+        }
+    ]
+}

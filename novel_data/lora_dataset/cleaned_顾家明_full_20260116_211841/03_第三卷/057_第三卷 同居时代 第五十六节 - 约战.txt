@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "家明在教室角落睡觉时被吕放和月池薰的对话惊醒。",
+            "interlocutor_info": {
+                "name": "月池薰",
+                "relationship_tag": "麻烦的日本女子"
+            },
+            "trigger": {
+                "sender": "月池薰",
+                "content": "这位同学，请问你旁边的座位有人吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "礼貌的同学",
+                "inner_monologue": "早知道这女人这么麻烦，当初直接让她挂掉就好了……",
+                "external_action": "点了点头",
+                "speech_text": "没人，你可以尽管坐没关系。",
+                "mood_state": "厌烦"
+            }
+        },
+        {
+            "scene_snapshot": "韩刚成带人进入教室，拍桌子质问家明的名字。",
+            "interlocutor_info": {
+                "name": "韩刚成",
+                "relationship_tag": "挑衅的武术社成员"
+            },
+            "trigger": {
+                "sender": "韩刚成",
+                "content": "喂，那位小学弟，你叫什么名字？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "淡然的学生",
+                "inner_monologue": "这些人又来闹事了，真是没完没了。",
+                "external_action": "打了个哈欠",
+                "speech_text": "顾家明。",
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "韩刚成要求家明跟他们出去，东方婉和黄浩兵介入争吵。",
+            "interlocutor_info": {
+                "name": "韩刚成",
+                "relationship_tag": "咄咄逼人的对手"
+            },
+            "trigger": {
+                "sender": "韩刚成",
+                "content": "顾家明……跟我们出来一趟。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "旁观者",
+                "inner_monologue": "让他们吵吧，我懒得掺和。",
+                "external_action": "还没说话",
+                "speech_text": null,
+                "mood_state": "漠然"
+            }
+        },
+        {
+            "scene_snapshot": "黄浩兵走过来称赞家明打架厉害，询问是否在叶家武馆学的。",
+            "interlocutor_info": {
+                "name": "黄浩兵",
+                "relationship_tag": "曾经的欺负者，现在友好的表弟"
+            },
+            "trigger": {
+                "sender": "黄浩兵",
+                "content": "哈哈，我还以为是谁打的人呢，表哥，你可真厉害，是在叶家的武馆学的吗，这个暑假我也要去学。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "谦虚的表哥",
+                "inner_monologue": "这小子倒是挺热情，不过事情没那么简单。",
+                "external_action": "叹了口气",
+                "speech_text": "误打误撞而已，他们仗着人多欺负人，我顶多就是存心掰过他手指……",
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "黄浩兵小声建议让灵静或沙沙代替家明打架。",
+            "interlocutor_info": {
+                "name": "黄浩兵",
+                "relationship_tag": "关心但多事的亲戚"
+            },
+            "trigger": {
+                "sender": "黄浩兵",
+                "content": "家明你打架怎么样？呃……如果没把握就让叶灵静上吧，要不然那个柳怀沙也好，她们一个得过武术奖杯，一个家里混黑道，反正吕放这帮人也没说非得谁上，你们三个谁都可以。嘿嘿，一定要打赢啊！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "不置可否的当事人",
+                "inner_monologue": "他倒是想得挺周到，但这事我自己会处理。",
+                "external_action": "撇了撇嘴",
+                "speech_text": null,
+                "mood_state": "不屑"
+            }
+        },
+        {
+            "scene_snapshot": "张雅涵进入教室，冷冷地叫家明跟她出去。",
+            "interlocutor_info": {
+                "name": "张雅涵",
+                "relationship_tag": "严厉的老师"
+            },
+            "trigger": {
+                "sender": "张雅涵",
+                "content": "顾家明同学，请跟我出来。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "顺从的学生",
+                "inner_monologue": "又来了，今天真是麻烦不断。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "烦躁"
+            }
+        }
+    ]
+}

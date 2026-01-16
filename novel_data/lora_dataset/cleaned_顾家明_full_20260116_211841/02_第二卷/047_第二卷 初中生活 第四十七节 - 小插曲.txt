@@ -1,0 +1,216 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "雅涵提出私奔，家明在房间里与她争论逃跑计划。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "朋友/需要帮助的人"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "“私奔？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "务实且不耐烦的帮手",
+                "inner_monologue": "我真是服了，她怎么这么不靠谱，私奔这种词都说得出来，我得赶紧纠正她，别把事情搞复杂了。",
+                "external_action": "将嘴巴张成“O”型，撇了撇嘴，叹一口气",
+                "speech_text": "“那你也别说私奔啊，私奔是奸夫淫妇做的事情，你要开溜，又不是我的原因，你快点换衣服……”",
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵换好泳装，家明对她的选择感到惊讶并提议爬墙。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "朋友/需要帮助的人"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "“泳装！？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "果断的策划者",
+                "inner_monologue": "她居然想游泳？太慢了，爬墙才是最快的方法，我得说服她，虽然她恐高，但没时间犹豫了。",
+                "external_action": "无奈地望着她",
+                "speech_text": "“当然是我带你爬出去！”",
+                "mood_state": "急躁"
+            }
+        },
+        {
+            "scene_snapshot": "家明用毛笔刷黑雅涵的运动服，雅涵试图阻止并解释日记的重要性。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "朋友/需要帮助的人"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "“哇，你干嘛，这是我最喜欢的衣服……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "务实的行动者",
+                "inner_monologue": "白色在黑暗中太显眼了，必须刷黑，她还在乎衣服，真是分不清轻重，日记什么的更没必要带。",
+                "external_action": "拿着毛笔像刷子一样的往她衣服上刷",
+                "speech_text": "“我管你喜不喜欢，白色的都得刷黑，你脑袋秀逗啦？带钱就好了，日记还带走干嘛？你床上的枕头需不需要带走？”",
+                "mood_state": "不耐烦"
+            }
+        },
+        {
+            "scene_snapshot": "家明询问雅涵关于床上女人的身份，雅涵解释是后妈。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "朋友/需要帮助的人"
+            },
+            "trigger": {
+                "sender": "家明",
+                "content": "“床上那个是你老爸的二奶？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "好奇的闲聊者",
+                "inner_monologue": "随便问问，了解下情况，反正现在等着她刷衣服，打发时间。",
+                "external_action": "坐到旁边翻她日记",
+                "speech_text": null,
+                "mood_state": "随意"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵害怕爬墙，家明命令她站到栏杆上并准备用毛巾堵嘴。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "朋友/需要帮助的人"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "“我看……我们还是游泳吧……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "严厉的指挥者",
+                "inner_monologue": "她太胆小了，必须强硬点，用毛巾防止她尖叫，时间紧迫，不能再拖了。",
+                "external_action": "从房间里找出一块毛巾",
+                "speech_text": "“叫你站你就站！我当然有办法，唉，等等。用这个把嘴堵上，可以让你不叫出来……放心啦，我保证你没事。现在时间紧张，你快点，难道要等到保镖过来你才上去吗？”",
+                "mood_state": "紧迫"
+            }
+        },
+        {
+            "scene_snapshot": "家明开玩笑说要绑起雅涵，雅涵愤怒地踢他。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "朋友/需要帮助的人"
+            },
+            "trigger": {
+                "sender": "家明",
+                "content": "“你现在真像是录像带里的那个女孩子……嗯，干脆，为了避免你乱动，我把你绑起来吧。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "戏谑的调侃者",
+                "inner_monologue": "开个玩笑缓解下紧张气氛，顺便激她一下，让她别那么害怕。",
+                "external_action": "看了她两眼，笑道",
+                "speech_text": null,
+                "mood_state": "戏谑"
+            }
+        },
+        {
+            "scene_snapshot": "家明扛着雅涵从窗台荡下，安全落地后催促她快走。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "朋友/需要帮助的人"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "雅涵瘫坐在地上望着那水池",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "高效的执行者",
+                "inner_monologue": "成功了，得赶紧离开这里，别让她发呆浪费时间。",
+                "external_action": "收好了绳索，在她的头上狠狠一拍",
+                "speech_text": "“快走啦。”",
+                "mood_state": "急切"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵叽叽喳喳提问，家明忍无可忍拍她额头。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "朋友/需要帮助的人"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "“家明，你怎么会有那么大的力气的……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "烦躁的同伴",
+                "inner_monologue": "她怎么这么多问题，吵死了，现在不是聊天的时候，得让她闭嘴。",
+                "external_action": "回过头来在她的额头上重重地一拍",
+                "speech_text": "“你闭嘴——”",
+                "mood_state": "恼怒"
+            }
+        },
+        {
+            "scene_snapshot": "家明和雅涵躲在花丛中偷听两个保镖的私密对话，感到尴尬。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "朋友/需要帮助的人"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "两个保镖说情话并移动向花圃",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "尴尬的旁观者",
+                "inner_monologue": "这太恶心了，没想到会碰到这种事，得想办法赶紧离开，别被发现了。",
+                "external_action": "与雅涵对望了一眼，都是脸色发青",
+                "speech_text": null,
+                "mood_state": "厌恶"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵忍不住站出来指责保镖，家明迅速击倒他们。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "朋友/需要帮助的人"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "“想不到你们两个居然是同性恋！”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "果断的行动者",
+                "inner_monologue": "她太冲动了，暴露了我们，我得立刻解决这两个保镖，避免麻烦。",
+                "external_action": "一条黑影以迅雷不及掩耳之势冲出，将两人的头狠狠地撞在了一起",
+                "speech_text": null,
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "家明处理完保镖后，吐槽同性恋话题并想起灵静和沙沙。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "朋友/需要帮助的人"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "雅涵望了望这两人，也觉得浑身上下鸡皮疙瘩不断掉",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "反思的评论者",
+                "inner_monologue": "这件事让我想起灵静和沙沙，她们就好多了，这种场景真让人不舒服。",
+                "external_action": "将两人拖进矮树丛深处，白了雅涵一眼",
+                "speech_text": "“现在别在我耳边耶耶耶的说话，我觉得恶心！以前听一个超级变态的贱人说过，同性恋不可耻，可耻的是同性恋不美型，现在我终于感受到这句话的意义了。”",
+                "mood_state": "反感"
+            }
+        }
+    ]
+}

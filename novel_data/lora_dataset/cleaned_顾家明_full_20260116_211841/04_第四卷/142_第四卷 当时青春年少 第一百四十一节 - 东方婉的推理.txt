@@ -1,0 +1,178 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在超市购物时被东方婉持续骚扰和质问。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "烦人的纠缠者"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "用手指戳了戳推车中的那块牛肉，看起来一点也不鲜艳，会不会是上个月的了？嘻嘻……你干嘛这样看着我，爱上我了？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "不耐烦的购物者",
+                "inner_monologue": "她真是没完没了，我得想办法摆脱她。",
+                "external_action": "惫懒地收回放在东方婉身上的目光，叹了口气",
+                "speech_text": "你很闲吗，哪凉快哪待着去，别跟在我后面。",
+                "mood_state": "厌烦"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉继续跟着顾家明并评论他的购物选择。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "烦人的纠缠者"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "味精？你们家里没味精了吗……我觉得那个牌子的方便面比较好哦，买面条好麻烦的，还得自己煮……喂喂喂，顾家明，我觉得你真的像个家庭主男……干嘛不跟我说话……干嘛这么看着我，爱上我了？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷漠的回应者",
+                "inner_monologue": "她又在胡言乱语，我得保持距离。",
+                "external_action": "回过头盯了她一阵，随后露出一个笑容",
+                "speech_text": "我猜你凉快够了。",
+                "mood_state": "戏谑"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉否认跟踪顾家明并炫耀自己的超市股份。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "烦人的纠缠者"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "喂，顾家明，你别血口喷人，我哪有跟着你，超市这么大，走到哪里都是我个人的自由吧，这个超市是你的吗？不过正好相反哦，我家里有这家超市百分之十五的股份，我有这张刷不完的贵宾卡哦，要不要借给你用……就是不借。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "直率的批评者",
+                "inner_monologue": "她太自以为是了，我得点醒她。",
+                "external_action": null,
+                "speech_text": "我觉得你最近脑子有些进水。",
+                "mood_state": "讽刺"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉表达对顾家明与灵静、沙沙关系的羡慕和质疑。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "烦人的纠缠者"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "喂，顾家明，你跟叶灵静和柳怀沙同居，以前每隔一天旷课一次，就是为了买菜回家煮饭吗？听说你们是从小到大的好朋友，感情好到像家人一样，是吗？老实说，我很羡慕你们呢，能将朋友做到这种程度……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "插话的旁观者",
+                "inner_monologue": "她又在打探我的私事，我得打断她。",
+                "external_action": "拿起一盒饼干放进推车里，插了一句嘴",
+                "speech_text": "我猜他们一定很乐意听到你现在的这句评价。",
+                "mood_state": "调侃"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉暗示顾家明应该放开灵静和素言，让她哥追求灵静。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "烦人的纠缠者"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "可是我喜欢一个人，就希望她能过得很好！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "暧昧的回应者",
+                "inner_monologue": "她这是在暗示什么？我得逗逗她。",
+                "external_action": null,
+                "speech_text": "你想暗示什么？你喜欢我？",
+                "mood_state": "戏弄"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉详细分析顾家明与灵静、沙沙、素言的关系，认为他在说谎。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "烦人的纠缠者"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "就是你同时做两个女孩子的护花使者。你为叶灵静赶跑我哥和其他追求者，同时又为了柳怀沙而打比赛，弄得别人无地自容，你可别告诉我两个女孩子都喜欢你，一个是你的大老婆一个是你的小老婆。而且……你甚至还跟素言姐有那种关系，素言姐那样的人怎么会容许这样的事情，所以说……你的一切谎言，统统前言不对后语，我一句都不会信的！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "无奈的听众",
+                "inner_monologue": "她太自以为是了，懒得解释。",
+                "external_action": "望了她半晌，笑着摇了摇头",
+                "speech_text": "……你太有才了。",
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明被东方婉的持续警告激怒，将她推到货物架上并假装表白。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "烦人的纠缠者"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "喂，顾家明，你别以为你不说话就好，告诉你，我哥不会认输的，只有他跟叶灵静是最般配的一对了。还有素言姐，她一定不会喜欢你的，你放开她吧。嗯，还有你演出的节目，名字总要告诉我吧，你不许乱来啊，要是像那次比武一样，我警告……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "强势的操控者",
+                "inner_monologue": "她太烦人了，得用点手段让她闭嘴。",
+                "external_action": "呼的转过脸来，砰的一下将东方婉的身体推在了旁边的货物陈列架上，在对方颈部动脉上轻轻一按",
+                "speech_text": "我爱你。其实叶灵静也好，柳怀沙也好，简素言也好，我都不喜欢，从第一眼见到你开始，我就已经深深的爱上你了，跟你做对是为了故意引起你的注意，来，让我们从现在就开始这段感情吧……",
+                "mood_state": "戏谑"
+            }
+        },
+        {
+            "scene_snapshot": "一个外国小女孩因看到顾家明与东方婉的互动而生气，用布偶攻击他。",
+            "interlocutor_info": {
+                "name": "外国小女孩",
+                "relationship_tag": "意外的干扰者"
+            },
+            "trigger": {
+                "sender": "外国小女孩",
+                "content": "顾家明！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "敏捷的防御者",
+                "inner_monologue": "这又是谁？我得应付这个突然的袭击。",
+                "external_action": "猛地转身用左手抓住这个大暗器，右手伸出，抓住另一个布偶",
+                "speech_text": null,
+                "mood_state": "警觉"
+            }
+        },
+        {
+            "scene_snapshot": "外国小女孩扑到顾家明身上哭闹，指责他跟别的女孩子接吻。",
+            "interlocutor_info": {
+                "name": "外国小女孩",
+                "relationship_tag": "意外的干扰者"
+            },
+            "trigger": {
+                "sender": "外国小女孩",
+                "content": "你坏、你坏，我不要喜欢你了，我说过将来要嫁给你的，你竟然敢跟别的女孩子接吻，打死你、打死你……哇……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "被动的承受者",
+                "inner_monologue": "这小女孩怎么回事？我得处理这个混乱场面。",
+                "external_action": "顺势跌倒在地，隔了一个布偶趴在他身上的小女孩抬起小手在家明的胸口、肩膀上拼命拍打着",
+                "speech_text": null,
+                "mood_state": "困惑"
+            }
+        }
+    ]
+}

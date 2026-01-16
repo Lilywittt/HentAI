@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在戴高乐机场与纳塔丽告别，讨论凯莉和异能相关话题。",
+            "interlocutor_info": {
+                "name": "纳塔丽",
+                "relationship_tag": "异能界熟人，带有复杂过往的友人"
+            },
+            "trigger": {
+                "sender": "纳塔丽",
+                "content": "凯莉不来，所以就我来送送你。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "礼貌而疏离的旅人",
+                "inner_monologue": "I need to keep this brief and avoid deeper emotional entanglements.",
+                "external_action": "点头",
+                "speech_text": "呵，昨天说好了不用送的。",
+                "mood_state": "resigned"
+            }
+        },
+        {
+            "scene_snapshot": "纳塔丽询问顾家明是否对她有内疚感，涉及梦境和过往。",
+            "interlocutor_info": {
+                "name": "纳塔丽",
+                "relationship_tag": "异能界熟人，带有复杂过往的友人"
+            },
+            "trigger": {
+                "sender": "纳塔丽",
+                "content": "你对我有内疚？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "坦诚但保留的对话者",
+                "inner_monologue": "I can't explain the full truth, but I owe her this honesty.",
+                "external_action": "想了一会儿，点头",
+                "speech_text": "……有。",
+                "mood_state": "reflective"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明与东方婉和许毅婷汇合，讨论纳塔丽和同学关系。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "同学，普通朋友"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "应子岚和雷庆他们想见纳塔丽小姐结果一次都没见到，你们居然像朋友一样一块玩了四五天，如果让他们知道，估计会被气死。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "随和的同学",
+                "inner_monologue": "I just want to avoid more drama and keep things simple.",
+                "external_action": null,
+                "speech_text": "嗯嗯，还好他们不知道，否则大家又结下梁子了……",
+                "mood_state": "relieved"
+            }
+        },
+        {
+            "scene_snapshot": "灵静向雅涵咨询未来职业选择，涉及顾家明和三人关系。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密友人，略带依赖的姐姐"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "钢琴吧，我觉得你还是学钢琴。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "旁观者，间接涉及",
+                "inner_monologue": "I hope she chooses what makes her happy, but I don't want to pressure her.",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "concerned"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙宣布想搬出去，引发家庭紧张气氛。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密伴侣，陷入冲突的家人"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "我想……搬出去……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "和事佬，试图维持和谐",
+                "inner_monologue": "This is getting out of hand; I need to find a way to mediate before things break apart.",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "anxious"
+            }
+        }
+    ]
+}

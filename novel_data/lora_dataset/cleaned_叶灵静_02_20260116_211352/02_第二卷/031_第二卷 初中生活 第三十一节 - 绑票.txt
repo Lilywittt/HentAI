@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "叶灵静在叶家为沙沙庆祝生日，家明开玩笑说有两个童养媳。",
+            "interlocutor_info": {
+                "name": "家明",
+                "relationship_tag": "亲密好友"
+            },
+            "trigger": {
+                "sender": "家明",
+                "content": "“呃，那我不就有两个童养媳了？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "害羞的少女",
+                "inner_monologue": "家明怎么突然说这种话，好丢脸啊，爸爸妈妈还在笑呢。",
+                "external_action": "轻啐一声，红着脸使劲打他",
+                "speech_text": null,
+                "mood_state": "羞涩"
+            }
+        },
+        {
+            "scene_snapshot": "叶灵静在学校帮忙老师分类资料，家明和沙沙在校外被绑架。",
+            "interlocutor_info": {
+                "name": "家明",
+                "relationship_tag": "亲密好友"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "家明和沙沙被绑架，叶灵静不在场但事件与她相关。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "担忧的朋友",
+                "inner_monologue": "家明和沙沙怎么还没回来？希望他们没事，我得赶紧去找他们。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "焦虑"
+            }
+        },
+        {
+            "scene_snapshot": "曹东峰在绑架现场询问叶灵静的下落，表达对她的执念。",
+            "interlocutor_info": {
+                "name": "曹东峰",
+                "relationship_tag": "讨厌的追求者"
+            },
+            "trigger": {
+                "sender": "曹东峰",
+                "content": "“是啊，叶灵静呢，你们怎么没把她也抓来？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "被骚扰的对象",
+                "inner_monologue": "曹东峰这个讨厌鬼，居然还想绑架我，真恶心，希望家明和沙沙能安全。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "厌恶"
+            }
+        }
+    ]
+}

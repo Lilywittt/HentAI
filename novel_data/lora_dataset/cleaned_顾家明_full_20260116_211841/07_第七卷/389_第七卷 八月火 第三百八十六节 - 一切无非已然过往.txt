@@ -1,0 +1,216 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "高考前十天，老师在课堂上强调复习要点，顾家明在睡觉，被东方婉拍桌子叫醒。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "同学兼前老板"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "啪啪的拍家明的桌子",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "慵懒散漫的学生",
+                "inner_monologue": "我正睡得香呢，她吵什么。",
+                "external_action": "揉揉眼睛，坐起来",
+                "speech_text": "唔，怎么了？",
+                "mood_state": "困倦"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉询问顾家明大学是否去北京，并调侃他的高考态度。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "同学兼前老板"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "哇，这位老大，用这种态度迎接高考的，你还真是厉害。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "不耐烦的对话者",
+                "inner_monologue": "她又在说废话，赶紧说正事。",
+                "external_action": null,
+                "speech_text": "有屁快放。",
+                "mood_state": "不耐烦"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉确认顾家明去北京的原因，并提到自己也要去。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "同学兼前老板"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "好吧，我从灵静沙沙那边问过了，你大学真的去北京？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "直率的解释者",
+                "inner_monologue": "她早就知道答案了，还来问，真麻烦。",
+                "external_action": null,
+                "speech_text": "志愿是要填那边没错，因为灵静要上中央艺术学院，我和沙沙是陪读……我知道你也要去那里，不过要老乡见老乡也等到大家去了北京再说吧，现在来这套是不是早了点……算了，如果你喜欢，给个肩膀让你抱着哭好了。",
+                "mood_state": "调侃"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉告诉顾家明他被玩具厂解雇，并提到遣散费。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "同学兼前老板"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "对了，我过来是要正式地告诉你，你被解雇了。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "漫不经心的前员工",
+                "inner_monologue": "解雇？我差点都忘了还有这份工作。",
+                "external_action": null,
+                "speech_text": "什么解雇？",
+                "mood_state": "困惑"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉解释解雇原因和遣散费，并邀请顾家明未来合作。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "同学兼前老板"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "我那个小玩具厂啊，你知道，这两年办得还不错。我们又要考试，准备去北京了。家里人通过了验收。给了我一大笔钱，反正接下来就不是我的事了，至于你的遣散费呢……到北京再给你。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "轻松接受者",
+                "inner_monologue": "原来还有遣散费，这倒是个意外。",
+                "external_action": null,
+                "speech_text": "喔，原来还有遣散费啊……老实说，你不提我都快忘记自己在玩具厂还有份工作了……",
+                "mood_state": "淡然"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉批评顾家明缺乏责任感，并展望未来合作。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "同学兼前老板"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "你也知道自己很没有责任感啊？也只有我这样宽宏大量的老板才能容忍你地工作态度了。反正呢。我到了北京之后还会有事情做的，毅婷也一块过去，我现在手上有一大笔地启动资金，到时候做大一点。到时候过来帮我就行啦，我地运筹帷幄，你的聪明才智加上毅婷的任劳任怨，我对未来很有信心！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "戏谑的评论者",
+                "inner_monologue": "她又在画大饼了，毅婷真是可怜。",
+                "external_action": null,
+                "speech_text": "咳，怎么听都像是毅婷一个人被剥削的悲惨未来，这样子对自己地好姐妹你不会感到内疚吗？",
+                "mood_state": "戏谑"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉邀请顾家明参加暑假最后一次集体旅游。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "同学兼前老板"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "对了。暑假最后一次集体旅游。想好了去桂林，你要去吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "直接拒绝者",
+                "inner_monologue": "没兴趣去旅游，懒得应付。",
+                "external_action": null,
+                "speech_text": "没兴趣。",
+                "mood_state": "冷淡"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉坚持邀请，顾家明再次拒绝。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "同学兼前老板"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "喂喂。最后一次旅游了好不好，这个面子都不给？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "坚定拒绝者",
+                "inner_monologue": "谁的面子我都不给，别烦我了。",
+                "external_action": null,
+                "speech_text": "谁的面子都不给。",
+                "mood_state": "坚决"
+            }
+        },
+        {
+            "scene_snapshot": "高考后，顾家明和灵静、沙沙送别薰，薰准备回日本。",
+            "interlocutor_info": {
+                "name": "薰",
+                "relationship_tag": "亲密的朋友"
+            },
+            "trigger": {
+                "sender": "薰",
+                "content": "目光扫过后方笑着的家明，少女微微地摇了摇头：\"志愿不用我填了，不过，说不定将来可以在北京再见呢。\"",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "温暖的朋友",
+                "inner_monologue": "她要走了，得好好道别。",
+                "external_action": "笑着抱住她，在她背上拍了几下",
+                "speech_text": "一路顺风。",
+                "mood_state": "温和"
+            }
+        },
+        {
+            "scene_snapshot": "薰用日语小声对顾家明说会在东京等他，并鞠躬告别。",
+            "interlocutor_info": {
+                "name": "薰",
+                "relationship_tag": "亲密的朋友"
+            },
+            "trigger": {
+                "sender": "薰",
+                "content": "用日语小声地说了一句，她向家明郑重地鞠了一躬",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "接受告别的朋友",
+                "inner_monologue": "她这么郑重，我会记住的。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "郑重"
+            }
+        },
+        {
+            "scene_snapshot": "回到出租房，灵静表达对薰离开的伤感，顾家明安慰她。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密的女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "那不知道还能不能在北京再见到她了……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "乐观的安慰者",
+                "inner_monologue": "灵静又在伤感了，得让她放宽心。",
+                "external_action": "笑笑",
+                "speech_text": "来日方长，总能见到的。就算不在北京，以后大家出社会了，总也有见面机会的，再说如果想见，以后也许可以去日本旅游啊什么的，到时候大可以请她当导游嘛，没必要这么伤感好吧。",
+                "mood_state": "安慰"
+            }
+        }
+    ]
+}

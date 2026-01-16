@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明潜入张雅涵的房间，准备展示刘文理的丑闻录像带以帮助她逃避订婚。",
+            "interlocutor_info": {
+                "name": "张雅涵",
+                "relationship_tag": "需要帮助的朋友"
+            },
+            "trigger": {
+                "sender": "张雅涵",
+                "content": "从浴室赤裸跑出，发现家明后惊慌失措地躲回浴室，随后裹着浴巾出来质问。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的帮手",
+                "inner_monologue": "我得先稳住她，别让她喊出来坏了计划，这意外情况真麻烦。",
+                "external_action": "竖起手指做噤声动作，随后关好玻璃门，坐在书桌旁乱翻东西。",
+                "speech_text": "呃，先别发火，我可以解释的。谁知道你会不穿衣服从里面跑出来，你至少该像现在这样把自己围上啊……",
+                "mood_state": "amused"
+            }
+        },
+        {
+            "scene_snapshot": "张雅涵裹着毯子坐在床上，追问家明如何找到刘文理的把柄。",
+            "interlocutor_info": {
+                "name": "张雅涵",
+                "relationship_tag": "好奇的求助者"
+            },
+            "trigger": {
+                "sender": "张雅涵",
+                "content": "压低声音质问家明如何潜入，并兴奋地询问找到了刘文理的什么东西。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "神秘的协助者",
+                "inner_monologue": "她这么兴奋，看来很信任我，但得小心别暴露太多自己的底细。",
+                "external_action": "从怀中拿出录像带晃动，指向电视和录像机，随后关灯操作设备。",
+                "speech_text": "我只会一点点东西好不好，厉害的是我的老师，他帮我找出你这间别墅的结构图，找出到你这间房的办法，还找出了刘文理的一大堆乱七八糟的东西……我只是比较会爬墙而已",
+                "mood_state": "playful"
+            }
+        },
+        {
+            "scene_snapshot": "两人在床上观看录像带，发现内容是刘文理的SM丑闻。",
+            "interlocutor_info": {
+                "name": "张雅涵",
+                "relationship_tag": "尴尬的旁观者"
+            },
+            "trigger": {
+                "sender": "张雅涵",
+                "content": "认出录像中的刘文理后，抢过遥控器关掉电视，不许家明再看。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "务实的策划者",
+                "inner_monologue": "她反应这么大，看来这录像带确实有效，得赶紧说明计划。",
+                "external_action": "被抢遥控器后做出简单的BS表情，轻声说话。",
+                "speech_text": "切。反正呢，你们这么大的一家子，家里应该有投影设备之类的东西吧，这本带子你如果私下里放给家里人看，为了家族的生意，多半也是会被他们无视掉的，但是你得想办法在后天晚上的订婚宴上放给所有人看，然后呢，这里还有两本东西，记录着刘文理参与家族企业后做的几笔烂账，这样一来……",
+                "mood_state": "focused"
+            }
+        },
+        {
+            "scene_snapshot": "张雅涵的小妈突然敲门进入房间，家明被迫躲藏。",
+            "interlocutor_info": {
+                "name": "张雅涵",
+                "relationship_tag": "慌张的掩护者"
+            },
+            "trigger": {
+                "sender": "张雅涵",
+                "content": "听到钥匙开门声，一把抓住家明，用毯子将他压在身下躲藏。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "被迫的隐藏者",
+                "inner_monologue": "她这反应太乱了，本来可以躲到床下或跑出去，现在这样更危险。",
+                "external_action": "被压住后蜷缩身体，抱住张雅涵的大腿，额头紧贴腿根。",
+                "speech_text": "哎呀，你干嘛，你快压死我了……我得躲到床下，跑出去不也一样吗……唔，你想压死我啊……",
+                "mood_state": "frustrated"
+            }
+        }
+    ]
+}

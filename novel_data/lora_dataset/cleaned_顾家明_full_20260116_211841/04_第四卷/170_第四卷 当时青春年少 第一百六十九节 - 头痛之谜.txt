@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在黑暗中用枪指着东方若的眉心，试探她的异能反应。",
+            "interlocutor_info": {
+                "name": "东方若",
+                "relationship_tag": "需要评估的异能者"
+            },
+            "trigger": {
+                "sender": "顾家明",
+                "content": "用枪指着东方若的眉心",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的试探者",
+                "inner_monologue": "我等待她用异能反击，以验证头痛现象是否再次出现。",
+                "external_action": "枪口指着东方若的眉心，等待了十多分钟",
+                "speech_text": null,
+                "mood_state": "警惕"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明观察到东方若没有反击，判断她缺乏专业训练。",
+            "interlocutor_info": {
+                "name": "东方若",
+                "relationship_tag": "没有经验的菜鸟"
+            },
+            "trigger": {
+                "sender": "东方若",
+                "content": "苦苦压抑呼吸，不敢做出多余动作",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "分析者",
+                "inner_monologue": "她虽然拥有异能，但显然是个没有经受过专业训练的菜鸟。",
+                "external_action": "皱了皱眉，缓缓收回了枪口",
+                "speech_text": null,
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明离开后，东方若在房间里恐慌地呼吸并按下应急按钮。",
+            "interlocutor_info": {
+                "name": "东方若",
+                "relationship_tag": "恐惧的目标"
+            },
+            "trigger": {
+                "sender": "东方若",
+                "content": "试探着张开嘴吐气，捂住胸口急促呼吸",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "观察者",
+                "inner_monologue": "我留下的炸弹应该能起到警告作用，让他们停止调查。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "算计"
+            }
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "叶灵静在维也纳的公寓里醒来，回忆过去与顾家明和沙沙的亲密时光，感到悲伤和孤独。",
+            "interlocutor_info": {
+                "name": "叶灵静",
+                "relationship_tag": "前女友"
+            },
+            "trigger": {
+                "sender": "叶灵静",
+                "content": "回忆梦境和过去与顾家明、沙沙的亲密互动，包括亲吻、同床、吃棉花糖等细节。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "反思者",
+                "inner_monologue": "我梦见和家明、沙沙的童年时光，那些亲密无间的日子现在只带来悲伤，我还在坚持希望分手有特殊原因，否则一切美好都会崩塌。",
+                "external_action": "醒来后望着天花板，感到鼻头酸楚，身体保持记忆，伤感顽固。",
+                "speech_text": null,
+                "mood_state": "悲伤"
+            }
+        },
+        {
+            "scene_snapshot": "叶灵静接到导师朱利安的拜访，讨论新年聚会和未来职业发展计划。",
+            "interlocutor_info": {
+                "name": "朱利安",
+                "relationship_tag": "导师"
+            },
+            "trigger": {
+                "sender": "朱利安",
+                "content": "敲门并邀请叶灵静参加中国餐馆的新年聚会，随后提出职业发展计划，希望她留在欧洲发展。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "礼貌的拒绝者",
+                "inner_monologue": "朱利安老师又来关心我，但我不想参加社交活动，我只想完成学业后回江海找家明，他的计划虽好，但不符合我的目标。",
+                "external_action": "开门后穿好衣服、洗脸、整理头发，然后与朱利安交谈，拒绝聚会并犹豫接受文件。",
+                "speech_text": "抱歉。",
+                "mood_state": "疏离"
+            }
+        },
+        {
+            "scene_snapshot": "朱利安离开后，叶灵静独自在房间翻看相册，回忆与顾家明的婚纱照，感到落寞。",
+            "interlocutor_info": {
+                "name": "叶灵静",
+                "relationship_tag": "前女友"
+            },
+            "trigger": {
+                "sender": "叶灵静",
+                "content": "翻看相册中的婚纱照，回忆过去与顾家明的幸福时光。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "怀旧者",
+                "inner_monologue": "我看着这些照片，家明和沙沙的笑容让我心痛，我坚持希望有一天能回去质问他，但现在只能独自承受这份孤独。",
+                "external_action": "将相册捂在膝盖上，久久不放开，坐在床沿落寞。",
+                "speech_text": null,
+                "mood_state": "落寞"
+            }
+        }
+    ]
+}

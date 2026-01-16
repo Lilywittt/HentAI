@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "游轮突然断电，顾家明与沙沙、雅涵、灵静在黑暗中拥抱后，被三女追打。",
+            "interlocutor_info": {
+                "name": "沙沙、雅涵、灵静",
+                "relationship_tag": "亲密的朋友/同伴"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "游轮突然断电，黑暗降临。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "轻松幽默的同伴",
+                "inner_monologue": "我心想果然每个女人心中都有一朵百合花……",
+                "external_action": "被三女追打不停。",
+                "speech_text": "救命啊，我是无辜的，纯粹是巧合……巧合啊……",
+                "mood_state": "amused"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在甲板上被三女追打时，看到礼花和警卫匆忙的身影。",
+            "interlocutor_info": {
+                "name": "环境",
+                "relationship_tag": "观察对象"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "礼花升空，警卫匆忙行动。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "警觉的观察者",
+                "inner_monologue": "我心中一叹，看来自己猜得没错，源赖朝创，是真的上船了。",
+                "external_action": "在粉拳的包围之下望着一些警卫匆忙的身影。",
+                "speech_text": null,
+                "mood_state": "concerned"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在游轮二号机房中秘密行动，发现一个黑色盒子。",
+            "interlocutor_info": {
+                "name": "环境",
+                "relationship_tag": "任务目标"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "发现灯罩下的黑色盒子。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "隐秘的行动者",
+                "inner_monologue": "果然……",
+                "external_action": "身体快速地跳了上去，带着薄膜手套的右手中拿着一把小螺丝刀，起出两颗螺丝之后，灯罩下拉开了一个口子，向着里面一望。",
+                "speech_text": null,
+                "mood_state": "focused"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明正要拆黑色盒子时，感知到纳塔丽·安妮斯的接近。",
+            "interlocutor_info": {
+                "name": "纳塔丽·安妮斯",
+                "relationship_tag": "潜在的威胁/对手"
+            },
+            "trigger": {
+                "sender": "纳塔丽·安妮斯",
+                "content": "无声而来，注意到打开的灯罩。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "警觉的防御者",
+                "inner_monologue": "心中警兆忽生。",
+                "external_action": "从口袋里拿出一张纸条，跟螺丝刀一块放在了灯罩上，随后，他的身形消失在角落里。",
+                "speech_text": null,
+                "mood_state": "alert"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明释放杀意警告纳塔丽·安妮斯不要插手。",
+            "interlocutor_info": {
+                "name": "纳塔丽·安妮斯",
+                "relationship_tag": "潜在的威胁/对手"
+            },
+            "trigger": {
+                "sender": "纳塔丽·安妮斯",
+                "content": "正要看看灯罩里有什么，才跨出一步。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "强大的威慑者",
+                "inner_monologue": "我警告她：这件事跟你无关，退！",
+                "external_action": "释放一股凌厉的杀意。",
+                "speech_text": null,
+                "mood_state": "intimidating"
+            }
+        }
+    ]
+}

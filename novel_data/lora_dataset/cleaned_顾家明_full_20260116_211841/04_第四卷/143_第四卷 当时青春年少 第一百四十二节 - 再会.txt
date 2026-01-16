@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在咖啡厅与玛丽莲和海蒂重逢，谈论近况和未来计划。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "旧识，有情感羁绊的成熟女性"
+            },
+            "trigger": {
+                "sender": "玛丽莲",
+                "content": "刚刚到这里不久，时差还没能调整过来，本来想先休息，明天好好打扮下再去找你的，没想到这样遇上了。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静、掌控局面的观察者",
+                "inner_monologue": "我早就知道她们的行程，FBI的档案让我对她们了如指掌，但没必要让她太紧张。",
+                "external_action": "喝了一口鲜橙汁，随口说出她们的行程",
+                "speech_text": "按照我们这里的时间，你们应该是昨天晚上七点多的机票，上午先到北京，然后转机过来，订了华景大酒店的贵宾房。这次过来，是跟着那位约瑟夫先生过来的吧。",
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明抚摸海蒂的头发，引发海蒂的不满和抗议。",
+            "interlocutor_info": {
+                "name": "海蒂",
+                "relationship_tag": "调皮、亲近的小女孩"
+            },
+            "trigger": {
+                "sender": "顾家明",
+                "content": "伸手抚摸正在一旁闷头吃冰激凌的海蒂",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "戏谑、逗弄的兄长角色",
+                "inner_monologue": "这小家伙还是这么可爱，故意逗她生气也挺有趣的。",
+                "external_action": "手掌依旧很不识趣地停留在那颗努力想要摆脱他的小脑袋上，摸够了小女孩的头发，又可恶地在她粉嫩的脸颊上拍了拍，捏一下才肯放开",
+                "speech_text": null,
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "玛丽莲表达对顾家明的思念和承诺，并询问如何联系他。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "旧识，有情感羁绊的成熟女性"
+            },
+            "trigger": {
+                "sender": "玛丽莲",
+                "content": "这两年为了不引起别人的怀疑，我们都不知道你在干什么，也不知道你现在住在哪儿。顾，我们该怎么找到你呢？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "体贴、负责的友人",
+                "inner_monologue": "她们现在身份敏感，不能随便暴露我的住处，但明天见面应该没问题。",
+                "external_action": "看了看时间，也是一笑",
+                "speech_text": "那可不行，而且现在时间晚了，我也该回去了，这样吧，今晚好好睡一觉，明天我过去找你们，好吗？",
+                "mood_state": "温和"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在楼下遇到永盛帮和居民对峙，试图穿过人群回家。",
+            "interlocutor_info": {
+                "name": "永盛帮成员",
+                "relationship_tag": "麻烦的街头混混"
+            },
+            "trigger": {
+                "sender": "永盛帮成员",
+                "content": "右手猛地一挥，手背顿时拍在了家明买的一瓶玻璃罐头上，当即转过了头来：“让让让让让……让你老母啊，小子，你想干嘛？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "低调、避免冲突的普通居民",
+                "inner_monologue": "这些人又在闹事，我得小心点别被卷进去，赶紧回家才是正事。",
+                "external_action": "扬了扬手中的袋子，正要辩解",
+                "speech_text": "呃，抱歉……",
+                "mood_state": "谨慎"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明回家后，发现灵静因舞蹈被换而心情低落，试图安慰她。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密的伴侣，需要保护的妻子"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "家明回来了啊，准备吃饭了。只是那笑容实在有些勉强",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "关心、支持的爱人",
+                "inner_monologue": "灵静看起来很难过，我得问清楚发生了什么，不能让她独自承受。",
+                "external_action": "连忙跟了上去，伸手拉着灵静的肩膀，从后面伸手抱住了她",
+                "speech_text": "怎么了？别骗人了，告诉我，我帮你摆平，嗯？我不是一定想干涉你的隐私，但我们是一家人，虽然年纪还小，但我是你的老公，你是我的妻子，我不想看到你不开心，说给我听好吗？是因为表演的事情？",
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明听到灵静被换掉舞蹈角色，感到难以置信并分析原因。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密的伴侣，需要保护的妻子"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "家明，她们说我跳得不好，不让我跳了……现在是三年级的那个谭素妍在领舞，家明，我都排练这么久了，方小姐还亲口说过我跳得好呢，她们怎么可以这样……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "分析问题、准备行动的伴侣",
+                "inner_monologue": "这太不公平了，灵静明明很努力，我得想想是不是有人暗中搞鬼，比如东方路或谭素妍。",
+                "external_action": "皱起了眉头",
+                "speech_text": "什、什么？离表演只有一个多星期了，他们居然换人？",
+                "mood_state": "困惑"
+            }
+        }
+    ]
+}

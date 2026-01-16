@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在名藏体育馆爆炸后消失，警方和各方势力调查他的身份和动机。",
+            "interlocutor_info": {
+                "name": "警方和旁观者",
+                "relationship_tag": "调查者"
+            },
+            "trigger": {
+                "sender": "警方和旁观者",
+                "content": "描述体育馆爆炸和凶手的模糊信息，包括口音和行动细节。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "隐藏的杀手",
+                "inner_monologue": "I need to stay hidden and avoid detection while they piece together clues about me.",
+                "external_action": "消失，未返回月池家或联系他人。",
+                "speech_text": null,
+                "mood_state": "cautious"
+            }
+        },
+        {
+            "scene_snapshot": "天雨正则和唯讨论顾家明的行动，并观察薰在打扫他的房间。",
+            "interlocutor_info": {
+                "name": "天雨正则和唯",
+                "relationship_tag": "旁观者和朋友"
+            },
+            "trigger": {
+                "sender": "唯",
+                "content": "评论顾家明的帅气和行为，并表达对薰的同情。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "神秘的导师",
+                "inner_monologue": "I hope薰 is okay, but I can't risk returning or contacting her right now.",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "concerned"
+            }
+        },
+        {
+            "scene_snapshot": "方之天和东方路等人在江海讨论顾家明的实力和动机。",
+            "interlocutor_info": {
+                "name": "方之天和东方路",
+                "relationship_tag": "上级和盟友"
+            },
+            "trigger": {
+                "sender": "方之天",
+                "content": "发布信息并召集会议，重新评估顾家明的实力和意图。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "不可预测的威胁",
+                "inner_monologue": "I know they're analyzing me, but my plans are beyond their current understanding.",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "determined"
+            }
+        },
+        {
+            "scene_snapshot": "东方路打电话给东方婉询问顾家明的近况，灵静在场但隐瞒了分手的事。",
+            "interlocutor_info": {
+                "name": "东方婉和灵静",
+                "relationship_tag": "朋友和前任恋人"
+            },
+            "trigger": {
+                "sender": "东方路",
+                "content": "询问顾家明是否有古怪举动，东方婉转述灵静的回答。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "疏离的伴侣",
+                "inner_monologue": "I hope灵静 is coping, but I can't let personal matters interfere with my mission.",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "resigned"
+            }
+        }
+    ]
+}

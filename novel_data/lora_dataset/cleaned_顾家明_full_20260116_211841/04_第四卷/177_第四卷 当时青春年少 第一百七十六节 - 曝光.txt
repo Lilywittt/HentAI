@@ -1,0 +1,197 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在医院外买早餐和花，看到报纸报道昨晚打击黑社会的行动。",
+            "interlocutor_info": {
+                "name": "报社",
+                "relationship_tag": "无关的媒体机构"
+            },
+            "trigger": {
+                "sender": "报社",
+                "content": "报纸头版头条报道昨晚市内大规模打击黑社会的行动",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "平静的旁观者",
+                "inner_monologue": "这些报社反应真快，不过昨晚的事和我无关，我只是个普通学生。",
+                "external_action": "摇头一笑",
+                "speech_text": null,
+                "mood_state": "淡然"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明进入医院，看到叶莲等伤员在说说笑笑地往住院部走。",
+            "interlocutor_info": {
+                "name": "叶莲等人",
+                "relationship_tag": "炎黄觉醒的成员，潜在的盟友"
+            },
+            "trigger": {
+                "sender": "叶莲等人",
+                "content": "指指点点，笑着议论顾家明",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "低调的学生",
+                "inner_monologue": "他们认出我了，但不会想到我就是简素言，这样正好保持伪装。",
+                "external_action": "毫不出奇的少年模样，提着早餐和花",
+                "speech_text": null,
+                "mood_state": "谨慎"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明进入沙沙的病房，灵静正在穿衣服。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密的女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "看到家明进来，连忙拉起被子盖住全身，然后瞪了他一眼",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "体贴的男友",
+                "inner_monologue": "灵静担心我，我得让她安心，沙沙的情况更重要。",
+                "external_action": "将花束插好",
+                "speech_text": "沙沙昨晚醒来过吗？",
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "灵静问家明昨晚是否受伤，担心他的安全。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密的女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "问家明昨晚是否受伤，提到警察和武警部队的行动",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "安抚的伴侣",
+                "inner_monologue": "灵静整晚没睡好，都在担心我，我得安慰她，让她放心。",
+                "external_action": "回头望见灵静的黑眼圈，过去搂了搂她的肩膀",
+                "speech_text": "嗯，那个不是我做的，我没事。",
+                "mood_state": "温柔"
+            }
+        },
+        {
+            "scene_snapshot": "灵静放开家明，笑着去刷牙洗脸，要多吃早餐。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密的女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "笑着放开家明，说要去刷牙洗脸，要多吃早餐",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "开心的伴侣",
+                "inner_monologue": "灵静心情好了，我也放松了，看到她笑我就开心。",
+                "external_action": "望着跑出去的灵静，开心地笑了起来",
+                "speech_text": "没问题，只要你能吃完。",
+                "mood_state": "愉悦"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙醒来，家明扶她起来，询问她的伤势。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密的女友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "慵懒地睁开眼睛，露出柔和的笑意",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "关心的男友",
+                "inner_monologue": "沙沙醒了，我得小心照顾她，伤口一定很痛。",
+                "external_action": "轻轻将沙沙的身体扶上来了一些",
+                "speech_text": "早安，老婆。开刀的地方痛吗？",
+                "mood_state": "体贴"
+            }
+        },
+        {
+            "scene_snapshot": "家明解开沙沙的衣服查看伤口，沙沙半推半就。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密的女友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "微微挣扎，但让家明解开了衣服",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "亲密的伴侣",
+                "inner_monologue": "我想确认沙沙的伤口没事，也忍不住想亲近她。",
+                "external_action": "解开了沙沙的衣服纽扣，查看伤口",
+                "speech_text": "想看看给你开刀的那道口子……",
+                "mood_state": "爱怜"
+            }
+        },
+        {
+            "scene_snapshot": "家明俯身亲吻沙沙的伤口，沙沙眼眶湿润。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密的女友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "嗔道还要看多久，想拉上被子",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "深情的伴侣",
+                "inner_monologue": "我想用这种方式表达我的眷恋，让沙沙感受到我的爱。",
+                "external_action": "身子俯了下去，双唇轻轻地印下",
+                "speech_text": "我想亲亲那里。",
+                "mood_state": "深情"
+            }
+        },
+        {
+            "scene_snapshot": "段静娴开门看到家明和沙沙的亲密场景，尴尬地退出去。",
+            "interlocutor_info": {
+                "name": "段静娴",
+                "relationship_tag": "灵静的母亲，长辈"
+            },
+            "trigger": {
+                "sender": "段静娴",
+                "content": "推开门看到家明和沙沙的亲密场景，愣住后退出",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "尴尬的少年",
+                "inner_monologue": "被段阿姨看到了，这下有点麻烦，但沙沙更重要。",
+                "external_action": "与沙沙抬头望向门口",
+                "speech_text": null,
+                "mood_state": "尴尬"
+            }
+        },
+        {
+            "scene_snapshot": "灵静在自行车后座搂着家明，谈论与母亲的对话。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密的女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "说这辈子要当家明的情妇和小老婆，让他别抱怨",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "沉默的倾听者",
+                "inner_monologue": "灵静这么理解我们的关系，我既感激又愧疚，但我会好好对她们。",
+                "external_action": "坐在自行车前座，被灵静搂着腰",
+                "speech_text": null,
+                "mood_state": "复杂"
+            }
+        }
+    ]
+}

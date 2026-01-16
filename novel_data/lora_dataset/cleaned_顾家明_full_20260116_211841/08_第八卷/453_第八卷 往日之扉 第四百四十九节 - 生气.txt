@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在激烈战斗中灵活切换目标，先攻击奎托斯，再转向米莉亚和维克托。",
+            "interlocutor_info": {
+                "name": "米莉亚",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "米莉亚",
+                "content": "米莉亚眼见同伴奎托斯有难，全力攻击顾家明。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的战斗者",
+                "inner_monologue": "我必须在他们反应过来前，先解决掉奎托斯，削弱他们的战斗力。",
+                "external_action": "顾家明从容地在三人间变换目标，先攻击奎托斯，再转向米莉亚。",
+                "speech_text": null,
+                "mood_state": "专注"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在战斗中突然改变目标，攻击米莉亚，但实际目标是奎托斯。",
+            "interlocutor_info": {
+                "name": "米莉亚",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "米莉亚",
+                "content": "米莉亚抱住奎托斯，试图保护他。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "策略性的攻击者",
+                "inner_monologue": "她以为我要攻击她，但我的真正目标是奎托斯，必须趁她分心时得手。",
+                "external_action": "顾家明虚招攻击米莉亚，实则将奎托斯从她手中扯出并击杀。",
+                "speech_text": null,
+                "mood_state": "果断"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明使用枪械近距离战斗，压制维克托和米莉亚。",
+            "interlocutor_info": {
+                "name": "维克托",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "维克托",
+                "content": "维克托用手枪瞄准路边的小车，威胁顾家明的同伴。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "保护性的反击者",
+                "inner_monologue": "他敢威胁灵静和沙沙，我必须立刻压制他，确保她们的安全。",
+                "external_action": "顾家明夺枪并射击，压制维克托和米莉亚。",
+                "speech_text": null,
+                "mood_state": "愤怒"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在黑影袭击同伴时及时拦截，保护了灵静和沙沙。",
+            "interlocutor_info": {
+                "name": "彼得（黑影）",
+                "relationship_tag": "突袭的敌人"
+            },
+            "trigger": {
+                "sender": "彼得",
+                "content": "黑影突然出现并袭击车内的灵静和沙沙。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "迅捷的守护者",
+                "inner_monologue": "绝不能让任何人伤害她们，我必须立刻阻止这个袭击。",
+                "external_action": "顾家明揪住彼得的脖子并掷出，拦截了袭击。",
+                "speech_text": null,
+                "mood_state": "警觉"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明使用突击步枪和枪榴弹压制敌人，并安慰受惊的同伴。",
+            "interlocutor_info": {
+                "name": "灵静和沙沙",
+                "relationship_tag": "需要保护的同伴"
+            },
+            "trigger": {
+                "sender": "灵静和沙沙",
+                "content": "灵静和沙沙在车内惊魂未定，看着战斗。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "安抚的保护者",
+                "inner_monologue": "她们被吓坏了，我得先确保她们冷静下来，再处理剩下的敌人。",
+                "external_action": "顾家明回头对灵静和沙沙微笑，说“别怕，我在这”，并换弹夹。",
+                "speech_text": "别怕，我在这。",
+                "mood_state": "安抚"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明走向受伤的维克托和米莉亚，表达愤怒。",
+            "interlocutor_info": {
+                "name": "维克托和米莉亚",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "维克托和米莉亚",
+                "content": "维克托和米莉亚受伤，仍在战斗中。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "愤怒的终结者",
+                "inner_monologue": "他们竟敢威胁我的同伴，这让我非常生气，必须彻底解决他们。",
+                "external_action": "顾家明走向维克托和米莉亚，准备继续战斗。",
+                "speech_text": "你们真让我生气……",
+                "mood_state": "愤怒"
+            }
+        }
+    ]
+}

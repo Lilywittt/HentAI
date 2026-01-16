@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Negotiation"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明和海蒂与黑手党高层约瑟夫坐下谈判，气氛紧张而微妙。",
+            "interlocutor_info": {
+                "name": "约瑟夫",
+                "relationship_tag": "黑手党高层，玛丽莲的追求者"
+            },
+            "trigger": {
+                "sender": "约瑟夫",
+                "content": "约瑟夫以大人的角度试图谈论玛丽莲的事情，但犹豫不决，最终开口询问是否能将顾家明当成对等的朋友来谈，并表达希望见到玛丽莲背后的人。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的观察者",
+                "inner_monologue": "我明白约瑟夫的难处，他夹在大人和小孩之间，怕被所有人讨厌，但玛丽莲的事情涉及黑手党内部利益，我必须谨慎处理。",
+                "external_action": "面色诚恳地点了点头",
+                "speech_text": null,
+                "mood_state": "警觉"
+            }
+        },
+        {
+            "scene_snapshot": "约瑟夫对顾家明话语中的性别感到疑惑，追问细节。",
+            "interlocutor_info": {
+                "name": "约瑟夫",
+                "relationship_tag": "困惑的谈判者"
+            },
+            "trigger": {
+                "sender": "约瑟夫",
+                "content": "约瑟夫对顾家明说“她”感到奇怪，追问性别，并回忆起在江海的经历。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "坦白的中间人",
+                "inner_monologue": "约瑟夫还在纠结性别，我得直接点明，反正玛丽莲的脾气他迟早会领教。",
+                "external_action": "坦白地点点头",
+                "speech_text": "嗯，是啊。她脾气很坏的，我只负责跟她说。",
+                "mood_state": "淡然"
+            }
+        },
+        {
+            "scene_snapshot": "史密斯一行人接近，气氛变得敌对，史密斯试图亲近海蒂。",
+            "interlocutor_info": {
+                "name": "史密斯",
+                "relationship_tag": "敌对的黑手党成员"
+            },
+            "trigger": {
+                "sender": "史密斯",
+                "content": "史密斯笑着迎上来，似乎要亲热地给海蒂一个拥抱。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "保护者",
+                "inner_monologue": "这家伙想对海蒂动手动脚，我得挡在前面，不能让他得逞。",
+                "external_action": "叹了口气，站在前面",
+                "speech_text": null,
+                "mood_state": "戒备"
+            }
+        },
+        {
+            "scene_snapshot": "红发女子珍移动位置，挑衅顾家明的礼貌。",
+            "interlocutor_info": {
+                "name": "珍",
+                "relationship_tag": "挑衅的敌对成员"
+            },
+            "trigger": {
+                "sender": "珍",
+                "content": "珍移动位置，说“嗨，东方人都是这样没礼貌吗？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的回应者",
+                "inner_monologue": "这女人在找茬，我得纠正她的说法，顺便讽刺一下她的香水味。",
+                "external_action": "沉默片刻，抬头说道",
+                "speech_text": "中国人。准确来说是中国人，妈妈告诉我，不要跟身上喷了杀虫剂的女人说话……你住在森林里吗？为什么要喷杀虫剂在身上呢？",
+                "mood_state": "讥讽"
+            }
+        },
+        {
+            "scene_snapshot": "珍突然拔枪对准顾家明，气氛瞬间凝固。",
+            "interlocutor_info": {
+                "name": "珍",
+                "relationship_tag": "危险的枪手"
+            },
+            "trigger": {
+                "sender": "珍",
+                "content": "珍猛然伸手，一把袖珍手枪对准了顾家明的额头。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "无畏的行走者",
+                "inner_monologue": "枪口对着我也没用，这种场面见多了，不能让他们看出我的紧张。",
+                "external_action": "拉着海蒂直接走了过去，望也没望那对准自己的手枪一眼",
+                "speech_text": null,
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "珍在收枪后对顾家明做开枪手势并说话。",
+            "interlocutor_info": {
+                "name": "珍",
+                "relationship_tag": "挑衅的枪手"
+            },
+            "trigger": {
+                "sender": "珍",
+                "content": "珍冲顾家明喊了一声，待他回过头来，做了个开枪的手势，说“我记得你了，宝贝。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "无所谓的态度",
+                "inner_monologue": "她还想玩心理游戏，随便她吧，我懒得计较。",
+                "external_action": "耸了耸肩",
+                "speech_text": "批准。",
+                "mood_state": "淡漠"
+            }
+        }
+    ]
+}

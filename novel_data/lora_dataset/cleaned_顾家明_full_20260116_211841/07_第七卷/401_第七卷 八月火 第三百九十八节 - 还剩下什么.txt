@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "御守喜在凉亭中向御守沧表达伤感并暗示顾家明和简素言会来杀他，然后离开。",
+            "interlocutor_info": {
+                "name": "御守喜",
+                "relationship_tag": "敌人/对手"
+            },
+            "trigger": {
+                "sender": "御守喜",
+                "content": "不管怎么样，顾家明也好，简素言也好，他们会过来杀掉你的。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "警觉的战士",
+                "inner_monologue": "我必须警惕，御守喜的警告意味着他们可能已经潜入，我需要加强防御并准备应对。",
+                "external_action": "无声地回头，目光停在院门方向，随后皱眉并下令监视御守喜和全面戒备。",
+                "speech_text": "叫人跟着他。另外...我有预感，对方已经进来了，顾家明...或者那位简素言小姐。全面戒备吧。",
+                "mood_state": "警觉"
+            }
+        },
+        {
+            "scene_snapshot": "御守沧在基地中独自走向电梯，准备进入下层时听到御守喜消失的消息。",
+            "interlocutor_info": {
+                "name": "井上负责人",
+                "relationship_tag": "下属"
+            },
+            "trigger": {
+                "sender": "井上负责人",
+                "content": "御守君，既然对方是冲您而来，需不需要派人跟着您，加强这边的防御...",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "自信的领导者",
+                "inner_monologue": "我不需要额外保护，如果顾家明能突破防御，这将是我突破的挑战机会。",
+                "external_action": "摇头拒绝建议，解释理由后独自走向房间。",
+                "speech_text": "不用。我会回去下面，如果在这样的防御下他能够到我身边，我愿意给他公平交手的机会。不用担心我，井上君，我现在需要真正的挑战来帮助作出更高的突破，假如对方真有那么厉害，将会是最佳的人选。",
+                "mood_state": "坚定"
+            }
+        },
+        {
+            "scene_snapshot": "御守沧在电梯门前进行安全验证时，基地系统被黑客攻击，电梯门打开后遭遇突袭。",
+            "interlocutor_info": {
+                "name": "未知袭击者",
+                "relationship_tag": "威胁/敌人"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "电梯门打开，另一只手从电梯内冲出攻击。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "战斗准备者",
+                "inner_monologue": "攻击来了，我必须立即反应，这可能是顾家明或简素言的伏击。",
+                "external_action": "左手闪电般伸出迎击。",
+                "speech_text": null,
+                "mood_state": "紧张"
+            }
+        }
+    ]
+}

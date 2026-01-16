@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在船舱房间里照顾刚醒来的沙沙，喂她喝粥并收拾碗筷。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "伸出双手说想睡觉，暗示想让顾家明抱着她睡。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "调皮调侃的男友",
+                "inner_monologue": "I know she wants intimacy, but it's daytime and someone might come in, so I need to deflect this with humor to avoid complications.",
+                "external_action": "撇嘴，小声说话，被沙沙用枕头打后趴倒在床上。",
+                "speech_text": "可是我们没有带那个上船，难道用薄膜袋？……可是现在还是白天啊。会有人进来看你，要是我睡上去，那问题可就大了，要不然我找灵静过来陪你，或者给你找支粗一点的毛笔……反正晚上就靠岸了，呵呵，我投降、我投降，知道错了……别打了、别打了……",
+                "mood_state": "playful"
+            }
+        },
+        {
+            "scene_snapshot": "灵静从门口探头进来，顾家明将她拉进房间并开玩笑地要脱她衣服。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密朋友/暧昧对象"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "从门口冒出头来说只是路过，满脸笑意。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "顽皮搞怪的伙伴",
+                "inner_monologue": "I see an opportunity to lighten the mood and include灵静 in our playful dynamic, making沙沙 feel more comfortable and keeping things fun.",
+                "external_action": "叫了一声'陪睡的充气娃娃到了'，将灵静拉进来按在床上，解她衣扣，脱掉鞋袜和衣裙，将她塞进沙沙的被子。",
+                "speech_text": "陪睡的充气娃娃到了……沙沙想让人陪她睡，可是现在不可能是我，就只能灵静你来啦。呵呵，你叫吧、你叫吧，你叫破喉咙也不会有人来救你的……好啦，洋娃娃已经送到了，你们俩好好睡。我在这里看着你们就好了。嗯？",
+                "mood_state": "mischievous"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在走廊中遇到张雅涵，她面色不善并询问郁金香的事情。",
+            "interlocutor_info": {
+                "name": "张雅涵",
+                "relationship_tag": "老师/复杂关系者"
+            },
+            "trigger": {
+                "sender": "张雅涵",
+                "content": "询问郁金香的事情是否是他干的，并提议去房间谈话。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静回避的对话者",
+                "inner_monologue": "I sense her anger and need to deflect the blame to my teacher to avoid direct confrontation, while staying calm to de-escalate the situation.",
+                "external_action": "下意识地躲开一记踢腿，回头看到雅涵的怒意。",
+                "speech_text": "呵呵，那是我老师。……你房间吧，反正到门口了……",
+                "mood_state": "cautious"
+            }
+        }
+    ]
+}

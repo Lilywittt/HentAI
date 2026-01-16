@@ -1,0 +1,26 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在办公室使用电脑对抗网络攻击，同时雅涵醒来并干扰他。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲近的友人"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "雅涵醒来后走过来，询问顾家明在做什么，并抢过鼠标开始画画。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的技术专家",
+                "inner_monologue": "我得专注处理网络攻击，但雅涵的干扰让我分心，不过不能让她察觉紧张局势。",
+                "external_action": "让开座位，允许雅涵使用绘图板。",
+                "speech_text": "你看到什么就是什么了。",
+                "mood_state": "专注"
+            }
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在聚会上与雷庆进行礼貌交谈，雷庆因昨天的恶作剧而心怀恨意。",
+            "interlocutor_info": {
+                "name": "雷庆",
+                "relationship_tag": "敌对的富家子弟"
+            },
+            "trigger": {
+                "sender": "雷庆",
+                "content": "雷庆望向家明的目光中蕴含着无比强大的恨意",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的旁观者",
+                "inner_monologue": "我看出雷庆的恨意，但东方婉选我当挡箭牌就是因为我不会巴结他。",
+                "external_action": "进行礼貌交谈",
+                "speech_text": null,
+                "mood_state": "淡然"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在烧烤时，东方婉兴奋地跑来分享社交成果并抢走他的食物。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "合作伙伴兼朋友"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "兴奋地对他做了个OK的手势，并抢走一半的食物",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "随和的帮手",
+                "inner_monologue": "东方婉又在利用我，但我无所谓，反正闲着也是闲着。",
+                "external_action": "继续烧烤并分享食物",
+                "speech_text": "都是想做大事的人嘛，我对做大事没什么兴趣，就喜欢这些小事情。",
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉八卦地询问顾家明与雅涵的关系，并提到马托在追求雅涵。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "八卦的朋友"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "喂，你跟雅涵老师关系闹僵了啊？并提到马托追求雅涵",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "敷衍的回应者",
+                "inner_monologue": "东方婉又在打听我的私事，但我不想多谈雅涵的事情。",
+                "external_action": "有条不紊地翻动食物",
+                "speech_text": "因为这次期末考试考得不好，所以她决定一个学期都不偏袒包庇我。",
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明独自坐着时，雅涵意外出现，两人尴尬地打招呼并交谈。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "前暧昧对象"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "望见他后，蓦的停了一停",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "友好的旧识",
+                "inner_monologue": "雅涵停下来了，看来不得不打招呼了，气氛有点尴尬。",
+                "external_action": "递出鸡翅膀并微笑",
+                "speech_text": "鸡翅膀？",
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵询问顾家明与东方婉的关系，顾家明解释雷庆的事情。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "试探的前暧昧对象"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "你怎么跟东方婉过来了。还手挽着手……灵静跟沙沙呢",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "诚实的解释者",
+                "inner_monologue": "雅涵在暗示我花心，我得澄清一下，免得误会加深。",
+                "external_action": "讲述事情经过",
+                "speech_text": "跟她说起雷庆的事情。今天东方婉找到酒店里，然后灵静跟沙沙将他推出来的事情",
+                "mood_state": "坦诚"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵提到自己可能被家族和亲，顾家明询问她的病情。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "脆弱的朋友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "或许我将来也免不了被拿出去和亲哦",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "关心的询问者",
+                "inner_monologue": "雅涵在示弱，但我不想让她觉得我在同情她，得小心回应。",
+                "external_action": "询问病情",
+                "speech_text": "我记得去年你家里就有打算要让你去美国治病了，怎么现在还没有音讯呢？",
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵解释马托只是普通朋友，情绪低落时马托叫她过去打台球。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "纠结的前暧昧对象"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "哪有，只是很普通的朋友而已啊，并情绪低落",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "理解的倾听者",
+                "inner_monologue": "雅涵在掩饰她的感情，但我不想戳破，免得大家更尴尬。",
+                "external_action": "递鸡翅膀并倾听",
+                "speech_text": null,
+                "mood_state": "伤感"
+            }
+        },
+        {
+            "scene_snapshot": "马托叫雅涵过去打台球，雅涵邀请顾家明同去，他婉拒。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "客套的朋友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "你也想过去玩玩吗？我把你介绍给他们认识。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "疏离的拒绝者",
+                "inner_monologue": "雅涵只是客套，我不喜欢和陌生人交往，还是保持距离吧。",
+                "external_action": "摆手拒绝",
+                "speech_text": "还是不用了，我台球不是很会打，何况一个小孩子在你们一堆大人中间算是怎么回事，有代沟啊。",
+                "mood_state": "淡然"
+            }
+        }
+    ]
+}

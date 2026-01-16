@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "家明和灵静在风雨中从游轮沿绳索降落到小型炮艇，面对枪林弹雨。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "保护对象/恋人"
+            },
+            "trigger": {
+                "sender": "家明",
+                "content": "家明回过头去：“灵静，害怕吗？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "保护者",
+                "inner_monologue": "我必须确保灵静的安全，即使她害怕，我也要带她冲出去。",
+                "external_action": "左手抱住灵静，两人从船舷飞跃而下。",
+                "speech_text": "“那么抱紧我！”",
+                "mood_state": "determined"
+            }
+        },
+        {
+            "scene_snapshot": "家明在炮艇内战斗后，准备带灵静进入血腥的船舱。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "保护对象/恋人"
+            },
+            "trigger": {
+                "sender": "家明",
+                "content": "家明似乎微微有些迟疑：“灵静，闭上眼睛好吗，船舱里面……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "体贴的引导者",
+                "inner_monologue": "我不想让她看到这血腥场面，但她坚持的话，我只能带她进去。",
+                "external_action": "叹了口气，抱着灵静走进船舱。",
+                "speech_text": null,
+                "mood_state": "concerned"
+            }
+        },
+        {
+            "scene_snapshot": "炮艇被击中后，家明检查损坏情况并安抚灵静。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "保护对象/恋人"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "“家明，我们没事了吗？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "安抚者",
+                "inner_monologue": "引擎坏了，情况不妙，但我得先让她安心。",
+                "external_action": "调试仪器，灯泡亮起后望着前方。",
+                "speech_text": "“呵，至少暂时没事了，但是船的引擎开不动，无线电似乎也坏掉了。现在只能随波逐流，最怕这个时候会有人过来……”",
+                "mood_state": "resigned"
+            }
+        },
+        {
+            "scene_snapshot": "家明在灵静洗澡时检查船体并处理尸体，为生存做准备。",
+            "interlocutor_info": {
+                "name": "环境",
+                "relationship_tag": "生存挑战"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "船体大部分装置失灵，需要维修和资源管理。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "生存专家",
+                "inner_monologue": "我必须确保水和安全，无线电还能修好，但得小心意外。",
+                "external_action": "将尸体扔下船，接雨水，检查装置，发现无线电可修。",
+                "speech_text": null,
+                "mood_state": "focused"
+            }
+        },
+        {
+            "scene_snapshot": "灵静在睡梦中哭泣，家明搂着她并继续工作。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "保护对象/恋人"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "“家明……你不要死……我好害怕……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "安慰者",
+                "inner_monologue": "她还在后怕，我必须保持警惕，同时给她安全感。",
+                "external_action": "搂着灵静，缠着线圈，衣襟被打湿。",
+                "speech_text": null,
+                "mood_state": "protective"
+            }
+        }
+    ]
+}

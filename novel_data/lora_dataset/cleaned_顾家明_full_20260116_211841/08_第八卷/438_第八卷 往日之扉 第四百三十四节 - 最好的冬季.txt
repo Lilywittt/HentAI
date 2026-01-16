@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Other"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "雅涵在早餐店向灵静透露顾家明患脑瘤去世的细节，两人情绪激动地回忆往事。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密朋友和孩子的母亲"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "雅涵轻声说道：“但真的是脑瘤啊……我拉他去了好几次的医院，每一次的诊断结果都一样。他不愿意住院，最后的那几个月里他一直很痛，痛到他都受不了的程度，我看了……我看了恨不得死了……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "关心和愧疚的倾听者",
+                "inner_monologue": "我无法相信雅涵说的这些，但她的痛苦是真实的，我必须理解她的感受。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "震惊"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵描述顾家明在痛苦中坚持不让她看到，并拒绝使用止痛药或海洛因。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密朋友和孩子的母亲"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "“刀砍在手上都没感觉了，就只是痛，他一直想忍着不让人看到……不上医院，止痛药也没有用，你知道他的性格……我甚至托朋友买了海洛因，可他不要……一直觉得对不起你和沙沙……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "深感愧疚的反思者",
+                "inner_monologue": "我让雅涵承受了这么多，她为了我忍受痛苦，我却无法减轻她的负担。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "内疚"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵提到顾家明试图写信给灵静道歉，但写不出来，觉得没有道歉的立场。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密朋友和孩子的母亲"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "“我让他至少写封信给你，跟你说这些事情，可他写不出来……有时候晚上爬起来了，看见他坐在窗户边写东西。写几个字就扔了，后来我偷偷捡起来看，开头都是跟你说对不起，可后面跟你解释都写不了几句话，他大概是觉得……没有道歉的立场，大概觉得再怎么道歉也没办法弥补你的原因……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "自我责备的隐忍者",
+                "inner_monologue": "我连道歉都做不到，让灵静和沙沙失望，我真是个失败的人。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "自责"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵回忆顾家明在维也纳关注灵静，送玫瑰时因头痛砍伤手指。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密朋友和孩子的母亲"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "“还记得你第一年在维也纳过年的那天吗？你不回来，有的男生来约你你也没去，他叫人送了一束玫瑰给你，你没收，放在门口了……他没办法啊，打电话订花的时候，他的头已经很痛了，那天晚上他说要煮菜，大概是用刀的时候突然痛起来了，一刀砍在自己手指上，他居然都没有发现……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "默默关心的守护者",
+                "inner_monologue": "我还在暗中关注灵静，即使痛苦也不愿让她知道，只想她过得好。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "痛苦"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵讲述顾家明晚上痛醒时看旧照片，以及她怀孕后他撑到离开。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密朋友和孩子的母亲"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "“有时候他晚上痛醒了睡不着，就看以前的照片……我发现了好几次，都是装睡，也不知道他有没有察觉……我大概是一月初怀上淘淘的，查得勤，一月中旬的时候就知道了，他那时候还一直撑着，过年的时候下了雪，我没有回家去过年，呵，为这件事跟我爸吵了一架，吵得很厉害，谁知道没过几天，他就离开了……他是真的撑不住了，不想让别人看到……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "坚韧的承受者",
+                "inner_monologue": "我必须坚持到最后一刻，为了雅涵和未出生的孩子，不能让他们看到我倒下。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "坚韧"
+            }
+        }
+    ]
+}

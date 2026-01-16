@@ -1,0 +1,140 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在黑暗中与敌人交火后，返回房间安慰受惊的灵静。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静看到顾家明安全返回，冲到他怀里哭泣。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "温和安慰者",
+                "inner_monologue": "我瞒了她这么久，现在必须解释一些事情来安抚她，但不能说出全部真相。",
+                "external_action": "放下枪支，略带歉意地走过来。",
+                "speech_text": "抱歉，一直瞒着你和沙沙……",
+                "mood_state": "歉意"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明向灵静解释自己过去的秘密和为何隐藏能力。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "顾家明",
+                "content": "顾家明开始讲述自己十岁时被杀手收为弟子的经历。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "坦诚叙述者",
+                "inner_monologue": "我得编一个半真半假的故事来让她理解，但不能暴露转世重生的真相。",
+                "external_action": "拿起床单擦拭灵静脸上的泪痕。",
+                "speech_text": "其实，事情的开端，还是在我十岁时那年的事情……",
+                "mood_state": "谨慎"
+            }
+        },
+        {
+            "scene_snapshot": "灵静听完解释后，表达对顾家明的喜爱并制定新规则。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静打断顾家明的话，要求他答应在危险时不出手，但反击挑衅。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "顺从倾听者",
+                "inner_monologue": "她这么担心我，我必须答应她来让她安心，但实际情况可能更复杂。",
+                "external_action": "额头与灵静轻轻一碰，笑了起来。",
+                "speech_text": "遵命，灵静老婆大人。",
+                "mood_state": "温柔"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明和灵静在紧张局势中短暂嬉闹后，决定返回轮船上层。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静开玩笑地打顾家明，引发嬉闹。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "嬉闹伴侣",
+                "inner_monologue": "现在不是放松的时候，但得陪她玩一下来缓解紧张。",
+                "external_action": "手伸进灵静的衣襟和裙摆中。",
+                "speech_text": "……你试试看就知道了啊。",
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明教灵静开枪后，两人在宴会大厅遭遇敌人伏击。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "电光从门外和宴会大厅另一端晃动，敌人接近。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "保护者",
+                "inner_monologue": "前后都有敌人，我必须快速行动保护灵静，不能让她受伤。",
+                "external_action": "将手按在灵静胸前示意她停下，然后如猎豹般冲出去。",
+                "speech_text": null,
+                "mood_state": "警觉"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在交火中压制敌人，并计划逃跑路线。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静道歉自己开枪可能添乱。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "安慰者",
+                "inner_monologue": "她不用道歉，现在最重要的是保持冷静并找到逃生方法。",
+                "external_action": "笑着回头安慰灵静，调转枪口射杀敌人。",
+                "speech_text": "我们是最亲的人，不用说对不起的。",
+                "mood_state": "坚定"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明发现船舷下的炮艇，准备用绳索逃跑。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "顾家明观察到船舷下有一艘炮艇，敌人减少。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "战略规划者",
+                "inner_monologue": "这是个机会，我们可以利用绳索逃到炮艇上，必须快速行动。",
+                "external_action": "翻身跃出铁箱后方，拉着一大捆绳索冲回来。",
+                "speech_text": "灵静，把这个绑在栏杆上，我们要做一次空中飞人了。",
+                "mood_state": "果断"
+            }
+        }
+    ]
+}

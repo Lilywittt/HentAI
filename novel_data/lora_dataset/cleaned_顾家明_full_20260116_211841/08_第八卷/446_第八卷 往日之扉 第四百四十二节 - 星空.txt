@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在酒吧中与小孟和沙沙回忆往事，气氛沉重而充满情感纠葛。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "前女友/复杂情感对象"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "回忆过去与顾家明的亲密时刻和情感挣扎，表达对灵静的嫉妒和失落。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "缺席的倾听者/情感核心",
+                "inner_monologue": "I am the center of her unresolved feelings and regrets, my past actions still haunting her.",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "reflective"
+            }
+        },
+        {
+            "scene_snapshot": "小孟在酒吧中赶走骚扰者，引发混乱，顾家明未直接参与但环境被影响。",
+            "interlocutor_info": {
+                "name": "小孟",
+                "relationship_tag": "朋友/帮派成员"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "酒吧中发生暴力冲突，小孟出手保护沙沙，场面变得混乱。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "间接影响者",
+                "inner_monologue": "I am not there, but my presence through past connections still causes ripples in their lives.",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "detached"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在香港码头冷酷地杀人并偷渡，展现隐秘而危险的一面。",
+            "interlocutor_info": {
+                "name": "船主",
+                "relationship_tag": "陌生人/目标"
+            },
+            "trigger": {
+                "sender": "船主",
+                "content": "船主拒绝顾家明的偷渡请求，表现出警觉和犹豫。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷酷杀手/隐秘行动者",
+                "inner_monologue": "I need to get to Guangzhou, and I won't let anyone stand in my way, even if it means eliminating them.",
+                "external_action": "开枪杀死船主和其他人，清理尸体，操作船只离开。",
+                "speech_text": "算了，我也会。",
+                "mood_state": "ruthless"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明到达广州，仰望朝海集团大楼，准备进行下一步行动。",
+            "interlocutor_info": {
+                "name": "环境",
+                "relationship_tag": "目标地点"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "清晨的阳光照耀着朝海集团大楼，象征新的开始和潜在任务。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "任务执行者/观察者",
+                "inner_monologue": "This is where I need to be, a new day brings new opportunities to achieve my goals.",
+                "external_action": "穿过小公园，仰头望向大楼。",
+                "speech_text": null,
+                "mood_state": "determined"
+            }
+        }
+    ]
+}

@@ -1,0 +1,197 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "灵静拉着家明过马路，避开崔国华后抱怨家明没提前告知崔国华的身份。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密女友/家人"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "你一开始就知道他是谁，干嘛不跟我说！我还跟他说了那么多的话……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "安抚者/轻松伴侣",
+                "inner_monologue": "I need to calm her down; she's overreacting but it's because she cares about my safety.",
+                "external_action": "笑了笑",
+                "speech_text": "呃，这个……呵呵，其实没必要这么紧张的。他本质上是个好人，而且你也喜欢那婚纱……",
+                "mood_state": "amused"
+            }
+        },
+        {
+            "scene_snapshot": "灵静微嗔地瞪家明，否认喜欢婚纱的程度，并拉着他快步走开。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密女友/家人"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "我还没喜欢到那种程度！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "调皮伴侣",
+                "inner_monologue": "I'll tease her a bit to lighten the mood; she's cute when she's pretending to be angry.",
+                "external_action": "朝后方一挥手，比出一个中指",
+                "speech_text": "喂，灵静，你是说没有喜欢婚纱到喜欢我的程度吗？",
+                "mood_state": "playful"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙提到家里来了个叔叔，家明在超市里与沙沙和灵静互动。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密女友/家人"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "家明说今天吃南瓜饼。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "轻松伴侣",
+                "inner_monologue": "I'll go along with her joke; it's fun to see how they react.",
+                "external_action": "笑着耸了耸肩",
+                "speech_text": null,
+                "mood_state": "amused"
+            }
+        },
+        {
+            "scene_snapshot": "家明在教室外被方尔捷拦住，托他转交情书给薰并警告吕放可能找麻烦。",
+            "interlocutor_info": {
+                "name": "方尔捷",
+                "relationship_tag": "无关同学"
+            },
+            "trigger": {
+                "sender": "方尔捷",
+                "content": "我有一封信，想交给薰同学，只不过她一向不接别人的信……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "帮忙的同学",
+                "inner_monologue": "I'll just help him out; it's a simple request and might save him some trouble.",
+                "external_action": null,
+                "speech_text": "哦。我帮你给她。",
+                "mood_state": "neutral"
+            }
+        },
+        {
+            "scene_snapshot": "方尔捷警告家明小心吕放找麻烦。",
+            "interlocutor_info": {
+                "name": "方尔捷",
+                "relationship_tag": "无关同学"
+            },
+            "trigger": {
+                "sender": "方尔捷",
+                "content": "我听说吕放好像打算找你麻烦，总之……你自己当心点。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静接受者",
+                "inner_monologue": "This isn't surprising; I've been expecting something like this since Tanya's family fell.",
+                "external_action": "点了点头",
+                "speech_text": null,
+                "mood_state": "resigned"
+            }
+        },
+        {
+            "scene_snapshot": "家明在教室里给薰送南瓜饼和情书，薰询问他关于爱情的问题。",
+            "interlocutor_info": {
+                "name": "薰",
+                "relationship_tag": "徒弟/关心的人"
+            },
+            "trigger": {
+                "sender": "薰",
+                "content": "顾君，你了解爱情吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "导师/思考者",
+                "inner_monologue": "She's trying to understand emotions; I need to give her a practical answer based on my own experiences.",
+                "external_action": "奇怪地望了她一眼",
+                "speech_text": "爱情这种东西……我也不是很清楚……大概知道一点，但没办法归纳出来给你听……",
+                "mood_state": "thoughtful"
+            }
+        },
+        {
+            "scene_snapshot": "薰追问家明与灵静、沙沙和张老师的爱情关系。",
+            "interlocutor_info": {
+                "name": "薰",
+                "relationship_tag": "徒弟/关心的人"
+            },
+            "trigger": {
+                "sender": "薰",
+                "content": "顾君跟……跟灵静和沙沙是爱情吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "坦诚分享者",
+                "inner_monologue": "I should be honest with her; she's trying to learn and this might help her understand relationships better.",
+                "external_action": "一笑",
+                "speech_text": "一半吧，或许还要少一点，呵呵，我们在一起的时候，她们还小了一点……",
+                "mood_state": "reflective"
+            }
+        },
+        {
+            "scene_snapshot": "家明询问薰关于聂文超的绯闻，并指导她如何应对。",
+            "interlocutor_info": {
+                "name": "薰",
+                "relationship_tag": "徒弟/关心的人"
+            },
+            "trigger": {
+                "sender": "薰",
+                "content": "为什么他们不传我和顾君的绯闻呢？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "实用导师",
+                "inner_monologue": "I need to steer this back to her training; she's getting distracted by social perceptions.",
+                "external_action": "笑了起来",
+                "speech_text": "我们，呵呵……大概因为我们的形象太不搭了吧，唔，说你自己，聂文超是你决定的第一个目标吗？",
+                "mood_state": "instructive"
+            }
+        },
+        {
+            "scene_snapshot": "薰分享对家族的感情困惑，吕放带人来找家明麻烦。",
+            "interlocutor_info": {
+                "name": "薰",
+                "relationship_tag": "徒弟/关心的人"
+            },
+            "trigger": {
+                "sender": "薰",
+                "content": "其实，我对父亲没有感情……但是对家族有，我不知道为什么……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "倾听者",
+                "inner_monologue": "She's opening up about her emotions; I should listen and let her process this, but now there's a distraction.",
+                "external_action": null,
+                "speech_text": "嗯？",
+                "mood_state": "attentive"
+            }
+        },
+        {
+            "scene_snapshot": "吕放带人进入教室，挑衅家明出去聊聊。",
+            "interlocutor_info": {
+                "name": "吕放",
+                "relationship_tag": "潜在威胁/旧敌"
+            },
+            "trigger": {
+                "sender": "吕放",
+                "content": "顾家明，我们出来聊聊。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静应对者",
+                "inner_monologue": "This was inevitable; I need to handle this without escalating, but I'm ready if it turns physical.",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "alert"
+            }
+        }
+    ]
+}

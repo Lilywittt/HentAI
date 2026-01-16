@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在拍卖会现场与海蒂和玛丽莲互动，讨论钻石项链。",
+            "interlocutor_info": {
+                "name": "海蒂",
+                "relationship_tag": "亲近的小女孩"
+            },
+            "trigger": {
+                "sender": "海蒂",
+                "content": "家明！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "轻松幽默的朋友",
+                "inner_monologue": "I need to apologize for being late and make it up to her.",
+                "external_action": "目光扫过方雨思，视线在玛丽莲脸上停留片刻，双方都是一个心照的笑容",
+                "speech_text": "呵呵，我道歉、我道歉，有个朋友遇到了一件很不愉快的事情，我要陪她。呃，拍卖会吗？有什么好东西，喔、好漂亮的项链。",
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明提议买项链作为赔礼，与海蒂和玛丽莲交谈。",
+            "interlocutor_info": {
+                "name": "海蒂",
+                "relationship_tag": "亲近的小女孩"
+            },
+            "trigger": {
+                "sender": "顾家明",
+                "content": "那……作为我迟到的赔礼，我买下来送给你好不好？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "慷慨的朋友",
+                "inner_monologue": "I want to surprise her with a gift to make up for my lateness.",
+                "external_action": "伸手摸了摸她的头",
+                "speech_text": null,
+                "mood_state": "亲切"
+            }
+        },
+        {
+            "scene_snapshot": "海蒂生气顾家明摸她的头，顾家明恶作剧地逗她。",
+            "interlocutor_info": {
+                "name": "海蒂",
+                "relationship_tag": "亲近的小女孩"
+            },
+            "trigger": {
+                "sender": "海蒂",
+                "content": "绅士不可以乱摸别人脑袋的，我又不是小孩子了！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "顽皮的恶作剧者",
+                "inner_monologue": "I enjoy teasing her and seeing her react.",
+                "external_action": "恶作剧地勒住了脖子，一把摘掉头上的蓝色小帽，将她的头发摸到乱七八糟才肯罢手",
+                "speech_text": null,
+                "mood_state": "戏谑"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明询问玛丽莲是否喜欢项链，并策划竞拍。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "尊敬的朋友"
+            },
+            "trigger": {
+                "sender": "顾家明",
+                "content": "喂，那条项链，玛丽莲你也很喜欢吧？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "策划者",
+                "inner_monologue": "I want to help her get the necklace she likes, and it might be a fun surprise.",
+                "external_action": "眼见那边的约瑟夫已经注视了过来，俯在海蒂耳边说道",
+                "speech_text": null,
+                "mood_state": "专注"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在海蒂耳边低语，指示她拿牌子给玛丽莲。",
+            "interlocutor_info": {
+                "name": "海蒂",
+                "relationship_tag": "亲近的小女孩"
+            },
+            "trigger": {
+                "sender": "顾家明",
+                "content": "在海蒂耳边低声说了几句话",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "秘密策划者",
+                "inner_monologue": "I need to convey the plan quietly to avoid drawing attention.",
+                "external_action": "在海蒂耳边低声说了几句话",
+                "speech_text": null,
+                "mood_state": "机密"
+            }
+        },
+        {
+            "scene_snapshot": "玛丽莲同意顾家明的计划，无奈地笑了笑。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "尊敬的朋友"
+            },
+            "trigger": {
+                "sender": "玛丽莲",
+                "content": "无奈地笑了笑，看起来倒像是个宽容的母亲终于答应了孩子某个无理的要求",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "支持的朋友",
+                "inner_monologue": "I'm glad she agreed to the plan, and it shows our trust.",
+                "external_action": "家明只是笑着点头",
+                "speech_text": null,
+                "mood_state": "满意"
+            }
+        }
+    ]
+}

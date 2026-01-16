@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "家明在清晨从后门跑向黄家别墅，遇到正要进去的灵静。",
+            "interlocutor_info": {
+                "name": "家明",
+                "relationship_tag": "亲密的朋友/青梅竹马"
+            },
+            "trigger": {
+                "sender": "家明",
+                "content": "从后面一把捂住了灵静的眼睛，粗声粗气地说道：“猜猜我是谁，猜错了就用胡子扎你哦。”",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "活泼俏皮的少女",
+                "inner_monologue": "又是家明这个坏蛋，总爱捉弄我，不过这次我可不会上当了。",
+                "external_action": "掰开家明的双手，红扑扑的脸蛋上流露出嗔怪的娇态。",
+                "speech_text": "家明，你这个坏蛋，老是学我爸爸的声音，我打你了哦。",
+                "mood_state": "嗔怪"
+            }
+        },
+        {
+            "scene_snapshot": "灵静询问家明为何从后面过来，两人准备去晨练地点。",
+            "interlocutor_info": {
+                "name": "家明",
+                "relationship_tag": "亲密的朋友/青梅竹马"
+            },
+            "trigger": {
+                "sender": "家明",
+                "content": "“呵呵，我今天起得早，见你跑过去，就从前门绕过来准备吓你一跳了。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "亲昵的伙伴",
+                "inner_monologue": "他总是这样调皮，不过能一起玩闹真开心。",
+                "external_action": "在家明胸口上打了一下。",
+                "speech_text": "就你坏心眼多。",
+                "mood_state": "亲昵"
+            }
+        },
+        {
+            "scene_snapshot": "灵静提议和家明一起去晨练地点找沙沙。",
+            "interlocutor_info": {
+                "name": "家明",
+                "relationship_tag": "亲密的朋友/青梅竹马"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "“走吧，沙沙一准在草地那里等着我们了呢。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "积极的参与者",
+                "inner_monologue": "快点和家明一起去吧，沙沙肯定等急了。",
+                "external_action": "和家明追追打打地奔向秘密地点。",
+                "speech_text": null,
+                "mood_state": "兴奋"
+            }
+        }
+    ]
+}

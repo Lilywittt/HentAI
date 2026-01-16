@@ -31,3 +31,10 @@ yarn-error.log*
 
 # Data
 novel_data/lora_dataset/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Project cache
+novel_data/.cache/

@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Other"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在机场候机大厅看报纸，回忆往事，并观察周围环境。",
+            "interlocutor_info": {
+                "name": "源赖朝创",
+                "relationship_tag": "已故的长期搭档"
+            },
+            "trigger": {
+                "sender": "源赖朝创",
+                "content": "许多年后，也是在一个机场里，那个人随意地感叹了一句：“呐，有时候倒也想不干了……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的搭档",
+                "inner_monologue": "我理解他的感受，但我们这种人想退出没那么简单，因果报应总是存在的。",
+                "external_action": "低头看着报纸，随意回答。",
+                "speech_text": "“不干了能去哪里？”",
+                "mood_state": "淡然"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在机场与灵静和沙沙通电话，讨论薰受伤的事情。",
+            "interlocutor_info": {
+                "name": "灵静和沙沙",
+                "relationship_tag": "关心他的朋友"
+            },
+            "trigger": {
+                "sender": "灵静和沙沙",
+                "content": "电话是灵静和沙沙在江海打过来的，她们已经接到了刚下飞机的薰，看见她受伤的样子，免不了就埋怨一番。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "无奈的友人",
+                "inner_monologue": "她们在担心薰，但事情已经发生了，我只能苦笑应对。",
+                "external_action": "苦笑以对。",
+                "speech_text": null,
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在机场观察到一个少年用石块砸伤右翼分子演讲者，引发骚乱。",
+            "interlocutor_info": {
+                "name": "谢宝树",
+                "relationship_tag": "萍水相逢的陌生人"
+            },
+            "trigger": {
+                "sender": "谢宝树",
+                "content": "那少年已经进了候机大厅，从家明这边走过去，随即听得家明打电话，却是停了下来，过得片刻，对个口型：“中国人？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "友好的同胞",
+                "inner_monologue": "这个少年看起来有点鬼祟，但既然是中国同胞，就打个招呼吧。",
+                "external_action": "点头，笑着跟他握手。",
+                "speech_text": "“顾家明，从江海来。”",
+                "mood_state": "友善"
+            }
+        },
+        {
+            "scene_snapshot": "右翼分子冲进候机大厅质问顾家明和谢宝树，引发冲突。",
+            "interlocutor_info": {
+                "name": "右翼分子",
+                "relationship_tag": "敌对的狂热分子"
+            },
+            "trigger": {
+                "sender": "右翼分子",
+                "content": "“喂，你们是不是中国人？说话！”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的防卫者",
+                "inner_monologue": "这帮人太嚣张了，得保护一下这个少年，但没必要下重手。",
+                "external_action": "转身用日语回应，然后一脚踢飞冲过来的右翼分子。",
+                "speech_text": "“我就是中国人，有什么事吗？”",
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在威尼斯机场外遭遇狙击和跑车袭击，与未知来电者通话。",
+            "interlocutor_info": {
+                "name": "未知来电者",
+                "relationship_tag": "敌对的旧识"
+            },
+            "trigger": {
+                "sender": "未知来电者",
+                "content": "“好久不见了，你居然还没死，又帅了很多嘛。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "调侃的应对者",
+                "inner_monologue": "这家伙还是老样子，用幽默来掩饰敌意，但这次情况有点棘手。",
+                "external_action": "按下了通话键，无奈地望着手机，叹了口气。",
+                "speech_text": "“都这么说……今天从日本过来，快上飞机的时候有个小朋友拦住我说：‘哥哥你真帅。’我当场就给了他一巴掌……”",
+                "mood_state": "警觉"
+            }
+        }
+    ]
+}

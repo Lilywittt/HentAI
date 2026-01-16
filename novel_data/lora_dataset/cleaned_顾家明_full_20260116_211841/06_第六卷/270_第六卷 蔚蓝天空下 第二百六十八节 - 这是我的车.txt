@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Other"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "东方婉和许毅婷在商场购物后，在广场围观雷庆因打不开自己的跑车而被误认为偷车贼的闹剧。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "商业伙伴和八卦对象"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "顾家明、张老师和雷庆出来之后就分开走了，我没敢再停下去，所以过来找你，真不知道张老师怎么会认识雷庆的，我本来以为顾家明和雷庆两个人的话一定会有场好戏看的。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的旁观者",
+                "inner_monologue": "我本来想看顾家明和雷庆冲突，可惜错过了，不过雷庆现在这狼狈样子也挺有趣。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "amused"
+            }
+        },
+        {
+            "scene_snapshot": "雷庆在广场因打不开自己的跑车而被众人指责为偷车贼，情绪激动。",
+            "interlocutor_info": {
+                "name": "雷庆",
+                "relationship_tag": "潜在的对手或麻烦制造者"
+            },
+            "trigger": {
+                "sender": "雷庆",
+                "content": "雷庆捧着石头砸向跑车窗户，结果石头反弹砸中自己的脚，痛苦地呼喊“这是我的车——”。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "隐忍的观察者",
+                "inner_monologue": "雷庆这蠢货自食其果，活该他倒霉，省得我动手了。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "satisfied"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在路口等待雅涵，两人通过电话协调见面。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密的朋友或伴侣"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "电话挂断，不一会儿，家明走到前方的路口，那辆熟悉的小车转过了弯，在他地身边停下，推开车门，雅涵给了他一个明媚的笑容：“上车。”",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "默契的伙伴",
+                "inner_monologue": "雅涵来得正好，避开东方婉的窥探，我们可以轻松离开了。",
+                "external_action": "走到路口等待，然后上车",
+                "speech_text": null,
+                "mood_state": "relieved"
+            }
+        }
+    ]
+}

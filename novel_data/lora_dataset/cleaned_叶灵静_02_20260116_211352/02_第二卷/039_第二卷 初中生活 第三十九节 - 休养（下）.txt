@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "灵静和沙沙在病房里与月池薰分享晚餐，灵静同情月池薰的遭遇并主动与她交流。",
+            "interlocutor_info": {
+                "name": "月池薰",
+                "relationship_tag": "同情和好奇的日本少女"
+            },
+            "trigger": {
+                "sender": "月池薰",
+                "content": "用英语说“thank you”感谢送来的饭菜",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "友好和乐于助人的同学",
+                "inner_monologue": "我学过英语，正好可以试试和她交流，她看起来好可怜，又和家明一起受伤，我应该多关心她。",
+                "external_action": "用英语回应“没关系”、“我叫叶灵静”，并尝试进行简单对话",
+                "speech_text": "没关系，我叫叶灵静。",
+                "mood_state": "同情"
+            }
+        },
+        {
+            "scene_snapshot": "灵静在病房里为家明朗读《我与地坛》参加朗读比赛。",
+            "interlocutor_info": {
+                "name": "顾家明",
+                "relationship_tag": "亲密的朋友和关心对象"
+            },
+            "trigger": {
+                "sender": "顾家明",
+                "content": "问起朗读比赛的情况",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "认真和投入的朗读者",
+                "inner_monologue": "我要好好朗读这篇文字，虽然家明可能觉得矫情，但这是我为比赛准备的，希望能获奖。",
+                "external_action": "用悦耳深情的声音朗读《我与地坛》",
+                "speech_text": "……如今我摇着车在这园子里慢慢走，常常有一种感觉……",
+                "mood_state": "专注"
+            }
+        },
+        {
+            "scene_snapshot": "第二天早上，灵静在病房里与月池薰用英语交流学习，兴致勃勃地练习对话。",
+            "interlocutor_info": {
+                "name": "月池薰",
+                "relationship_tag": "新交的英语学习伙伴"
+            },
+            "trigger": {
+                "sender": "月池薰",
+                "content": "陪灵静说英语、写句子，帮助她纠正语法",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "热情好学的学生",
+                "inner_monologue": "英语要学好就得多练习，月池薰愿意陪我，这机会太好了，我可以多学点单词和语法。",
+                "external_action": "用词典查找单词，拼凑句子，让月池薰帮忙理顺语法",
+                "speech_text": null,
+                "mood_state": "兴致勃勃"
+            }
+        },
+        {
+            "scene_snapshot": "一个可疑的女警进入病房做笔录，灵静在场观察情况。",
+            "interlocutor_info": {
+                "name": "穆珍珍（假女警）",
+                "relationship_tag": "可疑的陌生人"
+            },
+            "trigger": {
+                "sender": "穆珍珍",
+                "content": "进入病房，自称警察来做笔录，行为反常",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "警觉的旁观者",
+                "inner_monologue": "这个女警看起来好奇怪，年龄太小，衣服不合体，家明和月池薰好像也在怀疑，我得小心点。",
+                "external_action": "在病房内观察女警的行为",
+                "speech_text": null,
+                "mood_state": "警觉"
+            }
+        }
+    ]
+}

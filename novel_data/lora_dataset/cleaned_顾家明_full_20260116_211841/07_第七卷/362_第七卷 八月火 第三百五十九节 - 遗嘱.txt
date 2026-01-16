@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "杨振兴在会客室中因被顾家明打伤而愤怒，与手下分析事件并讨论应对策略。",
+            "interlocutor_info": {
+                "name": "杨振兴",
+                "relationship_tag": "敌对帮派头目"
+            },
+            "trigger": {
+                "sender": "杨振兴",
+                "content": "杨振兴因被顾家明用烟灰缸打伤而愤怒，与手下讨论顾家明的行为并计划报复。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静观察者",
+                "inner_monologue": "我打伤杨振兴是为了保护沙沙和震慑他们，他们现在正慌乱地分析我的行动，但低估了我的实力。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "警觉"
+            }
+        },
+        {
+            "scene_snapshot": "律师在会议室宣布柳正的遗嘱，将产业转让给杨振兴等人，而顾家明在外等待。",
+            "interlocutor_info": {
+                "name": "律师",
+                "relationship_tag": "中立法律代表"
+            },
+            "trigger": {
+                "sender": "律师",
+                "content": "律师宣布柳正遗嘱，将部分产业以低价转让给杨振兴，旨在将沙沙与黑道分离。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "耐心等待者",
+                "inner_monologue": "遗嘱如我所料，沙沙的财产被分割出去，但杨振兴他们正趁机扩张势力，我需要保持警惕。",
+                "external_action": "站在饮水机边等待烧水",
+                "speech_text": null,
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "大块头阿霸进入客厅，寻找顾家明为杨振兴报仇，直接攻击他。",
+            "interlocutor_info": {
+                "name": "阿霸",
+                "relationship_tag": "敌对打手"
+            },
+            "trigger": {
+                "sender": "阿霸",
+                "content": "阿霸大声质问并走向顾家明，确认目标后一拳打向他的额头。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "防御反击者",
+                "inner_monologue": "阿霸的攻击很直接，但我能轻松化解；这一拳让我更清醒，是时候展示实力了。",
+                "external_action": "被击中后微微后仰，随后用头撞反击，导致阿霸受伤",
+                "speech_text": null,
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在阿霸攻击后，轻松反击并踢飞他，然后嘲讽对方。",
+            "interlocutor_info": {
+                "name": "阿霸",
+                "relationship_tag": "敌对打手"
+            },
+            "trigger": {
+                "sender": "阿霸",
+                "content": "阿霸被顾家明头撞受伤后，顾家明主动出击踢飞他。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "挑衅胜利者",
+                "inner_monologue": "阿霸不堪一击，这一脚足以震慑杨振兴的手下；他们需要明白，惹我和沙沙的代价。",
+                "external_action": "踢飞阿霸，导致他撞倒椅子和另一人",
+                "speech_text": "谢谢，被打过之后感觉好多了。我猜，你一定是……觉得很爽吧……",
+                "mood_state": "嘲讽"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明踢飞阿霸后，走进会议室，看到杨振兴和小孟正在争吵。",
+            "interlocutor_info": {
+                "name": "杨振兴和小孟",
+                "relationship_tag": "敌对帮派头目和潜在盟友"
+            },
+            "trigger": {
+                "sender": "杨振兴和小孟",
+                "content": "杨振兴和小孟在会议室激烈争吵关于贩毒和公司管理权，顾家明突然闯入。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "介入调解者",
+                "inner_monologue": "他们还在内讧，正好我处理完外面的事；是时候打断他们，支持沙沙的立场。",
+                "external_action": "站在门口看着争吵的两人",
+                "speech_text": "怎么？谈崩了？真巧，我这边也是。",
+                "mood_state": "戏谑"
+            }
+        }
+    ]
+}

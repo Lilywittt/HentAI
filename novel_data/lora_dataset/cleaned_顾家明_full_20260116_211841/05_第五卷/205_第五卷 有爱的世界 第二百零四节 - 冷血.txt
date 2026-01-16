@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在废弃房中审问两名佣兵，得知圣心学院被劫持。",
+            "interlocutor_info": {
+                "name": "小孟",
+                "relationship_tag": "帮派成员"
+            },
+            "trigger": {
+                "sender": "小孟",
+                "content": "小孟脸色苍白地坐在破旧的沙发上，看着顾家明审问佣兵。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的审问者",
+                "inner_monologue": "我必须尽快获取情报，学校的情况紧急，没时间浪费。",
+                "external_action": "用钢针插入佣兵后脑，徒手捏碎四肢，随后开枪杀死他们。",
+                "speech_text": "他们两个已经废了。虽然时间久一点还能问出一些东西，不过没时间了……",
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明与小孟交谈，准备离开废弃房。",
+            "interlocutor_info": {
+                "name": "小孟",
+                "relationship_tag": "帮派成员"
+            },
+            "trigger": {
+                "sender": "小孟",
+                "content": "小孟从沙发上挣扎起来，试探着笑了笑说：'真是怀疑你是不是以前的那个顾家明……'",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "伪装成温和的少年",
+                "inner_monologue": "我需要维持伪装，避免暴露真实身份。",
+                "external_action": "抓了抓头发，不好意思地笑笑。",
+                "speech_text": "呵，有些事情必须要伪装起来，否则会很麻烦。小孟哥你记得替我保密就可以了，谢谢……",
+                "mood_state": "淡然"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明通过手表信号发现叶灵静逃出学校，在电话亭与她重逢。",
+            "interlocutor_info": {
+                "name": "叶灵静",
+                "relationship_tag": "亲密朋友"
+            },
+            "trigger": {
+                "sender": "叶灵静",
+                "content": "灵静猛扑过来，紧紧地抱住了家明，随后大哭起来描述学校里的恐怖情况。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "安慰者",
+                "inner_monologue": "灵静安全了，但我必须确保沙沙和其他人的安全。",
+                "external_action": "拍着灵静的肩膀轻声安慰。",
+                "speech_text": "别哭，我马上过来了，没事的，没事了，我到了，你朝后看……",
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "东方路向顾家明提出一起进入学校救人的请求。",
+            "interlocutor_info": {
+                "name": "东方路",
+                "relationship_tag": "知情者"
+            },
+            "trigger": {
+                "sender": "东方路",
+                "content": "东方路说：'我要进去救小婉。我可以跟你一块进去吗？'并推测顾家明是郁金香、简素言。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "谨慎的回应者",
+                "inner_monologue": "东方路知道了我的秘密，但我需要他的帮助，必须小心处理。",
+                "external_action": "笑了笑，随后点头同意。",
+                "speech_text": "事先说好，我不保证你可以活着出来……现在在学校里的人以日本的诸神无念为首，如果知道这个名字代表的含义，你后悔还来得及，关于这个情报，你最好趁现在打电话给炎黄觉醒的其他人，我得先回去换件衣服……",
+                "mood_state": "严肃"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明返回后与东方路会合，准备潜入学校。",
+            "interlocutor_info": {
+                "name": "东方路",
+                "relationship_tag": "知情者"
+            },
+            "trigger": {
+                "sender": "东方路",
+                "content": "东方路调侃说：'我以为你会扮成简素言的样子才过来……'",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "务实的行动者",
+                "inner_monologue": "没时间开玩笑，必须尽快行动进入学校。",
+                "external_action": "皱了眉头望着前方的山体，随后朝着学校走了过去。",
+                "speech_text": "你以为是美少女战士吗？说变装就立刻可以变。现在学校里的局势每一分钟都有可能出现变化，我们可以考虑一下从哪里进去了……要想进去，我希望你能跟得上……",
+                "mood_state": "专注"
+            }
+        }
+    ]
+}

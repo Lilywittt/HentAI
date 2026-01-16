@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "家明在诊所筹备期间悠闲等待，而灵静、沙沙、薰、雅涵和东方婉在挑选物品。",
+            "interlocutor_info": {
+                "name": "灵静、沙沙、薰、雅涵、东方婉",
+                "relationship_tag": "亲密伴侣和朋友"
+            },
+            "trigger": {
+                "sender": "灵静等人",
+                "content": "挑选诊所物品并发表看法",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "悠闲的旁观者",
+                "inner_monologue": "I have plenty of time to relax while they handle the details.",
+                "external_action": "拿着漫画书悠闲地等待",
+                "speech_text": null,
+                "mood_state": "relaxed"
+            }
+        },
+        {
+            "scene_snapshot": "家明在街道上为淘淘和其他人买玉米时，遇到劫匪持枪威胁。",
+            "interlocutor_info": {
+                "name": "劫匪",
+                "relationship_tag": "威胁者"
+            },
+            "trigger": {
+                "sender": "劫匪",
+                "content": "用霰弹枪抵住家明额头并命令他转身举手",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的受害者",
+                "inner_monologue": "I should stay calm and assess the situation; this guy is amateurish.",
+                "external_action": "翻着白眼转过身，双手举着玉米串",
+                "speech_text": null,
+                "mood_state": "calm"
+            }
+        },
+        {
+            "scene_snapshot": "东方路和小孟试图靠近并安抚劫匪，而家明被枪指着。",
+            "interlocutor_info": {
+                "name": "东方路、小孟",
+                "relationship_tag": "朋友和盟友"
+            },
+            "trigger": {
+                "sender": "东方路、小孟",
+                "content": "举起手并说“冷静、冷静”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "被动的观察者",
+                "inner_monologue": "I hope they don't escalate this; I need to wait for the right moment.",
+                "external_action": "保持姿势，观察周围",
+                "speech_text": null,
+                "mood_state": "alert"
+            }
+        },
+        {
+            "scene_snapshot": "劫匪情绪激动，准备上膛，家明在紧张氛围中。",
+            "interlocutor_info": {
+                "name": "劫匪",
+                "relationship_tag": "威胁者"
+            },
+            "trigger": {
+                "sender": "劫匪",
+                "content": "枪口压紧并上膛，发出“咔”声",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "无奈的应对者",
+                "inner_monologue": "This is getting out of hand; I might need to act soon.",
+                "external_action": "保持沉默，准备应对",
+                "speech_text": null,
+                "mood_state": "tense"
+            }
+        },
+        {
+            "scene_snapshot": "家明在劫匪上膛后，叹息并说话。",
+            "interlocutor_info": {
+                "name": "劫匪",
+                "relationship_tag": "威胁者"
+            },
+            "trigger": {
+                "sender": "劫匪",
+                "content": "上膛动作完成",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的终结者",
+                "inner_monologue": "I should end this before it gets worse.",
+                "external_action": null,
+                "speech_text": "唉……你真的抓错人了……",
+                "mood_state": "resigned"
+            }
+        }
+    ]
+}

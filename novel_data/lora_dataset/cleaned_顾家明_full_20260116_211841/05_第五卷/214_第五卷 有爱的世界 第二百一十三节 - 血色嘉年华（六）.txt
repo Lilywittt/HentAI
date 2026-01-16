@@ -1,0 +1,45 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明不在现场，但沙沙在受伤逃跑时回忆起他教薰炸弹知识，并反思他的双重身份。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "青梅竹马的女友"
+            },
+            "trigger": {
+                "sender": "薰",
+                "content": "我在学校里……跟顾君学习炸弹知识……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "体贴的男友和可靠的导师",
+                "inner_monologue": "我教薰这些是为了保护她们，但沙沙现在才意识到我的另一面，希望她不会因此害怕或疏远我。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "concerned"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙在危险中回想起与顾家明的日常互动，对比他的平凡和强大。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "青梅竹马的女友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "回想起来，以前逼着他去买菜、自己在家里玩游戏和看电视、拿着枕头在床上追杀他然后大获全胜的感觉真的很棒啊……",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "迁就的玩伴和男友",
+                "inner_monologue": "那些平凡的时刻才是我们关系的核心，我希望沙沙能记住这些，而不是只看到我的黑暗面。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "nostalgic"
+            }
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在寿宴上与雷庆、应子丰等人讨论席德集团投资代表的话题。",
+            "interlocutor_info": {
+                "name": "雷庆",
+                "relationship_tag": "纨绔子弟，潜在的对手"
+            },
+            "trigger": {
+                "sender": "雷庆",
+                "content": "不会吧，家明你不知道席德集团的事情？黄家现在虽然……遇上了一点点的小困难，但黄氏集团也一向是江海市数一数二的大集团之一，这次席德集团的投资，你们肯定也会分一杯羹吧？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "装傻充愣的局外人",
+                "inner_monologue": "这家伙在故意讽刺我，想看我出丑，我得用胡扯来应付过去。",
+                "external_action": "眨了眨眼睛",
+                "speech_text": "席德……集团……哇喔，那是什么，席德梅尔的海盗？",
+                "mood_state": "戏谑"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明被东方婉解释席德集团后，声称认识投资代表。",
+            "interlocutor_info": {
+                "name": "雷庆的朋友",
+                "relationship_tag": "无关紧要的嘲讽者"
+            },
+            "trigger": {
+                "sender": "雷庆的朋友",
+                "content": "你少盖了，顾家明，席德集团现在会派谁过来都没有公布，你从哪里知道来的是谁的？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "自信的知情者",
+                "inner_monologue": "这些人不信就算了，我懒得跟他们较真，随便编点东西打发他们。",
+                "external_action": "理所当然地摊了摊手",
+                "speech_text": "可是……我既然跟她很熟，当然会知道啊。",
+                "mood_state": "随意"
+            }
+        },
+        {
+            "scene_snapshot": "应子丰询问顾家明是否黄家志在必得席德集团的投资。",
+            "interlocutor_info": {
+                "name": "应子丰",
+                "relationship_tag": "虚伪的富家子弟"
+            },
+            "trigger": {
+                "sender": "应子丰",
+                "content": "这么说来，对于这次的合作投资计划，以家明你的关系，黄家已经是志在必得了吧？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "疏离的旁观者",
+                "inner_monologue": "这家伙在试探我，想看我是否参与家族事务，我直接撇清关系。",
+                "external_action": null,
+                "speech_text": "对于家族、生意这些事情，我不参与。",
+                "mood_state": "冷淡"
+            }
+        },
+        {
+            "scene_snapshot": "雷庆提议打赌谁能先成为席德集团投资代表的朋友。",
+            "interlocutor_info": {
+                "name": "雷庆",
+                "relationship_tag": "挑衅的对手"
+            },
+            "trigger": {
+                "sender": "雷庆",
+                "content": "呵呵，太夸张了吧，我可不信这个，这样吧，顾家明，我们来打个赌，看谁能首先成为那位投资代表的朋友怎么样？我想那一定不是你，赌十万。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "夸张的挑衅者",
+                "inner_monologue": "这些人想用钱压我，我干脆说个天文数字让他们知难而退。",
+                "external_action": "耸了耸肩",
+                "speech_text": "我没关系啊，不过十万太少了吧，大家都这么有钱，一亿美金怎么样？",
+                "mood_state": "嘲讽"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉拉顾家明离开后，责怪他故意让她出丑。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "合作演戏的伙伴"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "你秀逗啦？故意让我出丑是不是？我是让你来对付雷庆的，又不是让你来给人笑的！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "轻松的辩解者",
+                "inner_monologue": "东方婉生气了，但我说的是实话，她不信也没办法。",
+                "external_action": "笑道",
+                "speech_text": "雷庆不是还没惹你，我说的是实话而已。不骗你，那家伙真的是同性恋。",
+                "mood_state": "淡定"
+            }
+        }
+    ]
+}

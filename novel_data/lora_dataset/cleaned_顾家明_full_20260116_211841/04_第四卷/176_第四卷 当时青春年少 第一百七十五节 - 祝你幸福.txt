@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明（伪装为简素言）在黑暗的别墅中与大内长督进行激烈战斗，徒手拆房，占据上风。",
+            "interlocutor_info": {
+                "name": "大内长督",
+                "relationship_tag": "敌人（裴罗嘉教官）"
+            },
+            "trigger": {
+                "sender": "大内长督",
+                "content": "冲上前挥拳攻击",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "暴力战斗者",
+                "inner_monologue": "我故意被他击飞借力，准备反击。",
+                "external_action": "被击飞后以右手支撑，凌空旋转施展膝撞，随后疾跃而上进行狂风暴雨般的攻击",
+                "speech_text": null,
+                "mood_state": "兴奋"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明击败大内长督后，源赖朝创接近，双方在黑暗中对峙。",
+            "interlocutor_info": {
+                "name": "源赖朝创",
+                "relationship_tag": "敌人（裴罗嘉杀手，前世搭档）"
+            },
+            "trigger": {
+                "sender": "源赖朝创",
+                "content": "通过声音询问身份",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "威胁者",
+                "inner_monologue": "我知道他的弱点，可以用这个来压制他。",
+                "external_action": "枪口对准墙壁，准备射击",
+                "speech_text": "你可以有一次机会……杀手其实都只有一次机会，你要试试吗？还是想像大内君一样。",
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "源赖朝创威胁顾家明的亲友，顾家明揭露源赖朝创的私人秘密以反制。",
+            "interlocutor_info": {
+                "name": "源赖朝创",
+                "relationship_tag": "敌人（有弱点的杀手）"
+            },
+            "trigger": {
+                "sender": "源赖朝创",
+                "content": "威胁顾家明无法保护所有人，提及三个孩子、女老师等",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "知情者",
+                "inner_monologue": "我了解他的过去和弱点，这能让他退缩。",
+                "external_action": "目光变冷",
+                "speech_text": "再譬如在北海道的那个卖面姑娘？……她今年二十五岁，也到了嫁人的时候了……我需要说出她的名字吗？",
+                "mood_state": "讽刺"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明劝告源赖朝创向卖面姑娘求婚以保护她，源赖朝创沉默后离开。",
+            "interlocutor_info": {
+                "name": "源赖朝创",
+                "relationship_tag": "敌人（内心挣扎的杀手）"
+            },
+            "trigger": {
+                "sender": "源赖朝创",
+                "content": "沉默，表示不会参与顾家明的事情但警告如果卖面姑娘遇到意外",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "劝告者",
+                "inner_monologue": "我希望他幸福，这样就不会有更强的杀手之王来威胁我了。",
+                "external_action": "放下枪口",
+                "speech_text": "放心，我同样喜欢吃她煮的面，不过，假如你是真的不希望她受到伤害，尽早向她求婚，然后跟她坦白……",
+                "mood_state": "柔和"
+            }
+        },
+        {
+            "scene_snapshot": "方之天感谢顾家明并请求谈话，顾家明拒绝并离开。",
+            "interlocutor_info": {
+                "name": "方之天",
+                "relationship_tag": "盟友（炎黄觉醒高层）"
+            },
+            "trigger": {
+                "sender": "方之天",
+                "content": "请求谈谈，表示感谢并希望得到意见",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "疏离者",
+                "inner_monologue": "我不想卷入他们的麻烦，保持距离最好。",
+                "external_action": "露出迷人笑容，旋转沙漠之鹰放回口袋，挥手离开",
+                "speech_text": "结婚了就别来烦我，我已经有对象了。……我是奉公守法的良好市民……我还跟人有约，拜……",
+                "mood_state": "潇洒"
+            }
+        }
+    ]
+}

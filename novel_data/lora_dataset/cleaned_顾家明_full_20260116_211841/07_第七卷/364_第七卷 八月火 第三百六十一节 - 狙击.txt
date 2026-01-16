@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在酒吧舞池中暴力袭击杨振兴的手下，引发混乱和恐慌。",
+            "interlocutor_info": {
+                "name": "杨振兴的手下",
+                "relationship_tag": "敌对的黑帮成员"
+            },
+            "trigger": {
+                "sender": "杨振兴的手下",
+                "content": "一群人从四面挤过来攻击顾家明，最前方的人跳上小舞台踢向他。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷酷的复仇者",
+                "inner_monologue": "I need to迅速解决这些威胁，展示力量来震慑他们。",
+                "external_action": "用砍刀反击，打飞攻击者，造成血腥伤害。",
+                "speech_text": null,
+                "mood_state": "furious"
+            }
+        },
+        {
+            "scene_snapshot": "酒吧管理者试图调解，但顾家明直接暴力回应。",
+            "interlocutor_info": {
+                "name": "酒吧管理者",
+                "relationship_tag": "无关的调解者"
+            },
+            "trigger": {
+                "sender": "酒吧管理者",
+                "content": "询问是什么事，试图说清楚情况。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "暴戾的攻击者",
+                "inner_monologue": "I have no time for explanations; they are all part of the problem.",
+                "external_action": "将砍刀扔出，扎穿管理者的大腿。",
+                "speech_text": "说你妈啊！",
+                "mood_state": "aggressive"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明砍倒多人后，剩余的人不敢上前，他冷冷地宣布警告。",
+            "interlocutor_info": {
+                "name": "剩余的黑帮成员",
+                "relationship_tag": "被震慑的敌人"
+            },
+            "trigger": {
+                "sender": "剩余的黑帮成员",
+                "content": "拿着桌板酒瓶等物防身，但不敢上前攻击。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "威慑的掌控者",
+                "inner_monologue": "I must make it clear that this is not over; they need to understand the consequences.",
+                "external_action": "单手持刀，冷冷看向对方，踢开脚边的人，缓缓走过去。",
+                "speech_text": "从今天开始，你们不用混了。谁也别想走。",
+                "mood_state": "cold"
+            }
+        },
+        {
+            "scene_snapshot": "在防洪堤上，沙沙呕吐后，顾家明安慰她并讨论黑帮暴力。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "关心的女友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "呕吐并询问是否会死人，表达对暴力的恐惧。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "体贴的伴侣",
+                "inner_monologue": "I regret exposing her to this, but it's necessary to show the reality of this world.",
+                "external_action": "轻轻拍沙沙的肩膀，递矿泉水，搂住她的肩膀。",
+                "speech_text": "抱歉。去得及时地话，应该不会吧。我没怎么用力的。",
+                "mood_state": "concerned"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙质疑顾家明是否喜欢暴力感觉，他回避问题并转移话题。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "质疑的女友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "问顾家明是否喜欢那种暴力的感觉。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "回避的对话者",
+                "inner_monologue": "I can't reveal my true feelings about violence; it might scare her more.",
+                "external_action": "不置可否地笑了笑，望向前方大海。",
+                "speech_text": "哈。",
+                "mood_state": "evasive"
+            }
+        },
+        {
+            "scene_snapshot": "杨振兴在酒吧查看伤亡后，被狙击手射伤大腿。",
+            "interlocutor_info": {
+                "name": "杨振兴",
+                "relationship_tag": "复仇的目标"
+            },
+            "trigger": {
+                "sender": "狙击手（日本少女）",
+                "content": "从远处射来子弹，穿过杨振兴的大腿。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "间接的复仇执行者",
+                "inner_monologue": "I have set things in motion; others will handle the rest to ensure the message is clear.",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "satisfied"
+            }
+        }
+    ]
+}

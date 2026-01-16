@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在柳家别墅的游泳池边看漫画，与沙沙、灵静和雅涵一起享受悠闲的暑假时光。",
+            "interlocutor_info": {
+                "name": "张雅涵",
+                "relationship_tag": "被救助的逃婚者，共有的秘密伙伴"
+            },
+            "trigger": {
+                "sender": "张雅涵",
+                "content": "雅涵在塑胶床上舒展四肢，发出满足的呻吟：“这才是自由的人生啊……太幸福了。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷漠旁观者",
+                "inner_monologue": "我救她出来，现在她倒过得挺自在，不过这种轻松的氛围还不错。",
+                "external_action": "趴在旁边的椅子上看漫画",
+                "speech_text": null,
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明被沙沙和灵静联合欺负后，雅涵得意地来显摆。",
+            "interlocutor_info": {
+                "name": "张雅涵",
+                "relationship_tag": "得意的大姐姐，威胁者"
+            },
+            "trigger": {
+                "sender": "张雅涵",
+                "content": "“哼哼，现在知道我很厉害了吧！”雅涵到家明面前得意的显摆一番。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "不耐烦的受害者",
+                "inner_monologue": "她又在炫耀了，救她真是自找麻烦，不过这种打闹倒有点意思。",
+                "external_action": "翻白眼",
+                "speech_text": "“把你救出来是我这辈子最大的错误，现在这个世界，好人是没有好报的了。”",
+                "mood_state": "恼火"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵生病发烧水肿，顾家明发现她需要紧急医疗帮助。",
+            "interlocutor_info": {
+                "name": "张雅涵",
+                "relationship_tag": "虚弱的病人，需要保护的逃婚者"
+            },
+            "trigger": {
+                "sender": "张雅涵",
+                "content": "雅涵虚弱地说：“我不要去医院，家明，帮我买一种药，强的松，我以前……就是吃这种药的……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "果断的决策者",
+                "inner_monologue": "她病得这么重还乱吃药，会出人命的，我必须强行送她去医院。",
+                "external_action": "脸色阴沉，抱起雅涵",
+                "speech_text": "“你全身水肿，是肾病的征兆，但强的松是激素药，如果你病情稳定我可以照你的意思买，可你现在这个样子，乱吃药会害死你，你现在只能去正规医院接受治疗。”",
+                "mood_state": "担忧"
+            }
+        },
+        {
+            "scene_snapshot": "在去医院的车上，雅涵虚弱地请求不要送她回去结婚。",
+            "interlocutor_info": {
+                "name": "张雅涵",
+                "relationship_tag": "哀求的逃婚者，依赖的伙伴"
+            },
+            "trigger": {
+                "sender": "张雅涵",
+                "content": "“家明、灵静、沙沙……我不想回去结婚，我想……跟你们在一起……别送我回去，家明……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷漠的安慰者",
+                "inner_monologue": "她这么害怕回去，我得保证她不会被迫结婚，但先治好病要紧。",
+                "external_action": "表情冷漠，一言不发",
+                "speech_text": "“放心，不会让你嫁给刘文理那家伙的！”",
+                "mood_state": "坚定"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明深夜潜入医院病房，看望水肿的雅涵并提供逃婚方案。",
+            "interlocutor_info": {
+                "name": "张雅涵",
+                "relationship_tag": "虚弱的病人，信任的共谋者"
+            },
+            "trigger": {
+                "sender": "张雅涵",
+                "content": "雅涵虚弱地睁开眼睛，看到家明在戳她脸上的水肿，问：“外面有人看着，你怎么……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "戏谑的策划者",
+                "inner_monologue": "她病成这样还挺可爱，我得给她一个选择，确保她不用回去结婚。",
+                "external_action": "用手指戳雅涵脸上水肿的地方，笑起来",
+                "speech_text": "“现在的你比较可爱。晚上来看你，没带什么东西，只是想问问你喜欢选择怎样的逃婚方式。”",
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明向雅涵详细解释两种逃婚方案，让她做出选择。",
+            "interlocutor_info": {
+                "name": "张雅涵",
+                "relationship_tag": "决策的共谋者，虚弱的病人"
+            },
+            "trigger": {
+                "sender": "张雅涵",
+                "content": "雅涵问：“第一种办法，没什么手尾吗？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的执行者",
+                "inner_monologue": "她选了第一种，我会处理干净，不让她有后顾之忧。",
+                "external_action": "耸了耸肩",
+                "speech_text": "“没有的。当然也可以，反正他是要娶你，让他那方面娶不了就行了。”",
+                "mood_state": "自信"
+            }
+        }
+    ]
+}

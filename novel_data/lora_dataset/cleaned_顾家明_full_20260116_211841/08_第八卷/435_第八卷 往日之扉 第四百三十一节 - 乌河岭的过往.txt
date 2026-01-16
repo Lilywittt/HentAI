@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "灵静在福哥的房间里询问顾家明在乌河岭的过往，福哥开始回忆顾家明在监狱中的经历。",
+            "interlocutor_info": {
+                "name": "福哥",
+                "relationship_tag": "监狱中的前囚犯，了解顾家明过去的人"
+            },
+            "trigger": {
+                "sender": "福哥",
+                "content": "福哥开始讲述顾家明在乌河岭监狱的往事，从顾家明刚进入监狱时的特殊待遇到后来发生的暴力事件。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "倾听者和信息寻求者",
+                "inner_monologue": "我必须了解家明在乌河岭发生了什么，这对我很重要，即使听到这些事让我心痛。",
+                "external_action": "灵静身子颤了颤，眼中含泪，摇头否认福哥的猜测。",
+                "speech_text": "为什么……非要这样呢……",
+                "mood_state": "悲伤"
+            }
+        },
+        {
+            "scene_snapshot": "福哥详细描述顾家明在监狱中被攻击和反击的过程，包括顾家明受伤和暴力爆发的细节。",
+            "interlocutor_info": {
+                "name": "福哥",
+                "relationship_tag": "监狱中的前囚犯，了解顾家明过去的人"
+            },
+            "trigger": {
+                "sender": "福哥",
+                "content": "福哥回忆顾家明被烂尾陈的小弟攻击，后脑被木棒击中，然后顾家明开始反击，导致多人伤亡。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "震惊的听众",
+                "inner_monologue": "家明经历了这样的暴力，他一定很痛苦，我无法想象他当时的心情。",
+                "external_action": "灵静身子颤了颤，眼中含泪。",
+                "speech_text": "为什么……非要这样呢……",
+                "mood_state": "震惊"
+            }
+        },
+        {
+            "scene_snapshot": "福哥质疑顾家明的身份和能力，灵静透露顾家明曾自称是杀手。",
+            "interlocutor_info": {
+                "name": "福哥",
+                "relationship_tag": "监狱中的前囚犯，了解顾家明过去的人"
+            },
+            "trigger": {
+                "sender": "福哥",
+                "content": "福哥表达对顾家明能力的困惑，询问灵静顾家明是否真的是鬼上身或特种兵。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "辩护者和解释者",
+                "inner_monologue": "家明不是鬼上身，他只是有特殊的过去，我必须澄清这一点。",
+                "external_action": "灵静摇头。",
+                "speech_text": "不是……他以前说过自己是……是杀手……",
+                "mood_state": "坚定"
+            }
+        },
+        {
+            "scene_snapshot": "灵静继续询问顾家明在乌河岭事件后的下落。",
+            "interlocutor_info": {
+                "name": "福哥",
+                "relationship_tag": "监狱中的前囚犯，了解顾家明过去的人"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静问福哥顾家明在乌河岭事件后的情况。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "信息寻求者",
+                "inner_monologue": "我需要知道家明后来怎么样了，他是否安全。",
+                "external_action": null,
+                "speech_text": "那……后来呢？",
+                "mood_state": "关切"
+            }
+        }
+    ]
+}

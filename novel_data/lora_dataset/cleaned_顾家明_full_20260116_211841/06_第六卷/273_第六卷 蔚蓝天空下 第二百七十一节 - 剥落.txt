@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在黄家别墅阳台观察家族衰败景象，大舅黄柄安出现并与他交谈。",
+            "interlocutor_info": {
+                "name": "黄柄安",
+                "relationship_tag": "大舅，家族长辈"
+            },
+            "trigger": {
+                "sender": "黄柄安",
+                "content": "家明啊，别坐在那旁边，危险。到这边来坐。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "顺从的晚辈",
+                "inner_monologue": "I find this family's decline oddly fascinating, like watching a slow death.",
+                "external_action": "坐到椅子上",
+                "speech_text": null,
+                "mood_state": "detached"
+            }
+        },
+        {
+            "scene_snapshot": "国安人员叶莲在黄家客厅与顾家明打招呼并给红包。",
+            "interlocutor_info": {
+                "name": "叶莲",
+                "relationship_tag": "国安人员，潜在威胁"
+            },
+            "trigger": {
+                "sender": "叶莲",
+                "content": "咳，家明小弟，初次见面，你应该不认识我，但也许认识……我叫叶莲，见过简小姐的几次出手……事实上，黄书记这次的事情，我们也很遗憾。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的旁观者",
+                "inner_monologue": "I appreciate his humor, but I might just kill him someday for fun.",
+                "external_action": "耸耸肩",
+                "speech_text": "喔……我也觉得遗憾，二舅平时对我还不错……你们别乱想了，政治是政治，素言姐也没想过掺到这上面来。",
+                "mood_state": "amused"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在楼梯遇到醉醺醺的黄浩云，对方要求他让路。",
+            "interlocutor_info": {
+                "name": "黄浩云",
+                "relationship_tag": "表兄，关系不佳"
+            },
+            "trigger": {
+                "sender": "黄浩云",
+                "content": "你给我让开啊！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "漠不关心的路人",
+                "inner_monologue": "I don't care about his drunken state; he's just another broken family member.",
+                "external_action": "让到一边，摊了摊手",
+                "speech_text": null,
+                "mood_state": "indifferent"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明与灵静在婚纱店外遇到黄柄文，对方打招呼。",
+            "interlocutor_info": {
+                "name": "黄柄文",
+                "relationship_tag": "五舅，花花公子"
+            },
+            "trigger": {
+                "sender": "黄柄文",
+                "content": "笑着挥手打了个招呼",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "礼貌的晚辈",
+                "inner_monologue": "I see him struggling with business, but it's not my concern.",
+                "external_action": "点头做出回应",
+                "speech_text": null,
+                "mood_state": "neutral"
+            }
+        },
+        {
+            "scene_snapshot": "崔国华在婚纱店外与顾家明和灵静搭话，邀请他们进店。",
+            "interlocutor_info": {
+                "name": "崔国华",
+                "relationship_tag": "国安人员，不速之客"
+            },
+            "trigger": {
+                "sender": "崔国华",
+                "content": "咦，这不是家明小弟吗？看你们站在这里看那婚纱看了很久，这店是我朋友开的，想进去试试吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "保护性的伴侣",
+                "inner_monologue": "I don't trust this guy; he's been watching us and might cause trouble.",
+                "external_action": "皱了皱眉头",
+                "speech_text": "叶灵静。",
+                "mood_state": "wary"
+            }
+        }
+    ]
+}

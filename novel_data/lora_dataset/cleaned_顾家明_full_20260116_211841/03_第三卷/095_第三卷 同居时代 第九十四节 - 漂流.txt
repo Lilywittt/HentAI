@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明和灵静在漂流的小船上醒来，面对海上的日出和生存挑战。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静从家明怀里醒过来，揉了揉眼睛，慵懒地一笑：“家明……早安。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "体贴照顾者",
+                "inner_monologue": "我需要确保灵静的安全和舒适，先处理基本需求。",
+                "external_action": "抱起灵静坐在椅子上，拉好毛毯，走向炮艇后方房间。",
+                "speech_text": "“早安，灵静你先坐会，我去找找有没有什么可以吃的，另外，你的衣服应该也已经烘干了，我去拿过来。”",
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "灵静撒娇让顾家明帮她穿衣服，两人讨论星梦号和沙沙的情况。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静却笑着不肯去接，只是从毛毯中舒展出秀美的双足，伸了个懒腰，让整条毛毯都滑到了她胸部以下：“家明，我要你帮我穿……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "顺从照顾者",
+                "inner_monologue": "灵静在依赖我，我需要安抚她的情绪，同时保持轻松。",
+                "external_action": "为灵静穿上裤袜和长裙。",
+                "speech_text": "“放心吧，求救信号已经发出去，现在这个时候，星梦号估计已经在海军的护卫下返航了，沙沙不会有事的。”",
+                "mood_state": "安抚"
+            }
+        },
+        {
+            "scene_snapshot": "灵静表达对未来的憧憬，提到赚钱和危险，引发顾家明的担忧。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "“我和沙沙要每天不穿衣服在你面前走来走去，一直把家明你榨干……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "谨慎保护者",
+                "inner_monologue": "灵静在开玩笑，但我担心金钱会腐蚀她们的纯净心灵。",
+                "external_action": "汗颜，随后轻轻搂住灵静。",
+                "speech_text": "“呃，灵静你喜欢这样吗？如果我能弄到钱……”",
+                "mood_state": "担忧"
+            }
+        },
+        {
+            "scene_snapshot": "灵静打断顾家明的话，表达不希望他冒险赚钱，情绪激动。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "“不要！”灵静陡然大叫着打断了他的话。见家明扭头疑惑地望过来，似乎又微有些歉意，“呃，我是说……我不想让家明你用危险的办法去赚钱。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "安慰支持者",
+                "inner_monologue": "灵静在担心我的安全，我需要缓解她的焦虑，避免她过度自责。",
+                "external_action": "笑着舒了口气，轻轻地搂住了她。",
+                "speech_text": null,
+                "mood_state": "安抚"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明修理无线电，灵静收拾船只，两人分工合作。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "吃过了早餐之后，两个人也就忙碌起各自的工作起来。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "务实行动者",
+                "inner_monologue": "我需要修复无线电以确保安全，同时支持灵静将这里当作新家。",
+                "external_action": "披着雨衣，冒雨出去修理船只的无线电，处理雨水。",
+                "speech_text": null,
+                "mood_state": "专注"
+            }
+        },
+        {
+            "scene_snapshot": "灵静兴奋地发现远处有小岛，叫醒顾家明。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "船外的甲板上陡然传来灵静的喊声，灵静拉着他的手跑上甲板，兴奋地指着远方的海面：“家明，你看、你看……”",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "警觉反应者",
+                "inner_monologue": "灵静在喊叫，可能有紧急情况，我需要立刻查看。",
+                "external_action": "从床上跳起来，三步并作两步冲出去，差点和灵静相撞。",
+                "speech_text": null,
+                "mood_state": "警觉"
+            }
+        }
+    ]
+}

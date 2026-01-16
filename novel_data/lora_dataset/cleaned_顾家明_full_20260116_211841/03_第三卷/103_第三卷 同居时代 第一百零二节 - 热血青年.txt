@@ -1,0 +1,159 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "东方婉在教室里质问顾家明为什么没交社团申请表。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "班长/爱管闲事的同学"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "“顾家明，你为什么没有把参加社团的表格交上来！？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "无辜/困惑的学生",
+                "inner_monologue": "我明明已经参加社团了，她怎么还来问这个？",
+                "external_action": "微感疑惑地说道",
+                "speech_text": "“什么表格啊？”",
+                "mood_state": "困惑"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明解释自己已参加其他社团，并递上自建社团的申请表。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "班长/爱管闲事的同学"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "“其它的……你怎么这么没有集体荣誉感啊？我们旅游社有什么不好吗，大家一个班的人，你非要去参加别人的社团……呃？这是什么？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "轻松/幽默的同学",
+                "inner_monologue": "她看到这个社团名字肯定会生气，不过我觉得挺有趣的。",
+                "external_action": "笑了笑",
+                "speech_text": "“哦。” “但是我已经参加其它的社团了啊。”",
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉看到自建社团申请表后生气离开，顾家明无奈耸肩。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "班长/爱管闲事的同学"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "“自己建的社团？未来超尖端科技及地球资源可持续性发展……顾家明，你觉得这个玩笑有意思吗？哼，我就不相信学校会通过这么荒谬的社团！”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "无奈/自嘲的同学",
+                "inner_monologue": "她果然没幽默感，这么有趣的名字都欣赏不了。",
+                "external_action": "无奈地耸了耸肩",
+                "speech_text": "“名字挺不错的啊，既前卫又时尚，没有幽默感的人还真是麻烦……”",
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉在篮球场边拦住旷课的顾家明，指责他并威胁扣分。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "班长/爱管闲事的同学"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "“顾家明！你又旷课！”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "辩解/无辜的学生",
+                "inner_monologue": "她又来管我了，真麻烦，我得找个理由搪塞过去。",
+                "external_action": "笑道",
+                "speech_text": "“我跟老师请过假了。”",
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明试图用救过东方婉来缓和关系，但东方婉坚持原则。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "班长/爱管闲事的同学"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "“哼，你每次都说头痛，每次都是一三五的最后一节课，哪有那么巧的！谁都知道你是故意旷课的啦。我不知道你在学校有什么关系，老师睁一只眼闭一只眼是一回事，但是你再敢这样做，我一定要扣你的分！”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "无奈/试图讲理的同学",
+                "inner_monologue": "她真是固执，连救命之恩都不管用，我得换个策略。",
+                "external_action": "无奈地摊了摊手",
+                "speech_text": "“拜托，班长同学，我好像没有惹你吧……岛上的时候我还救过你呢……”",
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明拒绝打篮球并调转车头，东方婉生气跺脚。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "班长/爱管闲事的同学"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "“你骗人，哪里有不会打篮球的男孩子，好吧，你既然不愿意打，回去自习也好，告诉你，要是我们回去的时候你不在班上，我还是要扣你的分……喂，你干嘛……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "有趣/逃避的同学",
+                "inner_monologue": "她越生气我越觉得有趣，还是赶紧溜走吧。",
+                "external_action": "有趣地笑了起来，调转了车头",
+                "speech_text": "“我不会打篮球。”",
+                "mood_state": "有趣"
+            }
+        },
+        {
+            "scene_snapshot": "黄浩兵叫住顾家明，请求他帮忙打篮球友谊赛。",
+            "interlocutor_info": {
+                "name": "黄浩兵",
+                "relationship_tag": "亲戚/不太熟的家人"
+            },
+            "trigger": {
+                "sender": "黄浩兵",
+                "content": "“家明，你来得正好，我们正跟七班的人打一场友谊赛，胡伟刚刚受伤了，找不到合适的替补，要去教室喊人就太久了，你来帮帮忙。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "犹豫/推脱的亲戚",
+                "inner_monologue": "黄浩兵怎么也来掺和，我得找个借口拒绝，但不好直接驳他面子。",
+                "external_action": "停下了自行车",
+                "speech_text": "“可是……我还有事啊……”",
+                "mood_state": "犹豫"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明被黄浩兵强行拉去篮球场，无奈同意只打十分钟。",
+            "interlocutor_info": {
+                "name": "黄浩兵",
+                "relationship_tag": "亲戚/不太熟的家人"
+            },
+            "trigger": {
+                "sender": "黄浩兵",
+                "content": "“别闹了，你会有什么事，来啦来啦……” “放心放心，我们的队友素质比他们好得多，你只要随便传传球就好，哈哈，看我们轻松摆平这一切……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "无奈/妥协的亲戚",
+                "inner_monologue": "他们这是合伙逼我，算了，就应付一下，十分钟后赶紧走。",
+                "external_action": "推着自行车无奈地走过去",
+                "speech_text": "“那……我不会打篮球……” “呃，那……我还有事，只打十分钟……”",
+                "mood_state": "无奈"
+            }
+        }
+    ]
+}

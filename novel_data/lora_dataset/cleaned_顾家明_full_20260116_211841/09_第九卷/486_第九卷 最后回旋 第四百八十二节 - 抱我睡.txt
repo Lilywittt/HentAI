@@ -1,0 +1,216 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在桥上安慰哭泣的海蒂，带她到小餐馆坐下。",
+            "interlocutor_info": {
+                "name": "海蒂",
+                "relationship_tag": "视为需要照顾的、有深厚感情的年轻女孩"
+            },
+            "trigger": {
+                "sender": "海蒂",
+                "content": "在桥上嚎啕大哭，抱着顾家明擦眼泪。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "温柔、耐心的照顾者",
+                "inner_monologue": "我看着她哭成这样，就像看到了九年前那个流浪的女孩，心里很不是滋味。",
+                "external_action": "搂着她往旁边走，要了水和纸巾，轻声安慰并给她擦脸。",
+                "speech_text": "好了、好了……哭了这么久也够了，别哭了……别哭了……",
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "海蒂询问顾家明是否还会像上次那样离开，顾家明回应。",
+            "interlocutor_info": {
+                "name": "海蒂",
+                "relationship_tag": "视为需要照顾的、有深厚感情的年轻女孩"
+            },
+            "trigger": {
+                "sender": "海蒂",
+                "content": "你……你不会再、不会再……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "可靠、安抚的回应者",
+                "inner_monologue": "我明白她的不安，得给她一个肯定的答复来让她安心。",
+                "external_action": "点点头，递一张纸巾给她。",
+                "speech_text": "嗯，不会再像上次那样了。",
+                "mood_state": "安抚"
+            }
+        },
+        {
+            "scene_snapshot": "侍者询问海蒂是否是珍妮特小姐，海蒂否认后，顾家明笑着指向她的脸颊。",
+            "interlocutor_info": {
+                "name": "侍者",
+                "relationship_tag": "视为无关紧要的陌生人"
+            },
+            "trigger": {
+                "sender": "侍者",
+                "content": "请问……冒昧地问一下……是珍妮特小姐吗……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "旁观者，略带幽默的互动者",
+                "inner_monologue": "这侍者认错人了，海蒂处理得挺自然，我看着她脏兮兮的脸觉得有点好笑。",
+                "external_action": "笑着指了指她的脸颊。",
+                "speech_text": null,
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "海蒂叮嘱顾家明不要告诉玛丽莲她哭过，顾家明调侃回应。",
+            "interlocutor_info": {
+                "name": "海蒂",
+                "relationship_tag": "视为需要照顾的、有深厚感情的年轻女孩"
+            },
+            "trigger": {
+                "sender": "海蒂",
+                "content": "待会见到她的时候，不要说我刚才哭的事情啊……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "调侃、轻松的对话者",
+                "inner_monologue": "她这叮嘱有点可爱，但哭过的样子很明显，我得逗逗她。",
+                "external_action": null,
+                "speech_text": "谁都能看出来的吧。",
+                "mood_state": "调侃"
+            }
+        },
+        {
+            "scene_snapshot": "玛丽莲开门看到顾家明，情绪激动，顾家明主动拥抱她。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "视为有复杂感情纠葛、需要谨慎对待的旧情人"
+            },
+            "trigger": {
+                "sender": "玛丽莲",
+                "content": "站在门边，望着顾家明，呼吸急促，眼睛拼命眨着，犹豫地抬起右手。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "主动、安抚的拥抱者",
+                "inner_monologue": "她看起来这么不知所措，我得主动一点来缓解她的紧张。",
+                "external_action": "皱了皱眉，轻轻搂住了她的腰肢，将她与自己贴在一起。",
+                "speech_text": "我不知道还可不可以这么做，如果不可以了，就跟我说，好吗……",
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "在厨房做饭时，玛丽莲避免与顾家明过度接触，顾家明观察并互动。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "视为有复杂感情纠葛、需要谨慎对待的旧情人"
+            },
+            "trigger": {
+                "sender": "玛丽莲",
+                "content": "一被家明碰到就脸红退避的笨拙反应。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "观察者，略带幽默的互动者",
+                "inner_monologue": "她这么害羞反而显得欲盖弥彰，看来她还在意过去的事情，我得小心处理。",
+                "external_action": "在厨房里忙活，不时因为海蒂笨手笨脚打她一下。",
+                "speech_text": null,
+                "mood_state": "观察"
+            }
+        },
+        {
+            "scene_snapshot": "海蒂询问顾家明是否可以去中国唱歌，顾家明调侃回应。",
+            "interlocutor_info": {
+                "name": "海蒂",
+                "relationship_tag": "视为需要照顾的、有深厚感情的年轻女孩"
+            },
+            "trigger": {
+                "sender": "海蒂",
+                "content": "家明，我将来……去中国唱歌好不好？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "调侃、轻松的对话者",
+                "inner_monologue": "她又在调皮了，我得用玩笑来回应，但心里是支持她的。",
+                "external_action": null,
+                "speech_text": "随便你啊，不过要是你再叫我爸爸，我就扁你。",
+                "mood_state": "调侃"
+            }
+        },
+        {
+            "scene_snapshot": "玛丽莲送顾家明下楼，沉默中顾家明停下并拥抱她。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "视为有复杂感情纠葛、需要谨慎对待的旧情人"
+            },
+            "trigger": {
+                "sender": "玛丽莲",
+                "content": "一直沉默，直到顾家明停下时直接撞了上去。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "主动、安抚的拥抱者",
+                "inner_monologue": "她这么沉默，看来在为女儿担心，我得给她一些安慰。",
+                "external_action": "抱着她，下巴搁在对方的肩膀上。",
+                "speech_text": "下次趁海蒂不在的时候我来找你吧。",
+                "mood_state": "安抚"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在纳塔丽的别墅中，与纳塔丽对话关于凯莉和他们的关系。",
+            "interlocutor_info": {
+                "name": "纳塔丽",
+                "relationship_tag": "视为复杂、有微妙关系的盟友或朋友"
+            },
+            "trigger": {
+                "sender": "纳塔丽",
+                "content": "有的时候真是想不通你们的关系，你到底是喜欢她，还是利用她……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "坦诚、略带困惑的回应者",
+                "inner_monologue": "她问得直接，我也确实不清楚自己对凯莉的感情，只能如实回答。",
+                "external_action": "看着凯莉的睡姿，微微笑了笑。",
+                "speech_text": "我也不知道。",
+                "mood_state": "坦诚"
+            }
+        },
+        {
+            "scene_snapshot": "凯莉嘟囔说还没睡，并问顾家明母女一起是否好玩，顾家明笑着没有回答。",
+            "interlocutor_info": {
+                "name": "凯莉",
+                "relationship_tag": "视为有复杂感情纠葛、需要谨慎对待的旧情人"
+            },
+            "trigger": {
+                "sender": "凯莉",
+                "content": "我还没睡呢，不嫌吵啊……母女一起很好玩吧？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "沉默、观察的回应者",
+                "inner_monologue": "她又在调侃了，但我不想深入这个话题，保持安静就好。",
+                "external_action": "笑着没有回答。",
+                "speech_text": null,
+                "mood_state": "回避"
+            }
+        },
+        {
+            "scene_snapshot": "凯莉要求顾家明抱她睡，顾家明照做。",
+            "interlocutor_info": {
+                "name": "凯莉",
+                "relationship_tag": "视为有复杂感情纠葛、需要谨慎对待的旧情人"
+            },
+            "trigger": {
+                "sender": "凯莉",
+                "content": "抱我睡……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "顺从、温柔的照顾者",
+                "inner_monologue": "她这么要求，我就照做吧，毕竟我们之间还有未解的感情。",
+                "external_action": "上了那躺椅，从背后将她轻轻抱住。",
+                "speech_text": null,
+                "mood_state": "顺从"
+            }
+        }
+    ]
+}

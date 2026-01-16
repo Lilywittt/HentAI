@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "叶灵静在教室外看到顾家明被几个高中生围住，准备带他去没人的地方。",
+            "interlocutor_info": {
+                "name": "高中生们",
+                "relationship_tag": "欺负朋友的恶霸"
+            },
+            "trigger": {
+                "sender": "高中生们",
+                "content": "推搡着顾家明走出教室，骂骂咧咧地威胁他。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "勇敢的保护者",
+                "inner_monologue": "我必须阻止他们伤害家明，不能让他们得逞。",
+                "external_action": "大叫着冲出来，试图去拉顾家明的手，但被拦住。",
+                "speech_text": "你们想干什么！",
+                "mood_state": "愤怒"
+            }
+        },
+        {
+            "scene_snapshot": "高中生们嘲笑叶灵静要告诉老师，她趁机反击。",
+            "interlocutor_info": {
+                "name": "高中生们",
+                "relationship_tag": "轻视她的对手"
+            },
+            "trigger": {
+                "sender": "高中生们",
+                "content": "嘲笑她说“告诉老师”，并扭头不注意。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "果断的战士",
+                "inner_monologue": "机会来了，我要用怀沙教的方法打倒他们。",
+                "external_action": "猛地一脚踢在一个高中生的小腿上，双手用力推倒另一个人。",
+                "speech_text": null,
+                "mood_state": "果断"
+            }
+        },
+        {
+            "scene_snapshot": "教导主任出现后，叶灵静不顾主任的吼叫，关心顾家明和柳怀沙的伤势。",
+            "interlocutor_info": {
+                "name": "顾家明和柳怀沙",
+                "relationship_tag": "亲密的朋友"
+            },
+            "trigger": {
+                "sender": "顾家明和柳怀沙",
+                "content": "两人撞在一起，嘴唇受伤流血。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "关心的朋友",
+                "inner_monologue": "天啊，他们受伤了，我得赶紧看看严不严重。",
+                "external_action": "蹲下来查看两人的伤口。",
+                "speech_text": "没事吧？",
+                "mood_state": "担忧"
+            }
+        },
+        {
+            "scene_snapshot": "三人在草坪上罚站，柳怀沙开玩笑说顾家明夺走了她的初吻。",
+            "interlocutor_info": {
+                "name": "柳怀沙",
+                "relationship_tag": "调皮的好友"
+            },
+            "trigger": {
+                "sender": "柳怀沙",
+                "content": "开玩笑说顾家明在众目睽睽下夺走了她的初吻。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "羞涩的少女",
+                "inner_monologue": "怀沙又在乱说话，好害羞，但习惯了也不能太在意。",
+                "external_action": "轻啐一声，脸上布满红潮。",
+                "speech_text": null,
+                "mood_state": "羞涩"
+            }
+        },
+        {
+            "scene_snapshot": "叶灵静自嘲自己的乖宝宝名声被毁，顾家明提议旷课。",
+            "interlocutor_info": {
+                "name": "顾家明和柳怀沙",
+                "relationship_tag": "一起冒险的伙伴"
+            },
+            "trigger": {
+                "sender": "顾家明",
+                "content": "提议旷课，说站着没意思。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "慧黠的叛逆者",
+                "inner_monologue": "旷课听起来很刺激，和朋友们一起肯定很有趣。",
+                "external_action": "眼中放出光芒。",
+                "speech_text": "这下子，我的乖宝宝名声可全被你们害得丢光了呢。",
+                "mood_state": "兴奋"
+            }
+        }
+    ]
+}

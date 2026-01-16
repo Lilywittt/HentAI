@@ -1,0 +1,26 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在游戏厅玩拳皇九五，假装笨拙操作游戏角色。",
+            "interlocutor_info": {
+                "name": "曹东峰",
+                "relationship_tag": "嫉妒的追求者"
+            },
+            "trigger": {
+                "sender": "曹东峰",
+                "content": "曹东峰带了四五个小混混掀开布帘，走了进来。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "懦弱无能的吃软饭男友",
+                "inner_monologue": "我正无聊地装笨玩游戏，曹东峰又带人来找茬了，得继续扮演好这个猥琐形象来气他。",
+                "external_action": "手指笨拙无比的按按钮，预备操纵着游戏里的人物完成三局的同归于尽。",
+                "speech_text": null,
+                "mood_state": "amused"
+            }
+        }
+    ]
+}

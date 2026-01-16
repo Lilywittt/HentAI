@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "凯莉在考场中情绪爆发，指责顾家明欺骗她两年，并命令八名保镖杀他。",
+            "interlocutor_info": {
+                "name": "凯莉",
+                "relationship_tag": "网络好友/潜在威胁"
+            },
+            "trigger": {
+                "sender": "凯莉",
+                "content": "你骗了我两年！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的分析者",
+                "inner_monologue": "她怎么突然这样？我得想想她到底知道了什么，不能轻易暴露。",
+                "external_action": "耸耸肩，轻声说话，皱眉思考",
+                "speech_text": "那就是没得谈了？你只是猜测而已……",
+                "mood_state": "警惕"
+            }
+        },
+        {
+            "scene_snapshot": "凯莉命令保镖杀顾家明，薰和雅涵试图干预，但凯莉坚持。",
+            "interlocutor_info": {
+                "name": "凯莉",
+                "relationship_tag": "疯狂的网络好友"
+            },
+            "trigger": {
+                "sender": "凯莉",
+                "content": "你们帮我杀了他！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "无奈的旁观者",
+                "inner_monologue": "她真是疯了，我得想办法应对，但不能在这里动手。",
+                "external_action": "对薰做手势表示不用管",
+                "speech_text": null,
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "保镖围住顾家明，拳王询问是否准备好，凯莉兴奋地解释。",
+            "interlocutor_info": {
+                "name": "拳王安德鲁",
+                "relationship_tag": "敌对执行者"
+            },
+            "trigger": {
+                "sender": "拳王安德鲁",
+                "content": "Are you ready?",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "机智的逃避者",
+                "inner_monologue": "她是在测试我，我不能直接暴露实力，得用点小聪明脱身。",
+                "external_action": "微微苦笑，扔外衣，拿椅子攻击",
+                "speech_text": "接我大摔碑手！",
+                "mood_state": "机警"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明假装胆怯，爬上窗台威胁要跳楼，然后转身跳下逃跑。",
+            "interlocutor_info": {
+                "name": "拳王安德鲁",
+                "relationship_tag": "追击者"
+            },
+            "trigger": {
+                "sender": "拳王安德鲁",
+                "content": "步步紧逼",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "表演性的弱者",
+                "inner_monologue": "得赶紧跑，不能在这里纠缠，后山是个好地方。",
+                "external_action": "爬上窗台，转身跳下",
+                "speech_text": "你再过来我就跳下去。",
+                "mood_state": "狡黠"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在后山树林中与保镖周旋，最终反击拳王安德鲁。",
+            "interlocutor_info": {
+                "name": "拳王安德鲁",
+                "relationship_tag": "被击败的对手"
+            },
+            "trigger": {
+                "sender": "拳王安德鲁",
+                "content": "抓住你了！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "隐藏的高手",
+                "inner_monologue": "时间不多了，得快点解决他们，头痛真烦人。",
+                "external_action": "跃起，用右手拍倒安德鲁，甩动手腕",
+                "speech_text": "我提醒过他了，不过……快点吧，我头痛，而且我们的时间不多……",
+                "mood_state": "紧迫"
+            }
+        }
+    ]
+}

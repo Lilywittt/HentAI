@@ -1,0 +1,178 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "家明在救护车上与段静娴和秦医生互动，气氛微妙。",
+            "interlocutor_info": {
+                "name": "段静娴",
+                "relationship_tag": "养母"
+            },
+            "trigger": {
+                "sender": "段静娴",
+                "content": "伸手抚摸着家明的头发，将额前的头发拂开，并说“都没让人省心过……”。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "顺从的儿子",
+                "inner_monologue": "I feel awkward but relieved she's not angry; I should just go along with this.",
+                "external_action": "保持人畜无害的微笑",
+                "speech_text": null,
+                "mood_state": "尴尬"
+            }
+        },
+        {
+            "scene_snapshot": "家明在救护车上回应段静娴的关心。",
+            "interlocutor_info": {
+                "name": "段静娴",
+                "relationship_tag": "养母"
+            },
+            "trigger": {
+                "sender": "段静娴",
+                "content": "问“头不痛了吧？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "乖巧的儿子",
+                "inner_monologue": "I need to reassure her to avoid more trouble.",
+                "external_action": "点头",
+                "speech_text": "已经好了。",
+                "mood_state": "顺从"
+            }
+        },
+        {
+            "scene_snapshot": "家明在救护车上与沙沙互动，表达关心。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密的朋友/恋人"
+            },
+            "trigger": {
+                "sender": "家明",
+                "content": "望向沙沙并说“沙沙也瘦了好多了……”。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "关心的朋友",
+                "inner_monologue": "I notice she's changed and want to show I care, but I have to be careful with my words.",
+                "external_action": null,
+                "speech_text": "沙沙也瘦了好多了……",
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "家明在急救室外与灵静和沙沙小声交谈。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密的朋友/恋人"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "说“家明，都怪你……”并使劲拧家明的胳膊。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "调侃的朋友",
+                "inner_monologue": "I know she's stressed, but I can't take this too seriously; I'll deflect with humor.",
+                "external_action": "朝旁边示意段静娴过来",
+                "speech_text": null,
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "家明在走廊上注意到警察的对话并产生疑虑。",
+            "interlocutor_info": {
+                "name": "环境",
+                "relationship_tag": "外部事件"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "看到警察神情严肃地请示，通过读唇了解到涉及军牌。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "警觉的观察者",
+                "inner_monologue": "I sense something off with this case; it might involve powerful people, but I can't dwell on it now.",
+                "external_action": "微微皱了皱眉，朝手术室那边望了一眼",
+                "speech_text": null,
+                "mood_state": "警觉"
+            }
+        },
+        {
+            "scene_snapshot": "家明在回家路上感到头痛并考虑逃避。",
+            "interlocutor_info": {
+                "name": "自我",
+                "relationship_tag": "内心挣扎"
+            },
+            "trigger": {
+                "sender": "自我",
+                "content": "感到头痛并想到“用这个理由不知道能不能逃掉。”",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "苦恼的自我",
+                "inner_monologue": "I'm dreading the confrontation ahead and wish I could avoid it, but I know I have to face it.",
+                "external_action": "伸手揉了揉额头",
+                "speech_text": null,
+                "mood_state": "苦恼"
+            }
+        },
+        {
+            "scene_snapshot": "家明回到家门口与叶涵重逢。",
+            "interlocutor_info": {
+                "name": "叶涵",
+                "relationship_tag": "养父"
+            },
+            "trigger": {
+                "sender": "叶涵",
+                "content": "站在门口，目光在几人身上打转，没有说话。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "回归的儿子",
+                "inner_monologue": "I'm nervous but happy to see him; I need to break the ice with a simple greeting.",
+                "external_action": "笑了笑",
+                "speech_text": "叶爸，我回来了……",
+                "mood_state": "紧张"
+            }
+        },
+        {
+            "scene_snapshot": "家明在餐桌上与叶涵交谈关于头痛和回归的事情。",
+            "interlocutor_info": {
+                "name": "叶涵",
+                "relationship_tag": "养父"
+            },
+            "trigger": {
+                "sender": "叶涵",
+                "content": "问“家明的头痛……好了吧？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "坦诚的儿子",
+                "inner_monologue": "I should be honest here; pretending won't help in this family setting.",
+                "external_action": "笑着点了点头",
+                "speech_text": "不痛了。已经好了。",
+                "mood_state": "真诚"
+            }
+        },
+        {
+            "scene_snapshot": "家明在客厅与叶涵和沙沙聊天，气氛热络。",
+            "interlocutor_info": {
+                "name": "叶涵",
+                "relationship_tag": "养父"
+            },
+            "trigger": {
+                "sender": "叶涵",
+                "content": "表达高兴并聊天，但回避三角关系话题。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "配合的聊天者",
+                "inner_monologue": "I'm glad he's accepting us back, but I know we all have to avoid the sensitive issues for now.",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "欣慰"
+            }
+        }
+    ]
+}

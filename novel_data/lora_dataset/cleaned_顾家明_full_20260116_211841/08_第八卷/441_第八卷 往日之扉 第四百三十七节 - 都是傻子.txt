@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在远处观察一场激烈的战斗，涉及慧清、纳塔丽与敌人维克托、奎托斯等人的交锋。",
+            "interlocutor_info": {
+                "name": "小孟",
+                "relationship_tag": "战友/同伴"
+            },
+            "trigger": {
+                "sender": "小孟",
+                "content": "很激动吧？那一枪是你打中的。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的观察者",
+                "inner_monologue": "我理解小孟在安慰我，但这一枪只是巧合，我更在意的是家明曾经面对过这样的危险。",
+                "external_action": "全身发抖，几乎脱力，坐在台阶上擦脸。",
+                "speech_text": "谢谢你。",
+                "mood_state": "恐惧"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在战斗结束后，与小孟讨论家明的过去和当前感受。",
+            "interlocutor_info": {
+                "name": "小孟",
+                "relationship_tag": "战友/同伴"
+            },
+            "trigger": {
+                "sender": "小孟",
+                "content": "幽暗天琴里的资料，家明他是最厉害的级别，比起安妮斯小姐来，也没有逊色的...假如今天有他在...以前他怕你们担心，都不说的吧，别多想了，他是为你们好。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "反思的幸存者",
+                "inner_monologue": "我知道家明是为了保护我们才隐瞒这些，但现在我无法停止去想他经历的恐怖，这让我感到更加孤独和寒冷。",
+                "external_action": "望着城市灯光，全身发抖。",
+                "speech_text": "我知道，如果我们问他，他一定会说的，不过当时我们都知道他不会希望我们问，所以我们商量好了不去想这些事，可是...到了现在，总想知道得更多一点...",
+                "mood_state": "悲伤"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明独自反思与灵静的关系和过往的温暖。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "姐妹/情感羁绊"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "城市变得冰冷，回忆失去延续可能，无法面对灵静。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "孤独的追忆者",
+                "inner_monologue": "我无法面对灵静，因为我们都失去了家明，拾起过往的碎片也无法让心温暖，我们都是傻子。",
+                "external_action": "坐在台阶上发抖，望着城市。",
+                "speech_text": null,
+                "mood_state": "绝望"
+            }
+        }
+    ]
+}

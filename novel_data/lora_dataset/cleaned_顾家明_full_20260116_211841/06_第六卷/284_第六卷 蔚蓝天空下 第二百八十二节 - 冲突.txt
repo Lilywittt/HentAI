@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明目睹车祸后，面对微胖妇女的指责和沙沙的冲动反应，保持冷静观察。",
+            "interlocutor_info": {
+                "name": "微胖妇女",
+                "relationship_tag": "无理取闹的陌生人"
+            },
+            "trigger": {
+                "sender": "微胖妇女",
+                "content": "尖刻斥骂车祸，指责雅涵开车撞到她的狗，并威胁要查看驾驶证。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的旁观者",
+                "inner_monologue": "I'm annoyed by this woman's unreasonable behavior, but I'll let the others handle it for now.",
+                "external_action": "站在汽车另一侧一脸不爽",
+                "speech_text": null,
+                "mood_state": "annoyed"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙与微胖妇女的儿子发生冲突，顾家明迅速介入制止司机。",
+            "interlocutor_info": {
+                "name": "壮硕司机",
+                "relationship_tag": "潜在的威胁"
+            },
+            "trigger": {
+                "sender": "壮硕司机",
+                "content": "司机动了一下想帮忙，伸手想推开沙沙。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "果断的干预者",
+                "inner_monologue": "I need to neutralize this threat quickly to protect my friends.",
+                "external_action": "突然出现在沙沙身边，握住司机左手小指",
+                "speech_text": null,
+                "mood_state": "alert"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在雅涵劝说下，决定平息冲突以避免影响生日聚会。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲近的朋友/关心的人"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "拉住沙沙，叫顾家明算了，提到今天是小妈生日，不想惹麻烦。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "配合的伙伴",
+                "inner_monologue": "I agree with her; it's best to avoid unnecessary drama on this special day.",
+                "external_action": "放开司机的手指，举手退了一步，回头一笑",
+                "speech_text": "算啦，这辆车也早该报废了。",
+                "mood_state": "resigned"
+            }
+        },
+        {
+            "scene_snapshot": "微胖妇女继续挑衅，顾家明观察局势并表达随意的态度。",
+            "interlocutor_info": {
+                "name": "微胖妇女",
+                "relationship_tag": "持续挑衅的陌生人"
+            },
+            "trigger": {
+                "sender": "微胖妇女",
+                "content": "拒绝和解，指责沙沙推她，并威胁叫交警和警察。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "轻松的旁观者",
+                "inner_monologue": "This is getting ridiculous; I'll let my friends decide how to deal with it.",
+                "external_action": null,
+                "speech_text": "我什么意见都没有，随你们怎么玩。",
+                "mood_state": "amused"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在雅涵嗔怪后，笑指前方母子并暗示冲突的荒谬性。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲近的朋友/关心的人"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "嗔顾家明一眼，说这不是玩。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "幽默的评论者",
+                "inner_monologue": "I can't help but laugh at how petty this whole situation is.",
+                "external_action": "忍不住笑了起来，伸手指了指前方的那对母子",
+                "speech_text": "不就是玩吗，呵呵……",
+                "mood_state": "amused"
+            }
+        }
+    ]
+}

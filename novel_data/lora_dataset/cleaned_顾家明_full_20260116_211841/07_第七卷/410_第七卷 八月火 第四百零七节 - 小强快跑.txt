@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在超市货架间追击应子丰，遭遇一名警察的伏击。",
+            "interlocutor_info": {
+                "name": "警察",
+                "relationship_tag": "阻碍者"
+            },
+            "trigger": {
+                "sender": "警察",
+                "content": "从货柜后冲出举枪射击",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的杀手",
+                "inner_monologue": "我扔的香蕉皮正好派上用场，这种小把戏也能干扰他。",
+                "external_action": "扔出香蕉皮，在警察踩中后一脚踢飞他",
+                "speech_text": null,
+                "mood_state": "戏谑"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在超市仓库遇到一群黑社会成员持刀围攻。",
+            "interlocutor_info": {
+                "name": "黑社会老大",
+                "relationship_tag": "应子丰的爪牙"
+            },
+            "trigger": {
+                "sender": "黑社会老大",
+                "content": "认出顾家明并下令砍死他",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "无情的处决者",
+                "inner_monologue": "应子丰叫来的杂鱼，正好清理掉。",
+                "external_action": "抬枪射击，将冲在最前面的人击飞",
+                "speech_text": null,
+                "mood_state": "冷酷"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在菜市场追击应子丰，遭遇楼顶狙击手的拦截。",
+            "interlocutor_info": {
+                "name": "狙击手",
+                "relationship_tag": "应家的特工"
+            },
+            "trigger": {
+                "sender": "狙击手",
+                "content": "开枪射击阻止顾家明前进",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "精准的反击者",
+                "inner_monologue": "用镜子反射阳光干扰他，再用手枪还击，不能让他拖慢我。",
+                "external_action": "用镜子反射阳光，同时用手枪射击楼顶",
+                "speech_text": null,
+                "mood_state": "专注"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明追上狙击手，在空中进行近身搏杀。",
+            "interlocutor_info": {
+                "name": "狙击手",
+                "relationship_tag": "逃亡的敌人"
+            },
+            "trigger": {
+                "sender": "狙击手",
+                "content": "跳楼逃跑",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "致命的追击者",
+                "inner_monologue": "他逃不掉的，在空中解决他。",
+                "external_action": "撞破窗户扑出，在空中用匕首攻击并割断绳子",
+                "speech_text": null,
+                "mood_state": "决绝"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明追上应子丰乘坐的出租车，一拳击碎车窗。",
+            "interlocutor_info": {
+                "name": "应子丰",
+                "relationship_tag": "必杀的目标"
+            },
+            "trigger": {
+                "sender": "应子丰",
+                "content": "乘车试图逃离",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "压迫的终结者",
+                "inner_monologue": "终于抓到你了，看你还往哪里跑。",
+                "external_action": "从市场柱子后冲出，跳起一拳击碎出租车车窗",
+                "speech_text": "你……还能跑吗？",
+                "mood_state": "嘲讽"
+            }
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在房间边缘用狙击枪观察对面大楼的战斗，试图确认伯爵的身份。",
+            "interlocutor_info": {
+                "name": "凯莉",
+                "relationship_tag": "麻烦的盟友"
+            },
+            "trigger": {
+                "sender": "凯莉",
+                "content": "分析顾家明的身份，提出他可能是吸血鬼或外星人的假设，并讨论一七五八号的目标转向顾家明。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的观察者",
+                "inner_monologue": "我很难理解她对完美女性的执念，但简素言这个伪装契合了她的想象，她宁愿接受这个幻象。",
+                "external_action": "拿起狙击枪站在房间边缘朝对面大楼看。",
+                "speech_text": null,
+                "mood_state": "困惑"
+            }
+        },
+        {
+            "scene_snapshot": "凯莉解释一七五八号逃离实验室并带人前往江海，可能针对顾家明。",
+            "interlocutor_info": {
+                "name": "凯莉",
+                "relationship_tag": "麻烦的盟友"
+            },
+            "trigger": {
+                "sender": "凯莉",
+                "content": "透露一七五八号带了改造者离开，并猜测裴罗嘉杀手会抓顾家明亲近的人作为筹码。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "警觉的策划者",
+                "inner_monologue": "裴罗嘉一直是我心中的阴影，但凯莉提醒了我，现在江海的力量足以对抗他们，事情或许没那么复杂。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "深思"
+            }
+        },
+        {
+            "scene_snapshot": "凯莉提出计划，建议在五月一号将保护的人集中，并主动出击对付一七五八号。",
+            "interlocutor_info": {
+                "name": "凯莉",
+                "relationship_tag": "麻烦的盟友"
+            },
+            "trigger": {
+                "sender": "凯莉",
+                "content": "建议制定计划，在对手动手前找到并消灭一七五八号，并提议后续攻击裴罗嘉。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "务实的执行者",
+                "inner_monologue": "她说得对，关心则乱，我确实有些胆小了，现在有这么多力量在江海，或许可以主动解决这个威胁。",
+                "external_action": null,
+                "speech_text": "这样说起来，事情就简单了。",
+                "mood_state": "决心"
+            }
+        },
+        {
+            "scene_snapshot": "凯莉兴奋地描述后续计划，包括攻击日本和造成大规模破坏。",
+            "interlocutor_info": {
+                "name": "凯莉",
+                "relationship_tag": "麻烦的盟友"
+            },
+            "trigger": {
+                "sender": "凯莉",
+                "content": "叫嚣着要去日本干掉御守沧，并提议用电脑病毒造成大规模伤亡。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "震惊的旁观者",
+                "inner_monologue": "她的疯狂计划让我仿佛看到了末日预言成真，这种极端手段太可怕了。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "惊骇"
+            }
+        }
+    ]
+}

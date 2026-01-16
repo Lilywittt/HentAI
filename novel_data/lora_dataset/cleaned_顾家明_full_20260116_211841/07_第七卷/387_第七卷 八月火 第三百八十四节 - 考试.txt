@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明和灵静在酒店门口争论是否参加音乐家集会，灵静因出国提议而生气。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "同居女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "你明明知道我的想法的，还带我过来这里……我觉得好像被卖掉了一样。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "安抚者",
+                "inner_monologue": "我这么做是为了给她最好的机会，但她不理解我的苦心。",
+                "external_action": "沉默着叹了口气",
+                "speech_text": "那就……别去了吧……",
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵从酒店出来邀请他们进去，灵静赌气决定参加。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "朋友/爱慕者"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "你们过来了，那么……进去吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "回避者",
+                "inner_monologue": "我不能进去，我需要一个人冷静一下。",
+                "external_action": "在原地挥了挥手",
+                "speech_text": "那个……我还是不进去了吧。去对面超市买点东西，等你们出来。",
+                "mood_state": "压抑"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明独自在酒店小巷里发泄情绪，击打墙壁并呕吐。",
+            "interlocutor_info": {
+                "name": "环境",
+                "relationship_tag": "压力源"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "灵静进入酒店后，顾家明独自留在街边。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "孤独者",
+                "inner_monologue": "我必须释放这些压抑的情绪，否则我无法承受。",
+                "external_action": "一拳打碎墙壁瓷砖，又打了一拳留下印记，然后呕吐",
+                "speech_text": null,
+                "mood_state": "痛苦"
+            }
+        },
+        {
+            "scene_snapshot": "灵静从酒店出来后踢电线杆受伤，顾家明抱起她并安慰。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "同居女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "就是你叫我来的，就是你叫我来的……你有病啊、脑子秀逗啦，你个猪，猪啊啊啊啊啊……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "保护者",
+                "inner_monologue": "她生气是因为在乎我，我必须照顾好她。",
+                "external_action": "笑着去扶她，被她推开后横抱起她",
+                "speech_text": "那我也希望你能有机会在这些大师面前露露脸嘛，这是你一直以来的心愿好不好……",
+                "mood_state": "温柔"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在雅涵别墅中讨论灵静的演奏和出国问题。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "朋友/爱慕者"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "我觉得你最近怪怪的。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "掩饰者",
+                "inner_monologue": "我不能告诉她真相，这会伤害所有人。",
+                "external_action": "笑了一笑",
+                "speech_text": "没什么事，我只是……希望她可以多一个选择的机会，她喜欢这个东西，所以我希望她有最好的条件，就是这样而已。",
+                "mood_state": "隐瞒"
+            }
+        }
+    ]
+}

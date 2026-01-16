@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "东方婉在迪卡网络公司观察表姐处理黑客勒索事件时，意外看到顾家明在窗外送花。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "麻烦的富家女"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "东方婉看到顾家明在窗外送花，内心产生一系列推测和情绪。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷漠的旁观者",
+                "inner_monologue": "她怎么在这里？看起来是打工送花，生活窘迫吗？黄家对他太差了，难怪他性格孤僻。",
+                "external_action": "左看右看很感兴趣的样子",
+                "speech_text": null,
+                "mood_state": "curious"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在电梯里被东方婉追上，两人对话关于刚才的网络战斗失败。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "多管闲事的对手"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "东方婉追上顾家明，试图安慰和开导他关于集体合作的重要性。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷淡的失败者",
+                "inner_monologue": "她又在说教了，真烦人。输就是输，找借口有什么用。",
+                "external_action": "白了东方婉一眼",
+                "speech_text": "输了就是输了，有什么可光荣的。",
+                "mood_state": "dismissive"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉继续争论集体合作，顾家明反驳说集体拖后腿。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "固执的劝导者"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "东方婉强调集体荣誉感，希望顾家明认识到团队的重要性。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "孤僻的天才",
+                "inner_monologue": "她根本不懂，那些配合的人太差劲了，还不如我一个人来。",
+                "external_action": null,
+                "speech_text": "嗯，刚才之所以会输，就是因为那些配合的人太差劲了，果然所谓的集体就是专门拖人后腿的东西……还是我一个人来比较好……",
+                "mood_state": "cynical"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉气急败坏地指责顾家明推卸责任，两人争吵走出写字楼。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "愤怒的批评者"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "东方婉指责顾家明失败后找借口，是最差劲的男人。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "不耐烦的辩驳者",
+                "inner_monologue": "她真烦，一直唧唧歪歪的，懒得理她。",
+                "external_action": null,
+                "speech_text": "刚才劝你不要找借口的就是我。唧唧歪歪，你是最差劲的女人……",
+                "mood_state": "annoyed"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明和东方婉在停车场遇到许毅婷被流氓骚扰，东方婉挺身而出。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "正义的干预者"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "东方婉看到许毅婷被欺负，主动上前质问流氓。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的观察者",
+                "inner_monologue": "又来了，麻烦事不断。先看看情况吧，反正有保镖在。",
+                "external_action": "目光扫向四周的建筑物",
+                "speech_text": null,
+                "mood_state": "resigned"
+            }
+        }
+    ]
+}

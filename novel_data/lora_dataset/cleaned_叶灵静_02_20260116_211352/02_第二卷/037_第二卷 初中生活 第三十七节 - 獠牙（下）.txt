@@ -1,0 +1,45 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "叶灵静在警察保护下安全，家明在救护车上询问她的情况。",
+            "interlocutor_info": {
+                "name": "家明",
+                "relationship_tag": "关心和依赖的朋友"
+            },
+            "trigger": {
+                "sender": "家明",
+                "content": "对了，沙沙，他们说要去抓灵静，没有抓到吧？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "被保护者和朋友",
+                "inner_monologue": "我没事，多亏了爸爸和警察的保护，家明不用担心我。",
+                "external_action": null,
+                "speech_text": "嗯，你放心吧。",
+                "mood_state": "安心"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙向家明描述叶灵静被保护的情况，提到叶爸爸的英勇。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密的朋友和同伴"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "我们一失踪，他们就报了案，灵静倒是差点被抓了一次，正好叶爸爸去接她，把那些家伙全都打跑掉了，后来就有警察保护着……叶爸爸好厉害哦，当然，家明你也很厉害。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "被提及的受保护者",
+                "inner_monologue": "爸爸真的很厉害，保护了我，我很感激他，也庆幸自己安全。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "感激"
+            }
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "家明在酒店房间被许毅婷敲门借钱。",
+            "interlocutor_info": {
+                "name": "许毅婷",
+                "relationship_tag": "表妹"
+            },
+            "trigger": {
+                "sender": "许毅婷",
+                "content": "敲门并请求借钱。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的旁观者",
+                "inner_monologue": "她看起来需要帮助，但我不多问，只是提供必要的支持。",
+                "external_action": "点头同意，拿外衣给她披上，陪她去银行取钱。",
+                "speech_text": "你等等，我身上没带这么多。现在跟你去银行取可以吗？",
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "家明在酒店走廊遇到醉酒的雅涵。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "熟悉的朋友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "踉跄冲出宴会厅并跑向家明。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "无奈的照顾者",
+                "inner_monologue": "她又喝醉了，情绪低落，我得处理这个麻烦。",
+                "external_action": "拎住她的衣领让她呕吐，捏鼻子皱眉。",
+                "speech_text": "你又怎么啦，雅涵美女，现在九点都没到，你就喝得这么醉，那是酒会又不是酒吧。",
+                "mood_state": "嫌恶"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵向家明撒娇并倾诉家庭压力。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "熟悉的朋友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "抱怨家明不找她，并倾诉母亲坟墓和父亲逼婚。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "理性的分析者",
+                "inner_monologue": "她又在借酒发泄，但这次情况更严重，涉及家族利益。",
+                "external_action": "捏她脸颊拉到变形，扶她起来。",
+                "speech_text": "你滚开，看看你现在这个样子...我放手了哦。",
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵提议挑选家明当老公。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "熟悉的朋友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "提议在黄家人中挑家明当老公。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "务实的拒绝者",
+                "inner_monologue": "这个提议不切实际，我对黄家没价值，而且会连累彼此。",
+                "external_action": "扛起她走向电梯。",
+                "speech_text": "我对黄家来说没什么意义，你挑了不也等于没挑，而且大家是自己人，我们没必要连累彼此了吧...",
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "黄浩云出现并指责家明。",
+            "interlocutor_info": {
+                "name": "黄浩云",
+                "relationship_tag": "家族成员"
+            },
+            "trigger": {
+                "sender": "黄浩云",
+                "content": "沉声指责家明并威胁。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "沉默的应对者",
+                "inner_monologue": "黄浩云误会了，但雅涵的胡闹让情况更尴尬。",
+                "external_action": "尚未辩解，被雅涵打断。",
+                "speech_text": null,
+                "mood_state": "尴尬"
+            }
+        }
+    ]
+}

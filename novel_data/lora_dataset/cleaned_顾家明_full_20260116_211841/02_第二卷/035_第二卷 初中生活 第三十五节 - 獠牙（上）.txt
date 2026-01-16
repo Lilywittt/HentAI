@@ -1,0 +1,45 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在黑暗的小广场上，手持大哥大与曹景豪通话，周围有爆炸和混乱。",
+            "interlocutor_info": {
+                "name": "曹景豪",
+                "relationship_tag": "敌对的黑帮头目"
+            },
+            "trigger": {
+                "sender": "曹景豪",
+                "content": "打电话询问猴子情况，并听到爆炸声后质问发生了什么。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的威胁者",
+                "inner_monologue": "I need to instill maximum fear in him to control the situation and ensure he doesn't retaliate effectively.",
+                "external_action": "手持大哥大，站在阴影中，可能观察着曹景豪的反应。",
+                "speech_text": "嗯，这个砖头原来的主人叫猴子吗？很遗憾，他恐怕没办法跟你说话了，虽然在他临死的时候，的确是想要跟你通个电话的样子。",
+                "mood_state": "calculating"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明继续与曹景豪通话，解释自己的行为风格。",
+            "interlocutor_info": {
+                "name": "曹景豪",
+                "relationship_tag": "恐惧的敌人"
+            },
+            "trigger": {
+                "sender": "曹景豪",
+                "content": "颤抖地问出“你……是谁……”，表现出恐惧。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "神秘的杀手模仿者",
+                "inner_monologue": "I can use this opportunity to reinforce the psychological impact and keep him off balance.",
+                "external_action": "可能保持静止或轻微移动，以维持威慑。",
+                "speech_text": "我是谁……呵呵，准确来说，应该是我现在这种行为所代表的意义，那是一位在黑暗世界很著名的杀手的风格，砍下敌人的头，给予他们最大的恐惧感，当然，你应该不会知道他是谁……其实这也已经不重要了……",
+                "mood_state": "menacing"
+            }
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在酒店洗手间与天雨正则讨论异能事件，应子丰突然闯入进行威胁。",
+            "interlocutor_info": {
+                "name": "天雨正则",
+                "relationship_tag": "盟友/异能界同行"
+            },
+            "trigger": {
+                "sender": "天雨正则",
+                "content": "我注意到你刚才笑了，怎么？对不死者也能觉得不屑吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的分析者",
+                "inner_monologue": "我经历过太多生死，异能不过是工具，没有无敌的存在，只是不够了解罢了。",
+                "external_action": "淡然回应",
+                "speech_text": "世界上没有无敌的异能，觉得它厉害，只是对它不够了解而已。",
+                "mood_state": "淡然"
+            }
+        },
+        {
+            "scene_snapshot": "应子丰进入洗手间，以居高临下的姿态警告顾家明。",
+            "interlocutor_info": {
+                "name": "应子丰",
+                "relationship_tag": "纨绔子弟/威胁者"
+            },
+            "trigger": {
+                "sender": "应子丰",
+                "content": "聊聊？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "隐忍的旁观者",
+                "inner_monologue": "这家伙又来烦我，不过看在应海生的面子上，不能杀他，就让他说完吧。",
+                "external_action": "同意对话",
+                "speech_text": "喔，说吧。",
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "应子丰长篇大论地贬低顾家明，警告他不要痴心妄想。",
+            "interlocutor_info": {
+                "name": "应子丰",
+                "relationship_tag": "纨绔子弟/威胁者"
+            },
+            "trigger": {
+                "sender": "应子丰",
+                "content": "我不喜欢你。...这是忠告。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "嘲讽的观察者",
+                "inner_monologue": "这家伙真是幼稚，只查到表面信息就敢来威胁我，如果是他哥哥应子岚，或许会更谨慎些。",
+                "external_action": "嘴角勾勒出嘲讽的笑容，在心中摇头",
+                "speech_text": null,
+                "mood_state": "嘲讽"
+            }
+        },
+        {
+            "scene_snapshot": "泰国人闯入洗手间，攻击应子丰并挑战顾家明。",
+            "interlocutor_info": {
+                "name": "泰国人",
+                "relationship_tag": "敌人/麻烦制造者"
+            },
+            "trigger": {
+                "sender": "泰国人",
+                "content": "你！跟我打！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的应对者",
+                "inner_monologue": "又是这些泰国人，第二波麻烦来了，应子丰这下倒霉了。",
+                "external_action": "对着镜子翻白眼，遗憾地摇头",
+                "speech_text": null,
+                "mood_state": "遗憾"
+            }
+        },
+        {
+            "scene_snapshot": "天雨正则出手攻击泰国人，顾家明在一旁观察。",
+            "interlocutor_info": {
+                "name": "天雨正则",
+                "relationship_tag": "盟友/异能界同行"
+            },
+            "trigger": {
+                "sender": "天雨正则",
+                "content": "从什么时候开始，你可以容忍阿猫阿狗都在你耳朵边叫嚣了？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "幽默的回应者",
+                "inner_monologue": "天雨正则还是这么直接，不过他说得对，这些家伙确实像阿猫阿狗。",
+                "external_action": "淡淡一笑",
+                "speech_text": "自从被我女朋友逼着加入保护小动物协会之后，我就变得很好说话。",
+                "mood_state": "轻松"
+            }
+        }
+    ]
+}

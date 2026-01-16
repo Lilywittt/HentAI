@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明（化名简素言）面对一群摩托车骑手要求赔偿车辆刮花，但对方拒绝并试图强行带走她。",
+            "interlocutor_info": {
+                "name": "老黑",
+                "relationship_tag": "威胁者"
+            },
+            "trigger": {
+                "sender": "老黑",
+                "content": "小五，直接把她塞到车里，免得出什么麻烦，我们走！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的谈判者",
+                "inner_monologue": "我不想浪费时间，武馆那边去晚了叶妈妈又要炒冷饭，灵静的父母会等我们吃饭，这让我过意不去。",
+                "external_action": "皱了皱眉头就想出手",
+                "speech_text": null,
+                "mood_state": "不耐烦"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明轻松击倒小五和另一名骑手，展示强大武力以震慑对方。",
+            "interlocutor_info": {
+                "name": "小五",
+                "relationship_tag": "攻击者"
+            },
+            "trigger": {
+                "sender": "小五",
+                "content": "小五被击倒，铁链被顾家明夺走并挥向另一骑手",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "优雅的战士",
+                "inner_monologue": "这些人不识相，我只能用武力解决，但我不想伤得太重，只要他们赔钱就行。",
+                "external_action": "用铁链击倒骑手，铁链缠绕在手臂上，掠了掠耳边的长发，淡淡一笑",
+                "speech_text": "抱歉，我说过，今天没把事情说清楚，这里谁都走不了……决定赔钱了吗？",
+                "mood_state": "从容"
+            }
+        },
+        {
+            "scene_snapshot": "另一名男子阿木持球棒攻击顾家明，但被轻易制服并断臂。",
+            "interlocutor_info": {
+                "name": "阿木",
+                "relationship_tag": "攻击者"
+            },
+            "trigger": {
+                "sender": "阿木",
+                "content": "去你妈的！直接冲了过去",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "果断的防卫者",
+                "inner_monologue": "又来了一个，我得快速解决，避免更多麻烦，但控制力道别出人命。",
+                "external_action": "抓住阿木的手臂，拉断成几截，接住球棒击倒骑手",
+                "speech_text": null,
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明用铁链缠住逃跑的摩托车，将其掀翻，并最终制服老黑。",
+            "interlocutor_info": {
+                "name": "老黑",
+                "relationship_tag": "逃跑者"
+            },
+            "trigger": {
+                "sender": "老黑",
+                "content": "摩托车发动试图逃跑",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "无情的追击者",
+                "inner_monologue": "想跑？我说过谁都走不了，必须让他们付出代价，拿回磁碟和赔偿。",
+                "external_action": "用铁链缠住摩托车后轮使其翻倒，捡起球棒打趴老黑",
+                "speech_text": "我说过什么？",
+                "mood_state": "冷酷"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明从倒地男子身上拿走钱包和身份证，并让东方婉取回磁碟后驾车离开。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "旁观者"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "跑到那正在呻吟的中年男人身上拿回了磁碟",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "淡然的善后者",
+                "inner_monologue": "事情解决了，磁碟拿回来了，钱也赔了，可以回去武馆了，别让灵静父母等太久。",
+                "external_action": "从男子身上掏出了钱包，拿走了所有的钱以及他们的身份证",
+                "speech_text": null,
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "在车上，东方婉小心地向顾家明道谢，顾家明淡然回应并让她们下车。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "感激的旁观者"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "时不时小心地望望简素言淡雅的侧脸",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "疏离的护送者",
+                "inner_monologue": "东方婉看起来很害怕，但事情已经结束，没必要多留，让她们下车吧。",
+                "external_action": "微微侧过头",
+                "speech_text": "怎么了？",
+                "mood_state": "淡然"
+            }
+        }
+    ]
+}

@@ -1,0 +1,140 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在办公室上网，与雅涵聊天，同时通过网络与凯莉交谈。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲近的朋友/关心的人"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "你脸上有黑眼圈。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "关心但调侃的朋友",
+                "inner_monologue": "我知道她最近很累，但不想让她担心，用玩笑转移话题。",
+                "external_action": "揉了揉眼睛",
+                "speech_text": "我知道……",
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵提到最近在想问题，但没有多说。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲近的朋友/关心的人"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "最近在想一些问题。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "调侃的朋友",
+                "inner_monologue": "她又开始叹气了，估计又是关于喜欢的人，不想重复同样的话题。",
+                "external_action": "轻轻地挑了挑眉毛",
+                "speech_text": "哼哼，思春……你喜欢的那个人，你还没跟他表白吗？",
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵抱怨自己是木鱼脑袋，并转移话题到电脑聊天。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲近的朋友/关心的人"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "我说你们干嘛用德语聊天啊，我看都看不懂，你背着灵静她们跟人偷情还用我的电脑……老实交代，对面那个是美女吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "戏谑的朋友",
+                "inner_monologue": "她又在瞎猜了，用玩笑回应，让她别打扰我和凯莉的交流。",
+                "external_action": "笑了笑",
+                "speech_text": "当然就是为了让你看不懂。她何止是美女啊，还淫荡兼开放呢……",
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵逞强不睡觉，顾家明强制让她休息。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲近的朋友/关心的人"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "不睡！我告诉你，别在淑女面前用那样的词语……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "强势但关心的朋友",
+                "inner_monologue": "她太累了，需要休息，不能再让她胡闹。",
+                "external_action": "顺手揪住了她的头发，将她拽到沙发前扔上去",
+                "speech_text": "别吵，你害得我都无法正常地跟美女交流了，好好睡，五点我叫你。",
+                "mood_state": "坚定"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明通过网络与凯莉交谈，讨论黑客攻击和私人话题。",
+            "interlocutor_info": {
+                "name": "凯莉·佛尼姆",
+                "relationship_tag": "神秘的网络对手/有趣的联系人"
+            },
+            "trigger": {
+                "sender": "凯莉·佛尼姆",
+                "content": "你当心了，我的中文已经学得差不多，既然确定你在中国，说不定什么时候就能揪出你来，美女老师，到时候我要好好跟你玩玩哦。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的网络交流者",
+                "inner_monologue": "凯莉又在挑衅了，但我不担心，保持轻松回应。",
+                "external_action": null,
+                "speech_text": "只要你玩得起，我很乐意。",
+                "mood_state": "淡定"
+            }
+        },
+        {
+            "scene_snapshot": "凯莉提到黑客攻击，顾家明准备结束对话。",
+            "interlocutor_info": {
+                "name": "凯莉·佛尼姆",
+                "relationship_tag": "神秘的网络对手/有趣的联系人"
+            },
+            "trigger": {
+                "sender": "凯莉·佛尼姆",
+                "content": "啊，有点事，有位朋友的网站被攻击了。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "务实的网络交流者",
+                "inner_monologue": "她有事要处理，正好结束对话，专注于自己的事情。",
+                "external_action": null,
+                "speech_text": "那么再见了。",
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "付严杰的黑客攻击影响到学校网络，顾家明的电脑被争夺控制权。",
+            "interlocutor_info": {
+                "name": "付严杰（间接）",
+                "relationship_tag": "无关的干扰者"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "有人要跟他抢电脑的控制权。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "警觉的技术使用者",
+                "inner_monologue": "有人入侵网络，干扰了我的电脑，需要处理这个麻烦。",
+                "external_action": "有些苦恼地皱起了眉头",
+                "speech_text": null,
+                "mood_state": "烦恼"
+            }
+        }
+    ]
+}

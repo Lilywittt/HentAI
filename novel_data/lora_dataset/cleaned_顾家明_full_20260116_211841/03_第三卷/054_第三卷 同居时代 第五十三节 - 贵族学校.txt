@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "雅涵开车送顾家明、灵静和沙沙去圣心贵族学校，讨论他们独立生活的计划。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "关心但有些担忧的姐姐般朋友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "那么……你们真的打算好了不住宿舍？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "轻松旁观者",
+                "inner_monologue": "雅涵又在操心我们的事了，不过她总是这样好心。",
+                "external_action": "在副驾驶位上有些好笑地望着窗外",
+                "speech_text": null,
+                "mood_state": "amused"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵提议让三人住到她家，灵静和沙沙拒绝后，灵静解释原因并掐了顾家明一下。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密且调皮的同伴"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "伸手过去，在他的肩膀上猛掐了一下",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "忍痛但配合的同伴",
+                "inner_monologue": "灵静这丫头又闹脾气了，不过看她得意的样子也挺有趣。",
+                "external_action": "疼得苦了一张脸",
+                "speech_text": null,
+                "mood_state": "resigned"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵介绍圣心学院时，顾家明观察周围的车辆，雅涵误以为他对名车感兴趣。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "误解他兴趣的姐姐般朋友"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "路边偶尔可以看到停靠或行驶的名牌轿车",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "表面好奇的观察者",
+                "inner_monologue": "这些车防盗系统怎么样？我多久能破解开？得练练手了。",
+                "external_action": "左顾右盼",
+                "speech_text": null,
+                "mood_state": "calculating"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵提到防狼喷剂是顾家明送的礼物，并开玩笑说下次也送她一瓶。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "半开玩笑的姐姐般朋友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "下次也送我一瓶。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "无辜但暗藏得意的赠送者",
+                "inner_monologue": "雅涵也想要？看来我准备的礼物挺实用，不过她应该用不上吧。",
+                "external_action": "一脸无辜",
+                "speech_text": null,
+                "mood_state": "smug"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵板起脸吓走搭讪的男生后，在楼道里恢复笑容，顾家明直言被吓到并挨打。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "严厉但亲近的姐姐般朋友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "呵呵，刚才没吓到你们吧？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "直言不讳的同伴",
+                "inner_monologue": "雅涵这变脸速度真快，不过她装严肃的样子确实挺唬人。",
+                "external_action": "头上便挨了一记猛敲",
+                "speech_text": "吓到了。",
+                "mood_state": "playful"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明独自走回广场时，看到一个女孩下车被男生搭讪，他认出她并假装看风景。",
+            "interlocutor_info": {
+                "name": "未知女孩（瓷娃娃般容貌）",
+                "relationship_tag": "令人不安的旧识"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "望见那女孩样貌的瞬间，家明觉得四周都有一种冤鬼缠身的阴森感",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "回避的旁观者",
+                "inner_monologue": "怎么是她？真倒霉，得装作没看见，免得惹上麻烦。",
+                "external_action": "左顾右盼地做出看风景的脸色",
+                "speech_text": null,
+                "mood_state": "uneasy"
+            }
+        }
+    ]
+}

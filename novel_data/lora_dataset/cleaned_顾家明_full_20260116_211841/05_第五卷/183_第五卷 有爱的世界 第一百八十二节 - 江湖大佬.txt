@@ -1,0 +1,140 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "家明在酒店阳台看资料时，灵静从后方搂住他提醒下楼吃饭。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "走到阳台，灵静从后方笑着搂住了家明的脖子，刚刚洗过澡的少女浑身舒爽清凉，身体亲昵地挨在一起，倒也不显得热：“准备下去了哦。”",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "轻松随和的男友",
+                "inner_monologue": "I enjoy this moment of closeness with her, even though I'm focused on the documents.",
+                "external_action": "家明翻看着资料，笑了笑回应。",
+                "speech_text": "“唔，看完这一页，沙沙还在洗澡？”",
+                "mood_state": "relaxed"
+            }
+        },
+        {
+            "scene_snapshot": "灵静看不懂资料并随手扔掉，家明解释其价值并开玩笑。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "“哼哼。”灵静在他耳边如同小猫般的哼了两声，“这是什么东西呢？我怎么看不懂，唔、好像医学报告……”她说着，从一旁的纸袋里又拿出一份东西，翻了两下，搂住家明摇了摇头：“还是看不懂……”随手扔回纸袋。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "幽默调侃的伴侣",
+                "inner_monologue": "I find her curiosity endearing, but I'll keep the details light to avoid worrying her.",
+                "external_action": "家明失笑一声，在那水嫩的樱唇上轻轻地碰了一下。随后抓起纸袋，扔回房间里的大床上。",
+                "speech_text": "“嗯，我也不太懂，不过……这个算是国家最高级的机密吧。”家明随口答道，也是笑着摇了摇头：“找到合适的买家，这份东西卖几个亿应该还是没什么问题。”",
+                "mood_state": "amused"
+            }
+        },
+        {
+            "scene_snapshot": "灵静担心机密文件的安全，家明不以为意但灵静坚持整理好。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "被家明抱住了肩膀，灵静笑着锤了他一下，走出几步，她指着床上的纸袋说道：“就那样放着可以吗？万一被人……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "非chalant的男友",
+                "inner_monologue": "I know this stuff isn't a real threat, but I appreciate her concern and let her handle it.",
+                "external_action": "家明没有阻止，看着灵静整理文件并藏好。",
+                "speech_text": "“没事的没事的，放心吧，那种东西一把火直接烧掉都不会可惜。”",
+                "mood_state": "indifferent"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙在宴会上开玩笑想继承父亲的位置，家明调侃她。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "“哇哦，不知道老爸将来会不会把老大位置传给我……”时近九点，大厅中一片热火朝天的气氛，这些混黑道的人们大声的说话吹牛、行酒令、互相展示惊人的酒量，也有的人脱掉了上衣向别人展示身上的疤，说着过去的辉煌。小小地喝了几杯酒的沙沙脸颊红扑扑的，轻轻地跟身边两人说着话。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "戏谑的朋友",
+                "inner_monologue": "I know she's just joking, but I'll play along to tease her.",
+                "external_action": "家明不由得一笑。",
+                "speech_text": "“想得美，你老爸是希望你考北大清华的，努力上补习班吧，你跟他说你想出来混，当心他打断你的腿。”",
+                "mood_state": "playful"
+            }
+        },
+        {
+            "scene_snapshot": "灵静暧昧地调侃家明喜欢沙沙的大腿，家明厚颜无耻地承认。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "夹在中间的灵静暧昧一笑，声音压低：“打断沙沙的腿，家明一定会挺身而出的，你平时最喜欢的不就是沙沙的大腿么。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "厚脸皮的男友",
+                "inner_monologue": "I'm comfortable with their teasing and enjoy this intimate banter.",
+                "external_action": "家明厚颜无耻地点了点头。",
+                "speech_text": null,
+                "mood_state": "cheeky"
+            }
+        },
+        {
+            "scene_snapshot": "家明在门口撞到人，暗中处理掉手枪零件，沙沙疑惑地回头。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "听到金属的碰撞声，沙沙疑惑地回过了头来。眼见家明的腮帮因为食物而高高地鼓起，不由得一笑：“一口吃那么多，不怕噎死你啊。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "轻松掩饰的男友",
+                "inner_monologue": "I need to keep this hidden from her to avoid unnecessary worry.",
+                "external_action": "家明咀嚼两下，笑着说道。",
+                "speech_text": "“那分给你一半好了。”",
+                "mood_state": "nonchalant"
+            }
+        },
+        {
+            "scene_snapshot": "穆珍珍认出家明并警告可能火拼，家明内心吐槽她的草包。",
+            "interlocutor_info": {
+                "name": "穆珍珍",
+                "relationship_tag": "acquaintance"
+            },
+            "trigger": {
+                "sender": "穆珍珍",
+                "content": "“我跟你们说啊，看见里面那个热闹的宴会了吗？那是黑社会老大的生日，最近听说社会上治安不好，今天有可能会发生火拼呢，你们三个是小孩子，还是早点走比较好……看到那边那辆面包车了吗？我姐姐她们就在那上面，我刚从警校放假回来，所以跟着来看看。”说起警校，穆珍珍脸上露出了得意的神情。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "polite acquaintance",
+                "inner_monologue": "I think she's naive and potentially dangerous with her loose talk.",
+                "external_action": "家明心里暗骂白痴，你真是全世界杀手的福音……",
+                "speech_text": "“呵，我叫顾家明。”",
+                "mood_state": "disdainful"
+            }
+        }
+    ]
+}

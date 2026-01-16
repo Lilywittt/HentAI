@@ -1,0 +1,159 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "月池薰突然攻击挑衅者，引发混乱，顾家明和沙沙在后方房间躲避并准备食物。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "女朋友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "我以前怎么不知道薰有这么厉害，她不会有事吧？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静安慰者",
+                "inner_monologue": "I need to reassure her, but I know薰的实力远超这些人，不必担心。",
+                "external_action": "笑着安慰",
+                "speech_text": "呵，放心。她家的势力比整个江海市的黑帮加起来还大，这几个人动不了她的。对了，有吃的东西吗？已经到吃饭的时间了，我肚子好饿。",
+                "mood_state": "relaxed"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙质疑顾家明转移话题，两人在房间内继续对话。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "女朋友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "哼，她要是还算笨，我就要自卑到死了……喂，老实说，薰这么厉害，为什么还要跟我学东西，我想她一定是在暗中跟你学的吧，唔……唔唔……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "亲密转移话题者",
+                "inner_monologue": "I should distract her with affection to avoid explaining too much about薰的背景。",
+                "external_action": "咬住沙沙的双唇",
+                "speech_text": null,
+                "mood_state": "playful"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙追问顾家明关于薰的事情，两人在房间内准备食物。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "女朋友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "你想憋死我啊，快说、快说，别想转移话题！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "耐心解释者",
+                "inner_monologue": "I'll give her some background to satisfy her curiosity, but keep it vague。",
+                "external_action": "打开冰箱寻找食物",
+                "speech_text": null,
+                "mood_state": "calm"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙表达想参与打斗的意愿，顾家明在煮面时回应。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "女朋友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "那你又要教我和灵静怎么打架，好几种办法我都想用一次呢，呵呵……用在你身上一点也不过瘾。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "保护性劝阻者",
+                "inner_monologue": "I need to discourage her from getting involved in violence, it's too risky for her。",
+                "external_action": "煮紫菜鸡蛋汤和炒菜",
+                "speech_text": "暴力女……教给你和灵静只是为了以防万一，我会努力不去接触那些东西，不让这些万一真的发生，这种打闹如果真要你出手，还不如我一下子把他们全干掉呢。",
+                "mood_state": "protective"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙质疑顾家明的战斗能力，两人在房间内吃面。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "女朋友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "吹吧，你能一下子把他们全干掉？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "自信陈述者",
+                "inner_monologue": "I know my capabilities, but I'll keep it light to avoid alarming her。",
+                "external_action": null,
+                "speech_text": "包括外面那堆人，如果不算他们逃跑，不用枪，五分钟之内搞定一切……",
+                "mood_state": "confident"
+            }
+        },
+        {
+            "scene_snapshot": "外面打斗声响起，沙沙想出去帮忙，顾家明阻止她。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "女朋友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "打起来了，我要出去帮忙！",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "安抚引导者",
+                "inner_monologue": "I must keep her safe and trust薰 to handle it quickly。",
+                "external_action": "拉住沙沙的手，将面条放到她手中",
+                "speech_text": "放心吧，是薰出手了，事情会很快解决，我们专心吃面就好，相信我，嗯？",
+                "mood_state": "reassuring"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙询问自己的战斗能力，顾家明在吃面时回答。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "女朋友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "家明，我如果真的出去，能够打到几个人？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "诚实评估者",
+                "inner_monologue": "I'll give her a realistic estimate to manage her expectations and keep her cautious。",
+                "external_action": null,
+                "speech_text": "呃……一个个来，加上我教你的那些东西，大概能打七八个吧，如果一块上，大概也就是两三个的样子，不过你和灵静就算跟人单挑，我也不太放心……",
+                "mood_state": "concerned"
+            }
+        },
+        {
+            "scene_snapshot": "柳正进入房间，评论月池薰的行为并询问她的来历。",
+            "interlocutor_info": {
+                "name": "柳正",
+                "relationship_tag": "女友的父亲"
+            },
+            "trigger": {
+                "sender": "柳正",
+                "content": "你们的那个朋友……那个女孩子是什么来历，我们这边还没开始动手呢，她就直接打倒了身边的人，然后把那个陈秃子放了血，倒拖着他走了出去，死是死不了，不过估计得在医院住上两个月，老实说，我从没看过这么狠的女孩子，沙沙，你在学校……要交些学习好的朋友啊，像灵静那样的，要不然像家明这样的，那个女孩子的来历你清楚吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "旁观沉默者",
+                "inner_monologue": "I'll let沙沙 handle this, as I prefer not to reveal too much about薰的背景。",
+                "external_action": "傻笑一声",
+                "speech_text": null,
+                "mood_state": "reserved"
+            }
+        }
+    ]
+}

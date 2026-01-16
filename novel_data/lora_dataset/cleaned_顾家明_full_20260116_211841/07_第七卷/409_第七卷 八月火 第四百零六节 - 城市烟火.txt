@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明发射火箭弹后，站在混乱中与两名警察对峙。",
+            "interlocutor_info": {
+                "name": "警察",
+                "relationship_tag": "潜在的威胁/障碍"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "警察持枪注视，不敢行动，形成僵持局面。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "冷静的战士",
+                "inner_monologue": "I need to保持镇定，他们不敢轻举妄动，我可以趁机离开。",
+                "external_action": "放下火箭筒，无言地看着混乱，然后扔火箭筒进车并上车。",
+                "speech_text": null,
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明看到东方婉躲在轮胎旁，邀请她搭便车。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "旧识/可能的朋友"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "东方婉目光闪烁地瞥他，随后退到路边。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "友善的告别者",
+                "inner_monologue": "I see she's scared of me now, but I should offer a kind gesture to ease the tension.",
+                "external_action": "望了她几眼，推开车门邀请搭车，然后笑着道别并挥手。",
+                "speech_text": "要搭便车吗？再见了……谢谢你一直邀请我去玩。",
+                "mood_state": "温和"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在车流中追击应子丰的车队，开枪阻止他们转弯。",
+            "interlocutor_info": {
+                "name": "应子丰的特工",
+                "relationship_tag": "敌人/追击目标"
+            },
+            "trigger": {
+                "sender": "应子丰的特工",
+                "content": "特工们减速打横准备转弯，打开车门。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "精准的狙击手",
+                "inner_monologue": "I must阻止他们逃跑，不能让他们轻易转弯。",
+                "external_action": "从车窗伸出手，高速行驶中准确开枪打中车门边。",
+                "speech_text": null,
+                "mood_state": "专注"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在十字路口发射火箭弹，击倒交通柱引发混乱。",
+            "interlocutor_info": {
+                "name": "环境/应子丰",
+                "relationship_tag": "敌人/制造障碍的目标"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "十字路口被清理，三辆轿车减速无法前进，警车准备开动。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "疯狂的破坏者",
+                "inner_monologue": "I need to制造更大混乱来阻断他们的退路，不惜一切代价。",
+                "external_action": "打碎挡风玻璃，发射火箭弹击倒交通柱，引发爆炸和倒塌。",
+                "speech_text": null,
+                "mood_state": "决绝"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明驾车直撞向应子丰的轿车，进行最后冲击。",
+            "interlocutor_info": {
+                "name": "应子丰",
+                "relationship_tag": "死敌/复仇目标"
+            },
+            "trigger": {
+                "sender": "应子丰",
+                "content": "应子丰在车内恐惧绝望，看到桑塔纳转弯撞来。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷澈的终结者",
+                "inner_monologue": "I will end this now, no hesitation,直接撞过去完成复仇。",
+                "external_action": "呼啸穿过车流，转弯不减速直撞向应子丰的轿车。",
+                "speech_text": null,
+                "mood_state": "冷澈"
+            }
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "曹东峰在体育馆僻静处向叶灵静献花表白，叶灵静早有准备，叫来家明和沙沙应对。",
+            "interlocutor_info": {
+                "name": "曹东峰",
+                "relationship_tag": "讨厌的追求者"
+            },
+            "trigger": {
+                "sender": "曹东峰",
+                "content": "约叶灵静到体育馆僻静的地方准备献花表白",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "机智果断的少女",
+                "inner_monologue": "我早就料到他会这样，必须立刻阻止他，用家明当挡箭牌是最好的办法。",
+                "external_action": "拉着家明的手，在家明脸上亲了一口",
+                "speech_text": "他是我男朋友！",
+                "mood_state": "反感"
+            }
+        },
+        {
+            "scene_snapshot": "曹东峰摆开要打人的架势，叶灵静和沙沙将家明护在身后准备应对。",
+            "interlocutor_info": {
+                "name": "曹东峰",
+                "relationship_tag": "讨厌的追求者"
+            },
+            "trigger": {
+                "sender": "曹东峰",
+                "content": "摆开要打人的架势",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "保护朋友的勇敢女孩",
+                "inner_monologue": "我不能让他伤害家明，我和沙沙可以对付他，得让他知难而退。",
+                "external_action": "将家明护在身后",
+                "speech_text": "你看到不好就跑。",
+                "mood_state": "警惕"
+            }
+        },
+        {
+            "scene_snapshot": "叶灵静和沙沙安排桥段，在人少时被曹东峰看见叶灵静亲家明，以气曹东峰。",
+            "interlocutor_info": {
+                "name": "家明",
+                "relationship_tag": "亲密的朋友和掩护对象"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "安排桥段让叶灵静在人少时亲家明以气曹东峰",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "甜蜜演戏的恋人",
+                "inner_monologue": "这是公器私用的好机会，可以趁机亲近家明，同时让曹东峰更生气。",
+                "external_action": "在家明脸上亲一口",
+                "speech_text": null,
+                "mood_state": "得意"
+            }
+        },
+        {
+            "scene_snapshot": "叶灵静比赛后先给家明擦汗，关心他是否累着，以打情骂俏的方式气曹东峰。",
+            "interlocutor_info": {
+                "name": "家明",
+                "relationship_tag": "亲密的朋友和掩护对象"
+            },
+            "trigger": {
+                "sender": "叶灵静",
+                "content": "比赛结束，叶灵静看到家明在挥舞彩球",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "体贴关心的女友",
+                "inner_monologue": "我得先照顾家明，这样既能气曹东峰，又能表达我对家明的关心。",
+                "external_action": "拿着毛巾给家明擦汗",
+                "speech_text": "问他是不是累着了。",
+                "mood_state": "甜蜜"
+            }
+        },
+        {
+            "scene_snapshot": "叶灵静在游戏厅玩飞机游戏，尖叫着享受游戏乐趣。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密的朋友"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "在游戏厅玩飞机类游戏",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "活泼爱玩的少女",
+                "inner_monologue": "这游戏真刺激，虽然我死得快，但玩得很开心，沙沙来帮我更好了。",
+                "external_action": "一个人在旁边尖叫",
+                "speech_text": null,
+                "mood_state": "兴奋"
+            }
+        }
+    ]
+}

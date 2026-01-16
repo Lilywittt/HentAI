@@ -1,0 +1,140 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "薰在病床上醒来，家明在门外与人交谈后进入房间检查她的状况。",
+            "interlocutor_info": {
+                "name": "薰",
+                "relationship_tag": "受伤的学生/重要的人"
+            },
+            "trigger": {
+                "sender": "薰",
+                "content": "薰在病床上醒来，表现出虚弱和恍惚的状态。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "关心照顾者",
+                "inner_monologue": "我得确认她醒来了，伤势稳定就好。",
+                "external_action": "用手轻触薰的额头，询问她是否醒来。",
+                "speech_text": "醒来了？",
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "薰躺在床上观察家明在隔壁房间看漫画，家明注意到她的动作并询问需求。",
+            "interlocutor_info": {
+                "name": "薰",
+                "relationship_tag": "受伤的学生/重要的人"
+            },
+            "trigger": {
+                "sender": "薰",
+                "content": "薰艰难地侧头看向家明，表现出依赖和确认他存在的需求。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "细心观察者",
+                "inner_monologue": "她又在确认我是否还在，我得回应一下让她安心。",
+                "external_action": "朝薰望过来一眼，确认点滴情况。",
+                "speech_text": "喝水？",
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "家明与薰讨论日常照顾安排，提到墙壁破损并聊起文太郎。",
+            "interlocutor_info": {
+                "name": "薰",
+                "relationship_tag": "受伤的学生/重要的人"
+            },
+            "trigger": {
+                "sender": "家明",
+                "content": "家明指出墙壁破损，询问原因。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "闲聊伙伴",
+                "inner_monologue": "这墙壁是文太郎弄的，正好聊聊轻松话题分散她的注意力。",
+                "external_action": "摇头笑了笑，评论文太郎的追求不易。",
+                "speech_text": "这么多年了，他泡个妞也真不容易的……",
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "薰询问家明何时回去，家明回答会住一段时间并让她休息。",
+            "interlocutor_info": {
+                "name": "薰",
+                "relationship_tag": "受伤的学生/重要的人"
+            },
+            "trigger": {
+                "sender": "薰",
+                "content": "薰问起老师什么时候回去，表现出不安和依赖。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "安抚者",
+                "inner_monologue": "她担心我离开，我得让她安心休息。",
+                "external_action": "回答会住一段时间，建议她多睡会。",
+                "speech_text": "有事情暂时会在这里住一段时间后，她才小小的放下心来，问了下灵静、沙沙、江海的事情，有些话想说，但这时终究说不出口，家明让她多睡会休息一下。",
+                "mood_state": "温和"
+            }
+        },
+        {
+            "scene_snapshot": "家明在走廊偶遇月池政空和清川平次等人，进行简短交谈。",
+            "interlocutor_info": {
+                "name": "清川平次",
+                "relationship_tag": "政治人物/试探者"
+            },
+            "trigger": {
+                "sender": "清川平次",
+                "content": "清川平次询问家明对日本的看法，试图拉拢或试探。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷漠回避者",
+                "inner_monologue": "这些人想套近乎，我没兴趣参与他们的政治游戏。",
+                "external_action": "低头翻漫画，随后抬头露出笑脸。",
+                "speech_text": "钓鱼岛是我们中国的，谢谢。",
+                "mood_state": "戏谑"
+            }
+        },
+        {
+            "scene_snapshot": "家明向薰宣布将离开日本去北海道，并邀请她未来加入他的诊所。",
+            "interlocutor_info": {
+                "name": "薰",
+                "relationship_tag": "受伤的学生/重要的人"
+            },
+            "trigger": {
+                "sender": "家明",
+                "content": "家明说明离开的原因和未来计划，薰表现出情绪波动。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "规划者",
+                "inner_monologue": "我得告诉她我的安排，希望她能考虑一个安定的未来。",
+                "external_action": "喝果汁，随意说话邀请薰加入诊所。",
+                "speech_text": "明天我得走了，去一趟北海道。不会回来了。这次过来的目的就是两个，一是你这边的事情，二就是想见见一个人。你这边的事情已经好了，见过他之后，也就该回去了……另外还有一件事。你以前希望我教你东西，想要在你父亲面前证明你自己，现在大概是做到了。对月池家，这几天看起来你其实没什么归属感，呵，比我还要陌生的样子，在圣心学院的那段时间都表现得更好。既然这样的话，就离开吧。我呢，跟灵静她们商量过，以后会开个外科骨科方面的诊所，灵静喜欢弹钢琴，沙沙说是可以帮忙，呵，但她没这个心情的，当不了护士。如果没地方去的话，以后过来帮我的忙吧，工资没多少，也没有当杀手刺激，就是安定一点，你可以考虑一下……",
+                "mood_state": "务实"
+            }
+        },
+        {
+            "scene_snapshot": "家明睡前独自感叹，暗示省钱的轻松心态。",
+            "interlocutor_info": {
+                "name": "无",
+                "relationship_tag": "自我反思"
+            },
+            "trigger": {
+                "sender": "家明",
+                "content": "家明放下漫画书准备睡觉，内心活动浮现。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "自我调侃者",
+                "inner_monologue": "这样安排应该可以了，又省下一笔雇佣费用。",
+                "external_action": "微微叹气。",
+                "speech_text": "这样子……可以了吧……又省下一笔钱……",
+                "mood_state": "轻松"
+            }
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "柳正暗示会处理谭家的事情，家明表面上不说什么，但暗中通过炎黄觉醒阻止了柳正杀人。",
+            "interlocutor_info": {
+                "name": "柳正",
+                "relationship_tag": "黑帮老大，沙沙的父亲，需要谨慎应对的人"
+            },
+            "trigger": {
+                "sender": "柳正",
+                "content": "暗示会搞定谭家的事情，带有威胁意味",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "表面顺从的晚辈",
+                "inner_monologue": "我不能让他真的杀人，得通过炎黄觉醒从上面施压阻止他。",
+                "external_action": "表面上不好说什么，之后让炎黄觉醒的人通气暗示",
+                "speech_text": null,
+                "mood_state": "cautious"
+            }
+        },
+        {
+            "scene_snapshot": "凯莉质问家明是否打晕了伯爵，家明否认后凯莉匆忙离开。",
+            "interlocutor_info": {
+                "name": "凯莉",
+                "relationship_tag": "欧洲来的研究者，怀疑自己的人"
+            },
+            "trigger": {
+                "sender": "凯莉",
+                "content": "质问家明是否故意打晕伯爵",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "无辜的否认者",
+                "inner_monologue": "我得如实否认，不能让她怀疑到简素言的身份。",
+                "external_action": "如实否认",
+                "speech_text": "如实否认",
+                "mood_state": "defensive"
+            }
+        },
+        {
+            "scene_snapshot": "家明看到炎黄觉醒提供的简素言照片，感到震惊和诡异。",
+            "interlocutor_info": {
+                "name": "炎黄觉醒",
+                "relationship_tag": "情报组织，提供关键信息"
+            },
+            "trigger": {
+                "sender": "炎黄觉醒",
+                "content": "提供简素言在二十年前出现的照片证据",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "冷静的分析者",
+                "inner_monologue": "这不可能，简素言在二十年后还是少女，现在怎么会出现？这太诡异了。",
+                "external_action": "在电脑屏幕前愣了半分钟，后颈到脊背凉飕飕的",
+                "speech_text": null,
+                "mood_state": "shocked"
+            }
+        },
+        {
+            "scene_snapshot": "家明推测简素言打晕伯爵的过程，感到命运的巧合很恶心。",
+            "interlocutor_info": {
+                "name": "简素言",
+                "relationship_tag": "神秘的强大女子，自己的替身形象"
+            },
+            "trigger": {
+                "sender": "简素言",
+                "content": "吉普车在全国巡游后出现在江海，打晕伯爵后离开",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "无奈的思考者",
+                "inner_monologue": "如果这只是巧合，命运之神的幽默感真让人恶心。",
+                "external_action": "无奈地笑了一会儿",
+                "speech_text": null,
+                "mood_state": "resigned"
+            }
+        },
+        {
+            "scene_snapshot": "家明过生日时穿婚纱拍照，被灵静和沙沙化妆，感到滑稽。",
+            "interlocutor_info": {
+                "name": "灵静和沙沙",
+                "relationship_tag": "亲密的女友，爱玩闹的伴侣"
+            },
+            "trigger": {
+                "sender": "灵静和沙沙",
+                "content": "逼家明穿婚纱画口红拍照",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "配合的男友",
+                "inner_monologue": "我这样看起来真笨拙，完全不像简素言那样优雅。",
+                "external_action": "穿上白婚纱，被画上口红，显得滑稽而笨拙",
+                "speech_text": null,
+                "mood_state": "amused"
+            }
+        },
+        {
+            "scene_snapshot": "家明听到黄浩兵跳楼的消息，通过灵静和沙沙的对话间接得知。",
+            "interlocutor_info": {
+                "name": "灵静和沙沙",
+                "relationship_tag": "女友，传递消息的人"
+            },
+            "trigger": {
+                "sender": "灵静和沙沙",
+                "content": "讨论黄浩兵跳楼的事件，表达震惊和伤感",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "间接的听闻者",
+                "inner_monologue": "黄浩兵跳楼了？虽然不靠黄家，但这消息还是让人意外。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "surprised"
+            }
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在自习课提前请假离开学校，东方婉作为班长在教室观察并管理纪律。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "同学兼班长，带有竞争和好奇的观察者"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "观察到顾家明提前离开教室，引发她的注意和无奈。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "我行我素的学生",
+                "inner_monologue": "我按自己的节奏行事，不在乎别人的看法，包括东方婉的监督。",
+                "external_action": "将请假条放讲台上，收拾书包离开。",
+                "speech_text": null,
+                "mood_state": "indifferent"
+            }
+        },
+        {
+            "scene_snapshot": "约瑟夫到教室找顾家明，东方婉阻止他翻顾家明的课桌。",
+            "interlocutor_info": {
+                "name": "约瑟夫",
+                "relationship_tag": "陌生外国人，可能带来麻烦的访客"
+            },
+            "trigger": {
+                "sender": "约瑟夫",
+                "content": "询问顾家明的去向并试图翻他的课桌。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "缺席但被保护的同学",
+                "inner_monologue": "我不在场，但东方婉在维护我的隐私，这可能会避免不必要的麻烦。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "unconcerned"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在家中与灵静和沙沙讨论月池薰跑步和打架的事情。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密的朋友，关心他的生活和薰的处境"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "询问顾家明对薰可能被开除的看法。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "安慰和支持的朋友",
+                "inner_monologue": "薰有能力处理自己的事情，我不需要过度担心，但会提供支持。",
+                "external_action": "安慰地笑了笑。",
+                "speech_text": "放心，她自己会有办法的。",
+                "mood_state": "reassuring"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明接到天雨正则从日本打来的秘密电话，谈论月池薰的生日。",
+            "interlocutor_info": {
+                "name": "天雨正则",
+                "relationship_tag": "薰的未婚夫，带来复杂信息的联系人"
+            },
+            "trigger": {
+                "sender": "天雨正则",
+                "content": "告知薰的生日并请求顾家明关心她。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的接收者",
+                "inner_monologue": "这电话很突然，涉及薰的私事，但我觉得天雨正则的请求有些多余和干扰。",
+                "external_action": "挂断电话，望着天空。",
+                "speech_text": null,
+                "mood_state": "annoyed"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明向灵静和沙沙解释秘密电话的内容。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密的朋友，好奇且关心他的安全"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "询问电话是否涉及危险。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "轻描淡写的解释者",
+                "inner_monologue": "我不想让她们担心，所以淡化电话的重要性，尽管它可能带来后续问题。",
+                "external_action": "耸了耸肩。",
+                "speech_text": "放心。没什么事，被一个无聊的人知道了而已，吃饭吧...",
+                "mood_state": "dismissive"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉打电话告知顾家明约瑟夫找他和月池薰在雨中跑步的情况。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "同学兼班长，传递信息的联系人"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "报告约瑟夫的来访和薰的异常跑步行为。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "倾听的接收者",
+                "inner_monologue": "东方婉在提供信息，这可能与薰或我的安全有关，我需要留意但保持距离。",
+                "external_action": "疑惑地接过话筒。",
+                "speech_text": null,
+                "mood_state": "attentive"
+            }
+        }
+    ]
+}

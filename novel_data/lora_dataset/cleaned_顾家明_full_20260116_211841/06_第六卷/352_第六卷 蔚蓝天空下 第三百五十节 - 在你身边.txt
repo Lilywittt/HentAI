@@ -1,0 +1,140 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在麻将牌馆门口向沙沙送花，试图逗她开心。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "“你跟踪我啊。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "幽默追求者",
+                "inner_monologue": "我得用轻松的方式让她收下花，缓解她的情绪。",
+                "external_action": "笑着把花捧在前面",
+                "speech_text": "“仰慕你啊。”",
+                "mood_state": "playful"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙生气地转身要走，顾家明继续跟着她并开玩笑。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "哼了一声，不说话",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "顽皮陪伴者",
+                "inner_monologue": "她还在生气，我得用更多玩笑来分散她的注意力。",
+                "external_action": "跟在沙沙后面一边走一边说道",
+                "speech_text": "“发现你对他们比对我好……”",
+                "mood_state": "teasing"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明用假刀捅沙沙的屁股，引发她的爆发。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "陡然间站住、转身：“我说你还有完没完……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "恶作剧者",
+                "inner_monologue": "她终于忍不住了，这个玩笑能让她发泄一下。",
+                "external_action": "拿着那砍刀朝着她屁股上捅过去",
+                "speech_text": "“我捅……”",
+                "mood_state": "mischievous"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在沙沙差点被车撞时救了她，并威胁司机。",
+            "interlocutor_info": {
+                "name": "司机",
+                "relationship_tag": "陌生人"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "小车飞驰而过，差点撞到沙沙",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "保护者",
+                "inner_monologue": "她差点受伤，我必须立刻行动并震慑这个司机。",
+                "external_action": "伸手便将沙沙抱了回来，拾起砖头扔向小车，提着砍刀走向司机",
+                "speech_text": "“你他妈的……车开这么快，差点撞到人你还敢嚣张，老子今天就弄死你——给我下来！”",
+                "mood_state": "furious"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明安慰沙沙关于黄浩兵之死，分享自己的看法。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "“你根本不知道出了什么事……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "理性安慰者",
+                "inner_monologue": "她需要听到真相，即使它有些残酷，但能帮助她释怀。",
+                "external_action": "走过去，牵起她的手",
+                "speech_text": "“有什么不知道的，不就是黄浩兵吸毒的事情吗。”",
+                "mood_state": "soothing"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明向沙沙表达陪伴和支持的情感。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "“到底什么啊，快说快说快说……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "深情伴侣",
+                "inner_monologue": "我想告诉她我在她身边，但这话有点肉麻，不过她应该能感受到。",
+                "external_action": "无奈地摇了摇头",
+                "speech_text": "“好吧，其实我想说……你开心和伤心的时候，我都在你身边陪着你，知道你的想法，这就够了，怎么样？很肉麻吧。”",
+                "mood_state": "affectionate"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明与柳正私下交谈，讨论柳正想再婚的事。",
+            "interlocutor_info": {
+                "name": "柳正",
+                "relationship_tag": "准岳父"
+            },
+            "trigger": {
+                "sender": "柳正",
+                "content": "“家明，柳叔平时对你怎么样？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "谨慎晚辈",
+                "inner_monologue": "他这么神秘，肯定有重要的事，我得小心应对。",
+                "external_action": "笑着退后一步",
+                "speech_text": "“你要干什么？”",
+                "mood_state": "wary"
+            }
+        }
+    ]
+}

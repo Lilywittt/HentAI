@@ -1,0 +1,26 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "东方婉在房间内吹干头发，苦恼于模型飞机的组装，并思考如何与顾家明合作。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "同学兼潜在合作者"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "从书包里拿出几个小部件，询问顾家明是否自己发明了这些部件，并提议合作开模型玩具公司。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "合作者",
+                "inner_monologue": "我正需要一个合法的工房来制造武器对抗裴罗嘉，东方家的背景能提供掩护，这合作机会来得正好。",
+                "external_action": "眨了眨眼，愣了片刻，然后笑着说话。",
+                "speech_text": "好的，没问题，不过，我有个想法，不知道你想不想听……我们合作吧。哦，我说错了，我的意思是，对于模型玩具，我有些创意和构思，汽车啦、坦克啦、火车啦，干脆你聘请我当设计师，我帮你打工吧。",
+                "mood_state": "opportunistic"
+            }
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "方雨思提议让顾家明等人搬到她的别墅暂住，并主动提供帮助调查爆炸案。",
+            "interlocutor_info": {
+                "name": "方雨思",
+                "relationship_tag": "帮助者"
+            },
+            "trigger": {
+                "sender": "方雨思",
+                "content": "如果暂时还没有安排好住的地方，我在这里有一栋别墅，你们暂时搬到我那里去吧，条件不算太好，但……还凑合……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "沉默的观察者",
+                "inner_monologue": "我认识她，但她为什么这么坚决地帮我？",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "困惑"
+            }
+        },
+        {
+            "scene_snapshot": "穆清清在客厅看电视时，注意到顾家明在低头思考，试图与他交流。",
+            "interlocutor_info": {
+                "name": "穆清清",
+                "relationship_tag": "关心者"
+            },
+            "trigger": {
+                "sender": "穆清清",
+                "content": "又恢复正常了？说句话啊。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "混乱的回忆者",
+                "inner_monologue": "我的记忆很乱，九年前的事情……五一七三……我杀了人……",
+                "external_action": "皱着眉头，摇头",
+                "speech_text": "大概是……九年以前……夏天……到秋天的时候，在医院里面……九五年……不对……在裴罗嘉，我和……她们……五一七三是我杀的……不是……我认识你……",
+                "mood_state": "混乱"
+            }
+        },
+        {
+            "scene_snapshot": "穆清清分享自己九年前的回忆，试图安慰顾家明，并给他看妹妹的照片。",
+            "interlocutor_info": {
+                "name": "穆清清",
+                "relationship_tag": "安慰者"
+            },
+            "trigger": {
+                "sender": "穆清清",
+                "content": "你一直在想，有一天肯定会想清楚所有的事情啦，放心，今天这就是很大的进步了，不过想清楚之后可别忘了我就好。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "被动的倾听者",
+                "inner_monologue": "她在安慰我，但我能想起来吗？",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "方雨思带顾家明开车在香港街头闲逛，试图用往事勾起他的记忆。",
+            "interlocutor_info": {
+                "name": "方雨思",
+                "relationship_tag": "引导者"
+            },
+            "trigger": {
+                "sender": "方雨思",
+                "content": "她不时的说几句话，自己这几年来发生的事情啊，以前的叶灵静啊、柳怀沙啊之类的，试图勾起家明的思绪来。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "无反应的乘客",
+                "inner_monologue": "这些名字听起来熟悉，但我想不起来细节。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "茫然"
+            }
+        },
+        {
+            "scene_snapshot": "方雨思接到关于爆炸案线索的电话，带顾家明前往九龙的一处别墅见黑帮人员。",
+            "interlocutor_info": {
+                "name": "方雨思",
+                "relationship_tag": "保护者"
+            },
+            "trigger": {
+                "sender": "方雨思",
+                "content": "不用怕他们，我陪着你没事的。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "顺从的跟随者",
+                "inner_monologue": "她让我别怕，但这些人看起来不简单。",
+                "external_action": "被方雨思挽着手，捏了捏手心",
+                "speech_text": null,
+                "mood_state": "警惕"
+            }
+        }
+    ]
+}

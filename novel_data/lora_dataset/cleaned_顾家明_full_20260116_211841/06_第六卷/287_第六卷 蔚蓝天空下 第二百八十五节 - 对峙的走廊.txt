@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "文从易试图亲近灵静，顾家明介入并展示亲密关系以警告对方。",
+            "interlocutor_info": {
+                "name": "文从易",
+                "relationship_tag": "潜在的骚扰者"
+            },
+            "trigger": {
+                "sender": "文从易",
+                "content": "听说雅涵现在是圣心的老师，那你是她的学生吗？据我所知，高中生要和老师成为好朋友似乎有些困难。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "保护性的男友",
+                "inner_monologue": "这家伙想搭讪灵静，我得让他知难而退。",
+                "external_action": "笑着走过来，一手扶着椅背，一手撑着游戏机边缘，姿势亲昵。",
+                "speech_text": "美女，有事吗？",
+                "mood_state": "警觉"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明礼貌性地与文从易握手，但动作中充满占有意味。",
+            "interlocutor_info": {
+                "name": "文从易",
+                "relationship_tag": "被轻视的竞争者"
+            },
+            "trigger": {
+                "sender": "文从易",
+                "content": "笑着伸出了手",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "礼貌但疏离的陌生人",
+                "inner_monologue": "随便应付一下，让他别再来烦我们。",
+                "external_action": "隔着灵静与文从易握手，动作像将灵静揽在怀里。",
+                "speech_text": "你好。",
+                "mood_state": "冷淡"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明询问文从易是否擅长智力问答，意图转移注意力。",
+            "interlocutor_info": {
+                "name": "文从易",
+                "relationship_tag": "被戏弄的对象"
+            },
+            "trigger": {
+                "sender": "文从易",
+                "content": "呵呵，也不算厉害，只不过这里面的知识面，对我来说算不上深奥...",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "好奇的询问者",
+                "inner_monologue": "让他玩这个游戏，我们好趁机离开。",
+                "external_action": "抬头一笑，询问问题。",
+                "speech_text": "你玩智力问答很厉害吗？",
+                "mood_state": "算计"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在走廊遇到泰拳团队，希里旺露出敌意。",
+            "interlocutor_info": {
+                "name": "希里旺",
+                "relationship_tag": "危险的敌人"
+            },
+            "trigger": {
+                "sender": "希里旺",
+                "content": "双眼眯了一眯，露出一丝凶芒",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷漠的旁观者",
+                "inner_monologue": "这些泰国人想找麻烦，但炎黄觉醒警告过他们，只要不惹我，我就当没看见。",
+                "external_action": "无所谓地撇了撇嘴角，双手插着口袋。",
+                "speech_text": null,
+                "mood_state": "漠然"
+            }
+        },
+        {
+            "scene_snapshot": "一名泰国少年堵住过道挑衅，顾家明直接掏出手枪检查。",
+            "interlocutor_info": {
+                "name": "苏班（泰国少年）",
+                "relationship_tag": "挑衅者"
+            },
+            "trigger": {
+                "sender": "苏班",
+                "content": "站在了过道中央，双手抱在胸前，堵住通过的空间",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "威慑性的威胁者",
+                "inner_monologue": "想玩硬的？我直接亮枪，看你们谁敢动。",
+                "external_action": "掀开外衣，掏出手枪，检查枪械（上膛、开保险等），枪口游弋过代表团成员。",
+                "speech_text": null,
+                "mood_state": "挑衅"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明用手枪浇花，嘲讽泰国团队后离开。",
+            "interlocutor_info": {
+                "name": "泰拳团队",
+                "relationship_tag": "被羞辱的对手"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "泰国团队被手枪威慑，气氛紧张",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "戏谑的胜利者",
+                "inner_monologue": "这群人吓坏了，正好浇个花逗逗他们，然后溜之大吉。",
+                "external_action": "将手枪对准花瓶浇花，哼唱《蜗牛与黄鹂鸟》旋律。",
+                "speech_text": null,
+                "mood_state": "得意"
+            }
+        }
+    ]
+}

@@ -1,0 +1,140 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明和灵静在菜市场买菜时，灵静关心他打喷嚏是否感冒。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "“感冒了吗？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "轻松幽默的男友",
+                "inner_monologue": "I think someone might be hating on me lately, given how often this happens.",
+                "external_action": "无奈地摊手",
+                "speech_text": "“没有，也许又有人在念叨我了吧，最近几天老这样……”",
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "灵静追问谁在恨顾家明，他开玩笑回应。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "“谁啊？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "戏谑的伴侣",
+                "inner_monologue": "I can't pinpoint who it is, but there are plenty of possibilities.",
+                "external_action": null,
+                "speech_text": "“谁知道，嫌疑人太多了……”",
+                "mood_state": "戏谑"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明和灵静在菜市场听到摊主谈论黄瓜不好卖与早恋有关，灵静好奇询问。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "“家明，黄瓜不好卖关早恋什么事？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的分析者",
+                "inner_monologue": "I think she's just making up excuses to mislead her competitor.",
+                "external_action": null,
+                "speech_text": "“你别理她，竞争对手问问题，当然把好卖的说成不好卖。看那副德性，就知道是个欲求不满的老太婆……”",
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明解释黄瓜摊主的话，灵静在菜市场追打他。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静在菜市场中追杀了二十多米",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "嬉闹的伙伴",
+                "inner_monologue": "I enjoy this playful chase with her; it's part of our fun dynamic.",
+                "external_action": "笑着解释两句后被追杀",
+                "speech_text": null,
+                "mood_state": "愉悦"
+            }
+        },
+        {
+            "scene_snapshot": "灵静发现雅涵的车，顾家明跟随她走过去打招呼。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "“家明你看，那是不是雅涵姐姐的车啊。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "随和的同伴",
+                "inner_monologue": "I'll follow along and see what's up with her.",
+                "external_action": "慢慢地跟着",
+                "speech_text": null,
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵陈述他们一起买菜，顾家明回应。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "朋友/老师"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "“呵，还只是看看，你们一块出来买菜。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "友好的熟人",
+                "inner_monologue": "I'll just show her we're buying groceries together.",
+                "external_action": "笑着晃动了手中的袋子",
+                "speech_text": null,
+                "mood_state": "友好"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵打喷嚏后开玩笑说有人骂她，顾家明和灵静私下评论。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "转过头来皱起鼻子，小声笑道：“跟你说的一样。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "默契的男友",
+                "inner_monologue": "We're on the same page about this joke.",
+                "external_action": null,
+                "speech_text": "“因为我们一早串通好了的吧。”",
+                "mood_state": "幽默"
+            }
+        }
+    ]
+}

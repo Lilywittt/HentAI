@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在旅店走廊听到梁明超和李松打架的动静，随人群上楼查看。",
+            "interlocutor_info": {
+                "name": "梁明超和李松",
+                "relationship_tag": "无关紧要的同学"
+            },
+            "trigger": {
+                "sender": "梁明超和李松",
+                "content": "两人在房间内扭打，罗静雯和王图佳在门外愤怒拍门喊叫。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的旁观者",
+                "inner_monologue": "我恶意地乱想了一下他们交流了什么，无非是无聊的争风吃醋。",
+                "external_action": "随人群上了三楼查看情况。",
+                "speech_text": null,
+                "mood_state": "漠然"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉睡眼惺忪地跑来处理打架事件，挤开顾家明并指挥撞门。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "麻烦的富家女"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "挤开顾家明，分开人群，指挥撞门并质问情况。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "被动的旁观者",
+                "inner_monologue": "她又在多管闲事，吵醒别人来处理这种小事。",
+                "external_action": "被东方婉挤开身体，站在旁边观看。",
+                "speech_text": null,
+                "mood_state": "不耐烦"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉在事件解决后，突然注意到顾家明并皱眉看了他很久。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "麻烦的富家女"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "挥手示意人群散开，转身要走时突然发现顾家明，皱眉看了他好久。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "无动于衷的旁观者",
+                "inner_monologue": "她看我干嘛？大概又在想什么无聊的事情，懒得理会。",
+                "external_action": "站在原处，被东方婉注视。",
+                "speech_text": null,
+                "mood_state": "淡漠"
+            }
+        },
+        {
+            "scene_snapshot": "深夜，东方婉急促敲门叫醒顾家明，报告梁明超和李松赌钱出事的消息。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "麻烦的富家女"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "气喘吁吁地敲门，报告梁明超输钱出老千被抓的紧急情况。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "警觉的分析者",
+                "inner_monologue": "真傻真天真，这种地方怎么可能没有地头蛇组织赌局，他们太幼稚了。",
+                "external_action": "打开门，打了个呵欠，微微皱眉。",
+                "speech_text": "找谁？怎么了？",
+                "mood_state": "冷静"
+            }
+        }
+    ]
+}

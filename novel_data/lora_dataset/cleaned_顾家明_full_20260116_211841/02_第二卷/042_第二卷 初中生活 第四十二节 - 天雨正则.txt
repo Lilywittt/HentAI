@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Other"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在夕渡咖啡馆与天雨正则和月池薰会面，讨论救人和身份问题。",
+            "interlocutor_info": {
+                "name": "天雨正则",
+                "relationship_tag": "潜在威胁的日本高手"
+            },
+            "trigger": {
+                "sender": "天雨正则",
+                "content": "约顾家明出来感谢他救月池薰，并试探他的身份和背景。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "谨慎而疏离的普通学生",
+                "inner_monologue": "我讨厌麻烦，这家伙在试探我，得小心应付，不能暴露太多。",
+                "external_action": "坐下点咖啡，冷静应对对话。",
+                "speech_text": "知不知道警察现在在盯你，这个时候把我约出来，有可能会给我惹上麻烦，我最讨厌麻烦。",
+                "mood_state": "警惕"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明提到天雨正则的私事，引发对方情绪变化。",
+            "interlocutor_info": {
+                "name": "天雨正则",
+                "relationship_tag": "敏感话题的触及者"
+            },
+            "trigger": {
+                "sender": "顾家明",
+                "content": "提到天雨正则的妹妹唯，暗示了解他的私事。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "故作轻松的知情者",
+                "inner_monologue": "我故意提唯来试探他的反应，看看他会不会失控，这能帮我判断他的底线。",
+                "external_action": "笑着站起来准备离开。",
+                "speech_text": "我的事情很复杂，你查不到的，也没必要查，因为我跟任何势力都没有关系，也不想惹上关系。当然如果你想查……嗯，我就是日本一夜九世家，排行第二的那个……好了，我还有事，希望后会无期，两位一路顺风。",
+                "mood_state": "戏谑"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在公交车上遇到穆珍珍抓小偷，被误伤。",
+            "interlocutor_info": {
+                "name": "穆珍珍",
+                "relationship_tag": "多管闲事的高中女生"
+            },
+            "trigger": {
+                "sender": "穆珍珍",
+                "content": "大喊抓小偷，导致车厢混乱和小偷踢到顾家明。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "无辜的路人",
+                "inner_monologue": "真是倒霉，这女生太冲动了，害我被踢一脚，还得赶时间去看电影呢。",
+                "external_action": "拍打胸前的脚印，无奈地撇嘴。",
+                "speech_text": "很好、很强大……",
+                "mood_state": "无奈"
+            }
+        }
+    ]
+}

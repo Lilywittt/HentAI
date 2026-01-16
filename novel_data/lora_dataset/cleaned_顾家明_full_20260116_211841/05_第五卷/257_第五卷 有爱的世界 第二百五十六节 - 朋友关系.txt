@@ -1,0 +1,140 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明和雅涵在抛锚的跑车中，雅涵因寒冷而靠向他。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密的朋友，带有暧昧情感"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "雅涵在沉睡中感到寒冷，下意识地靠向顾家明并抱住他的右手。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "体贴的保护者",
+                "inner_monologue": "我有点为难，但只是小小的困扰，毕竟我们的关系已经不同了。",
+                "external_action": "手指停止敲打，随后脱外衣包裹雅涵的小腿，并轻声安抚。",
+                "speech_text": "绑上就不冷了……",
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵在梦中说梦话，提到冷和脱衣服。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密的朋友，带有暧昧情感"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "雅涵在梦呓中说：'别……脱光……衣服……我冷……'",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "幽默的安抚者",
+                "inner_monologue": "这梦话真是让人哭笑不得，她到底在做什么梦啊。",
+                "external_action": "哭笑不得地在她背上拍了一下，轻轻抚摸她的背脊。",
+                "speech_text": "哎。睡吧、睡吧……",
+                "mood_state": "哭笑不得"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明醒来后安置雅涵，并下车锻炼。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密的朋友，带有暧昧情感"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "天色亮起，雅涵仍在沉睡，车内寒冷。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "细心的照顾者",
+                "inner_monologue": "我得让她躺舒服点，再盖件衣服保暖，然后出去活动一下。",
+                "external_action": "轻轻挪开雅涵的双手，让她躺到座椅上，脱毛衣盖在她身上，然后下车锻炼。",
+                "speech_text": null,
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵醒来后生气地责备顾家明穿得少在雪中。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密的朋友，带有暧昧情感"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "雅涵气冲冲地将毛衣塞给顾家明，说：'你想死啊！穿一件衣服跑出来！'",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "轻松的调侃者",
+                "inner_monologue": "她这么生气，但脸上还在笑，真是可爱。",
+                "external_action": "摇着手，笑出声，提醒她小心滑倒。",
+                "speech_text": "没，我只是觉得美女果然是美女，摔跤都摔得这么漂亮，呵呵……喂，别乱踢，我不笑了，不笑了，你当心别又滑一下……",
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "两人在雪地中边走边谈，雅涵询问顾家明的敌人和秘密。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密的朋友，带有暧昧情感"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "雅涵问：'这些事情……你怎么会这么坦白地告诉我……'",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "坦诚的分享者",
+                "inner_monologue": "她想知道，我就告诉她，这没什么大不了的，反正她关心我。",
+                "external_action": "坦然一笑，转过头解释。",
+                "speech_text": "因为你想知道啊，也不是什么大事。知道也没关系的。",
+                "mood_state": "坦然"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵责备顾家明对薰太严厉，顾家明解释原因。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密的朋友，带有暧昧情感"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "雅涵说：'不过你这家伙也真绝情……没人性……'",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "严格的导师",
+                "inner_monologue": "薰不能有那些情绪，她的路很危险，我必须确保她生存下来。",
+                "external_action": "摇头，严肃地解释。",
+                "speech_text": "但那样的性格是不行的……因为她将来要做的事情，只要失误一次，就死掉了。",
+                "mood_state": "严肃"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵追问顾家明在美国的朋友是男是女。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密的朋友，带有暧昧情感"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "雅涵问：'男的女的啊？'",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "幽默的回避者",
+                "inner_monologue": "她又在敏感了，我得轻松点回答，别让她多想。",
+                "external_action": "在路边伸出手拦车，转移话题。",
+                "speech_text": "呵呵，女的……",
+                "mood_state": "幽默"
+            }
+        }
+    ]
+}

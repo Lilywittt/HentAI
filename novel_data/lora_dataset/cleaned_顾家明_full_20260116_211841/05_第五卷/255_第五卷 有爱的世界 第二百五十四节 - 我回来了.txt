@@ -1,0 +1,159 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明和雅涵在高速行驶的跑车中，试图甩掉追踪的直升飞机。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "旧友，有隔阂的亲近者"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "感觉气闷的话，窗户稍微摇开一点没关系。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的保护者",
+                "inner_monologue": "我得保持镇定，确保她的安全，这点小事不能让她担心。",
+                "external_action": null,
+                "speech_text": "一点点就行了，他们的枪法没这么准。",
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵评论顾家明现在的奇怪样子，两人试图缓解尴尬气氛。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "旧友，有隔阂的亲近者"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "你现在的样子真奇怪……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "幽默的伪装者",
+                "inner_monologue": "她注意到了我的伪装，得用玩笑转移话题，避免深入讨论。",
+                "external_action": null,
+                "speech_text": "没办法，美国人都长这副德性。",
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵询问最近事件的缘由，顾家明感慨地回应。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "旧友，有隔阂的亲近者"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "这些天被吓到了没？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "疲惫的受害者",
+                "inner_monologue": "这一切太突然了，像噩梦重现，但我不能让她看出我的真实感受。",
+                "external_action": "皱起了眉头",
+                "speech_text": "我也被吓到了……在家里呆得好好的，突然又是绑架又是杀人的，还得跑到美国来弄出这么多的事情，就好像是……很久以前做过一个梦又回来了……",
+                "mood_state": "感慨"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵担心直升飞机的追踪，顾家明提出打掉它的计划。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "旧友，有隔阂的亲近者"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "那架直升飞机还跟在后面，怎么办啊？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "果断的行动者",
+                "inner_monologue": "必须尽快解决这个威胁，不能让她陷入更多危险。",
+                "external_action": null,
+                "speech_text": "打掉它喽。",
+                "mood_state": "决断"
+            }
+        },
+        {
+            "scene_snapshot": "跑车抛锚后，雅涵询问顾家明是否会一起回国。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "旧友，有隔阂的亲近者"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "你会和我们一起回去吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "回避的承诺者",
+                "inner_monologue": "我不能完全承诺，还有任务在身，但不想让她失望。",
+                "external_action": "不好意思地笑了笑",
+                "speech_text": "呃，我还有点事情要做……不过应该很简单，应该可以一起回国，当然也只是可能，而且……因为这样那样的原因，你知道的，不能让你小妈看到我的。",
+                "mood_state": "犹豫"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵嘲笑顾家明修车时的样子，他回应并继续修车。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "旧友，有隔阂的亲近者"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "你刚才说……我坏掉了，哈哈……你坏掉了……你坏掉了，哈哈……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "无奈的修理工",
+                "inner_monologue": "她又在开玩笑，但得专注修车，不能分心。",
+                "external_action": "面无表情地看了她好一会儿，埋头继续修车",
+                "speech_text": null,
+                "mood_state": "专注"
+            }
+        },
+        {
+            "scene_snapshot": "直升飞机再次出现，顾家明紧急保护雅涵并让她躲藏。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "旧友，有隔阂的亲近者"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "直升飞机出现在风雪中，追踪而来。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "警觉的保护者",
+                "inner_monologue": "危险来了，必须立刻让她安全，我来引开敌人。",
+                "external_action": "猛地扑了过来，将两人摔落草丛中，随后从跑车中拿出了一个袋子",
+                "speech_text": "快，爬过去随便找个地方把自己藏起来，不要靠近这辆车。",
+                "mood_state": "警觉"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明返回后，在风雪中对雅涵说话。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "旧友，有隔阂的亲近者"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "顾家明在风雪中返回，找到雅涵。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "归来的安慰者",
+                "inner_monologue": "我回来了，她一定很害怕，得安抚她。",
+                "external_action": "一道身影在她的身边停下",
+                "speech_text": "等很久吗？我回来了……",
+                "mood_state": "安抚"
+            }
+        }
+    ]
+}

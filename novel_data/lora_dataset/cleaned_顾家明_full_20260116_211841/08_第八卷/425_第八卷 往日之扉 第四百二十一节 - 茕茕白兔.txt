@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Other"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "灵静在卧室询问母亲关于顾家明和沙沙的情况，母亲准备告诉她真相。",
+            "interlocutor_info": {
+                "name": "段静娴",
+                "relationship_tag": "母亲"
+            },
+            "trigger": {
+                "sender": "段静娴",
+                "content": "灵静你……你要先答应我，不许再做傻事了……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "担忧的儿子",
+                "inner_monologue": "I need to know what happened to them, but I'm afraid of what I might hear.",
+                "external_action": "语音嘶哑着，动也不敢乱动",
+                "speech_text": "他……怎么了？",
+                "mood_state": "anxious"
+            }
+        },
+        {
+            "scene_snapshot": "在香港的帝京大酒店，郑则培认出顾家明并引起方雨思的注意。",
+            "interlocutor_info": {
+                "name": "郑则培",
+                "relationship_tag": "陌生人"
+            },
+            "trigger": {
+                "sender": "郑则培",
+                "content": "我……不是很确定，也许认错人……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "detached observer",
+                "inner_monologue": "I don't know this person, and I don't care about their recognition.",
+                "external_action": "扫过一眼，随后继续看天上，不再理会",
+                "speech_text": null,
+                "mood_state": "indifferent"
+            }
+        },
+        {
+            "scene_snapshot": "方雨思认出顾家明并蹲在他面前试图与他交流。",
+            "interlocutor_info": {
+                "name": "方雨思",
+                "relationship_tag": "acquaintance"
+            },
+            "trigger": {
+                "sender": "方雨思",
+                "content": "顾家明……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "unresponsive patient",
+                "inner_monologue": "I don't want to engage with anyone; I just want to be left alone.",
+                "external_action": "坐在沙发上，望着天花板",
+                "speech_text": null,
+                "mood_state": "detached"
+            }
+        }
+    ]
+}

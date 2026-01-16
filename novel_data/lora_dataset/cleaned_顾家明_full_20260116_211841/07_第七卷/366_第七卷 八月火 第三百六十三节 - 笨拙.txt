@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在出租屋中，沙沙因黑道事务旷课导致灵静生气哭泣，沙沙在房间内安慰灵静。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静因沙沙旷课而哭泣，说‘反正你也不听我的……’，并回房。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "旁观者",
+                "inner_monologue": "灵静这种沉默的爆发最是令沙沙没办法，我在外面笑着吃饭就好。",
+                "external_action": "在外面笑着吃饭",
+                "speech_text": null,
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在出租屋中，沙沙和灵静在房间内争吵后，他独自吃饭并感到头痛加剧。",
+            "interlocutor_info": {
+                "name": "无",
+                "relationship_tag": "自我反思"
+            },
+            "trigger": {
+                "sender": "自身",
+                "content": "头痛突然加剧，回忆起之前因嫌麻烦未检查。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "自我审视者",
+                "inner_monologue": "头痛又发作了，看来必须去医院检查了，我之前真是讳疾忌医。",
+                "external_action": "伸手在头上揉动",
+                "speech_text": null,
+                "mood_state": "忧虑"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明凌晨在医院放射科，独自操作机器进行脑部CT扫描。",
+            "interlocutor_info": {
+                "name": "无",
+                "relationship_tag": "孤独行动者"
+            },
+            "trigger": {
+                "sender": "自身",
+                "content": "头痛频繁，决定去医院检查，发现值班医生在睡觉。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "隐秘操作者",
+                "inner_monologue": "我得自己搞定这个检查，不能让人发现。",
+                "external_action": "用麻醉针麻醉医生，关上门，在电脑前设定机器",
+                "speech_text": null,
+                "mood_state": "专注"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在医院外路边，查看脑部CT扫描图后，感到茫然和震惊。",
+            "interlocutor_info": {
+                "name": "无",
+                "relationship_tag": "自我面对"
+            },
+            "trigger": {
+                "sender": "CT扫描图",
+                "content": "看到脑部CT扫描图显示异常结果。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "震惊者",
+                "inner_monologue": "这怎么可能……我的脑子怎么会变成这样……",
+                "external_action": "从纸袋里抽出CT图，直直地看着，深吸冷气，闭上眼睛",
+                "speech_text": "怎么会……搞成这个样子呢……",
+                "mood_state": "震惊"
+            }
+        }
+    ]
+}

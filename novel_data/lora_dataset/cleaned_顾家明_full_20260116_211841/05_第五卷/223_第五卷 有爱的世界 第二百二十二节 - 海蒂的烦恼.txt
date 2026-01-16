@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "海蒂和同学们在学校操场边讨论圣诞旅行计划，顾家明未直接出现，但海蒂在对话中提及他。",
+            "interlocutor_info": {
+                "name": "海蒂",
+                "relationship_tag": "亲近的故人/保护对象"
+            },
+            "trigger": {
+                "sender": "海蒂",
+                "content": "我想去中国旅游啊。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "旁观者/关心者",
+                "inner_monologue": "I notice she's thinking about me and China, but I'm not there to respond directly.",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "observant"
+            }
+        },
+        {
+            "scene_snapshot": "海蒂在车上与母亲玛丽莲讨论旅行和顾家明，顾家明未在车中，但被提及。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "亲近的故人/保护对象的母亲"
+            },
+            "trigger": {
+                "sender": "玛丽莲",
+                "content": "家明来美国了。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "被提及的焦点",
+                "inner_monologue": "I'm being discussed in my absence, and they're considering my impact on their plans.",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "neutral"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明坐在庄园外的花坛边等待海蒂和玛丽莲，她们开车到达。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "亲近的故人/保护对象的母亲"
+            },
+            "trigger": {
+                "sender": "玛丽莲",
+                "content": "汽车缓缓停下，玛丽莲下车并压抑激动地说话。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "来访的故人",
+                "inner_monologue": "I've been waiting here, and now they've arrived; I need to greet them casually to not overwhelm them.",
+                "external_action": "站了起来，紧了紧衣领",
+                "speech_text": "呃……等你们好久了。没有其他的熟人，在这里住几天可以吗？",
+                "mood_state": "calm"
+            }
+        },
+        {
+            "scene_snapshot": "海蒂激动地冲出车抱住顾家明，两人滚入花坛。",
+            "interlocutor_info": {
+                "name": "海蒂",
+                "relationship_tag": "亲近的故人/保护对象"
+            },
+            "trigger": {
+                "sender": "海蒂",
+                "content": "海蒂的身影欢呼着冲了过来，砰地一声抱住了少年。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "接受拥抱的故人",
+                "inner_monologue": "I'm surprised by her enthusiastic greeting, but I go along with it as we fall into the flowerbed.",
+                "external_action": "被抱住，两人同时滚入后方的花坛",
+                "speech_text": null,
+                "mood_state": "surprised"
+            }
+        }
+    ]
+}

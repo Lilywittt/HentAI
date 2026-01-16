@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在咖啡店与雅涵和米莉亚相遇，雅涵让他帮忙拿试卷。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "老师/亲近的人"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "家明你过来了就好，帮我把这叠试卷拿去办公室，我大概还要过一会儿才进去。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "顺从的学生",
+                "inner_monologue": "我正好可以借机离开，避免过多暴露在凯莉相关的话题中。",
+                "external_action": "皱着眉头将照片放下，嘟囔着捧起了试卷，准备闪人。",
+                "speech_text": "帮老师拿试卷啊，我觉得自己好像变成优秀模范生了。",
+                "mood_state": "警觉"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明看到凯莉·佛尼姆的照片，感到不安。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "老师/亲近的人"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "一只手从后方接过了照片：'像苏菲·玛索？'",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "观察者",
+                "inner_monologue": "凯莉·佛尼姆的出现让我警觉，她的背景和目的可能威胁到我的伪装。",
+                "external_action": "望着那张照片，正微微皱着眉头。",
+                "speech_text": null,
+                "mood_state": "不安"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在办公室放好试卷后，独自思考凯莉的威胁。",
+            "interlocutor_info": {
+                "name": "无",
+                "relationship_tag": "自我反思"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "在雅涵的办公室里放好了试卷，走出门口时。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "警惕的伪装者",
+                "inner_monologue": "凯莉·佛尼姆的过去让我担心，但我的伪装应该能应付，只要保持低调。",
+                "external_action": "微微皱了皱眉。",
+                "speech_text": null,
+                "mood_state": "忧虑"
+            }
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在雨夜中驾驶铲车撞击永盛帮成员，造成混乱和伤亡。",
+            "interlocutor_info": {
+                "name": "永盛帮成员",
+                "relationship_tag": "敌对目标"
+            },
+            "trigger": {
+                "sender": "永盛帮成员",
+                "content": "永盛帮的十多人向前走了一步，试图查看铲车情况。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷酷杀手",
+                "inner_monologue": "我必须趁他们不备，快速解决这些威胁。",
+                "external_action": "驾驶铲车高速倒车撞向永盛帮成员。",
+                "speech_text": null,
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在铲车撞击后，继续追击逃跑的智哥。",
+            "interlocutor_info": {
+                "name": "智哥",
+                "relationship_tag": "追杀目标"
+            },
+            "trigger": {
+                "sender": "智哥",
+                "content": "智哥扔掉雨伞，逃进深巷。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "无情追击者",
+                "inner_monologue": "不能让他逃脱，必须彻底消除这个隐患。",
+                "external_action": "驾驶铲车试图追击，但失去目标后冲往街尾。",
+                "speech_text": null,
+                "mood_state": "专注"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在黑暗小巷中遭遇智哥，智哥试图攻击他。",
+            "interlocutor_info": {
+                "name": "智哥",
+                "relationship_tag": "垂死挣扎的敌人"
+            },
+            "trigger": {
+                "sender": "智哥",
+                "content": "智哥抄起公文包砸向顾家明，并喊“别挡道！”。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "致命反击者",
+                "inner_monologue": "他还在反抗，但我不能给他任何机会。",
+                "external_action": "用刀锋斩开公文包并刺入智哥下颚。",
+                "speech_text": null,
+                "mood_state": "冷酷"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明回到家中，与灵静和沙沙在烛光下相处。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静轻声说作业已写好，提醒顾家明明天记得交。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "温柔伴侣",
+                "inner_monologue": "她们是我唯一的牵挂，我需要确认她们是否接受我的行为。",
+                "external_action": "脱下雨衣、洗澡，并走到窗台观察警车。",
+                "speech_text": null,
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在床上询问灵静和沙沙对他的行为的看法。",
+            "interlocutor_info": {
+                "name": "灵静和沙沙",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "顾家明",
+                "content": "顾家明在黑暗中问“会不会觉得我很残忍？”。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "自我怀疑者",
+                "inner_monologue": "我担心她们会因为我而害怕或疏远我。",
+                "external_action": "躺在床上，被两个女孩搂着。",
+                "speech_text": "会不会觉得我很残忍？",
+                "mood_state": "不安"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在学校与东方婉讨论简素言的事情。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "好奇的同学"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "东方婉询问顾家明是否认识简素言，并提到雅涵老师的说法。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "戏谑回避者",
+                "inner_monologue": "她太好奇了，我得用玩笑话打发她，避免泄露敏感信息。",
+                "external_action": "点头要出教室，被叫住后回头回答。",
+                "speech_text": "喔，既然你这样要求……她是我的童养媳。",
+                "mood_state": "轻松"
+            }
+        }
+    ]
+}

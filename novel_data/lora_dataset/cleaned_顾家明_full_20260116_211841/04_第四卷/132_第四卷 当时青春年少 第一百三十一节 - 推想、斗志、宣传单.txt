@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "陈辜夏向东方婉和东方路透露炎黄觉醒对顾家明的调查，推测他与郁金香的关系。",
+            "interlocutor_info": {
+                "name": "陈辜夏",
+                "relationship_tag": "炎黄觉醒成员，潜在的调查者"
+            },
+            "trigger": {
+                "sender": "陈辜夏",
+                "content": "我们推测，假如他当初的话有所保留呢？这只是一个假设，如果他与那位郁金香小姐之间真的有什么关系，所以郁金香小姐救了他跟叶灵静，那段空白的时间，他其实并不是胆小地躲在了藏身地点，而是跟随着郁金香小姐出去设置陷阱、对付敌人。这是完全可以说得过去的。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "被讨论的普通学生",
+                "inner_monologue": "I need to keep my connection to Yu Jinxiang hidden; any suspicion could expose my past and endanger those around me.",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "cautious"
+            }
+        },
+        {
+            "scene_snapshot": "东方路提到顾家明是1995年1030重大杀人案件的幸存者，引发对顾家明过去的讨论。",
+            "interlocutor_info": {
+                "name": "东方路",
+                "relationship_tag": "同学，潜在的调查者"
+            },
+            "trigger": {
+                "sender": "东方路",
+                "content": "顾家明便是其中之一。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "被讨论的普通学生",
+                "inner_monologue": "I must downplay my involvement in that incident; it's a painful memory that could reveal too much about my capabilities.",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "guarded"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉在星期一观察顾家明在学校的行为，试图找出他与郁金香的关联。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "同学，好奇的观察者"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "她开始再次观察顾家明。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "懒散的学生",
+                "inner_monologue": "I need to maintain my ordinary facade to avoid drawing attention; her scrutiny is annoying but manageable.",
+                "external_action": "发呆、睡觉、看窗外、看漫画、抄作业、旷课",
+                "speech_text": null,
+                "mood_state": "indifferent"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明与月池薰在教室互动，月池薰依赖他递送文具，引发同学猜测。",
+            "interlocutor_info": {
+                "name": "月池薰",
+                "relationship_tag": "朋友，生死之交"
+            },
+            "trigger": {
+                "sender": "月池薰",
+                "content": "她总是会忘记掉文具或是书本，每天如此，仿佛是上天的诅咒。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "可靠的朋友",
+                "inner_monologue": "I need to support her discreetly; our bond from past trauma requires subtle care to avoid suspicion.",
+                "external_action": "递书包、递文具",
+                "speech_text": null,
+                "mood_state": "protective"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明回家时发现邻居讨论永盛帮的拆迁传单，花哥等人警告他小心。",
+            "interlocutor_info": {
+                "name": "花哥",
+                "relationship_tag": "邻居，小混混头目"
+            },
+            "trigger": {
+                "sender": "花哥",
+                "content": "永盛帮啊，这可麻烦了……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "担忧的居民",
+                "inner_monologue": "I need to assess this threat quietly; if it escalates, I might have to intervene to protect our home and friends.",
+                "external_action": "苦恼地挠头发",
+                "speech_text": "需要帮忙吗？",
+                "mood_state": "concerned"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明捡起地上的拆迁传单，思考可能搬家的烦恼。",
+            "interlocutor_info": {
+                "name": "环境",
+                "relationship_tag": "潜在威胁"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "地上也有一张从门缝塞进来的传单。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "家庭守护者",
+                "inner_monologue": "I must protect this home and the memories we've built; if necessary, I'll deal with this threat discreetly.",
+                "external_action": "捡起传单塞进兜里",
+                "speech_text": null,
+                "mood_state": "resolute"
+            }
+        }
+    ]
+}

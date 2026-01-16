@@ -1,0 +1,140 @@
+{
+    "meta_info": {
+        "global_scene_type": "Romance"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在停车场接灵静，两人重逢时气氛紧张而沉默。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "深爱但即将分离的恋人"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静下车后看到顾家明，表情茫然，被东方婉拉着走向他。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静而疏离的接应者",
+                "inner_monologue": "我必须保持距离，不能让她看出我的痛苦，但看到她这样，我的心像被揪紧了。",
+                "external_action": "提起灵静的旅行包，与东方婉简短聊天，然后说“我们走吧”。",
+                "speech_text": "我们走吧。",
+                "mood_state": "压抑"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在出租车旁与灵静简短对话后，被东方婉和东方路询问。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "好奇但善意的朋友"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "“喂，家明，是不是因为灵静要去维也纳，所以你们吵架了？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "回避话题的敷衍者",
+                "inner_monologue": "我不想讨论这件事，这只会让事情更复杂，我得转移注意力。",
+                "external_action": "平淡地回答，随后转身离开。",
+                "speech_text": "呃，没有吧……",
+                "mood_state": "回避"
+            }
+        },
+        {
+            "scene_snapshot": "东方路与顾家明讨论沙竹帮和炎黄觉醒的事务，顾家明反应冷淡。",
+            "interlocutor_info": {
+                "name": "东方路",
+                "relationship_tag": "事务性盟友"
+            },
+            "trigger": {
+                "sender": "东方路",
+                "content": "“沙竹帮的事情，方之天这边的确没反应过来……不知道你心里是怎么想的……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "漠不关心的旁观者",
+                "inner_monologue": "这些外部争斗现在对我毫无意义，我只关心灵静和沙沙的事。",
+                "external_action": "不置可否地点头，转身离开。",
+                "speech_text": "再说吧……",
+                "mood_state": "淡漠"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在厨房与灵静一起准备晚餐，气氛沉默而熟悉。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "深爱但即将分离的恋人"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静在厨房做饭，顾家明进来拿碗筷并询问肉是否还能吃。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "日常配合的伴侣",
+                "inner_monologue": "这感觉像以前一样，但一切都不同了，我得多陪她一会儿，哪怕只是默默做事。",
+                "external_action": "侧身让路，拿碗筷，随后在客厅看电视。",
+                "speech_text": "那些肉放了好多天了，还能吃吗？",
+                "mood_state": "怀旧"
+            }
+        },
+        {
+            "scene_snapshot": "晚餐时灵静告诉顾家明她明天去维也纳，并质问关于沙沙和雅涵的事。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "深爱但即将分离的恋人"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "“我明天去维也纳。”并追问“我怎么跟她说啊？你还没跟她说你跟雅涵姐的事情吧……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "沉默的承受者",
+                "inner_monologue": "她问到了最痛处，我不能解释，只能承受她的痛苦和我的内疚。",
+                "external_action": "动作停顿，继续吃饭，点头。",
+                "speech_text": "嗯。",
+                "mood_state": "内疚"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明给灵静准备出国用的物品，包括笔记、名片和银行卡。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "深爱但即将分离的恋人"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静询问顾家明手腕上的伤，并说“你从来没有不小心过……”。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "保护性的提供者",
+                "inner_monologue": "我得确保她在维也纳安全，但伤口的事不能告诉她真相，这会让她更担心。",
+                "external_action": "将物品放到灵静身边，没有回答伤口问题。",
+                "speech_text": "不小心……",
+                "mood_state": "担忧"
+            }
+        },
+        {
+            "scene_snapshot": "灵静在离开前抱住顾家明哭喊，询问原因，并说今晚不回去。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "深爱但即将分离的恋人"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静冲过来抱住顾家明，哭喊“到底是因为什么原因，你告诉我啊！”并说“今天晚上……我不回去了……”。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "情感爆发的回应者",
+                "inner_monologue": "我再也无法压抑了，她的痛苦就是我的痛苦，今晚就让我们最后一次紧紧相拥。",
+                "external_action": "转身搂住灵静，紧紧拥抱，随后可能亲吻。",
+                "speech_text": null,
+                "mood_state": "痛苦"
+            }
+        }
+    ]
+}

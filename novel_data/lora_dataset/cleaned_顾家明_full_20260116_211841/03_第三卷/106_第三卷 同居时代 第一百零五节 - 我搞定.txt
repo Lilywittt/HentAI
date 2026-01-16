@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在迪卡网络公司送花时，遇到李安童因公司系统被黑而烦躁，拒绝签收花束。",
+            "interlocutor_info": {
+                "name": "李安童",
+                "relationship_tag": "陌生客户"
+            },
+            "trigger": {
+                "sender": "李安童",
+                "content": "把花扔掉，字你自己签，可以走了。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "专业耐心的送花员",
+                "inner_monologue": "这客户真没礼貌，但我得遵守花店规矩，不能随便处理花束。",
+                "external_action": "笑了笑，说先等等",
+                "speech_text": "那……我先在这里等等吧。",
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明等待时发现有人在内部办公室偷窥他，并认出对方身份。",
+            "interlocutor_info": {
+                "name": "偷窥者（未指名，但顾家明认识）",
+                "relationship_tag": "认识但非重要的人"
+            },
+            "trigger": {
+                "sender": "偷窥者",
+                "content": "内部办公室的百叶窗被掀开一点，目光落在顾家明身上",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "警觉的观察者",
+                "inner_monologue": "有人在偷看我，不是敌人，但眼神熟悉……是认识的人？",
+                "external_action": "眼角的余光不动声色地偏向一边，故作无意地转身",
+                "speech_text": null,
+                "mood_state": "警觉"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明确认偷窥者身份后，感到有些无聊，开始想其他事情。",
+            "interlocutor_info": {
+                "name": "偷窥者（已确认身份）",
+                "relationship_tag": "孽缘的熟人"
+            },
+            "trigger": {
+                "sender": "顾家明自己",
+                "content": "确定了偷窥者身份，心中有些古怪",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "无聊的等待者",
+                "inner_monologue": "真是孽缘啊……不是什么重要的人，不用刻意回避。",
+                "external_action": "皱着眉头，有些无聊",
+                "speech_text": null,
+                "mood_state": "无聊"
+            }
+        },
+        {
+            "scene_snapshot": "李安童让顾家明帮忙倒水，顾家明照做后，她仍专注于工作。",
+            "interlocutor_info": {
+                "name": "李安童",
+                "relationship_tag": "烦躁的客户"
+            },
+            "trigger": {
+                "sender": "李安童",
+                "content": "喂，麻烦帮我倒杯水过来，谢谢。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "乐于助人的送花员",
+                "inner_monologue": "这客户连看都不看我一眼，真够专注的，但帮忙倒水小事一桩。",
+                "external_action": "拿着玫瑰花在一边倒了水过来",
+                "speech_text": null,
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明观察李安童的电脑屏幕后，主动指出她处理系统被黑的问题错误。",
+            "interlocutor_info": {
+                "name": "李安童",
+                "relationship_tag": "技术遇到困难的客户"
+            },
+            "trigger": {
+                "sender": "顾家明自己",
+                "content": "看到李安童操作电脑，发现她处理方式错误",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "技术娴熟的旁观者",
+                "inner_monologue": "她这样搞下去，到深夜都搞不定，我得帮一把，好让她快点签字。",
+                "external_action": "开口以批评口气说话，然后示意她站起来",
+                "speech_text": "其实……你们从一开始就错了，照这个样子下去，忙到今天深夜你恐怕都没办法给我签字。唉……对方的入侵手段比较特殊，你们根本就没有抓住要点，是……算了，这样吧，你签字，我搞定……",
+                "mood_state": "自信"
+            }
+        }
+    ]
+}

@@ -1,0 +1,216 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在开车时接到雅涵的电话，得知灵静和沙沙在找他。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "朋友/姐姐"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "灵静和沙沙来找你，现在就在旁边呢，你跑哪去了？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "轻松随和",
+                "inner_monologue": "我得安抚一下她们，免得她们担心。",
+                "external_action": "将速度放慢了下来",
+                "speech_text": "呃……",
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵在电话中愤怒地指责顾家明出门没打招呼，并让他还车。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "朋友/姐姐"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "出门居然连个招呼都没有打，你活腻了？人家两个女孩子都要哭了，还以为你生气离家出走，不管你现在在哪里，老老实实把我的车给我还回来！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "顺从安抚",
+                "inner_monologue": "雅涵姐生气了，我得赶紧解释清楚。",
+                "external_action": null,
+                "speech_text": "那个……我知道了，大概还要一个多小时……",
+                "mood_state": "歉意"
+            }
+        },
+        {
+            "scene_snapshot": "灵静和沙沙在电话中询问顾家明的去向。",
+            "interlocutor_info": {
+                "name": "灵静和沙沙",
+                "relationship_tag": "家人/女友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "家明……你在哪里啊……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "温和安抚",
+                "inner_monologue": "她们在试探我，我得让她们放心。",
+                "external_action": "踩下了刹车",
+                "speech_text": "呵呵，我就是出来兜个风，没什么事，现在出城了，回去大概还得一个多小时……",
+                "mood_state": "安抚"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明提议让灵静和沙沙在雅涵家玩，并承诺买糖炒栗子回来。",
+            "interlocutor_info": {
+                "name": "灵静和沙沙",
+                "relationship_tag": "家人/女友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "呵呵，我们只是有些奇怪你跑哪去了，没什么事的，你如果有事的话不用急着回来，哈哈……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "体贴照顾",
+                "inner_monologue": "她们在掩饰不安，我得主动安抚并转移话题。",
+                "external_action": null,
+                "speech_text": "没事，马上回头，要不你们就在雅涵姐那边玩一会好了，我顺道买些糖炒栗子回来。",
+                "mood_state": "体贴"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明回到雅涵别墅，面对雅涵的抱怨和灵静、沙沙的反应。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "朋友/姐姐"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "你还知道回来啊！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "幽默化解",
+                "inner_monologue": "我得用轻松的方式化解尴尬，避免冲突。",
+                "external_action": "扬了扬手上的纸袋",
+                "speech_text": "咳。你们最喜欢的糖炒栗子……沙沙你还不打雅涵姐就要趁机打败你了……",
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在厨房从背后搂住灵静，开玩笑说下次吵架就离家出走。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "家人/女友"
+            },
+            "trigger": {
+                "sender": "顾家明",
+                "content": "知道错了吧，害怕了吧……下次你们再吵架，说不定我就真的离家出走了……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "调皮亲密",
+                "inner_monologue": "我想用玩笑缓和气氛，表达我的关心。",
+                "external_action": "从背后搂住灵静",
+                "speech_text": "知道错了吧，害怕了吧……下次你们再吵架，说不定我就真的离家出走了……",
+                "mood_state": "调皮"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在电脑前与天雨正则讨论裴罗嘉的消息。",
+            "interlocutor_info": {
+                "name": "天雨正则",
+                "relationship_tag": "盟友/朋友"
+            },
+            "trigger": {
+                "sender": "天雨正则",
+                "content": "算一下你也已经起来了，看完了吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静分析",
+                "inner_monologue": "这个消息很关键，我得仔细评估其可靠性和影响。",
+                "external_action": "看了半晌，不由得皱起眉头",
+                "speech_text": null,
+                "mood_state": "深思"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明分析裴罗嘉内部可能的问题，并摇头失笑。",
+            "interlocutor_info": {
+                "name": "天雨正则",
+                "relationship_tag": "盟友/朋友"
+            },
+            "trigger": {
+                "sender": "天雨正则",
+                "content": "当然，你那边也要当心了。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "警觉推理",
+                "inner_monologue": "如果消息属实，这可能是内部有人捣鬼，我得警惕。",
+                "external_action": "呆呆地想了一会儿，摇头失笑起来",
+                "speech_text": null,
+                "mood_state": "警觉"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙端着咖啡出现，顾家明将她搂在怀里并用被子裹起来。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "家人/女友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "只是发现你起来了……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "温柔关爱",
+                "inner_monologue": "沙沙看起来有心事，我得安慰她。",
+                "external_action": "将沙沙搂在怀里，随后用被子裹起来",
+                "speech_text": "怎么了？睡不着？",
+                "mood_state": "关爱"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙表达对自己未来的担忧，顾家明用家人比喻来安慰她。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "家人/女友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "我想做点自己的事情，可又不知道该做什么……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "支持鼓励",
+                "inner_monologue": "沙沙在自我怀疑，我得让她感受到无条件的支持。",
+                "external_action": "轻轻拍着她",
+                "speech_text": "其实吧，说肉麻一点哦，我知道有一种人是要无条件付出的……家人啊，比男朋友更可靠的存在……",
+                "mood_state": "温暖"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙提出放弃沙竹帮的想法，顾家明鼓励她去做想做的事。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "家人/女友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "家明你如果不希望我继续做下去，那我就不再关心沙竹帮的事情了，好好读书，考个不错的大学，行了吧……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "坚定支持",
+                "inner_monologue": "沙沙在寻求我的认可，我得支持她的选择，让她安心。",
+                "external_action": "俯低身子用双手抱紧了沙沙",
+                "speech_text": "那就去做吧。等到不想做的时候，再回来跟我哭鼻子好了。",
+                "mood_state": "坚定"
+            }
+        }
+    ]
+}

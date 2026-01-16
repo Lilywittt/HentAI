@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "炎黄觉醒小组在别墅中分析爆炸案，怀疑顾家明与简素言合作参与了行动。",
+            "interlocutor_info": {
+                "name": "方国琳",
+                "relationship_tag": "同事/分析者"
+            },
+            "trigger": {
+                "sender": "方国琳",
+                "content": "推断顾家明与简素言联合行动，因为监控画面精确，需要旁观者掌控全局。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "被讨论的冷静角色",
+                "inner_monologue": "他们果然在怀疑我，但我的计划就是让他们这样想，以缓解更深的怀疑。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "calculating"
+            }
+        },
+        {
+            "scene_snapshot": "崔国华评论顾家明很厉害，乔国睿推测他可能成为第二个简素言。",
+            "interlocutor_info": {
+                "name": "崔国华",
+                "relationship_tag": "上级/观察者"
+            },
+            "trigger": {
+                "sender": "崔国华",
+                "content": "指着监控画面说顾家明很厉害，不简单。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "被评估的潜在威胁",
+                "inner_monologue": "让他们觉得我厉害一点就好，但别过头，这样能转移注意力。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "controlled"
+            }
+        },
+        {
+            "scene_snapshot": "海蒂好奇顾家明在做什么，询问他是否在对付坏人。",
+            "interlocutor_info": {
+                "name": "海蒂",
+                "relationship_tag": "受保护者/孩子"
+            },
+            "trigger": {
+                "sender": "海蒂",
+                "content": "问顾家明这些是什么规律，是否想对付坏人。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "保护者/导师",
+                "inner_monologue": "她太天真了，但我不想吓到她，得用简单的方式解释。",
+                "external_action": "笑了笑，敲了海蒂的额头",
+                "speech_text": "没有坏人，只有敌人。出去玩吧，我还要一段时间才能做完，做完了去找你。",
+                "mood_state": "gentle"
+            }
+        },
+        {
+            "scene_snapshot": "玛丽莲询问顾家明是否因她而故意挑衅，担心给他添麻烦。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "关心者/朋友"
+            },
+            "trigger": {
+                "sender": "玛丽莲",
+                "content": "问顾家明是否因她和家族而故意挑衅，给他添麻烦。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "安抚者/策略家",
+                "inner_monologue": "她太敏感了，但我不想让她内疚，得解释清楚我的真实意图。",
+                "external_action": "笑了笑",
+                "speech_text": "应该不是。我需要一个身份...一个更加具体的、形象的、厉害的、稍微坦诚一点的身份，缓解掉一些潜在的怀疑或者风险。",
+                "mood_state": "reassuring"
+            }
+        }
+    ]
+}

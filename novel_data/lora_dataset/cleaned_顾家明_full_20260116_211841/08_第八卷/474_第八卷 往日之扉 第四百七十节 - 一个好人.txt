@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Other"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "同学会结束后，杨晨光带人围堵顾家明，但警察突然出现并抓捕了杨晨光等人。",
+            "interlocutor_info": {
+                "name": "杨晨光",
+                "relationship_tag": "敌对势力成员"
+            },
+            "trigger": {
+                "sender": "杨晨光",
+                "content": "杨晨光带人围堵顾家明，试图报复。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的旁观者",
+                "inner_monologue": "我早就料到会有这种冲突，但没想到东方路会直接动用警方力量来升级事态。",
+                "external_action": "从酒店楼上下来，观察局势。",
+                "speech_text": null,
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "东方路和东方婉与顾家明交谈，讨论如何处理杨晨光和新河帮的事情。",
+            "interlocutor_info": {
+                "name": "东方路",
+                "relationship_tag": "盟友/朋友"
+            },
+            "trigger": {
+                "sender": "东方路",
+                "content": "询问顾家明今天为何冲动出手。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "坦诚的决策者",
+                "inner_monologue": "东方路在试探我的态度，我需要明确表达立场，但也要让他来处理后续，避免直接卷入。",
+                "external_action": "笑了起来，与东方路和东方婉交谈。",
+                "speech_text": "一样的，以前不想惹事，因为大家是小孩子，现在也不想惹事，可已经是大人了，总也不能让什么人都觉得可以过来捏我……你们那边决定怎么办？",
+                "mood_state": "坚定"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明与东方婉聊天，提到要去日本见一个老同学。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "朋友/好奇的旁观者"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "询问顾家明去日本是否旅游。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "轻松的朋友",
+                "inner_monologue": "东方婉还是这么好奇，但我不想多说细节，简单带过就好。",
+                "external_action": "笑了笑，回应东方婉的问题。",
+                "speech_text": "呃……以前的一个同学，你也认识的。",
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明与雅涵在车上聊天，讨论灵静和沙沙的事情，以及彼此的关系。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "询问顾家明是否担心她和灵静、沙沙吵架。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "温柔的伴侣",
+                "inner_monologue": "雅涵在试探我的态度，我知道她担心，但我也相信她们能处理好关系，我需要安抚她。",
+                "external_action": "笑着回应，抚摸雅涵的颈项。",
+                "speech_text": "反正……结果没吵起来吧？",
+                "mood_state": "安抚"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明和雅涵在车上亲密互动，车子停在路边休息。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "雅涵让顾家明别动，让她靠一会儿。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "亲密的伴侣",
+                "inner_monologue": "雅涵需要安慰和亲近，我应该温柔回应，让她感到安心。",
+                "external_action": "抱着雅涵，回应她的亲近。",
+                "speech_text": "抱着不是更好……",
+                "mood_state": "温柔"
+            }
+        }
+    ]
+}

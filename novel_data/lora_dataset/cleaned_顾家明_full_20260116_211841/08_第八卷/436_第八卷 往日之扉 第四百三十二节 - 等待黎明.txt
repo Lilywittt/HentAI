@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "灵静在家中听到雅涵未婚生女的消息，内心震惊并猜测孩子父亲是顾家明。",
+            "interlocutor_info": {
+                "name": "段静娴",
+                "relationship_tag": "母亲"
+            },
+            "trigger": {
+                "sender": "段静娴",
+                "content": "雅涵未婚生女，孩子父亲未知，女儿小名淘淘。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "困惑的女儿",
+                "inner_monologue": "雅涵姐的孩子是家明的吗？家明离开后和她在一起了？那我该怎么办，家明现在在哪里……",
+                "external_action": "放下筷子，喃喃自语，低头捂住脑袋。",
+                "speech_text": "妈，我明天……去见见雅涵姐……",
+                "mood_state": "distraught"
+            }
+        },
+        {
+            "scene_snapshot": "崔国华在犯罪现场分析凶手，提及顾家明作为对比。",
+            "interlocutor_info": {
+                "name": "分析员",
+                "relationship_tag": "同事/专家"
+            },
+            "trigger": {
+                "sender": "崔国华",
+                "content": "询问凶手与顾家明的实力比较。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "被提及的传奇人物",
+                "inner_monologue": "他们又在讨论我的战斗方式，可惜我已经不在了，无法阻止这些杀戮。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "detached"
+            }
+        },
+        {
+            "scene_snapshot": "分析员评论顾家明的战斗本能和年龄矛盾。",
+            "interlocutor_info": {
+                "name": "分析员",
+                "relationship_tag": "观察者"
+            },
+            "trigger": {
+                "sender": "分析员",
+                "content": "分析顾家明的战斗本能形成和年龄不符。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "神秘的前战士",
+                "inner_monologue": "他们无法理解我的过去，那些训练和经历塑造了我，但现在已经不重要了。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "resigned"
+            }
+        },
+        {
+            "scene_snapshot": "分析员提到顾家明可能站在他们这边但已死。",
+            "interlocutor_info": {
+                "name": "分析员",
+                "relationship_tag": "惋惜者"
+            },
+            "trigger": {
+                "sender": "分析员",
+                "content": "顾家明本可能帮助炎黄觉醒，但已去世。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "逝去的潜在盟友",
+                "inner_monologue": "如果我还活着，或许能对抗这些敌人，但命运已定，他们只能靠自己了。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "regretful"
+            }
+        }
+    ]
+}

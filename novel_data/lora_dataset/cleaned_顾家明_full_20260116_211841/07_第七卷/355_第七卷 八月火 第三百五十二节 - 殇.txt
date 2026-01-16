@@ -1,0 +1,140 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在昏暗房间观看柳正被杀的录像带，分析事件经过。",
+            "interlocutor_info": {
+                "name": "柳正",
+                "relationship_tag": "尊敬的长辈/沙沙的父亲"
+            },
+            "trigger": {
+                "sender": "柳正",
+                "content": "在录像中，柳正被柳士杰枪杀前留下遗言，表达对沙沙的关爱和遗憾。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "冷静的分析者",
+                "inner_monologue": "我必须理解柳叔的死亡真相，为沙沙和未来做准备。",
+                "external_action": "观看录像带，揉动发痛的额头",
+                "speech_text": null,
+                "mood_state": "沉重"
+            }
+        },
+        {
+            "scene_snapshot": "炎黄觉醒成员向顾家明汇报柳士杰的行踪，并询问对沙竹帮未来的意见。",
+            "interlocutor_info": {
+                "name": "炎黄觉醒成员",
+                "relationship_tag": "外部合作者/情报提供者"
+            },
+            "trigger": {
+                "sender": "炎黄觉醒成员",
+                "content": "报告柳士杰逃亡情况，并探询对沙竹帮未来的处理意见。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "克制的决策者",
+                "inner_monologue": "现在不是行动的时候，先稳住局面，保护沙沙的情绪。",
+                "external_action": "摇头表示拒绝立即行动",
+                "speech_text": "麻烦暂时看着他吧，别让他发现就好……谢谢了。",
+                "mood_state": "谨慎"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在灵堂前试图安慰跪了许久的沙沙，并扶她起来休息。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "深爱的女友/需要保护的人"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "沙沙因父亲去世悲伤过度，跪在灵堂前不肯动。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "温柔的照顾者",
+                "inner_monologue": "我必须坚强，帮助沙沙度过这个难关。",
+                "external_action": "俯身轻声劝说，扶沙沙起来坐到凳子上",
+                "speech_text": null,
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明与灵静交流，灵静让他去厨房拿粥给沙沙。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密的朋友/共同照顾沙沙的伙伴"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "请求顾家明去厨房拿煮好的粥给沙沙。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "可靠的执行者",
+                "inner_monologue": "灵静在尽力帮忙，我得快去快回，确保沙沙能吃点东西。",
+                "external_action": "点头同意，转身离开",
+                "speech_text": null,
+                "mood_state": "专注"
+            }
+        },
+        {
+            "scene_snapshot": "小孟向顾家明汇报沙竹帮内部动荡，并寻求支持处理杨振兴的问题。",
+            "interlocutor_info": {
+                "name": "小孟",
+                "relationship_tag": "沙竹帮下属/潜在的盟友"
+            },
+            "trigger": {
+                "sender": "小孟",
+                "content": "告知杨振兴可能自立门户，并询问是否支持清理门户。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "沉稳的领导者",
+                "inner_monologue": "现在不是处理帮派事务的时候，先让柳叔安息，避免激化矛盾。",
+                "external_action": "摇头表示暂缓行动",
+                "speech_text": "丧礼期间，别想这些了，让柳叔入土为安最重要，其他的事情，等到之后吧，所有的事情……辛苦你了，谢谢……",
+                "mood_state": "压抑"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在厨房与段静娴交谈，讨论沙沙的遗产和亲戚问题。",
+            "interlocutor_info": {
+                "name": "段静娴",
+                "relationship_tag": "长辈/灵静的母亲"
+            },
+            "trigger": {
+                "sender": "段静娴",
+                "content": "询问沙沙的情况、遗产处理，以及亲戚的敌意。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "坦诚的晚辈",
+                "inner_monologue": "叶妈在关心我们，我得如实相告，但避免让她过度担心。",
+                "external_action": "笑着回应，梳理头发",
+                "speech_text": "根本就是当面说的好不好。没事的，这些人做不了什么事，顶多也就是说上几句，沙沙这个样子，我们也懒得跟他们计较了。",
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明端粥返回灵堂，遇到敌对帮派成员前来挑衅。",
+            "interlocutor_info": {
+                "name": "敌对帮派成员",
+                "relationship_tag": "外部威胁/挑衅者"
+            },
+            "trigger": {
+                "sender": "敌对帮派成员",
+                "content": "大声指责沙沙在灵堂坐着不懂事，进行挑衅。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "警觉的守护者",
+                "inner_monologue": "这些人想趁乱生事，我必须保护沙沙和灵堂的安宁。",
+                "external_action": "抬头望去，准备应对",
+                "speech_text": null,
+                "mood_state": "警惕"
+            }
+        }
+    ]
+}

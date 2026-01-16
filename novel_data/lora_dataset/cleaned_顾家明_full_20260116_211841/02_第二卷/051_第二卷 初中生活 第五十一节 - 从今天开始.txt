@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Romance"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明醒来后发现与沙沙和灵静赤裸同床，三人尴尬对视。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密朋友/暗恋对象"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "顾家明醒来后发现自己与沙沙和灵静赤裸同床，看到血迹和混乱场景。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "困惑的旁观者",
+                "inner_monologue": "我头痛欲裂，不知道发生了什么，看到沙沙和灵静这样，我感到手足无措。",
+                "external_action": "捂住额头，找到长裤默默穿上。",
+                "speech_text": null,
+                "mood_state": "困惑"
+            }
+        },
+        {
+            "scene_snapshot": "灵静哭泣并质问顾家明，要求他永远对她们好。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密朋友/暗恋对象"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静站起来，赤裸着走到顾家明面前，哭着说“从今天开始，你要对我们好，不许欺负我们，不许离开我们，要永远跟我们在一起”。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "沉默的倾听者",
+                "inner_monologue": "我不知道该怎么办，灵静这样要求我，但我从未体验过感情，这让我思考我们的关系。",
+                "external_action": "默默听着，没有立即回应。",
+                "speech_text": null,
+                "mood_state": "沉思"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在电脑前与凯莉·佛尼姆进行黑客交流，安排暗棋。",
+            "interlocutor_info": {
+                "name": "凯莉·佛尼姆",
+                "relationship_tag": "潜在盟友/工具人"
+            },
+            "trigger": {
+                "sender": "凯莉·佛尼姆",
+                "content": "凯莉回复消息询问顾家明的身份和目的。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "神秘的黑客",
+                "inner_monologue": "我需要未雨绸缪，凯莉是个天才，这七十亿美金能让她在未来帮我一些忙。",
+                "external_action": "敲打键盘回复消息，露出古怪笑容。",
+                "speech_text": null,
+                "mood_state": "算计"
+            }
+        },
+        {
+            "scene_snapshot": "灵静和沙沙洗完澡后，灵静通知顾家明去洗澡。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密朋友/暗恋对象"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静说“我们洗好了，沙沙说……她还有些累，想睡一会儿，所以……呃，水已经放好了，我上去替家明你拿衣服，你也去洗澡吧”。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "顺从的同伴",
+                "inner_monologue": "她们看起来不自然，但事情已经发生，我得配合她们，先洗澡再说。",
+                "external_action": "点头，关电脑，朝浴室走去。",
+                "speech_text": "嗯。",
+                "mood_state": "无奈"
+            }
+        }
+    ]
+}

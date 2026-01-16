@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明独自冲进裴罗嘉基地，与数百名杀手周旋一个多小时，引发混乱和爆炸。",
+            "interlocutor_info": {
+                "name": "裴罗嘉杀手们",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "裴罗嘉杀手们",
+                "content": "数百人追杀顾家明，持续一个多小时，基地防御系统被切断，火系异能爆发。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的杀手",
+                "inner_monologue": "我必须利用黑暗和混乱逐个击破他们，拖延时间并制造更多伤亡。",
+                "external_action": "在黑暗中与杀手们周旋，引发爆炸和枪战。",
+                "speech_text": null,
+                "mood_state": "专注"
+            }
+        },
+        {
+            "scene_snapshot": "天雨正则在外围分析顾家明的实力，感叹他的超然能力。",
+            "interlocutor_info": {
+                "name": "天雨正则",
+                "relationship_tag": "旁观者/异能者同行"
+            },
+            "trigger": {
+                "sender": "天雨正则",
+                "content": "感叹顾家明一个人把裴罗嘉逼到这种程度，认为他无敌了。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "隐形的强者",
+                "inner_monologue": "他们在外围观望，但无法理解我在里面的战斗策略和决心。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "determined"
+            }
+        },
+        {
+            "scene_snapshot": "御守喜在基地内部发牢骚，质疑追杀顾家明的效率。",
+            "interlocutor_info": {
+                "name": "御守喜",
+                "relationship_tag": "敌对势力内部成员"
+            },
+            "trigger": {
+                "sender": "御守喜",
+                "content": "抱怨几百人追杀一个顾家明像捉迷藏，质疑裴罗嘉的伤亡和策略。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "隐匿的猎手",
+                "inner_monologue": "御守喜的混乱正好为我创造更多机会，让他们内部分裂。",
+                "external_action": "继续在黑暗中行动，利用御守喜引发的内部矛盾。",
+                "speech_text": null,
+                "mood_state": "strategic"
+            }
+        },
+        {
+            "scene_snapshot": "井上指责御守喜是内应，导致御守沧分心失败。",
+            "interlocutor_info": {
+                "name": "井上",
+                "relationship_tag": "敌对势力忠臣"
+            },
+            "trigger": {
+                "sender": "井上",
+                "content": "指控御守喜通过系统发出命令导致损失，是内应，导致御守沧分心。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "静默的观察者",
+                "inner_monologue": "井上的指控暴露了裴罗嘉的内部弱点，这对我有利。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "observant"
+            }
+        },
+        {
+            "scene_snapshot": "御守喜使用无限光明火异能杀死井上，巩固权力。",
+            "interlocutor_info": {
+                "name": "御守喜",
+                "relationship_tag": "新晋敌对首领"
+            },
+            "trigger": {
+                "sender": "御守喜",
+                "content": "使用无限光明火异能瞬间剥夺五感，杀死井上。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "警惕的战士",
+                "inner_monologue": "御守喜的异能很危险，我需要更加小心应对他的新威胁。",
+                "external_action": "在远处观察御守喜的行动，评估新威胁。",
+                "speech_text": null,
+                "mood_state": "cautious"
+            }
+        },
+        {
+            "scene_snapshot": "方之天在江海收到顾家明杀死御守沧的消息，震惊不已。",
+            "interlocutor_info": {
+                "name": "方之天",
+                "relationship_tag": "盟友/上级"
+            },
+            "trigger": {
+                "sender": "东方凌海",
+                "content": "报告顾家明杀掉了御守沧，裴罗嘉时代过去。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "成功的执行者",
+                "inner_monologue": "任务完成，但裴罗嘉的残余势力仍需处理。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "satisfied"
+            }
+        }
+    ]
+}

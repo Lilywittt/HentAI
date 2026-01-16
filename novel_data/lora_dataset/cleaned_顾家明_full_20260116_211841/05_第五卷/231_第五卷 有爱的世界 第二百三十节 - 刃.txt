@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在走廊中潜伏，准备暗杀一名清洁工。",
+            "interlocutor_info": {
+                "name": "清洁工",
+                "relationship_tag": "目标"
+            },
+            "trigger": {
+                "sender": "清洁工",
+                "content": "推着吸尘器经过顾家明下方。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的杀手",
+                "inner_monologue": "我准备好动手了，时机正好。",
+                "external_action": "从衣袖中露出匕首，聚集杀意。",
+                "speech_text": null,
+                "mood_state": "专注"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在走廊中与一名壮硕男子相遇并击杀他。",
+            "interlocutor_info": {
+                "name": "壮硕男子",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "壮硕男子",
+                "content": "走进顾家明的视野。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "高效的执行者",
+                "inner_monologue": "又一个障碍，必须迅速清除。",
+                "external_action": "挥拳击中喉结，扭断脖子，处理尸体。",
+                "speech_text": null,
+                "mood_state": "果断"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在办公室内暗杀一名中年男子。",
+            "interlocutor_info": {
+                "name": "中年男子",
+                "relationship_tag": "目标"
+            },
+            "trigger": {
+                "sender": "中年男子",
+                "content": "进入办公室并关门。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "残忍的刺客",
+                "inner_monologue": "任务完成，不留痕迹。",
+                "external_action": "捂住口鼻，割喉并刺击多次。",
+                "speech_text": null,
+                "mood_state": "冷酷"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在娱乐场大厅与海蒂和玛丽莲互动。",
+            "interlocutor_info": {
+                "name": "海蒂",
+                "relationship_tag": "保护对象"
+            },
+            "trigger": {
+                "sender": "海蒂",
+                "content": "抱怨顾家明离开太久，披萨凉了。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "憨厚的朋友",
+                "inner_monologue": "我得编个理由掩饰刚才的行动。",
+                "external_action": "拍拍海蒂的头，吃披萨。",
+                "speech_text": "个人隐私。手表不小心掉进马桶里了，伸手进去拿出来，摸了好久，手被卡住了，然后花了很长时间才拔出来……嗯，披萨味道不错。",
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在娱乐场大厅与红发女子简对峙。",
+            "interlocutor_info": {
+                "name": "简",
+                "relationship_tag": "敌对势力成员"
+            },
+            "trigger": {
+                "sender": "简",
+                "content": "打招呼并暗示威胁。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "挑衅的对手",
+                "inner_monologue": "这些人不自量力，想绑架我们。",
+                "external_action": "嚼着披萨，耸肩。",
+                "speech_text": "我曾经养过一只很丑的猫，她的名字也叫做简。后来她从树上掉下来摔死了。",
+                "mood_state": "嘲讽"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在爆炸混乱中保护海蒂和玛丽莲逃离。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "保护对象"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "大楼发生爆炸，引发混乱。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "可靠的保护者",
+                "inner_monologue": "机会来了，趁乱带她们离开。",
+                "external_action": "顶桌布，抱起海蒂，引导逃离。",
+                "speech_text": "不知道，恐怖袭击吧，中东啊、基地组织啊、萨达姆啊……纽约嘛……你会习惯的……",
+                "mood_state": "镇定"
+            }
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "沙沙在清晨醒来，发现家明不在，感到惶恐并四处寻找他。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "沙沙在黑暗中寻找家明，推开杂物间门，发现他不在，感到恐惧。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "体贴的伴侣",
+                "inner_monologue": "我担心沙沙会害怕，所以赶紧买了早餐回来安抚她。",
+                "external_action": "家明推门回家，提着早餐，轻声问候沙沙。",
+                "speech_text": "醒来了？",
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "家明和沙沙在厨房准备早餐，沙沙询问家明过去四年的经历。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "沙沙问家明：你这四年到底是怎么过的啊？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "坦诚的分享者",
+                "inner_monologue": "我不想让她担心太多，所以轻描淡写地描述过去，但内心很感激能回来。",
+                "external_action": "家明摇头表示头不痛了，揽住沙沙的肩膀。",
+                "speech_text": "头痛了就到处跑吧，跟叫花子一样，走了很多地方，沿水路往上游走，最远到了裕江，好一点的时候，弄了辆车卖糖炒栗子。",
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙表达对过去四年的恐惧和担忧，要求家明不许再发生类似事情。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "沙沙低声说：家明，别再有这样的事情了，不许再有了……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "安抚的伴侣",
+                "inner_monologue": "我理解她的恐惧，必须让她安心，不能再让她经历这样的痛苦。",
+                "external_action": "家明可能通过肢体语言如拥抱来回应，但文本未明确描述。",
+                "speech_text": null,
+                "mood_state": "安抚"
+            }
+        }
+    ]
+}

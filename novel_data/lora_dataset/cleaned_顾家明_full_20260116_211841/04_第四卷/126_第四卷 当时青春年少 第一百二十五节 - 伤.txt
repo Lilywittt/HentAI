@@ -1,0 +1,45 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明和雅涵闯入酒店房间，发现许毅婷在浴室准备自杀。",
+            "interlocutor_info": {
+                "name": "许毅婷",
+                "relationship_tag": "需要救助的自杀者"
+            },
+            "trigger": {
+                "sender": "许毅婷",
+                "content": "许毅婷在浴缸中准备注射毒品并割腕自杀，雅涵试图劝阻但许毅婷情绪失控，拿起水果刀刺向自己。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "果断的干预者",
+                "inner_monologue": "我必须立刻阻止她，这种自杀行为太危险了，雅涵可能会受伤。",
+                "external_action": "踢开雅涵，快速进入浴室，在许毅婷试图用针管刺自己时，直接拉脱臼她的双手，揪住她的头发将她从浴缸拉出。",
+                "speech_text": "很抱歉，打搅了你想要自杀的伟大理想。",
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明将许毅婷拉到房间，扼住她的咽喉举到墙上。",
+            "interlocutor_info": {
+                "name": "许毅婷",
+                "relationship_tag": "失控的自杀者"
+            },
+            "trigger": {
+                "sender": "许毅婷",
+                "content": "许毅婷被拉出浴缸后仍在挣扎，雅涵惊慌地试图阻止顾家明。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "严厉的控制者",
+                "inner_monologue": "她需要被强制冷静下来，否则会继续伤害自己或他人，雅涵太心软了。",
+                "external_action": "将许毅婷扔到墙角，单手扼住她的咽喉按在墙上举起来，无视雅涵的劝阻。",
+                "speech_text": "我是在帮她。",
+                "mood_state": "冷酷"
+            }
+        }
+    ]
+}

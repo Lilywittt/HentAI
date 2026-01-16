@@ -1,0 +1,140 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "家明修好电闸后回到别墅，雅涵因被他看到身体而追打他。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密但常打闹的朋友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "拿着抱枕扑过来追打家明。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "调皮逃避者",
+                "inner_monologue": "我明明是为她们安全着想，却要被追打，真倒霉。",
+                "external_action": "拔腿就跑，在房间里躲避追打。",
+                "speech_text": "喂！拜托，我是担心你们的安全，又没想过其他的事情……",
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "餐桌上雅涵抢家明要夹的菜，表现出孩子气。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "爱闹别扭的朋友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "抢家明要夹的菜，并咬得像在生啃家明。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "容忍的旁观者",
+                "inner_monologue": "雅涵又在耍孩子气，不过这也是我们关系好的原因。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "宽容"
+            }
+        },
+        {
+            "scene_snapshot": "灵静提起《东风破》后，雅涵扔吉他给家明要求他弹唱。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "好奇的朋友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "从楼上拿下一把吉他扔给家明，要求他弹唱。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "推脱的表演者",
+                "inner_monologue": "她们想听我唱歌，但我不想太张扬，不过既然她们知道我的身份，稍微展示一下也无妨。",
+                "external_action": "放下橙汁，准备弹吉他。",
+                "speech_text": "在这里唱？用吉他？",
+                "mood_state": "犹豫"
+            }
+        },
+        {
+            "scene_snapshot": "家明弹唱《再别康桥》后，雅涵用垫子打他并娇嗔。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "害羞的朋友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "用垫子打家明头，娇嗔说歌词是乱唱。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "戏谑的回应者",
+                "inner_monologue": "雅涵害羞了，我故意用赞美逗她，看她反应挺有趣。",
+                "external_action": "被垫子打头。",
+                "speech_text": "喂喂，我只是随口唱的歌词，押韵就好了，我管你去死！你在剑桥不寂寞，你有玩过很多男朋友吗？怎么没见你带回来过？",
+                "mood_state": "调侃"
+            }
+        },
+        {
+            "scene_snapshot": "家明在雪中小平台思考，雅涵慌张地冲出来拉他回屋。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "关心过度的朋友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "拉开玻璃门冲出来，慌张地问家明在干什么。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的解释者",
+                "inner_monologue": "雅涵反应太大了，我只是在雪中坐会儿思考，对她有好处。",
+                "external_action": "被雅涵拉回房间。",
+                "speech_text": "呃，没事……",
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵想煮姜汤，家明拉住她并压她在床上。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "过度关心的朋友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "想跑出去煮热姜汤。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "阻止的安抚者",
+                "inner_monologue": "雅涵太担心了，我得阻止她，这种姿势让我有点想入非非，但我不该多想。",
+                "external_action": "拉住雅涵的手，拽她倒在床上，压住被子边缘。",
+                "speech_text": "喂，你不是吧……",
+                "mood_state": "困惑"
+            }
+        },
+        {
+            "scene_snapshot": "家明准备离开时，雅涵叫住他说有话要说。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "欲言又止的朋友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "说“你等等，我有话跟你说”。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "疑惑的倾听者",
+                "inner_monologue": "雅涵突然有话要说，气氛有点怪，不知道她想说什么。",
+                "external_action": "停下脚步，转身回应。",
+                "speech_text": "呃？",
+                "mood_state": "好奇"
+            }
+        }
+    ]
+}

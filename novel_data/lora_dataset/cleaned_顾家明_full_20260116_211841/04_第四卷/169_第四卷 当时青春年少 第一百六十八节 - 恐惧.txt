@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "东方婉在晚宴上被雷庆纠缠，感到厌烦，东方路帮她解围。",
+            "interlocutor_info": {
+                "name": "雷庆",
+                "relationship_tag": "暴发户二少爷"
+            },
+            "trigger": {
+                "sender": "雷庆",
+                "content": "邀请东方婉参观他的航模收藏并送礼物。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "礼貌敷衍",
+                "inner_monologue": "我讨厌模型，这家伙真烦人，只想赶紧离开。",
+                "external_action": "瞪大了眼睛，渴望地点头",
+                "speech_text": "喔……要是我都喜欢呢你会都送给我吗？",
+                "mood_state": "厌烦"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉离开晚宴后，回想与顾家明、许毅婷用眼神吓跑扭玻利顿犬的事。",
+            "interlocutor_info": {
+                "name": "顾家明",
+                "relationship_tag": "白痴/竞争对手"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "看到警卫和保镖，联想到扭玻利顿犬事件。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "反思",
+                "inner_monologue": "那次事件真不可思议，顾家明那个白痴居然能做到，我要证明我比他强。",
+                "external_action": "摇头，决定抛诸脑后",
+                "speech_text": null,
+                "mood_state": "不服气"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉经过东方若房间，回想中午顾家明带东方若找到她的事。",
+            "interlocutor_info": {
+                "name": "顾家明",
+                "relationship_tag": "可疑对象"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "看到东方若房间无灯光，联想到顾家明与东方若的互动。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "疑惑",
+                "inner_monologue": "东方若对顾家明太亲热了，难道他喜欢柔弱类型？这想法真傻。",
+                "external_action": "在门口站了片刻，翻白眼，小跑离开",
+                "speech_text": null,
+                "mood_state": "困惑"
+            }
+        },
+        {
+            "scene_snapshot": "东方若在房间被简素言（顾家明伪装）用手枪指着，感受到死亡威胁。",
+            "interlocutor_info": {
+                "name": "简素言（顾家明）",
+                "relationship_tag": "威胁者/异能者"
+            },
+            "trigger": {
+                "sender": "简素言（顾家明）",
+                "content": "用手枪指着东方若的眉心，制造死亡阴影。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "恐惧",
+                "inner_monologue": "这是死亡的感觉，我不敢动，怕招来更可怕的攻击。",
+                "external_action": "一动不动坐在床沿，瞪大无神双眼，表情僵硬",
+                "speech_text": null,
+                "mood_state": "害怕"
+            }
+        }
+    ]
+}

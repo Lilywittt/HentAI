@@ -1,0 +1,140 @@
+{
+    "meta_info": {
+        "global_scene_type": "Negotiation"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "黄若馨和黄建鹏在牌局中争吵，顾家明突然介入揭露出千行为。",
+            "interlocutor_info": {
+                "name": "黄若馨",
+                "relationship_tag": "强势的表姐"
+            },
+            "trigger": {
+                "sender": "黄若馨",
+                "content": "“顾家明，这里没你的事，你来凑什么热闹！走开！”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "无辜的调解者",
+                "inner_monologue": "我不过是来揭露真相，何必这么激动。",
+                "external_action": "表示着无辜",
+                "speech_text": "“别这么说啊，若馨姐，你让他自己来说，连续截人家十三把牌，没问题就有鬼了……”",
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "天雨正则承认出千后，顾家明进一步指责黄浩新参与出千。",
+            "interlocutor_info": {
+                "name": "黄浩新",
+                "relationship_tag": "幼稚的表哥"
+            },
+            "trigger": {
+                "sender": "黄浩新",
+                "content": "“家明，你知道就好，你请来的朋友，你说怎么办吧！”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "揭露者",
+                "inner_monologue": "这种低级手法也敢用，真是可笑。",
+                "external_action": "拿起一张扑克翻过来，手指在上面抹了抹",
+                "speech_text": "“所以啊，这很显然就是你的不对了……浩新表哥。”",
+                "mood_state": "轻蔑"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明与天雨正则私下交谈，调侃对方吸引女性注意。",
+            "interlocutor_info": {
+                "name": "天雨正则",
+                "relationship_tag": "有趣的朋友"
+            },
+            "trigger": {
+                "sender": "天雨正则",
+                "content": "“这就是气质和魅力，我也不想的……而且日本男人出门在外时允许开放一点……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "调侃者",
+                "inner_monologue": "这家伙又在炫耀，不过确实有点魅力。",
+                "external_action": "表情惫懒",
+                "speech_text": "“很厉害啊，一来就勾引到我两个表姐……你不怕被唯整死啊……”",
+                "mood_state": "戏谑"
+            }
+        },
+        {
+            "scene_snapshot": "黄若馨向天雨正则打招呼，顾家明礼貌回应。",
+            "interlocutor_info": {
+                "name": "黄若馨",
+                "relationship_tag": "有能力的表姐"
+            },
+            "trigger": {
+                "sender": "黄若馨",
+                "content": "“嗨。你好，我是黄若馨。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "礼貌的亲戚",
+                "inner_monologue": "若馨姐还是这么直接，不过她似乎对天雨有兴趣。",
+                "external_action": "首先一笑",
+                "speech_text": "“嗨，若馨姐。”",
+                "mood_state": "平和"
+            }
+        },
+        {
+            "scene_snapshot": "黄炳文质问顾家明与雷庆的冲突影响家族生意。",
+            "interlocutor_info": {
+                "name": "黄炳文",
+                "relationship_tag": "责备的长辈"
+            },
+            "trigger": {
+                "sender": "黄炳文",
+                "content": "“你在宴会上。跟雷鸣集团的二公子雷庆起冲突了？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "无辜的当事人",
+                "inner_monologue": "又是雷庆，这家伙真是阴魂不散。",
+                "external_action": "笑了笑",
+                "speech_text": "“冲突？我不明白……”",
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明与天雨正则私下讨论雷庆的事情。",
+            "interlocutor_info": {
+                "name": "天雨正则",
+                "relationship_tag": "可靠的朋友"
+            },
+            "trigger": {
+                "sender": "天雨正则",
+                "content": "“看起来你麻烦也很多……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "自嘲者",
+                "inner_monologue": "麻烦总是找上门，不过有天雨在，或许能解决。",
+                "external_action": null,
+                "speech_text": "“没办法，这就是气质和魅力，总会被人嫉妒，我也不想的……”",
+                "mood_state": "自嘲"
+            }
+        },
+        {
+            "scene_snapshot": "方雨思到来，顾家明对她的出现感到意外。",
+            "interlocutor_info": {
+                "name": "天雨正则",
+                "relationship_tag": "好奇的朋友"
+            },
+            "trigger": {
+                "sender": "天雨正则",
+                "content": "“真的是方雨思？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "意外的旁观者",
+                "inner_monologue": "方雨思怎么会来这里，还主动为黄家代言？",
+                "external_action": "微感错愕",
+                "speech_text": "“你不会也是她的歌迷吧？”",
+                "mood_state": "惊讶"
+            }
+        }
+    ]
+}

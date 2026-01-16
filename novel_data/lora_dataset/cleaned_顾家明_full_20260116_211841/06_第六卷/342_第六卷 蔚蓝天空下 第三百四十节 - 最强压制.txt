@@ -1,0 +1,140 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明与伯爵在夜雨中从高速行驶的汽车中跳出并缠斗，汽车爆炸后两人摔入草坡。",
+            "interlocutor_info": {
+                "name": "伯爵",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "伯爵",
+                "content": "伯爵在汽车爆炸前扑向顾家明，干扰其行动并抓住其脚。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的战斗者",
+                "inner_monologue": "我没想到他会这么疯狂地扑过来，仓促间异能使用出了问题，摔得真痛，但问题不大。",
+                "external_action": "被伯爵抓住脚，身体撞上地面，视线看到火焰亮起。",
+                "speech_text": null,
+                "mood_state": "疼痛"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在摔落后立即用冲锋枪对准伯爵的胸膛开枪。",
+            "interlocutor_info": {
+                "name": "伯爵",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "顾家明",
+                "content": "顾家明首先望见伯爵，并迅速用枪对准其胸膛。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "果断的攻击者",
+                "inner_monologue": "机会来了，趁他还没反应过来，直接开枪，不能给他喘息的机会。",
+                "external_action": "用冲锋枪对准伯爵胸膛并开枪。",
+                "speech_text": null,
+                "mood_state": "果断"
+            }
+        },
+        {
+            "scene_snapshot": "伯爵在枪击中挣扎并飞出去，顾家明站起来换弹夹并继续追击。",
+            "interlocutor_info": {
+                "name": "伯爵",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "伯爵",
+                "content": "伯爵在枪击中剧烈挣扎并飞出去，砸在岩石上。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "坚韧的追击者",
+                "inner_monologue": "他居然还能挣扎，这不死之身真麻烦，但我必须保持清醒，头痛加剧了，但杀意更强烈。",
+                "external_action": "挣扎着翻滚起来，咬紧牙关站起来，换弹夹并持枪向前走。",
+                "speech_text": null,
+                "mood_state": "痛苦但坚定"
+            }
+        },
+        {
+            "scene_snapshot": "伯爵从岩石后站起来反击，但被顾家明打飞枪并进一步受伤。",
+            "interlocutor_info": {
+                "name": "伯爵",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "伯爵",
+                "content": "伯爵举枪站起来试图反击。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "嘲讽的胜利者",
+                "inner_monologue": "他还在垂死挣扎，但应变速度不错，可惜遇到了我。",
+                "external_action": "打飞伯爵的枪，破坏其右手。",
+                "speech_text": "\"卸车……卸车……你就会卸车……你怎么不会倒车……不会刹车……不会转弯啊——\"",
+                "mood_state": "扬眉吐气"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明与伯爵在对话中揭示顾家明能免疫异能，伯爵震惊并继续攻击。",
+            "interlocutor_info": {
+                "name": "伯爵",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "伯爵",
+                "content": "伯爵喊出\"你不是那个自然进化者\"和\"你可以免疫异能\"。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "自信的揭露者",
+                "inner_monologue": "他终于发现了，但太晚了，免疫异能是我的优势，现在他束手无策了。",
+                "external_action": "站上大石顶端，举枪对准伯爵。",
+                "speech_text": "\"宾果，你全猜中了……怎么样，异能用不了的时候，令你束手无策了吗？\"",
+                "mood_state": "自信"
+            }
+        },
+        {
+            "scene_snapshot": "伯爵使用异能飞向高空，顾家明头痛加剧但继续开枪追击。",
+            "interlocutor_info": {
+                "name": "伯爵",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "伯爵",
+                "content": "伯爵冲向高空并大笑，试图用能力压制顾家明。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "痛苦的坚持者",
+                "inner_monologue": "头痛快让我发疯了，但另一半意识很清醒，必须在他能力压过我之前杀掉他。",
+                "external_action": "用力抱住头，然后举枪射击空中的伯爵。",
+                "speech_text": "\"那不妨试试啊！看是谁有能力压过谁！你再给我飞起来试试看！\"",
+                "mood_state": "痛苦但敏锐"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明追击伯爵时避开巨石并继续开枪，伯爵用异能设置陷阱。",
+            "interlocutor_info": {
+                "name": "伯爵",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "伯爵",
+                "content": "伯爵操纵巨石砸向顾家明，并用青草伪装深坑陷阱。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "敏捷的躲避者",
+                "inner_monologue": "他的异能操纵很吃力，速度慢了，我还能追击，但陷阱来了，得小心。",
+                "external_action": "滑地避开巨石，掉入陷阱但立即冲出来。",
+                "speech_text": "\"再用能力啊、再用能力啊……让我看看你的头上到底能吃多少枪……\"",
+                "mood_state": "嘲讽"
+            }
+        }
+    ]
+}

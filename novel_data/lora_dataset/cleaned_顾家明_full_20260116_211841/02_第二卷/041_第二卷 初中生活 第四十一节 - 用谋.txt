@@ -1,0 +1,140 @@
+{
+    "meta_info": {
+        "global_scene_type": "Other"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在医院庭院散步，月池薰默默跟随他，影响他的围棋对局。",
+            "interlocutor_info": {
+                "name": "月池薰",
+                "relationship_tag": "麻烦的跟屁虫"
+            },
+            "trigger": {
+                "sender": "月池薰",
+                "content": "默默跟随顾家明，并在围棋对局中暗中指点对手。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷漠的旁观者",
+                "inner_monologue": "我上辈子做的缺德事太多，现在惹上一个冤魂不散的背后灵？",
+                "external_action": "脸上做出一副“我不认识她”的表情。",
+                "speech_text": null,
+                "mood_state": "郁闷"
+            }
+        },
+        {
+            "scene_snapshot": "深夜，月池薰在病房中向顾家明提出一个冒昧的请求。",
+            "interlocutor_info": {
+                "name": "月池薰",
+                "relationship_tag": "麻烦的求助者"
+            },
+            "trigger": {
+                "sender": "月池薰",
+                "content": "“你……对不起，恕我冒昧，可以……可以拜托你一件事吗？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "不耐烦的拒绝者",
+                "inner_monologue": "怎么搞的？现在的女人只要一救下来怎么个个都想着以身相许？",
+                "external_action": "用日语回答“不可以，谢谢”。",
+                "speech_text": "“不可以，谢谢。”",
+                "mood_state": "烦躁"
+            }
+        },
+        {
+            "scene_snapshot": "月池薰坚持请求，并询问顾家明是否有与女孩的经验。",
+            "interlocutor_info": {
+                "name": "月池薰",
+                "relationship_tag": "麻烦的求助者"
+            },
+            "trigger": {
+                "sender": "月池薰",
+                "content": "“我想问一下，顾君……有没有跟女孩子那个……那个的经验……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "嘲讽的回应者",
+                "inner_monologue": "干嘛，嘲笑我啊？",
+                "external_action": "双眼翻了个白。",
+                "speech_text": "“有了，不过是跟个洋妞，没有跟小胸脯小屁股的日本女人，干嘛？你想要我跟你做不成？”",
+                "mood_state": "讽刺"
+            }
+        },
+        {
+            "scene_snapshot": "月池薰解释家族危机，希望将第一次给顾家明以逃避订婚。",
+            "interlocutor_info": {
+                "name": "月池薰",
+                "relationship_tag": "麻烦的求助者"
+            },
+            "trigger": {
+                "sender": "月池薰",
+                "content": "解释月池家面临危机，希望将第一次给顾家明以避免与天雨正则订婚。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "戏谑的建议者",
+                "inner_monologue": "难道这个小女孩看见了我的能力，想要牺牲贞操将祸水东引？",
+                "external_action": "随口开玩笑建议用铅笔戳破。",
+                "speech_text": "“第一次送给你老爸去，我说了，我不要……要不然我这里有支铅笔，你直接戳破掉吧……”",
+                "mood_state": "警惕"
+            }
+        },
+        {
+            "scene_snapshot": "月池薰当真要借铅笔，顾家明大笑并解释玩笑。",
+            "interlocutor_info": {
+                "name": "月池薰",
+                "relationship_tag": "天真的傻妞"
+            },
+            "trigger": {
+                "sender": "月池薰",
+                "content": "“我……我想借铅笔……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "大笑的逗乐者",
+                "inner_monologue": "你脑残啊，我开玩笑的，你难道真想用铅笔……",
+                "external_action": "将水吐得到处都是，捂着肚子打滚大笑。",
+                "speech_text": "“咕——噗——哈哈哈……你脑残啊，我开玩笑的，你难道真想用铅笔……哈哈哈哈呵呵呵……”",
+                "mood_state": "欢乐"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明安慰月池薰，透露天雨正则已有女友的信息。",
+            "interlocutor_info": {
+                "name": "月池薰",
+                "relationship_tag": "天真的傻妞"
+            },
+            "trigger": {
+                "sender": "月池薰",
+                "content": "“顾君，你……很熟悉裴罗嘉？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "谨慎的安抚者",
+                "inner_monologue": "我决定对月池薰逗得我这么开心给予一点奖励。",
+                "external_action": "躺回被子里，思考后给予奖励信息。",
+                "speech_text": "“你放心吧，熟悉了天雨正则之后，你会觉得他恐怕还是个不错的人，不过不管你是不是喜欢他，有没有跟他订婚，他都不可能动你，他有女朋友了。”",
+                "mood_state": "放松"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明回家后发现房间被闯入，并找到天雨正则的留言。",
+            "interlocutor_info": {
+                "name": "天雨正则",
+                "relationship_tag": "潜在的威胁"
+            },
+            "trigger": {
+                "sender": "天雨正则",
+                "content": "留下纸条邀请顾家明在夕渡咖啡馆见面。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "警觉的侦探",
+                "inner_monologue": "我的房间有人进去过，这不对劲。",
+                "external_action": "谨慎检查房间后推门进入，发现纸条。",
+                "speech_text": null,
+                "mood_state": "警觉"
+            }
+        }
+    ]
+}

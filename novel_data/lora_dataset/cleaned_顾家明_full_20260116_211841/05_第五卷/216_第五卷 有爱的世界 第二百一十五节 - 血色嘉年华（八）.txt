@@ -1,0 +1,159 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在黑暗中握住沙沙的手，稳定她握着手雷的紧张情绪。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "需要保护的朋友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "沙沙因恐惧拉响了手雷，处于极度紧张状态。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的保护者",
+                "inner_monologue": "我必须稳住她，不能让她因恐惧而失控。",
+                "external_action": "紧紧握住沙沙的双手，露出抱歉和安定的笑容。",
+                "speech_text": "别怕、别动……",
+                "mood_state": "镇定"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明被坦克从背后猛烈攻击，但仍专注处理手雷。",
+            "interlocutor_info": {
+                "name": "坦克",
+                "relationship_tag": "敌对杀手"
+            },
+            "trigger": {
+                "sender": "坦克",
+                "content": "坦克冲向顾家明并重击其后脑，发起连续攻击。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "坚韧的战士",
+                "inner_monologue": "这些攻击无关紧要，我必须先解除手雷的威胁。",
+                "external_action": "身体被打得摇晃出血，但双手稳定地将拉环插回手雷。",
+                "speech_text": null,
+                "mood_state": "专注"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在击败坦克后，嘲讽其弱点并揭露往事。",
+            "interlocutor_info": {
+                "name": "坦克",
+                "relationship_tag": "可悲的对手"
+            },
+            "trigger": {
+                "sender": "坦克",
+                "content": "坦克站起来做出迎战姿态。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "嘲讽的胜利者",
+                "inner_monologue": "他依然没有觉悟，就像多年前一样懦弱。",
+                "external_action": "低头审视手雷，淡淡地笑。",
+                "speech_text": "你打的到底是什么呢，我突然发现原来你真的很弱……有小炮塔的纯洁小坦克……",
+                "mood_state": "讥讽"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明向坦克讲述其过去背叛的故事。",
+            "interlocutor_info": {
+                "name": "坦克",
+                "relationship_tag": "被揭露的叛徒"
+            },
+            "trigger": {
+                "sender": "坦克",
+                "content": "坦克称顾家明为裴罗嘉的叛徒。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "知情的揭露者",
+                "inner_monologue": "他需要知道真相，这或许能让他看清自己的懦弱。",
+                "external_action": "一步步走向坦克，掏出手枪扔到地上。",
+                "speech_text": "或许是吧，不过并不像你认为的那样……",
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明快速结束与坦克的决斗后，回来照顾受伤的薰。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "关心的朋友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "沙沙疑惑地问顾家明决斗为何这么快结束。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "轻描淡写的执行者",
+                "inner_monologue": "没必要浪费时间，他太弱了。",
+                "external_action": "擦着手从围墙那边绕出来。",
+                "speech_text": "唔，是他太差劲了吧……",
+                "mood_state": "淡然"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明抱起受伤的薰，安抚并调整姿势。",
+            "interlocutor_info": {
+                "name": "薰",
+                "relationship_tag": "受伤的同伴"
+            },
+            "trigger": {
+                "sender": "薰",
+                "content": "薰虚弱地挪动身体，贴近顾家明。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "照顾的领导者",
+                "inner_monologue": "她伤得很重，我得小心点，但别让她乱动。",
+                "external_action": "抱起薰，调整她在怀中的位置。",
+                "speech_text": "喂，受了伤就别乱动，躺好。",
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在战斗中追击诸神无念，使用火箭筒攻击。",
+            "interlocutor_info": {
+                "name": "诸神无念",
+                "relationship_tag": "主要敌人"
+            },
+            "trigger": {
+                "sender": "诸神无念",
+                "content": "诸神无念冲进小平房躲避。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "追击的猎手",
+                "inner_monologue": "他逃不掉的，我必须紧追不舍。",
+                "external_action": "背起火箭筒，发射攻击。",
+                "speech_text": null,
+                "mood_state": "决绝"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明与诸神无念在通道中激烈冲撞和格斗。",
+            "interlocutor_info": {
+                "name": "诸神无念",
+                "relationship_tag": "顽强的对手"
+            },
+            "trigger": {
+                "sender": "诸神无念",
+                "content": "诸神无念转身踢门，与顾家明硬拼。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "敏捷的格斗家",
+                "inner_monologue": "他的力道很强，但我能化解并反击。",
+                "external_action": "身体如游鱼般滑过攻击，揪住对方衣领并头槌重拳。",
+                "speech_text": null,
+                "mood_state": "凶猛"
+            }
+        }
+    ]
+}

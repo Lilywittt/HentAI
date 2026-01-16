@@ -1,0 +1,178 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在篮球场上针对戴志强进行防守和得分，展现个人技巧。",
+            "interlocutor_info": {
+                "name": "戴志强",
+                "relationship_tag": "对手/情敌"
+            },
+            "trigger": {
+                "sender": "戴志强",
+                "content": "戴志强接球进攻，试图突破顾家明的防守。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的挑衅者",
+                "inner_monologue": "我就是要让他碰不到球，为沙沙出气。",
+                "external_action": "拦截、抄球、带球过人、得分，然后双手插兜走回。",
+                "speech_text": null,
+                "mood_state": "戏谑"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明故意不接队友传球，导致球飞出场外，引发队友不满。",
+            "interlocutor_info": {
+                "name": "队友",
+                "relationship_tag": "临时合作者"
+            },
+            "trigger": {
+                "sender": "队友",
+                "content": "队友兴奋地传球给顾家明，希望他参与进攻。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "消极的参与者",
+                "inner_monologue": "我不想打篮球，只是被迫上场，没必要配合他们。",
+                "external_action": "身体往旁边一让，让球飞出场外。",
+                "speech_text": "抱歉。没有接到……我说过我不会打的……",
+                "mood_state": "无辜"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在十分钟内持续针对戴志强，独得十七分，引发观众议论。",
+            "interlocutor_info": {
+                "name": "观众/七班同学",
+                "relationship_tag": "旁观者"
+            },
+            "trigger": {
+                "sender": "观众",
+                "content": "观众指指点点，私语声声，将顾家明的行为与爱情元素联系起来。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "专注的执行者",
+                "inner_monologue": "让他们去猜吧，我只要达到我的目的就行。",
+                "external_action": "持续封死戴志强，抄球进攻得分。",
+                "speech_text": null,
+                "mood_state": "淡然"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明故意将球投进自家篮框，然后宣布离场。",
+            "interlocutor_info": {
+                "name": "队友/对手",
+                "relationship_tag": "临时合作者/对手"
+            },
+            "trigger": {
+                "sender": "顾家明自己",
+                "content": "顾家明拍球后转身三分跳投，将球投进自家篮框。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "任性的终结者",
+                "inner_monologue": "时间到了，我该走了，没必要再陪他们玩。",
+                "external_action": "投进自家篮框，看手表，挥手离场。",
+                "speech_text": "OK，十分钟了，我还有事。大家慢慢玩。",
+                "mood_state": "随意"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉在场边指责顾家明故意捣乱，顾家明解释并拒绝她的要求。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "班长/麻烦制造者"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "东方婉横眉怒目地指责顾家明是故意的。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "直率的拒绝者",
+                "inner_monologue": "她太固执了，我得明确拒绝，免得她继续纠缠。",
+                "external_action": "失笑，转身走人，最后回身扫视周围。",
+                "speech_text": "我当然是故意的。我最讨厌的就是有人强迫我做事情。嗯，当然也不是说你不允许别人随便旷课有什么错，但我的确请过假了，而且也的确有比上学更重要的理由，你当班长很称职，但是有些东西，请见谅，毕竟我按照学校的制度来了。",
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉继续追问理由，顾家明再次拒绝并暗示不可能接受她。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "班长/麻烦制造者"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "东方婉大喊追问理由，并威胁不会放弃。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "果断的澄清者",
+                "inner_monologue": "她误会了，我得彻底断绝她的念头，避免更多麻烦。",
+                "external_action": "无可奈何地回身，扫视周围，叹气。",
+                "speech_text": "抱歉，但是我真的不能接受你，我们不可能的。",
+                "mood_state": "决绝"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在超市与沙沙讨论购物和未来计划，展现亲密关系。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密伴侣/重视的人"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "沙沙亲昵地挽住顾家明的手，讨论想买组合柜但犹豫。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "体贴的支持者",
+                "inner_monologue": "她和灵静总是为我着想，我更应该照顾好她们。",
+                "external_action": "笑着建议买下组合柜，讨论热水器和罐头。",
+                "speech_text": "那就买下来啊，反正我们也够钱了，这套组合柜你和灵静不是看了好多次了吗？",
+                "mood_state": "温暖"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙询问顾家明是否觉得她们幼稚，顾家明表达更喜欢这种生活。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密伴侣/重视的人"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "沙沙笑着问顾家明是否觉得她和灵静很幼稚。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "真诚的分享者",
+                "inner_monologue": "我珍惜这种平凡的生活，只是有点郁闷自己赚钱能力不足。",
+                "external_action": "推着小车，放食物进去，由沙沙挑出来。",
+                "speech_text": "没有啊，我更喜欢这样子，只不过……灵静都找到工作了，我还不知道去哪里赚点外快，呃，有点郁闷，要是网络再发达一点就好了。我跟你说过吧，我电脑很厉害，至少可以当个网络安全专家……",
+                "mood_state": "坦诚"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙提议去花店打工，顾家明同意并开始送花工作。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密伴侣/重视的人"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "沙沙提议去欣欣花店卖花，并描述工作细节。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "顺从的参与者",
+                "inner_monologue": "只要她和灵静开心，做什么都行，送花也挺悠闲的。",
+                "external_action": "笑着点头同意。",
+                "speech_text": "好啊。",
+                "mood_state": "轻松"
+            }
+        }
+    ]
+}

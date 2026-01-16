@@ -1,0 +1,45 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明和天雨正则审问泰国异能者后讨论如何处理俘虏。",
+            "interlocutor_info": {
+                "name": "天雨正则",
+                "relationship_tag": "谨慎的盟友"
+            },
+            "trigger": {
+                "sender": "天雨正则",
+                "content": "这些泰国人，你觉得该杀掉吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "装傻的高中生",
+                "inner_monologue": "我刚刚才暴力处理了两个人，现在问我这种问题，真是讽刺，但我不想卷入更多麻烦。",
+                "external_action": "手一摊",
+                "speech_text": "关我什么事？要有问题，也是你们日本人跟泰国人的纠纷，我一个普普通通的高中生，别问我这么暴力的问题好不好……",
+                "mood_state": "讽刺"
+            }
+        },
+        {
+            "scene_snapshot": "天雨正则建议顾家明趁机除掉晕倒的应子丰。",
+            "interlocutor_info": {
+                "name": "天雨正则",
+                "relationship_tag": "试探的观察者"
+            },
+            "trigger": {
+                "sender": "天雨正则",
+                "content": "如果我是你，就趁这场‘意外’做掉他算了。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "谨慎的伪装者",
+                "inner_monologue": "应海生的儿子不能动，否则会引来大麻烦，我的生活也会被毁掉。",
+                "external_action": "望着那晕倒的男人，皱了皱眉",
+                "speech_text": "应海生的儿子，做掉他，我怕你走不出中国。到时候我的生活也完了……",
+                "mood_state": "担忧"
+            }
+        }
+    ]
+}

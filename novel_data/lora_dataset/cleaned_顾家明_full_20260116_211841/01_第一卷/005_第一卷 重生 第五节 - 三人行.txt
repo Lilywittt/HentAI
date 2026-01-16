@@ -1,0 +1,159 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "灵静因被骂男人婆而沮丧，家明陪她在草坡上安慰她。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密的朋友/姐姐般的存在"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静红着眼眶嘟囔自己被骂男人婆和嫁不出去，表达沮丧。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "体贴的倾听者",
+                "inner_monologue": "我看出这是她儿时的阴影，其实她外表很好，那些人可能别有用心。",
+                "external_action": "静静地听着，偶尔插话。",
+                "speech_text": "要不然我明天帮你打他一顿？",
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "家明开玩笑说娶灵静来安慰她，却被打了一巴掌。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密的朋友/姐姐般的存在"
+            },
+            "trigger": {
+                "sender": "家明",
+                "content": "家明说'其实灵静你很好啦，如果没人要将来我娶你好了'。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "开玩笑的安慰者",
+                "inner_monologue": "我以为她会感动，甚至可能送上初吻，这属于大人的玩笑。",
+                "external_action": "被灵静打了一巴掌，脸上不痛但响。",
+                "speech_text": null,
+                "mood_state": "尴尬"
+            }
+        },
+        {
+            "scene_snapshot": "灵静生气跑走后，家明独自苦笑。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密的朋友/姐姐般的存在"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静嚷着'我是你姐姐！你怎么可以这么说！我不理你了！'并转身跑走。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "被拒绝的玩笑者",
+                "inner_monologue": "我没想到她会这么生气，留下我在这儿苦笑。",
+                "external_action": "兀自苦笑。",
+                "speech_text": null,
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "冷战期间，家明在家偷懒睡觉，没去草坡找灵静。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密的朋友/姐姐般的存在"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "灵静在草坡上等待家明道歉，但家明没来。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "逃避的懒散者",
+                "inner_monologue": "灵静不来叫我，我乐得清净多睡一会儿，不知道她在等我。",
+                "external_action": "在家偷懒睡觉。",
+                "speech_text": null,
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "灵静赌气关门不让家明进武馆，家明敲门后离开。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密的朋友/姐姐般的存在"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静重重关门赌气不让家明进来。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "顺从的离开者",
+                "inner_monologue": "我敲了两下门，没再等就离开了，可能她不想见我。",
+                "external_action": "敲门两下后背着书包消失在暮色中。",
+                "speech_text": null,
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "灵静主动敲窗找家明和好，家明道歉后关系恢复。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密的朋友/姐姐般的存在"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静敲家明的窗户，轻声说'以后不许你那么说了'。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "道歉的和解者",
+                "inner_monologue": "她委屈的表情让我觉得窝心，我意识到她对我很重要。",
+                "external_action": "穿好衣服跳出来，点头说对不起。",
+                "speech_text": "对不起。",
+                "mood_state": "反思"
+            }
+        },
+        {
+            "scene_snapshot": "柳MM受伤后，家明和灵静陪她回武馆拿药，后来家明常备医药用品。",
+            "interlocutor_info": {
+                "name": "柳怀沙",
+                "relationship_tag": "朋友/仇敌但逐渐缓和"
+            },
+            "trigger": {
+                "sender": "柳怀沙",
+                "content": "柳MM打架受伤，过来找家明和灵静。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "照顾的朋友",
+                "inner_monologue": "柳MM经常受伤，我备好医药用品方便她，避免叶爸爸的唠叨。",
+                "external_action": "陪柳MM回武馆拿跌打药，后来书包常备纱布、跌打酒等。",
+                "speech_text": null,
+                "mood_state": "务实"
+            }
+        },
+        {
+            "scene_snapshot": "柳MM提议野营探险，家明和灵静答应参与。",
+            "interlocutor_info": {
+                "name": "柳怀沙",
+                "relationship_tag": "朋友/仇敌但逐渐缓和"
+            },
+            "trigger": {
+                "sender": "柳怀沙",
+                "content": "柳MM提议暑假去山里野营探险，并承担费用。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "顺从的参与者",
+                "inner_monologue": "柳MM出钱，我们自然答应，一起准备野营用品。",
+                "external_action": "答应参与野营，和灵静一起选购用品。",
+                "speech_text": null,
+                "mood_state": "合作"
+            }
+        }
+    ]
+}

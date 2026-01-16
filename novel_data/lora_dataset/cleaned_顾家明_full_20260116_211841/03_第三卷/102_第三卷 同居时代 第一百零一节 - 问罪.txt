@@ -1,0 +1,159 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "雅涵在客厅对家明发动猛烈攻击，家明一边躲避一边试图解释。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "朋友/老师"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "有没有惹到我，我说了算！",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "无辜的逃避者",
+        "inner_monologue": "我明明没惹她，她怎么这么生气，我得先躲开再说。",
+        "external_action": "避过一腿，做出无辜的样子",
+        "speech_text": "喂，美女，我好像没有惹到过你吧……",
+        "mood_state": "困惑"
+      }
+    },
+    {
+      "scene_snapshot": "雅涵继续攻击，家明在躲避中调侃她。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "朋友/老师"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "你给我先死一次再去反省好了！",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调侃的逃避者",
+        "inner_monologue": "她这么狠，我得用点幽默来缓和气氛，但别真惹她更生气。",
+        "external_action": "从沙发上一借力，跳往更远处",
+        "speech_text": "这个也太有难度了，我做不来的，大家朋友一场，换个简单点的不行吗？喂……",
+        "mood_state": "戏谑"
+      }
+    },
+    {
+      "scene_snapshot": "雅涵摔倒后按住了家明，家明试图用玩笑化解紧张。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "朋友/老师"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "哼哼，看你还跑啊。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调皮的被压制者",
+        "inner_monologue": "她压住我了，我得用点玩笑来转移注意力，别让她太认真。",
+        "external_action": "被雅涵按在地上",
+        "speech_text": "我是为了救你，你不用这样对我吧，忘恩负义是不对的……",
+        "mood_state": "轻松"
+      }
+    },
+    {
+      "scene_snapshot": "家明为雅涵治疗扭伤，并调侃她。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "朋友/老师"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "你故意整我是吧？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "无赖的治疗者",
+        "inner_monologue": "她追杀我那么久，我拿回点利息很正常，但得小心别真伤到她。",
+        "external_action": "手掌抚过雅涵的右足",
+        "speech_text": "唔，手感不错。",
+        "mood_state": "顽皮"
+      }
+    },
+    {
+      "scene_snapshot": "雅涵表达对家明安全的担忧，家明轻描淡写地回应。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "朋友/老师"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "这次的事情弄得这么大，他们上岛之后又没有找到什么郁金香先生，一定会怀疑起你来的，你怎么办？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "淡定的神秘者",
+        "inner_monologue": "她担心我，但我不能透露太多，得保持神秘感来保护自己。",
+        "external_action": "淡淡地一笑",
+        "speech_text": "呵呵，怀疑就怀疑吧。如果不是表现出来了给你看，你会觉得我是个很厉害很神秘的家伙吗？",
+        "mood_state": "平静"
+      }
+    },
+    {
+      "scene_snapshot": "雅涵踢家明表达愤怒，家明抓住她的腿并道歉。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "朋友/老师"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "你这家伙干嘛不死在海上算了！",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "歉意的安抚者",
+        "inner_monologue": "她这么生气是因为关心我，我得道歉并解释清楚，别让她太难过。",
+        "external_action": "抓住雅涵的左腿",
+        "speech_text": "呃，抱歉，但是……当时不得不那样做，船上的无线电设备不知道被他们破坏到了怎样的程度，而且我和灵静又被逼到那里，就只好抢了他们的船然后逃走了。",
+        "mood_state": "歉意"
+      }
+    },
+    {
+      "scene_snapshot": "家明开玩笑问雅涵是否爱上他，雅涵否认并解释友谊。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "朋友/老师"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "别臭美啦……我把你当成我最好的朋友而已。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调侃的朋友",
+        "inner_monologue": "她这么说，看来我们只是好朋友，我得用玩笑来保持轻松氛围。",
+        "external_action": "笑了笑",
+        "speech_text": "你这女人可真够没眼光的……傻瓜都能看出东方路比我出色好不好。",
+        "mood_state": "幽默"
+      }
+    },
+    {
+      "scene_snapshot": "东方婉怒气冲冲地质问家明为什么没交社团表格。",
+      "interlocutor_info": {
+        "name": "东方婉",
+        "relationship_tag": "同学/社团组织者"
+      },
+      "trigger": {
+        "sender": "东方婉",
+        "content": "顾家明，你为什么没有把参加社团的表格交上来！？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被质问的逃避者",
+        "inner_monologue": "她又来兴师问罪了，我得想想怎么应付她，别让她太纠缠。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "无奈"
+      }
+    }
+  ]
+}

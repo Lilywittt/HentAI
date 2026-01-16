@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在房间洗澡时，沙沙敲门进来，说她睡不着。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "敲门并低声叫家明开门。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "无奈而宠溺的男友",
+                "inner_monologue": "我真是拿她没办法，这么晚还跑来，要是被雅涵姐发现就麻烦了。",
+                "external_action": "无奈地围上浴巾，从猫眼查看后开门。",
+                "speech_text": "你也不怕被别人瞧见，要是雅涵姐知道可就不好了。",
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙在床上说晕船，家明回应时灵静也敲门进来。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "说晕船并解释原因。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "关心而调侃的男友",
+                "inner_monologue": "她神经大条还会晕船？不过得帮她拿药，别让她难受。",
+                "external_action": "在卫生间回应。",
+                "speech_text": "我明天帮你去保健室拿点晕船药……",
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "灵静敲门进来后，三人打闹，雅涵突然敲门。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "敲门并说睡不着。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "轻松愉快的男友",
+                "inner_monologue": "今晚又是3P，人生真是美好啊，努力吧，我就快要无敌了。",
+                "external_action": "笑了笑，说先去洗澡。",
+                "speech_text": "我先洗澡，你们先上床吧。",
+                "mood_state": "愉悦"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵敲门，家明和两个女孩紧张应对。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "尊敬的姐姐/老师"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "敲门并轻声叫家明。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "无辜而紧张的弟弟",
+                "inner_monologue": "拜托了，雅涵大小姐，你找我的理由可千万别是因为性饥渴啊，虽然大家很熟了，你要爱上我是很正常的事，但也别在这里把感情爆发出来吧……",
+                "external_action": "从猫眼查看，叹气，然后开门。",
+                "speech_text": "我也不知道她为什么过来……她睡不着也没必要找我慰……呃，找我啊。我是清白的啊，两位青天……",
+                "mood_state": "紧张"
+            }
+        },
+        {
+            "scene_snapshot": "许默出现，家明开门后场面尴尬。",
+            "interlocutor_info": {
+                "name": "许默",
+                "relationship_tag": "无关的陌生人/情敌"
+            },
+            "trigger": {
+                "sender": "许默",
+                "content": "突然说话并跑过来。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "纯洁而尴尬的旁观者",
+                "inner_monologue": "这下误会大了，许默肯定以为我和雅涵姐有什么，得赶紧澄清一下。",
+                "external_action": "纯洁地眨着眼睛，望望雅涵又望望许默。",
+                "speech_text": "呃，张老师住隔壁那间，你如果要找她……呃……那个，不打扰你了，再见……",
+                "mood_state": "尴尬"
+            }
+        }
+    ]
+}

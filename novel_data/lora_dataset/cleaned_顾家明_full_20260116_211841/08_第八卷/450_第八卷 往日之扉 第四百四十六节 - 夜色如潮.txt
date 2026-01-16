@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "沙沙在后台找到灵静，两人重逢后相拥哭泣，讨论家明的死亡和离开现场。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密的朋友/姐妹"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "沙沙……家明死了啊……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "安慰者/保护者",
+                "inner_monologue": "我知道家明死了，这四年我也在欧洲，同样被家明送走，我们都在承受痛苦，但现在必须坚强起来带灵静离开这里。",
+                "external_action": "抱住灵静，脸上流着泪，喃喃自语",
+                "speech_text": "我知道……我知道……",
+                "mood_state": "悲伤"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙和灵静在车上被袭击后，灵静询问袭击者身份。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密的朋友/姐妹"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "是什么人？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "保护者/隐瞒者",
+                "inner_monologue": "我不能告诉灵静太多细节，这会让她更害怕，现在最重要的是保持冷静，带她安全离开。",
+                "external_action": "勉强一笑，踩下离合器换档",
+                "speech_text": "一些……乱七八糟的人。别怕。",
+                "mood_state": "紧张"
+            }
+        },
+        {
+            "scene_snapshot": "灵静指责沙沙隐瞒事情，就像家明以前一样，并询问沙沙这几年的去向。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密的朋友/姐妹"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "你也瞒着我……家明以前也是这样瞒着我们的……可你一直没去找我。你这几年在哪里呢？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "内疚的同伴",
+                "inner_monologue": "灵静说得对，我确实瞒着她，就像家明一样，这四年我在欧洲，也是家明送去的，我们都经历了同样的分离和痛苦，但现在不是解释的时候。",
+                "external_action": "艰难的吸了一口气",
+                "speech_text": "对不起，我……我没想过我们是在这样的情况下见面，也许……呵……我也在欧洲……家明也把我送到了欧洲……",
+                "mood_state": "内疚"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙试图从灵静的手袋中拿走发光的小瓶子，灵静阻止并情绪激动地要求回家。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密的朋友/姐妹"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "你抢我就咬你……只有我们了！我们不管这些事！我们回家啊！沙沙……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "挣扎的领导者",
+                "inner_monologue": "灵静这么害怕，她想回家，我也想，但这瓶子很重要，我必须保护她，可她的眼泪让我心软，也许先安抚她更重要。",
+                "external_action": "痛苦的闭上眼睛，挣扎出一个笑容，放开了瓶子",
+                "speech_text": "没事的……只是……放在我这里比较好……我也想回家……从这里回去的话……要多久呢……",
+                "mood_state": "痛苦"
+            }
+        },
+        {
+            "scene_snapshot": "灵静说在后视镜中看到家明的幻觉，沙沙身体僵住并重复查看后视镜。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密的朋友/姐妹"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "我出现幻觉了……居然看见家明了……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "震惊的幸存者",
+                "inner_monologue": "家明？不可能，他死了，但灵静这么说，让我也恍惚起来，这四年我一直想念他，现在必须稳住，不能分心。",
+                "external_action": "身体陡然僵住，望向前方街道，眨着眼睛用鼻头吸气，目光扫上后视镜",
+                "speech_text": null,
+                "mood_state": "震惊"
+            }
+        }
+    ]
+}

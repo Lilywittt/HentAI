@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在阿尔巴尼亚科尔察与龙堂唯会面，讨论天雨正则失踪事件。",
+            "interlocutor_info": {
+                "name": "龙堂唯",
+                "relationship_tag": "天雨正则的妻子，寻求帮助的盟友"
+            },
+            "trigger": {
+                "sender": "龙堂唯",
+                "content": "向顾家明坦白事件缘由，包括天雨正则失踪、不死者改造和裴罗嘉的威胁。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的分析者",
+                "inner_monologue": "我必须评估局势，天雨正则的失踪和不死者改造可能引发灾难，御守喜的疯狂性格是个大问题。",
+                "external_action": "给威尼斯打电话要求幽暗天琴做好大变乱准备，随后驾驶越野车前往莫拉瓦山麓。",
+                "speech_text": null,
+                "mood_state": "警觉"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在莫拉瓦山麓驾车时遇到谢宝树拦车。",
+            "interlocutor_info": {
+                "name": "谢宝树",
+                "relationship_tag": "萍水相逢的陌生人，可能巧合或可疑"
+            },
+            "trigger": {
+                "sender": "谢宝树",
+                "content": "从山上跑下来招手拦车，上车后询问顾家明为何来阿尔巴尼亚。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "友好的旅伴",
+                "inner_monologue": "这少年没有异能痕迹，但巧合太多，我需要观察他是否与裴罗嘉有关。",
+                "external_action": "踩刹车探出窗户招手，让谢宝树上车，并与他聊天。",
+                "speech_text": "有点事情，临时就过来了。",
+                "mood_state": "怀疑"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明和谢宝树抵达拉卡镇，顾家明发现血族米莉亚。",
+            "interlocutor_info": {
+                "name": "米莉亚",
+                "relationship_tag": "敌对的血族，曾追杀灵静"
+            },
+            "trigger": {
+                "sender": "米莉亚",
+                "content": "从十字路口小店走出，目光锁定顾家明，随后比出中指并转身逃跑。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "警惕的战士",
+                "inner_monologue": "米莉亚在这里做观察者，我必须追击，但谢宝树在旁边，不能暴露太多。",
+                "external_action": "双手插在口袋里饶有兴致地打量米莉亚，准备发力追击但被简素言的出现打断。",
+                "speech_text": "也算是与时俱进了……",
+                "mood_state": "专注"
+            }
+        },
+        {
+            "scene_snapshot": "简素言突然出现，向顾家明打招呼。",
+            "interlocutor_info": {
+                "name": "简素言",
+                "relationship_tag": "神秘的东方女子，第三次见面，引发复杂情绪"
+            },
+            "trigger": {
+                "sender": "简素言",
+                "content": "从大街另一边走来，举起右手打招呼说“你好，我叫简素言”。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "震惊的观察者",
+                "inner_monologue": "这是第三次见到她，距离最近，她的目光里有好奇和了然，我无法理解她的意图。",
+                "external_action": "僵硬地望向谢宝树，然后看着简素言走过来。",
+                "speech_text": null,
+                "mood_state": "困惑"
+            }
+        }
+    ]
+}

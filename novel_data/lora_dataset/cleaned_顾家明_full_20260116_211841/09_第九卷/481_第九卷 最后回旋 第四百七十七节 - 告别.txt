@@ -1,0 +1,159 @@
+{
+    "meta_info": {
+        "global_scene_type": "Other"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明帮助薰收拾行李，选择物品，准备离开月池家。",
+            "interlocutor_info": {
+                "name": "薰",
+                "relationship_tag": "学生/被保护者"
+            },
+            "trigger": {
+                "sender": "薰",
+                "content": "薰面对杂物发呆，难以抉择带哪些东西，特别是两个布偶。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "帮助者",
+                "inner_monologue": "我得帮她做出选择，减轻她的负担，让她能轻松离开这里。",
+                "external_action": "帮忙过来选择了一些物品。",
+                "speech_text": null,
+                "mood_state": "体贴"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明和薰离开月池家，走在安静的道路上，无人敢上前询问。",
+            "interlocutor_info": {
+                "name": "薰",
+                "relationship_tag": "学生/被保护者"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "道路边有人回头或停下来看他们，目光中带着疑惑。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "保护者",
+                "inner_monologue": "这些人不敢来打扰，正好，我们不需要任何告别或纠缠。",
+                "external_action": "背着两个包，走在前面。",
+                "speech_text": null,
+                "mood_state": "坚定"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明和薰站在月池家外，顾家明询问薰是否还需要告别。",
+            "interlocutor_info": {
+                "name": "薰",
+                "relationship_tag": "学生/被保护者"
+            },
+            "trigger": {
+                "sender": "顾家明",
+                "content": "“不用再跟什么人告别了吗？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "引导者",
+                "inner_monologue": "我得确认她是否真的准备好了，彻底离开这个痛苦的地方。",
+                "external_action": "伸过手去揉了揉她的头发。",
+                "speech_text": "“走吧。”",
+                "mood_state": "温和"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明和薰在巴士上受到一对情侣搭讪，男生试图与薰聊天。",
+            "interlocutor_info": {
+                "name": "陌生情侣",
+                "relationship_tag": "无关的路人"
+            },
+            "trigger": {
+                "sender": "陌生情侣",
+                "content": "男生时不时跟顾家明聊天，目标实为薰，女方说话刻薄。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "防御者",
+                "inner_monologue": "这些人真烦，薰不需要这种打扰，我得应付一下，保持低调。",
+                "external_action": "回答多半是顾家明。",
+                "speech_text": null,
+                "mood_state": "不耐烦"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明和薰抵达海滨小镇，顾家明宣布到达目的地。",
+            "interlocutor_info": {
+                "name": "薰",
+                "relationship_tag": "学生/被保护者"
+            },
+            "trigger": {
+                "sender": "薰",
+                "content": "“老师来这里是……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "神秘引导者",
+                "inner_monologue": "是时候了，带她来这里做个了结，面对过去。",
+                "external_action": "踩了踩地面，张开双手。",
+                "speech_text": "“我们到了。”",
+                "mood_state": "决断"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明和薰进入拉面馆，薰紧张地准备应对源赖朝创。",
+            "interlocutor_info": {
+                "name": "薰",
+                "relationship_tag": "学生/被保护者"
+            },
+            "trigger": {
+                "sender": "薰",
+                "content": "薰身体紧绷，手因紧张而颤抖，调整到作战状态。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "安抚者",
+                "inner_monologue": "她太紧张了，我得让她放松，这里不会有事，只是吃面。",
+                "external_action": "笑了笑。",
+                "speech_text": "“放松，没事的，专心吃面就好。”",
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明与源赖朝创在拉面馆喝酒聊天，薰紧张观望。",
+            "interlocutor_info": {
+                "name": "源赖朝创",
+                "relationship_tag": "旧识/对手"
+            },
+            "trigger": {
+                "sender": "源赖朝创",
+                "content": "源赖朝创在顾家明面前坐下来，开始交谈。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "对话者",
+                "inner_monologue": "终于见到他了，这么多年，这次见面或许能了结一些旧事。",
+                "external_action": "与源赖朝创喝酒聊天。",
+                "speech_text": null,
+                "mood_state": "复杂"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明和薰离开拉面馆后，顾家明在海边沉默，提及源赖朝创。",
+            "interlocutor_info": {
+                "name": "薰",
+                "relationship_tag": "学生/被保护者"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "顾家明沉默，薰感到担心。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "反思者",
+                "inner_monologue": "那个家伙确实厉害，这次告别让我想起了很多，是时候放下了。",
+                "external_action": "在海边坐了一会儿。",
+                "speech_text": "“那个家伙……干什么都比我厉害……”",
+                "mood_state": "感慨"
+            }
+        }
+    ]
+}

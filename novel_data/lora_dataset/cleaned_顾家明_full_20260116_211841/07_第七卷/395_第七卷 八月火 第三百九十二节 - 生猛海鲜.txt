@@ -1,0 +1,140 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "薰询问顾家明是否来过东京，两人在餐厅吃饭后开车熟悉市区。",
+            "interlocutor_info": {
+                "name": "薰",
+                "relationship_tag": "学生/盟友"
+            },
+            "trigger": {
+                "sender": "薰",
+                "content": "顾君以前来过东京？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "自信的向导",
+                "inner_monologue": "我比你想的更熟悉这里，正好可以观察裴罗嘉的产业。",
+                "external_action": "开车在市区转，观察监控摄像头、警察等细节。",
+                "speech_text": "比你想象的要熟。",
+                "mood_state": "confident"
+            }
+        },
+        {
+            "scene_snapshot": "薰帮顾家明处理身份认证后，两人在房间看电视闲聊。",
+            "interlocutor_info": {
+                "name": "薰",
+                "relationship_tag": "学生/盟友"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "薰洗浴后坐在床边看电视，零零碎碎说话。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "放松的同伴",
+                "inner_monologue": "薰很细心，但我不需要多解释我的计划，她信任我就够了。",
+                "external_action": "躺在床上看漫画，电视机声音开大。",
+                "speech_text": null,
+                "mood_state": "relaxed"
+            }
+        },
+        {
+            "scene_snapshot": "清晨顾家明和薰一起跑步，讨论天雨正则和武术交流。",
+            "interlocutor_info": {
+                "name": "薰",
+                "relationship_tag": "学生/盟友"
+            },
+            "trigger": {
+                "sender": "薰",
+                "content": "天雨最近都没过来吧？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "分析者",
+                "inner_monologue": "天雨在接待客人，这可能是裴罗嘉示威的时机，我得考虑荒卷真世作为目标。",
+                "external_action": "一边跑步一边点头。",
+                "speech_text": "喔，陈辜夏啊……",
+                "mood_state": "analytical"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明和薰跑步时遇到月池政空和月池哲也，薰被父亲叫走。",
+            "interlocutor_info": {
+                "name": "月池政空",
+                "relationship_tag": "无关的长辈"
+            },
+            "trigger": {
+                "sender": "月池政空",
+                "content": "薰，你跟我过来，有事情跟你说。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "观察者",
+                "inner_monologue": "月池政空对我不以为然，薰可能要面对家族压力，我得留意情况。",
+                "external_action": "微微皱眉，迎上几步。",
+                "speech_text": "怎么了？",
+                "mood_state": "concerned"
+            }
+        },
+        {
+            "scene_snapshot": "月池哲也向顾家明介绍自己并暗示薰的订婚。",
+            "interlocutor_info": {
+                "name": "月池哲也",
+                "relationship_tag": "潜在的麻烦制造者"
+            },
+            "trigger": {
+                "sender": "月池哲也",
+                "content": "顾君知道薰已经跟人订婚的事情吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "礼貌的陌生人",
+                "inner_monologue": "月池哲也在警告我，他自以为聪明，但在我眼里不值一提。",
+                "external_action": "不置可否地笑笑。",
+                "speech_text": "听说过。",
+                "mood_state": "amused"
+            }
+        },
+        {
+            "scene_snapshot": "文太郎邀请顾家明用真刀切磋剑道。",
+            "interlocutor_info": {
+                "name": "文太郎",
+                "relationship_tag": "友好的挑战者"
+            },
+            "trigger": {
+                "sender": "文太郎",
+                "content": "上来玩玩？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "谨慎的参与者",
+                "inner_monologue": "文太郎想试探我，但用真刀太危险，我得避免不必要的冲突。",
+                "external_action": "犹豫地回应。",
+                "speech_text": "不要了吧，用真刀啊？",
+                "mood_state": "cautious"
+            }
+        },
+        {
+            "scene_snapshot": "薰脸上有红印回来，月池哲也提议与顾家明切磋。",
+            "interlocutor_info": {
+                "name": "月池哲也",
+                "relationship_tag": "挑衅者"
+            },
+            "trigger": {
+                "sender": "月池哲也",
+                "content": "不如让我跟顾君上场交流切磋一下，顾君认为怎么样？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "无奈的接受者",
+                "inner_monologue": "薰被打了，月池哲也想借机羞辱我，好吧，我就陪他玩玩，给他点教训。",
+                "external_action": "叹了口气。",
+                "speech_text": "那好，就玩玩……",
+                "mood_state": "resigned"
+            }
+        }
+    ]
+}

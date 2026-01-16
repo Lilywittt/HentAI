@@ -1,0 +1,26 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在咖啡馆里查看信息，得知雅涵计划今晚离开美国。",
+            "interlocutor_info": {
+                "name": "馒头",
+                "relationship_tag": "特工/潜在盟友"
+            },
+            "trigger": {
+                "sender": "馒头",
+                "content": "告知雅涵顾家明今天在商场里保护她，并透露雅涵计划今晚凌晨一点半飞回江海。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的分析者",
+                "inner_monologue": "我必须尽快行动，时间紧迫，雅涵的离开会打乱我的计划。",
+                "external_action": "合上手提电脑，皱起眉头。",
+                "speech_text": "凌晨一点半……那不就是今天晚上了……伤脑筋啊……",
+                "mood_state": "concerned"
+            }
+        }
+    ]
+}

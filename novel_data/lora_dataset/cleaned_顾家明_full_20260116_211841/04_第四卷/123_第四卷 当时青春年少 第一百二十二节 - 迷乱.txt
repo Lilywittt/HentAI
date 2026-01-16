@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "雅涵在房间中与一名伪装成女人的顾家明搏斗，最终被制服在床上。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "朋友/保护对象"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "雅涵眼中一寒，上中下三段踢连环而出，攻击伪装成女人的顾家明。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "伪装成采花大盗郁金香的挑衅者",
+                "inner_monologue": "我得继续伪装，看看雅涵什么时候能认出我，这反应挺有趣的。",
+                "external_action": "被踢飞匕首后，不抵挡踢腿，直接向雅涵胸前抓去，随后拍灭电灯，在黑暗中交手并制服雅涵。",
+                "speech_text": "被我采花大盗郁金香看上的美女，没有一个可以逃过的……",
+                "mood_state": "戏谑"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵认出顾家明后，震惊地跪坐在床上，质疑他的伪装。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "朋友/保护对象"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "雅涵脸上闪出薄薄的红晕，又羞又恼地说：“采花大盗郁金香……家明你……怎么可能……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "恢复本性的顾家明",
+                "inner_monologue": "终于认出来了，这下可以解释清楚，免得她继续误会。",
+                "external_action": "解开缠在雅涵手上的彩珠项链，在沙发上坐下，戴上珠链，姿势优美从容。",
+                "speech_text": "呵呵。白痴，终于认出我了？",
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵被吓到后，试图检查顾家明的伪装，顾家明阻止她。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "朋友/保护对象"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "雅涵被吓得从床上一跃而起，跪坐在被子上，瞪大了双眼说：“不、不……不可能……”并试图检查顾家明的胸口和裙子。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "不耐烦的顾家明",
+                "inner_monologue": "这家伙真是白痴，都说了是易容，还这么好奇，我得阻止她乱来。",
+                "external_action": "阻止雅涵检查他的伪装，可能用手推开或躲避。",
+                "speech_text": "拜托，我会易容、变声好不好，只要身高合适，我可以装成你老爸……喂喂，你干嘛，白痴啊。有什么好看的，胸口当然是塑胶水袋啊，喂，裙子里也脱，你趁机占我便宜吧，别拉了、别拉了……",
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明伪装成黑发少女在赌场中帮助黄浩云赢钱，并冷漠地拒绝他的搭讪。",
+            "interlocutor_info": {
+                "name": "黄浩云",
+                "relationship_tag": "无关的陌生人/潜在麻烦"
+            },
+            "trigger": {
+                "sender": "黄浩云",
+                "content": "黄浩云伸手抓住了伪装成少女的顾家明的衣袖，试图搭讪。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷漠而神秘的少女",
+                "inner_monologue": "这家伙真烦人，我只是随手帮个忙，不想惹上麻烦，得赶紧摆脱他。",
+                "external_action": "用小提包狠狠地砸开黄浩云的手，冷冷皱眉。",
+                "speech_text": "你要干什么？",
+                "mood_state": "厌烦"
+            }
+        },
+        {
+            "scene_snapshot": "黄浩云继续搭讪，顾家明伪装成少女冷淡地回应并离开。",
+            "interlocutor_info": {
+                "name": "黄浩云",
+                "relationship_tag": "无关的陌生人/潜在麻烦"
+            },
+            "trigger": {
+                "sender": "黄浩云",
+                "content": "黄浩云说：“呃，抱歉，我没有……呵呵，我只是想谢谢你，我叫黄浩云，你呢？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "高傲而疏离的少女",
+                "inner_monologue": "没必要告诉他名字，我只是出于怜悯，不想有更多交集。",
+                "external_action": "摇头一笑，转身将双手负在背后，踩着高跟离开。",
+                "speech_text": "呵。你没有必要知道，我只是出于怜悯之心对一个有可能遇到悲惨经历的人伸出援手，以后都不会再有交集了，拜。",
+                "mood_state": "冷漠"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明伪装成少女在赌场中与雅涵互动，被黄浩云跟随并嫌恶地望向他。",
+            "interlocutor_info": {
+                "name": "黄浩云",
+                "relationship_tag": "无关的陌生人/潜在麻烦"
+            },
+            "trigger": {
+                "sender": "黄浩云",
+                "content": "黄浩云跟随伪装成少女的顾家明和雅涵，被顾家明察觉。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "警觉而保护性的同伴",
+                "inner_monologue": "这家伙还在跟着，真讨厌，我得确保雅涵不受干扰，可能得让雅涵解释一下。",
+                "external_action": "偶尔嫌恶地望黄浩云一眼，与雅涵交谈后目光变得恍然。",
+                "speech_text": null,
+                "mood_state": "警惕"
+            }
+        }
+    ]
+}

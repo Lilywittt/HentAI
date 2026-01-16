@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "家明和灵静在帐篷里吃东西时，遇到了脸色沉重的江于薇。",
+            "interlocutor_info": {
+                "name": "江于薇",
+                "relationship_tag": "老同学，因介绍谭君荣给灵静而尴尬"
+            },
+            "trigger": {
+                "sender": "江于薇",
+                "content": "跟灵静打招呼并道歉",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷淡的旁观者",
+                "inner_monologue": "我懒得搭理她，她上午让我没面子，现在又刻意忽视我。",
+                "external_action": "顾着吃东西和想事情",
+                "speech_text": null,
+                "mood_state": "indifferent"
+            }
+        },
+        {
+            "scene_snapshot": "灵静和江于薇讨论明星时，家明在摆弄电子表。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "女朋友，关心他的看法"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "回头看家明，担心他对明星话题有意见",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "专注的思考者",
+                "inner_monologue": "我在想东方若的不舒服和电子表的信息，没空管这些明星琐事。",
+                "external_action": "皱着眉头摆弄手腕上的电子表",
+                "speech_text": null,
+                "mood_state": "preoccupied"
+            }
+        },
+        {
+            "scene_snapshot": "方雨思走过来打招呼，家明随意回应。",
+            "interlocutor_info": {
+                "name": "方雨思",
+                "relationship_tag": "大明星，有合作关系的熟人"
+            },
+            "trigger": {
+                "sender": "方雨思",
+                "content": "嗨，灵静，家明",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "随意的朋友",
+                "inner_monologue": "她来打招呼，我得应付一下，但心思在别处。",
+                "external_action": "随意地回应",
+                "speech_text": "嗨，吃过了？",
+                "mood_state": "casual"
+            }
+        },
+        {
+            "scene_snapshot": "家明向方雨思索要黄金限量版专辑给灵静。",
+            "interlocutor_info": {
+                "name": "方雨思",
+                "relationship_tag": "大明星，有合作关系的熟人"
+            },
+            "trigger": {
+                "sender": "家明",
+                "content": "主动询问黄金限量版专辑",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "体贴的男友",
+                "inner_monologue": "灵静喜欢她的歌，我趁机要个签名专辑让她高兴，顺便转移话题。",
+                "external_action": "抬起头笑了一笑",
+                "speech_text": "对了，雨思姐，今年年初你发行的那套黄金限量版现在还有留下的吗？",
+                "mood_state": "calculating"
+            }
+        },
+        {
+            "scene_snapshot": "家明以有事为由离开帐篷。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "女朋友，担心他的安全"
+            },
+            "trigger": {
+                "sender": "家明",
+                "content": "告知灵静要离开",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "秘密行动者",
+                "inner_monologue": "电子表有紧急信息，我得去处理，不能让她担心。",
+                "external_action": "向灵静抬了抬手表，轻声说话",
+                "speech_text": "还有些事情，灵静你在这里玩，或者去找沙沙她们，我得先离开下了。",
+                "mood_state": "urgent"
+            }
+        },
+        {
+            "scene_snapshot": "家明在小帐篷里与凯莉讨论枪战事件。",
+            "interlocutor_info": {
+                "name": "凯莉",
+                "relationship_tag": "异能专家，合作者"
+            },
+            "trigger": {
+                "sender": "凯莉",
+                "content": "解释枪战可能因内讧引起",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "分析者",
+                "inner_monologue": "她在暗示裴罗嘉和伯爵内讧，我得确认她做了什么。",
+                "external_action": "挑了挑眉",
+                "speech_text": "你对他们干了些什么？",
+                "mood_state": "suspicious"
+            }
+        }
+    ]
+}

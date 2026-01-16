@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "崔国华和小武在讨论顾家明打伤阿姆雷的细节，怀疑顾家明的实力。",
+            "interlocutor_info": {
+                "name": "崔国华",
+                "relationship_tag": "上级/调查者"
+            },
+            "trigger": {
+                "sender": "崔国华",
+                "content": "提到顾家明被简素言教导，功夫不差，但阿姆雷左脸无伤，质疑伤害如何造成。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "隐藏实力的学生",
+                "inner_monologue": "他们开始怀疑我了，但阿姆雷的伤确实是我故意造成的，不能让他们看出破绽。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "警惕"
+            }
+        },
+        {
+            "scene_snapshot": "小武和陈辜夏通话后，众人讨论顾家明是否故意造成伤害或与简素言有关。",
+            "interlocutor_info": {
+                "name": "小武",
+                "relationship_tag": "同事/怀疑者"
+            },
+            "trigger": {
+                "sender": "小武",
+                "content": "提出顾家明可能是故意打伤阿姆雷，或小武自己造成内伤，引发对顾家明身份的猜测。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "低调的旁观者",
+                "inner_monologue": "他们在猜测我的真实身份和实力，我得保持沉默，让他们以为这只是意外。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "方国琳提出顾家明可能是简素言假扮的，乔国睿反驳心性不符。",
+            "interlocutor_info": {
+                "name": "方国琳",
+                "relationship_tag": "同事/好奇者"
+            },
+            "trigger": {
+                "sender": "方国琳",
+                "content": "询问顾家明是否跟简素言一样厉害，或就是简素言假扮的。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "无辜的学生",
+                "inner_monologue": "他们又在联想我和简素言的关系，幸好乔国睿帮我反驳了，但得小心别暴露更多。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "谨慎"
+            }
+        },
+        {
+            "scene_snapshot": "众人讨论自然进化者等可能性，但无结论，决定将事件定性为意外。",
+            "interlocutor_info": {
+                "name": "乔国睿",
+                "relationship_tag": "同事/分析者"
+            },
+            "trigger": {
+                "sender": "乔国睿",
+                "content": "总结讨论，认为可能是意外，并提议找医学专家分析。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "被动参与者",
+                "inner_monologue": "他们决定把这事当成意外，这正合我意，可以避免进一步调查。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "放松"
+            }
+        },
+        {
+            "scene_snapshot": "姜局长报告混混与希里旺冲突，导致更多人受伤，崔国华感到麻烦。",
+            "interlocutor_info": {
+                "name": "姜局长",
+                "relationship_tag": "警方合作者"
+            },
+            "trigger": {
+                "sender": "姜局长",
+                "content": "告知崔国华混混与希里旺冲突，两人被打断肋骨，事态升级。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "无关的旁观者",
+                "inner_monologue": "事情越来越乱了，但这不关我的事，只要他们不把焦点放回我身上就行。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "漠然"
+            }
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在书店与灵静结账时，沙沙跑过来送冰激凌。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "不是说去吃冷饮等着我们吗？怎么又跑过来了？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "轻松随和的男友",
+                "inner_monologue": "我正和灵静买书呢，沙沙这丫头又跑来了，不过有冰激凌吃也不错。",
+                "external_action": "笑着接过冰激凌",
+                "speech_text": null,
+                "mood_state": "愉悦"
+            }
+        },
+        {
+            "scene_snapshot": "收银员提出答题活动，沙沙和灵静回答前两题后，轮到顾家明回答第三题。",
+            "interlocutor_info": {
+                "name": "收银员",
+                "relationship_tag": "陌生人"
+            },
+            "trigger": {
+                "sender": "收银员",
+                "content": "这道题是……春风吹又生的上一句是什么……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "幽默搞怪的参与者",
+                "inner_monologue": "这题太简单了，但我想逗逗灵静和沙沙，来个搞笑的答案。",
+                "external_action": "吃了口冰激凌，笑了起来",
+                "speech_text": "呵，斩草不除根……",
+                "mood_state": "戏谑"
+            }
+        },
+        {
+            "scene_snapshot": "在海边大堤上，沙沙因顾家明的搞笑答案而追打他。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "叫你斩草不除根、叫你斩草不除根……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "调皮躲避的男友",
+                "inner_monologue": "沙沙又在闹了，不过这样打打闹闹也挺开心的，反正书和卡都拿到了。",
+                "external_action": "拿着冰激凌跳来跳去，躲避着后方沙沙的飞腿",
+                "speech_text": "喂喂、呵……我觉得没错啊，斩草不除根，春风吹又生。大家不都这样说的吗？她又没说一定考的是那首诗，何况……何况书和贵宾卡不都到手了么，哇喔……",
+                "mood_state": "顽皮"
+            }
+        },
+        {
+            "scene_snapshot": "在咖啡店，东方路向顾家明表达对简素言的感谢并请求帮忙。",
+            "interlocutor_info": {
+                "name": "东方路",
+                "relationship_tag": "潜在情敌"
+            },
+            "trigger": {
+                "sender": "东方路",
+                "content": "其实我们是从小婉那里得知的一些关于简素言小姐的事情，一直都想请家明同学为我转达一声谢意……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的中间人",
+                "inner_monologue": "东方路突然提起简素言，看来是有事相求，我得先听听他怎么说。",
+                "external_action": null,
+                "speech_text": "五月十号？那天她的确在这里……发生什么事了吗？",
+                "mood_state": "好奇"
+            }
+        },
+        {
+            "scene_snapshot": "东方路递上病历文件袋，请求顾家明转交给简素言。",
+            "interlocutor_info": {
+                "name": "东方路",
+                "relationship_tag": "潜在情敌"
+            },
+            "trigger": {
+                "sender": "东方路",
+                "content": "呃，这个就是若若表妹长久以来的病历，我们……我们希望家明同学你能够帮忙交给简小姐看一下……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "务实的帮忙者",
+                "inner_monologue": "东方路这么郑重其事，看来东方若的病很严重，这个忙我可以帮，但得先了解情况。",
+                "external_action": "心中推测着东方若有可能出现的状况，点了点头",
+                "speech_text": "我明白了。",
+                "mood_state": "严肃"
+            }
+        },
+        {
+            "scene_snapshot": "东方路坦白喜欢灵静，并承认知道顾家明与灵静、沙沙的关系。",
+            "interlocutor_info": {
+                "name": "东方路",
+                "relationship_tag": "潜在情敌"
+            },
+            "trigger": {
+                "sender": "东方路",
+                "content": "是关于灵静同学的。我喜欢她。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "淡然的胜利者",
+                "inner_monologue": "东方路终于摊牌了，但他已经输了，灵静和沙沙都选择了我，我没什么好担心的。",
+                "external_action": "将汽水的吸管放入口中，没有答话",
+                "speech_text": null,
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "东方路表示不会放弃灵静，但不会骚扰她，并警告顾家明别给机会。",
+            "interlocutor_info": {
+                "name": "东方路",
+                "relationship_tag": "潜在情敌"
+            },
+            "trigger": {
+                "sender": "东方路",
+                "content": "我不会骚扰她了，但是我也不会放弃她，你别给我机会。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "自信的回应者",
+                "inner_monologue": "东方路还在逞强，但他根本构不成威胁，我就像在看小孩子闹脾气一样。",
+                "external_action": "望着东方路认真专注且富含压迫感的眼神，淡淡一笑",
+                "speech_text": "喔。我知道了。",
+                "mood_state": "轻蔑"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉和雷庆到来，东方婉介绍顾家明为舞伴，雷庆暗中绊倒顾家明。",
+            "interlocutor_info": {
+                "name": "雷庆",
+                "relationship_tag": "陌生人"
+            },
+            "trigger": {
+                "sender": "雷庆",
+                "content": "稍有些武术底子的他将右腿稍稍一移。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "假装被绊倒的受害者",
+                "inner_monologue": "雷庆这小动作太明显了，我正好顺势演一下，让他自食其果。",
+                "external_action": "猛地被绊倒，狼狈地向着前方一张圆桌扑了过去",
+                "speech_text": null,
+                "mood_state": "算计"
+            }
+        }
+    ]
+}

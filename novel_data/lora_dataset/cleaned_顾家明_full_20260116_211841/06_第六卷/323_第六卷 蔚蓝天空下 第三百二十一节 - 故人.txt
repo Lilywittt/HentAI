@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "A group of friends are on a bus trip to a camping site, chatting and interacting casually.",
+            "interlocutor_info": {
+                "name": "天雨正则",
+                "relationship_tag": "acquaintance with shared secrets"
+            },
+            "trigger": {
+                "sender": "天雨正则",
+                "content": "三个女朋友的感觉如何？传授点经验，免得我这样一直被唯管得死死的。哈哈。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "casual friend",
+                "inner_monologue": "I need to deflect this lightly; my personal life is complicated and not for casual discussion.",
+                "external_action": "摇头一笑",
+                "speech_text": "唯死撑尔。",
+                "mood_state": "amused"
+            }
+        },
+        {
+            "scene_snapshot": "A childhood friend, 江于薇, recognizes 灵静 and 顾家明 on the bus, leading to introductions and conversation.",
+            "interlocutor_info": {
+                "name": "江于薇",
+                "relationship_tag": "forgotten childhood acquaintance"
+            },
+            "trigger": {
+                "sender": "江于薇",
+                "content": "他是……顾家明？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "polite but distant",
+                "inner_monologue": "I don't remember her at all; my past is a blur, and I need to play along without revealing my lack of memory.",
+                "external_action": "脸上露出一个尴尬的神色",
+                "speech_text": "好像……记不起来了。",
+                "mood_state": "embarrassed"
+            }
+        },
+        {
+            "scene_snapshot": "江于薇 introduces her boyfriend 安迪, who boasts about his martial arts skills and dismisses Chinese功夫.",
+            "interlocutor_info": {
+                "name": "安迪",
+                "relationship_tag": "arrogant stranger"
+            },
+            "trigger": {
+                "sender": "安迪",
+                "content": "中国功夫也只能用来锻炼身体，打打好看而已...最强的显然是泰拳...",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "humble observer",
+                "inner_monologue": "This guy is full of himself; I could easily prove him wrong, but it's not worth the attention or risk.",
+                "external_action": "回过头来",
+                "speech_text": "那不知道安迪大哥练的是什么拳呢？",
+                "mood_state": "skeptical"
+            }
+        },
+        {
+            "scene_snapshot": "安迪 continues to lecture on martial arts, while 天雨正则 and 顾家明 privately mock his views.",
+            "interlocutor_info": {
+                "name": "天雨正则",
+                "relationship_tag": "trusted confidant"
+            },
+            "trigger": {
+                "sender": "天雨正则",
+                "content": "中国功夫真差，听见没，还是我们日本空手道好。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "playful challenger",
+                "inner_monologue": "He's joking, but I could easily take him down; better to keep things light and avoid drawing suspicion.",
+                "external_action": null,
+                "speech_text": "下去单挑。",
+                "mood_state": "teasing"
+            }
+        }
+    ]
+}

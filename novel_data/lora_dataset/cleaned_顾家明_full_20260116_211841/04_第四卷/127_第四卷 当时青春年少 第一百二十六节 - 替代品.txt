@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在浴室门口与雅涵交谈，讨论如何处理许毅婷的事情。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密的朋友/保护对象"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "家明你其实是个好人啊，我知道你不会杀她的。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "讽刺的旁观者",
+                "inner_monologue": "又被她看穿了，不过这种好人卡真是多余。",
+                "external_action": "眼中蕴含微微的讽刺，将洗好的毛巾递给雅涵",
+                "speech_text": "哦，又被你猜到了……居然还顺手发张好人卡。那刚才又是谁一边拼命掰我的手一边又哭又闹的？",
+                "mood_state": "讽刺"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在厨房与沙沙讨论许毅婷失踪的事情。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密的女友/关心对象"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "你……你没有帮忙找一下吗？她一个女孩子……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷漠的伴侣",
+                "inner_monologue": "她总是这么热心，但我不想卷入麻烦。",
+                "external_action": "从背后搂住沙沙，轻轻咬住她的耳朵",
+                "speech_text": "放心吧，许毅婷没事的。我大概知道她会在什么地方，所以没必要去找……",
+                "mood_state": "安抚"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在卧室与沙沙进行亲密互动，沙沙提到录像。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密的女友/调情对象"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "好像是我和灵静昨天看的录像哦。说强奸的……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "主导的伴侣",
+                "inner_monologue": "她这种反差真有趣，让我更想逗她。",
+                "external_action": "笑着接过避孕套，继续抚摸她的腿",
+                "speech_text": null,
+                "mood_state": "戏谑"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在客厅收到灵静和沙沙送的礼物。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密的女友/玩笑对象"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "这是我和沙沙昨天一块去选的礼物，送给家明你的，打开看看。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "幽默的接收者",
+                "inner_monologue": "按摩棒？她们在开玩笑吧，想看我什么反应。",
+                "external_action": "眨了眨眼睛，左望望、右望望",
+                "speech_text": "呃，你们是想说，你们终于找到替代品，不再需要我了吗……",
+                "mood_state": "调侃"
+            }
+        }
+    ]
+}

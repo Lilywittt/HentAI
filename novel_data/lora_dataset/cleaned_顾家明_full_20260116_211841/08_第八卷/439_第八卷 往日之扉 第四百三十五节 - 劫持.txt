@@ -1,0 +1,159 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "方雨思跳入泳池，发现顾家明站在水底一动不动，以为他溺水并试图救他。",
+            "interlocutor_info": {
+                "name": "方雨思",
+                "relationship_tag": "需要照顾的麻烦人物"
+            },
+            "trigger": {
+                "sender": "方雨思",
+                "content": "跳入泳池并大喊“救人”，将顾家明拉上来准备做人工呼吸。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷漠疏离",
+                "inner_monologue": "我只是在思考，她为什么打扰我？",
+                "external_action": "长舒一口气睁开眼睛，问“你要干什么？”",
+                "speech_text": "“你要干什么？”",
+                "mood_state": "不悦"
+            }
+        },
+        {
+            "scene_snapshot": "方雨思在客厅询问顾家明对电影的看法，顾家明皱眉表示不满意。",
+            "interlocutor_info": {
+                "name": "方雨思",
+                "relationship_tag": "无关紧要的旁观者"
+            },
+            "trigger": {
+                "sender": "方雨思",
+                "content": "问“怎么了，这部电影不好看吗？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "专注内省",
+                "inner_monologue": "这部电影的时间线不对，我需要理清记忆。",
+                "external_action": "皱着眉头望着电视屏幕。",
+                "speech_text": "“不太对……二零零三年……”",
+                "mood_state": "困惑"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明询问叶灵静是谁，方雨思惊讶他是否忘记，顾家明表示记忆混乱。",
+            "interlocutor_info": {
+                "name": "方雨思",
+                "relationship_tag": "信息提供者"
+            },
+            "trigger": {
+                "sender": "方雨思",
+                "content": "反问“你真的忘记了？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "迷茫挣扎",
+                "inner_monologue": "我记得叶灵静，但细节很乱，我需要整理。",
+                "external_action": "站起来，用手拍打脑袋。",
+                "speech_text": "“我记得……大概记得……可是……有些乱……”",
+                "mood_state": "焦虑"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在电脑前查看叶灵静的资料时突然发病，额头血管贲张，全身颤抖出汗。",
+            "interlocutor_info": {
+                "name": "方雨思",
+                "relationship_tag": "惊慌的照顾者"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "看到叶灵静的照片和英文介绍触发记忆混乱。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "失控痛苦",
+                "inner_monologue": "这些记忆太强烈了，我无法控制身体的反应。",
+                "external_action": "额头血管贲张，咬紧牙关全身颤抖，汗如雨下。",
+                "speech_text": null,
+                "mood_state": "痛苦"
+            }
+        },
+        {
+            "scene_snapshot": "在救护车上，顾家明被劫持，歹徒用枪和刀威胁他，他出汗被嘲笑。",
+            "interlocutor_info": {
+                "name": "劫匪",
+                "relationship_tag": "威胁生命的敌人"
+            },
+            "trigger": {
+                "sender": "劫匪",
+                "content": "说“他妈的装什么镇定，吓成这个样子……你他妈的不许再出汗，否则杀了你啊！”并用枪点他的额头。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "表面顺从",
+                "inner_monologue": "这些人在找死，我需要先恢复控制。",
+                "external_action": "被推得晃动，但双手规规矩矩放在膝盖上。",
+                "speech_text": null,
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在劫持车辆中突然开口评论黑社会，激怒歹徒。",
+            "interlocutor_info": {
+                "name": "劫匪",
+                "relationship_tag": "可轻易解决的障碍"
+            },
+            "trigger": {
+                "sender": "劫匪",
+                "content": "车内四人嘲笑并威胁，讨论如何对付方雨思。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "挑衅评估",
+                "inner_monologue": "他们太吵了，是时候结束这场闹剧。",
+                "external_action": "长长吸气和吐气，汗水减少。",
+                "speech_text": "“你们……黑社会混得很有意思啊……”",
+                "mood_state": "讥讽"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明警告歹徒会死，歹徒挥枪砸向他，他无动于衷。",
+            "interlocutor_info": {
+                "name": "劫匪",
+                "relationship_tag": "即将被消灭的目标"
+            },
+            "trigger": {
+                "sender": "劫匪",
+                "content": "挥枪朝顾家明头上砸下去。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "致命反击",
+                "inner_monologue": "他们动手了，现在轮到我。",
+                "external_action": "无动于衷，目光不变。",
+                "speech_text": "“这样子会死的……”",
+                "mood_state": "决绝"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明从劫持车辆中跳出，以超常方式站立，并拦截后方车辆。",
+            "interlocutor_info": {
+                "name": "环境",
+                "relationship_tag": "战斗舞台"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "车辆被劫持，顾家明需要解救自己和方雨思。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "冷酷执行者",
+                "inner_monologue": "必须快速解决，避免更多麻烦。",
+                "external_action": "撞破车窗跳出，以太空漫步步伐后退，双手按下轿车车前盖。",
+                "speech_text": null,
+                "mood_state": "冷漠"
+            }
+        }
+    ]
+}

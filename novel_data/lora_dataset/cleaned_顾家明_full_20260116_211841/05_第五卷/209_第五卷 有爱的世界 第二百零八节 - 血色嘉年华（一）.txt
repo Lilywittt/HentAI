@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在枪林弹雨中奔跑，躲避后方追击，随手开枪还击。",
+            "interlocutor_info": {
+                "name": "追击者",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "追击者",
+                "content": "后方的枪声不断追赶",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "冷静的逃亡者",
+                "inner_monologue": "我靠着训练绕障碍奔跑，左手的伤口很疼，但还活着，奇怪的是火力减少了。",
+                "external_action": "躲在墙下随手开了两枪",
+                "speech_text": null,
+                "mood_state": "警惕"
+            }
+        },
+        {
+            "scene_snapshot": "诸神无念出现，向顾家明挑战并自我介绍。",
+            "interlocutor_info": {
+                "name": "诸神无念",
+                "relationship_tag": "挑战者"
+            },
+            "trigger": {
+                "sender": "诸神无念",
+                "content": "“我想，没有躲藏的必要了吧……故意装得很狼狈，故意放水，我想我应该没有理解错误，你想单独向我挑战吧，不，或者说是接受我的挑战……呵，其实你杀掉他们也没关系，我和他们并不熟……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "困惑的听众",
+                "inner_monologue": "他到底在说什么啊……",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "疑惑"
+            }
+        },
+        {
+            "scene_snapshot": "诸神无念继续讲述自己的背景和挑战意图。",
+            "interlocutor_info": {
+                "name": "诸神无念",
+                "relationship_tag": "挑战者"
+            },
+            "trigger": {
+                "sender": "诸神无念",
+                "content": "“在日本裴罗嘉里，有两个人我是很佩服的……你好，我是诸神无念……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "不耐烦的对手",
+                "inner_monologue": "念你母亲，我才不是什么狗屁郁金香，你认错人了……",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "恼怒"
+            }
+        },
+        {
+            "scene_snapshot": "诸神无念发动攻击，顾家明被击飞并受伤。",
+            "interlocutor_info": {
+                "name": "诸神无念",
+                "relationship_tag": "攻击者"
+            },
+            "trigger": {
+                "sender": "诸神无念",
+                "content": "随着轰的一声响，身后的墙壁爆开了，诸神无念冲出来攻击。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "受伤的抵抗者",
+                "inner_monologue": "我被击中飞出去，手臂和腹部剧痛，必须反击。",
+                "external_action": "朝着前方猛地冲了出去，举手挥挡，左腿甩向诸神无念的头部",
+                "speech_text": null,
+                "mood_state": "痛苦"
+            }
+        },
+        {
+            "scene_snapshot": "诸神无念识破顾家明身份并准备开枪。",
+            "interlocutor_info": {
+                "name": "诸神无念",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "诸神无念",
+                "content": "“你不是简素言……”并拔出手枪。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "濒死的目标",
+                "inner_monologue": "我浑身剧痛，站不起来，他要开枪了。",
+                "external_action": "挣扎了一次，却没能站起来",
+                "speech_text": null,
+                "mood_state": "绝望"
+            }
+        },
+        {
+            "scene_snapshot": "有人用机枪救下顾家明，与诸神无念交战。",
+            "interlocutor_info": {
+                "name": "救援者",
+                "relationship_tag": "盟友"
+            },
+            "trigger": {
+                "sender": "救援者",
+                "content": "机枪的声音响了起来，子弹射向诸神无念。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "获救的伤者",
+                "inner_monologue": "有人来救我了，我得站起来帮忙。",
+                "external_action": "强抑住喉中的腥甜，摇摇晃晃地站稳",
+                "speech_text": null,
+                "mood_state": "庆幸"
+            }
+        }
+    ]
+}

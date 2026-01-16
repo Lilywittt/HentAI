@@ -1,0 +1,45 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "叶灵静在防海大堤上找到顾家明和柳怀沙，准备一起回家。",
+            "interlocutor_info": {
+                "name": "顾家明",
+                "relationship_tag": "亲密的朋友"
+            },
+            "trigger": {
+                "sender": "柳怀沙",
+                "content": "对了，灵静呢？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "关心朋友",
+                "inner_monologue": "我担心怀沙的伤势，得赶紧找到他们。",
+                "external_action": "从一侧的天桥上下来，一阵小跑来到两人身边。",
+                "speech_text": null,
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "叶灵静和顾家明一起扶着受伤的柳怀沙回家。",
+            "interlocutor_info": {
+                "name": "柳怀沙",
+                "relationship_tag": "亲密的朋友"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "柳怀沙受伤需要帮助回家。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "支持性的朋友",
+                "inner_monologue": "我得帮怀沙安全回家，她伤得不轻。",
+                "external_action": "扶起柳怀沙的一边身子。",
+                "speech_text": null,
+                "mood_state": "体贴"
+            }
+        }
+    ]
+}

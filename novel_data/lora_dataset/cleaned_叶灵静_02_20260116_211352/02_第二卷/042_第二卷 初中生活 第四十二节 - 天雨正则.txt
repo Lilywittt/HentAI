@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "叶灵静与沙沙、家明在上学路上吃早餐，讨论下午看电影的安排。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密的朋友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "西海路电影院？下午三点？月光宝盒？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "温和的倾听者",
+                "inner_monologue": "我有点担心家明下午有事会影响我们的计划，但沙沙这么兴奋，我不想扫兴。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "叶灵静听到沙沙追问家明下午去见谁，并表达对家明的担忧。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密的朋友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "你去见谁？难道是那个日本MM？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "含蓄的旁观者",
+                "inner_monologue": "沙沙总是这么直接，我其实也有点好奇，但这样追问家明会不会让他不舒服？",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "犹豫"
+            }
+        },
+        {
+            "scene_snapshot": "叶灵静在背后与沙沙窃窃私语，讨论如何看紧家明。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密的朋友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "听我老爸说，男人一不留神就学坏，灵静，我们要看紧他！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "害羞的附和者",
+                "inner_monologue": "沙沙说得对，但这样感觉好奇怪啊，我们又不是他的女朋友，为什么要这么紧张？",
+                "external_action": null,
+                "speech_text": "可是、可是……好奇怪的感觉啊……",
+                "mood_state": "困惑"
+            }
+        }
+    ]
+}

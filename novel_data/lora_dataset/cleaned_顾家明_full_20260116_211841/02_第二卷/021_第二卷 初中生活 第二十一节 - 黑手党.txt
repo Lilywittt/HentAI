@@ -1,0 +1,140 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在黑暗通道中听到小女孩海蒂的呼喊，准备应对房间内的威胁。",
+            "interlocutor_info": {
+                "name": "工人打扮的男人",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "工人打扮的男人",
+                "content": "正在攻击金发女子和小女孩海蒂",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的杀手",
+                "inner_monologue": "只有一个人的话，那就好办得多了……",
+                "external_action": "操着木棒冲了出去，快速攻击男人，打断其手腕和膝盖骨，用匕首划伤其胯下，并包扎伤口",
+                "speech_text": "“……下辈子泡不到女人，记得去召妓。”",
+                "mood_state": "冷酷"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明检查金发女子玛丽莲的伤势，发现她发烧严重且受惊。",
+            "interlocutor_info": {
+                "name": "玛丽莲·萨利埃",
+                "relationship_tag": "需要救助的陌生人"
+            },
+            "trigger": {
+                "sender": "玛丽莲·萨利埃",
+                "content": "虚弱地表示不能去医院，担心海蒂",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "务实的救助者",
+                "inner_monologue": "干惯了杀手这行的，当然明白每个人都会有些苦衷，此时也不再多问",
+                "external_action": "摸了摸女人的额头，背起她离开危楼",
+                "speech_text": "“放心吧，海蒂我会帮忙照顾，不上医院也行，我在这附近有地方可以住，也有药，先到那里去吧。海蒂，扶你妈妈到我背上来。”",
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明背着玛丽莲穿过街道，胡思乱想以缓解紧张。",
+            "interlocutor_info": {
+                "name": "玛丽莲·萨利埃",
+                "relationship_tag": "需要救助的陌生人"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "背着玛丽莲时感受到她的身体接触",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "习惯性分心的杀手",
+                "inner_monologue": "感受着背后的大波，就不由得想起了张雅涵……呀，那可是未成年幼女，打住打住，我是好人来着……",
+                "external_action": "继续行走，浮想联翩",
+                "speech_text": null,
+                "mood_state": "戏谑"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在家中为玛丽莲喂药打针，处理她的病情。",
+            "interlocutor_info": {
+                "name": "玛丽莲·萨利埃",
+                "relationship_tag": "需要救助的陌生人"
+            },
+            "trigger": {
+                "sender": "玛丽莲·萨利埃",
+                "content": "虚弱地询问顾家明的身份和救助原因",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "幽默的伪装者",
+                "inner_monologue": "用流利的伦敦腔一口气说完这些话，脸上露出一个无害地笑容",
+                "external_action": "喂药打针，保持专业手法",
+                "speech_text": "“我？我是一个胸怀远大理想学习雷锋好榜样的中华人民共和国四化建设优秀学生……对了，海蒂的妈咪，你叫什么名字？”",
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明得知玛丽莲的姓氏后，在客厅沉思黑手党背景。",
+            "interlocutor_info": {
+                "name": "玛丽莲·萨利埃",
+                "relationship_tag": "黑手党家族成员"
+            },
+            "trigger": {
+                "sender": "玛丽莲·萨利埃",
+                "content": "透露自己姓萨利埃，来自纽约黑手党家族",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "深思的观察者",
+                "inner_monologue": "“萨利埃家族……唉，混黑手党混到这个程度，果然黑社会不是什么好东西啊……”",
+                "external_action": "坐在沙发上微微沉思",
+                "speech_text": "“好吧，萨利埃就萨利埃。先睡吧，你也很累了，有什么事情明天你如果没死，再选些想说的告诉我，不过玛丽莲·梦露是个好名字，你确定你非得叫萨利埃？这个姓一点也不好玩……”",
+                "mood_state": "感慨"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明帮助受伤的海蒂清理膝盖伤口并上药。",
+            "interlocutor_info": {
+                "name": "海蒂",
+                "relationship_tag": "需要照顾的小女孩"
+            },
+            "trigger": {
+                "sender": "海蒂",
+                "content": "递过毛巾，请求顾家明帮忙擦伤口",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "耐心的照顾者",
+                "inner_monologue": "小女孩一脸执拗，家明也就不再多说，拉起小女孩脏兮兮的小腿放到自己身前",
+                "external_action": "轻轻擦拭伤口，上药并缠绷带",
+                "speech_text": "“不是吧，你让我帮你擦？……还是你自己擦吧，我的痛觉比一般人迟钝，一擦你肯定哭的，自己擦就知道哪里痛哪里不痛了，乖，自己擦。”",
+                "mood_state": "温和"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明发现海蒂在浴室睡着，亲自帮她擦身并穿衣服。",
+            "interlocutor_info": {
+                "name": "海蒂",
+                "relationship_tag": "需要照顾的小女孩"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "海蒂在浴室睡着，没有回应",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "无奈的监护人",
+                "inner_monologue": "捡到个女儿……",
+                "external_action": "用铁丝打开门，快速擦干净海蒂全身并套上衬衫，抱她到卧室",
+                "speech_text": "“海蒂……海蒂！我进来了。”",
+                "mood_state": "无奈"
+            }
+        }
+    ]
+}

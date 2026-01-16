@@ -1,0 +1,159 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在餐厅被三舅黄柄兴叫住，要求他做试卷。",
+            "interlocutor_info": {
+                "name": "黄柄兴",
+                "relationship_tag": "长辈/三舅"
+            },
+            "trigger": {
+                "sender": "黄柄兴",
+                "content": "家明，你等等。你把东西放一下，待会儿出来做张试卷。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "顺从的晚辈",
+                "inner_monologue": "我正好想回房，却被叫住了，看来得应付一下。",
+                "external_action": "将买来的旅行包放回房间，然后出来。",
+                "speech_text": "哦。",
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在考试中瞥见黄浩云盯着灵静，心生警惕。",
+            "interlocutor_info": {
+                "name": "黄浩云",
+                "relationship_tag": "纨绔子弟/潜在威胁"
+            },
+            "trigger": {
+                "sender": "黄浩云",
+                "content": "黄浩云将目光投在了灵静的身上。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "保护者",
+                "inner_monologue": "我明白黄浩云那种目光里蕴含的是什么，虽然还不至于出什么事，但我得考虑要不要在今晚给他下点药，让他从此不举，以绝将来的祸患。",
+                "external_action": "瞥见黄浩云的目光。",
+                "speech_text": null,
+                "mood_state": "警惕"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在武馆看电视时，向灵静问问题，发现考试难度可能很高。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "朋友/关心对象"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静只能做出一点点问题。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "担忧的朋友",
+                "inner_monologue": "我向灵静随口问起几个问题，当灵静只能做出一点点时，我才心叫不妙，莫非这次的测试题都很难？这样一想，顿觉不妙。",
+                "external_action": "向灵静问问题。",
+                "speech_text": null,
+                "mood_state": "担忧"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明回到别墅，张雅涵有意无意地望了他一眼。",
+            "interlocutor_info": {
+                "name": "张雅涵",
+                "relationship_tag": "外来者/潜在麻烦"
+            },
+            "trigger": {
+                "sender": "张雅涵",
+                "content": "张雅涵有意无意地望过来一眼。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "警觉的观察者",
+                "inner_monologue": "张雅涵有意无意地望过来一眼，令我知道，事情果然有些麻烦。",
+                "external_action": "经过大厅旁边时注意到张雅涵的目光。",
+                "speech_text": null,
+                "mood_state": "警觉"
+            }
+        },
+        {
+            "scene_snapshot": "张雅涵敲门进入顾家明的房间，试图与他交谈。",
+            "interlocutor_info": {
+                "name": "张雅涵",
+                "relationship_tag": "外来者/潜在麻烦"
+            },
+            "trigger": {
+                "sender": "张雅涵",
+                "content": "我是今天的雅涵姐姐，他们说你不会这么早睡的哦，真的睡了吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "不耐烦的青少年",
+                "inner_monologue": "雅涵姐姐，真恶心……我无奈一叹，走过去打开门。",
+                "external_action": "走过去打开门。",
+                "speech_text": "有事吗？",
+                "mood_state": "厌烦"
+            }
+        },
+        {
+            "scene_snapshot": "张雅涵评论顾家明的收音机，顾家明回应并关上门。",
+            "interlocutor_info": {
+                "name": "张雅涵",
+                "relationship_tag": "外来者/潜在麻烦"
+            },
+            "trigger": {
+                "sender": "张雅涵",
+                "content": "家明你还能自己修理这些东西吗？真厉害。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "惫懒的混混",
+                "inner_monologue": "我心中一动，随后关上了门，惫懒地倒在了床上。",
+                "external_action": "关上了门，倒在了床上。",
+                "speech_text": "一点小东西而已，我随便拆开来看看，拜托你别奶声奶气地跟我说话好不好，真恶心。",
+                "mood_state": "不屑"
+            }
+        },
+        {
+            "scene_snapshot": "张雅涵指出顾家明的试卷是给初中生做的，顾家明反驳并赶她走。",
+            "interlocutor_info": {
+                "name": "张雅涵",
+                "relationship_tag": "外来者/潜在麻烦"
+            },
+            "trigger": {
+                "sender": "张雅涵",
+                "content": "我问过其他人了，他们都说你平时都跟流氓混在一起，成绩很不好，都是只能及格的样子，不过，这次你也能及格……这是你的试卷，但是我先前拿错了，这其实是给初中毕业生做的习题……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "义气的朋友",
+                "inner_monologue": "我心中暗笑，将试卷接过来，望了一眼扔在一边。",
+                "external_action": "将试卷接过来，望了一眼扔在一边。",
+                "speech_text": "瞎蒙都能蒙到及格，还给初中生做呢，还有，大家出来混要讲义气，你说我朋友的坏话，我不想跟你说话了，出去！浩云哥还在等着你睡觉吧？",
+                "mood_state": "挑衅"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在夏令营集合点发现张雅涵和黄浩云也在车上。",
+            "interlocutor_info": {
+                "name": "张雅涵",
+                "relationship_tag": "外来者/潜在麻烦"
+            },
+            "trigger": {
+                "sender": "张雅涵",
+                "content": "车上正与这领队打着招呼的一对男女，赫然便是张雅涵与黄浩云。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "观察者",
+                "inner_monologue": "我上车时才发现张雅涵和黄浩云也在，看来麻烦还没结束。",
+                "external_action": "发现张雅涵和黄浩云在车上。",
+                "speech_text": null,
+                "mood_state": "无奈"
+            }
+        }
+    ]
+}

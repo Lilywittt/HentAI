@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在风雪中给乔国睿等人送奶茶和蛋挞，传达简素言的话。",
+            "interlocutor_info": {
+                "name": "乔国睿",
+                "relationship_tag": "炎黄觉醒的成员，简素言的同事"
+            },
+            "trigger": {
+                "sender": "乔国睿",
+                "content": "可以跟你的素言姐见一面吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的传话者",
+                "inner_monologue": "素言姐交代过不能见面，我得礼貌地拒绝。",
+                "external_action": "摇了摇头",
+                "speech_text": "素言姐说，还没到大家可以互相介绍的时候。",
+                "mood_state": "从容"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在巷子里躲避张雅涵的寻找，看到她蹲在风雪中。",
+            "interlocutor_info": {
+                "name": "张雅涵",
+                "relationship_tag": "简素言的好友，需要保护的对象"
+            },
+            "trigger": {
+                "sender": "张雅涵",
+                "content": "她猛然回过了头，家明连忙贴入旁边一个房门的凹陷处",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "隐蔽的守护者",
+                "inner_monologue": "我得小心别被她发现，但看到她这样孤单，心里有点不忍。",
+                "external_action": "贴入旁边一个房门的凹陷处",
+                "speech_text": null,
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明看到张雅涵被小妈接走，独自摇头苦笑。",
+            "interlocutor_info": {
+                "name": "张雅涵",
+                "relationship_tag": "简素言的好友，需要保护的对象"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "车辆驶入远处的风雪中，消失不见",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "孤独的旁观者",
+                "inner_monologue": "她终于安全离开了，但我不能现身，这感觉真复杂。",
+                "external_action": "摇摇头，无奈一笑",
+                "speech_text": null,
+                "mood_state": "自嘲"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在巷道转角遇到红发女子简，她认出他并下令抓捕。",
+            "interlocutor_info": {
+                "name": "简",
+                "relationship_tag": "敌对势力的成员，危险人物"
+            },
+            "trigger": {
+                "sender": "简",
+                "content": "给我……抓住他。我要让他死！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "警觉的逃亡者",
+                "inner_monologue": "糟糕，被认出来了，得赶紧跑！",
+                "external_action": "一转身，拔腿便跑",
+                "speech_text": "逛街。",
+                "mood_state": "紧张"
+            }
+        }
+    ]
+}

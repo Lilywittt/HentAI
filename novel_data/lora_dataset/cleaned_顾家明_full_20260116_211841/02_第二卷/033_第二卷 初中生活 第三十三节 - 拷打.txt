@@ -1,0 +1,159 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "曹东峰用竹刀拷打顾家明，沙沙被绑在椅子上挣扎哭泣。",
+            "interlocutor_info": {
+                "name": "曹东峰",
+                "relationship_tag": "施虐者"
+            },
+            "trigger": {
+                "sender": "曹东峰",
+                "content": "竹刀击打顾家明，并嘲讽他不痛。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "坚忍的受害者",
+                "inner_monologue": "我作为小孩子，必须表现出咬牙忍受的样子，但不能完全没反应。",
+                "external_action": "咬住牙关，一声不吭地忍受击打。",
+                "speech_text": null,
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "月池薰的目光短暂移向顾家明，顾家明察觉后心中暗笑。",
+            "interlocutor_info": {
+                "name": "月池薰",
+                "relationship_tag": "同受拷打的陌生人"
+            },
+            "trigger": {
+                "sender": "月池薰",
+                "content": "冰冷的目光移向顾家明。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "观察者",
+                "inner_monologue": "她对我能忍感到奇怪，这让我觉得有点好笑。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "暗笑"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙摔倒在地，曹东峰停下拷打，询问顾家明为何能忍。",
+            "interlocutor_info": {
+                "name": "曹东峰",
+                "relationship_tag": "施虐者"
+            },
+            "trigger": {
+                "sender": "曹东峰",
+                "content": "询问顾家明是否因为常被打而免疫。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "沉默的受害者",
+                "inner_monologue": "他这种玩笑毫无意义，我只需保持忍耐。",
+                "external_action": "保持沉默，没有回应。",
+                "speech_text": null,
+                "mood_state": "漠然"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙哭喊求饶，顾家明心中暗叹是否该出手。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "关心他的朋友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "哭喊求饶，担心顾家明被打死。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "思考者",
+                "inner_monologue": "沙沙哭成这样，我该出手吗？但出手后怎么解释？这让我头痛。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "犹豫"
+            }
+        },
+        {
+            "scene_snapshot": "月池老头示范击打方法，顾家明承受剧痛。",
+            "interlocutor_info": {
+                "name": "月池老头",
+                "relationship_tag": "施虐指导者"
+            },
+            "trigger": {
+                "sender": "月池老头",
+                "content": "竹刀击打顾家明手臂，引起剧痛。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "痛苦的受害者",
+                "inner_monologue": "这老头的手法更精准，痛感深入骨髓，但我必须继续忍耐。",
+                "external_action": "承受击打，没有发出声音。",
+                "speech_text": null,
+                "mood_state": "痛苦"
+            }
+        },
+        {
+            "scene_snapshot": "曹东峰兴奋地击打顾家明，顾家明吐血晕倒。",
+            "interlocutor_info": {
+                "name": "曹东峰",
+                "relationship_tag": "施虐者"
+            },
+            "trigger": {
+                "sender": "曹东峰",
+                "content": "竹刀重击顾家明，导致他吐血晕倒。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "晕倒的受害者",
+                "inner_monologue": "这一击很重，我假装晕倒来观察情况。",
+                "external_action": "身体一震，吐血，脑袋耷拉下来。",
+                "speech_text": null,
+                "mood_state": "伪装"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明醒来，眼中充满茫然和殷红，沙沙感到恐惧。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "关心他的朋友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "沙沙挪近并看到顾家明醒来。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "觉醒的反击者",
+                "inner_monologue": "时机到了，我必须出手制止这一切。",
+                "external_action": "抬起头，睁开双眼，眼中充满殷红。",
+                "speech_text": null,
+                "mood_state": "决绝"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明用匕首挟持曹东峰，威胁月池老头。",
+            "interlocutor_info": {
+                "name": "月池老头",
+                "relationship_tag": "敌对高手"
+            },
+            "trigger": {
+                "sender": "月池老头",
+                "content": "试图用武士刀攻击顾家明。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "反击的威胁者",
+                "inner_monologue": "老头速度不够快，现在主动权在我手中。",
+                "external_action": "用匕首抵住曹东峰后腰，嘴角滴血。",
+                "speech_text": "老头……你不够快……",
+                "mood_state": "嘲讽"
+            }
+        }
+    ]
+}

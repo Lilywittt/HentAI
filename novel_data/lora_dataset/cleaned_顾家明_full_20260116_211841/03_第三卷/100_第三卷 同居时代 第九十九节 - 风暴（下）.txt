@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "家明在风暴中的山洞里与东方路聊天，讨论兴趣和学医的原因。",
+            "interlocutor_info": {
+                "name": "东方路",
+                "relationship_tag": "同学/盟友"
+            },
+            "trigger": {
+                "sender": "东方路",
+                "content": "家明学弟你物理方面很厉害啊？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "谦虚的同伴",
+                "inner_monologue": "我小时候喜欢拆收音机，这兴趣让我擅长修理东西，但没必要透露太多细节。",
+                "external_action": "指着无线电笑了笑",
+                "speech_text": "呵呵，兴趣而已。小的时候喜欢拆收音机来着。",
+                "mood_state": "relaxed"
+            }
+        },
+        {
+            "scene_snapshot": "家明听到东方婉的惊呼，立即冲出去救援。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "有嫌隙的同学"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "风雨中传来东方婉的惊呼，绳子猛地一紧后松掉。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "果断的救援者",
+                "inner_monologue": "先有叫声后有绳子变化，说明她可能被袭击了，我得立刻行动，不能让东方路去冒险。",
+                "external_action": "按住东方路，拿着电筒冲了出去",
+                "speech_text": "你有伤，拉好绳子！",
+                "mood_state": "alert"
+            }
+        },
+        {
+            "scene_snapshot": "家明在激流中救起东方婉，并处理了袭击的佣兵。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "有嫌隙的同学"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "东方婉和佣兵滚入激流，佣兵试图攻击她。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的杀手",
+                "inner_monologue": "必须迅速解决这个威胁，不能让她看到太多细节，以免暴露我的真实能力。",
+                "external_action": "匕首刺穿佣兵的喉咙，将东方婉拉上岸",
+                "speech_text": null,
+                "mood_state": "focused"
+            }
+        },
+        {
+            "scene_snapshot": "家明在风暴减弱后与东方路讨论郁金香先生的事情。",
+            "interlocutor_info": {
+                "name": "东方路",
+                "relationship_tag": "同学/盟友"
+            },
+            "trigger": {
+                "sender": "东方路",
+                "content": "对了，不等那位郁金香先生，真的可以吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "掩饰的同伴",
+                "inner_monologue": "我就是郁金香，但必须装作不知情，用合理的解释来打消他们的疑虑。",
+                "external_action": "淡淡地一笑",
+                "speech_text": "反正我们也找不到他，营地那儿留了口信，再加上军队马上就会上岛搜捕那些残存的佣兵，这么大的声势，他一定会知道的。",
+                "mood_state": "composed"
+            }
+        },
+        {
+            "scene_snapshot": "家明看到沙沙从登陆艇上跑来，与灵静一起激动地迎接她。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密的朋友/恋人"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "沙沙从海水中冲出，朝着家明和灵静跑来。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "激动的朋友",
+                "inner_monologue": "沙沙终于安全回来了，看到她和灵静重逢，我感到无比欣慰和幸福。",
+                "external_action": "很用力地点头",
+                "speech_text": null,
+                "mood_state": "joyful"
+            }
+        }
+    ]
+}

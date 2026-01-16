@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Other"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "王图佳在酒店大厅寻找顾家明，询问罗静雯等人是否看到他。",
+            "interlocutor_info": {
+                "name": "王图佳",
+                "relationship_tag": "同学"
+            },
+            "trigger": {
+                "sender": "王图佳",
+                "content": "哎。看到顾家明了吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "不在场",
+                "inner_monologue": "I'm not here, so I don't need to respond to this search.",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "absent"
+            }
+        },
+        {
+            "scene_snapshot": "应子岚在酒店大厅向王图佳询问顾家明的情况，提到雷庆和应子丰与顾家明的过往。",
+            "interlocutor_info": {
+                "name": "应子岚",
+                "relationship_tag": "潜在对手/商业竞争者"
+            },
+            "trigger": {
+                "sender": "应子岚",
+                "content": "图佳……跟那位顾家明同学很熟吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "不在场",
+                "inner_monologue": "I'm not present, but if I were, I'd note that应子岚 is probing about me, likely due to his brother应子丰's past interactions.",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "observant"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉在酒店大厅寻找顾家明，得知他可能独自去处理事情后决定不等他。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "旅行同伴/复杂关系"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "喂，你们有谁看到顾家明了吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "不在场",
+                "inner_monologue": "I'm off handling my own business in Paris, so I don't need to be found by the group.",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "independent"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉向应子岚解释顾家明可能独自行动，并决定出发去游览巴黎夜景。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "旅行同伴/复杂关系"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "算了……他说这次来巴黎有事，本来是不想跟我们一道的，现在到了巴黎，估计是去处理他自己的事情了吧……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "不在场",
+                "inner_monologue": "I'm glad she understands I have my own agenda; it keeps me free from group constraints.",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "detached"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉在车上目睹叶灵静（素言姐）在餐馆外进行暴力行动，随后加速追赶。",
+            "interlocutor_info": {
+                "name": "叶灵静（素言姐）",
+                "relationship_tag": "神秘关联/潜在盟友"
+            },
+            "trigger": {
+                "sender": "叶灵静",
+                "content": "她将那手雷拧动一下，反手扔进了店门口，随后举步走向路边的一辆跑车。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "不在场",
+                "inner_monologue": "If I were there, I'd recognize叶灵静's actions as part of her dangerous world, and I might be concerned about东方婉's reckless pursuit.",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "alert"
+            }
+        }
+    ]
+}

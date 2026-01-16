@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明与诸神无念在黑暗破旧的废弃教学楼中激烈枪战，灰尘弥漫，硝烟四起。",
+            "interlocutor_info": {
+                "name": "诸神无念",
+                "relationship_tag": "敌人/异能者对手"
+            },
+            "trigger": {
+                "sender": "诸神无念",
+                "content": "凭借异能，很了不起吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的战士",
+                "inner_monologue": "异能只是工具，关键看怎么用，我得保持专注应对他的攻击。",
+                "external_action": "纵身跃向一旁，避过了射来的子弹，躲在一处梁柱的后方，飞速地换了弹夹。",
+                "speech_text": "不是很了不起，这是我拥有的能力，就好像是武器一样，我的武器更有用。",
+                "mood_state": "专注"
+            }
+        },
+        {
+            "scene_snapshot": "诸神无念用风力感知顾家明的位置，并试图通过对话扰乱他，谈论无辜和恐惧。",
+            "interlocutor_info": {
+                "name": "诸神无念",
+                "relationship_tag": "敌人/心理攻击者"
+            },
+            "trigger": {
+                "sender": "诸神无念",
+                "content": "我知道你想要的是什么……平淡的生活，无论你是怎样的背景，你想要平淡，是吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "沉默的防御者",
+                "inner_monologue": "他在试探我的弱点，想用心理战动摇我，但我不能分心，必须等待反击机会。",
+                "external_action": "没有回应，保持隐蔽，利用经验模糊自己的轮廓以对抗风力感知。",
+                "speech_text": null,
+                "mood_state": "警惕"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明突然打破墙壁发动攻击，与诸神无念在灰尘和风力中近身搏斗，使用太极技巧压制对手。",
+            "interlocutor_info": {
+                "name": "诸神无念",
+                "relationship_tag": "敌人/被压制的对手"
+            },
+            "trigger": {
+                "sender": "诸神无念",
+                "content": "去死吧！",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "致命的反击者",
+                "inner_monologue": "机会来了，用太极化解他的力量，抓住破绽彻底击垮他。",
+                "external_action": "避开了子弹，用霰弹枪挡下扫腿，在灰尘中连续挡下攻击，抄起课桌砸过去，随后使用太极手法扣住对方手腕，揪住衣襟将其撞向墙壁。",
+                "speech_text": "不用挡。",
+                "mood_state": "决绝"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在近身战中压倒诸神无念，用言语攻击其身份，称他为被制造出来的怪物。",
+            "interlocutor_info": {
+                "name": "诸神无念",
+                "relationship_tag": "敌人/崩溃的对手"
+            },
+            "trigger": {
+                "sender": "诸神无念",
+                "content": "我不是怪物！你去……死吧！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷酷的揭露者",
+                "inner_monologue": "他在否认自己的本质，这愤怒正好暴露了弱点，我必须终结这场战斗。",
+                "external_action": "抡起诸神无念的身体扔飞出去，跟上去双拳猛击，被扣住肩膀后感受到异能攻击，头疼中踢飞对方。",
+                "speech_text": "其实你也在哀怨……你也在自怜……因为你是一个被裴罗嘉制造出来的怪物！",
+                "mood_state": "愤怒"
+            }
+        },
+        {
+            "scene_snapshot": "战斗结束后，顾家明受伤站在尸体旁，警察包围但被叶莲阻止，他缓缓离开现场。",
+            "interlocutor_info": {
+                "name": "叶莲",
+                "relationship_tag": "警方联系人/潜在盟友"
+            },
+            "trigger": {
+                "sender": "叶莲",
+                "content": "喂，我知道你是谁，可以聊聊吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "神秘的撤离者",
+                "inner_monologue": "不能暴露身份，得尽快离开这里，叶莲可能猜到了什么，但暂时安全。",
+                "external_action": "没有回应，捂着胸口咳嗽，擦去脸上鲜血，缓缓朝树林方向走去，无视警察的包围。",
+                "speech_text": null,
+                "mood_state": "疲惫"
+            }
+        }
+    ]
+}

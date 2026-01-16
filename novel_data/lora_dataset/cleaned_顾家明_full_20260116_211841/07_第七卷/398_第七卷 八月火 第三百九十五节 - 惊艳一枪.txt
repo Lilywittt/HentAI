@@ -1,0 +1,140 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在体育馆中向荒卷真世宣战，引发全场震惊和紧张对峙。",
+            "interlocutor_info": {
+                "name": "荒卷真世",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "顾家明",
+                "content": "“荒卷真世，我是来杀你的。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静自信的杀手",
+                "inner_monologue": "我直接宣战，就是要打乱他们的节奏，让他们措手不及。",
+                "external_action": "淡然而从容地说话，走向荒卷真世",
+                "speech_text": "“荒卷真世，我是来杀你的。”",
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "荒卷真世的弟子愤怒地持刀攻击顾家明，被他一脚踢飞。",
+            "interlocutor_info": {
+                "name": "荒卷真世的弟子",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "荒卷真世的弟子",
+                "content": "持刀跃起劈向顾家明",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "高效无情的战士",
+                "inner_monologue": "这种小角色不值一提，一脚解决掉，节省时间。",
+                "external_action": "一脚踢飞攻击者",
+                "speech_text": null,
+                "mood_state": "漠然"
+            }
+        },
+        {
+            "scene_snapshot": "荒卷真世拔刀快速攻击顾家明，顾家明轻松侧身躲过。",
+            "interlocutor_info": {
+                "name": "荒卷真世",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "荒卷真世",
+                "content": "拔刀快速劈向顾家明",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "从容不迫的躲避者",
+                "inner_monologue": "他的速度不错，但在我眼里太慢了，我可以轻松预判。",
+                "external_action": "侧身躲过刀光，保持笑容",
+                "speech_text": null,
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "荒卷真世连续攻击，顾家明灵活闪避并试图反击。",
+            "interlocutor_info": {
+                "name": "荒卷真世",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "荒卷真世",
+                "content": "连续挥刀攻击顾家明",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "敏捷的反击者",
+                "inner_monologue": "他的攻击模式很固定，是时候结束这场游戏了。",
+                "external_action": "闪避攻击，冲向荒卷真世背后，挥拳",
+                "speech_text": null,
+                "mood_state": "专注"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在近距离用手枪爆头击杀荒卷真世，震惊全场。",
+            "interlocutor_info": {
+                "name": "荒卷真世",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "顾家明",
+                "content": "近距离面对荒卷真世的攻击",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "致命高效的杀手",
+                "inner_monologue": "时机到了，一枪解决，干净利落。",
+                "external_action": "左手掏枪爆头荒卷真世",
+                "speech_text": "“荒卷你过时了……”",
+                "mood_state": "果断"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明快速射杀看台上的杀手，引发混乱和警报。",
+            "interlocutor_info": {
+                "name": "看台上的杀手们",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "看台上的杀手们",
+                "content": "将武器指向顾家明",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "无情扫荡的杀戮者",
+                "inner_monologue": "他们反应太慢，正好一网打尽。",
+                "external_action": "双手持枪快速射杀杀手，身体化为幻影后退",
+                "speech_text": null,
+                "mood_state": "冷酷"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明继续射杀剩余敌人，从容离开体育馆。",
+            "interlocutor_info": {
+                "name": "剩余敌人（弟子、保安等）",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "剩余敌人",
+                "content": "在场内存在",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "冷静撤离的执行者",
+                "inner_monologue": "任务完成，清理残余，然后离开。",
+                "external_action": "随手开枪射杀敌人，走向侧门",
+                "speech_text": null,
+                "mood_state": "平静"
+            }
+        }
+    ]
+}

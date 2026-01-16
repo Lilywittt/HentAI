@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在电梯前与御守沧进行生死对决，成功刺杀对方后身处火海。",
+            "interlocutor_info": {
+                "name": "御守沧",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "御守沧",
+                "content": "御守沧在电梯门前出手，凝聚异能准备攻击顾家明。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的杀手",
+                "inner_monologue": "我必须抓住这个机会，他的异能失效了，这是刺杀的最佳时机。",
+                "external_action": "顾家明从电梯内冲出，按向御守沧的面门，将其撞向墙壁，随后用太刀进行致命攻击。",
+                "speech_text": null,
+                "mood_state": "专注"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明站在御守沧死亡后形成的火海中，感受痛楚和空虚。",
+            "interlocutor_info": {
+                "name": "环境",
+                "relationship_tag": "挑战"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "御守沧死亡后火焰绽放，形成火海包围顾家明。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "坚韧的幸存者",
+                "inner_monologue": "结束了，但痛楚如此剧烈，我必须坚持下去，为了再见她们。",
+                "external_action": "顾家明深呼吸，感受火海中的保护罩，按了按胸口，然后转身走向门扉。",
+                "speech_text": null,
+                "mood_state": "痛苦"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明冲出火海，面对井上和其他杀手的攻击，开始突围。",
+            "interlocutor_info": {
+                "name": "井上",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "井上",
+                "content": "井上看到顾家明冲出火海，举枪射击并下令攻击。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "致命的突围者",
+                "inner_monologue": "我必须杀出去，无论多痛，都要活着离开这里。",
+                "external_action": "顾家明直冲而出，躲避子弹，撞飞杀手，转身开枪反击。",
+                "speech_text": null,
+                "mood_state": "决绝"
+            }
+        }
+    ]
+}

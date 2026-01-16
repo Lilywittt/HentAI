@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "在夏令营的客车上，顾家明和灵静坐在一起听收音机，张雅涵看到后心中不悦。",
+            "interlocutor_info": {
+                "name": "张雅涵",
+                "relationship_tag": "有敌意的老师"
+            },
+            "trigger": {
+                "sender": "张雅涵",
+                "content": "张雅涵看到顾家明和灵静亲昵地听收音机，心中火起，让领队播放音乐干扰他们。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "平静的学生",
+                "inner_monologue": "我看出张雅涵想干扰我们听收音机，她还在为昨晚的事生气，真是幼稚。",
+                "external_action": "嘴角挂着一抹戏谑的笑容，但随后闭着眼睛听歌，显得陶醉。",
+                "speech_text": null,
+                "mood_state": "戏谑"
+            }
+        },
+        {
+            "scene_snapshot": "在野营地点，黄浩云向张雅涵抱怨无聊，炫耀自己在家里的生活。",
+            "interlocutor_info": {
+                "name": "黄浩云",
+                "relationship_tag": "讨厌的跟屁虫"
+            },
+            "trigger": {
+                "sender": "黄浩云",
+                "content": "黄浩云跑到张雅涵身边趾高气扬地抱怨野营无聊，炫耀在家里的优越生活。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "观察者",
+                "inner_monologue": "黄浩云真是个可笑的跟屁虫，张雅涵看起来尴尬极了，恨不得躲起来。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "轻蔑"
+            }
+        },
+        {
+            "scene_snapshot": "两名持枪匪徒突然出现，撞倒灵静并劫持了她和张雅涵。",
+            "interlocutor_info": {
+                "name": "匪徒（刀疤男和三角眼）",
+                "relationship_tag": "危险的陌生人"
+            },
+            "trigger": {
+                "sender": "匪徒",
+                "content": "匪徒从树林冲出撞倒灵静，广播新闻描述他们的特征，他们劫持了灵静和张雅涵。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的保护者",
+                "inner_monologue": "这两人是广播里说的劫匪，情况危险，我必须想办法救灵静和张雅涵。",
+                "external_action": "用唇语对灵静说“放心，没事的”，然后举起双手慢慢走向匪徒。",
+                "speech_text": "我……叔叔，我是想……我想跟她们两个交换可以吗……",
+                "mood_state": "警惕"
+            }
+        }
+    ]
+}

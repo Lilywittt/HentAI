@@ -1,0 +1,159 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明和灵静在海上发现一座小岛，兴奋地试图修船前往。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣/信任的同伴"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "视野尽头出现一座小岛，但船行方向不对。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "果断的行动者",
+                "inner_monologue": "我得赶紧修好船，转向那座岛，这是我们获救的机会。",
+                "external_action": "跑进轮机室，忙碌地修理机械，接电线，调整操纵杆。",
+                "speech_text": "呵，倒也不算修好了，只是让它暂时能用而已，就是不知道能够坚持多久，希望可以坚持到我们开到那座岛……",
+                "mood_state": "专注"
+            }
+        },
+        {
+            "scene_snapshot": "灵静兴奋地亲吻顾家明，表达对修好船的喜悦。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣/信任的同伴"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "太好了，家明，你好棒，把船修好了！家明你是最棒的！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "谦虚的伴侣",
+                "inner_monologue": "她这么高兴，但我得保持冷静，船只是暂时能用，不能让她失望。",
+                "external_action": "笑着任由灵静亲吻，调整操纵杆对准海岛。",
+                "speech_text": "呵，倒也不算修好了，只是让它暂时能用而已，就是不知道能够坚持多久，希望可以坚持到我们开到那座岛……",
+                "mood_state": "欣慰"
+            }
+        },
+        {
+            "scene_snapshot": "灵静幻想荒岛生活，提到鲁宾逊和星期五夫妻。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣/信任的同伴"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "因为书上都是这样写的……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "务实的现实主义者",
+                "inner_monologue": "她怎么这么兴奋？还没确认岛上是否有人，别太乐观了。",
+                "external_action": "无奈一笑，看着灵静大喊。",
+                "speech_text": "那我们就要做鲁宾逊和星期五夫妻了。",
+                "mood_state": "困惑"
+            }
+        },
+        {
+            "scene_snapshot": "船触礁后，顾家明和灵静划皮筏艇登陆小岛。",
+            "interlocutor_info": {
+                "name": "环境",
+                "relationship_tag": "挑战/障碍"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "船触礁，螺旋桨承轴断掉。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "冷静的问题解决者",
+                "inner_monologue": "触礁了，但船体坚固，我们得赶紧登陆，检查岛屿情况。",
+                "external_action": "苦笑，揽住灵静防止摔倒，放下船锚，整理物品划上皮筏艇。",
+                "speech_text": "触礁……",
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明巡视岛屿，发现无人居住的痕迹。",
+            "interlocutor_info": {
+                "name": "环境",
+                "relationship_tag": "未知环境"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "岛屿没有人工破坏痕迹，静得出奇。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "分析性的观察者",
+                "inner_monologue": "这真的是荒岛吗？作为人口大国，这有点耻辱，但可能已出边界。",
+                "external_action": "巡视四周，背着背包郁闷。",
+                "speech_text": "不会……真的是荒岛吧……",
+                "mood_state": "郁闷"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在树林中探路，向灵静讲解植物用途。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣/信任的同伴"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静被枝叶绊住，家明怕她烦闷。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "知识丰富的引导者",
+                "inner_monologue": "我得教她这些植物知识，让她安心，但别显得太聪明，保持低调。",
+                "external_action": "指给灵静看植物，讲解用途，求饶时决定隐藏能力。",
+                "speech_text": null,
+                "mood_state": "保护性"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明杀死毒蛇，宣布吃蛇肉。",
+            "interlocutor_info": {
+                "name": "环境",
+                "relationship_tag": "威胁"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "毒蛇出现。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "果断的生存者",
+                "inner_monologue": "毒蛇威胁，必须立即处理，今晚有食物了。",
+                "external_action": "扬手杀死毒蛇，提起来宣布吃蛇肉。",
+                "speech_text": "今天晚上吃蛇肉。",
+                "mood_state": "果断"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明用望远镜发现雇佣兵靠近小岛。",
+            "interlocutor_info": {
+                "name": "环境",
+                "relationship_tag": "危险/威胁"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "信号接收装置指示灯亮起，显示雇佣兵靠近。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "警觉的防御者",
+                "inner_monologue": "不好，雇佣兵来了，我们得小心应对，保护灵静。",
+                "external_action": "仔细辨认信号，划皮筏艇回海滩，用望远镜观察，握紧枪。",
+                "speech_text": null,
+                "mood_state": "紧张"
+            }
+        }
+    ]
+}

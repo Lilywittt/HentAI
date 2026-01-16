@@ -1,0 +1,45 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明和方雨思在浅水湾沙滩边的茶座休息，方雨思刚打完电话报告安全。",
+            "interlocutor_info": {
+                "name": "方雨思",
+                "relationship_tag": "被保护者/朋友"
+            },
+            "trigger": {
+                "sender": "方雨思",
+                "content": "我刚才给清姐那边打了电话，告诉她我们在这，估计过不久他们就找过来了。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "沉默的倾听者",
+                "inner_monologue": "我需要了解叶灵静和柳怀沙的过去，这对我很重要。",
+                "external_action": "缓缓点了点头",
+                "speech_text": "给我……说说叶灵静和柳怀沙的事情。",
+                "mood_state": "focused"
+            }
+        },
+        {
+            "scene_snapshot": "方雨思开始讲述顾家明、叶灵静和柳怀沙的往事，顾家明专注地听着。",
+            "interlocutor_info": {
+                "name": "方雨思",
+                "relationship_tag": "信息提供者"
+            },
+            "trigger": {
+                "sender": "方雨思",
+                "content": "我刚刚认识你们的时候呢，你们还是学生。在江海圣心学院上高中，那时候你们自己组建了一个乐队叫概念……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "专注的听众",
+                "inner_monologue": "这些细节能帮助我找回失去的记忆或理解过去。",
+                "external_action": "就那样听着",
+                "speech_text": null,
+                "mood_state": "contemplative"
+            }
+        }
+    ]
+}

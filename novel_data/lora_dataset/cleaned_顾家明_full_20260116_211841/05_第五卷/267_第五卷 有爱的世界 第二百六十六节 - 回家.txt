@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Other"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明（伪装成简素言）在船舱中刚结束与炎黄觉醒成员的打斗，雅涵和小妈前来找他。",
+            "interlocutor_info": {
+                "name": "小妈",
+                "relationship_tag": "雅涵的养母，需要保持礼貌的长辈"
+            },
+            "trigger": {
+                "sender": "小妈",
+                "content": "僵硬地笑着，退后一步说：“呵呵……呵呵……那个、那个，其实也没什么事情……其实……呃，其实事情是这样的，事情是……事情是……嗯，你昨天送给我的那那那……那瓶香水很好喝，我我我……我很喜欢、很喜欢……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "礼貌而优雅的简素言",
+                "inner_monologue": "我送的是香水，她怎么说很好喝？这反应太奇怪了，是被刚才的打斗场面吓到了吗？",
+                "external_action": "脸上露出尴尬又迷惑的神情",
+                "speech_text": "香水……很好喝？",
+                "mood_state": "confused"
+            }
+        },
+        {
+            "scene_snapshot": "小妈匆忙离开后，顾家明（伪装成简素言）与雅涵和方国琳交谈。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密伴侣，需要保护和支持的人"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "被小妈向前一推，几乎撞到顾家明身上",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "关心而温柔的简素言",
+                "inner_monologue": "雅涵笑得这么开心，看来小妈的反应让她觉得很有趣，我得确保她没事。",
+                "external_action": "一手扶住几乎撞到自己身上的雅涵",
+                "speech_text": "怎么了？雅涵……你干嘛笑成这样……",
+                "mood_state": "concerned"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明（伪装成简素言）在船舱外与乔国睿交谈，表达想与崔国华队长谈话的意愿。",
+            "interlocutor_info": {
+                "name": "乔国睿",
+                "relationship_tag": "炎黄觉醒成员，需要谨慎应对的对手"
+            },
+            "trigger": {
+                "sender": "乔国睿",
+                "content": "似乎有些欲言又止，没等他说话",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静而果断的简素言",
+                "inner_monologue": "乔国睿看起来有话要说，但犹豫不决，我主动提出谈话，可以掌控局面并推进计划。",
+                "external_action": "淡淡一笑",
+                "speech_text": "乔先生，我想跟崔国华队长谈谈，可以吗？",
+                "mood_state": "decisive"
+            }
+        }
+    ]
+}

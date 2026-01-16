@@ -1,0 +1,45 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在江海街头用公用电话联系雅涵，询问沙沙的情况。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密的朋友/关心的人"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "沙沙出事了，警察扫荡了沙竹帮，指控她贩毒，小孟保护她逃走了，灵静也突然决定去维也纳。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的协调者",
+                "inner_monologue": "沙沙没事就好，其他事情可以慢慢处理，我得先弄清楚情况。",
+                "external_action": "翻动报纸查看新闻，皱眉。",
+                "speech_text": "我也不是很清楚，这几天有事不在江海，不过……放心吧，看起来只是小事情，别告诉太多人了，沙沙那边我会处理的，事情搞定再找你。",
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在出租车上接到方之天的电话，解释沙沙事件的缘由。",
+            "interlocutor_info": {
+                "name": "方之天",
+                "relationship_tag": "官方联系人/潜在盟友"
+            },
+            "trigger": {
+                "sender": "方之天",
+                "content": "解释沙沙事件是因应子丰的冲突和煽动所致，提出解决方案并请求顾家明不要追究。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "疏离的旁观者",
+                "inner_monologue": "这些官方解释和妥协毫无意义，我不想卷入他们的政治游戏。",
+                "external_action": "望着窗外，表情冷淡无聊。",
+                "speech_text": "再说吧……我还有事，再说……",
+                "mood_state": "无所谓"
+            }
+        }
+    ]
+}

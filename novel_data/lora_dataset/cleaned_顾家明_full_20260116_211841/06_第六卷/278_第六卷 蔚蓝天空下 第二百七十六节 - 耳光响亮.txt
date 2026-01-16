@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在警局走廊里与崔国华交谈，准备领人时，突然遭到越南少年阿姆雷的袭击。",
+            "interlocutor_info": {
+                "name": "阿姆雷",
+                "relationship_tag": "敌对攻击者"
+            },
+            "trigger": {
+                "sender": "阿姆雷",
+                "content": "阿姆雷从审讯室冲出，对顾家明发动一系列猛烈的泰拳攻击，包括直拳、低扫、膝撞和肘击。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "看似纯良的学生",
+                "inner_monologue": "这家伙真是疯了，突然就冲过来打人，我得小心躲开，不能让他伤到。",
+                "external_action": "仓促向后躲闪，步履匆忙地拼命后退，侧身、低头躲避攻击，最后在回身时给了阿姆雷一记耳光。",
+                "speech_text": null,
+                "mood_state": "警惕"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在躲避阿姆雷攻击时，被一记回身鞭腿逼到窗户边，随后转身逃跑。",
+            "interlocutor_info": {
+                "name": "阿姆雷",
+                "relationship_tag": "敌对攻击者"
+            },
+            "trigger": {
+                "sender": "阿姆雷",
+                "content": "阿姆雷的回身鞭腿扫中窗户，玻璃破碎，然后他飞身蹬墙，用膝盖猛撞顾家明的侧脸。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "看似纯良的学生",
+                "inner_monologue": "这一下更狠了，我得赶紧跑开，不能硬接。",
+                "external_action": "保持逃跑势头，感觉到危险时转脸，并在回身间挥手给了阿姆雷一记耳光。",
+                "speech_text": null,
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在袭击结束后，甩动右手，而阿姆雷则因耳光而疑惑地停下。",
+            "interlocutor_info": {
+                "name": "阿姆雷",
+                "relationship_tag": "敌对攻击者"
+            },
+            "trigger": {
+                "sender": "阿姆雷",
+                "content": "阿姆雷挨了一记耳光后，摆出泰拳姿势，走出两步又停下来，疑惑地摇头。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "看似纯良的学生",
+                "inner_monologue": "打中了？他好像有点懵了，这下应该能暂时阻止他。",
+                "external_action": "狼狈地退开几步，仿佛有些痛地甩动右手。",
+                "speech_text": null,
+                "mood_state": "镇定"
+            }
+        }
+    ]
+}

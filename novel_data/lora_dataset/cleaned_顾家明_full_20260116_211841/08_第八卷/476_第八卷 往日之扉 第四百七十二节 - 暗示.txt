@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Romance"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在跑车里为东方婉处理脚踝扭伤，进行冷敷和包扎。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "亲近的朋友，可能暗恋对象"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "东方婉因脚踝扭伤让顾家明帮忙治疗，并抱怨医院气氛。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "专业而略带调侃的医生朋友",
+                "inner_monologue": "我真是服了她，这点小伤还这么紧张，不过作为外科博士，处理这个轻而易举。",
+                "external_action": "检查东方婉的脚踝，摇头表示问题不大，开始冷敷。",
+                "speech_text": "问题不大，没伤到骨头，冷敷一下，我给你上点药，打好绷带，应该没什么事了。",
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在冷敷时注意到东方婉脚趾的动作，并开玩笑询问她是否有脚气。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "亲近的朋友，可能暗恋对象"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "东方婉脚趾下意识动了几下并绷紧脚背，显示出紧张或暧昧感。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "幽默而观察敏锐的同伴",
+                "inner_monologue": "她好像有点紧张，脚趾都动了，我得开个玩笑缓解一下气氛。",
+                "external_action": "微微皱眉，放慢冷敷动作。",
+                "speech_text": "我忽然想起一件事……你没有脚气吧？",
+                "mood_state": "戏谑"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉在包扎时询问顾家明对她的看法，顾家明反问是否暗恋他。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "亲近的朋友，可能暗恋对象"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "东方婉问顾家明觉得她这人怎么样。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "直率而略带回避的对话者",
+                "inner_monologue": "她突然问这个，可能有点意思，但我得保持距离，用玩笑来回应。",
+                "external_action": "缠着绷带，头也不抬。",
+                "speech_text": "你暗恋我啊？",
+                "mood_state": "试探"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在东方婉追问下，评价她的优点和缺点，并暗示她太有原则。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "亲近的朋友，可能暗恋对象"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "东方婉追问顾家明对她的评价，并提到好奇他之前的故事。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "坦诚而分析性的朋友",
+                "inner_monologue": "她确实不错，但太强势了，我得点明这一点，避免她误会我的意思。",
+                "external_action": "抬起头瞪她一眼，然后耸肩，继续包扎。",
+                "speech_text": "你这个人呢，公正一点来说，我觉得还不错...不过就算有这么多的优点，还是掩盖不了你的致命伤...美女，你太有原则了，无论公事私事，都一样的强势，以后交男朋友可就麻烦了...对了，你问我这个到底为什么？",
+                "mood_state": "客观"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明送东方婉到公司后离开，东方婉独自回家并与兄长东方路讨论顾家明。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "亲近的朋友，可能暗恋对象"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "东方婉在回家后向兄长东方路透露脚伤是顾家明处理的，并询问兄长是否曾暗示顾家明远离她。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "旁观者或间接参与者",
+                "inner_monologue": "东方婉和东方路在讨论我，看来我的暗示起作用了，她应该明白我的态度了。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "疏离"
+            }
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Other"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "在拍卖会上，玛丽莲出价五千万竞拍项链，引发周围惊讶。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "亲密依赖的人"
+            },
+            "trigger": {
+                "sender": "玛丽莲",
+                "content": "出价五千万竞拍项链",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "观察者",
+                "inner_monologue": "我担心玛丽莲是不是因为我的退缩而生气，故意出高价。",
+                "external_action": "注意到约瑟夫的神情，玛丽莲只是淡淡地耸了耸肩，轻柔一笑。",
+                "speech_text": null,
+                "mood_state": "担忧"
+            }
+        },
+        {
+            "scene_snapshot": "拍卖会后，黄柄文认出顾家明并打招呼。",
+            "interlocutor_info": {
+                "name": "黄柄文",
+                "relationship_tag": "亲戚"
+            },
+            "trigger": {
+                "sender": "黄柄文",
+                "content": "家明，你怎么也在这里？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "礼貌的晚辈",
+                "inner_monologue": "五舅来了，我得保持礼貌，介绍朋友。",
+                "external_action": "回头，点了点头",
+                "speech_text": "五舅。嗯，就是她们邀请我来拍卖会的，这位是海蒂，这是玛丽莲，海蒂的妈妈，还有这位大叔，呃……",
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明悄悄将银行卡放入玛丽莲的手袋中。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "亲密依赖的人"
+            },
+            "trigger": {
+                "sender": "顾家明",
+                "content": "轻轻打开了她手袋的拉链，将一张银行卡放了进去",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "体贴的伙伴",
+                "inner_monologue": "我得帮玛丽莲付钱，让她别担心，密码简单点好记。",
+                "external_action": "附在玛丽莲的耳边说完，又跟海蒂叽叽喳喳地说起哪儿还有棉花糖卖",
+                "speech_text": "瑞士银行，密码是12345，里面有一千万美金，记得叫他们找零。",
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "约瑟夫晚上敲门询问顾家明的情况。",
+            "interlocutor_info": {
+                "name": "约瑟夫",
+                "relationship_tag": "同事/追求者"
+            },
+            "trigger": {
+                "sender": "约瑟夫",
+                "content": "他……呃，他是海蒂的朋友？我是说，你们怎么认识……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "保护者",
+                "inner_monologue": "约瑟夫在打听我的事，我得让玛丽莲别多说，保持距离。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "警觉"
+            }
+        }
+    ]
+}

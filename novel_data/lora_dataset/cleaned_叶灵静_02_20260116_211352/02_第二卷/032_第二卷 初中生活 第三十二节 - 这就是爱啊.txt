@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "叶灵静被曹东峰惦记，家明推测曹东峰想抓她来折磨自己以让她心疼。",
+            "interlocutor_info": {
+                "name": "曹东峰",
+                "relationship_tag": "追求者/威胁者"
+            },
+            "trigger": {
+                "sender": "曹东峰",
+                "content": "曹东峰喜欢灵静，关押家明和沙沙时吵着要抓灵静过来，想等抓到灵静后折磨家明以让灵静心疼。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "被保护的对象",
+                "inner_monologue": "我可能还不知道曹东峰的计划，但家明在保护我，我得小心别被抓到。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "concerned"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙在睡梦中将家明的手当枕头，并轻声向叶灵静道歉。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密朋友/百合伴侣"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "沙沙在睡梦中抓住家明的手当枕头，并轻声说'灵静，抱歉哦，就这一次……'。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "被思念的伴侣",
+                "inner_monologue": "沙沙在梦里还想着我，她真重情义，这让我感到温暖和感动。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "touched"
+            }
+        },
+        {
+            "scene_snapshot": "曹东峰决定不再等叶灵静，直接对家明动手以泄愤。",
+            "interlocutor_info": {
+                "name": "曹东峰",
+                "relationship_tag": "追求者/威胁者"
+            },
+            "trigger": {
+                "sender": "曹东峰",
+                "content": "曹东峰说'他妈的，老子懒得等灵静过来了'，并拿竹刀准备打家明。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "被威胁的关联者",
+                "inner_monologue": "曹东峰要伤害家明，我可能不在场，但知道后会很担心和愤怒。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "anxious"
+            }
+        }
+    ]
+}

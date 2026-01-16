@@ -1,0 +1,40 @@
+2026-01-16 21:13:52,818 [INFO] 清洗任务启动: 02 | 范围: Start ~ End | 待处理章节: 41
+2026-01-16 21:13:53,188 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:13:53,189 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:13:53,195 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:13:53,200 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:13:53,202 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:13:53,205 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:13:53,217 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:13:53,217 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:13:53,220 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:13:53,251 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:13:54,848 [INFO] 任务进度: 10/41 | 成功:1 失败:0 跳过:9 | 预估成本: 0.00 CNY
+2026-01-16 21:13:54,919 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:14:06,000 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:14:07,137 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:14:08,379 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:14:08,728 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:14:12,083 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:14:12,170 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:14:14,822 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:14:19,176 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:14:21,998 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:14:23,510 [INFO] 任务进度: 20/41 | 成功:11 失败:0 跳过:9 | 预估成本: 0.04 CNY
+2026-01-16 21:14:23,557 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:14:26,489 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:14:27,319 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:14:27,949 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:14:29,086 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:14:29,179 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:14:32,463 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:14:41,418 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:14:44,935 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:14:45,996 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:14:46,869 [INFO] 任务进度: 30/41 | 成功:21 失败:0 跳过:9 | 预估成本: 0.08 CNY
+2026-01-16 21:14:46,913 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:14:49,990 [INFO] HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-01-16 21:15:18,846 [INFO] 任务进度: 40/41 | 成功:31 失败:0 跳过:9 | 预估成本: 0.12 CNY
+2026-01-16 21:15:28,379 [INFO] 任务进度: 41/41 | 成功:32 失败:0 跳过:9 | 预估成本: 0.13 CNY
+2026-01-16 21:15:28,379 [INFO] ------------------------------
+2026-01-16 21:15:28,379 [INFO] 清洗完毕。最终预估成本: 0.13 CNY. 输出结果已存至: novel_data/lora_dataset\cleaned_叶灵静_02_20260116_211352

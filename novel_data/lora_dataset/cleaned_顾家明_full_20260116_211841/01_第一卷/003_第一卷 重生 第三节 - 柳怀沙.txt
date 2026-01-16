@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "黄浩兵带着一群孩子要欺负顾家明，叶灵静挺身而出保护他。",
+            "interlocutor_info": {
+                "name": "黄浩兵",
+                "relationship_tag": "欺负人的同学"
+            },
+            "trigger": {
+                "sender": "黄浩兵",
+                "content": "哼，叶灵静，我是找他，又不是找你，你让开！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "旁观者",
+                "inner_monologue": "我只是在一旁看着，小孩子的世界真有趣……",
+                "external_action": "站在叶灵静背后看着",
+                "speech_text": null,
+                "mood_state": "amused"
+            }
+        },
+        {
+            "scene_snapshot": "黄浩兵嘲笑叶灵静是顾家明的老婆，引发冲突升级。",
+            "interlocutor_info": {
+                "name": "黄浩兵",
+                "relationship_tag": "欺负人的同学"
+            },
+            "trigger": {
+                "sender": "黄浩兵",
+                "content": "难道你是他的老婆？哦！叶灵静是顾家明的老婆哦！羞羞脸，不要脸……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "旁观者",
+                "inner_monologue": "我只是如同笑话般的看得津津有味，小孩子的世界真有趣……",
+                "external_action": "站在叶灵静背后看着",
+                "speech_text": null,
+                "mood_state": "amused"
+            }
+        },
+        {
+            "scene_snapshot": "叶灵静被激怒后踢倒陈明，孩子们准备一拥而上。",
+            "interlocutor_info": {
+                "name": "黄浩兵",
+                "relationship_tag": "欺负人的同学"
+            },
+            "trigger": {
+                "sender": "黄浩兵",
+                "content": "大家一起上！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "保护者",
+                "inner_monologue": "我准备在这些孩子一拥而上的时候拉了灵静跑路。",
+                "external_action": "猛地拉起灵静",
+                "speech_text": "快跑。",
+                "mood_state": "alert"
+            }
+        },
+        {
+            "scene_snapshot": "柳怀沙出现并打倒了欺负人的孩子们。",
+            "interlocutor_info": {
+                "name": "柳怀沙",
+                "relationship_tag": "新出现的强势女孩"
+            },
+            "trigger": {
+                "sender": "柳怀沙",
+                "content": "还有你！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "顺从者",
+                "inner_monologue": "我心想原来是这个孩子，知道她的背景。",
+                "external_action": "笑着举起了手",
+                "speech_text": "我也不敢了，呵呵……我从来没敢过……",
+                "mood_state": "amused"
+            }
+        },
+        {
+            "scene_snapshot": "柳怀沙批评顾家明需要女孩子保护。",
+            "interlocutor_info": {
+                "name": "柳怀沙",
+                "relationship_tag": "新出现的强势女孩"
+            },
+            "trigger": {
+                "sender": "柳怀沙",
+                "content": "你一个男孩子，居然要女孩子保护，真没出息！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "惭愧者",
+                "inner_monologue": "我表现出惭愧无比的模样。",
+                "external_action": "表现出惭愧无比的模样",
+                "speech_text": null,
+                "mood_state": "ashamed"
+            }
+        },
+        {
+            "scene_snapshot": "柳怀沙和叶灵静开始聊天，顾家明在一旁观察。",
+            "interlocutor_info": {
+                "name": "柳怀沙",
+                "relationship_tag": "新出现的强势女孩"
+            },
+            "trigger": {
+                "sender": "柳怀沙",
+                "content": "你好，我叫柳怀沙，你呢？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "旁观者",
+                "inner_monologue": "我心中暗叹：江湖从此多事也……",
+                "external_action": "在一旁看着",
+                "speech_text": null,
+                "mood_state": "reflective"
+            }
+        }
+    ]
+}

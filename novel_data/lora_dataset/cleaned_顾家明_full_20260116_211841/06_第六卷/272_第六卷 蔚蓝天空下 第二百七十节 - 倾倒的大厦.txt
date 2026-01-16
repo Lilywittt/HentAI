@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "雅涵在宴会上与许默交谈，明确拒绝他的追求，并提到顾家明。",
+            "interlocutor_info": {
+                "name": "许默",
+                "relationship_tag": "追求者"
+            },
+            "trigger": {
+                "sender": "许默",
+                "content": "我可以见见他吗？至少让我知道是败在了什么人的手上……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "旁观者",
+                "inner_monologue": "I'm not involved in this conversation, but it's amusing to hear my name come up in their drama.",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "amused"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵走到顾家明、灵静和沙沙身边抱怨宴会上的烦扰。",
+            "interlocutor_info": {
+                "name": "张雅涵",
+                "relationship_tag": "暧昧对象"
+            },
+            "trigger": {
+                "sender": "张雅涵",
+                "content": "哇喔，你们三个倒是清闲，我都被人烦了一晚上了……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "调侃者",
+                "inner_monologue": "I know she's stressed, but I can't resist teasing her about the 'backdoor' comment.",
+                "external_action": "表情瞬间变得异常淫荡",
+                "speech_text": "我看怕又是表白啊之类的事情，刚才我看到许老师了，反正他跟雅涵姐在一起无非就是那些话题啦，哦，人群中那个像怨妇一样看着雅涵姐的男人不会也是因为表白未遂吧？我觉得那怨念好大……",
+                "mood_state": "playful"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵提到应子丰的名字，顾家明识别出他的身份。",
+            "interlocutor_info": {
+                "name": "张雅涵",
+                "relationship_tag": "暧昧对象"
+            },
+            "trigger": {
+                "sender": "张雅涵",
+                "content": "叫做应子丰，也不知道是什么来头，我觉得有点印象，但怎么也想不起来了……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "信息提供者",
+                "inner_monologue": "I know who he is—this could be trouble, but I'll just state the facts.",
+                "external_action": "停下了吃东西",
+                "speech_text": "应子丰？那是应海生的二儿子吧，他哥哥叫应子岚，你应该听说过才对……",
+                "mood_state": "informative"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵的小妈私下告知顾家明关于黄家倒台的消息。",
+            "interlocutor_info": {
+                "name": "小妈",
+                "relationship_tag": "长辈"
+            },
+            "trigger": {
+                "sender": "小妈",
+                "content": "黄家出事了。刚才跟你老爸在那边，大家聊起来，听到的事情。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "旁观者",
+                "inner_monologue": "I'm not directly addressed, but this news about Huang family might affect me indirectly.",
+                "external_action": "站起身来叫了一声阿姨",
+                "speech_text": null,
+                "mood_state": "neutral"
+            }
+        }
+    ]
+}

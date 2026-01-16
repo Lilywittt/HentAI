@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "雅涵请求在家明的房间休息，两人在房间内闲聊过去的事情。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲近的朋友/老师"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "借你的床给我睡下。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "无奈但关心的朋友",
+                "inner_monologue": "I guess I can't refuse her, she looks tired and it's just a small request.",
+                "external_action": "领着雅涵去往自己的房间",
+                "speech_text": "我的床？你不会找人给你安排个客房啊。",
+                "mood_state": "resigned"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵回忆第一次进家明房间时他拆收音机的事情，家明透露那是炸弹装置。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲近的朋友/老师"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "那时你的态度凶死了。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "坦诚但淡然的朋友",
+                "inner_monologue": "I might as well tell her the truth, it's been years and she's trustworthy.",
+                "external_action": "笑了起来",
+                "speech_text": "那时我在做炸弹。",
+                "mood_state": "calm"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵开玩笑说家明是怪物，家明无奈地回应。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲近的朋友/老师"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "天哪……那时你才十二岁啊，你这个怪物……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "无奈的朋友",
+                "inner_monologue": "She always exaggerates things, but I don't mind her teasing.",
+                "external_action": "无奈地耸了耸肩",
+                "speech_text": null,
+                "mood_state": "amused"
+            }
+        },
+        {
+            "scene_snapshot": "家明准备离开房间让雅涵休息，雅涵用暧昧词语形容他们的关系。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲近的朋友/老师"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "孽缘……我跟你真的是孽缘了……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "略感尴尬的朋友",
+                "inner_monologue": "I wish she wouldn't say things like that, it makes things awkward.",
+                "external_action": null,
+                "speech_text": "别一直用这么暧昧的词语好不好，你休息吧，我先出去，午饭叫你。",
+                "mood_state": "uncomfortable"
+            }
+        },
+        {
+            "scene_snapshot": "家明返回房间叫雅涵起床吃饭，发现她似乎在说梦话。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲近的朋友/老师"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "嗯……嘤……唔……不要……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "困惑的朋友",
+                "inner_monologue": "Is she having a nightmare? I should wake her up gently.",
+                "external_action": "走到床边，轻拍她的脸颊",
+                "speech_text": "喂，起床了，外面在准备吃饭呢。",
+                "mood_state": "concerned"
+            }
+        },
+        {
+            "scene_snapshot": "黄浩云误会家明在对雅涵施暴，雅涵在朦胧中说了一句暧昧的话。",
+            "interlocutor_info": {
+                "name": "黄浩云",
+                "relationship_tag": "家族成员/麻烦的亲戚"
+            },
+            "trigger": {
+                "sender": "黄浩云",
+                "content": "顾家明你干什么！？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静但被误解的人",
+                "inner_monologue": "This looks bad, but I didn't do anything wrong. He's jumping to conclusions.",
+                "external_action": "回过头去",
+                "speech_text": null,
+                "mood_state": "frustrated"
+            }
+        }
+    ]
+}

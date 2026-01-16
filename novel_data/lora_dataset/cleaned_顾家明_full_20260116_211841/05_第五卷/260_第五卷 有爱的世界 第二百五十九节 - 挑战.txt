@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "雅涵醒来后发现家明为她准备了衣服并离开，独自在房间穿好衣服后下楼寻找家明。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "发现家明为她准备了衣服并离开，随后下楼寻找家明。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "体贴但低调的照顾者",
+                "inner_monologue": "我悄悄为她安排好一切，不想打扰她休息，让她自己发现就好。",
+                "external_action": "为雅涵准备衣服并离开房间，坐在楼下与麦克交谈。",
+                "speech_text": null,
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵下楼后，家明与麦克正在交谈，家明招呼雅涵并介绍麦克。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "下楼后家明招呼她并介绍麦克。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "友善的同伴",
+                "inner_monologue": "她总算醒了，我得让她轻松点，别太在意昨晚的事。",
+                "external_action": "站起来挥手招呼雅涵，为她叫食物并坐下。",
+                "speech_text": "总算醒来了，麦克刚才就已经在这里等着你，我给你叫了吃的东西，马上让她送来。",
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵询问家明和麦克的谈话内容，家明与麦克交换眼神后含糊回应。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "询问家明和麦克在聊什么。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "掩饰秘密的伙伴",
+                "inner_monologue": "不能让她知道我们在聊敏感话题，得糊弄过去。",
+                "external_action": "瞪大了眼睛，与麦克对视一笑。",
+                "speech_text": "不是吧，你也对那个东西感兴趣？",
+                "mood_state": "谨慎"
+            }
+        },
+        {
+            "scene_snapshot": "维伦警察进入并谈论纽约枪战新闻，家明与雅涵心虚对视。",
+            "interlocutor_info": {
+                "name": "维伦",
+                "relationship_tag": "可疑的警察"
+            },
+            "trigger": {
+                "sender": "维伦",
+                "content": "描述纽约枪战事件并暗示可能与家明和雅涵有关。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "无辜的旁观者",
+                "inner_monologue": "得装出好奇的样子，不能让他怀疑我们。",
+                "external_action": "瞪大了眼睛，看起来像好奇宝宝。",
+                "speech_text": "不会吧，你不会以为是我们吧？",
+                "mood_state": "警觉"
+            }
+        },
+        {
+            "scene_snapshot": "加摩尔带人进入挑衅麦克，家明表现出无聊和不耐烦。",
+            "interlocutor_info": {
+                "name": "加摩尔",
+                "relationship_tag": "无关的挑衅者"
+            },
+            "trigger": {
+                "sender": "加摩尔",
+                "content": "挑衅麦克并称他为懦夫。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "漠不关心的旁观者",
+                "inner_monologue": "这种无聊的冲突真烦人，我只想安静待着。",
+                "external_action": "将头偏向一边，无聊地撇了撇嘴。",
+                "speech_text": null,
+                "mood_state": "不耐烦"
+            }
+        }
+    ]
+}

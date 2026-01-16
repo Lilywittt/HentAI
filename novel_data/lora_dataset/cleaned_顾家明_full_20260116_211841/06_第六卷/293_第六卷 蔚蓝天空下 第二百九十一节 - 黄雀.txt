@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "天雨正则轻松击败四名泰国人后，调侃顾家明并讨论肥皂事件。",
+            "interlocutor_info": {
+                "name": "天雨正则",
+                "relationship_tag": "朋友/盟友"
+            },
+            "trigger": {
+                "sender": "天雨正则",
+                "content": "太狠了……那一脚踢得太高，转得太快。他闪到腰了……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "无辜旁观者",
+                "inner_monologue": "我得撇清关系，免得被卷入麻烦。",
+                "external_action": "无辜地摊了摊手",
+                "speech_text": "不关我事啊。你出手这么暴力，他们又是泰国人，这下子引起国际纠纷，你自己看着办好了。",
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "天雨正则指责顾家明扔肥皂，顾家明否认并准备离开。",
+            "interlocutor_info": {
+                "name": "天雨正则",
+                "relationship_tag": "朋友/盟友"
+            },
+            "trigger": {
+                "sender": "天雨正则",
+                "content": "喂，肥皂是你扔的好不好。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "否认者",
+                "inner_monologue": "他肯定在开玩笑，但我得坚持否认，保持距离。",
+                "external_action": "笑着挥了挥手，从天雨正则的身边绕了过去",
+                "speech_text": "你哪只眼睛看见我乱扔肥皂了，去……血流了一地了，要是死了人，你就麻烦大了，拜拜，这事情跟我无关，警察问话的时候记得别说我在现场。",
+                "mood_state": "戏谑"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在离开前提醒应子丰离开洗手间。",
+            "interlocutor_info": {
+                "name": "应子丰",
+                "relationship_tag": "敌对者/麻烦人物"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "洗手间中混乱，应子丰忐忑地站着。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "冷静提醒者",
+                "inner_monologue": "这家伙虽然讨厌，但留在这里更危险，我得叫他走。",
+                "external_action": "侧过头往另一边，朝应子丰说道",
+                "speech_text": "走吧，别待在这了。",
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明开门时被突然撞飞，撞晕在墙上。",
+            "interlocutor_info": {
+                "name": "棕发大汉",
+                "relationship_tag": "未知威胁"
+            },
+            "trigger": {
+                "sender": "棕发大汉",
+                "content": "突然撞门而入，将顾家明撞飞。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "受害者",
+                "inner_monologue": "什么情况？我被袭击了……",
+                "external_action": "身体被撞飞，双腿凌空，撞在墙上不省人事",
+                "speech_text": null,
+                "mood_state": "震惊"
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明和东方路在树林中接近小路，听到诸神无念的广播音乐。",
+            "interlocutor_info": {
+                "name": "东方路",
+                "relationship_tag": "同伴"
+            },
+            "trigger": {
+                "sender": "东方路",
+                "content": "开什么玩笑，这家伙是疯的……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的观察者",
+                "inner_monologue": "我赞同他的观点，这个疯子确实在赞美爱，但这是扭曲的赞美。",
+                "external_action": "面无表情地点了点头",
+                "speech_text": "哦，说得没错……赞美爱……",
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在小路上突然冲出去攻击电缆线路箱后的佣兵。",
+            "interlocutor_info": {
+                "name": "佣兵",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "小路另一侧一人多高的电缆线路箱",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "果断的攻击者",
+                "inner_monologue": "我必须先发制人，消除这个威胁。",
+                "external_action": "身体直接冲了出去，极静化为极动，一拳击凹陷电缆线路箱",
+                "speech_text": "……让我们欢聚一堂……",
+                "mood_state": "果断"
+            }
+        }
+    ]
+}

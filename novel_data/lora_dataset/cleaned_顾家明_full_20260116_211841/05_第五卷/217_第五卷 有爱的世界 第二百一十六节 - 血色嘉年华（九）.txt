@@ -1,0 +1,45 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明与诸神无念在房间内激烈交火，使用超自然力量和枪械对抗。",
+            "interlocutor_info": {
+                "name": "诸神无念",
+                "relationship_tag": "敌对对手"
+            },
+            "trigger": {
+                "sender": "诸神无念",
+                "content": "诸神无念一脚将灰衣人踢了出去，直撞上另一边的墙壁，无数的木屑、各种杂物的碎片于顷刻间飞舞在了整片空间之中，后方的玻璃直接爆裂成粉末，飞溅而出。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的战斗者",
+                "inner_monologue": "我必须立刻反击，不能给他任何喘息的机会。",
+                "external_action": "家明则直接从灰袍下拿出了霰弹枪，两人朝着不同的方向跃出，在半空中仅仅隔着三四米的距离，扣动扳机。",
+                "speech_text": null,
+                "mood_state": "警觉"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明和诸神无念从房间冲出后，在奔跑中继续交火。",
+            "interlocutor_info": {
+                "name": "诸神无念",
+                "relationship_tag": "敌对对手"
+            },
+            "trigger": {
+                "sender": "诸神无念",
+                "content": "“终于肯出现了吗！”火光明灭，石片飞溅，一面开枪，诸神无念一面大笑起来。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "专注的战士",
+                "inner_monologue": "他在挑衅，但我必须保持冷静，专注于躲避和反击。",
+                "external_action": "从地上爬起来，两人隔着房间朝同一个方向飞快地奔跑，子弹从窗户、房门间划过，房间的墙壁大片大片地剥落、飞溅着……",
+                "speech_text": null,
+                "mood_state": "专注"
+            }
+        }
+    ]
+}

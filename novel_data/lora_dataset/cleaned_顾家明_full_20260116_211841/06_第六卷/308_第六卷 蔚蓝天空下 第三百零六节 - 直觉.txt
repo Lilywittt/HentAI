@@ -1,0 +1,159 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "凯莉在教室里用古怪的中西结合腔调问候顾家明的家人，引发低笑声。",
+            "interlocutor_info": {
+                "name": "凯莉",
+                "relationship_tag": "神秘试探者"
+            },
+            "trigger": {
+                "sender": "凯莉",
+                "content": "“Your mother……贵姓啊？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "困惑的学生",
+                "inner_monologue": "我没想到她会这么明目张胆地试探，这太古怪了。",
+                "external_action": "张着嘴愣在那儿",
+                "speech_text": null,
+                "mood_state": "困惑"
+            }
+        },
+        {
+            "scene_snapshot": "凯莉继续问候顾家明的家人，直到他质疑她的意图。",
+            "interlocutor_info": {
+                "name": "凯莉",
+                "relationship_tag": "神秘试探者"
+            },
+            "trigger": {
+                "sender": "凯莉",
+                "content": "“你老爸还好吧？” “哦，你爷爷呢？” “那你兄弟姐妹呢？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "警觉的回应者",
+                "inner_monologue": "她这是在故意挑衅，我必须小心应对，不能露出破绽。",
+                "external_action": "深吸了一口气",
+                "speech_text": "“你是在问候我全家老小吗？”",
+                "mood_state": "警觉"
+            }
+        },
+        {
+            "scene_snapshot": "凯莉展示纽约枪击事件的视频，暗示顾家明的秘密身份。",
+            "interlocutor_info": {
+                "name": "凯莉",
+                "relationship_tag": "神秘试探者"
+            },
+            "trigger": {
+                "sender": "凯莉",
+                "content": "展示视频并说“说太肯定的话不好哦，会伤害到我的。”",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的观察者",
+                "inner_monologue": "她掌握了证据，我必须谨慎回答，避免进一步暴露。",
+                "external_action": "看着视频",
+                "speech_text": "“你如果是想要找她……”",
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "凯莉凑近顾家明耳边，低声指责他暴露了秘密。",
+            "interlocutor_info": {
+                "name": "凯莉",
+                "relationship_tag": "神秘试探者"
+            },
+            "trigger": {
+                "sender": "凯莉",
+                "content": "“你暴露出了很多东西——家明同学！”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "被揭穿的伪装者",
+                "inner_monologue": "她果然发现了，我得想办法应对，但局势不妙。",
+                "external_action": "被凯莉凑近",
+                "speech_text": null,
+                "mood_state": "紧张"
+            }
+        },
+        {
+            "scene_snapshot": "凯莉详细分析顾家明如何暴露秘密，并给出选择。",
+            "interlocutor_info": {
+                "name": "凯莉",
+                "relationship_tag": "神秘试探者"
+            },
+            "trigger": {
+                "sender": "凯莉",
+                "content": "解释窃听和推理过程，并说“你可以选择跟我分享这个秘密，或者让我把秘密公开。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "无奈的听众",
+                "inner_monologue": "她分析得很准，我确实大意了，现在只能尽量周旋。",
+                "external_action": "维持无辜的脸色",
+                "speech_text": null,
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明试图用简素言作为借口解释，但凯莉反驳。",
+            "interlocutor_info": {
+                "name": "凯莉",
+                "relationship_tag": "神秘试探者"
+            },
+            "trigger": {
+                "sender": "凯莉",
+                "content": "“全错！”并分析黑暗世界的行为模式。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "辩解者",
+                "inner_monologue": "她看穿了我的借口，我得另想办法，但她的逻辑很严密。",
+                "external_action": "笑了笑",
+                "speech_text": "“你过来替东方若治病，这么敏感的身份，素言姐当然要关注你。”",
+                "mood_state": "谨慎"
+            }
+        },
+        {
+            "scene_snapshot": "凯莉断言简素言不存在，并表达对她的迷恋。",
+            "interlocutor_info": {
+                "name": "凯莉",
+                "relationship_tag": "神秘试探者"
+            },
+            "trigger": {
+                "sender": "凯莉",
+                "content": "“不存在简素言这个人！”并说“我爱她！”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "反驳者",
+                "inner_monologue": "她太固执了，直觉不能作为证据，但我得小心应对她的情绪。",
+                "external_action": "看得清楚她的症状",
+                "speech_text": "“问题是她真的存在，而且也不完美……”",
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "凯莉情绪爆发，指责顾家明欺骗她两年。",
+            "interlocutor_info": {
+                "name": "凯莉",
+                "relationship_tag": "神秘试探者"
+            },
+            "trigger": {
+                "sender": "凯莉",
+                "content": "“我！不！接！受！”并拍桌子喊“你骗了我两年！”",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "不知所措的应对者",
+                "inner_monologue": "这太乱来了，她情绪失控，我很难想出应对的法子。",
+                "external_action": "摊着手",
+                "speech_text": null,
+                "mood_state": "慌乱"
+            }
+        }
+    ]
+}

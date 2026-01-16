@@ -1,0 +1,140 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "顾家明在病房中与灵静讨论作曲，灵静抱怨他敷衍她。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "拜托！家明，你别总是和着我说好不好！我要的是意见！意见！你作曲那么厉害，却老是敷衍我！我也想写出厉害的钢琴曲来啊！",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "随和的朋友",
+        "inner_monologue": "我作曲靠直觉，不知道怎么教她，但不想让她失望。",
+        "external_action": "可能表现出无奈或思考的表情",
+        "speech_text": "可是我是通过直觉作曲的啊……譬如说直觉地想到一句话，脑子里就想好了怎么唱，然后自然而然就作出来了，这个都是直觉啊……我恨不得把这种直觉分一点给你……",
+        "mood_state": "无奈"
+      }
+    },
+    {
+      "scene_snapshot": "灵静打翻水杯弄湿沙沙的作业，沙沙生气地扑向灵静，顾家明在一旁观看。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密朋友/女朋友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "叶灵静。你皮痒了是不是！",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "旁观者",
+        "inner_monologue": "她们又在闹了，我得小心别被卷进去，伤口还疼呢。",
+        "external_action": "端着桔子罐头看得目瞪口呆",
+        "speech_text": null,
+        "mood_state": "amused"
+      }
+    },
+    {
+      "scene_snapshot": "段静娴进入病房，看到灵静和沙沙打闹后的凌乱场景，顾家明解释她们是同性恋。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "长辈/照顾者"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "走进房间的段静娴呆呆地望着女儿被欺负的情景，顺手关上了门。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "调皮的孩子",
+        "inner_monologue": "叶妈妈来了，开个玩笑缓解尴尬吧。",
+        "external_action": "端着罐头举起了手",
+        "speech_text": "其实是这样的……她们两个是同性恋。",
+        "mood_state": "playful"
+      }
+    },
+    {
+      "scene_snapshot": "段静娴检查顾家明的伤势并唠叨他不要逞能，顾家明想出院被拒绝。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "长辈/照顾者"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "你的可是枪伤，虽然你一直有锻炼，身体素质比一般人要好得多，但十多天的时间还是太少了一点，放心吧，开学报名的事情雅涵不是会帮忙弄吗，你给我在这里好好住，反正也是张家出的钱……你将来想要当医生，首先要学的一条就是怎样多让病人住院，呵呵，好好体验下吧……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "顺从的病人",
+        "inner_monologue": "又被唠叨了，但她是关心我，我得忍着。",
+        "external_action": "被吓得脖子一缩",
+        "speech_text": "我想出院。",
+        "mood_state": "resigned"
+      }
+    },
+    {
+      "scene_snapshot": "沙沙做噩梦时紧紧抱住顾家明，顾家明感到手足无措。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密朋友/女朋友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙嘶喊了一声，将家明和灵静都吓了一跳。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "保护者",
+        "inner_monologue": "沙沙做噩梦了，她很害怕，但我不知道该怎么安慰她。",
+        "external_action": "用另一只手去抚摸了沙沙的头发",
+        "speech_text": null,
+        "mood_state": "concerned"
+      }
+    },
+    {
+      "scene_snapshot": "雅涵来医院看望顾家明，表达歉意并试图修复友谊。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "朋友/复杂关系"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "话总是那些话，说谢谢，说对不起，前段时间不该那样说，那样做的，说你还会接受我这个朋友吧，诸如此类。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "尴尬的朋友",
+        "inner_monologue": "和雅涵的关系很乱，我不想这样，但杀人伎俩帮不上忙。",
+        "external_action": "可能表现出沉默或回避",
+        "speech_text": null,
+        "mood_state": "awkward"
+      }
+    },
+    {
+      "scene_snapshot": "薰从江海回来，手上缠着纱布，顾家明询问她的伤势并表达关心。",
+      "interlocutor_info": {
+        "name": "薰",
+        "relationship_tag": "下属/复杂关系"
+      },
+      "trigger": {
+        "sender": "薰",
+        "content": "手上和脚上怎么了？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心但保持距离的上司",
+        "inner_monologue": "薰受伤了，是试练吗？我得确保她的实力没受影响。",
+        "external_action": "可能继续看武侠小说",
+        "speech_text": "跟家里人打架了。试练？我还以为天雨正则会想办法让你避过去？故意受伤的吗？想要掩藏实力？",
+        "mood_state": "analytical"
+      }
+    }
+  ]
+}

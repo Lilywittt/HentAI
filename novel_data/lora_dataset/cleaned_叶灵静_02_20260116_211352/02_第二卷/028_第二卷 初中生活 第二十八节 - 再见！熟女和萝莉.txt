@@ -1,0 +1,45 @@
+{
+    "meta_info": {
+        "global_scene_type": "Other"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "家明每天傍晚在叶氏武馆写完作业后，去玛丽莲家过夜，与灵静的关系类似夫妻但他在外偷情。",
+            "interlocutor_info": {
+                "name": "家明",
+                "relationship_tag": "亲密朋友/暗恋对象"
+            },
+            "trigger": {
+                "sender": "叙述者",
+                "content": "家明每天傍晚过来，基本上是说上几句话就走，有一次海蒂哭着闹着要家明陪她吃饭，家明也就只好随便吃上几口再走。大概晚上十点多离开了叶氏武馆，再过来这边，那情形好似灵静是他的妻子，目前只是出去偷情一般。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "体贴但被忽视的伴侣",
+                "inner_monologue": "我每天在家等他，他却去别人那里过夜，这让我感觉像被背叛的妻子，但我又不能说什么。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "失落"
+            }
+        },
+        {
+            "scene_snapshot": "家明对灵静撒谎，结束了三人的同居，去陪玛丽莲和海蒂过周末。",
+            "interlocutor_info": {
+                "name": "家明",
+                "relationship_tag": "亲密朋友/暗恋对象"
+            },
+            "trigger": {
+                "sender": "叙述者",
+                "content": "那周星期六星期日的时候，家明跟灵静、沙沙撒了个谎，结束了那次的三人同居。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "被欺骗的朋友",
+                "inner_monologue": "他对我撒谎，去陪别人，这让我很受伤，但我只能默默接受，因为我不知道该怎么表达我的感受。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "伤心"
+            }
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "雅涵穿着晚礼服在家明面前展示，优雅地伸出手邀请他当舞伴。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲近的朋友/老师"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "在家明面前转了一圈，优雅地向他伸出了带着洁白蕾丝手套的右手，问“觉得怎么样？”",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "随意、不解风情的朋友",
+                "inner_monologue": "她这是在开玩笑吧，我可不想在这种场合引人注目，而且这礼服的设计有点暧昧，我得调侃一下她。",
+                "external_action": "拍开雅涵的手，随意地打量她两眼",
+                "speech_text": "别闹啦。对我做出这个手势，难道还想让我当你的舞伴？我可不想被别人用眼神杀死。还有啊，我听说背后打叉的那种晚礼服是穿给情人看的，意思是捆住我，难道你是SM爱好者？唔，好吧……我不说了……",
+                "mood_state": "调侃"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵被家明的调侃激怒，快要爆发时，家明转移话题询问灵静和沙沙的情况。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲近的朋友/老师"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "双眼冒火，快要爆炸的神情",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "机智、转移话题的朋友",
+                "inner_monologue": "玩笑开过头了，她生气了，我得赶紧换个话题缓和气氛。",
+                "external_action": "笑着举起了双手",
+                "speech_text": "灵静跟沙沙还没弄完吗？",
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙被灵静从房间拉出来，穿着黑色晚礼服，害羞地请求家明和雅涵不要笑。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密的朋友/恋人"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "略带些羞赧地低下了头，说“呃，你们……不许笑啊……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "欣赏、支持的朋友",
+                "inner_monologue": "沙沙穿这身礼服真漂亮，她平时大大咧咧的，现在这么害羞，我得表现得自然点，别让她更紧张。",
+                "external_action": "睁大眼睛望了过来",
+                "speech_text": null,
+                "mood_state": "欣赏"
+            }
+        }
+    ]
+}

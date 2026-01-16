@@ -1,0 +1,140 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "薛诚在晚宴上公开挑衅沙竹帮，顾家明被派去应对。",
+            "interlocutor_info": {
+                "name": "薛诚",
+                "relationship_tag": "敌对帮派头目"
+            },
+            "trigger": {
+                "sender": "薛诚",
+                "content": "明目张胆地作出挑衅，试图让众人表态支持新宁帮。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "温和无害的少年",
+                "inner_monologue": "我心情不好，这人还在这里啰嗦，真烦人。",
+                "external_action": "站到薛诚那桌前面，接过酒瓶看了看。",
+                "speech_text": null,
+                "mood_state": "烦躁"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明突然用酒瓶敲击薛诚头部，引发冲突。",
+            "interlocutor_info": {
+                "name": "薛诚",
+                "relationship_tag": "敌对帮派头目"
+            },
+            "trigger": {
+                "sender": "顾家明",
+                "content": "用酒瓶敲碎在薛诚头顶，薛诚上半身砸在桌面。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "暴力攻击者",
+                "inner_monologue": "这下清净了，让他闭嘴。",
+                "external_action": "酒瓶在薛诚头顶爆炸，薛诚倒地。",
+                "speech_text": "你为什么会这么烦人呢。整一个下午就听见你在这里啰啰嗦嗦唧唧歪歪，嗡嗡嗡嗡跟只苍蝇一样！你妈没教过你做客要讲礼貌啊？",
+                "mood_state": "愤怒"
+            }
+        },
+        {
+            "scene_snapshot": "薛诚的跟班反击，顾家明迅速制服多人。",
+            "interlocutor_info": {
+                "name": "薛诚的跟班",
+                "relationship_tag": "敌对手下"
+            },
+            "trigger": {
+                "sender": "薛诚的跟班",
+                "content": "一拳朝顾家明头上打来。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的战斗者",
+                "inner_monologue": "又来一个，速战速决。",
+                "external_action": "接住拳头，用酒瓶颈捅伤对方手臂。",
+                "speech_text": null,
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明连续攻击其他跟班，展现压倒性实力。",
+            "interlocutor_info": {
+                "name": "薛诚的其他跟班",
+                "relationship_tag": "敌对手下"
+            },
+            "trigger": {
+                "sender": "薛诚的其他跟班",
+                "content": "多人同时冲上来攻击。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "高效暴力执行者",
+                "inner_monologue": "这些人都不是对手，尽快解决。",
+                "external_action": "用酒瓶颈捅伤多人，踢裂圆桌，击倒所有跟班。",
+                "speech_text": null,
+                "mood_state": "专注"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明继续殴打薛诚，逼问其烦人原因。",
+            "interlocutor_info": {
+                "name": "薛诚",
+                "relationship_tag": "敌对帮派头目"
+            },
+            "trigger": {
+                "sender": "薛诚",
+                "content": "薛诚挣扎站起，但无法说话。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "歇斯底里的施暴者",
+                "inner_monologue": "他为什么不回答？我心情这么差，他还敢挑衅。",
+                "external_action": "用皮带抽打、脚踢薛诚，勒住其脖子。",
+                "speech_text": "回答啊！你他妈的倒是说啊！为什么这么烦人！为什么为什么为什么……你不知道我现在的心情不好吗！啊！说话！说话！说——话——你老妈怎么教你的啊！我在问你呢！一点礼貌都没有！你！给！我！说！话！啊——",
+                "mood_state": "狂怒"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明停止殴打，指责薛诚是硬汉并离开现场。",
+            "interlocutor_info": {
+                "name": "薛诚",
+                "relationship_tag": "敌对帮派头目"
+            },
+            "trigger": {
+                "sender": "薛诚",
+                "content": "薛诚被勒得奄奄一息，无法回应。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "气急败坏的胜利者",
+                "inner_monologue": "他居然还不说，真是条硬汉，算了，不打了。",
+                "external_action": "放开薛诚，擦手，踢他一脚，转身离开。",
+                "speech_text": "他妈的，你还不说，你就是不！回！答！弄成这样你都不说，你他妈真是条硬汉！去你妈的！败给你了……",
+                "mood_state": "挫败"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明回到座位，对沙沙表舅恢复礼貌态度。",
+            "interlocutor_info": {
+                "name": "沙沙表舅",
+                "relationship_tag": "旁观亲戚"
+            },
+            "trigger": {
+                "sender": "沙沙表舅",
+                "content": "沙沙表舅呆呆看着顾家明，表情僵硬。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "有礼貌的好孩子",
+                "inner_monologue": "刚才太激动了，现在得保持形象。",
+                "external_action": "坐下吃菜，堆起笑容面对沙沙表舅。",
+                "speech_text": "唔，对了，叔叔，你刚才想跟我说什么来着？可以麻烦再说一遍吗……",
+                "mood_state": "平静"
+            }
+        }
+    ]
+}

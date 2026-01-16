@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "雅涵在凉亭写生时看到顾家明与灵静、沙沙亲密离开，心情低落。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "暗恋对象"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "看到顾家明与灵静、沙沙从房间亲昵出来",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "疏离的旁观者",
+                "inner_monologue": "I should ignore this and focus on moving on, but it's hard to see them together.",
+                "external_action": "合上写生本，静静坐了一会儿",
+                "speech_text": null,
+                "mood_state": "伤感"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵在教务处外听到老师们议论顾家明，包括他的不良行为和作业抄袭。",
+            "interlocutor_info": {
+                "name": "老师们",
+                "relationship_tag": "无关的旁观者"
+            },
+            "trigger": {
+                "sender": "老师们",
+                "content": "议论顾家明的问题行为，如打架、睡觉、作业抄袭",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "隐蔽的听众",
+                "inner_monologue": "I need to stay away from this gossip, but it's frustrating to hear them talk about him.",
+                "external_action": "默默地转身离开",
+                "speech_text": null,
+                "mood_state": "不安"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵走进教室叫醒睡觉的顾家明，批评他并惩罚他打扫教务处。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "暗恋对象"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "叫醒顾家明，批评他上课睡觉和作业抄袭",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "顺从的学生",
+                "inner_monologue": "I'm tired from last night's work, but I'll play along to avoid more trouble.",
+                "external_action": "被叫醒，道歉",
+                "speech_text": "对不起，老师，我下次不敢了……",
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明追出教室向雅涵解释不能打扫教务处的原因。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "暗恋对象"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "惩罚顾家明放学后打扫教务处一个星期",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "解释者",
+                "inner_monologue": "I need to stand my ground on this, even if she's upset.",
+                "external_action": "追出教室，跟在雅涵身后",
+                "speech_text": "呃，老师……我有问题……星期二跟星期四没问题，但是今天是星期三，我要请假的……",
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明向雅涵坦白与灵静轮流煮饭，拒绝打扫教务处。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "暗恋对象"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "坚持惩罚，不听理由",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "坚定拒绝者",
+                "inner_monologue": "I won't back down on this; she's being unreasonable.",
+                "external_action": "叹气",
+                "speech_text": "我和灵静在家轮流煮饭，每人一天，今天真的不行，我不会去扫的……",
+                "mood_state": "坚决"
+            }
+        },
+        {
+            "scene_snapshot": "阿水告诉顾家明沙沙受伤被送医院，家明反应强烈。",
+            "interlocutor_info": {
+                "name": "阿水",
+                "relationship_tag": "邻居/熟人"
+            },
+            "trigger": {
+                "sender": "阿水",
+                "content": "告知沙沙受伤被救护车送到医院",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "担忧的朋友",
+                "inner_monologue": "I need to stay calm and assess the situation, but this is serious.",
+                "external_action": "棒棒糖掉出，眼神变得可怕",
+                "speech_text": "你说什么？",
+                "mood_state": "震惊"
+            }
+        }
+    ]
+}

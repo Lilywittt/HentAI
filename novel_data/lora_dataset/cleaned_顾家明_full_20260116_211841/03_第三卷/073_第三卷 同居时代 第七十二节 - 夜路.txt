@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在黑暗角落里为受伤的月池薰进行紧急包扎和止血。",
+            "interlocutor_info": {
+                "name": "月池薰",
+                "relationship_tag": "弟子"
+            },
+            "trigger": {
+                "sender": "月池薰",
+                "content": "“唔……抱歉……我没能杀掉三个……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的导师",
+                "inner_monologue": "I need先处理她的伤势，任务结果可以稍后评估，这次表现还算满意，但训练方法得调整。",
+                "external_action": "有条不紊地进行包扎和止血，微微皱眉",
+                "speech_text": "“这些事情下次再说，老实说，这一次的结果，我比较满意了。”",
+                "mood_state": "严肃"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明组装狙击枪并准备射击海滩上的目标。",
+            "interlocutor_info": {
+                "name": "月池薰",
+                "relationship_tag": "弟子"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "从平台望见三人上了快艇准备离开",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "精准的狙击手",
+                "inner_monologue": "I can趁这个机会再解决一两个，但得小心别暴露身份，反正举手之劳。",
+                "external_action": "跑向平台，举枪、俯身、打开瞄准盖、望",
+                "speech_text": null,
+                "mood_state": "专注"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明突然放弃射击，坐倒在石墩后。",
+            "interlocutor_info": {
+                "name": "环境",
+                "relationship_tag": "威胁"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "准备扣动扳机时感知到未知危险",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "警觉的幸存者",
+                "inner_monologue": "I must立即躲避，有危险逼近，不能冒险开枪。",
+                "external_action": "紧急旋体躲避，坐倒在石墩后，枪杵在身边",
+                "speech_text": null,
+                "mood_state": "警惕"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明苦笑并自嘲地说话。",
+            "interlocutor_info": {
+                "name": "月池薰",
+                "relationship_tag": "弟子"
+            },
+            "trigger": {
+                "sender": "顾家明",
+                "content": "坐倒后手微微颤抖，苦恼地揉额头",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "自嘲的反思者",
+                "inner_monologue": "I guess夜路走多真的会遇鬼，这次太冒险了，得赶紧离开。",
+                "external_action": "讽刺地笑，站起来望海面",
+                "speech_text": "“哈哈……薰，原来夜路走多了，真的会遇见鬼的……”",
+                "mood_state": "讽刺"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明抱起月池薰准备撤离。",
+            "interlocutor_info": {
+                "name": "月池薰",
+                "relationship_tag": "弟子"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "警察即将赶到",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "果断的保护者",
+                "inner_monologue": "I need在她睡去前安全撤离，避免被警察发现。",
+                "external_action": "抱起少女",
+                "speech_text": "“警察赶到之前，我们该离开了……”",
+                "mood_state": "果断"
+            }
+        }
+    ]
+}

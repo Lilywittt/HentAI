@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "灵静和朱利安在游戏室前遇到旧识阿水，阿水认出灵静并热情打招呼。",
+            "interlocutor_info": {
+                "name": "阿水",
+                "relationship_tag": "旧识/朋友"
+            },
+            "trigger": {
+                "sender": "阿水",
+                "content": "灵静？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "礼貌而疏离的旧友",
+                "inner_monologue": "I remember him from the old days, but things have changed so much.",
+                "external_action": "目光收回来，望着那男人半晌，憔悴的脸上才渐渐地有了些笑容",
+                "speech_text": "水哥？",
+                "mood_state": "nostalgic"
+            }
+        },
+        {
+            "scene_snapshot": "阿水询问沙沙和家明的近况，灵静透露家明被判刑并失踪的消息。",
+            "interlocutor_info": {
+                "name": "阿水",
+                "relationship_tag": "关心旧事的熟人"
+            },
+            "trigger": {
+                "sender": "阿水",
+                "content": "家明和沙沙呢？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "悲伤而克制的叙述者",
+                "inner_monologue": "I have to share this painful truth, but I can't show how much it still hurts.",
+                "external_action": "灵静微微发出了哽咽的语调，随后又恢复正常，抬起头",
+                "speech_text": "家明他……他帮沙沙逃跑，然后判了刑进监狱，就……找不到了……",
+                "mood_state": "sorrowful"
+            }
+        },
+        {
+            "scene_snapshot": "阿水提到他的老大成永福可能知道乌河岭监狱的事，灵静决定去打听。",
+            "interlocutor_info": {
+                "name": "阿水",
+                "relationship_tag": "提供线索的中间人"
+            },
+            "trigger": {
+                "sender": "阿水",
+                "content": "我……我在想……我们老大……他以前就是帮大哥顶罪进监狱，出来后才上位的，也是乌河岭。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "急切而坚定的寻求者",
+                "inner_monologue": "I must follow any lead to find out what happened to him, no matter the risk.",
+                "external_action": "灵静点了点头，看着他的表情似乎有些怪异",
+                "speech_text": "怎么了？",
+                "mood_state": "determined"
+            }
+        },
+        {
+            "scene_snapshot": "在麻将馆，灵静向成永福展示照片询问家明的情况，气氛紧张。",
+            "interlocutor_info": {
+                "name": "成永福",
+                "relationship_tag": "潜在的信息源/危险人物"
+            },
+            "trigger": {
+                "sender": "成永福",
+                "content": "叫你出去听到没有啊。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静而坚定的询问者",
+                "inner_monologue": "I won't back down now; I need answers about him.",
+                "external_action": "灵静微微地上前一步，打开手袋拿着东西",
+                "speech_text": "我就是……想打听一个人。",
+                "mood_state": "resolute"
+            }
+        },
+        {
+            "scene_snapshot": "成永福看到照片后态度转变，询问灵静与家明的关系。",
+            "interlocutor_info": {
+                "name": "成永福",
+                "relationship_tag": "震惊的知情者"
+            },
+            "trigger": {
+                "sender": "成永福",
+                "content": "他……跟你什么关系啊？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "坦诚而深情的伴侣",
+                "inner_monologue": "This is the truth I hold onto, no matter what others think.",
+                "external_action": "灵静站在那儿，此时的目光淡淡的",
+                "speech_text": "他是……我男人。",
+                "mood_state": "solemn"
+            }
+        }
+    ]
+}

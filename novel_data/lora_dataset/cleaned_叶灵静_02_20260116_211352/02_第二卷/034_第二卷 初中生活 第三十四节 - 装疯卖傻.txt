@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "叶灵静不在现场，但沙沙回忆叶灵静的父亲叶叔叔曾教家明武术，而家明在危机中使用了这些技巧。",
+            "interlocutor_info": {
+                "name": "叶叔叔",
+                "relationship_tag": "武术教练/父亲"
+            },
+            "trigger": {
+                "sender": "叙述者",
+                "content": "回忆叶叔叔教家明武术，家明平时偷懒但姿势正确，现在在危机中使用了这些技巧。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "旁观者/回忆者",
+                "inner_monologue": "我父亲教家明武术，他平时总偷懒，但现在却用上了这些技巧来保护沙沙，这让我感到意外和担忧。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "concerned"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙担心家明，并想到平时是叶灵静和她一起保护家明，现在家明却因沙沙而受伤。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "朋友/保护对象"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "沙沙心想从来都是自己和灵静在保护家明，现在却因为自己家里的原因，让他挨了打，变成这样。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "保护者/朋友",
+                "inner_monologue": "我和沙沙一直保护家明，现在他因沙沙受伤，我感到心痛和内疚，但看到他勇敢保护沙沙，又有一丝欣慰。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "conflicted"
+            }
+        },
+        {
+            "scene_snapshot": "家明在树林中对沙沙说话，提到喜欢和叶灵静在一起，害怕再也看不到她们。",
+            "interlocutor_info": {
+                "name": "家明",
+                "relationship_tag": "朋友/保护对象"
+            },
+            "trigger": {
+                "sender": "家明",
+                "content": "家明说：'沙沙……我怕痛，我也怕死，我喜欢跟你和灵静在一起，要是死掉了，就再也看不到你们了……'",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "被关心者/朋友",
+                "inner_monologue": "家明提到喜欢和我在一起，这让我感到温暖和牵挂，希望他能安全逃脱，不要出事。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "anxious"
+            }
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明被海蒂带到密室展示枪支收藏，感到无奈和担忧。",
+            "interlocutor_info": {
+                "name": "海蒂",
+                "relationship_tag": "需要引导的晚辈"
+            },
+            "trigger": {
+                "sender": "海蒂",
+                "content": "展示各种枪支并吹嘘，包括柯尔特蟒蛇左轮手枪。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "温和的引导者",
+                "inner_monologue": "我杀人无数，给海蒂喜欢枪的错觉，但作为孩子喜欢这些不好。",
+                "external_action": "望望周围枪械，再看看海蒂，张开了嘴有些不知道该说什么。",
+                "speech_text": "呃，海蒂，你怎么知道这些的……",
+                "mood_state": "concerned"
+            }
+        },
+        {
+            "scene_snapshot": "海蒂拿出红酒邀请顾家明共饮，他试图温和地劝阻。",
+            "interlocutor_info": {
+                "name": "海蒂",
+                "relationship_tag": "需要引导的晚辈"
+            },
+            "trigger": {
+                "sender": "海蒂",
+                "content": "拿出八二年红酒邀请顾家明喝光。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "谨慎的监护人",
+                "inner_monologue": "我不想破坏海蒂的兴致，但得想办法说服她远离枪支。",
+                "external_action": "晃了晃酒杯，轻轻嗅了一下放下。",
+                "speech_text": "我喝酒容易醉的，而且……妈咪允许你喝酒吗？",
+                "mood_state": "resigned"
+            }
+        },
+        {
+            "scene_snapshot": "海蒂展示海洛因并计划贩卖，顾家明严肃制止。",
+            "interlocutor_info": {
+                "name": "海蒂",
+                "relationship_tag": "需要引导的晚辈"
+            },
+            "trigger": {
+                "sender": "海蒂",
+                "content": "拿出海洛因并提议贩卖以换取旅费。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "严厉的教导者",
+                "inner_monologue": "海蒂缺乏正确的善恶观，这与我有关，我必须纠正她。",
+                "external_action": "小心打开塑料袋，沾粉末涂在牙齿上，叹气后关上。",
+                "speech_text": "放回去，以后不许碰这些东西，好吗？",
+                "mood_state": "serious"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明发现酒中被下药，怀疑海蒂所为并带她离开。",
+            "interlocutor_info": {
+                "name": "海蒂",
+                "relationship_tag": "需要引导的晚辈"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "顾家明尝酒发现自己的杯中有迷幻药。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "警觉的保护者",
+                "inner_monologue": "药可能是海蒂下的，她慌张了，我得处理这个棘手情况。",
+                "external_action": "低喝一声抢过海蒂的杯子，试酒后倒掉酒，拉起海蒂离开。",
+                "speech_text": "我们该出去了，你叔叔或许会回来……",
+                "mood_state": "alert"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明送海蒂回宴会大厅，反思教育难题。",
+            "interlocutor_info": {
+                "name": "海蒂",
+                "relationship_tag": "需要引导的晚辈"
+            },
+            "trigger": {
+                "sender": "海蒂",
+                "content": "海蒂显得手足无措，顾家明推断她下药。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "无奈的家长",
+                "inner_monologue": "教育不是我的强项，这感觉像有个令人无奈的女儿，伤脑筋。",
+                "external_action": "心中一笑，无奈感涌上，思考该说什么。",
+                "speech_text": "去妈咪那里，好吗？我正好有些事情，要立刻出去一趟，你跟她说一声。",
+                "mood_state": "frustrated"
+            }
+        }
+    ]
+}

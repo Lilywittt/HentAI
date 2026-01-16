@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明开车送雅涵和淘淘回家，在车内进行对话。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "旧情人/朋友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "头不痛了吧？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "温和的关心者",
+                "inner_monologue": "我确实好了，但这些年的事情太复杂了，不想多说。",
+                "external_action": "点了点头",
+                "speech_text": "好了……乱七八糟的事情，折腾了这么多年……",
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在车内回答雅涵关于回来的时间。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "旧情人/朋友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "什么时候……回来的？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "简洁的回答者",
+                "inner_monologue": "我昨晚才回来，不想引起太多追问。",
+                "external_action": null,
+                "speech_text": "昨天晚上。",
+                "mood_state": "淡然"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在车内回应雅涵关于灵静和沙沙的询问。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "旧情人/朋友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "灵静没事吧？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "安抚者",
+                "inner_monologue": "灵静没事，沙沙也回来了，雅涵应该会想见她们。",
+                "external_action": "想了想",
+                "speech_text": "没事。沙沙也回来了，你也几年没见她了吧。",
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在车内面对雅涵自怜的语气，保持沉默。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "旧情人/朋友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "今天下午……是给我和淘淘的吧？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "沉默的倾听者",
+                "inner_monologue": "我无法回应这种情绪，只能保持沉默。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在车内听雅涵抱怨累和哭泣的事情。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "旧情人/朋友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "最近很累呢，想休息一下……都是你害的，今天在那么多人面前哭，明天都不知道该怎么面对他们了，都是我的下属呢……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "默认的承受者",
+                "inner_monologue": "雅涵在发泄情绪，我理解她的压力，但不想多说什么。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "理解"
+            }
+        }
+    ]
+}

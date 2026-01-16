@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在战斗中与东方路短暂合作，准备分头行动。",
+            "interlocutor_info": {
+                "name": "东方路",
+                "relationship_tag": "临时盟友"
+            },
+            "trigger": {
+                "sender": "顾家明",
+                "content": "将狙击枪扔给东方路，拔出两把手枪，询问东方路是否同意保密协议。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静果断的战士",
+                "inner_monologue": "我得确保东方路不会泄露我的身份，这样才能安全脱身。",
+                "external_action": "冷冷地望过来，点头表示达成共识，随后站起来举枪射击。",
+                "speech_text": "你替我保密，我把你送到这里，你觉得可以了吗？",
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在枪林弹雨中迅速消灭多名佣兵，展示高超战斗技巧。",
+            "interlocutor_info": {
+                "name": "佣兵们",
+                "relationship_tag": "敌人"
+            },
+            "trigger": {
+                "sender": "佣兵们",
+                "content": "冲来的佣兵们试图攻击顾家明和东方路。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "精准致命的杀手",
+                "inner_monologue": "这些佣兵训练有素，但火力压制是我的强项，必须快速解决他们。",
+                "external_action": "扣动扳机，精准射击佣兵额头，快速换弹夹，身影消失在黑暗中。",
+                "speech_text": null,
+                "mood_state": "专注"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在离开前向东方路做最后交代，然后撤离战场。",
+            "interlocutor_info": {
+                "name": "东方路",
+                "relationship_tag": "临时盟友"
+            },
+            "trigger": {
+                "sender": "顾家明",
+                "content": "完成火力压制后，准备离开战场。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "神秘而高效的执行者",
+                "inner_monologue": "任务完成，东方路得靠自己了，我得尽快脱身避免暴露。",
+                "external_action": "朝东方路望了一眼，身影消失在另一侧的黑暗中。",
+                "speech_text": "那么……你自求多福了……",
+                "mood_state": "果断"
+            }
+        }
+    ]
+}

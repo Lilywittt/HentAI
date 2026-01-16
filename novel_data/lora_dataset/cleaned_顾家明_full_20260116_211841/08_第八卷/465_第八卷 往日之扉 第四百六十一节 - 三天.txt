@@ -1,0 +1,197 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "早晨三人挤在床上，灵静和家明轻声说话，沙沙在睡梦中撞到家明的下巴。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "轻声说话并伸手去点沙沙的脸颊",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "温和的伴侣",
+                "inner_monologue": "I feel amused by this playful morning chaos with the two people I love.",
+                "external_action": "被沙沙撞到下巴后一阵呲牙咧齿",
+                "speech_text": null,
+                "mood_state": "amused"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙醒来后误以为被家明和灵静打，灵静亲她并说她可爱，引发打闹。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "抽出一只手捂在头上说'头好痛，你们干嘛打我？'",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "戏谑的伴侣",
+                "inner_monologue": "I find this playful accusation endearing and want to join in the fun.",
+                "external_action": "想忍笑可有些困难",
+                "speech_text": null,
+                "mood_state": "playful"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙扑咬灵静，家明在灵静腰上挠了一下，导致灵静坐在家明肚子上。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "被沙沙扑咬后挣扎着想要逃跑",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "调皮的伴侣",
+                "inner_monologue": "I enjoy this lighthearted moment and want to keep the playful energy going.",
+                "external_action": "在灵静腰上挠了一下",
+                "speech_text": null,
+                "mood_state": "mischievous"
+            }
+        },
+        {
+            "scene_snapshot": "床塌后，沙沙若有所思地说昨晚太激烈，灵静脸红并结巴解释。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "若有所思地说'昨天晚上你们也太激烈了吧。'",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "轻松的伴侣",
+                "inner_monologue": "I find this awkward situation funny and feel a warm connection with both of them.",
+                "external_action": "笑了半天，搂着沙沙",
+                "speech_text": "没摔到吧？",
+                "mood_state": "content"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙说'我也想要'，家明和灵静都愣了愣，随后家明抱住她。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "轻声说'我也想要……'",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "深情的伴侣",
+                "inner_monologue": "I'm touched by her vulnerability and want to reassure her of our love.",
+                "external_action": "笑着抱住她",
+                "speech_text": null,
+                "mood_state": "tender"
+            }
+        },
+        {
+            "scene_snapshot": "家明恶搞般纠正沙沙在幽暗天琴的训练故事，被沙沙发觉后遭追杀。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "说起幽暗天琴的训练事情",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "戏弄的伴侣",
+                "inner_monologue": "I know these skills well and enjoy teasing her to lighten the mood.",
+                "external_action": "恶搞般的出来纠正，不论怎么掰都能把沙沙唬得一愣一愣的",
+                "speech_text": null,
+                "mood_state": "teasing"
+            }
+        },
+        {
+            "scene_snapshot": "家明说起自己流浪时的艰难经历，灵静和沙沙为他难过。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "家明",
+                "content": "说起自己流浪时生吞树皮草根、昆虫的生存本能",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "反思的伴侣",
+                "inner_monologue": "I regret the pain I caused them and am grateful for their understanding.",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "reflective"
+            }
+        },
+        {
+            "scene_snapshot": "家明说起穆清清的事情，灵静和沙沙抗议，家明无奈解释。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "抗议说'什么嘛，这样也能勾引到女孩子。'",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "耐心的伴侣",
+                "inner_monologue": "I need to clarify this carefully to avoid misunderstandings with them.",
+                "external_action": null,
+                "speech_text": "只好无奈的解释",
+                "mood_state": "patient"
+            }
+        },
+        {
+            "scene_snapshot": "每天傍晚家明在天台给雅涵打电话，灵静和沙沙选择不打招呼。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "家明",
+                "content": "问灵静和沙沙跟不跟雅涵姐打招呼",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "支持的伴侣",
+                "inner_monologue": "I understand their hesitation and want to give them space to process this complex situation.",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "understanding"
+            }
+        },
+        {
+            "scene_snapshot": "在超市被新河帮的人围住，领头者警告沙沙不要搞事。",
+            "interlocutor_info": {
+                "name": "新河帮领头者",
+                "relationship_tag": "潜在威胁"
+            },
+            "trigger": {
+                "sender": "新河帮领头者",
+                "content": "说'我听说过你……如果你们再敢出来搞事，就弄死你！'",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "警惕的伴侣",
+                "inner_monologue": "I need to assess this threat quickly to protect us from any danger.",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "alert"
+            }
+        }
+    ]
+}

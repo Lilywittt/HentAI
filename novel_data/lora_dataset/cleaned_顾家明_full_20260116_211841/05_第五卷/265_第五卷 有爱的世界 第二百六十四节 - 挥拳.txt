@@ -1,0 +1,140 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明和雅涵在厂房墙角下观看麦克和加摩尔的打斗，同时雅涵在笑闹中捶打家明。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密的女友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "雅涵有一下没一下地握起拳头打家明，偶尔捂着肚子弯腰，笑得喘不过气来。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "温和的男友",
+                "inner_monologue": "我虽然觉得她这样笑闹有点夸张，但看她开心的样子，我也忍不住想笑。",
+                "external_action": "瞥着眼睛看她，嘴角露出笑容。",
+                "speech_text": "喂喂……好了吧……都半个小时了，你还这个样子，有人点你笑穴啦，没看麦克和那个家伙已经打起来了么……就算退一步说，你笑就笑了，干嘛笑起来非要打我……",
+                "mood_state": "amused"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵回忆起家明过去与韩刚成的比武事件，并指责家明骗了她。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密的女友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "雅涵提到韩刚成的比武，指责家明骗了她，并说灵静和沙沙曾为他担心。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "辩解但轻松的男友",
+                "inner_monologue": "这些旧事她记得这么清楚，我确实有点理亏，但当时也没恶意，现在只能由着她说了。",
+                "external_action": null,
+                "speech_text": "那些事情我又没骗你！可是我又没什么恶意……",
+                "mood_state": "defensive"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵提议家明去帮助麦克，但家明拒绝并解释原因。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密的女友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "雅涵提议家明去指点麦克或帮忙，因为对麦克的帮忙有些感激。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "理性的旁观者",
+                "inner_monologue": "这是他们的传统，我插手反而不好，等打完再处理伤口更合适。",
+                "external_action": "笑着摇了摇头。",
+                "speech_text": "这是他们的习惯，打过一次之后，无论胜负，大家以前的过节就算没有了。我看还是等他们打完，我替他处理伤口吧。这方面我拿手。",
+                "mood_state": "calm"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵询问家明是否真的想当外科医生，两人就此闲聊。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密的女友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "雅涵笑着问家明将来是否真的准备当外科医生。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "自信的年轻人",
+                "inner_monologue": "我在这方面确实有天赋，叶妈妈也认可，但未来还不确定，不过现在聊聊也无妨。",
+                "external_action": null,
+                "speech_text": "不一定吧，不过现在想想，我确实在这方面比较拿手，叶妈妈……呃，她也觉得我干得不错，怎么了？当医生不好吗？现在的人不都希望将来小孩子长大了当医生当律师么。",
+                "mood_state": "confident"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵对武术感兴趣，向家明询问应对打斗招式的方法。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密的女友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "雅涵向家明询问如何用咏春拳、太极等招式应对打斗中的攻击。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "耐心的武术指导",
+                "inner_monologue": "她只是好奇，不会真的去苦练，我可以轻松地解释一下，让她开心就好。",
+                "external_action": "笑着跟她解释，一面乱七八糟地比划。",
+                "speech_text": "你说的只是咏春拳打起来漂亮的招式啊，真的要在这样的决斗里用，这些东西要拆开的……",
+                "mood_state": "patient"
+            }
+        },
+        {
+            "scene_snapshot": "雪莉靠近并教导家明和雅涵出拳的基本方法，家明表现出崇拜的样子。",
+            "interlocutor_info": {
+                "name": "雪莉",
+                "relationship_tag": "友好的当地人"
+            },
+            "trigger": {
+                "sender": "雪莉",
+                "content": "雪莉教导家明和雅涵出拳的基本方法，并表演打沙袋和回身旋踢。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "谦虚的游客",
+                "inner_monologue": "她教得挺认真，但我得装出崇拜的样子来配合她，免得扫兴。",
+                "external_action": "做出目瞪口呆的崇拜模样。",
+                "speech_text": null,
+                "mood_state": "playful"
+            }
+        },
+        {
+            "scene_snapshot": "麦克被加摩尔踢飞，即将撞上带钢钎的箱子，家明瞬间冲过去一拳打飞箱子救下麦克。",
+            "interlocutor_info": {
+                "name": "环境",
+                "relationship_tag": "危机情境"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "麦克被加摩尔踢飞，身体飞向一个带钢钎的箱子，有生命危险。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "隐藏的高手",
+                "inner_monologue": "必须立刻行动，否则麦克会没命，这一拳得用全力但不能暴露太多。",
+                "external_action": "瞬间冲过几米距离，一拳打飞钢铁箱子。",
+                "speech_text": null,
+                "mood_state": "focused"
+            }
+        }
+    ]
+}

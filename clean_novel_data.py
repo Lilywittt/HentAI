@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Ğ¡ËµÊı¾İÇåÏ´ÓëÌØÕ÷ÌáÈ¡½Å±¾ (Òì²½¸ßĞÔÄÜ°æ)
-¹¦ÄÜ£ºÀûÓÃ DeepSeek API ÌáÈ¡Ğ¡ËµÕÂ½ÚÖĞÖ÷½ÇµÄ½»»¥ĞĞÎª£¬²¢×ª»»Îª½á¹¹»¯ JSON ÓïÁÏ¡£
-ÓÅ»¯£ºÖ§³ÖÒì²½ IO¡¢²¢·¢¿ØÖÆ¡¢½á¹û»º´æ¼° Token Ê¹ÓÃÁ¿Í³¼Æ¡£
+å°è¯´æ•°æ®æ¸…æ´—ä¸ç‰¹å¾æå–è„šæœ¬ (å¼‚æ­¥é«˜æ€§èƒ½ç‰ˆ)
+åŠŸèƒ½ï¼šåˆ©ç”¨ DeepSeek API æå–å°è¯´ç« èŠ‚ä¸­ä¸»è§’çš„äº¤äº’è¡Œä¸ºï¼Œå¹¶è½¬æ¢ä¸ºç»“æ„åŒ– JSON è¯­æ–™ã€‚
+ä¼˜åŒ–ï¼šæ”¯æŒå¼‚æ­¥ IOã€å¹¶å‘æ§åˆ¶ã€ç»“æœç¼“å­˜åŠ Token ä½¿ç”¨é‡ç»Ÿè®¡ã€‚
 """
 
 import os
@@ -20,121 +20,139 @@ from dotenv import load_dotenv
 from tenacity import retry, stop_after_attempt, wait_exponential
 
 # ==========================================
-# 1. Prompt Ä£°å¹ÜÀíÆ÷ (´ÓÍâ²¿ÎÄ¼ş¼ÓÔØ)
+# 1. Prompt æ¨¡æ¿ç®¡ç†å™¨ (ä»å¤–éƒ¨æ–‡ä»¶åŠ è½½)
 # ==========================================
 class PromptManager:
     """
-    ¸ºÔğ´ÓÍâ²¿ÎÄ¼ş¼ÓÔØ AI Ö¸ÁîÄ£°å¡£
-    ½« Prompt ·ÅÔÚÍâ²¿ÎÄ¼ş¿ÉÒÔ±ÜÃâ Python ½Å±¾±¾ÉíµÄ±àÂë³åÍ»£¬Ò²·½±ãÓÃ»§Ö±½Ó±à¼­¡£
+    è´Ÿè´£ä»å¤–éƒ¨æ–‡ä»¶åŠ è½½ AI æŒ‡ä»¤æ¨¡æ¿ã€‚
+    å°† Prompt æ”¾åœ¨å¤–éƒ¨æ–‡ä»¶å¯ä»¥é¿å… Python è„šæœ¬æœ¬èº«çš„ç¼–ç å†²çªï¼Œä¹Ÿæ–¹ä¾¿ç”¨æˆ·ç›´æ¥ç¼–è¾‘ã€‚
     """
-    PROMPT_FILE = "prompt_template.txt"
     DEFAULT_SYSTEM = "You are a professional novel data cleaner. Output JSON."
 
-    @classmethod
-    def load_system_prompt(cls) -> str:
-        """´Ó prompt_template.txt ¶ÁÈ¡Ö¸ÁîÄÚÈİ"""
-        if not os.path.exists(cls.PROMPT_FILE):
-            return cls.DEFAULT_SYSTEM
-        
-        # ³¢ÊÔ¶àÖÖ±àÂë¶ÁÈ¡Ä£°åÎÄ¼ş
+    @staticmethod
+    def _read_file(path: str) -> str:
+        """é²æ£’è¯»å–æ–‡ä»¶ï¼Œæ”¯æŒå¤šç§ç¼–ç è‡ªåŠ¨åˆ‡æ¢"""
+        if not os.path.exists(path):
+            return ""
         for enc in ['utf-8', 'gbk', 'utf-16']:
             try:
-                with open(cls.PROMPT_FILE, 'r', encoding=enc) as f:
+                with open(path, 'r', encoding=enc) as f:
                     return f.read()
             except:
                 continue
-        return cls.DEFAULT_SYSTEM
+        return ""
+
+    @classmethod
+    def load_composed_prompt(cls, instruction_file: str, schema_file: str) -> str:
+        """è¯»å–æŒ‡ä»¤æ–‡ä»¶å’ŒSchemaæ–‡ä»¶ï¼Œå¹¶è¿›è¡Œæ‹¼æ¥"""
+        instruction = cls._read_file(instruction_file)
+        schema = cls._read_file(schema_file)
+        
+        if not instruction:
+            return cls.DEFAULT_SYSTEM
+            
+        # æ›¿æ¢å ä½ç¬¦
+        if "{output_schema}" in instruction:
+            return instruction.replace("{output_schema}", schema)
+        else:
+            # å¦‚æœæ²¡æœ‰å ä½ç¬¦ï¼Œé»˜è®¤è¿½åŠ åœ¨æœ€å
+            return f"{instruction}\n\n### Output Schema\n{schema}"
 
 # ==========================================
-# 2. È«¾ÖÅäÖÃÀà
+# 2. å…¨å±€é…ç½®ç±»
 # ==========================================
 class Config:
-    """Í³Ò»¹ÜÀí½Å±¾ÔËĞĞËùĞèµÄ¸÷ÏîÅäÖÃ²ÎÊı"""
+    """ç»Ÿä¸€ç®¡ç†è„šæœ¬è¿è¡Œæ‰€éœ€çš„å„é¡¹é…ç½®å‚æ•°"""
     load_dotenv()
     API_KEY = os.getenv("DEEPSEEK_API_KEY")
     BASE_URL = os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
     
-    # Â·¾¶¶¨Òå
+    # è·¯å¾„å®šä¹‰
     BASE_INPUT_DIR = "novel_data/split_data"
     LORA_DATASET_DIR = "novel_data/lora_dataset"
     CACHE_DIR = "novel_data/.cache"
     
-    # ²¢·¢Óë·ÑÓÃÅäÖÃ
-    MAX_CONCURRENT_TASKS = 10 # Í¬Ê±½øĞĞµÄ API ÇëÇóÊı
-    PRICE_PROMPT = 0.001     # Ã¿ 1000 tokens µÄÊäÈë¼Û¸ñ (CNY)
-    PRICE_COMPLETION = 0.002 # Ã¿ 1000 tokens µÄÊä³ö¼Û¸ñ (CNY)
+    # å¹¶å‘ä¸è´¹ç”¨é…ç½®
+    MAX_CONCURRENT_TASKS = 10 # åŒæ—¶è¿›è¡Œçš„ API è¯·æ±‚æ•°
+    PRICE_PROMPT = 0.001     # æ¯ 1000 tokens çš„è¾“å…¥ä»·æ ¼ (CNY)
+    PRICE_COMPLETION = 0.002 # æ¯ 1000 tokens çš„è¾“å‡ºä»·æ ¼ (CNY)
 
     @classmethod
     def validate(cls):
-        """¼ì²é±ØÒªÅäÖÃÏî"""
+        """æ£€æŸ¥å¿…è¦é…ç½®é¡¹"""
         if not cls.API_KEY:
-            raise ValueError("Î´ÔÚ .env ÎÄ¼şÖĞÕÒµ½ DEEPSEEK_API_KEY")
+            raise ValueError("æœªåœ¨ .env æ–‡ä»¶ä¸­æ‰¾åˆ° DEEPSEEK_API_KEY")
 
 # ==========================================
-# 3. Í³¼Æ¹ÜÀíÄ£¿é
+# 3. ç»Ÿè®¡ç®¡ç†æ¨¡å—
 # ==========================================
 class StatsManager:
-    """¸ºÔğÊµÊ±Í³¼Æ Token ÏûºÄÁ¿¡¢ÈÎÎñ³É¹¦ÂÊ¼°Ô¤¹À·ÑÓÃ"""
+    """è´Ÿè´£å®æ—¶ç»Ÿè®¡ Token æ¶ˆè€—é‡ã€ä»»åŠ¡æˆåŠŸç‡åŠé¢„ä¼°è´¹ç”¨"""
     def __init__(self):
         self.prompt_tokens = 0
         self.completion_tokens = 0
         self.success = 0
         self.failed = 0
         self.skipped = 0
-        self._lock = asyncio.Lock() # Ğ­³ÌËø£¬È·±£Í³¼ÆÊı¾İ°²È«
+        self._lock = asyncio.Lock() # åç¨‹é”ï¼Œç¡®ä¿ç»Ÿè®¡æ•°æ®å®‰å…¨
 
     async def update_usage(self, usage):
-        """¸üĞÂ Token Ê¹ÓÃÁ¿"""
+        """æ›´æ–° Token ä½¿ç”¨é‡"""
         async with self._lock:
             self.prompt_tokens += usage.prompt_tokens
             self.completion_tokens += usage.completion_tokens
 
     async def update_status(self, status: str):
-        """¸üĞÂÈÎÎñÖ´ĞĞ×´Ì¬"""
+        """æ›´æ–°ä»»åŠ¡æ‰§è¡ŒçŠ¶æ€"""
         async with self._lock:
             if status == "success": self.success += 1
             elif status == "failed": self.failed += 1
             elif status == "skipped": self.skipped += 1
 
     def get_cost(self) -> float:
-        """¸ù¾İµ±Ç°ÏûºÄ¼ÆËãÔ¤¹À³É±¾"""
+        """æ ¹æ®å½“å‰æ¶ˆè€—è®¡ç®—é¢„ä¼°æˆæœ¬"""
         return (self.prompt_tokens / 1000 * Config.PRICE_PROMPT) + \
                (self.completion_tokens / 1000 * Config.PRICE_COMPLETION)
 
 # ==========================================
-# 4. ºËĞÄÇåÏ´ÒıÇæ
+# 4. æ ¸å¿ƒæ¸…æ´—å¼•æ“
 # ==========================================
 class NovelCleaner:
-    """·â×°ÁË´ÓÉ¨ÃèÎÄ¼şµ½µ÷ÓÃ API ´¦ÀíµÄÍêÕûÇåÏ´Á÷³Ì"""
-    def __init__(self, target_prefix: Optional[str] = None):
+    """å°è£…äº†ä»æ‰«ææ–‡ä»¶åˆ°è°ƒç”¨ API å¤„ç†çš„å®Œæ•´æ¸…æ´—æµç¨‹"""
+    def __init__(self, target_prefix: Optional[str] = None, char_name: str = "é¡¾å®¶æ˜", 
+                 prompt_instruction_file: str = "prompt_instruction.txt", 
+                 output_schema_file: str = "output_schema.txt",
+                 force_refresh: bool = False):
         Config.validate()
         self.client = AsyncOpenAI(api_key=Config.API_KEY, base_url=Config.BASE_URL)
         self.stats = StatsManager()
         self.semaphore = asyncio.Semaphore(Config.MAX_CONCURRENT_TASKS)
         self.target_prefix = target_prefix or "full"
-        self.system_prompt = PromptManager.load_system_prompt()
+        self.char_name = char_name
+        self.system_prompt = PromptManager.load_composed_prompt(prompt_instruction_file, output_schema_file)
+        self.force_refresh = force_refresh
         
-        # ×Ô¶¯Éú³É´øÊ±¼ä´ÁµÄÈÎÎñÊä³öÄ¿Â¼
+        # è‡ªåŠ¨ç”Ÿæˆå¸¦æ—¶é—´æˆ³çš„ä»»åŠ¡è¾“å‡ºç›®å½•ï¼ŒåŒ…å«è§’è‰²åä½œä¸ºç´¢å¼•
         timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-        self.output_root = os.path.join(Config.LORA_DATASET_DIR, f"cleaned_{self.target_prefix}_{timestamp}")
+        self.output_root = os.path.join(Config.LORA_DATASET_DIR, f"cleaned_{self.char_name}_{self.target_prefix}_{timestamp}")
         os.makedirs(self.output_root, exist_ok=True)
         os.makedirs(Config.CACHE_DIR, exist_ok=True)
         
         self._setup_logging()
 
     def _setup_logging(self):
-        """³õÊ¼»¯ÈÕÖ¾ÏµÍ³£¬Í¬Ê±Êä³öµ½ÎÄ¼şºÍ¿ØÖÆÌ¨"""
+        """åˆå§‹åŒ–æ—¥å¿—ç³»ç»Ÿï¼ŒåŒæ—¶è¾“å‡ºåˆ°æ–‡ä»¶å’Œæ§åˆ¶å°"""
         log_file = os.path.join(self.output_root, "processing.log")
         logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s',
                             handlers=[logging.FileHandler(log_file, encoding='utf-8'), logging.StreamHandler(sys.stdout)],
                             force=True)
 
     def _get_hash(self, content: str) -> str:
-        """Éú³ÉÎÄ±¾¹şÏ£Öµ£¬ÓÃÓÚ»º´æÎ¨Ò»Ê¶±ğ"""
+        """ç”Ÿæˆæ–‡æœ¬å“ˆå¸Œå€¼ï¼Œç”¨äºç¼“å­˜å”¯ä¸€è¯†åˆ«"""
         return hashlib.md5(content.encode('utf-8', errors='ignore')).hexdigest()
 
     def _read_file(self, path: str) -> str:
-        """Â³°ô¶ÁÈ¡ÎÄ¼ş£¬Ö§³Ö¶àÖÖ±àÂë×Ô¶¯ÇĞ»»"""
+        """é²æ£’è¯»å–æ–‡ä»¶ï¼Œæ”¯æŒå¤šç§ç¼–ç è‡ªåŠ¨åˆ‡æ¢"""
         for enc in ['utf-8', 'gbk', 'utf-16']:
             try:
                 with open(path, 'r', encoding=enc) as f: return f.read()
@@ -143,123 +161,150 @@ class NovelCleaner:
 
     @retry(wait=wait_exponential(multiplier=1, min=4, max=60), stop=stop_after_attempt(5))
     async def _api_call(self, messages: List[Dict]):
-        """Ö´ĞĞ´øÖØÊÔ»úÖÆµÄÒì²½ API µ÷ÓÃ"""
+        """æ‰§è¡Œå¸¦é‡è¯•æœºåˆ¶çš„å¼‚æ­¥ API è°ƒç”¨"""
         return await self.client.chat.completions.create(
             model="deepseek-chat", messages=messages, 
             response_format={"type": "json_object"}, temperature=0.3
         )
 
-    async def process_chapter(self, file_path: str, output_path: str, char_name: str):
-        """´¦Àíµ¥¸öÕÂ½ÚµÄĞ­³Ì"""
+    async def process_chapter(self, file_path: str, output_path: str, char_name: str) -> Optional[str]:
+        """å¤„ç†å•ä¸ªç« èŠ‚çš„åç¨‹"""
         file_name = os.path.basename(file_path)
         try:
             content = self._read_file(file_path)
             
-            # ±¾µØÓïÒå¹ıÂË£ºÌø¹ı²»º¬Ö÷½ÇÃû³ÆµÄÕÂ½Ú£¬½ÚÊ¡ API ³É±¾
+            # æœ¬åœ°è¯­ä¹‰è¿‡æ»¤ï¼šè·³è¿‡ä¸å«ä¸»è§’åç§°çš„ç« èŠ‚ï¼ŒèŠ‚çœ API æˆæœ¬
             if char_name not in content and char_name[1:] not in content:
                 await self.stats.update_status("skipped")
-                return
+                return None
 
-            # »º´æĞ£Ñé£ºÈç¹û´¦Àí¹ıÏàÍ¬ÄÚÈİ£¬Ö±½Ó¸´ÓÃ½á¹û
-            c_hash = self._get_hash(content)
+            # ç¼“å­˜æ ¡éªŒï¼šå°† "Prompt å†…å®¹" åŠ å…¥å“ˆå¸Œè®¡ç®—ï¼Œç¡®ä¿ Prompt ä¿®æ”¹åç¼“å­˜è‡ªåŠ¨å¤±æ•ˆ
+            # å¦‚æœ force_refresh ä¸º Trueï¼Œåˆ™è·³è¿‡ç¼“å­˜æ£€æŸ¥
+            c_hash = self._get_hash(content + self.system_prompt)
             c_path = os.path.join(Config.CACHE_DIR, f"{c_hash}.json")
-            if os.path.exists(c_path):
+            
+            if not self.force_refresh and os.path.exists(c_path):
                 res = self._read_file(c_path)
                 with open(output_path, 'w', encoding='utf-8') as f: f.write(res)
                 await self.stats.update_status("success")
-                return
+                return output_path
 
-            # ²¢·¢¿ØÖÆ£ºÔÚĞÅºÅÁ¿²ÛÎ»¿ÕÏĞÊ±·¢ÆğÇëÇó
+            # å¹¶å‘æ§åˆ¶ï¼šåœ¨ä¿¡å·é‡æ§½ä½ç©ºé—²æ—¶å‘èµ·è¯·æ±‚
             async with self.semaphore:
+                # åŠ¨æ€æ›¿æ¢ System Prompt ä¸­çš„è§’è‰²å ä½ç¬¦
+                formatted_system_prompt = self.system_prompt.replace("{character_name}", char_name)
+                
                 response = await self._api_call([
-                    {"role": "system", "content": self.system_prompt},
-                    {"role": "user", "content": f"Ä¿±ê½ÇÉ«: {char_name}\nÀ´Ô´ÎÄ¼ş: {file_name}\n\n´ı´¦ÀíÎÄ±¾:\n{content}"}
+                    {"role": "system", "content": formatted_system_prompt},
+                    {"role": "user", "content": f"ç›®æ ‡è§’è‰²: {char_name}\næ¥æºæ–‡ä»¶: {file_name}\n\nå¾…å¤„ç†æ–‡æœ¬:\n{content}"}
                 ])
                 await self.stats.update_usage(response.usage)
                 res_content = response.choices[0].message.content
                 
-                # Ğ´Èë½á¹ûÎÄ¼ş²¢´æÈë»º´æ
+                # å†™å…¥ç»“æœæ–‡ä»¶å¹¶å­˜å…¥ç¼“å­˜
                 with open(output_path, 'w', encoding='utf-8') as f: f.write(res_content)
                 with open(c_path, 'w', encoding='utf-8') as f: f.write(res_content)
                 await self.stats.update_status("success")
+                return output_path
         except Exception as e:
-            logging.error(f"´¦Àí {file_name} Ê±·¢Éú´íÎó: {e}")
+            logging.error(f"å¤„ç† {file_name} æ—¶å‘ç”Ÿé”™è¯¯: {e}")
             await self.stats.update_status("failed")
+            return None
 
-    async def run(self, start_idx: Optional[int] = None, end_idx: Optional[int] = None):
+    async def run(self, start_idx: Optional[int] = None, end_idx: Optional[int] = None) -> List[str]:
         """
-        Æô¶¯ÇåÏ´ÈÎÎñÖ÷Ñ­»·
-        :param start_idx: ÆğÊ¼ÕÂ½Ú±àºÅ (°üº¬)
-        :param end_idx: ½áÊøÕÂ½Ú±àºÅ (°üº¬)
+        å¯åŠ¨æ¸…æ´—ä»»åŠ¡ä¸»å¾ªç¯
+        :param start_idx: èµ·å§‹ç« èŠ‚ç¼–å· (åŒ…å«)
+        :param end_idx: ç»“æŸç« èŠ‚ç¼–å· (åŒ…å«)
         """
-        # É¨Ãè²¢¹ıÂËÄ¿±ê¾í²á
+        # æ‰«æå¹¶è¿‡æ»¤ç›®æ ‡å·å†Œ
         vols = sorted([d for d in glob.glob(os.path.join(Config.BASE_INPUT_DIR, "[0-9][0-9]_*")) if os.path.isdir(d)])
         if self.target_prefix != "full":
             vols = [v for v in vols if os.path.basename(v).startswith(self.target_prefix)]
         
         if not vols:
-            logging.error(f"Î´ÕÒµ½Ç°×ºÎª {self.target_prefix} µÄÄ¿±êÎÄ¼ş¼Ğ")
+            logging.error(f"æœªæ‰¾åˆ°å‰ç¼€ä¸º {self.target_prefix} çš„ç›®æ ‡æ–‡ä»¶å¤¹")
             return
 
-        # ¹¹ÔìÒì²½ÈÎÎñÁĞ±í
+        # æ„é€ å¼‚æ­¥ä»»åŠ¡åˆ—è¡¨
         tasks_list = []
-        char_name = "¹Ë¼ÒÃ÷" # Ö÷½ÇĞÕÃû
         for vol in vols:
             vol_out = os.path.join(self.output_root, os.path.basename(vol))
             os.makedirs(vol_out, exist_ok=True)
             
-            # »ñÈ¡µ±Ç°¾íÏÂµÄËùÓĞÕÂ½ÚÎÄ¼ş
+            # è·å–å½“å‰å·ä¸‹çš„æ‰€æœ‰ç« èŠ‚æ–‡ä»¶
             chapter_files = sorted(glob.glob(os.path.join(vol, "*.txt")))
             
             for cf in chapter_files:
                 file_name = os.path.basename(cf)
-                # ÌáÈ¡ÎÄ¼şÃû¿ªÍ·µÄÊı×Ö±àºÅ (Èç "001")
+                # æå–æ–‡ä»¶åå¼€å¤´çš„æ•°å­—ç¼–å· (å¦‚ "001")
                 try:
                     current_file_idx = int(file_name.split('_')[0])
                 except (ValueError, IndexError):
                     current_file_idx = -1
 
-                # ·¶Î§¹ıÂËÂß¼­
+                # èŒƒå›´è¿‡æ»¤é€»è¾‘
                 if start_idx is not None and current_file_idx < start_idx:
                     continue
                 if end_idx is not None and current_file_idx > end_idx:
                     continue
 
-                tasks_list.append(self.process_chapter(cf, os.path.join(vol_out, file_name), char_name))
+                tasks_list.append(self.process_chapter(cf, os.path.join(vol_out, file_name), self.char_name))
 
         if not tasks_list:
-            logging.warning(f"ÔÚÖ¸¶¨·¶Î§ [{start_idx} ~ {end_idx}] ÄÚÎ´ÕÒµ½¿É´¦ÀíµÄÈÎÎñ")
-            return
+            logging.warning(f"åœ¨æŒ‡å®šèŒƒå›´ [{start_idx} ~ {end_idx}] å†…æœªæ‰¾åˆ°å¯å¤„ç†çš„ä»»åŠ¡")
+            return []
 
-        logging.info(f"ÇåÏ´ÈÎÎñÆô¶¯: {self.target_prefix} | ·¶Î§: {start_idx or 'Start'} ~ {end_idx or 'End'} | ´ı´¦ÀíÕÂ½Ú: {len(tasks_list)}")
+        logging.info(f"æ¸…æ´—ä»»åŠ¡å¯åŠ¨: {self.target_prefix} | èŒƒå›´: {start_idx or 'Start'} ~ {end_idx or 'End'} | å¾…å¤„ç†ç« èŠ‚: {len(tasks_list)}")
         
-        # ÀûÓÃ tqdm.asyncio ÏÔÊ¾²¢·¢½ø¶È
+        generated_files = []
+        # åˆ©ç”¨ tqdm.asyncio æ˜¾ç¤ºå¹¶å‘è¿›åº¦
         for f in tqdm.as_completed(tasks_list, total=len(tasks_list), desc=f"Cleaning {self.target_prefix}"):
-            await f
+            res = await f
+            if res:
+                generated_files.append(res)
+            
             done = self.stats.success + self.stats.failed + self.stats.skipped
-            # Ã¿Íê³É 10 ÕÂÊä³öÒ»´Î½×¶ÎĞÔ×´Ì¬
+            # æ¯å®Œæˆ 10 ç« è¾“å‡ºä¸€æ¬¡é˜¶æ®µæ€§çŠ¶æ€
             if done % 10 == 0 or done == len(tasks_list):
-                logging.info(f"ÈÎÎñ½ø¶È: {done}/{len(tasks_list)} | ³É¹¦:{self.stats.success} Ê§°Ü:{self.stats.failed} Ìø¹ı:{self.stats.skipped} | Ô¤¹À³É±¾: {self.stats.get_cost():.2f} CNY")
+                logging.info(f"ä»»åŠ¡è¿›åº¦: {done}/{len(tasks_list)} | æˆåŠŸ:{self.stats.success} å¤±è´¥:{self.stats.failed} è·³è¿‡:{self.stats.skipped} | é¢„ä¼°æˆæœ¬: {self.stats.get_cost():.2f} CNY")
         
         logging.info("-" * 30)
-        logging.info(f"ÇåÏ´Íê±Ï¡£×îÖÕÔ¤¹À³É±¾: {self.stats.get_cost():.2f} CNY. Êä³ö½á¹ûÒÑ´æÖÁ: {self.output_root}")
+        logging.info(f"æ¸…æ´—å®Œæ¯•ã€‚æœ€ç»ˆé¢„ä¼°æˆæœ¬: {self.stats.get_cost():.2f} CNY. è¾“å‡ºç»“æœå·²å­˜è‡³: {self.output_root}")
+        return generated_files
 
 # ==========================================
-# 5. Ö´ĞĞÈë¿Ú
+# 5. æ‰§è¡Œå…¥å£
 # ==========================================
 if __name__ == "__main__":
-    # ÅäÖÃ Windows Æ½Ì¨Òì²½ÊÂ¼şÑ­»·²ßÂÔ£¬·ÀÖ¹ÔËĞĞÊ±¾¯¸æ
+    # é…ç½® Windows å¹³å°å¼‚æ­¥äº‹ä»¶å¾ªç¯ç­–ç•¥ï¼Œé˜²æ­¢è¿è¡Œæ—¶è­¦å‘Š
     if sys.platform == 'win32':
         asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
     
-    # --- ÈÎÎñÅäÖÃÖĞĞÄ ---
-    # 1. Ñ¡Ôñ¾íÇ°×º (Èç "03", "04", »ò None ´ú±íÈ«±¾)
-    TARGET_PREFIX = "03" 
+    # --- ä»»åŠ¡é…ç½®ä¸­å¿ƒ ---
+    # 1. é€‰æ‹©å·å‰ç¼€ (å¦‚ "03", "04", æˆ– None ä»£è¡¨å…¨æœ¬)
+    TARGET_PREFIX = "02" 
     
-    # 2. Ñ¡ÔñÕÂ½Ú·¶Î§ (»ùÓÚÎÄ¼ş¿ªÍ·µÄÊı×Ö±àºÅ£¬None ´ú±í²»ÏŞÖÆ)
-    # Ê¾Àı£º´¦ÀíµÚ 100 µ½ 150 ÕÂ
-    START_CHAPTER = None  # ÆğÊ¼±àºÅ
-    END_CHAPTER = None    # ½áÊø±àºÅ
+    # 2. é€‰æ‹©ç« èŠ‚èŒƒå›´ (åŸºäºæ–‡ä»¶å¼€å¤´çš„æ•°å­—ç¼–å·ï¼ŒNone ä»£è¡¨ä¸é™åˆ¶)
+    # ç¤ºä¾‹ï¼šå¤„ç†ç¬¬ 100 åˆ° 150 ç« 
+    START_CHAPTER = None  # èµ·å§‹ç¼–å·
+    END_CHAPTER = None    # ç»“æŸç¼–å·
     
-    cleaner = NovelCleaner(target_prefix=TARGET_PREFIX)
+    # 3. ç›®æ ‡è§’è‰²é…ç½®
+    TARGET_CHARACTER = "é¡¾å®¶æ˜"
+
+    # 4. Prompt æ¨¡æ¿æ–‡ä»¶é…ç½®
+    PROMPT_INSTRUCTION_FILE = "prompt_instruction.txt"
+    OUTPUT_SCHEMA_FILE = "output_schema.txt"
+
+    # 5. æ˜¯å¦å¼ºåˆ¶åˆ·æ–°ç¼“å­˜ (True: å¿½ç•¥ç¼“å­˜å¼ºåˆ¶é‡è·‘; False: ä¼˜å…ˆä½¿ç”¨ç¼“å­˜)
+    FORCE_REFRESH = True
+    
+    cleaner = NovelCleaner(
+        target_prefix=TARGET_PREFIX, 
+        char_name=TARGET_CHARACTER, 
+        prompt_instruction_file=PROMPT_INSTRUCTION_FILE, 
+        output_schema_file=OUTPUT_SCHEMA_FILE, 
+        force_refresh=FORCE_REFRESH
+    )
     asyncio.run(cleaner.run(start_idx=START_CHAPTER, end_idx=END_CHAPTER))

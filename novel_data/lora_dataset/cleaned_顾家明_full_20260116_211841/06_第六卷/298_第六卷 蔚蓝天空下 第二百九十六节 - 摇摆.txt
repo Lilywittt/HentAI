@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在黄家别墅自己的小房间里看漫画，天雨正则来访并翻看他的旧课本。",
+            "interlocutor_info": {
+                "name": "天雨正则",
+                "relationship_tag": "同为黑暗世界的同行，有一定信任但保持距离的盟友"
+            },
+            "trigger": {
+                "sender": "天雨正则",
+                "content": "天雨正则提到从顾家明九一年冬天的课本记录中看出他像是突然变了一个人。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静、淡然的学生",
+                "inner_monologue": "我早就料到天雨正则这种专业人士会看出重生的痕迹，但没必要全盘托出，用裴罗嘉杀手的事件搪塞过去就行。",
+                "external_action": "目光望向那堆课本，随后拿出另一本漫画书打开。",
+                "speech_text": "九一年十一月的时候两个裴罗嘉的杀手正好到江海挑人，那天我离家出走，恰巧遇上，然后他们死了，我的生命大概从那一天开始改变……如果没有那回事，我们将来应该会成为敌人才对。",
+                "mood_state": "淡然"
+            }
+        },
+        {
+            "scene_snapshot": "天雨正则提议用几亿订单帮助黄家脱困，顾家明拒绝。",
+            "interlocutor_info": {
+                "name": "天雨正则",
+                "relationship_tag": "同为黑暗世界的同行，有一定信任但保持距离的盟友"
+            },
+            "trigger": {
+                "sender": "天雨正则",
+                "content": "天雨正则说可以拿出几个亿的订单来帮黄家脱困。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "独立、不依赖他人的少年",
+                "inner_monologue": "我不需要天雨正则的施舍，黄家的事我自己能处理，保持距离对双方都好。",
+                "external_action": "看着漫画，语气淡然。",
+                "speech_text": "吃你的苹果吧。",
+                "mood_state": "冷淡"
+            }
+        },
+        {
+            "scene_snapshot": "黄建鹏敲门叫顾家明出去玩牌，顾家明拒绝。",
+            "interlocutor_info": {
+                "name": "黄建鹏",
+                "relationship_tag": "不怀好意的同辈表兄弟"
+            },
+            "trigger": {
+                "sender": "黄建鹏",
+                "content": "黄建鹏在门外叫顾家明出去凑一份玩牌。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "疏离、警惕的家族边缘人",
+                "inner_monologue": "黄建鹏突然这么殷勤，肯定是看到我钱包里的钱想宰我一顿，我才不会上当。",
+                "external_action": "微微皱眉，回头说道。",
+                "speech_text": "不了，我还有事。",
+                "mood_state": "警惕"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵来访，顾家明张开双手示意她过来。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密、信任的恋人"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "雅涵走进房间，顾家明朝她张开了双手。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "温柔、亲昵的男友",
+                "inner_monologue": "雅涵来了，我想抱抱她，放松一下，头痛也让她帮我缓解吧。",
+                "external_action": "笑着朝雅涵张开双手。",
+                "speech_text": "过来。",
+                "mood_state": "放松"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明和雅涵在房间里亲昵互动，顾家明提到头痛并开始挑逗她。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密、信任的恋人"
+            },
+            "trigger": {
+                "sender": "顾家明",
+                "content": "顾家明说“我有点头痛……”，并开始抚摸雅涵。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "欲望驱动、略带调皮的恋人",
+                "inner_monologue": "头痛又来了，但和雅涵亲热能让我分心，她总是这么容易动情，我想试试这样坐着……",
+                "external_action": "搂住雅涵，脸颊在她后背摩擦，手探入衬衫。",
+                "speech_text": "上一次是在三天前吧……",
+                "mood_state": "欲望"
+            }
+        }
+    ]
+}

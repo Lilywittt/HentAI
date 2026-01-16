@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "沙沙在房间收拾东西时自信满满地谈论沙竹帮事务，家明询问是否需要帮忙。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密的朋友/恋人"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "沙沙自信满满地表示新宁帮等小帮派耍不出花样，并提到正在安排事务。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "关心但克制的朋友",
+                "inner_monologue": "我担心沙沙的安全，但既然她这么自信，而且有炎黄觉醒的人看着，应该问题不大，我就不多干涉了。",
+                "external_action": "挑了挑眉",
+                "speech_text": "要帮忙吗？",
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "灵静因出国问题被亲戚轰炸后，追打家明并询问他对她出国的看法。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密的朋友/恋人"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静追问家明觉得她出国好还是去北京好，表达对亲戚压力的烦恼。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "体贴但犹豫的伴侣",
+                "inner_monologue": "我知道灵静希望我支持她去北京，但为了她的未来，维也纳可能是更好的选择，这让我很矛盾，怕伤害她。",
+                "external_action": "被灵静追打",
+                "speech_text": "都是有血缘关系的亲戚嘛，你考上国外最高的艺术学院，热心是当然的啦，估计这个时候就已经开始跟别人吹牛了也说不定……我来说的话，当然希望你陪着去北京啦，不过，为了你的未来好，我觉得维也纳……",
+                "mood_state": "矛盾"
+            }
+        },
+        {
+            "scene_snapshot": "灵静在沙发上无聊地看电视，再次提议去桂林旅行，家明拒绝并突然提出分手。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密的朋友/恋人"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静抱怨电视剧无聊，并说如果家明提分手她不会哭得死去活来。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "疏离而痛苦的伪装者",
+                "inner_monologue": "我正承受着剧烈的头痛，可能还有其他心事，不想拖累灵静，或许用分手来推开她是最好的方式，即使这很残忍。",
+                "external_action": "勉强笑了笑",
+                "speech_text": "那我们分手吧。",
+                "mood_state": "痛苦"
+            }
+        }
+    ]
+}

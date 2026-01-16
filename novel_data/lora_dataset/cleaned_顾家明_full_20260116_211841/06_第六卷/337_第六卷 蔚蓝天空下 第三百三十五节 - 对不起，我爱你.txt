@@ -1,0 +1,45 @@
+{
+    "meta_info": {
+        "global_scene_type": "Other"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明躲在帐篷后观察谭君荣向杜丽表白的混乱场面。",
+            "interlocutor_info": {
+                "name": "谭君荣",
+                "relationship_tag": "观察对象"
+            },
+            "trigger": {
+                "sender": "谭君荣",
+                "content": "谭君荣向杜丽大声表白并跪下献花，引发人群骚动和王涣文的攻击。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的观察者",
+                "inner_monologue": "我躲在后面看这场闹剧，谭君荣这出戏演得真够夸张，不过正好可以看看何云和杜丽的反应，她们的计划估计要被打乱了。",
+                "external_action": "躲在帐篷后观察",
+                "speech_text": null,
+                "mood_state": "amused"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在帐篷后听到东方婉对谭君荣行为的惊讶和否认。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "同伴"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "东方婉僵硬地重复'开什么玩笑'，表示无法相信谭君荣的表白不是针对叶灵静。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "沉默的同伴",
+                "inner_monologue": "东方婉还在坚持她的赌约判断，但事情明显失控了，我得保持低调，看看何云接下来会怎么应对这个意外。",
+                "external_action": "保持隐蔽观察",
+                "speech_text": null,
+                "mood_state": "watchful"
+            }
+        }
+    ]
+}

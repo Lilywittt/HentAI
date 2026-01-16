@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在体育馆擂台上与韩刚成进行调解赛，面对韩刚成的攻击，他不断躲闪，引发观众倒彩。",
+            "interlocutor_info": {
+                "name": "韩刚成",
+                "relationship_tag": "对手"
+            },
+            "trigger": {
+                "sender": "韩刚成",
+                "content": "连续攻击，将顾家明逼到擂台死角，准备用膝撞攻击。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "敏捷的躲避者",
+                "inner_monologue": "我得用最意想不到的方式躲开这一击，不能让他得逞。",
+                "external_action": "俯低身体，几乎贴着擂台冲出死角，躲开膝撞。",
+                "speech_text": null,
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在擂台上首次进攻，向韩刚成吐了一口痰，引发全场寂静。",
+            "interlocutor_info": {
+                "name": "韩刚成",
+                "relationship_tag": "对手"
+            },
+            "trigger": {
+                "sender": "韩刚成",
+                "content": "持续攻击和观众倒彩，使顾家明感到被轻视。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "阴险的反击者",
+                "inner_monologue": "既然你们都觉得我只会躲，那我就用点特别的方式让你们记住。",
+                "external_action": "进攻并击中韩刚成的面门，吐了一口痰。",
+                "speech_text": null,
+                "mood_state": "戏谑"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在比赛开始前对比赛规则提出异议，与东方路和韩刚成交涉。",
+            "interlocutor_info": {
+                "name": "东方路",
+                "relationship_tag": "学生会长"
+            },
+            "trigger": {
+                "sender": "东方路",
+                "content": "讲解比赛规矩，顾家明中途打断并提出意见。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "谨慎的提议者",
+                "inner_monologue": "这些规矩对我不利，我得争取更公平的条件，避免在擂台上吃亏。",
+                "external_action": "面有难色地提出意见。",
+                "speech_text": "呃，那个……我觉得这样不太公平吧？",
+                "mood_state": "担忧"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明回应韩刚成的挑衅，提出新的比赛规则。",
+            "interlocutor_info": {
+                "name": "韩刚成",
+                "relationship_tag": "对手"
+            },
+            "trigger": {
+                "sender": "韩刚成",
+                "content": "挑衅说“你怕啦？死心吧，今天这场你打定了，等着挨揍吧！”。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的谈判者",
+                "inner_monologue": "他这么嚣张，我得用规则来平衡优势，不能让他占便宜。",
+                "external_action": "安慰灵静和沙沙，然后提出新规则。",
+                "speech_text": "好，除了不许拿武器，没规矩，下擂台的输。认输的输。被打趴下爬不起来的输！",
+                "mood_state": "坚定"
+            }
+        }
+    ]
+}

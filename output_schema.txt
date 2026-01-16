@@ -1,0 +1,48 @@
+### Output Schema (Strict Enforcement)
+You must output a JSON object that strictly adheres to the following TypeScript Interface definition. 
+Do not include comments in the JSON. Use `null` for missing optional fields.
+
+```typescript
+// 定义整个输出结构
+interface AnalysisOutput {
+  meta_info: {
+    // The overall tone/genre of this specific text segment
+    global_scene_type: "Combat" | "Daily_Life" | "Negotiation" | "Romance" | "Suspense" | "Other";
+  };
+  
+  interaction_units: Array<{
+    // A concise summary of the immediate context (1 sentence)
+    scene_snapshot: string;
+    
+    interlocutor_info: {
+      name: string;
+      // How the target character perceives this person internally
+      relationship_tag: string; 
+    };
+    
+    trigger: {
+      sender: string;
+      content: string;
+      // What triggered the response?
+      type: "dialogue" | "action" | "environment";
+    };
+    
+    character_response: {
+      // The social mask shown to others
+      active_persona: string;
+      
+      // CRITICAL: First-person ("I...") inner thought. 
+      // Deduce based on interest & context if not explicit.
+      inner_monologue: string;
+      
+      // Visible actions/expressions
+      external_action: string | null;
+      
+      // Spoken words (null if silent)
+      speech_text: string | null;
+      
+      // One distinct mood adjective (e.g., "resigned", "furious")
+      mood_state: string;
+    };
+  }>;
+}

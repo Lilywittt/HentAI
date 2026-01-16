@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "吕颂为在警局房间内训斥儿子吕放，分析当前困境。",
+            "interlocutor_info": {
+                "name": "吕颂为",
+                "relationship_tag": "敌对方的父亲"
+            },
+            "trigger": {
+                "sender": "吕颂为",
+                "content": "指责儿子吕放惹事，提到顾家明可能有关联。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的分析者",
+                "inner_monologue": "我早知道吕放会惹麻烦，但没想到会牵扯到这么高层级的人，看来顾家明背后不简单。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "警觉"
+            }
+        },
+        {
+            "scene_snapshot": "吕放向父亲解释事件经过，提到顾家明。",
+            "interlocutor_info": {
+                "name": "吕放",
+                "relationship_tag": "挑衅者"
+            },
+            "trigger": {
+                "sender": "吕放",
+                "content": "辩解自己没打人，提到顾家明在黄家没地位。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "隐忍的旁观者",
+                "inner_monologue": "吕放还在轻视我，但他不知道黄炳翔下台后，我反而更自由了，这些混混和警察的反应都说明事情不简单。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "算计"
+            }
+        },
+        {
+            "scene_snapshot": "吕颂为分析局势，推测顾家明可能有未知关系。",
+            "interlocutor_info": {
+                "name": "吕颂为",
+                "relationship_tag": "精明的对手"
+            },
+            "trigger": {
+                "sender": "吕颂为",
+                "content": "推测顾家明可能有些关系，导致事件升级。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "神秘的幕后人物",
+                "inner_monologue": "吕颂为终于意识到我的影响力了，这些警察和混混的异常举动，加上国际压力，都是我暗中布局的结果。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "掌控"
+            }
+        }
+    ]
+}

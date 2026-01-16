@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Romance"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "灵静在舞会上误喝烈酒后，顾家明找到她并关心她的情况。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密好友/暗恋对象"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "我去洗手间，出来的时候，把一杯度数好高的白酒当成白开水喝了，很厉害吧。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "关心体贴的同伴",
+                "inner_monologue": "我担心她喝多了酒会不舒服，得赶紧照顾她。",
+                "external_action": "对张竞峰做了个歉意的表情，随后扶着灵静跑去找水喝",
+                "speech_text": "你啊……",
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明和灵静在舞会上跳舞，讨论荒岛生活的幻想。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密好友/暗恋对象"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "要是真能那样该多好啊，家明，我先前……好像把人生想得太简单了……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "幽默轻松的伴侣",
+                "inner_monologue": "我想用玩笑让她放松，转移她的注意力。",
+                "external_action": "轻声一笑",
+                "speech_text": "不过，荒岛上可没有避孕的东西，到时候你和沙沙要生好多孩子了……",
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "灵静开玩笑说要在荒岛上割掉顾家明的坏东西，顾家明回应。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密好友/暗恋对象"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "我才不要当母猪呢。都怪你，男人都不是好东西，要是到了荒岛上，我和沙沙就把你的坏东西割掉……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "戏谑调侃的同伴",
+                "inner_monologue": "她又在开这种玩笑，我得配合她一下。",
+                "external_action": "张大了嘴",
+                "speech_text": "那……你们两个怎么办？",
+                "mood_state": "戏谑"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明抱起灵静跳舞，表达吃醋的情绪。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密好友/暗恋对象"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "家明，有人看着我们呢。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "深情坦率的伴侣",
+                "inner_monologue": "我想让她知道我在意她，不想别人打扰我们的时刻。",
+                "external_action": "一把揽起灵静的腰，两人的身体几乎没有一丝缝隙的贴在一块儿",
+                "speech_text": "我知道……灵静，我刚才吃醋了……",
+                "mood_state": "深情"
+            }
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "马托突然大叫，雅涵愣住，家明迅速换走雅涵的水杯并提议替她打台球。",
+            "interlocutor_info": {
+                "name": "马托",
+                "relationship_tag": "可疑的追求者"
+            },
+            "trigger": {
+                "sender": "马托",
+                "content": "突然大叫，引起混乱，并可能在水杯中下药。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "保护性的弟弟",
+                "inner_monologue": "我必须立刻阻止雅涵喝这杯水，马托的行为太可疑了。",
+                "external_action": "换走雅涵的水杯，递上另一杯水，并拿过她的球杆。",
+                "speech_text": "喝这杯吧。可以换人的吗，张老师你也打累了，这一局我替你吧。",
+                "mood_state": "警觉"
+            }
+        },
+        {
+            "scene_snapshot": "林婉贞询问家明与雅涵的关系，家明被介绍为雅涵的弟弟。",
+            "interlocutor_info": {
+                "name": "林婉贞",
+                "relationship_tag": "雅涵的大学同学"
+            },
+            "trigger": {
+                "sender": "林婉贞",
+                "content": "询问家明与雅涵的关系。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "礼貌的三好学生",
+                "inner_monologue": "我需要维持一个无害的形象，避免引起更多注意。",
+                "external_action": "耸耸肩，回头望着雅涵，笑着打招呼。",
+                "speech_text": "婉贞姐你好。",
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "家明提议增加台球赌注，向雅涵借钱，并设定高额赌局针对马托。",
+            "interlocutor_info": {
+                "name": "马托",
+                "relationship_tag": "被针对的对手"
+            },
+            "trigger": {
+                "sender": "马托",
+                "content": "提议一百块的彩头。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "挑衅的挑战者",
+                "inner_monologue": "我要用这场赌局逼马托露出马脚，让他为下药行为付出代价。",
+                "external_action": "打断马托的话，拿出钱包，向雅涵借钱，将支票扔在球台上。",
+                "speech_text": "太少了。一百块玩起来一点意思都没有，雅涵姐，你说玩多少比较好……呃，伤脑筋呐，我身上也没带多少钱。雅涵姐，你能借我点吗？有多少要多少。你看，我借到钱了，如果不嫌少，我们开始吧。",
+                "mood_state": "算计"
+            }
+        },
+        {
+            "scene_snapshot": "家明在台球比赛中展现出高超技巧，连续得分，马托汗流浃背。",
+            "interlocutor_info": {
+                "name": "马托",
+                "relationship_tag": "被压制的对手"
+            },
+            "trigger": {
+                "sender": "马托",
+                "content": "开球后留下简单局面。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "专注的职业选手",
+                "inner_monologue": "我必须精确计算每一杆，彻底击败马托，为雅涵讨回公道。",
+                "external_action": "俯身击球，连续进球，气氛变得凌厉。",
+                "speech_text": "轮到你了。",
+                "mood_state": "专注"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵打翻水杯后哭泣跑开，家明停下比赛望着碎片。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "深爱但痛苦的对象"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "打翻水杯并跑开。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "沉默的观察者",
+                "inner_monologue": "雅涵在哭泣，她一定很痛苦，但我不能追上去，这只会让她更难受。",
+                "external_action": "抱着球杆停下来，面无表情地望着碎片。",
+                "speech_text": null,
+                "mood_state": "复杂"
+            }
+        }
+    ]
+}

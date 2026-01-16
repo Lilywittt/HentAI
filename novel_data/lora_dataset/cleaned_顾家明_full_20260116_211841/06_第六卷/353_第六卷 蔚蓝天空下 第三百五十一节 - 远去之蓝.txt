@@ -1,0 +1,178 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "家明在柳正的生日宴后，私下告诉沙沙关于柳正有喜欢的女人的事情。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "顾家明",
+                "content": "家明找了个机会跟沙沙说起柳正有喜欢的女人的事情。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "关心朋友",
+                "inner_monologue": "我得告诉沙沙这件事，她应该知道她父亲的情况，虽然可能会让她情绪波动，但这是为了她好。",
+                "external_action": "找机会跟沙沙私下交谈",
+                "speech_text": null,
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙对家明转告父亲再婚的消息反应激烈，跳起来打了他一顿。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "沙沙愣了半天，跳起来打了家明一顿。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "包容理解",
+                "inner_monologue": "沙沙的反应很正常，她父亲要结婚却通过我来转告，这确实让她感到古怪和不满，我得让她发泄一下情绪。",
+                "external_action": "被沙沙追打，但没有还手",
+                "speech_text": null,
+                "mood_state": "耐心"
+            }
+        },
+        {
+            "scene_snapshot": "灵静和沙沙在客厅里互相调侃关于家明和钱的话题，家明在一旁听着。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静说着从电视上看来的观点，沙沙倒是笑着掐她：“你说得漂亮，如果家明要。你的钱还不是全给他了，口不对心”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "轻松旁观",
+                "inner_monologue": "她们又在开玩笑，这种日常的调侃让我感到温暖，我不需要介入，就让她们享受这种轻松的时光吧。",
+                "external_action": "笑着听她们说话",
+                "speech_text": "别说不吉利的话。",
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙表达对父亲再婚的复杂情绪，提到分家产和父亲不敢亲自说的事情。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "沙沙不爽地挥了挥手。“反正结婚什么的我是不管啦，不过我也懒得跟她搞好关系，反正不住在家里，后妈我是不会叫啦，这种事情……以后他挂掉了分家产，我总拿得到一半吧，家明你要是觉得一半太少就自己跟我爸说去……我老爸自己开心就好，不过他居然不敢亲自跟我说……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "支持安慰",
+                "inner_monologue": "沙沙表面上不在乎，但内心其实很在意父亲再婚的事，她需要时间接受，我会在这里支持她，不给她压力。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "理解"
+            }
+        },
+        {
+            "scene_snapshot": "家明和沙沙去医院偷偷看了胡护士长，沙沙内心认可了这个女人。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密女友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "沙沙还是跟家明一块去医院偷偷看了那胡护士长几眼。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "陪伴协助",
+                "inner_monologue": "沙沙想偷偷看看胡护士长，这说明她内心在尝试接受这件事，我陪她来，让她自己观察和判断，这是她需要的过程。",
+                "external_action": "陪沙沙去医院",
+                "speech_text": null,
+                "mood_state": "支持"
+            }
+        },
+        {
+            "scene_snapshot": "家明接到东方路的电话，让他帮忙照看东方婉，并提到应家的事情。",
+            "interlocutor_info": {
+                "name": "东方路",
+                "relationship_tag": "朋友/盟友"
+            },
+            "trigger": {
+                "sender": "东方路",
+                "content": "东方路临走之前还给家明打了个电话，大概还是让他帮着照看下东方婉，另外还说了些应子丰应子岚这些人的事情。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "可靠伙伴",
+                "inner_monologue": "东方路托我照看东方婉，还提到应家可能带来的麻烦，我需要保持警惕，但表面上不能显露太多，以免引起不必要的关注。",
+                "external_action": "接听电话",
+                "speech_text": null,
+                "mood_state": "警觉"
+            }
+        },
+        {
+            "scene_snapshot": "家明和朋友们在冷饮店吃冰棍，东方婉试图拉他们进旅游社团。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "朋友/同学"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "东方婉说着到黄山旅游的见闻，顺便准备拉家明等人进来。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "礼貌拒绝",
+                "inner_monologue": "东方婉很热心，但我不想参与她的旅游社团，保持现状就好，让沙沙和灵静去应付她，我不用直接表态。",
+                "external_action": "听东方婉说话",
+                "speech_text": null,
+                "mood_state": "淡然"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙接到柳正的电话，然后转交给家明，家明接电话时感到不祥的预感。",
+            "interlocutor_info": {
+                "name": "柳正",
+                "relationship_tag": "长辈/盟友"
+            },
+            "trigger": {
+                "sender": "柳正",
+                "content": "沙沙将电话递过来：“老爸找你有事。”",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "警觉冷静",
+                "inner_monologue": "柳正突然打电话给我，语气不对劲，我的直觉告诉我可能有危险，我必须保持冷静，先弄清楚情况。",
+                "external_action": "拿起电话站起来，走到一边",
+                "speech_text": "嗨，柳叔，有事？",
+                "mood_state": "警觉"
+            }
+        },
+        {
+            "scene_snapshot": "家明在电话中听到柳正说“以后好好对待沙沙，我把她交给你了”，并嗅到不祥的味道。",
+            "interlocutor_info": {
+                "name": "柳正",
+                "relationship_tag": "长辈/盟友"
+            },
+            "trigger": {
+                "sender": "柳正",
+                "content": "那边传来了有些急促的呼吸声，片刻，柳正开始说话：“家明，以后好好对待沙沙，我把她交给你了……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "紧急应对",
+                "inner_monologue": "柳正的话像遗言，这绝对有问题，我必须立刻确认他的位置和安全，不能让他出事，沙沙会受不了的。",
+                "external_action": "在电话中淡淡地说道：“告诉我你现在在哪里。”",
+                "speech_text": "告诉我你现在在哪里。",
+                "mood_state": "紧张"
+            }
+        }
+    ]
+}

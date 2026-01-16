@@ -1,0 +1,140 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在旅店阳台上无聊时，被东方婉从餐厅走廊叫下来吃东西。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "熟悉的同学，经常斗嘴的对象"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "在餐厅走廊上举着刀叉大声喊：“喂，顾家明，下来啊！”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "随和但疏离的同学",
+                "inner_monologue": "反正无聊，下去看看也无妨。",
+                "external_action": "点了点头转身下去",
+                "speech_text": null,
+                "mood_state": "无聊"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉给顾家明点牛排并闲聊美食，顾家明在餐厅里吃东西。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "熟悉的同学，经常斗嘴的对象"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "给他点了份酱汁牛排并说：“这里的东西味道不错，叫你过来尝尝。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "被动应付的听众",
+                "inner_monologue": "她怎么突然对美食这么感兴趣，还把我当酒肉朋友了。",
+                "external_action": "埋头吃东西",
+                "speech_text": "我中午都已经吃过了。",
+                "mood_state": "淡然"
+            }
+        },
+        {
+            "scene_snapshot": "王图佳滑雪摔倒后进入餐厅，询问顾家明是否会滑雪并请他教学。",
+            "interlocutor_info": {
+                "name": "王图佳",
+                "relationship_tag": "普通同学，可能有所怀疑"
+            },
+            "trigger": {
+                "sender": "王图佳",
+                "content": "在桌边坐下问：“顾家明，你会滑雪吧？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "谦虚推脱的普通人",
+                "inner_monologue": "她怎么突然问我这个，是想试探什么吗？",
+                "external_action": "耸耸肩",
+                "speech_text": "不太会。",
+                "mood_state": "警惕"
+            }
+        },
+        {
+            "scene_snapshot": "王图佳在洗手间外走廊压低声音质问顾家明关于昨晚持枪事件。",
+            "interlocutor_info": {
+                "name": "王图佳",
+                "relationship_tag": "怀疑者，试图揭露秘密"
+            },
+            "trigger": {
+                "sender": "王图佳",
+                "content": "压低了声音问：“喂，你昨天到底怎么摆平那帮人的？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "无辜且慌张的普通人",
+                "inner_monologue": "她看到了什么？得赶紧装傻糊弄过去，不能让她深究。",
+                "external_action": "露出疑惑和受惊吓的表情",
+                "speech_text": "什么啊？啊？不会吧？什么枪？你到底在说什么啊，没头没尾的……枪，到底什么啊？你别吓我好吧！",
+                "mood_state": "紧张"
+            }
+        },
+        {
+            "scene_snapshot": "东方婉在洗手间门口看到顾家明和王图佳交谈后，八卦王图佳对顾家明有好感。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "熟悉的同学，经常斗嘴的对象"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "走过来说：“王图佳好像对你有好感哦。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "不耐烦的敷衍者",
+                "inner_monologue": "她又开始八卦了，真烦人，得转移话题。",
+                "external_action": "无奈地摊开手瞪回去",
+                "speech_text": "你能做点比八卦更有意义的事情吗……除非她脑子进水了……",
+                "mood_state": "不耐烦"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在酒吧接到灵静电话，走出后门聊天时被黑影偷袭。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密的女友，关心的人"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "电话里压低声音问：“你那边是几点钟？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "温柔体贴的男友",
+                "inner_monologue": "灵静这么晚还打电话，是想我了，得安慰她。",
+                "external_action": "笑着说道",
+                "speech_text": "晚上九点半，江海是凌晨四点多吧，怎么这个时候就起来了？当心感冒。",
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在酒吧后门打电话时，被黑影从背后用棍棒袭击。",
+            "interlocutor_info": {
+                "name": "黑影",
+                "relationship_tag": "未知的袭击者"
+            },
+            "trigger": {
+                "sender": "黑影",
+                "content": "举着棍棒朝顾家明的后脑呼啸而下",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "被偷袭的受害者",
+                "inner_monologue": "有危险！得赶紧反应，但这一棍已经打中了……",
+                "external_action": "被棍棒结结实实地砸在身上",
+                "speech_text": null,
+                "mood_state": "警觉"
+            }
+        }
+    ]
+}

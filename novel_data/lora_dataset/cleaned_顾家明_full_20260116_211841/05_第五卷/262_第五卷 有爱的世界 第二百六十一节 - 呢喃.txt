@@ -1,0 +1,178 @@
+{
+    "meta_info": {
+        "global_scene_type": "Romance"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "雅涵在黑暗中主动吻了家明，随后表达了她压抑的感情和内心的挣扎。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "爱慕者/老师"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "对不起，我不是要跟灵静和沙沙争什么，我只是……忍不住……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "安抚者/恋人",
+                "inner_monologue": "我不能再让她说下去了，否则我会觉得自己真是个烂人。",
+                "external_action": "主动搂住雅涵并吻她",
+                "speech_text": "你再说下去，我就要觉得自己真是烂到底了……",
+                "mood_state": "愧疚"
+            }
+        },
+        {
+            "scene_snapshot": "家明将雅涵抱到床上，两人准备发生亲密关系。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "爱慕者/老师"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "以前叫你家明哥哥，梦见你抱我。觉得很滑稽……没想到真的有这样的时候，我觉得自己像个孩子……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "保护者/恋人",
+                "inner_monologue": "她对我来说早就是个孩子了，我需要小心对待她。",
+                "external_action": "将雅涵放到床上并俯身靠近",
+                "speech_text": "对我来说……早就是了……",
+                "mood_state": "温柔"
+            }
+        },
+        {
+            "scene_snapshot": "家明关心雅涵的健康状况，询问是否可以进行亲密行为。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "爱慕者/老师"
+            },
+            "trigger": {
+                "sender": "家明",
+                "content": "我是说你的病……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "关心者/恋人",
+                "inner_monologue": "我必须确保她没事，不能因为冲动伤害她。",
+                "external_action": "轻抚雅涵的后颈",
+                "speech_text": "我是说你的病……",
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵表达紧张和请求轻些，家明回应并开始亲密接触。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "爱慕者/老师"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "我……我以前没做过……你轻些好吗……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "安抚者/恋人",
+                "inner_monologue": "我要尽量温柔，让她放松下来。",
+                "external_action": "摸索着接吻和触碰，解开衣扣",
+                "speech_text": "嗯。",
+                "mood_state": "耐心"
+            }
+        },
+        {
+            "scene_snapshot": "亲密行为进行中，雅涵轻声哭泣，家明拥抱她。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "爱慕者/老师"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "雅涵轻声地哭了出来",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "安慰者/恋人",
+                "inner_monologue": "她需要我的安抚，我要让她感到安心。",
+                "external_action": "拥抱雅涵",
+                "speech_text": null,
+                "mood_state": "体贴"
+            }
+        },
+        {
+            "scene_snapshot": "事后雅涵表达不争和担忧，家明紧抱她作为回应。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "爱慕者/老师"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "我不会跟灵静、沙沙争的……所以……你不许对我始乱终弃啊，不许在这次之后……就说不认识我……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "承诺者/恋人",
+                "inner_monologue": "我无法用言语回应，但要用行动让她安心。",
+                "external_action": "抱她的双手紧了一紧",
+                "speech_text": null,
+                "mood_state": "坚定"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵询问关于孩子的问题，家明迟疑回应。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "爱慕者/老师"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "你想要我帮你生孩子吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "犹豫者/恋人",
+                "inner_monologue": "我确实在乎感情，但现实可能不允许。",
+                "external_action": "微有些迟疑",
+                "speech_text": "嗯……可是……",
+                "mood_state": "矛盾"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵理解并接受现状，家明道歉。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "爱慕者/老师"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "可是那样的话……我可能一辈子都没办法给你生孩子了……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "愧疚者/恋人",
+                "inner_monologue": "我对不起她，无法给她想要的未来。",
+                "external_action": null,
+                "speech_text": "……对不起。",
+                "mood_state": "歉疚"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵请求未来可能生孩子，家明同意。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "爱慕者/老师"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "如果有一天你觉得可以了，我们又还在一起的话，让我替你生个孩子，可以吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "同意者/恋人",
+                "inner_monologue": "我无法承诺现在，但未来或许有可能。",
+                "external_action": null,
+                "speech_text": "……嗯。",
+                "mood_state": "妥协"
+            }
+        }
+    ]
+}

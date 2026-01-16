@@ -1,0 +1,140 @@
+{
+    "meta_info": {
+        "global_scene_type": "Romance"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "玛丽莲主动提出亲密关系，家明感到困惑但接受。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "临时伴侣/需要安慰的女人"
+            },
+            "trigger": {
+                "sender": "玛丽莲",
+                "content": "我想起你那天给我打针，还有……还有你偶尔看我的眼神，我觉得你也许会……会对这些感兴趣，还有……会喜欢……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "故作轻松的少年",
+                "inner_monologue": "这女人只是用堕落来麻痹自己，并不是真的爱我，但我身体有反应，接受也无妨。",
+                "external_action": "微微耸肩",
+                "speech_text": "我当然喜欢，反正这种事都是男人占便宜，我是求之不得，只要你能想清楚，那就……",
+                "mood_state": "困惑"
+            }
+        },
+        {
+            "scene_snapshot": "玛丽莲主动服务家明，家明感到奇怪但享受。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "顺从的伴侣"
+            },
+            "trigger": {
+                "sender": "玛丽莲",
+                "content": "你……你不是说我得两辈子给你做牛做马吗？就由……现在开始吧。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "被动接受的少年",
+                "inner_monologue": "这种感觉好奇怪，但既然她坚持，我就顺其自然吧。",
+                "external_action": "张开双腿，仰躺在床上，脸色颇为怪异地望着床顶的蚊帐",
+                "speech_text": null,
+                "mood_state": "怪异"
+            }
+        },
+        {
+            "scene_snapshot": "家明与玛丽莲每晚亲密，但更多是聊天和展示身体。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "温柔细腻的伴侣"
+            },
+            "trigger": {
+                "sender": "玛丽莲",
+                "content": "她一方面有些担心这样的事情会影响家明的今后，另一方面，又有些担心万一自己拒绝，家明会不高兴",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "倾听者",
+                "inner_monologue": "她这么温柔地对待我，让我感到一丝温馨，但这不是爱，只是彼此的慰藉。",
+                "external_action": "偶尔搭上一句没什么意义的话",
+                "speech_text": null,
+                "mood_state": "温馨"
+            }
+        },
+        {
+            "scene_snapshot": "玛丽莲幻想家明的来历，家明不置可否。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "好奇的伴侣"
+            },
+            "trigger": {
+                "sender": "玛丽莲",
+                "content": "猜测家明的来历可能是被某个武术大师收养啦，或者小时候掉进过某个山崖得到神奇的功夫啦",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "神秘少年",
+                "inner_monologue": "她想象力真丰富，但我不可能告诉她真相，就让她猜去吧。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "淡然"
+            }
+        },
+        {
+            "scene_snapshot": "分别前，玛丽莲表达忠诚，家明劝她另寻幸福。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "固执的伴侣"
+            },
+            "trigger": {
+                "sender": "玛丽莲",
+                "content": "我不会再嫁给另外的男人了，中国的习俗很美丽，我的身体给了你，就不会再给其他人了？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "现实主义者",
+                "inner_monologue": "她太天真了，年龄差距这么大，我给不了她未来，她应该找个更好的男人。",
+                "external_action": null,
+                "speech_text": "你这有胸无脑的女人，中国街上全是马车，住的都是茅屋的时候，是有过那样的习俗没错，现在已经不同了，而且……我给不了你任何东西的。我现在十四岁，你正好是我的两倍，也就是说，我二十岁的时候，你四十岁了，我二十五岁的时候，你就五十……哎哟。",
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "家明给玛丽莲紧急联络方式，并建议远离黑手党。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "顺从的伴侣"
+            },
+            "trigger": {
+                "sender": "家明",
+                "content": "我个人认为，别让海蒂接触黑手党，这一行不好",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "保护者",
+                "inner_monologue": "我得确保她们安全，但也不能让她们依赖我，保持距离最好。",
+                "external_action": "拿出一张纸条递过去",
+                "speech_text": "我个人认为，别让海蒂接触黑手党，这一行不好，当然，我是没有决定权的，如果你和你父亲觉得……",
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "分别时，玛丽莲和海蒂哭泣，家明安慰她们。",
+            "interlocutor_info": {
+                "name": "玛丽莲",
+                "relationship_tag": "伤心的伴侣"
+            },
+            "trigger": {
+                "sender": "玛丽莲",
+                "content": "我会想你的。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的告别者",
+                "inner_monologue": "是时候结束了，这段关系只是暂时的，她们应该开始新生活。",
+                "external_action": "轻轻拥抱",
+                "speech_text": "还是那句话，遇见喜欢的男人，嫁给他，别固执。",
+                "mood_state": "淡然"
+            }
+        }
+    ]
+}

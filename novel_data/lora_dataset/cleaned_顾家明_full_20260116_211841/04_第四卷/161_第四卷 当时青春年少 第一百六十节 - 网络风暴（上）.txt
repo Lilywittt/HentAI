@@ -1,0 +1,26 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在雅涵的办公室中，发现自己的电脑被卷入付严杰和凯莉·佛尼姆的网络攻击中。",
+            "interlocutor_info": {
+                "name": "凯莉·佛尼姆",
+                "relationship_tag": "潜在威胁/麻烦制造者"
+            },
+            "trigger": {
+                "sender": "凯莉·佛尼姆",
+                "content": "凯莉在网络攻击中感应到顾家明的存在，可能暴露他的物理IP地址。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "冷静的分析者",
+                "inner_monologue": "我讨厌多余的麻烦事，如果凯莉发现我比她弱，掌控她会很麻烦，而且她和纳塔丽已经见面了。",
+                "external_action": "对着电脑屏幕沉默了三秒，皱起眉头，然后开始在键盘上敲打起来。",
+                "speech_text": null,
+                "mood_state": "annoyed"
+            }
+        }
+    ]
+}

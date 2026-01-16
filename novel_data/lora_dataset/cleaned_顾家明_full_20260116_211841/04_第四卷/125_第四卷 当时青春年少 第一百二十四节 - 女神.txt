@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在赌场中出手攻击保安，引发混乱，以女装身份展现强大战斗力。",
+            "interlocutor_info": {
+                "name": "保安们",
+                "relationship_tag": "无关的对手"
+            },
+            "trigger": {
+                "sender": "保安们",
+                "content": "几十名保安挥舞警棍冲上来攻击顾家明。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静而强大的战斗者",
+                "inner_monologue": "我出手只是为了陪雅涵散心，这些保安不过是无意义的障碍，轻松解决就好。",
+                "external_action": "从容地躲避、出拳、挥腿，攻击人体脆弱部位，使用防狼喷剂，面带微笑。",
+                "speech_text": null,
+                "mood_state": "从容"
+            }
+        },
+        {
+            "scene_snapshot": "赌场经理持霰弹枪威胁顾家明，顾家明被枪指后反击。",
+            "interlocutor_info": {
+                "name": "赌场经理",
+                "relationship_tag": "威胁性的敌人"
+            },
+            "trigger": {
+                "sender": "赌场经理",
+                "content": "持双管霰弹枪对准顾家明并警告不许动。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "威胁性的掌控者",
+                "inner_monologue": "我最讨厌有人拿枪指着我，这经理太不自量力了，得给他一个教训。",
+                "external_action": "继续逼近经理，踢起枪口后仰避弹，夺枪后上弹并顶住经理脑门。",
+                "speech_text": "我最讨厌有人拿枪指着我……你呢？",
+                "mood_state": "威胁"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明用枪威胁经理后，蹲下质问并迫使经理承认错误。",
+            "interlocutor_info": {
+                "name": "赌场经理",
+                "relationship_tag": "屈服的对手"
+            },
+            "trigger": {
+                "sender": "赌场经理",
+                "content": "被枪指后求饶并失禁。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "审问者",
+                "inner_monologue": "这经理已经吓破了胆，正好逼他交代真相，为许毅婷澄清。",
+                "external_action": "蹲下微笑，分解霰弹枪成零件。",
+                "speech_text": "那个男人，不是因为吸毒而猝死，你们是有责任的。他今天手风很顺，我去看过，所以……他真的是出千了？承认错误就是好孩子，所以呢，刚才打人的那几个保安，你必须要交出来的。该谁负的责任就得谁负，那个女孩子当然不会吸毒。因为我知道，不光是赌场，在这一片贩毒，也是你们隆兴帮的业务吧？你看，你知道该怎么做了，姐姐很欣慰呢。",
+                "mood_state": "满意"
+            }
+        },
+        {
+            "scene_snapshot": "张敬安询问雅涵关于顾家明的身份，顾家明冷淡对待搭讪者。",
+            "interlocutor_info": {
+                "name": "张敬安及其他人",
+                "relationship_tag": "无关的旁观者"
+            },
+            "trigger": {
+                "sender": "张敬安及其他人",
+                "content": "张敬安询问雅涵顾家明是否是朋友，其他人上前搭讪或道谢。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷淡的局外人",
+                "inner_monologue": "这些人的关注和搭讪毫无意义，我只关心雅涵和事情的结果，不想理会他们。",
+                "external_action": "冷淡地不予理会搭讪和道谢。",
+                "speech_text": null,
+                "mood_state": "冷淡"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明和雅涵离开赌场后，在三楼发现许毅婷丢失钥匙。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲密的朋友"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "观察到许毅婷在房间门前寻找钥匙，显得失魂落魄。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "警觉的观察者",
+                "inner_monologue": "许毅婷状态不对，失去了父亲又毒瘾煎熬，我得和雅涵留意她的情况。",
+                "external_action": "将雅涵按到墙上，轻声提醒并悄悄观察许毅婷。",
+                "speech_text": "看到她了。",
+                "mood_state": "警觉"
+            }
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在宴会厅舞台上突然停止演奏，面对听众要求继续的呼声，他笑着解释要离开。",
+            "interlocutor_info": {
+                "name": "听众",
+                "relationship_tag": "无关的陌生人"
+            },
+            "trigger": {
+                "sender": "听众",
+                "content": "还没唱完呢，还没唱完啊……再唱一遍！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "礼貌但坚决的表演者",
+                "inner_monologue": "这些人真烦，我只想带灵静回家吃饭。",
+                "external_action": "笑着解释并扔彩球给董丹雯",
+                "speech_text": "呃，抱歉，我是过来接人回家的，忙到现在都还没吃晚饭呢。呃，谁要唱的？对了，我刚才看见那边那位美女把手举得很高，我好像就是无意中抢了她的表演机会，嘿，接着。",
+                "mood_state": "不耐烦"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在门口被东方路和两位歌坛名人拦住，对方质疑他的歌曲创作。",
+            "interlocutor_info": {
+                "name": "郑则培",
+                "relationship_tag": "傲慢的歌坛权威"
+            },
+            "trigger": {
+                "sender": "郑则培",
+                "content": "这首歌……真的是你写的吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷淡的创作者",
+                "inner_monologue": "这家伙在怀疑我，真可笑，我只想快点走。",
+                "external_action": "淡淡地点头并询问灵静是否饿了",
+                "speech_text": "这个我没必要解释，抱歉，九点十多分了，为了忙今天晚上，我还没吃什么东西呢，灵静，你饿吗？",
+                "mood_state": "轻蔑"
+            }
+        },
+        {
+            "scene_snapshot": "黄老激动地握住顾家明的手，谈论歌曲对乐坛的意义，试图约谈。",
+            "interlocutor_info": {
+                "name": "黄老",
+                "relationship_tag": "纠缠不休的音乐人"
+            },
+            "trigger": {
+                "sender": "黄老",
+                "content": "这首歌是顾家明同学你写出来的，你就应该知道这首歌对于当今乐坛的意义……我们可以约个时间进行一次详谈。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "不耐烦的年轻人",
+                "inner_monologue": "这些人没完没了，我在考虑要不要干掉他们。",
+                "external_action": "不耐烦地点头并挣脱手",
+                "speech_text": "呵，我明白，我明白……你喜欢的话下次把这首歌卖给你，但是现在……我们真的要走了，再见。",
+                "mood_state": "恼怒"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明和灵静在冰雪街道上，灵静询问歌曲是否真是他写的。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密的女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "家明，那首歌真的是你写的吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "自信的伴侣",
+                "inner_monologue": "灵静在怀疑我，但她是出于关心，我得轻松回应。",
+                "external_action": "骑自行车并轻松回答",
+                "speech_text": "当然啦，不是我还会有谁？",
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明和灵静到达雅涵的别墅，发现灯光熄灭和厨房异常。",
+            "interlocutor_info": {
+                "name": "环境",
+                "relationship_tag": "潜在的危险场景"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "别墅彩灯闪灭，整栋别墅黑了下去，厨房传来火光和慌乱声音。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "警觉的保护者",
+                "inner_monologue": "有危险，我得保护灵静并探查情况。",
+                "external_action": "拔出匕首，让灵静躲起来，从窗户跃入别墅",
+                "speech_text": "我进去看看，你先躲起来……",
+                "mood_state": "警惕"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在黑暗别墅中听到浴室传来雅涵的尖叫声。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "需要帮助的朋友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "啊的一声轻呼，随后另一声尖叫从浴室传来。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "快速反应的救援者",
+                "inner_monologue": "雅涵有危险，我得立刻行动。",
+                "external_action": "用铁丝开锁，身体缩到门边，准备挥刀",
+                "speech_text": null,
+                "mood_state": "紧张"
+            }
+        }
+    ]
+}

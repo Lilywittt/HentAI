@@ -1,0 +1,45 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在工厂环境中遭遇爆炸和超自然攻击后，观察下方车间里的激烈战斗。",
+            "interlocutor_info": {
+                "name": "侏儒",
+                "relationship_tag": "未知的敌对超自然存在"
+            },
+            "trigger": {
+                "sender": "侏儒",
+                "content": "侏儒使用超能力将军刺飞向顾家明，但军刺未刺入，侏儒愤怒地咒骂后逃离。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "警觉的观察者",
+                "inner_monologue": "我必须保持冷静，这个侏儒有超能力，但似乎被另一个人追击，我得观察局势并寻找机会。",
+                "external_action": "从墙上摔下后，抄起冲锋枪冲到窗口观察下方战斗。",
+                "speech_text": null,
+                "mood_state": "警惕"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在露营营地寻找家明时，雅涵突然用手枪指向他们身后的何云。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "温和但警觉的盟友"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "雅涵脸色突变，举枪指向顾家明和沙沙身后的何云，命令别动并举起手。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "困惑的旁观者",
+                "inner_monologue": "雅涵姐为什么突然这么紧张？何云拿着匕首，这情况不对劲，我得小心应对。",
+                "external_action": "回头看到何云拿着匕首，可能表现出惊讶或警惕的姿态。",
+                "speech_text": null,
+                "mood_state": "警觉"
+            }
+        }
+    ]
+}

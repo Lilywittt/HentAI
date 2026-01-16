@@ -1,0 +1,140 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在船上保健室购买晕船药和验孕试纸时遇到许默和李云秀。",
+            "interlocutor_info": {
+                "name": "中年妇女",
+                "relationship_tag": "陌生人"
+            },
+            "trigger": {
+                "sender": "顾家明",
+                "content": "家明走过去，很有礼貌地说道：“阿姨，我要治晕船的药，还有一盒验孕试纸。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "礼貌的顾客",
+                "inner_monologue": "我心情不好，但没必要跟陌生人计较，先买完东西再说。",
+                "external_action": "一笑",
+                "speech_text": "阿姨，我要治晕船的药，还有一盒验孕试纸。",
+                "mood_state": "烦躁"
+            }
+        },
+        {
+            "scene_snapshot": "许默看到顾家明买验孕试纸后冲过来质问。",
+            "interlocutor_info": {
+                "name": "许默",
+                "relationship_tag": "情敌"
+            },
+            "trigger": {
+                "sender": "许默",
+                "content": "许默三步并作两步地冲了过来，一只手揪住家明的衣服，一只手拿起那盒验孕试纸：“你……你居然出来买这个，你买这个干什么！？说！”",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的对抗者",
+                "inner_monologue": "这家伙又来烦我，真以为我怕他？我得控制住场面，别让他得寸进尺。",
+                "external_action": "脸上露出个诚恳的笑容",
+                "speech_text": "不关你的事吧，许老师，船上有卖，我愿意买……",
+                "mood_state": "恼怒"
+            }
+        },
+        {
+            "scene_snapshot": "许默继续逼问，怀疑雅涵怀孕。",
+            "interlocutor_info": {
+                "name": "许默",
+                "relationship_tag": "情敌"
+            },
+            "trigger": {
+                "sender": "许默",
+                "content": "“你说谎！”晃了晃手中的验孕试纸，许默的神情变得似乎有些狰狞，“你老实说，是不是……是不是她怀孕了，你……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "威胁的反击者",
+                "inner_monologue": "他越界了，敢这样逼问我，我得让他知道后果，但别把事情闹大。",
+                "external_action": "一只手如同闪电般的伸了出去，抓住许默的手指",
+                "speech_text": "手指不想断掉的话，放开我，你算是她的什么人？我有必要跟你解释吗？",
+                "mood_state": "冷酷"
+            }
+        },
+        {
+            "scene_snapshot": "李云秀上前调解冲突。",
+            "interlocutor_info": {
+                "name": "李云秀",
+                "relationship_tag": "中立调解者"
+            },
+            "trigger": {
+                "sender": "李云秀",
+                "content": "“呃，那个，顾家明同学是吧？我听雅涵老师说起过你，听说你是她的师弟，这位许老师也是张老师的好朋友，虽然不知道你们发生了什么事，但是这是在船上，两位是不是至少看在张老师的面子上，各退一步……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "顺从的旁观者",
+                "inner_monologue": "她来劝架，正好，我不想跟许默纠缠，顺势收手吧。",
+                "external_action": "顺势放开了许默的手指，捡起验孕试纸若无其事地付钱",
+                "speech_text": null,
+                "mood_state": "平静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明故意向中年妇女询问避孕套，激怒许默。",
+            "interlocutor_info": {
+                "name": "中年妇女",
+                "relationship_tag": "陌生人"
+            },
+            "trigger": {
+                "sender": "顾家明",
+                "content": "“呃，大婶，这里的避孕套哪个牌子的比较好？我以前用……呃，我当然没用过，听人说的……那个牌子的说是比较薄，但是安全性……呵呵，好像不怎么好，我觉得要是换一种……大婶，这里有没有感觉又好，又有安全性的……呃，当然不是我自己用，哈哈，哈哈……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "挑衅的恶作剧者",
+                "inner_monologue": "许默还在生气，我故意说这些刺激他，看他能忍到什么时候，反正我无聊。",
+                "external_action": "欲盖弥彰的笑容，自问自答的语气",
+                "speech_text": "呃，大婶，这里的避孕套哪个牌子的比较好？我以前用……呃，我当然没用过，听人说的……那个牌子的说是比较薄，但是安全性……呵呵，好像不怎么好，我觉得要是换一种……大婶，这里有没有感觉又好，又有安全性的……呃，当然不是我自己用，哈哈，哈哈……",
+                "mood_state": "戏谑"
+            }
+        },
+        {
+            "scene_snapshot": "许默被激怒后攻击顾家明，顾家明轻松避开。",
+            "interlocutor_info": {
+                "name": "许默",
+                "relationship_tag": "情敌"
+            },
+            "trigger": {
+                "sender": "许默",
+                "content": "“我杀了你！”猛地转身，一拳向着家明揍了过去",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "敏捷的躲避者",
+                "inner_monologue": "他果然忍不住了，这种攻击太容易躲开，正好让他出丑。",
+                "external_action": "轻松地避过一面，耸了耸肩，一脸无辜地朝门外走去",
+                "speech_text": null,
+                "mood_state": "得意"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明离开保健室后，遇到一名可疑男子，情绪转变。",
+            "interlocutor_info": {
+                "name": "陌生男子",
+                "relationship_tag": "潜在威胁"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "一名男子从下方小跑上来，与他擦身而过",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "警觉的观察者",
+                "inner_monologue": "这个人不对劲，可能是杀手，正好我心情郁闷，可以拿他发泄一下。",
+                "external_action": "一个激灵，望着正在往上的那人，目光变得清澈无比，隐隐带了些冰冷与兴奋",
+                "speech_text": null,
+                "mood_state": "兴奋"
+            }
+        }
+    ]
+}

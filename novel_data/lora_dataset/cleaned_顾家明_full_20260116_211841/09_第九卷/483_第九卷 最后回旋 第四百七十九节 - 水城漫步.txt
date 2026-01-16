@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在威尼斯楼顶与一名女子对峙，后者试图追踪他但被制服。",
+            "interlocutor_info": {
+                "name": "女子（未命名）",
+                "relationship_tag": "敌对追踪者"
+            },
+            "trigger": {
+                "sender": "女子",
+                "content": "女子在楼顶使用望远镜观察并报告未发现目标，随后顾家明突然出现并发起攻击。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的掌控者",
+                "inner_monologue": "I need to neutralize this threat quickly and move on to find凯莉.",
+                "external_action": "顾家明迅速逼近女子，推飞她并夺走耳麦，然后拉住她手腕防止其坠落。",
+                "speech_text": null,
+                "mood_state": "focused"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明通过耳麦与纳塔丽通话，询问凯莉的下落。",
+            "interlocutor_info": {
+                "name": "纳塔丽",
+                "relationship_tag": "盟友/朋友"
+            },
+            "trigger": {
+                "sender": "纳塔丽",
+                "content": "纳塔丽接听耳麦，告知凯莉不在家并调侃下午的事件。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "无奈的求助者",
+                "inner_monologue": "I'm getting frustrated with these games; I just want to find凯莉 without more trouble.",
+                "external_action": "顾家明叹气并表达不满。",
+                "speech_text": "拜托，再这样我就要把威尼斯拆掉了……",
+                "mood_state": "exasperated"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明劫持直升机并飞往纳塔丽所在处，途中纳塔丽以舞蹈般的方式登上飞机。",
+            "interlocutor_info": {
+                "name": "纳塔丽",
+                "relationship_tag": "盟友/朋友"
+            },
+            "trigger": {
+                "sender": "纳塔丽",
+                "content": "纳塔丽在广场喂鸽子，看到直升机后以超能力舞蹈般登上飞机。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "欣赏的观察者",
+                "inner_monologue": "I'm impressed by her new abilities; she's always finding creative ways to use them.",
+                "external_action": "顾家明笑了笑并评论她的动作。",
+                "speech_text": "可惜没带摄影机，否则一定要把刚才的画面拍下来。",
+                "mood_state": "amused"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明和纳塔丽手挽手进入别墅宴会，讨论凯莉的怒气并观察舞台上的歌手。",
+            "interlocutor_info": {
+                "name": "纳塔丽",
+                "relationship_tag": "盟友/朋友"
+            },
+            "trigger": {
+                "sender": "纳塔丽",
+                "content": "纳塔丽提醒顾家明挽着她以避免被误认为司机，并告知凯莉在气头上。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "配合的同伴",
+                "inner_monologue": "I'll go along with this to avoid complications; I need to focus on finding凯莉.",
+                "external_action": "顾家明挽着纳塔丽进入别墅，观察周围人群。",
+                "speech_text": "穿着这件衣服？",
+                "mood_state": "resigned"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在宴会大厅认出舞台上的歌手是多年未见的小海蒂。",
+            "interlocutor_info": {
+                "name": "珍妮特（小海蒂）",
+                "relationship_tag": "旧识"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "顾家明看到舞台上的黑发少女唱歌，认出她是小海蒂。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "怀旧的观察者",
+                "inner_monologue": "I can't believe it's her after all these years; she's grown up so much.",
+                "external_action": "顾家明站在那儿看了几秒钟，确认她的身份。",
+                "speech_text": null,
+                "mood_state": "nostalgic"
+            }
+        }
+    ]
+}

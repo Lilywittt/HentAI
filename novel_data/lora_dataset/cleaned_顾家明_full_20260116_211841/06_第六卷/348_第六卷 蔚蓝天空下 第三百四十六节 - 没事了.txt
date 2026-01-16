@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "雅涵被杀手挟持，凯莉下令击杀杀手，场面混乱后恢复平静。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲近的朋友或保护对象"
+            },
+            "trigger": {
+                "sender": "杀手",
+                "content": "挟持雅涵并威胁开枪，引发对峙。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的观察者",
+                "inner_monologue": "我必须保持镇定，确保雅涵和其他人的安全，不能轻举妄动。",
+                "external_action": "可能暗中观察或准备行动，但文本未明确描述顾家明的具体动作。",
+                "speech_text": null,
+                "mood_state": "警觉"
+            }
+        },
+        {
+            "scene_snapshot": "凯莉出现并下令击杀杀手，雅涵受惊吓后与灵静、沙沙拥抱。",
+            "interlocutor_info": {
+                "name": "凯莉",
+                "relationship_tag": "权威或盟友"
+            },
+            "trigger": {
+                "sender": "凯莉",
+                "content": "下令击杀杀手，结束对峙。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "支持的同伴",
+                "inner_monologue": "凯莉处理得果断，但雅涵受了惊吓，我需要事后安慰她。",
+                "external_action": "可能在场但未描述具体行动，关注雅涵的状态。",
+                "speech_text": null,
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "雅涵在营地独自洗澡后感到孤寂，担心顾家明的安危。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲近的朋友或保护对象"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "雅涵在寒冷夜晚独自反思，情绪低落。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "体贴的安慰者",
+                "inner_monologue": "雅涵还在害怕，我需要去安慰她，让她知道没事了。",
+                "external_action": "悄悄走到雅涵身后并抱住她。",
+                "speech_text": null,
+                "mood_state": "温柔"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明从背后抱住雅涵，给她温暖和安慰。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "亲近的朋友或保护对象"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "雅涵情绪低落，独自哭泣。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "温暖的保护者",
+                "inner_monologue": "雅涵需要我的支持，我要用行动让她感到安全。",
+                "external_action": "蹲下并轻轻抱住雅涵。",
+                "speech_text": null,
+                "mood_state": "安抚"
+            }
+        }
+    ]
+}

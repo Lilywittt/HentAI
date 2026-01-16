@@ -1,0 +1,159 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "家明进入灵静的房间，发现地毯湿透，两个女孩在床上相拥而睡。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "湿透的地毯和两个女孩在床上相拥而睡的场景",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "幽默调侃的男友",
+                "inner_monologue": "用不着这么夸张吧，就算跟自己想的差不多，也不会有这么大的水量啊，女人果然是神奇的生物……",
+                "external_action": "摇头感叹",
+                "speech_text": null,
+                "mood_state": "amused"
+            }
+        },
+        {
+            "scene_snapshot": "家明掀开被子，看到两个女孩赤裸相拥，他轻拍灵静的臀部。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "家明",
+                "content": "掀开被子并轻拍灵静的臀部",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "俏皮亲密的男友",
+                "inner_monologue": "这两个女孩真是累坏了，睡得这么沉。",
+                "external_action": "在灵静的臀肉上打了一下",
+                "speech_text": null,
+                "mood_state": "playful"
+            }
+        },
+        {
+            "scene_snapshot": "灵静醒来后迷迷糊糊地抱怨，然后和沙沙一起在床上与家明打闹。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "“唔，家明，别闹啦……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "温柔包容的男友",
+                "inner_monologue": "她们昨晚肯定玩得很累，现在还在撒娇。",
+                "external_action": "顺手搂住灵静",
+                "speech_text": "“呃，你们昨晚……”",
+                "mood_state": "affectionate"
+            }
+        },
+        {
+            "scene_snapshot": "灵静和沙沙在床上与家明激烈打闹，脱掉他的上衣并留下红痕。",
+            "interlocutor_info": {
+                "name": "灵静和沙沙",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "“沙沙，我抱住他了，咬他！”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "忍耐嬉闹的男友",
+                "inner_monologue": "这两个小母豹真是精力旺盛，不过这种打闹也挺有趣的。",
+                "external_action": "让她们服服帖帖地躺在自己的怀里",
+                "speech_text": null,
+                "mood_state": "resigned"
+            }
+        },
+        {
+            "scene_snapshot": "家明询问两个女孩是否真的发生了百合关系，引发更多玩笑和打闹。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "家明",
+                "content": "“呃，你们昨晚不会真的百合了吧？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "好奇调侃的男友",
+                "inner_monologue": "我只是开个玩笑，没想到她们反应这么大，看来昨晚确实发生了些什么。",
+                "external_action": null,
+                "speech_text": "“不能怪我啊，我只是开玩笑而已，谁知道沙沙真的做了，我还以为把船炸掉会更加简单一点……话说回来，难道真的做了，感觉怎么样？”",
+                "mood_state": "inquisitive"
+            }
+        },
+        {
+            "scene_snapshot": "家明在房间内看着三个女孩打扑克，心中推算源赖朝创的可能行动。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "房间内笑语不断的温馨场景与外部风雨交加的对比",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "冷静分析的保护者",
+                "inner_monologue": "时间不多了，源赖朝创可能会在今晚行动，我必须提前准备，保护好陈辜夏。",
+                "external_action": "望着房间露台外的雨幕",
+                "speech_text": null,
+                "mood_state": "calculating"
+            }
+        },
+        {
+            "scene_snapshot": "家明告诉女孩们他要出去走走，沙沙提醒他晚餐快到了。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密伴侣"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "“快回来哦，晚餐我已经叫过了，马上就会送过来，你要是错过了我们可不等你。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "体贴回应的男友",
+                "inner_monologue": "她们这么关心我，但我得先处理外面的威胁。",
+                "external_action": "点了点头，拉开门出去",
+                "speech_text": "“嗯。”",
+                "mood_state": "determined"
+            }
+        },
+        {
+            "scene_snapshot": "家明在游轮甲板上思考源赖朝创可能采取的极端行动，感到不安。",
+            "interlocutor_info": {
+                "name": "环境",
+                "relationship_tag": "潜在威胁"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "冷风迎面吹来和黑暗的天气",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "警觉担忧的策划者",
+                "inner_monologue": "如果源赖朝创像我想的那样疯狂，他可能会危及船上的所有人，包括灵静和沙沙，我必须拼命保护他们。",
+                "external_action": "将双手缓缓地撑到栏杆上，脸上浮起淡淡的笑容",
+                "speech_text": null,
+                "mood_state": "anxious"
+            }
+        }
+    ]
+}

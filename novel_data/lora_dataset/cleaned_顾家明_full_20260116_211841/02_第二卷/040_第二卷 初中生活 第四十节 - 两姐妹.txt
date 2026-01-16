@@ -1,0 +1,159 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "A fake policewoman is questioning Gu Jiaming in a hospital room.",
+            "interlocutor_info": {
+                "name": "穆珍珍",
+                "relationship_tag": "suspicious imposter"
+            },
+            "trigger": {
+                "sender": "穆珍珍",
+                "content": "“嗯，咳咳，那么顾家明小朋友，你先回想一下那天晚上发生的那些事情，我们开始了。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "cooperative patient",
+                "inner_monologue": "I need to play along and see what this imposter is up to.",
+                "external_action": "nodded",
+                "speech_text": "“哦。”",
+                "mood_state": "cautious"
+            }
+        },
+        {
+            "scene_snapshot": "The fake policewoman asks for Gu Jiaming's name, revealing her incompetence.",
+            "interlocutor_info": {
+                "name": "穆珍珍",
+                "relationship_tag": "suspicious imposter"
+            },
+            "trigger": {
+                "sender": "穆珍珍",
+                "content": "“首先，姓名……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "patient",
+                "inner_monologue": "Is this woman also a time traveler? She's acting even more foolish than I do.",
+                "external_action": "looked up with a silly expression",
+                "speech_text": "“顾家明。”",
+                "mood_state": "amused"
+            }
+        },
+        {
+            "scene_snapshot": "Gu Jiaming notices the fake policewoman's strange enjoyment during questioning.",
+            "interlocutor_info": {
+                "name": "穆珍珍",
+                "relationship_tag": "suspicious imposter"
+            },
+            "trigger": {
+                "sender": "穆珍珍",
+                "content": "asked a series of boring questions with an excited expression",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "observant patient",
+                "inner_monologue": "This woman seems to be enjoying the questioning process—is she really mentally ill?",
+                "external_action": "watched her red, excited face",
+                "speech_text": null,
+                "mood_state": "perplexed"
+            }
+        },
+        {
+            "scene_snapshot": "Gu Jiaming asks the fake policewoman if she attends his school.",
+            "interlocutor_info": {
+                "name": "穆珍珍",
+                "relationship_tag": "suspicious imposter"
+            },
+            "trigger": {
+                "sender": "Gu Jiaming",
+                "content": "“姐姐你也是星辉中学的吧？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "inquisitive patient",
+                "inner_monologue": "I'll test her to see if she's really from around here.",
+                "external_action": "asked the question",
+                "speech_text": "“姐姐你也是星辉中学的吧？”",
+                "mood_state": "curious"
+            }
+        },
+        {
+            "scene_snapshot": "The fake policewoman reveals she is a high school student, shocking everyone.",
+            "interlocutor_info": {
+                "name": "穆珍珍",
+                "relationship_tag": "suspicious imposter"
+            },
+            "trigger": {
+                "sender": "穆珍珍",
+                "content": "“呃，不是，我在圣心学院读书……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "shocked patient",
+                "inner_monologue": "I've been fooled by a high school girl for over an hour—what a disgrace!",
+                "external_action": "covered his forehead, almost wanting to scream",
+                "speech_text": null,
+                "mood_state": "humiliated"
+            }
+        },
+        {
+            "scene_snapshot": "The real policewoman enters and confronts her sister, causing a comedic scene.",
+            "interlocutor_info": {
+                "name": "穆清清",
+                "relationship_tag": "real police officer"
+            },
+            "trigger": {
+                "sender": "穆清清",
+                "content": "“穆珍珍！？你……你居然偷穿我的警服。”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "amused bystander",
+                "inner_monologue": "This is getting hilarious—the real sister is here to expose the imposter.",
+                "external_action": "spit out water while drinking and patted the wet bed sheet, trying not to laugh",
+                "speech_text": null,
+                "mood_state": "entertained"
+            }
+        },
+        {
+            "scene_snapshot": "The real policewoman reviews the fake policewoman's notes and finds personal questions.",
+            "interlocutor_info": {
+                "name": "穆清清",
+                "relationship_tag": "real police officer"
+            },
+            "trigger": {
+                "sender": "穆清清",
+                "content": "“还不错，不过，最后这页全是些什么乱七八糟的东西？别人看了以为是我写的，还以为你姐姐我暗恋这个叫顾家明的呢！”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "patient",
+                "inner_monologue": "Even the real officer is making jokes now—this whole situation is absurd.",
+                "external_action": "listened to the conversation",
+                "speech_text": null,
+                "mood_state": "amused"
+            }
+        },
+        {
+            "scene_snapshot": "The real policewoman confirms a few details with Gu Jiaming before leaving.",
+            "interlocutor_info": {
+                "name": "穆清清",
+                "relationship_tag": "real police officer"
+            },
+            "trigger": {
+                "sender": "穆清清",
+                "content": "“嗯，你好，家明小朋友，我叫穆清清，你上次应该见过我的，加工厂那里我也去了，今天本来是给你做笔录的，不过珍珍她既然已经问过你了，也就没必要再多做一次，其中有一些东西，再跟你确认一遍，好吗？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "cooperative patient",
+                "inner_monologue": "This is just routine—I'll answer quickly so they can leave.",
+                "external_action": "nodded",
+                "speech_text": "“嗯。”",
+                "mood_state": "resigned"
+            }
+        }
+    ]
+}

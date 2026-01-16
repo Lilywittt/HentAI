@@ -1,84 +1,90 @@
-# С˵����������ϴ��ṹ����Ŀ (HentAI)
+# 小说主角语料清洗与结构化项目 (HentAI)
 
-����Ŀּ��ͨ���Զ������̣�������ƪС˵�ı��⹹Ϊ�������ġ������� LoRA ѵ���� AI Agent �����Ľṹ���������ϡ�ϵͳ��ƾ��и߶�ͨ���ԣ������䲻ͬ���ĳ�ƪ��ѧ��Ʒ��
-
----
-
-## ?? ���Ĺ���ģ��
-
-### 1. С˵�ı��Զ����ָ� (`split_novel.py`)
-�������ּ����ԭʼ��ƪ TXT �ı����Ϊ���ڴ������½ڵ�Ԫ��
-*   **�����޸�**���Զ�ʶ��ת�� `GBK` �Ⱦ�ʽ����Ϊ��׼ `UTF-8`��
-*   **���ܷ־�**����������ƥ���Զ�ʶ�𡰾����롰�½ڡ���ǣ������༶Ŀ¼��
-*   **���ݾۺ�**������ʶ����������������ݣ�����ƪ�����Եȣ���
-
-### 2. ��������������ϴ (`clean_novel_data.py`)
-���ô�����ģ�ͣ�Ĭ�� DeepSeek���Բ�ֺ���½ڽ������弶������ȡ��
-*   **��ɫ��Ϊ�۽�**���Զ�ʶ��ָ����ɫ��صĽ����������޳���������ı���
-*   **�������첽�ܹ�**������ `asyncio` ��ƣ�֧�ִ��ģ�������󣬼������̴������ڡ�
-*   **�����������**������ȡԭʼ̨���⣬���ܽ���������߼��Զ����ݽ�ɫ�������������״̬��
-*   **��ҵ���������**������ MD5 ��ϣУ�飬ȷ������δ��ʱ���ظ��Ʒѣ�֧�ִ��ģ����ϵ�������
+本项目旨在通过自动化流程，将超长篇小说文本解构为高质量的、适用于 LoRA 训练或 AI Agent 构建的结构化交互语料。系统设计具有高度通用性，可适配不同风格的长篇文学作品。
 
 ---
 
-## ? �ļ��ṹָ��
+## ?? 核心功能模块
 
-### 1. �����ļ�Ҫ�� (Input)
-����Ҫ������С˵ԭʼ�ļ����룺
-*   `novel_data/original_data/���С˵��.txt` (֧�ֶ��ֱ����ʽ�� TXT)
+### 1. 小说文本自动化分割 (`split_novel.py`)
+将百万字级别的原始长篇 TXT 文本拆分为易于处理的章节单元。
+*   **编码修复**：自动识别并转换 `GBK` 等旧式编码为标准 `UTF-8`。
+*   **智能分卷**：基于正则匹配自动识别“卷”与“章节”标记，构建多级目录。
+*   **内容聚合**：智能识别正文与非正文内容（如外篇、感言等）。
 
-### 2. Ԥ�������� (Intermediate)
-���� `split_novel.py` ��ϵͳ���Զ������½ڻ����м��ļ����洢·��Ϊ��
+### 2. 交互语料智能清洗 (`clean_novel_data.py`)
+利用大语言模型（默认 DeepSeek）对拆分后的章节进行语义级特征提取。
+*   **角色行为聚焦**：自动识别指定角色相关的交互场景，剔除冗余干扰文本。
+*   **高性能异步架构**：基于 `asyncio` 设计，支持大规模并发请求，极大缩短处理周期。
+*   **深层语义推演**：除提取原始台词外，更能结合上下文逻辑自动推演角色的心理活动与情绪状态。
+*   **工业级缓存机制**：引入 MD5 哈希校验，确保内容未变时不重复计费，支持大规模任务断点续传。
+
+---
+
+## ? 文件结构指南
+
+### 1. 输入文件要求 (Input)
+将需要处理的小说原始文件放入：
+*   `novel_data/original_data/你的小说名.txt` (支持多种编码格式的 TXT)
+
+### 2. 预处理产出 (Intermediate)
+运行 `split_novel.py` 后，系统会自动生成章节化的中间文件，存储路径为：
 ```text
 novel_data/split_data/
-������ 01_��һ��/
-��   ������ 001_����_�ص���ȥ.txt
-��   ������ ...
-������ 02_�ڶ���/
-������ ...
+├── 01_第一卷/
+│   ├── 001_重生_回到过去.txt
+│   └── ...
+├── 02_第二卷/
+└── ...
 ```
 
-### 3. ����������� (Output)
-��ϴ��ɺ�Ľṹ�� JSON ���Ͻ�����ڣ�
+### 3. 清洗后的中间态数据 (Intermediate Cleaned Data)
+运行 `clean_novel_data.py` 后生成的**中间态树状结构数据集**。这是一个关键的过渡状态，包含了从每一章中提取的主角交互信息。
+
+*   **数据形态**：保留了小说原始的“卷-章”树状目录结构。
+*   **文件内容**：虽然文件名可能保留 `.txt` 后缀，但内容实际上是结构化的 **JSON** 数据。
+*   **后续用途**：这些分散的 JSON 数据将被进一步组装（Flatten & Merge），最终生成用于 LoRA 模型微调的单一 `.jsonl` 数据集。
+
+存放路径：
 ```text
 novel_data/lora_dataset/cleaned_{prefix}_{timestamp}/
-������ {����}/
-��   ������ {�½ڱ��}_{�½���}.json
-��   ������ ...
-������ processing.log (�����Ĵ�����־�� Token ����ͳ��)
+├── {卷名}/
+│   ├── {章节编号}_{章节名}.txt  <-- 内部为 JSON 格式
+│   └── ...
+└── processing.log (完整的处理日志与 Token 消耗统计)
 ```
 
 ---
 
-## ? ��������
+## ? 快速上手
 
-### ����׼��
+### 环境准备
 ```bash
 pip install openai python-dotenv tqdm tenacity httpx
 ```
-������Ŀ��Ŀ¼���� `.env` �ļ������룺
-`DEEPSEEK_API_KEY=��� API ��Կ`
+并在项目根目录创建 `.env` 文件，填入：
+`DEEPSEEK_API_KEY=你的 API 密钥`
 
-### ִ������
-1.  **�־�Ԥ����**: ���� `python split_novel.py` �����ı����顣
-2.  **��ȡָ������**: �༭ `prompt_template.txt` �趨��ϣ�� AI ���ݵĽ�ɫר�Ҽ���ȡ�߼���
-3.  **������ϴ����**: �� `clean_novel_data.py` ���趨Ŀ���ɫ����ִ�� `python clean_novel_data.py`��
-
----
-
-## ?? ���������ýӿ�
-
-### ����Χ����
-�� `clean_novel_data.py` �� `if __name__ == "__main__":` ������ж�̬���ã�
-*   **��ɸѡ**: �޸� `TARGET_PREFIX`���� `"01"` ������������һ������
-*   **�½�ɸѡ**: ͨ�� `START_CHAPTER` �� `END_CHAPTER` ��׼���ƴ��������ֱ�ŷ�Χ��
-
-### ������ɱ�����
-*   `MAX_CONCURRENT_TASKS`: �� `Config` �����޸ģ����鷶Χ 5-20��
+### 执行流程
+1.  **分卷预处理**: 运行 `python split_novel.py` 将长文本切碎。
+2.  **提取指令配置**: 编辑 `prompt_template.txt` 设定你希望 AI 扮演的角色专家及提取逻辑。
+3.  **启动清洗引擎**: 在 `clean_novel_data.py` 中设定目标角色名，执行 `python clean_novel_data.py`。
 
 ---
 
-## ? ��������
-*   **ָ���˱�����**: Ӧ�����粨���Ľ�׳�ԡ�
-*   **��������**: ³�����ļ� IO ϵͳ���Զ����������ַ�����
-*   **�ɱ�͸����**: ʵʱ��ز�����ÿһ���ε�Ԥ���ɱ���
+## ?? 开发者配置接口
+
+### 任务范围控制
+在 `clean_novel_data.py` 的 `if __name__ == "__main__":` 区域进行动态配置：
+*   **卷筛选**: 修改 `TARGET_PREFIX`（如 `"01"` 代表仅处理第一卷）。
+*   **章节筛选**: 通过 `START_CHAPTER` 与 `END_CHAPTER` 精准控制处理的数字编号范围。
+
+### 性能与成本控制
+*   `MAX_CONCURRENT_TASKS`: 在 `Config` 类中修改，建议范围 5-20。
+
+---
+
+## ? 技术亮点
+*   **指数退避重试**: 应对网络波动的健壮性。
+*   **多编码兼容**: 鲁棒的文件 IO 系统，自动处理多种字符集。
+*   **成本透明化**: 实时监控并计算每一批次的预估成本。

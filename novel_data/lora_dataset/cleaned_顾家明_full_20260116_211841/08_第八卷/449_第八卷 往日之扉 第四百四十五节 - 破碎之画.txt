@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Other"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在公园长椅边，听着远处体育馆传来的歌声，回忆往事。",
+            "interlocutor_info": {
+                "name": "流浪猫",
+                "relationship_tag": "无关联的动物"
+            },
+            "trigger": {
+                "sender": "流浪猫",
+                "content": "小猫在撕扯着草地上的一只塑料袋，寻找食物。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "孤独的旁观者",
+                "inner_monologue": "这只猫让我想起了阿丑，不知道它现在怎么样了。",
+                "external_action": "他伸手拆开鱼干包装，递给小猫，小猫吃鱼并舔他的手指。",
+                "speech_text": null,
+                "mood_state": "感伤"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在长椅上，听着灵静的歌声，回忆与灵静和沙沙的过去。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "前女友/重要的人"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静在体育馆演唱歌曲，歌词触动回忆。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "沉思的回忆者",
+                "inner_monologue": "她的歌声让我想起我们曾经的承诺和破碎的梦想，心中思绪沉淀。",
+                "external_action": "他听着歌声，眼前浮现少女的脸和表情，从长椅上站起来。",
+                "speech_text": null,
+                "mood_state": "忧郁"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明抚摸着小猫，准备进入体育馆。",
+            "interlocutor_info": {
+                "name": "小丑猫",
+                "relationship_tag": "临时陪伴的动物"
+            },
+            "trigger": {
+                "sender": "小丑猫",
+                "content": "小猫在他手上吃着带辣味的鱼干。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "温柔的照顾者",
+                "inner_monologue": "这只猫好丑，不会是阿丑的后代吧，回忆涌上心头。",
+                "external_action": "他将小猫举起来看了一会儿，抚摸它。",
+                "speech_text": null,
+                "mood_state": "怀念"
+            }
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "家明在黑暗的厨房里救醒昏迷的灵静，安抚她的情绪。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣/妻子"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静缓缓睁开眼睛，略带沙哑和哽咽地说：“家明……我终于找到你了……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "保护者/安抚者",
+                "inner_monologue": "我必须先确保灵静安全，不能让她担心外面的危险。",
+                "external_action": "轻轻抚上灵静的脸颊，将她搂在怀里",
+                "speech_text": "“灵静，没事了……”",
+                "mood_state": "焦急"
+            }
+        },
+        {
+            "scene_snapshot": "家明抱着灵静躲避危险，在安全房间中为她取暖并交谈。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣/妻子"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静问：“家明，你是怎么找到我的呢？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "温柔伴侣",
+                "inner_monologue": "我不能告诉她我经历了什么危险，以免她更害怕，用轻松的方式解释就好。",
+                "external_action": "淡淡一笑，摩擦灵静的小腿和双足",
+                "speech_text": "“我？其实我一直都在楼上……或者我们真的有心灵感应吧……”",
+                "mood_state": "后怕"
+            }
+        },
+        {
+            "scene_snapshot": "灵静向家明坦白她与沙沙的亲密秘密，表达对家明的感情。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣/妻子"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静说：“家明，我也有个秘密要告诉你呢……其实我跟沙沙……还不算百合啦……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "幽默倾听者",
+                "inner_monologue": "这秘密有点意外，但我不想让她尴尬，用玩笑缓和气氛。",
+                "external_action": "露出想笑又忍住的表情",
+                "speech_text": "“呃，用……手指？”",
+                "mood_state": "忍俊不禁"
+            }
+        },
+        {
+            "scene_snapshot": "家明回应灵静的坦白，表达对三人关系的看法。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣/妻子"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静说：“我希望我们三个人永远都在一起……对不起，家明，昨天的时候，你也觉得有些为难吧……”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "支持性伴侣",
+                "inner_monologue": "我必须让她安心，强调我们的关系是自愿的，我永远站在她们这边。",
+                "external_action": "笑了笑",
+                "speech_text": "“其实……你们两个女孩子跟着我，本来就是你们委屈的……如果是别人给的压力、谴责，我一定会站在前面……”",
+                "mood_state": "温柔"
+            }
+        },
+        {
+            "scene_snapshot": "家明准备向灵静揭示自己的秘密，涉及外部威胁。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密伴侣/妻子"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "灵静轻声问：“那……家明你说的秘密呢？”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "保护者/决策者",
+                "inner_monologue": "现在必须告诉她真相并采取行动，确保她的安全，但先让她相信我。",
+                "external_action": "竖起手指在唇边，关掉咖啡壶",
+                "speech_text": "“灵静，相信我吗？……从这里出门转左，三间房后右转，走廊里来了四个人，是杀上船来的那些坏蛋……”",
+                "mood_state": "决断"
+            }
+        }
+    ]
+}

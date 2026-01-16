@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在游乐场气枪摊前，看到月池薰以精准枪法射击，引起围观和老板恐慌。",
+            "interlocutor_info": {
+                "name": "月池薰",
+                "relationship_tag": "需要照顾的异国少女"
+            },
+            "trigger": {
+                "sender": "月池薰",
+                "content": "以标准姿势不断上弹、开枪，几乎例不虚发地击倒靶子。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "尴尬的监护人",
+                "inner_monologue": "干，这样的事情……做人要低调啊，我只是让她随便玩玩，不是表演枪法。",
+                "external_action": "表情微微抽搐，从人群中挤进去阻止。",
+                "speech_text": "呃，呵呵，停、停、停……她是我妹妹，别的不行，就是射鸡射鸭厉害，过段时间还可能入选国家队呢。小妹，别闹了别闹了，你喜欢什么让老板拿给你就好了，呃，老板，她能拿什么？",
+                "mood_state": "无奈"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在雪地上与月池薰对话，讨论她作为忍者和杀手的心理差异。",
+            "interlocutor_info": {
+                "name": "月池薰",
+                "relationship_tag": "缺乏童年经验的孤独少女"
+            },
+            "trigger": {
+                "sender": "月池薰",
+                "content": "抱着大熊猫玩具，表现出对布娃娃的喜爱。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "经验丰富的指导者",
+                "inner_monologue": "她喜欢布娃娃是个好迹象，至少比压抑感情或吸毒强，我得引导她找到健康的发泄方式。",
+                "external_action": "在雪地上停下来，面对月池薰说话。",
+                "speech_text": "呵，每天挣扎在生死边缘其实是一件很可怕的事情……你既然想干这一行，我想最好找出一些自己喜欢干的事情，喜欢布娃娃是个好习惯，以后多给自己买几个。",
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在摩天轮上提醒月池薰避免喜欢游乐设施，以防暗杀风险。",
+            "interlocutor_info": {
+                "name": "月池薰",
+                "relationship_tag": "需要安全指导的学徒"
+            },
+            "trigger": {
+                "sender": "月池薰",
+                "content": "回答喜欢摩天轮，表现出对游乐项目的兴趣。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "谨慎的导师",
+                "inner_monologue": "她太容易喜欢上这些危险的东西了，作为杀手，必须保持警惕和孤独。",
+                "external_action": "望着外面的景色发呆，偶尔对话。",
+                "speech_text": "千万别喜欢上这个，如果有人暗杀你，你应变的余地都没有多少，以后尽量忘掉。",
+                "mood_state": "严肃"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在碰碰车后再次警告月池薰避免人多场所，强调杀手职业的孤独性。",
+            "interlocutor_info": {
+                "name": "月池薰",
+                "relationship_tag": "天真易受影响的同伴"
+            },
+            "trigger": {
+                "sender": "月池薰",
+                "content": "回答喜欢碰碰车，继续表现出对游乐项目的喜爱。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "不耐烦的指导者",
+                "inner_monologue": "她又喜欢这个，杀手不能有太多喜好，否则会暴露弱点。",
+                "external_action": "皱着眉头说话。",
+                "speech_text": "别喜欢这个，人多，有人暗杀你的时候会很麻烦，而且车子不是你自己检查，有炸弹也分辨不出来，以后尽量忘掉。",
+                "mood_state": "烦躁"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在酒吧门口向潇洒哥询问沙沙的情况，准备进入谈判现场。",
+            "interlocutor_info": {
+                "name": "潇洒哥",
+                "relationship_tag": "沙竹帮的熟人"
+            },
+            "trigger": {
+                "sender": "潇洒哥",
+                "content": "告知酒吧内正在谈判，建议暂时不要进去。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的访客",
+                "inner_monologue": "里面在谈判，但月池薰不需要隐藏实力，我们可以进去看看情况。",
+                "external_action": "笑着询问并决定进入。",
+                "speech_text": "既然不会有事的，那我们就先进去了，放心，找到沙沙之后我们躲在后面，不会添乱的。",
+                "mood_state": "镇定"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在酒吧内看到秃子骚扰月池薰，做出手势允许她反击。",
+            "interlocutor_info": {
+                "name": "月池薰",
+                "relationship_tag": "受保护的同伴"
+            },
+            "trigger": {
+                "sender": "秃子",
+                "content": "泼红酒到大熊猫上，并试图触摸月池薰，引发冲突。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "隐忍的旁观者",
+                "inner_monologue": "这个秃子在挑衅，但月池薰可以处理，我不需要暴露自己。",
+                "external_action": "看着傻笑的几人，淡淡一笑，摇头后转身走向沙沙，做手势。",
+                "speech_text": null,
+                "mood_state": "冷静"
+            }
+        }
+    ]
+}

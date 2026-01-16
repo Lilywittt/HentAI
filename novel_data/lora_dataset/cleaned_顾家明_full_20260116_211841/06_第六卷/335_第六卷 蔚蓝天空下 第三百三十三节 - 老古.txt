@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "谭君荣在帐篷里郁闷地思考着如何对付顾家明，并打电话给古叔要求调查顾家明的资料。",
+            "interlocutor_info": {
+                "name": "古叔",
+                "relationship_tag": "不可靠的中间人"
+            },
+            "trigger": {
+                "sender": "谭君荣",
+                "content": "给我查一个叫顾家明的人的资料，家里是黄氏集团的，这事你可别再骗我了……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "谨慎的求助者",
+                "inner_monologue": "我得确保这次调查可靠，不能再被古叔敷衍了。",
+                "external_action": "打电话给古叔",
+                "speech_text": "那待会打给我。",
+                "mood_state": "怀疑"
+            }
+        },
+        {
+            "scene_snapshot": "古叔在厨房煮泡面时，沙竹帮的人突然出现在门外，气氛紧张。",
+            "interlocutor_info": {
+                "name": "沙竹帮成员",
+                "relationship_tag": "未知的威胁"
+            },
+            "trigger": {
+                "sender": "沙竹帮成员",
+                "content": "门铃响起，门外有穿黑西装的男人，香蕉哥在电话中说就在门外。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "警觉的逃亡者",
+                "inner_monologue": "这些人突然出现，肯定和顾家明的事有关，我得赶紧逃跑。",
+                "external_action": "扔掉电话，转身就跑向应急逃生窗户",
+                "speech_text": null,
+                "mood_state": "恐慌"
+            }
+        },
+        {
+            "scene_snapshot": "柳正带领沙竹帮众人进入房间，质问古叔关于顾家明的事情。",
+            "interlocutor_info": {
+                "name": "柳正",
+                "relationship_tag": "强大的敌对势力首领"
+            },
+            "trigger": {
+                "sender": "柳正",
+                "content": "说啊，是谁？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "恐惧的辩解者",
+                "inner_monologue": "我必须撇清关系，否则后果不堪设想。",
+                "external_action": "跪在地上，看到传真后心沉到海底",
+                "speech_text": "老大，这件事情跟我无关，我根本就不知道……有人叫我帮忙查这个人……",
+                "mood_state": "绝望"
+            }
+        },
+        {
+            "scene_snapshot": "柳正接到电话与顾家明通话，询问他的位置。",
+            "interlocutor_info": {
+                "name": "柳正",
+                "relationship_tag": "麻烦的牵连者"
+            },
+            "trigger": {
+                "sender": "柳正",
+                "content": "喂，家明吗……哦，是有点吵，这边打麻将呢，老杨输了钱，哭得昏天暗地的，不说这个，你现在在哪？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "无奈的回应者",
+                "inner_monologue": "这下糟了，沙沙的爸爸也卷进来了，真是自作自受。",
+                "external_action": "拿着电话，张大了嘴，神态无语",
+                "speech_text": null,
+                "mood_state": "懊恼"
+            }
+        }
+    ]
+}

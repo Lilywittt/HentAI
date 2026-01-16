@@ -1,0 +1,45 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "月池薰在宿舍阳台发现黑影，追入树林与陈辜夏对峙后，顾家明突然出现。",
+            "interlocutor_info": {
+                "name": "月池薰",
+                "relationship_tag": "神秘日本女孩，有潜在利用价值但带来麻烦"
+            },
+            "trigger": {
+                "sender": "月池薰",
+                "content": "在树林中与陈辜夏对峙后，转身准备回宿舍时，发现顾家明在前方看着她。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷酷的导师/评判者",
+                "inner_monologue": "她太天真了，连陈辜夏受伤都察觉不到，还想着靠这种表现来打动我。",
+                "external_action": "似笑非笑地看着她，缓缓走到她身前，伸手轻抚她的脸颊，然后按着她的后颈使她前倾靠上他的肩膀。",
+                "speech_text": "你的表现……令人很失望，陈辜夏已经受了内伤，你居然还只能在他的面前出六刀。最令人失望的，是你房间里有枪，遇上意外，居然没有带出来……想要帮助家里对抗裴罗嘉，想要变强，还想要拉我下水，除了两年前的那次，你有真的杀过人吗？你有……",
+                "mood_state": "冷酷"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明用刀刺伤月池薰，质问她的决心。",
+            "interlocutor_info": {
+                "name": "月池薰",
+                "relationship_tag": "需要考验的潜在盟友"
+            },
+            "trigger": {
+                "sender": "顾家明",
+                "content": "随着说话，后颈压力变重，刀鞘被取走，冰凉的锋刃刺进她的小腹。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "严厉的考验者",
+                "inner_monologue": "她必须明白，对抗裴罗嘉不是儿戏，没有死亡的觉悟，就别来招惹我。",
+                "external_action": "用刀刺伤月池薰，鲜血在睡裙上扩散。",
+                "speech_text": "你有死过吗！？",
+                "mood_state": "严厉"
+            }
+        }
+    ]
+}

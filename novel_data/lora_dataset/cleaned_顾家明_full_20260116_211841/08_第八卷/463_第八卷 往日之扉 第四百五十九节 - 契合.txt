@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Romance"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在雅涵别墅外与雅涵告别，讨论如何处理与灵静和沙沙的关系。",
+            "interlocutor_info": {
+                "name": "雅涵",
+                "relationship_tag": "前情人，愧疚对象"
+            },
+            "trigger": {
+                "sender": "雅涵",
+                "content": "过几天……我再去见灵静和沙沙吧，这件事情真不知道该怎么办。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "自责的伴侣",
+                "inner_monologue": "这是我的错，我必须承担后果。",
+                "external_action": "点头",
+                "speech_text": "我的错。",
+                "mood_state": "愧疚"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在圣心学院广场遇到灵静，与街坊打招呼后询问沙沙的去向。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "深爱的女友，重逢的喜悦"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "回来的时候遇上陈阿姨了，还记得吧？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "亲切的旧识",
+                "inner_monologue": "灵静还是这么自然，能见到她真好。",
+                "external_action": "打招呼",
+                "speech_text": "陈阿姨好，张叔，好久不见了。",
+                "mood_state": "温暖"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明与灵静在家中共进晚餐，聊起过去四年的生活。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "深爱的女友，未来的憧憬"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "在维也纳……没开火吗？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "关心的伴侣",
+                "inner_monologue": "她一个人在国外一定很辛苦，我想多了解她的生活。",
+                "external_action": "迟疑",
+                "speech_text": "在维也纳……没开火吗？",
+                "mood_state": "关切"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明与灵静在卧室中亲密互动，表达思念和渴望。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "深爱的女友，情感的寄托"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "我想上床。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "深情的伴侣",
+                "inner_monologue": "我也渴望与她亲近，这能弥合我们之间的鸿沟。",
+                "external_action": "抱起她走向卧室",
+                "speech_text": "我也是……",
+                "mood_state": "渴望"
+            }
+        }
+    ]
+}

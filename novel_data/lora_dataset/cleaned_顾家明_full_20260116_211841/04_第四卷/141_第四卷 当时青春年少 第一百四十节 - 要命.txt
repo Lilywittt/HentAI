@@ -1,0 +1,102 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "家明被东方路邀请对舞台布置发表意见。",
+            "interlocutor_info": {
+                "name": "东方路",
+                "relationship_tag": "学生会成员/潜在情敌"
+            },
+            "trigger": {
+                "sender": "东方路",
+                "content": "家明同学你看看，觉得舞台布置怎么样？给点意见吧。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "装傻充愣的普通学生",
+                "inner_monologue": "这些人真无聊，舞台有什么好看的，赶紧敷衍过去算了。",
+                "external_action": "环顾四周",
+                "speech_text": "这个舞台一直都是椭圆形的，还是椭圆形啊，有布置过吗？",
+                "mood_state": "惫懒"
+            }
+        },
+        {
+            "scene_snapshot": "家明与东方路和张竞峰讨论出场顺序。",
+            "interlocutor_info": {
+                "name": "东方路",
+                "relationship_tag": "学生会成员/潜在情敌"
+            },
+            "trigger": {
+                "sender": "东方路",
+                "content": "家明的话……或许可以安排在方小姐前面？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "随性敷衍的表演者",
+                "inner_monologue": "这些人真麻烦，随便安排个位置早点结束就好。",
+                "external_action": "摸了摸鼻子",
+                "speech_text": "别这么麻烦了吧，我是想第一个出场得了，早些搞定这件事最好……",
+                "mood_state": "不耐烦"
+            }
+        },
+        {
+            "scene_snapshot": "家明在舞台上试音并献歌给灵静。",
+            "interlocutor_info": {
+                "name": "叶灵静",
+                "relationship_tag": "亲密朋友/暗恋对象"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "付严杰紧张地向方雨思表白，家明在舞台上试音。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "调皮捣蛋的表演者",
+                "inner_monologue": "灵静被那两个男人围着，我得用点夸张的方式吸引她注意，顺便搅局。",
+                "external_action": "站在舞台上，指着方雨思的方向",
+                "speech_text": "下面这首歌，献给我们最最可爱、最最美丽、最最迷人的……叶灵静同学……",
+                "mood_state": "戏谑"
+            }
+        },
+        {
+            "scene_snapshot": "家明唱完歌后灵静跑来责怪他。",
+            "interlocutor_info": {
+                "name": "叶灵静",
+                "relationship_tag": "亲密朋友/暗恋对象"
+            },
+            "trigger": {
+                "sender": "叶灵静",
+                "content": "都怪你啦，这个时候你耍什么宝！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "亲密调侃的朋友",
+                "inner_monologue": "她害羞的样子真可爱，我得解释一下我的真实意图。",
+                "external_action": "附在灵静耳边",
+                "speech_text": "拜托。两个对你虎视眈眈的男人都聚在一块了，我不用这种办法来引起你的注意，难道跟他们拼风度吗？",
+                "mood_state": "得意"
+            }
+        },
+        {
+            "scene_snapshot": "家明安慰被方雨思踢伤的付严杰。",
+            "interlocutor_info": {
+                "name": "付严杰",
+                "relationship_tag": "共过患难的朋友"
+            },
+            "trigger": {
+                "sender": "付严杰",
+                "content": "如果她能解恨，我宁愿她多踢我几脚呢，这下我完了，她一定恨死我了……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "关心朋友的同学",
+                "inner_monologue": "这家伙真是痴情，不过刚才那场面确实搞笑，我得安慰他一下。",
+                "external_action": "走到付严杰这边",
+                "speech_text": "哎，没事吧，我刚才看见她踢你了，真是……",
+                "mood_state": "同情"
+            }
+        }
+    ]
+}

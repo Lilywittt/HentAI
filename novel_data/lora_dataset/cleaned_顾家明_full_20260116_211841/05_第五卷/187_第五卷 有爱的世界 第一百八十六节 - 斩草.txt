@@ -1,0 +1,45 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在别墅中目睹简素言用枪威胁华为，并听到叶莲的劝说。",
+            "interlocutor_info": {
+                "name": "简素言",
+                "relationship_tag": "神秘且危险的盟友"
+            },
+            "trigger": {
+                "sender": "简素言",
+                "content": "问你们一个问题……春风吹又生的上一句是什么？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的旁观者",
+                "inner_monologue": "我明白叶莲的顾虑，如果杀掉华氏父子，沙竹帮统一江海后只会引发更多麻烦，陷入恶性循环。",
+                "external_action": "笑了笑，将手枪收了回去，转身离开。",
+                "speech_text": null,
+                "mood_state": "释然"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明听到叶莲向华为解释国安身份和简素言的威胁。",
+            "interlocutor_info": {
+                "name": "叶莲",
+                "relationship_tag": "国安特工，临时合作者"
+            },
+            "trigger": {
+                "sender": "叶莲",
+                "content": "我们的身份……隶属国家安全部第三行动组，主要负责国际反恐怖事务……刚才的那个女人，我们不得不在这里看着，避免她一个不高兴，就出来杀掉你们全家。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "隐忍的策划者",
+                "inner_monologue": "叶莲的话证实了我的判断，国安介入是为了控制简素言，这局面正合我意，可以避免更大冲突。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "满意"
+            }
+        }
+    ]
+}

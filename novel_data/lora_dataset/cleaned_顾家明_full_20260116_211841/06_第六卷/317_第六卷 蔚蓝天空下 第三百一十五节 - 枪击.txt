@@ -1,0 +1,159 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "顾家明（作为简素言）与凯莉在酒店房间躲避狙击，讨论公爵的威胁和凯莉的直觉安排。",
+      "interlocutor_info": {
+        "name": "凯莉",
+        "relationship_tag": "盟友/麻烦制造者"
+      },
+      "trigger": {
+        "sender": "凯莉",
+        "content": "凯莉解释她提前在窗户上贴了强折光度薄膜，并催促简素言拿对讲机恢复通讯。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静专业的杀手",
+        "inner_monologue": "I need to assess the situation and ensure our safety, but her intuition might be useful here.",
+        "external_action": "简素言拉起毯子罩住对讲机并扔给凯莉，然后裹住凯莉的身体将她踢回去。",
+        "speech_text": "给我一把狙击枪。",
+        "mood_state": "警觉"
+      }
+    },
+    {
+      "scene_snapshot": "顾家明（作为简素言）与凯莉在床后躲避，凯莉兴奋地谈论公爵的到来。",
+      "interlocutor_info": {
+        "name": "凯莉",
+        "relationship_tag": "盟友/麻烦制造者"
+      },
+      "trigger": {
+        "sender": "凯莉",
+        "content": "凯莉兴奋地说公爵真的来了，并介绍他是从实验室逃出来的家伙。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静专业的杀手",
+        "inner_monologue": "I must stay focused on the threat, but her energy is distracting.",
+        "external_action": "简素言迅速向外望了一眼，皱起眉头。",
+        "speech_text": "这家伙枪法可真够差的。不太对啊……",
+        "mood_state": "怀疑"
+      }
+    },
+    {
+      "scene_snapshot": "顾家明（作为简素言）与凯莉讨论查尔斯和纳塔丽的情况。",
+      "interlocutor_info": {
+        "name": "凯莉",
+        "relationship_tag": "盟友/麻烦制造者"
+      },
+      "trigger": {
+        "sender": "凯莉",
+        "content": "凯莉通过对讲机与查尔斯通话，抱怨纳塔丽派他来保护她。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静专业的杀手",
+        "inner_monologue": "I need to gather more information about the broader situation.",
+        "external_action": "简素言的目光望了过来。",
+        "speech_text": "你在对面安排了人？",
+        "mood_state": "好奇"
+      }
+    },
+    {
+      "scene_snapshot": "顾家明（作为简素言）与凯莉对峙查尔斯，凯莉发脾气赶他走。",
+      "interlocutor_info": {
+        "name": "查尔斯",
+        "relationship_tag": "潜在威胁/盟友下属"
+      },
+      "trigger": {
+        "sender": "查尔斯",
+        "content": "查尔斯举枪出现在门口，确认凯莉的安全。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "冷静专业的杀手",
+        "inner_monologue": "I must be ready to neutralize any immediate threat.",
+        "external_action": "简素言将狙击枪调转指向门口。",
+        "speech_text": null,
+        "mood_state": "警惕"
+      }
+    },
+    {
+      "scene_snapshot": "顾家明（作为简素言）与凯莉讨论查尔斯的性取向和纳塔丽。",
+      "interlocutor_info": {
+        "name": "凯莉",
+        "relationship_tag": "盟友/麻烦制造者"
+      },
+      "trigger": {
+        "sender": "凯莉",
+        "content": "凯莉说查尔斯是个玻璃（同性恋），并询问简素言怎么知道他不是。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静专业的杀手",
+        "inner_monologue": "I recall my past experiences with similar situations, but it's not relevant to share now.",
+        "external_action": "简素言脸上露出一个笑容。",
+        "speech_text": "他不是。",
+        "mood_state": "淡然"
+      }
+    },
+    {
+      "scene_snapshot": "顾家明（作为简素言）要求凯莉解释整个事情，包括她如何识破他的身份。",
+      "interlocutor_info": {
+        "name": "凯莉",
+        "relationship_tag": "盟友/麻烦制造者"
+      },
+      "trigger": {
+        "sender": "凯莉",
+        "content": "凯莉扭着头思考，然后称赞简素言完美保持形象。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静专业的杀手",
+        "inner_monologue": "I need to get to the bottom of this to understand her motives and the threat level.",
+        "external_action": "简素言转开了话题。",
+        "speech_text": "说正题。",
+        "mood_state": "严肃"
+      }
+    },
+    {
+      "scene_snapshot": "顾家明（作为简素言）用男声说话，凯莉强烈反对并威胁绝交。",
+      "interlocutor_info": {
+        "name": "凯莉",
+        "relationship_tag": "盟友/麻烦制造者"
+      },
+      "trigger": {
+        "sender": "凯莉",
+        "content": "凯莉讨厌顾家明的声音，要求简素言只用女声，否则绝交。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静专业的杀手",
+        "inner_monologue": "I must maintain this disguise to avoid complications, even if it annoys her.",
+        "external_action": "简素言愣了一愣，随后无奈地笑起来。",
+        "speech_text": "OK。",
+        "mood_state": "无奈"
+      }
+    },
+    {
+      "scene_snapshot": "顾家明（作为简素言）震惊地听到纳塔丽陷入沉睡的消息。",
+      "interlocutor_info": {
+        "name": "凯莉",
+        "relationship_tag": "盟友/麻烦制造者"
+      },
+      "trigger": {
+        "sender": "凯莉",
+        "content": "凯莉解释纳塔丽亲自出手对抗公爵但打输了，目前陷入沉睡。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静专业的杀手",
+        "inner_monologue": "This changes everything; I need to reassess the situation immediately.",
+        "external_action": null,
+        "speech_text": "你说什么！？",
+        "mood_state": "震惊"
+      }
+    }
+  ]
+}

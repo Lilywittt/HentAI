@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在别墅中，东方婉和雷庆返回取直升机模型，突然听到枪声和爆炸声。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "同学/竞争对手"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "激烈的枪声从方之天的房间传出，随后别墅停电，西北边发生爆炸。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "冷静观察者",
+                "inner_monologue": "我得保持警惕，这突如其来的战斗可能与郁金香或源赖朝创有关，不能暴露自己。",
+                "external_action": "可能迅速寻找掩护或观察周围情况",
+                "speech_text": null,
+                "mood_state": "警觉"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在别墅中，东方凌海下楼遇到东方婉和雷庆，提到一切顺利。",
+            "interlocutor_info": {
+                "name": "东方凌海",
+                "relationship_tag": "同学的父亲/潜在威胁"
+            },
+            "trigger": {
+                "sender": "东方凌海",
+                "content": "东方凌海说“一切都很顺利，应该不会出什么事了……”，然后枪声响起。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "低调旁观者",
+                "inner_monologue": "东方凌海的话刚说完就出事，这太巧合了，我得小心别被卷入他们的麻烦中。",
+                "external_action": "可能保持沉默或轻微移动以避开视线",
+                "speech_text": null,
+                "mood_state": "谨慎"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在别墅中，东方婉提到要修理直升机模型，不想输给顾家明。",
+            "interlocutor_info": {
+                "name": "东方婉",
+                "relationship_tag": "同学/竞争对手"
+            },
+            "trigger": {
+                "sender": "东方婉",
+                "content": "东方婉心想“无论如何，她也不想输给那个古怪的顾家明，怎样都得修理好才行！”",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "漠不关心者",
+                "inner_monologue": "东方婉还在纠结那个直升机模型，她根本不知道真正的危险是什么，我得专注于自己的安全。",
+                "external_action": null,
+                "speech_text": null,
+                "mood_state": "淡然"
+            }
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在吉普车中与陈俊斌交谈，解释裴罗嘉的杀手流程和蓝色杀手的弱点。",
+            "interlocutor_info": {
+                "name": "陈俊斌",
+                "relationship_tag": "被胁迫的司机"
+            },
+            "trigger": {
+                "sender": "陈俊斌",
+                "content": "为……为什么要撞死他……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静的杀手",
+                "inner_monologue": "我需要稳住他，确保他配合我的计划，同时透露必要信息以建立威慑。",
+                "external_action": "淡淡地说话",
+                "speech_text": "裴罗嘉有着很好的事后处理机制，我想，最迟在今天下午，他们已经通知过你会派人过来了吧？",
+                "mood_state": "冷静"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在吉普车中继续向陈俊斌分析蓝色杀手的特性和裴罗嘉的运作方式。",
+            "interlocutor_info": {
+                "name": "陈俊斌",
+                "relationship_tag": "被胁迫的司机"
+            },
+            "trigger": {
+                "sender": "陈俊斌",
+                "content": "你这么熟悉他，难道你也是……",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "前特级杀手",
+                "inner_monologue": "是时候透露我的身份了，这能增加我的权威，让他更不敢轻举妄动。",
+                "external_action": "转过头来，面带冷然笑意",
+                "speech_text": "我曾经属于裴罗嘉。特级。",
+                "mood_state": "自信"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明将陈俊斌和另一人打晕绑好，在树林边回望废弃厂房，评估对手。",
+            "interlocutor_info": {
+                "name": "环境",
+                "relationship_tag": "任务目标地点"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "废弃厂房明暗交错，有敌人在内",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "专业的潜入者",
+                "inner_monologue": "这里防守松散，是我的机会；干掉蓝色让我松了口气，但必须保持专注，确保第一次行动完美。",
+                "external_action": "回头望了一眼，目光转为冷漠",
+                "speech_text": null,
+                "mood_state": "专注"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明观察厂房后，内心鼓励自己，准备开始行动。",
+            "interlocutor_info": {
+                "name": "自我",
+                "relationship_tag": "任务执行者"
+            },
+            "trigger": {
+                "sender": "自我",
+                "content": "评估厂房危险程度低",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "经验丰富的杀手",
+                "inner_monologue": "危险程度低，但是……第一次出手，要干得漂亮点啊，小菜鸟。",
+                "external_action": "心中笑了出来",
+                "speech_text": null,
+                "mood_state": "决心"
+            }
+        }
+    ]
+}

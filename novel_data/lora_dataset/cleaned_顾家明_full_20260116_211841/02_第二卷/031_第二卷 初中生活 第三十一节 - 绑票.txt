@@ -1,0 +1,64 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "家明和沙沙在校门外被面包车绑架，被蒙眼堵嘴带往西郊木料厂。",
+            "interlocutor_info": {
+                "name": "曹景豪",
+                "relationship_tag": "敌对帮派头目"
+            },
+            "trigger": {
+                "sender": "曹景豪",
+                "content": "小侄女，好久没见了，最近还好吧？",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "冷静观察者",
+                "inner_monologue": "曹景豪果然动手了，我得先评估局势，确保沙沙安全。",
+                "external_action": "环顾四周，观察环境",
+                "speech_text": null,
+                "mood_state": "警觉"
+            }
+        },
+        {
+            "scene_snapshot": "曹东峰威胁沙沙并侮辱家明，沙沙颤抖着安慰家明。",
+            "interlocutor_info": {
+                "name": "曹东峰",
+                "relationship_tag": "怨恨的对手"
+            },
+            "trigger": {
+                "sender": "曹东峰",
+                "content": "你这女人再他妈废话我就强奸你。我配不上叶灵静，我他妈至少比这个小子好！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "隐忍的保护者",
+                "inner_monologue": "曹东峰还是这么冲动，我得保持低调，避免激化冲突，先稳住沙沙的情绪。",
+                "external_action": "点头回应沙沙",
+                "speech_text": "嗯，我没关系的。",
+                "mood_state": "克制"
+            }
+        },
+        {
+            "scene_snapshot": "家明注意到竹棚里日本老头用竹刀打女孩，女孩面无表情。",
+            "interlocutor_info": {
+                "name": "日本老头",
+                "relationship_tag": "陌生的施暴者"
+            },
+            "trigger": {
+                "sender": "日本老头",
+                "content": "给了你两天时间了，还不想说吗……好，明天你如果还不说，哼，就别怪我毁掉你的一辈子！",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "敏锐的分析者",
+                "inner_monologue": "这个女孩是月池薰，她在这里经历了什么？我得记住这个细节，可能和未来有关。",
+                "external_action": "观察竹棚里的女孩和老头",
+                "speech_text": null,
+                "mood_state": "好奇"
+            }
+        }
+    ]
+}

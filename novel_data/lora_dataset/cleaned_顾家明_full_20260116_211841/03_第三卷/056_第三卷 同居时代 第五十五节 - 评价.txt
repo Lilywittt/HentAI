@@ -1,0 +1,140 @@
+{
+    "meta_info": {
+        "global_scene_type": "Combat"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "顾家明在广场上面对一群挑衅者，意外踢伤一人后，与同伴灵静和沙沙应对冲突。",
+            "interlocutor_info": {
+                "name": "高个子挑衅者",
+                "relationship_tag": "敌对挑衅者"
+            },
+            "trigger": {
+                "sender": "高个子挑衅者",
+                "content": "被足球踢中后摔倒在地，口鼻流血，四肢抽搐。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "无辜而困惑的旁观者",
+                "inner_monologue": "我明明只是让他用手接球，他怎么用脸去挡？这下麻烦大了。",
+                "external_action": "脸上露出无辜而无措的表情",
+                "speech_text": "呃……抱歉，不好意思，我指的是用手接，你干嘛……呃……你干嘛要用脸呢？",
+                "mood_state": "困惑"
+            }
+        },
+        {
+            "scene_snapshot": "卢建川以跆拳道踢腿攻击沙沙，顾家明冲撞阻止，导致卢建川受伤。",
+            "interlocutor_info": {
+                "name": "卢建川",
+                "relationship_tag": "武术高手对手"
+            },
+            "trigger": {
+                "sender": "卢建川",
+                "content": "凌空踢腿攻击沙沙，踢断木棒。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "保护同伴的勇敢者",
+                "inner_monologue": "沙沙有危险，我必须冲上去挡住这一击，不能让她受伤。",
+                "external_action": "冲撞卢建川，导致其撞上路灯杆后倒地",
+                "speech_text": "沙沙小心！",
+                "mood_state": "果断"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在卢建川倒地后，扑上去折断其手指以威慑其他挑衅者。",
+            "interlocutor_info": {
+                "name": "卢建川",
+                "relationship_tag": "被制服的对手"
+            },
+            "trigger": {
+                "sender": "卢建川",
+                "content": "倒地后挣扎，被顾家明抓住手。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷酷的威慑者",
+                "inner_monologue": "这家伙还有反抗能力，我得彻底制服他，让其他人不敢再动手。",
+                "external_action": "折断卢建川的右手食指，握紧其中指在众人面前晃动",
+                "speech_text": "你们这帮混混，还有谁要过来的？",
+                "mood_state": "冷酷"
+            }
+        },
+        {
+            "scene_snapshot": "带头男生道歉并试图和解，顾家明质问后接受道歉并离开。",
+            "interlocutor_info": {
+                "name": "带头男生",
+                "relationship_tag": "道歉的挑衅者头目"
+            },
+            "trigger": {
+                "sender": "带头男生",
+                "content": "道歉并承认错误，表示只是想引起女同学注意。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "质问者",
+                "inner_monologue": "他们终于认错了，但这事不能就这么轻易放过，得让他们记住教训。",
+                "external_action": "放下卢建川的手，轻哼一声，掉头就走",
+                "speech_text": "小事？这件小事是谁引起的？",
+                "mood_state": "严厉"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明与灵静、沙沙回家后，讨论雅涵在旁观战的事。",
+            "interlocutor_info": {
+                "name": "灵静",
+                "relationship_tag": "亲密同伴/女友"
+            },
+            "trigger": {
+                "sender": "灵静",
+                "content": "告知顾家明雅涵在广场旁车里旁观。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "调侃者",
+                "inner_monologue": "雅涵姐居然在车里看戏也不帮忙，太不够意思了，不过算了，反正我们也没事。",
+                "external_action": null,
+                "speech_text": "在那里也不出来帮忙，太可耻了。",
+                "mood_state": "调侃"
+            }
+        },
+        {
+            "scene_snapshot": "沙沙称赞顾家明在冲突中的表现，顾家明开玩笑索要奖赏。",
+            "interlocutor_info": {
+                "name": "沙沙",
+                "relationship_tag": "亲密同伴/女友"
+            },
+            "trigger": {
+                "sender": "沙沙",
+                "content": "称赞顾家明厉害，并提到他冲上来保护她。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "幽默的索赏者",
+                "inner_monologue": "沙沙这么夸我，我得趁机要点好处，不过也就是开开玩笑。",
+                "external_action": null,
+                "speech_text": "我这么厉害，有什么奖赏吗？",
+                "mood_state": "轻松"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明与灵静、沙沙在家中亲密后，讨论晚餐安排。",
+            "interlocutor_info": {
+                "name": "灵静和沙沙",
+                "relationship_tag": "亲密妻子"
+            },
+            "trigger": {
+                "sender": "灵静和沙沙",
+                "content": "兴奋地表达对顾家明的喜爱，并提到还没买菜做晚饭。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "无奈但温馨的丈夫",
+                "inner_monologue": "她们这么高兴，我也很开心，但肚子饿得不行，看来又得我去煮面了。",
+                "external_action": "叹气后从床上爬起来去厨房煮面",
+                "speech_text": "算了。吃面条吧。",
+                "mood_state": "无奈"
+            }
+        }
+    ]
+}

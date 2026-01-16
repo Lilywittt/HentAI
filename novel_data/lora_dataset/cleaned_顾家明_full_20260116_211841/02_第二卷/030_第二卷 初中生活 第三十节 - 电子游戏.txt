@@ -1,0 +1,159 @@
+{
+    "meta_info": {
+        "global_scene_type": "Suspense"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "曹东峰在游戏厅挑衅顾家明，挡住游戏屏幕并言语侮辱。",
+            "interlocutor_info": {
+                "name": "曹东峰",
+                "relationship_tag": "敌对的同学/欺凌者"
+            },
+            "trigger": {
+                "sender": "曹东峰",
+                "content": "砰的一下靠在家明玩的游戏机上，挡住了半个屏幕：\"嗨，真巧啊，三位，一起玩怎么样？\"",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "无奈而礼貌的抗议者",
+                "inner_monologue": "这家伙又来惹事，真烦人，但我不想在公共场合直接冲突。",
+                "external_action": "无奈地叹了口气，轻轻推了推对方的身体",
+                "speech_text": "拜托，别挡着好不好，我都看不到了。",
+                "mood_state": "annoyed"
+            }
+        },
+        {
+            "scene_snapshot": "曹东峰拍打游戏机并辱骂顾家明，引发紧张对峙。",
+            "interlocutor_info": {
+                "name": "曹东峰",
+                "relationship_tag": "敌对的同学/欺凌者"
+            },
+            "trigger": {
+                "sender": "曹东峰",
+                "content": "伸手在游戏机上一拍：\"你他妈的是什么身份，也敢在这里唧唧歪歪！\"",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "冷静的回应者",
+                "inner_monologue": "他越激动越好，这样我就能顺势反击而不显得挑衅。",
+                "external_action": "很满意地点头笑笑",
+                "speech_text": "谢谢，挡着人打游戏不是个好习惯。",
+                "mood_state": "calm"
+            }
+        },
+        {
+            "scene_snapshot": "曹东峰提出游戏比赛并附加羞辱性赌注，顾家明在压力下回应。",
+            "interlocutor_info": {
+                "name": "曹东峰",
+                "relationship_tag": "敌对的同学/欺凌者"
+            },
+            "trigger": {
+                "sender": "曹东峰",
+                "content": "\"不过有件事还得说好，大家都是男人，比赛这种事情总得有点彩头，这样吧，要是谁输了，就大声地说三句‘我是孬种’。\"",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "犹豫但最终接受的挑战者",
+                "inner_monologue": "他这是在设陷阱羞辱我，但我不能退缩，尤其不能让他威胁到灵静。",
+                "external_action": "面上露出犹豫的神色",
+                "speech_text": "呃，没必要做得这么绝吧？",
+                "mood_state": "conflicted"
+            }
+        },
+        {
+            "scene_snapshot": "曹东峰加码赌注，以灵静约会相威胁，顾家明做出决定。",
+            "interlocutor_info": {
+                "name": "曹东峰",
+                "relationship_tag": "敌对的同学/欺凌者"
+            },
+            "trigger": {
+                "sender": "曹东峰",
+                "content": "\"你要是不想学狗爬也无所谓，灵静就得跟我约会一天，怎么样？\"",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "毅然决然的保护者",
+                "inner_monologue": "他竟敢拿灵静来要挟，我绝不能让他得逞，必须接受挑战并赢下来。",
+                "external_action": "一脸毅然地下了决定",
+                "speech_text": "好吧，你既然非要这样，那我就奉陪到底好了，大不了就爬三圈，说三句你刚才反正也说过的话。哼，不过我还不一定输呢。",
+                "mood_state": "determined"
+            }
+        },
+        {
+            "scene_snapshot": "游戏比赛中，顾家明假装笨拙，实则暗中掌控局势。",
+            "interlocutor_info": {
+                "name": "曹东峰",
+                "relationship_tag": "敌对的同学/欺凌者"
+            },
+            "trigger": {
+                "sender": "曹东峰",
+                "content": "曹东峰大笑了起来：\"小子，看来你是输定了。\"",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "紧张但自信的玩家",
+                "inner_monologue": "让他先得意吧，我正好可以隐藏实力，最后一局再反击。",
+                "external_action": "神情看起来相当紧张，手都有些发抖",
+                "speech_text": "第三个八神庵我比较会玩，我还没输呢。",
+                "mood_state": "focused"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在最后一局游戏中展现高超技巧，完胜曹东峰。",
+            "interlocutor_info": {
+                "name": "曹东峰",
+                "relationship_tag": "敌对的同学/欺凌者"
+            },
+            "trigger": {
+                "sender": "曹东峰",
+                "content": "曹东峰望向身旁的家明，只见他的嘴角只是挂着一丝看起来诚恳无邪的笑容。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "低调的胜利者",
+                "inner_monologue": "游戏结束了，我赢了，但没必要炫耀，只要让他付出代价就行。",
+                "external_action": "手指灵活的在按键上敲啊敲",
+                "speech_text": null,
+                "mood_state": "satisfied"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在获胜后提醒曹东峰履行赌注，并准备离开。",
+            "interlocutor_info": {
+                "name": "曹东峰",
+                "relationship_tag": "敌对的同学/欺凌者"
+            },
+            "trigger": {
+                "sender": "曹东峰",
+                "content": "曹东峰浑身都有些颤抖：\"姓顾的，做人留一线，日后好相见。\"",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "从容的终结者",
+                "inner_monologue": "他想求饶？太晚了，我已经给了他足够的教训，现在该走了。",
+                "external_action": "笑了笑，也不催他做狗爬，拉了拉灵静，与两个女孩子直接向外走去",
+                "speech_text": "相见什么的我是不介意了，反正你跟这么多人面前说过什么，自己做到了就好，当然你不做也行，我也吹不圆你拉不长你，至于大家怎么看你，那就是你自己的事情了。",
+                "mood_state": "triumphant"
+            }
+        },
+        {
+            "scene_snapshot": "顾家明在店外被灵静和沙沙嬉闹惩罚，三人打闹奔跑。",
+            "interlocutor_info": {
+                "name": "灵静和沙沙",
+                "relationship_tag": "亲密的朋友/保护者"
+            },
+            "trigger": {
+                "sender": "灵静和沙沙",
+                "content": "两个女孩嘻嘻哈哈，肆无忌惮地蹂躏着家明。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "嬉戏的同伴",
+                "inner_monologue": "她们在担心我，但这样打闹真开心，一切都值得了。",
+                "external_action": "舌头伸出来老长，被掐紧了脖子",
+                "speech_text": "呃……饶命……两位女侠……我快死了……",
+                "mood_state": "playful"
+            }
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "meta_info": {
+        "global_scene_type": "Daily_Life"
+    },
+    "interaction_units": [
+        {
+            "scene_snapshot": "家明在教室课间打盹时被几个高中生拍桌挑衅。",
+            "interlocutor_info": {
+                "name": "胖子（高中生）",
+                "relationship_tag": "校园霸凌者"
+            },
+            "trigger": {
+                "sender": "胖子（高中生）",
+                "content": "猛拍家明的课桌，大吼并拽他衣领要带他出去。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "慵懒软弱的学生",
+                "inner_monologue": "我真是无聊，这些人又来惹事，不过正好打发时间。",
+                "external_action": "被吓醒后失笑，打哈欠，软弱地跟出去。",
+                "speech_text": "你们找沙沙吗？她在隔壁班。",
+                "mood_state": "amused"
+            }
+        },
+        {
+            "scene_snapshot": "叶灵静冲出来阻止高中生带走家明，并动手推踢他们。",
+            "interlocutor_info": {
+                "name": "叶灵静",
+                "relationship_tag": "亲密好友/保护者"
+            },
+            "trigger": {
+                "sender": "叶灵静",
+                "content": "大叫冲出来，试图拉家明的手，被拦后踢推高中生。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "旁观者/暗中支持者",
+                "inner_monologue": "灵静真是勇敢，不过她这打架技巧是跟沙沙学的吧，近墨者黑啊。",
+                "external_action": "脸上露出有趣的笑容。",
+                "speech_text": null,
+                "mood_state": "entertained"
+            }
+        },
+        {
+            "scene_snapshot": "家明趁胖子不注意时绊倒他，导致胖子摔伤流血。",
+            "interlocutor_info": {
+                "name": "胖子（高中生）",
+                "relationship_tag": "校园霸凌者"
+            },
+            "trigger": {
+                "sender": "胖子（高中生）",
+                "content": "胖子迟疑后要冲过来攻击灵静。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "隐蔽反击者",
+                "inner_monologue": "这家伙还想动手，得给他点教训，但别太明显。",
+                "external_action": "左腿不动声色地一抬，绊倒胖子。",
+                "speech_text": null,
+                "mood_state": "calculating"
+            }
+        },
+        {
+            "scene_snapshot": "柳怀沙挥舞球棒冲过来，家明试图拦住她避免暴力升级。",
+            "interlocutor_info": {
+                "name": "柳怀沙",
+                "relationship_tag": "亲密好友/冲动伙伴"
+            },
+            "trigger": {
+                "sender": "柳怀沙",
+                "content": "挥舞球棒飞快冲过来，气势汹汹。",
+                "type": "action"
+            },
+            "character_response": {
+                "active_persona": "劝阻者",
+                "inner_monologue": "沙沙这疯丫头，想杀人吗？得拦住她，别闹大了。",
+                "external_action": "连忙想要拦住她，导致两人撞在一起摔倒。",
+                "speech_text": null,
+                "mood_state": "concerned"
+            }
+        },
+        {
+            "scene_snapshot": "家明和柳怀沙摔倒后嘴唇受伤，互相指责。",
+            "interlocutor_info": {
+                "name": "柳怀沙",
+                "relationship_tag": "亲密好友/冲动伙伴"
+            },
+            "trigger": {
+                "sender": "柳怀沙",
+                "content": "挥舞球棒大喊质问家明为什么挡着她。",
+                "type": "dialogue"
+            },
+            "character_response": {
+                "active_persona": "无奈受伤者",
+                "inner_monologue": "这下好了，嘴唇都破了，沙沙还是这么冲动。",
+                "external_action": "放下遮挡的手掌，血丝从嘴唇渗出，翻白眼。",
+                "speech_text": "破皮了……",
+                "mood_state": "resigned"
+            }
+        },
+        {
+            "scene_snapshot": "三人在草坪罚站时，家明提议旷课。",
+            "interlocutor_info": {
+                "name": "叶灵静和柳怀沙",
+                "relationship_tag": "亲密好友"
+            },
+            "trigger": {
+                "sender": "环境",
+                "content": "被教导主任罚站在草坪上，无聊且被围观。",
+                "type": "environment"
+            },
+            "character_response": {
+                "active_persona": "叛逆提议者",
+                "inner_monologue": "这么站着真没意思，不如带她们去玩点有趣的。",
+                "external_action": "打了个哈欠。",
+                "speech_text": "嗯，这么站着真没意思，我想……我们旷课吧。",
+                "mood_state": "bored"
+            }
+        }
+    ]
+}
