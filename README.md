@@ -1,43 +1,84 @@
-# 隐杀 (Yin Sha) Novel Splitter & Cleaner (HentAI)
+# 小说主角语料清洗与结构化项目 (HentAI)
 
-An AI project that extracts the main character of a novel into structured data for LoRA training and AI agents.
+本项目旨在通过自动化流程，将超长篇小说文本解构为高质量的、适用于 LoRA 训练或 AI Agent 构建的结构化交互语料。系统设计具有高度通用性，可适配不同风格的长篇文学作品。
 
-## 功能特点
+---
 
-1.  **拆分功能 (`split_novel.py`)**：
-    *   **编码转换**：将原始的 GBK 编码文本转换为现代通用的 UTF-8 编码。
-    *   **智能分卷**：自动识别“第X卷”并创建对应的文件夹。
-    *   **外篇处理**：专门处理外篇内容，将其归入独立文件夹。
-    *   **可读性优化**：按序号排序，清洗 Windows 非法字符。
+## ?? 核心功能模块
 
-2.  **清洗提取功能 (`clean_novel_data.py`)**：
-    *   **主角聚焦提取**：利用 DeepSeek API 自动提取主角“顾家明”相关的场景。
-    *   **多线程并发**：支持多线程并行调用，极速处理。
-    *   **交互单元结构化**：输出 JSON 格式，包含背景、触发事件、台词、心理活动推演、情绪等。
-    *   **可视化监控**：实时进度条 + 静态日志双重反馈。
+### 1. 小说文本自动化分割 (`split_novel.py`)
+将百万字级别的原始长篇 TXT 文本拆分为易于处理的章节单元。
+*   **编码修复**：自动识别并转换 `GBK` 等旧式编码为标准 `UTF-8`。
+*   **智能分卷**：基于正则匹配自动识别“卷”与“章节”标记，构建多级目录。
+*   **内容聚合**：智能识别正文与非正文内容（如外篇、感言等）。
 
-## 目录结构
+### 2. 交互语料智能清洗 (`clean_novel_data.py`)
+利用大语言模型（默认 DeepSeek）对拆分后的章节进行语义级特征提取。
+*   **角色行为聚焦**：自动识别指定角色相关的交互场景，剔除冗余干扰文本。
+*   **高性能异步架构**：基于 `asyncio` 设计，支持大规模并发请求，极大缩短处理周期。
+*   **深层语义推演**：除提取原始台词外，更能结合上下文逻辑自动推演角色的心理活动与情绪状态。
+*   **工业级缓存机制**：引入 MD5 哈希校验，确保内容未变时不重复计费，支持大规模任务断点续传。
 
-*   `novel_data/original_data/`：存放原始小说 TXT。
-*   `novel_data/split_data/`：存放拆分后的卷册。
-*   `novel_data/lora_dataset/`：存放清洗后的结构化数据。
+---
 
-## 如何开始
+## ? 文件结构指南
 
-### 1. 拆分原著
-```bash
-python split_novel.py
+### 1. 输入文件要求 (Input)
+将需要处理的小说原始文件放入：
+*   `novel_data/original_data/你的小说名.txt` (支持多种编码格式的 TXT)
+
+### 2. 预处理产出 (Intermediate)
+运行 `split_novel.py` 后，系统会自动生成章节化的中间文件，存储路径为：
+```text
+novel_data/split_data/
+├── 01_第一卷/
+│   ├── 001_重生_回到过去.txt
+│   └── ...
+├── 02_第二卷/
+└── ...
 ```
 
-### 2. 清洗语料
-1.  安装依赖：`pip install openai python-dotenv tqdm`
-2.  配置 `.env`：填入你的 `DEEPSEEK_API_KEY`。
-3.  运行：`python clean_novel_data.py`
+### 3. 最终语料输出 (Output)
+清洗完成后的结构化 JSON 语料将存放在：
+```text
+novel_data/lora_dataset/cleaned_{prefix}_{timestamp}/
+├── {卷名}/
+│   ├── {章节编号}_{章节名}.json
+│   └── ...
+└── processing.log (完整的处理日志与 Token 消耗统计)
+```
 
-## 清洗接口说明
-您可以修改 `clean_novel_data.py` 最后的 `run_cleaning_task` 调用参数：
-*   清洗特定卷：`run_cleaning_task(volume_prefix="02")`
-*   清洗全本：`run_cleaning_task(volume_prefix=None)`
+---
 
-## 技术细节
-脚本使用 Unicode 转义（如 `\u7b2c`）处理正则，确保在 Windows 环境下不发生编码冲突。所有 API 调用均经过异步/多线程优化，且具备完善的容错机制。
+## ? 快速上手
+
+### 环境准备
+```bash
+pip install openai python-dotenv tqdm tenacity httpx
+```
+并在项目根目录创建 `.env` 文件，填入：
+`DEEPSEEK_API_KEY=你的 API 密钥`
+
+### 执行流程
+1.  **分卷预处理**: 运行 `python split_novel.py` 将长文本切碎。
+2.  **提取指令配置**: 编辑 `prompt_template.txt` 设定你希望 AI 扮演的角色专家及提取逻辑。
+3.  **启动清洗引擎**: 在 `clean_novel_data.py` 中设定目标角色名，执行 `python clean_novel_data.py`。
+
+---
+
+## ?? 开发者配置接口
+
+### 任务范围控制
+在 `clean_novel_data.py` 的 `if __name__ == "__main__":` 区域进行动态配置：
+*   **卷筛选**: 修改 `TARGET_PREFIX`（如 `"01"` 代表仅处理第一卷）。
+*   **章节筛选**: 通过 `START_CHAPTER` 与 `END_CHAPTER` 精准控制处理的数字编号范围。
+
+### 性能与成本控制
+*   `MAX_CONCURRENT_TASKS`: 在 `Config` 类中修改，建议范围 5-20。
+
+---
+
+## ? 技术亮点
+*   **指数退避重试**: 应对网络波动的健壮性。
+*   **多编码兼容**: 鲁棒的文件 IO 系统，自动处理多种字符集。
+*   **成本透明化**: 实时监控并计算每一批次的预估成本。
