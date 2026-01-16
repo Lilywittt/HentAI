@@ -5,8 +5,24 @@
 """
 import asyncio
 import sys
+import os
+import datetime
+import logging
 from clean_novel_data import NovelCleaner
 from validate_data import validate_one
+
+# 配置日志
+os.makedirs("logs", exist_ok=True)
+log_filename = f"logs/pipeline_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s [%(levelname)s] %(name)s: %(message)s',
+    handlers=[
+        logging.FileHandler(log_filename, encoding='utf-8'),
+        logging.StreamHandler(sys.stdout)
+    ]
+)
+logger = logging.getLogger("pipeline")
 
 async def run_pipeline():
     # --- 任务配置中心 ---
@@ -22,16 +38,16 @@ async def run_pipeline():
     TARGET_CHARACTER = "顾家明"
 
     # 4. Prompt 模板文件配置
-    PROMPT_INSTRUCTION_FILE = "prompt_instruction.txt"
-    OUTPUT_SCHEMA_FILE = "output_schema.txt"
+    PROMPT_INSTRUCTION_FILE = "prompts/prompt_instruction.txt"
+    OUTPUT_SCHEMA_FILE = "prompts/output_schema.txt"
 
     # 5. 是否强制刷新缓存 (True: 忽略缓存强制重跑; False: 优先使用缓存)
     FORCE_REFRESH = True
 
 
     
-    print(f"=== 开始执行流程 ===")
-    print(f"1. 正在生成数据: 角色[{TARGET_CHARACTER}] | 卷前缀[{TARGET_PREFIX}]...")
+    logger.info(f"=== 开始执行流程 ===")
+    logger.info(f"1. 正在生成数据: 角色[{TARGET_CHARACTER}] | 卷前缀[{TARGET_PREFIX}]...")
     
     cleaner = NovelCleaner(
         target_prefix=TARGET_PREFIX, 
@@ -44,10 +60,10 @@ async def run_pipeline():
     generated_files = await cleaner.run(start_idx=START_CHAPTER, end_idx=END_CHAPTER)
     
     if not generated_files:
-        print("未生成或处理任何文件。")
+        logger.warning("未生成或处理任何文件。")
         return
 
-    print(f"\n2. 正在校验 {len(generated_files)} 个生成文件...")
+    logger.info(f"2. 正在校验 {len(generated_files)} 个生成文件...")
     
     passed_count = 0
     failed_count = 0
@@ -59,15 +75,15 @@ async def run_pipeline():
         else:
             failed_count += 1
             
-    print("\n=== 流程汇总 ===")
-    print(f"总生成文件数: {len(generated_files)}")
-    print(f"校验通过:     {passed_count}")
-    print(f"校验失败:     {failed_count}")
+    logger.info("=== 流程汇总 ===")
+    logger.info(f"总生成文件数: {len(generated_files)}")
+    logger.info(f"校验通过:     {passed_count}")
+    logger.info(f"校验失败:     {failed_count}")
     
     if failed_count > 0:
-        print("请查看上方日志以获取校验错误详情。")
+        logger.error("请查看上方日志以获取校验错误详情。")
     else:
-        print("所有生成文件均通过校验。")
+        logger.info("所有生成文件均通过校验。")
 
 if __name__ == "__main__":
     if sys.platform == 'win32':

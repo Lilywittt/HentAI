@@ -120,8 +120,8 @@ class StatsManager:
 class NovelCleaner:
     """封装了从扫描文件到调用 API 处理的完整清洗流程"""
     def __init__(self, target_prefix: Optional[str] = None, char_name: str = "顾家明", 
-                 prompt_instruction_file: str = "prompt_instruction.txt", 
-                 output_schema_file: str = "output_schema.txt",
+                 prompt_instruction_file: str = "prompts/prompt_instruction.txt", 
+                 output_schema_file: str = "prompts/output_schema.txt",
                  force_refresh: bool = False):
         Config.validate()
         self.client = AsyncOpenAI(api_key=Config.API_KEY, base_url=Config.BASE_URL)
@@ -141,11 +141,16 @@ class NovelCleaner:
         self._setup_logging()
 
     def _setup_logging(self):
-        """初始化日志系统，同时输出到文件和控制台"""
+        """初始化日志系统"""
+        # 使用 logger 实例而不是全局配置
+        self.logger = logging.getLogger("cleaner")
+        self.logger.setLevel(logging.INFO)
+        
+        # 添加本地文件 Handler
         log_file = os.path.join(self.output_root, "processing.log")
-        logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s',
-                            handlers=[logging.FileHandler(log_file, encoding='utf-8'), logging.StreamHandler(sys.stdout)],
-                            force=True)
+        fh = logging.FileHandler(log_file, encoding='utf-8')
+        fh.setFormatter(logging.Formatter('%(asctime)s [%(levelname)s] %(message)s'))
+        self.logger.addHandler(fh)
 
     def _get_hash(self, content: str) -> str:
         """生成文本哈希值，用于缓存唯一识别"""
@@ -207,7 +212,7 @@ class NovelCleaner:
                 await self.stats.update_status("success")
                 return output_path
         except Exception as e:
-            logging.error(f"处理 {file_name} 时发生错误: {e}")
+            self.logger.error(f"处理 {file_name} 时发生错误: {e}")
             await self.stats.update_status("failed")
             return None
 
@@ -223,7 +228,7 @@ class NovelCleaner:
             vols = [v for v in vols if os.path.basename(v).startswith(self.target_prefix)]
         
         if not vols:
-            logging.error(f"未找到前缀为 {self.target_prefix} 的目标文件夹")
+            self.logger.error(f"未找到前缀为 {self.target_prefix} 的目标文件夹")
             return
 
         # 构造异步任务列表
@@ -252,10 +257,10 @@ class NovelCleaner:
                 tasks_list.append(self.process_chapter(cf, os.path.join(vol_out, file_name), self.char_name))
 
         if not tasks_list:
-            logging.warning(f"在指定范围 [{start_idx} ~ {end_idx}] 内未找到可处理的任务")
+            self.logger.warning(f"在指定范围 [{start_idx} ~ {end_idx}] 内未找到可处理的任务")
             return []
 
-        logging.info(f"清洗任务启动: {self.target_prefix} | 范围: {start_idx or 'Start'} ~ {end_idx or 'End'} | 待处理章节: {len(tasks_list)}")
+        self.logger.info(f"清洗任务启动: {self.target_prefix} | 范围: {start_idx or 'Start'} ~ {end_idx or 'End'} | 待处理章节: {len(tasks_list)}")
         
         generated_files = []
         # 利用 tqdm.asyncio 显示并发进度
@@ -267,10 +272,10 @@ class NovelCleaner:
             done = self.stats.success + self.stats.failed + self.stats.skipped
             # 每完成 10 章输出一次阶段性状态
             if done % 10 == 0 or done == len(tasks_list):
-                logging.info(f"任务进度: {done}/{len(tasks_list)} | 成功:{self.stats.success} 失败:{self.stats.failed} 跳过:{self.stats.skipped} | 预估成本: {self.stats.get_cost():.2f} CNY")
+                self.logger.info(f"任务进度: {done}/{len(tasks_list)} | 成功:{self.stats.success} 失败:{self.stats.failed} 跳过:{self.stats.skipped} | 预估成本: {self.stats.get_cost():.2f} CNY")
         
-        logging.info("-" * 30)
-        logging.info(f"清洗完毕。最终预估成本: {self.stats.get_cost():.2f} CNY. 输出结果已存至: {self.output_root}")
+        self.logger.info("-" * 30)
+        self.logger.info(f"清洗完毕。最终预估成本: {self.stats.get_cost():.2f} CNY. 输出结果已存至: {self.output_root}")
         return generated_files
 
 # ==========================================
@@ -294,8 +299,8 @@ if __name__ == "__main__":
     TARGET_CHARACTER = "顾家明"
 
     # 4. Prompt 模板文件配置
-    PROMPT_INSTRUCTION_FILE = "prompt_instruction.txt"
-    OUTPUT_SCHEMA_FILE = "output_schema.txt"
+    PROMPT_INSTRUCTION_FILE = "prompts/prompt_instruction.txt"
+    OUTPUT_SCHEMA_FILE = "prompts/output_schema.txt"
 
     # 5. 是否强制刷新缓存 (True: 忽略缓存强制重跑; False: 优先使用缓存)
     FORCE_REFRESH = True

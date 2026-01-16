@@ -3,7 +3,7 @@ You must output a JSON object that strictly adheres to the following TypeScript 
 Do not include comments in the JSON. Use `null` for missing optional fields.
 
 ```typescript
-// 定义整个输出结构
+// 瀹氫箟鏁翠釜杈撳嚭缁撴瀯
 interface AnalysisOutput {
   meta_info: {
     // The overall tone/genre of this specific text segment

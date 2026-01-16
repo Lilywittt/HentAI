@@ -8,8 +8,11 @@ import os
 import json
 import glob
 import sys
+import logging
 from typing import List, Optional, Literal
 from pydantic import BaseModel, ValidationError
+
+logger = logging.getLogger("validator")
 
 # ==========================================
 # 数据模型定义 (对应 output_schema.txt)
@@ -54,32 +57,32 @@ def validate_one(file_path: str) -> bool:
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read().strip()
             if not content:
-                print(f"[WARN] 文件为空: {file_path}")
+                logger.warning(f"文件为空: {file_path}")
                 return False
             data = json.loads(content)
         
         AnalysisOutput.model_validate(data)
-        print(f"[PASS] {os.path.basename(file_path)}")
+        logger.info(f"[PASS] {os.path.basename(file_path)}")
         return True
         
     except json.JSONDecodeError:
-        print(f"[ERROR] JSON 格式错误: {file_path}")
+        logger.error(f"JSON 格式错误: {file_path}")
         return False
     except ValidationError as e:
-        print(f"[FAIL] Schema 不匹配: {file_path}")
+        logger.error(f"Schema 不匹配: {file_path}")
         for err in e.errors():
             loc = "->".join(str(l) for l in err['loc'])
             msg = err['msg']
-            print(f"  - 位置: {loc}, 错误信息: {msg}")
+            logger.error(f"  - 位置: {loc}, 错误信息: {msg}")
         return False
     except Exception as e:
-        print(f"[ERROR] 处理 {file_path} 时发生未知错误: {str(e)}")
+        logger.error(f"处理 {file_path} 时发生未知错误: {str(e)}")
         return False
 
 def validate_path(path: str):
     """入口函数：根据路径是文件还是目录分发处理逻辑。"""
     if os.path.isfile(path):
-        print(f"校验单文件: {path}")
+        logger.info(f"校验单文件: {path}")
         validate_one(path)
         return
 
@@ -89,10 +92,10 @@ def validate_path(path: str):
     target_files = [f for f in json_files + txt_files if ".cache" not in f]
     
     if not target_files:
-        print(f"在 {path} 中未找到 JSON 或 TXT 文件 (已忽略 .cache)")
+        logger.warning(f"在 {path} 中未找到 JSON 或 TXT 文件 (已忽略 .cache)")
         return
 
-    print(f"在 {path} 中找到 {len(target_files)} 个 JSON 文件。开始校验...")
+    logger.info(f"在 {path} 中找到 {len(target_files)} 个 JSON 文件。开始校验...")
     passed = 0
     failed = 0
     
@@ -102,8 +105,8 @@ def validate_path(path: str):
         else:
             failed += 1
             
-    print("-" * 30)
-    print(f"校验完成。总数: {len(target_files)}, 通过: {passed}, 失败: {failed}")
+    logger.info("-" * 30)
+    logger.info(f"校验完成。总数: {len(target_files)}, 通过: {passed}, 失败: {failed}")
 
 if __name__ == "__main__":
     # 默认目标
@@ -114,7 +117,10 @@ if __name__ == "__main__":
         target = sys.argv[1]
     
     if not os.path.exists(target):
-        print(f"路径不存在: {target}")
+        # 如果是直接运行，且未配置 logger，简单的 print 做保底
+        if not logging.getLogger().handlers:
+            logging.basicConfig(level=logging.INFO)
+        logging.error(f"路径不存在: {target}")
         sys.exit(1)
         
     validate_path(target)

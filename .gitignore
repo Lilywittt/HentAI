@@ -38,3 +38,6 @@ __pycache__/
 
 # Project cache
 novel_data/.cache/
+
+# log files
+logs/

@@ -72,3 +72,22 @@ class AnalysisOutput(BaseModel):
 - **数据校验增强 (`validate_data.py`)**:
   - **强类型校验**: 基于 `Pydantic` 严格校验数据结构、字段完整性及枚举值约束（如场景类型、触发器类型）。
   - **格式自适应**: 扩展了文件扫描逻辑，同时支持校验 `.json` 及包含 JSON 内容的 `.txt` 文件，适配清洗脚本的输出格式。
+
+### [2026/01/16] 工程化重构：配置统一与目录整理
+
+针对项目文件日益增多的情况，进行了工程化目录整理与基础设施优化。
+
+- **目录结构优化**:
+  - 创建 `prompts/` 目录，将 `output_schema.txt`, `prompt_instruction.txt` 等模板文件移入其中，净化项目根目录。
+  - 创建 `logs/` 目录，用于存放运行时产生的日志文件。
+
+- **日志系统升级**:
+  - 弃用 `print` 输出，全面转向 Python 标准 `logging` 模块。
+  - `run_pipeline.py` 负责初始化全局日志配置（同时输出到 `logs/pipeline_timestamp.log` 和控制台）。
+  - 子模块 (`clean_novel_data.py`, `validate_data.py`) 通过 `logging.getLogger(__name__)` 继承配置，确保所有操作记录均被持久化保存，便于排查问题。
+
+- **依赖管理**:
+  - 新增 `requirements.txt` 文件，明确列出项目所需的 Python 依赖库（`openai`, `pydantic`, `tenacity` 等）。
+
+- **路径适配**:
+  - 更新所有相关脚本中的文件路径引用，指向新的 `prompts/` 目录。
