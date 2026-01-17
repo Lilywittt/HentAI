@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静旁观顾家明和东方婉因打赌而争执，并得知顾家明暗中保护她免受谭君荣骚扰。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的朋友/保护者"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "解释自己事先威胁谭君荣放弃骚扰叶灵静，并安排谭君荣向杜丽示爱。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "感激而欣慰的旁观者",
+        "inner_monologue": "原来家明一直在暗中保护我，为我做了这么多事。",
+        "external_action": "轻笑着与顾家明对望一眼，眼光亮晶晶的。",
+        "speech_text": null,
+        "mood_state": "touched"
+      },
+      "id": "338_001",
+      "global_id": 676
+    }
+  ]
+}

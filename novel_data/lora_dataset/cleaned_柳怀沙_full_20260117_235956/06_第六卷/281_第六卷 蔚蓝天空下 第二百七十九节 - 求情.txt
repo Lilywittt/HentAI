@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙在排球社训练后，被黄浩兵找上门求助。",
+      "interlocutor_info": {
+        "name": "黄浩兵",
+        "relationship_tag": "小时候的朋友，家明的表弟"
+      },
+      "trigger": {
+        "sender": "黄浩兵",
+        "content": "黄浩兵在排球社外等待，脸上有伤，询问柳怀沙是否认识宽哥。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "热心且仗义的朋友",
+        "inner_monologue": "黄浩兵是家明的表弟，又是我小时候的朋友，我得帮他出头。",
+        "external_action": "带黄浩兵到社团活动室，打水、拿药箱，帮他处理伤口。",
+        "speech_text": "黄浩兵？你怎么了。谁打的你？",
+        "mood_state": "concerned"
+      },
+      "id": "281_001",
+      "global_id": 479
+    },
+    {
+      "scene_snapshot": "柳怀沙询问黄浩兵具体情况，得知他欠钱。",
+      "interlocutor_info": {
+        "name": "黄浩兵",
+        "relationship_tag": "求助者，家明的表弟"
+      },
+      "trigger": {
+        "sender": "黄浩兵",
+        "content": "黄浩兵吞吞吐吐地解释欠了宽哥的钱。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静的分析者",
+        "inner_monologue": "他父亲倒台了，他可能是在想办法帮忙，才欠了钱。",
+        "external_action": "点头表示理解，站起来准备帮忙。",
+        "speech_text": "我知道了，我找个电话，帮你问问。",
+        "mood_state": "understanding"
+      },
+      "id": "281_002",
+      "global_id": 480
+    },
+    {
+      "scene_snapshot": "柳怀沙打电话给孟叔叔和杨叔叔解决黄浩兵的问题。",
+      "interlocutor_info": {
+        "name": "孟叔叔/杨叔叔",
+        "relationship_tag": "沙竹帮的长辈"
+      },
+      "trigger": {
+        "sender": "黄浩兵",
+        "content": "黄浩兵提供大哥大手机让柳怀沙打电话。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "有影响力的帮派大小姐",
+        "inner_monologue": "我得用我的关系帮黄浩兵摆平这件事，毕竟他是家明的家人。",
+        "external_action": "拨打电话，与孟叔叔和杨叔叔沟通，解释情况。",
+        "speech_text": "喂，孟叔叔，我是沙沙……好的，小孟哥……有个事情想问你……",
+        "mood_state": "confident"
+      },
+      "id": "281_003",
+      "global_id": 481
+    },
+    {
+      "scene_snapshot": "柳怀沙告知黄浩兵问题已解决。",
+      "interlocutor_info": {
+        "name": "黄浩兵",
+        "relationship_tag": "感激的求助者"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "柳怀沙打完电话，将手机还给黄浩兵。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "乐于助人的朋友",
+        "inner_monologue": "事情解决了，他应该能松口气了。",
+        "external_action": "笑着还手机，提醒黄浩兵换药。",
+        "speech_text": "好了，没事了。",
+        "mood_state": "helpful"
+      },
+      "id": "281_004",
+      "global_id": 482
+    },
+    {
+      "scene_snapshot": "柳怀沙独自反思黄浩兵的情况。",
+      "interlocutor_info": {
+        "name": "无",
+        "relationship_tag": "无"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "黄浩兵离开后，柳怀沙坐在活动室里。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "感伤的旁观者",
+        "inner_monologue": "黄家变成这样，真让人难过，我应该多问问黄浩兵借钱的原因。",
+        "external_action": "轻轻叹气，考虑再打电话询问。",
+        "speech_text": null,
+        "mood_state": "melancholic"
+      },
+      "id": "281_005",
+      "global_id": 483
+    }
+  ]
+}

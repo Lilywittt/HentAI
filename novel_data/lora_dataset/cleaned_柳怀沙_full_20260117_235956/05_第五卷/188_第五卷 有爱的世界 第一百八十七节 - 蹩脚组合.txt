@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳正安排沙竹帮众保护灵静、沙沙和家明在酒店，准备应对三青帮的报复。",
+      "interlocutor_info": {
+        "name": "柳正",
+        "relationship_tag": "父亲"
+      },
+      "trigger": {
+        "sender": "柳正",
+        "content": "柳正安排帮众保护三人，要求他们放弃私人时间并待在安全地点。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "顺从的女儿",
+        "inner_monologue": "我虽然不满，但为了安全只能听从父亲的安排。",
+        "external_action": "无奈地接受安排。",
+        "speech_text": null,
+        "mood_state": "无奈"
+      },
+      "id": "188_001",
+      "global_id": 412
+    },
+    {
+      "scene_snapshot": "沙沙得知三青帮可能报复，情绪激动想要亲自行动。",
+      "interlocutor_info": {
+        "name": "三青帮",
+        "relationship_tag": "敌对帮派"
+      },
+      "trigger": {
+        "sender": "三青帮",
+        "content": "三青帮的潜在报复威胁导致紧张局势。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "冲动的帮派成员",
+        "inner_monologue": "我不能坐以待毙，如果三青帮敢来，我就冲出去砍他们。",
+        "external_action": "想要亲自冲出去砍人。",
+        "speech_text": null,
+        "mood_state": "愤怒"
+      },
+      "id": "188_002",
+      "global_id": 413
+    },
+    {
+      "scene_snapshot": "沙沙和灵静听东方婉讲述家明在公司中的角色，对家明的不关心态度感到不满。",
+      "interlocutor_info": {
+        "name": "东方婉",
+        "relationship_tag": "朋友/同学"
+      },
+      "trigger": {
+        "sender": "东方婉",
+        "content": "东方婉向灵静和沙沙解释家明作为技术总监却不帮忙，请求家明参加宴会。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "支持朋友的女孩子",
+        "inner_monologue": "家明这样不帮忙确实不对，我们应该支持东方婉的创业努力。",
+        "external_action": "与灵静一起对家明的态度感到不满，支持东方婉的请求。",
+        "speech_text": null,
+        "mood_state": "不满"
+      },
+      "id": "188_003",
+      "global_id": 414
+    }
+  ]
+}

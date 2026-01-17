@@ -1,0 +1,154 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙的暑假作业被灵静打翻的水杯弄湿，她跳起来惊呼。",
+      "interlocutor_info": {
+        "name": "叶灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "灵静打翻水杯，水溅到沙沙的暑假作业上。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "活泼强势的少女",
+        "inner_monologue": "我的作业！灵静这个冒失鬼！",
+        "external_action": "跳了起来，惊呼救命。",
+        "speech_text": "啊啊啊啊啊……救命啊——",
+        "mood_state": "惊慌"
+      },
+      "id": "197_001",
+      "global_id": 415
+    },
+    {
+      "scene_snapshot": "沙沙双手叉腰，质问灵静并准备惩罚她。",
+      "interlocutor_info": {
+        "name": "叶灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "灵静试图逃跑，但被沙沙拉回。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "强势的小母狼",
+        "inner_monologue": "灵静想跑？没门！我得好好教训她。",
+        "external_action": "双手叉腰站在床边，猛扑过去抱住灵静的腰。",
+        "speech_text": "叶灵静。你皮痒了是不是！我的暑假作业……你不是说作曲没灵感吗？你放心，马上就会有了！",
+        "mood_state": "愤怒"
+      },
+      "id": "197_002",
+      "global_id": 416
+    },
+    {
+      "scene_snapshot": "沙沙将灵静压在身下施暴，直到段静娴开门进来。",
+      "interlocutor_info": {
+        "name": "叶灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "灵静被沙沙翻过来压在身下。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "恶作剧的施暴者",
+        "inner_monologue": "这下灵静可跑不掉了，得让她长点记性。",
+        "external_action": "将灵静翻过来压在身下，无情地施暴。",
+        "speech_text": null,
+        "mood_state": "得意"
+      },
+      "id": "197_003",
+      "global_id": 417
+    },
+    {
+      "scene_snapshot": "段静娴进门后，沙沙讪讪笑着告状。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "长辈/朋友的母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "段静娴开门进来，看到沙沙欺负灵静。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "乖巧告状者",
+        "inner_monologue": "被阿姨看到了，得赶紧解释一下。",
+        "external_action": "讪讪地笑着，从床上退下来，举起被打湿的作业。",
+        "speech_text": "灵静把水打翻到我的作业上了。",
+        "mood_state": "尴尬"
+      },
+      "id": "197_004",
+      "global_id": 418
+    },
+    {
+      "scene_snapshot": "沙沙和灵静一起反对家明出院的想法。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "男朋友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明说想出院。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心的女友",
+        "inner_monologue": "家明又想乱来，得阻止他。",
+        "external_action": "和灵静、叶妈妈一起叫了出来。",
+        "speech_text": "别想！",
+        "mood_state": "担忧"
+      },
+      "id": "197_005",
+      "global_id": 419
+    },
+    {
+      "scene_snapshot": "沙沙做噩梦，在家明床边哭泣并紧紧抱住他。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "男朋友"
+      },
+      "trigger": {
+        "sender": "环境/噩梦",
+        "content": "沙沙做噩梦，情绪不安。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "脆弱依赖的少女",
+        "inner_monologue": "我害怕失去家明，噩梦太真实了。",
+        "external_action": "嘶喊、流泪、紧紧抱住家明。",
+        "speech_text": null,
+        "mood_state": "恐惧"
+      },
+      "id": "197_006",
+      "global_id": 420
+    },
+    {
+      "scene_snapshot": "沙沙醒后哭着向家明道歉。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "男朋友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明和灵静安抚沙沙。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "愧疚的女友",
+        "inner_monologue": "我伤到家明了，真对不起。",
+        "external_action": "哭着检查家明的伤口。",
+        "speech_text": "对不起，她不是故意的。",
+        "mood_state": "内疚"
+      },
+      "id": "197_007",
+      "global_id": 421
+    }
+  ]
+}

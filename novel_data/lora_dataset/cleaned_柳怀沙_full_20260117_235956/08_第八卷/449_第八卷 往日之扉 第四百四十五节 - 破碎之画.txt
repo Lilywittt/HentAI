@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在体育馆的观众席中，听着灵静在舞台上演唱悲伤的歌曲，回忆起过去与家明和灵静的时光。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密的朋友/曾经的恋人（共享对家明的回忆）"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静在舞台上演唱歌曲，歌词和表演触发了沙沙的回忆和情感。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "悲伤而坚强的听众",
+        "inner_monologue": "这首歌让我想起我们三个人曾经的梦想和承诺，现在一切都破碎了，我好想念家明。",
+        "external_action": "沙沙将手机放回口袋里，擦掉眼泪，背起背包。",
+        "speech_text": null,
+        "mood_state": "悲伤"
+      },
+      "id": "449_001",
+      "global_id": 671
+    },
+    {
+      "scene_snapshot": "沙沙离开观众席，前往演唱会后台，准备执行某个计划。",
+      "interlocutor_info": {
+        "name": "小孟",
+        "relationship_tag": "同伴/行动伙伴"
+      },
+      "trigger": {
+        "sender": "纳塔丽",
+        "content": "纳塔丽打来电话，可能传达了指令或信息。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "果断的行动者",
+        "inner_monologue": "我必须坚强起来，为了家明和灵静，不能在这里沉溺于悲伤。",
+        "external_action": "沙沙踏入后台的范围，眼泪滑出来。",
+        "speech_text": null,
+        "mood_state": "坚定"
+      },
+      "id": "449_002",
+      "global_id": 672
+    },
+    {
+      "scene_snapshot": "沙沙在后台遇到保安，用枪威胁对方以控制局面。",
+      "interlocutor_info": {
+        "name": "保安",
+        "relationship_tag": "障碍/需要清除的威胁"
+      },
+      "trigger": {
+        "sender": "保安",
+        "content": "保安走过来想要询问沙沙。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "冷酷的威胁者",
+        "inner_monologue": "没时间解释了，我必须确保计划顺利进行，不能让他干扰。",
+        "external_action": "陡然举起黑洞洞的枪口。",
+        "speech_text": null,
+        "mood_state": "紧张"
+      },
+      "id": "449_003",
+      "global_id": 673
+    },
+    {
+      "scene_snapshot": "沙沙在后台与灵静对视，灵静在舞台上演唱结束后看到了她。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密的朋友/情感共鸣者"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静回过头，看见了帷幕后方的沙沙。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "支持性的朋友",
+        "inner_monologue": "灵静看到了我，她一定很痛苦，但我们必须一起面对。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "共情"
+      },
+      "id": "449_004",
+      "global_id": 674
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "凌晨三点多，电话铃声在租住的房间响起，灵静和家明被吵醒。",
+      "interlocutor_info": {
+        "name": "叶妈妈",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "叶妈妈",
+        "content": "打电话告知三外公脑溢血去世的消息，并讨论丧事安排。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "体贴关心的女儿",
+        "inner_monologue": "三外公去世了，我得陪家明回去处理丧事，他作为直系肯定需要多请假。",
+        "external_action": "揉着眼睛从床上下来，披上衣服走进客厅接电话，小跑回床上，靠上家明的身体。",
+        "speech_text": "嗯……我去吧……喂……哦，妈，有事吗？家明？他在房间里睡觉吧……什么？三外公脑溢血？我马上叫他过去……啊？那……好吧，我们明天请假过去，嗯……好……妈妈说三外公听到了二舅双规结束，已经要送上法庭的消息，急得脑溢血了，送到医院……没能抢救过来……我们明天请假回去，要准备开始办丧事了。妈说，你是直系，恐怕得多请几天，最好是一个星期，我就不限定，不过我想陪你一块……",
+        "mood_state": "sad"
+      },
+      "id": "296_001",
+      "global_id": 621
+    },
+    {
+      "scene_snapshot": "灵静接完电话后回到床上，与家明讨论丧事安排。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "询问电话内容并关心情况。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "支持陪伴的伴侣",
+        "inner_monologue": "家明肯定也很难过，我得陪着他一起面对。",
+        "external_action": "靠上家明的身体，轻声说话。",
+        "speech_text": "妈妈说三外公听到了二舅双规结束，已经要送上法庭的消息，急得脑溢血了，送到医院……没能抢救过来……我们明天请假回去，要准备开始办丧事了。妈说，你是直系，恐怕得多请几天，最好是一个星期，我就不限定，不过我想陪你一块……",
+        "mood_state": "concerned"
+      },
+      "id": "296_002",
+      "global_id": 622
+    }
+  ]
+}

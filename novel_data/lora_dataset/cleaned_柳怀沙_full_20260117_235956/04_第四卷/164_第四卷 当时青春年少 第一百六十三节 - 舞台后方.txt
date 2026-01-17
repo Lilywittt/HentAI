@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "在舞台后台，灵静发现拿错了伴奏磁带，沙沙参与讨论并准备去取正确的磁带。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "询问沙沙磁带是在哪里拿的，并指出拿错了磁带。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "热心帮助者",
+        "inner_monologue": "我可能拿错了磁带，得赶紧去拿正确的，不能耽误灵静的表演。",
+        "external_action": "看了看腕上的手表，就要向外冲。",
+        "speech_text": "在书桌上啊，昨天晚上你听了音乐，然后跟着唱了一会儿才睡的，磁带不是就拿出来放在桌上了吗？难道……不是？",
+        "mood_state": "急切"
+      },
+      "id": "164_001",
+      "global_id": 364
+    },
+    {
+      "scene_snapshot": "家明阻止沙沙去取磁带，提议自己去，沙沙被拉住。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "拉住沙沙，说时间有些赶，自己去取磁带。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "顺从者",
+        "inner_monologue": "家明说得对，时间确实紧，让他去可能更快。",
+        "external_action": "被家明拉住。",
+        "speech_text": null,
+        "mood_state": "顺从"
+      },
+      "id": "164_002",
+      "global_id": 365
+    },
+    {
+      "scene_snapshot": "雅涵离开后，灵静换好衣服，沙沙和家明陪她在舞台侧面休息，听到谭素妍等人的议论。",
+      "interlocutor_info": {
+        "name": "谭素妍",
+        "relationship_tag": "敌对者"
+      },
+      "trigger": {
+        "sender": "谭素妍",
+        "content": "与别人议论灵静，暗示她靠关系上台。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静旁观者",
+        "inner_monologue": "这些人又在说闲话，但我不在乎，只要灵静表演顺利就好。",
+        "external_action": "与家明、灵静在舞台侧面休息，听到议论。",
+        "speech_text": null,
+        "mood_state": "淡然"
+      },
+      "id": "164_003",
+      "global_id": 366
+    },
+    {
+      "scene_snapshot": "谭素妍等人要求灵静他们让开准备区域，沙沙和灵静、家明退出几步。",
+      "interlocutor_info": {
+        "name": "谭素妍",
+        "relationship_tag": "敌对者"
+      },
+      "trigger": {
+        "sender": "谭素妍",
+        "content": "命令灵静他们让开，说这里是下一场表演做准备的地方。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "配合者",
+        "inner_monologue": "没必要和她们争执，让开就讓开吧，别影响灵静。",
+        "external_action": "与灵静、家明、董丹雯退出几步。",
+        "speech_text": null,
+        "mood_state": "无奈"
+      },
+      "id": "164_004",
+      "global_id": 367
+    },
+    {
+      "scene_snapshot": "灵静上台前，沙沙和家明、灵静手背交叠加油。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "准备上台表演，与沙沙和家明互动加油。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "支持者",
+        "inner_monologue": "灵静加油，你一定可以的，我们都在这里支持你。",
+        "external_action": "三人的手背交叠在一块，叫了声加油。",
+        "speech_text": null,
+        "mood_state": "鼓励"
+      },
+      "id": "164_005",
+      "global_id": 368
+    }
+  ]
+}

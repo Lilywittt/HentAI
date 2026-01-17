@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "薰在教室准备考试，家明给她带来文具并讨论裴罗嘉的威胁。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "保护对象/朋友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "将一个作为文具盒的小塑胶袋扔到薰地桌面上，家明走到里侧的课桌坐下。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "礼貌的助手",
+        "inner_monologue": "我应该感谢顾君的好意，并提醒他关于裴罗嘉的最新情报。",
+        "external_action": "点了点头",
+        "speech_text": "谢谢。",
+        "mood_state": "平静"
+      },
+      "id": "307_001",
+      "global_id": 218
+    },
+    {
+      "scene_snapshot": "薰向家明传达天雨正则关于裴罗嘉行动的情报。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "保护对象/朋友"
+      },
+      "trigger": {
+        "sender": "月池薰",
+        "content": "天雨君昨天说，已经确定裴罗嘉会在这几天内作出行动，他们的人，恐怕已经渗入江海了，只是目前还没有发觉。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "警觉的助手",
+        "inner_monologue": "我必须确保顾君了解潜在的危险，这是天雨君交代的任务。",
+        "external_action": "轻声道",
+        "speech_text": "天雨君昨天说，已经确定裴罗嘉会在这几天内作出行动，他们的人，恐怕已经渗入江海了，只是目前还没有发觉。",
+        "mood_state": "专注"
+      },
+      "id": "307_002",
+      "global_id": 219
+    },
+    {
+      "scene_snapshot": "薰开玩笑地指出家明身上的血腥味，试探他的反应。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "保护对象/朋友"
+      },
+      "trigger": {
+        "sender": "月池薰",
+        "content": "顾君身上有血腥味哦。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调皮的少女",
+        "inner_monologue": "我想用玩笑来测试顾君的警觉性，同时缓和气氛。",
+        "external_action": "望着家明",
+        "speech_text": "因为猜测到顾君会出去杀人，所以我故意这样说的，是开玩笑。",
+        "mood_state": "俏皮"
+      },
+      "id": "307_003",
+      "global_id": 220
+    },
+    {
+      "scene_snapshot": "薰主动邀请家明拍她的头，继续玩笑互动。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "保护对象/朋友"
+      },
+      "trigger": {
+        "sender": "月池薰",
+        "content": "顾君想要拍拍我的头吗？我看出来了。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "活泼的少女",
+        "inner_monologue": "我想用这种轻松的方式拉近和顾君的距离，天雨君的影响让我更开放了。",
+        "external_action": null,
+        "speech_text": "顾君想要拍拍我的头吗？我看出来了。",
+        "mood_state": "愉悦"
+      },
+      "id": "307_004",
+      "global_id": 221
+    }
+  ]
+}

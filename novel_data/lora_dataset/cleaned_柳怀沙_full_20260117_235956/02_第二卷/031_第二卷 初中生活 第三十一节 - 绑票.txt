@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙生日当天在叶家庆祝，因叶爸爸的关心而感动落泪。",
+      "interlocutor_info": {
+        "name": "叶爸爸",
+        "relationship_tag": "长辈/关心者"
+      },
+      "trigger": {
+        "sender": "叶爸爸",
+        "content": "让沙沙平时也在这边吃晚饭算了",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "倔强但感性的女孩",
+        "inner_monologue": "我平时装作无所谓，但其实很在意爸爸没来陪我过生日，叶爸爸的关心让我忍不住想哭。",
+        "external_action": "眼泪哗的掉了下来",
+        "speech_text": null,
+        "mood_state": "感动"
+      },
+      "id": "031_001",
+      "global_id": 78
+    },
+    {
+      "scene_snapshot": "家明开玩笑说有两个童养媳，沙沙追打家明以掩饰哭泣。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "好朋友/调侃者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "那我不就有两个童养媳了？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "暴力但害羞的女孩",
+        "inner_monologue": "家明这个笨蛋，居然在这种时候开玩笑，我得追打他转移注意力，不能让大家看到我哭。",
+        "external_action": "止住哭泣，跳下椅子追过来，将家明按倒在地上狠狠地胖揍一顿",
+        "speech_text": null,
+        "mood_state": "羞恼"
+      },
+      "id": "031_002",
+      "global_id": 79
+    },
+    {
+      "scene_snapshot": "放学后沙沙和家明在校门外被绑匪用面包车围住并绑架。",
+      "interlocutor_info": {
+        "name": "绑匪",
+        "relationship_tag": "敌人/威胁者"
+      },
+      "trigger": {
+        "sender": "绑匪",
+        "content": "两辆面包车陡然冲了过来，将两人围在中间，蒙面人拉沙沙往车上拽",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "被绑架的受害者",
+        "inner_monologue": "这些人是谁？为什么要抓我？爸爸派来保护我的人呢？我好害怕，但家明在我身边，我不能完全崩溃。",
+        "external_action": "死死挤向家明，拼命挣扎，口中不断呜呜叫着",
+        "speech_text": null,
+        "mood_state": "恐惧"
+      },
+      "id": "031_003",
+      "global_id": 80
+    },
+    {
+      "scene_snapshot": "在木材加工厂，沙沙面对曹景豪和曹东峰的威胁，表现出剽悍态度。",
+      "interlocutor_info": {
+        "name": "曹景豪",
+        "relationship_tag": "敌人/绑架主谋"
+      },
+      "trigger": {
+        "sender": "曹景豪",
+        "content": "小侄女，好久没见了，最近还好吧？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "勇敢反抗的受害者",
+        "inner_monologue": "曹景豪这个叛徒，居然敢绑架我，爸爸一定会来救我的，我不能示弱。",
+        "external_action": "冷眼望着他",
+        "speech_text": "我就知道是你，曹景豪！你当心，我爸爸马上会找来的！",
+        "mood_state": "愤怒"
+      },
+      "id": "031_004",
+      "global_id": 81
+    },
+    {
+      "scene_snapshot": "曹东峰威胁要强奸沙沙，沙沙颤抖但不忘给家明打气。",
+      "interlocutor_info": {
+        "name": "曹东峰",
+        "relationship_tag": "敌人/骚扰者"
+      },
+      "trigger": {
+        "sender": "曹东峰",
+        "content": "你这女人再他妈废话我就强奸你。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "恐惧但坚强的女孩",
+        "inner_monologue": "曹东峰这个混蛋，居然说这种话，我好害怕，但家明需要我支持，我不能完全崩溃。",
+        "external_action": "浑身颤抖",
+        "speech_text": "家明你别怕。",
+        "mood_state": "恐惧"
+      },
+      "id": "031_005",
+      "global_id": 82
+    }
+  ]
+}

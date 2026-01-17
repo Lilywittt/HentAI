@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在清晨醒来，与家明和沙沙同床，感到恍如隔世。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明摇头表示以后不会再有头痛的事情发生。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "关心和担忧的伴侣",
+        "inner_monologue": "我担心这一切不是真的，害怕家明再次离开。",
+        "external_action": "轻声道问话，然后进入梦乡。",
+        "speech_text": "以后不会再有这样的事情了？",
+        "mood_state": "不安"
+      },
+      "id": "457_001",
+      "global_id": 913
+    },
+    {
+      "scene_snapshot": "叶灵静在清晨独自醒来，观察周围环境，寻找家明。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "清晨的宁静氛围和熟悉的卧室环境。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "警觉和怀念的观察者",
+        "inner_monologue": "我怀念过去的生活，害怕这温馨场景是虚幻的。",
+        "external_action": "睁开眼睛看了好一会儿，目光与思绪才聚焦。",
+        "speech_text": null,
+        "mood_state": "恍惚"
+      },
+      "id": "457_002",
+      "global_id": 914
+    },
+    {
+      "scene_snapshot": "叶灵静在厨房附近遇到家明买早餐回来。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明轻声问候并解释买早餐的经过。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "平静但内心波动的伴侣",
+        "inner_monologue": "我不知道他出去了，这日常小事让我感到真实又不安。",
+        "external_action": "站在那儿有一种茫然若失的感觉，然后回应。",
+        "speech_text": "嗯。",
+        "mood_state": "茫然"
+      },
+      "id": "457_003",
+      "global_id": 915
+    }
+  ]
+}

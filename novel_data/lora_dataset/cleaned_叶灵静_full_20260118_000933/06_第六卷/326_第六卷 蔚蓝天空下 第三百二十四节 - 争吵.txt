@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静被江于薇请去帮忙做饭，而小组中的其他女人在旁冷眼旁观并聊天。",
+      "interlocutor_info": {
+        "name": "江于薇",
+        "relationship_tag": "同学/朋友"
+      },
+      "trigger": {
+        "sender": "江于薇",
+        "content": "请灵静过去救场帮忙做饭。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "乐于助人的朋友",
+        "inner_monologue": "我既然被请来帮忙，就尽力做好吧，虽然她们的态度不太好。",
+        "external_action": "过去帮忙做饭。",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "326_001",
+      "global_id": 650
+    },
+    {
+      "scene_snapshot": "沙沙因帮忙时与三个女人争吵，灵静安慰沙沙并解释情况。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "亲密好友/青梅竹马"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "愤怒地抱怨三个女人的态度和讽刺。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "安抚者的角色",
+        "inner_monologue": "沙沙别生气了，这事情怪我一开始就不该过去，我们自己玩得开心就好。",
+        "external_action": "安慰沙沙。",
+        "speech_text": "算啦算啦。别气了，我根本一开始就不应该过去的，这种野炊本身就是大家玩玩开心而已，自己动手才有意思……",
+        "mood_state": "安抚"
+      },
+      "id": "326_002",
+      "global_id": 651
+    }
+  ]
+}

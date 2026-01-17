@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静和沙沙在卧室里打闹，因为沙沙找到了灵静以前的日记。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友/姐妹"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "找到灵静以前写的日记，并说要念给家明听，包括灵静心里的白马王子类型。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "害羞恼怒的少女",
+        "inner_monologue": "天啊，沙沙怎么找到这个了，太丢人了，不能让家明听到！",
+        "external_action": "扑在沙沙身上抢日记，抢不过就用枕头拍打沙沙，衣服头发凌乱，脸色绯红地瞪了家明一眼。",
+        "speech_text": "出去啦！",
+        "mood_state": "羞恼"
+      },
+      "id": "470_001",
+      "global_id": 952
+    },
+    {
+      "scene_snapshot": "叶灵静在公车站被母亲段静娴单独叫住谈话。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "询问灵静是否已经决定和家明、沙沙三人维持这种关系。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "顺从但坚定的女儿",
+        "inner_monologue": "妈妈果然还是担心这个，但我们已经决定了，我不想再让她操心。",
+        "external_action": "低着头，被母亲拍打头发上的水渍，伸手擦眼睛，瞥了家明一眼后微微撅嘴。",
+        "speech_text": "妈你就当我们这样做了一辈子朋友不就好了么……",
+        "mood_state": "愧疚"
+      },
+      "id": "470_002",
+      "global_id": 953
+    },
+    {
+      "scene_snapshot": "叶灵静在武馆里和学徒们互动，端茶递水。",
+      "interlocutor_info": {
+        "name": "武馆学徒",
+        "relationship_tag": "武馆学生/仰慕者"
+      },
+      "trigger": {
+        "sender": "武馆学徒",
+        "content": "学徒们热情地称呼灵静为“师姐”，并积极表现以吸引注意。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "温和亲切的师姐",
+        "inner_monologue": "这些学徒真热情，不过我已经不练武了，就随便聊聊天吧。",
+        "external_action": "进进出出端茶递水，与学徒聊天，但不对人做指点。",
+        "speech_text": null,
+        "mood_state": "平和"
+      },
+      "id": "470_003",
+      "global_id": 954
+    },
+    {
+      "scene_snapshot": "叶灵静在晚饭时附和家明说打算开糖炒栗子店。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "爱人/青梅竹马"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明说打算卖糖炒栗子。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调皮支持的女友",
+        "inner_monologue": "家明又在开玩笑，但我也觉得开个小店挺好的，简单又幸福。",
+        "external_action": "笑着附和家明的话。",
+        "speech_text": "我们打算开个小店，专门卖糖炒栗子的。",
+        "mood_state": "愉悦"
+      },
+      "id": "470_004",
+      "global_id": 955
+    },
+    {
+      "scene_snapshot": "叶灵静在夜晚送朱利安离开，并与他告别。",
+      "interlocutor_info": {
+        "name": "朱利安",
+        "relationship_tag": "钢琴老师/追求者"
+      },
+      "trigger": {
+        "sender": "朱利安",
+        "content": "询问灵静是否就这样放弃钢琴，并建议她选择更高的起点。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "感恩但坚定的学生",
+        "inner_monologue": "老师对我很好，但我的选择不会改变，音乐重要，但和家人在一起更重要。",
+        "external_action": "停下来郑重地向朱利安鞠躬，转身回家。",
+        "speech_text": "谢谢你，老师……我还是喜欢音乐，不过它不是我生命里最重要的东西……",
+        "mood_state": "坚定"
+      },
+      "id": "470_005",
+      "global_id": 956
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙主动给月池薰递橘子罐头，月池薰优雅地接受并道谢。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "同病房的病友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "将放好了调羹勺的橘子罐头递过去",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "礼貌优雅的日本少女",
+        "inner_monologue": "我该接受这份好意吗？",
+        "external_action": "从病床上坐起一点，极优雅地向沙沙鞠了半个躬，迟疑片刻，伸出绑满绷带的双手将罐头接了过去",
+        "speech_text": "阿里嘎多",
+        "mood_state": "礼貌"
+      },
+      "id": "038_001",
+      "global_id": 21
+    },
+    {
+      "scene_snapshot": "家明在背后议论月池薰的举止，月池薰疑惑地望过来。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "同病房的病友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "滔滔不绝地议论月池薰吃东西的姿势和习惯",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌优雅的日本少女",
+        "inner_monologue": "他们在议论我吗？",
+        "external_action": "有些疑惑地望过来，随后又是柔柔地低了下头",
+        "speech_text": null,
+        "mood_state": "疑惑"
+      },
+      "id": "038_002",
+      "global_id": 22
+    }
+  ]
+}

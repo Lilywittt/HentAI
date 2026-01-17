@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静在体育馆外告诉家明和沙沙，她遇到了月池薰并邀请薰加入他们的武术学习小组。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "朋友/同学"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静拉着月池薰的手说道：“对了，家明，沙沙，薰说她来中国是想学武术呢，正好我也想要她教我英文，所以就准备把她介绍到我家的武馆去啦，当然，这里离武馆太远，平时在学校的时候，就由我们三个教她好不好？正好她也可以帮我们提高英语，薰的英语很厉害的哦。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "沉默的旁观者",
+        "inner_monologue": "我（月池薰）被灵静介绍给家明和沙沙，等待他们的反应。",
+        "external_action": "等待在门边，被灵静拉着手",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "061_001",
+      "global_id": 45
+    }
+  ]
+}

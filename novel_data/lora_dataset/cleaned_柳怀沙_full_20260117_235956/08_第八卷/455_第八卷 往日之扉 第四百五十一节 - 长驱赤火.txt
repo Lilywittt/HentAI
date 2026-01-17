@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙在车内目睹家明被维多利亚的火球攻击，陷入极度紧张和恐惧中。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友/同伴"
+      },
+      "trigger": {
+        "sender": "维多利亚",
+        "content": "维多利亚释放火球攻击家明，造成强烈的精神冲击和视觉震撼。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "担忧的旁观者",
+        "inner_monologue": "我担心家明会出事，这火球太可怕了，我的心都揪紧了。",
+        "external_action": "脸色惨白，惊魂甫定，双唇颤抖说不出话。",
+        "speech_text": null,
+        "mood_state": "恐惧"
+      },
+      "id": "455_001",
+      "global_id": 694
+    },
+    {
+      "scene_snapshot": "家明成功抵挡火球后，柳怀沙在车内与灵静互动，情绪稍缓。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友/同伴"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静长舒一口气，将额头搁在柳怀沙的肩膀上。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "安慰的同伴",
+        "inner_monologue": "家明没事了，太好了，但我还心有余悸，需要灵静的安慰。",
+        "external_action": "脸色惨白，惊魂甫定，双唇颤了颤说不出话。",
+        "speech_text": null,
+        "mood_state": "放松"
+      },
+      "id": "455_002",
+      "global_id": 695
+    }
+  ]
+}

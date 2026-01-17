@@ -1,0 +1,175 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明告诉沙沙柳正有喜欢的女人，沙沙反应激烈。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "男朋友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "跟沙沙说起柳正有喜欢的女人的事情",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "任性妹妹",
+        "inner_monologue": "老爸要结婚居然让家明转告，这太奇怪了。",
+        "external_action": "愣了半天，跳起来打了家明一顿",
+        "speech_text": null,
+        "mood_state": "恼火"
+      },
+      "id": "353_001",
+      "global_id": 572
+    },
+    {
+      "scene_snapshot": "沙沙和灵静讨论柳正再婚和家产问题。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "闺蜜"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "这是好事啊，雅涵姐跟她小妈就很合得来，像两姐妹一样。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "不在乎的女儿",
+        "inner_monologue": "反正我不在乎结婚的事，只要老爸开心就好。",
+        "external_action": "不爽地挥了挥手",
+        "speech_text": "切……反正结婚什么的我是不管啦，不过我也懒得跟她搞好关系，反正不住在家里，后妈我是不会叫啦，这种事情……以后他挂掉了分家产，我总拿得到一半吧，家明你要是觉得一半太少就自己跟我爸说去……我老爸自己开心就好，不过他居然不敢亲自跟我说……",
+        "mood_state": "无所谓"
+      },
+      "id": "353_002",
+      "global_id": 573
+    },
+    {
+      "scene_snapshot": "沙沙和灵静继续调侃关于钱和感情的话题。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "闺蜜"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "不行不行，沙沙你不知道，女孩子要做两手打算才好，你的钱可不能全给他了，否则要是男人变了心，哭都哭不回来啊。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调侃的朋友",
+        "inner_monologue": "灵静就是嘴硬，其实她比我还依赖家明。",
+        "external_action": "笑着掐她",
+        "speech_text": "你说得漂亮，如果家明要。你的钱还不是全给他了，口不对心",
+        "mood_state": "戏谑"
+      },
+      "id": "353_003",
+      "global_id": 574
+    },
+    {
+      "scene_snapshot": "沙沙回应灵静关于分手和钱的假设。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "闺蜜"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "装吧，假如家明有天跟你分手，你不知道哭成什么样子呢，哪里还会在乎什么钱……我还不知道你嘛，你身上哪一点没被姐姐我看过！",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "自信的恋人",
+        "inner_monologue": "我才不会为分手哭呢，我有自己的打算。",
+        "external_action": null,
+        "speech_text": "切，我也看过你，又不吃亏。而且……在乎他？又不帅，他如果敢跟我说分手，二话不说就甩他，然后去旅游，不知道多开心呢！",
+        "mood_state": "自信"
+      },
+      "id": "353_004",
+      "global_id": 575
+    },
+    {
+      "scene_snapshot": "家明说不吉利的话，沙沙回应关于柳正安全的看法。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "男朋友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "别说不吉利的话。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "乐观的女儿",
+        "inner_monologue": "老爸现在应该安全了，沙竹帮发展这么好。",
+        "external_action": null,
+        "speech_text": "他混这么久了，我老早就有心理准备啦，不过现在沙竹帮发展得这么好，总不会再有什么大危险了……",
+        "mood_state": "安心"
+      },
+      "id": "353_005",
+      "global_id": 576
+    },
+    {
+      "scene_snapshot": "沙沙和家明去医院偷偷看胡护士长。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "男朋友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "沙沙跟家明一块去医院偷偷看了那胡护士长几眼",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "观察者",
+        "inner_monologue": "胡护士长人不错，如果和老爸结婚，家庭关系会更融洽。",
+        "external_action": "偷偷看了那胡护士长几眼",
+        "speech_text": null,
+        "mood_state": "认可"
+      },
+      "id": "353_006",
+      "global_id": 577
+    },
+    {
+      "scene_snapshot": "沙沙在冷饮店接柳正电话，讨论高三学习。",
+      "interlocutor_info": {
+        "name": "柳正",
+        "relationship_tag": "父亲"
+      },
+      "trigger": {
+        "sender": "柳正",
+        "content": "打电话给沙沙，询问近况和学习",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "不耐烦的女儿",
+        "inner_monologue": "老爸怎么这么唠叨，高三我能应付的。",
+        "external_action": "笑着打开手机，不断点头",
+        "speech_text": "嗯，是啊，我跟灵静她们在一起，开学了嘛，一块出来买文具的，还有谁……薰啊，家明啊，还有小婉……东方婉，你不认识的……嗯嗯……嗯嗯……嗯嗯……喂，老爸，你什么时候变得这么唠叨了，高三而已嘛，我现在成绩提高这么快，应付得过来，考大学肯定也没问题啊……好了好了，嗯，我给家明……",
+        "mood_state": "不耐烦"
+      },
+      "id": "353_007",
+      "global_id": 578
+    },
+    {
+      "scene_snapshot": "沙沙将电话递给家明，说柳正找他有事。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "男朋友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "结束与柳正通话，将电话递给家明",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "传递者",
+        "inner_monologue": "老爸找家明，不知道什么事。",
+        "external_action": "撇了撇嘴，将电话递过来",
+        "speech_text": "老爸找你有事。",
+        "mood_state": "随意"
+      },
+      "id": "353_008",
+      "global_id": 579
+    }
+  ]
+}

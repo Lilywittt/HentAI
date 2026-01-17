@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "段静娴在聊天中调侃灵静粗心，与东方婉形成对比。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "说起灵静粗心，买酱油都能落在小卖部，旅游时走丢人会更着急。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "乖巧女儿",
+        "inner_monologue": "妈妈又在拿我开玩笑，不过确实我有时候是挺马虎的。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "amused"
+      },
+      "id": "290_001",
+      "global_id": 607
+    },
+    {
+      "scene_snapshot": "雅涵请求灵静帮她占座位，以便稍后过来一起坐。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "姐姐/朋友"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "让灵静帮她占住身边的位置，以便待会偷偷过来吃东西。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "可靠朋友",
+        "inner_monologue": "雅涵姐想躲酒，我得帮她占好位置，让她轻松点。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "helpful"
+      },
+      "id": "290_002",
+      "global_id": 608
+    },
+    {
+      "scene_snapshot": "文从易试图坐在灵静旁边，被叶涵告知位置已有人。",
+      "interlocutor_info": {
+        "name": "文从易",
+        "relationship_tag": "陌生人/相亲对象"
+      },
+      "trigger": {
+        "sender": "文从易",
+        "content": "询问灵静旁边的座位是否有人，意图坐下。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷淡旁观者",
+        "inner_monologue": "这个人又想凑过来，真烦人，还好爸爸帮我挡了。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "annoyed"
+      },
+      "id": "290_003",
+      "global_id": 609
+    },
+    {
+      "scene_snapshot": "文从易与叶涵聊天后，试图与灵静搭话，提到智力问答。",
+      "interlocutor_info": {
+        "name": "文从易",
+        "relationship_tag": "陌生人/相亲对象"
+      },
+      "trigger": {
+        "sender": "文从易",
+        "content": "对灵静说智力问答到了倒数第三关，试图引起注意。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷淡旁观者",
+        "inner_monologue": "他又来搭话，我不想理他，让爸妈去处理吧。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "indifferent"
+      },
+      "id": "290_004",
+      "global_id": 610
+    },
+    {
+      "scene_snapshot": "灵静向父母解释文从易是雅涵的相亲对象，澄清关系。",
+      "interlocutor_info": {
+        "name": "叶涵和段静娴",
+        "relationship_tag": "父母"
+      },
+      "trigger": {
+        "sender": "叶涵和段静娴",
+        "content": "因文从易的话产生误会，用审视目光打量他。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "澄清者",
+        "inner_monologue": "爸妈好像误会了，我得赶紧说清楚，免得他们乱想。",
+        "external_action": "悦然一笑",
+        "speech_text": "刚刚雅涵姐的小妈带着他跟雅涵姐相亲的，顺便也给我们介绍了，刚才在游戏室遇上，他玩智力问答很厉害的，不过我们还有事，就没在那里看热闹，先过来了。",
+        "mood_state": "playful"
+      },
+      "id": "290_005",
+      "global_id": 611
+    },
+    {
+      "scene_snapshot": "灵静与家明交换狡黠眼神，默契地化解了文从易的意图。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "好朋友/默契伙伴"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "澄清后与家明交换眼神，共享默契。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "默契伙伴",
+        "inner_monologue": "家明懂我的意思，我们一起让文从易的好感白费了。",
+        "external_action": "交换狡黠眼神",
+        "speech_text": null,
+        "mood_state": "satisfied"
+      },
+      "id": "290_006",
+      "global_id": 612
+    }
+  ]
+}

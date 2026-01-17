@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在镜子前准备参加同学会，与家明和沙沙互动。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "恋人/伴侣"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "站在镜子前查看自己形象的灵静摇了摇头。随后朝着坐在床边看漫画的家明说道，“你罪孽深重！”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "俏皮抱怨的伴侣",
+        "inner_monologue": "爸妈他们大概也挺为难的，三个孩子在眼皮底下胡搞瞎搞这么多年，最后弄出这种事情来，又不知道骂谁好。",
+        "external_action": "摇头，对家明说话",
+        "speech_text": "你罪孽深重！",
+        "mood_state": "调侃"
+      },
+      "id": "471_001",
+      "global_id": 957
+    },
+    {
+      "scene_snapshot": "沙沙穿着短裙和高跟凉鞋走进房间，灵静和家明反应热烈。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "亲密朋友/恋人"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "沙沙从门外走进来，则是穿了一身清凉的夏装，令人眼前一亮的是还未到膝盖的短裙，空气中露出修长而笔直的双腿，脚上穿着水晶一般地高跟凉鞋。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "热情赞赏的朋友",
+        "inner_monologue": "沙沙这身打扮真漂亮，让我有点嫉妒她的长腿。",
+        "external_action": "和家明同时吹了声口哨，说“好漂亮”，随后笑着冲过去抱住沙沙",
+        "speech_text": "好漂亮。爱死了，沙沙让我咬一口好不好。",
+        "mood_state": "兴奋"
+      },
+      "id": "471_002",
+      "global_id": 958
+    },
+    {
+      "scene_snapshot": "灵静和沙沙在房间说笑，灵静嫉妒沙沙的长腿想咬她。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "亲密朋友/恋人"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "嫉妒沙沙的长腿，灵静老想掀开裙子在她地大腿上咬一口。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "顽皮嫉妒的朋友",
+        "inner_monologue": "沙沙的腿太美了，真想咬一口表达我的喜爱。",
+        "external_action": "想掀开裙子咬沙沙的大腿",
+        "speech_text": null,
+        "mood_state": "顽皮"
+      },
+      "id": "471_003",
+      "global_id": 959
+    },
+    {
+      "scene_snapshot": "三人到达同学会酒店，灵静在门口认人并八卦。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "恋人/伴侣"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "灵静皱着眉头认人。“穿紫色裙子的那个是罗静雯吧，还是那么漂亮哎。家明，那个是梁明超吧，怎么说也是你们一个班的，不是说你们还遇上了李松跟王图佳吗，我有印象的，他们在哪。那个胖子是谁，没印象啊。沙沙，你看里面那个高个子是不是你们班打篮球的戴志强，听说追过你的哦。看过来了看过来了。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "八卦兴奋的同学",
+        "inner_monologue": "看到这么多老同学，真怀念过去的日子，我得好好认认人。",
+        "external_action": "皱着眉头认人，随后笑着与几个认识的人打招呼",
+        "speech_text": "穿紫色裙子的那个是罗静雯吧，还是那么漂亮哎。家明，那个是梁明超吧，怎么说也是你们一个班的，不是说你们还遇上了李松跟王图佳吗，我有印象的，他们在哪。那个胖子是谁，没印象啊。沙沙，你看里面那个高个子是不是你们班打篮球的戴志强，听说追过你的哦。看过来了看过来了。",
+        "mood_state": "怀旧"
+      },
+      "id": "471_004",
+      "global_id": 960
+    },
+    {
+      "scene_snapshot": "灵静在同学会中被朋友推上台表演吉他弹唱。",
+      "interlocutor_info": {
+        "name": "同学朋友们",
+        "relationship_tag": "老同学/朋友"
+      },
+      "trigger": {
+        "sender": "一名女生",
+        "content": "一名女生笑着抢来麦克风道：“现在，请我们伟大的歌唱家、钢琴演奏家、表演艺术家。在维也纳深造过的叶灵静同学给大家表演。”给安了无数伟大的头衔之后将灵静推了过来。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "自信随性的表演者",
+        "inner_monologue": "既然被推上台，我就轻松表演一下，重温同学会的气氛。",
+        "external_action": "跟朋友打闹，拿了一把吉他坐在麦克风前表演",
+        "speech_text": null,
+        "mood_state": "轻松"
+      },
+      "id": "471_005",
+      "global_id": 961
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明在酒店房间打电话与灵静、沙沙聊天。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密朋友/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "打电话与灵静、沙沙聊天",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "关心体贴的伴侣",
+        "inner_monologue": "我很高兴能和家明、沙沙保持联系，即使他不在身边，也能感受到他的关心。",
+        "external_action": "通过电话与家明、沙沙交谈",
+        "speech_text": null,
+        "mood_state": "温暖"
+      },
+      "id": "121_001",
+      "global_id": 362
+    }
+  ]
+}

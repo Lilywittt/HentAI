@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静和家明在洞穴最里面修理无线电，外面是风暴肆虐。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴/恋人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "风暴降临，洞穴中需要修理无线电以保持通讯。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "体贴的助手",
+        "inner_monologue": "我想陪在家明身边，哪怕只是聊天也好。",
+        "external_action": "将身上的毛毯放了一半在家明身上，坐在他身边。",
+        "speech_text": null,
+        "mood_state": "安心"
+      },
+      "id": "100_001",
+      "global_id": 312
+    },
+    {
+      "scene_snapshot": "东方婉问起郁金香先生的事情，叶灵静敷衍回答。",
+      "interlocutor_info": {
+        "name": "东方婉",
+        "relationship_tag": "外人/同学"
+      },
+      "trigger": {
+        "sender": "东方婉",
+        "content": "担心地问起此刻仍然在外面的那位郁金香先生的事情。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "敷衍的回应者",
+        "inner_monologue": "我不想多谈郁金香先生的事，免得暴露家明的秘密。",
+        "external_action": "笑着敷衍几句，便拿目光暧昧地望向家明。",
+        "speech_text": null,
+        "mood_state": "谨慎"
+      },
+      "id": "100_002",
+      "global_id": 313
+    },
+    {
+      "scene_snapshot": "叶灵静裹着被子睡觉，遗憾洞穴里多了外人。",
+      "interlocutor_info": {
+        "name": "环境",
+        "relationship_tag": "外部环境"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "洞穴中多了三个外人，风暴持续。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "遗憾的休息者",
+        "inner_monologue": "要是只有我和家明，这样的天气可以抱在一起，怎么都不会无聊的。",
+        "external_action": "裹着被子在里面睡起觉来。",
+        "speech_text": null,
+        "mood_state": "遗憾"
+      },
+      "id": "100_003",
+      "global_id": 314
+    },
+    {
+      "scene_snapshot": "叶灵静和东方婉聊天，话题引向家明。",
+      "interlocutor_info": {
+        "name": "东方婉",
+        "relationship_tag": "外人/同学"
+      },
+      "trigger": {
+        "sender": "东方婉",
+        "content": "话题不自觉地引向了家明的方向，说起家明跟她、跟沙沙三人从小以来的一些趣事。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "幸福的回忆者",
+        "inner_monologue": "原来我们是经历了那么多的故事走过来的啊，只要回忆起来，就会觉得幸福不已。",
+        "external_action": "兴致高昂地聊天，偶尔望望最后在调试无线电的家明。",
+        "speech_text": null,
+        "mood_state": "幸福"
+      },
+      "id": "100_004",
+      "global_id": 315
+    },
+    {
+      "scene_snapshot": "风暴减弱，军队救援到来，叶灵静看到沙沙出现。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密朋友/恋人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "沙沙从登陆艇上跑过来。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "激动的重逢者",
+        "inner_monologue": "沙沙终于来了，我好想她！",
+        "external_action": "眼泪夺眶而出，朝着对方冲了出去。",
+        "speech_text": "沙沙——",
+        "mood_state": "激动"
+      },
+      "id": "100_005",
+      "global_id": 316
+    }
+  ]
+}

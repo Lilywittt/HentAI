@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明、灵静、沙沙、薰和东方婉在冷饮店吃冰棍，讨论社团和旅游计划。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "朋友/同学"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙接到父亲柳正的电话，聊了几句后说“我给家明”，将电话递给家明。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "安静的旁观者",
+        "inner_monologue": "我在这里和朋友们一起，但沙沙的电话似乎有重要事情。",
+        "external_action": "可能正在吃冰棍或听东方婉说话，但文本未明确描述她的具体动作。",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "353_001",
+      "global_id": 249
+    },
+    {
+      "scene_snapshot": "家明接电话后走到一边，灵静等人都看向他，气氛变得紧张。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "朋友/同学"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明接电话后站起来走到一边，表情严肃，说“告诉我你现在在哪里”。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "警觉的同伴",
+        "inner_monologue": "家明的反应很异常，电话里可能出了什么事，我得关注情况。",
+        "external_action": "可能和其他人一样将目光投向家明，但文本未明确描述她的具体动作。",
+        "speech_text": null,
+        "mood_state": "警觉"
+      },
+      "id": "353_002",
+      "global_id": 250
+    }
+  ]
+}

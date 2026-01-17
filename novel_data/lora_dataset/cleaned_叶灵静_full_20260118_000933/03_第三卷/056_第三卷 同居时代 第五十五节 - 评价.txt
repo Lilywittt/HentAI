@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在广场冲突中与同伴一起对抗一群挑衅者。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密伴侣/可靠伙伴"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明与灵静怕她吃亏，连忙跟了上去",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "支持性伴侣",
+        "inner_monologue": "我得跟上去帮忙，不能让他们伤害沙沙。",
+        "external_action": "跟了上去",
+        "speech_text": null,
+        "mood_state": "警觉"
+      },
+      "id": "056_001",
+      "global_id": 156
+    },
+    {
+      "scene_snapshot": "叶灵静帮助顾家明抵挡攻击者，保护他掰断卢建川手指。",
+      "interlocutor_info": {
+        "name": "攻击者",
+        "relationship_tag": "敌对挑衅者"
+      },
+      "trigger": {
+        "sender": "攻击者",
+        "content": "当先的两个人伸手要去拖开家明",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "保护性伙伴",
+        "inner_monologue": "我不能让他们干扰家明，得踢开这些人。",
+        "external_action": "踢开攻击者",
+        "speech_text": null,
+        "mood_state": "果断"
+      },
+      "id": "056_002",
+      "global_id": 157
+    },
+    {
+      "scene_snapshot": "叶灵静被卢建川的惨叫声吓到，回忆起父亲的实战技巧。",
+      "interlocutor_info": {
+        "name": "卢建川",
+        "relationship_tag": "受伤对手"
+      },
+      "trigger": {
+        "sender": "卢建川",
+        "content": "一声撕心裂肺的惨叫响彻了广场",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "反思者",
+        "inner_monologue": "这叫声真吓人，爸爸说过掰手指很实用，但家明用得更狠。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "震惊"
+      },
+      "id": "056_003",
+      "global_id": 158
+    },
+    {
+      "scene_snapshot": "叶灵静在冲突结束后与顾家明和沙沙一起离开广场。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密伴侣/可靠伙伴"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明放下卢建川的手，轻哼一声，掉头就走",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "默契伴侣",
+        "inner_monologue": "我们该走了，别在这里被人围观。",
+        "external_action": "跟顾家明和沙沙一起离开",
+        "speech_text": null,
+        "mood_state": "轻松"
+      },
+      "id": "056_004",
+      "global_id": 159
+    },
+    {
+      "scene_snapshot": "叶灵静在回家路上告诉顾家明她看到了雅涵姐的车。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密伴侣/可靠伙伴"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "出了指指点点的人群",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "观察者",
+        "inner_monologue": "刚才看到雅涵姐在车里，她怎么没出来帮忙？",
+        "external_action": null,
+        "speech_text": "我刚才看见雅涵姐的小车了呢，就停在广场旁边，雅涵姐在车里。",
+        "mood_state": "好奇"
+      },
+      "id": "056_005",
+      "global_id": 160
+    }
+  ]
+}

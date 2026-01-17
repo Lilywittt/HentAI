@@ -1,0 +1,175 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙安慰哭泣的灵静，讨论被家明看到身体后的感受。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "家明他看到了我们那样子，他……他一定在心里看不起我了啦……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "安慰者",
+        "inner_monologue": "我得先放下自己的胡思乱想，安慰灵静要紧。",
+        "external_action": "坐到床边安慰灵静，递纸巾",
+        "speech_text": "怎、怎么可能，家明他不会……",
+        "mood_state": "关切"
+      },
+      "id": "017_001",
+      "global_id": 57
+    },
+    {
+      "scene_snapshot": "沙沙询问灵静是否喜欢家明，涉及感情话题。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "灵静，你……你喜欢家明吗？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "好奇的询问者",
+        "inner_monologue": "我想知道灵静的真实想法，但问出口后有点紧张。",
+        "external_action": "故作洒脱地拍了灵静一下",
+        "speech_text": "我又不是说这个。你知道的啦，我是说，你长大以后想要嫁给他吗？",
+        "mood_state": "好奇"
+      },
+      "id": "017_002",
+      "global_id": 58
+    },
+    {
+      "scene_snapshot": "沙沙得知灵静对家明的感情后，心中怅然若失但强装镇定。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "去年野营的时候，我被那两个人抓住，他……他说要用自己来交换，还说我是他的……他的……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "支持者",
+        "inner_monologue": "我有点失落，但还是要表现得坚强和支持灵静。",
+        "external_action": "一把抓住了灵静的手",
+        "speech_text": "好了，我知道啦，他要是敢嘲笑你，我就……我就……哼，总之他不敢的，来，我们出去吃早餐吧……",
+        "mood_state": "怅然"
+      },
+      "id": "017_003",
+      "global_id": 59
+    },
+    {
+      "scene_snapshot": "沙沙看到家明在笑，感到生气并拿枕头打他。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "青梅竹马"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明捧着一碗粥咕嘟咕嘟的猛灌，肩膀忍不住的抽动（在笑）",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "愤怒的报复者",
+        "inner_monologue": "他居然在笑，太可恶了，我得教训他一下。",
+        "external_action": "拿了个小枕头就对着家明拍下去",
+        "speech_text": "叫你笑、叫你笑……",
+        "mood_state": "气愤"
+      },
+      "id": "017_004",
+      "global_id": 60
+    },
+    {
+      "scene_snapshot": "沙沙被家明搂住肩膀，感到害羞但没有挣扎。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "青梅竹马"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明张开双臂，一把搂住了两个小女孩的肩膀",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "害羞的接受者",
+        "inner_monologue": "他突然这么亲昵，让我脸红心跳，但感觉并不坏。",
+        "external_action": "红了脸颊，并没有挣扎",
+        "speech_text": null,
+        "mood_state": "害羞"
+      },
+      "id": "017_005",
+      "global_id": 61
+    },
+    {
+      "scene_snapshot": "沙沙和灵静一起打家明，气氛变得嬉闹。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "青梅竹马"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明恶作剧地将两个女孩子往一块推，要让她们接吻",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "嬉闹的参与者",
+        "inner_monologue": "他太坏了，居然开这种玩笑，得反击回去。",
+        "external_action": "和灵静同时给了家明一拳",
+        "speech_text": null,
+        "mood_state": "嬉闹"
+      },
+      "id": "017_006",
+      "global_id": 62
+    },
+    {
+      "scene_snapshot": "沙沙被家明用垫子拍打，开始追逐打闹。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "青梅竹马"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明猛地跳了起来，拿着身后的羽绒坐垫便往沙沙头上拍去",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "反击者",
+        "inner_monologue": "他居然偷袭我，我得追上去打回来。",
+        "external_action": "从餐桌下面狼狈地爬到另一端，抄起一个垫子追杀过来",
+        "speech_text": "顾家明，你别跑……",
+        "mood_state": "兴奋"
+      },
+      "id": "017_007",
+      "global_id": 63
+    },
+    {
+      "scene_snapshot": "沙沙回应家明的挑衅，亲吻灵静并继续追逐。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "青梅竹马"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "灵静本来会是我的女朋友的，居然被你抢去了，今天我要好好扁你一顿！",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "挑衅者",
+        "inner_monologue": "他这么说，我更想气气他，显示我和灵静的亲密。",
+        "external_action": "示威性的在灵静雪白的小脸蛋上亲了一口，随后操着垫子猛地追了过去",
+        "speech_text": "哼，气死你！气死你！灵静现在归我啦，你给我站住……",
+        "mood_state": "得意"
+      },
+      "id": "017_008",
+      "global_id": 64
+    }
+  ]
+}

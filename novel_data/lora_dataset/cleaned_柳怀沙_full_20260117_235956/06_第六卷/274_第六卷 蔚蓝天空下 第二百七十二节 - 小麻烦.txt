@@ -1,0 +1,196 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在公车站与家明和灵静会合，分享家庭琐事。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙主动分享家里来了个叔叔，以及看到黄浩兵的事情。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "随和分享者",
+        "inner_monologue": "我不太喜欢这个叔叔，但总得应付一下家庭关系。",
+        "external_action": "拍打脑后马尾上的水渍",
+        "speech_text": "不是很喜欢他，不过总得叫声叔叔。",
+        "mood_state": "淡然"
+      },
+      "id": "274_001",
+      "global_id": 464
+    },
+    {
+      "scene_snapshot": "沙沙在超市挑选南瓜，提议做南瓜饼。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙挑了一块老南瓜并提议做南瓜饼。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "调皮提议者",
+        "inner_monologue": "我想跟灵静学做南瓜饼，顺便逗逗家明。",
+        "external_action": "挑南瓜",
+        "speech_text": "回家弄南瓜饼吃去。",
+        "mood_state": "轻松"
+      },
+      "id": "274_002",
+      "global_id": 465
+    },
+    {
+      "scene_snapshot": "沙沙的提议被家明质疑，灵静介入。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明笑着问沙沙是否会弄南瓜饼。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "撒娇依赖者",
+        "inner_monologue": "家明又在取笑我，但灵静会帮我的。",
+        "external_action": "吐了吐舌头",
+        "speech_text": "我跟灵静学啊。",
+        "mood_state": "俏皮"
+      },
+      "id": "274_003",
+      "global_id": 466
+    },
+    {
+      "scene_snapshot": "沙沙询问是否邀请雅涵姐和薰一起吃南瓜饼。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙提议邀请雅涵姐和薰。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "体贴询问者",
+        "inner_monologue": "我想多些人一起热闹，但灵静可能觉得麻烦。",
+        "external_action": "眼看着灵静挑选南瓜",
+        "speech_text": "待会我们把雅涵姐和薰一块叫过来吃吗？",
+        "mood_state": "考虑"
+      },
+      "id": "274_004",
+      "global_id": 467
+    },
+    {
+      "scene_snapshot": "沙沙在家中和家明一起打扫房间。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "下午三点多，灵静在厨房准备南瓜饼，沙沙和家明打扫房间。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "勤劳协作者",
+        "inner_monologue": "和家明一起打扫，感觉像真正的家人一样温馨。",
+        "external_action": "打扫和清理房间",
+        "speech_text": null,
+        "mood_state": "满足"
+      },
+      "id": "274_005",
+      "global_id": 468
+    },
+    {
+      "scene_snapshot": "沙沙在晚餐前帮忙摆桌子。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "菜肴香味飘出，家明和灵静在厨房忙碌。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "积极帮手",
+        "inner_monologue": "我喜欢这样帮忙，让家里更有生活气息。",
+        "external_action": "来来回回跑动着，收拾桌子，摆好碗筷",
+        "speech_text": null,
+        "mood_state": "愉快"
+      },
+      "id": "274_006",
+      "global_id": 469
+    },
+    {
+      "scene_snapshot": "沙沙洗完澡后光溜溜地跑进卧室。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "晚上房间亮灯，灵静在床上看书。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "亲密玩伴",
+        "inner_monologue": "洗完澡好舒服，想和灵静一起玩闹。",
+        "external_action": "光溜溜地搓着身子小跑进卧室，笑着钻进灵静的被窝里",
+        "speech_text": null,
+        "mood_state": "嬉闹"
+      },
+      "id": "274_007",
+      "global_id": 470
+    },
+    {
+      "scene_snapshot": "沙沙去学校参加排球队训练。",
+      "interlocutor_info": {
+        "name": "环境",
+        "relationship_tag": "学校环境"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "三人到学校后分开，沙沙去排球队训练。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "受欢迎队员",
+        "inner_monologue": "训练虽然累，但和大家一起很开心。",
+        "external_action": "去排球队训练",
+        "speech_text": null,
+        "mood_state": "积极"
+      },
+      "id": "274_008",
+      "global_id": 471
+    },
+    {
+      "scene_snapshot": "家明向薰转述沙沙关于聂文超的绯闻。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明转述沙沙的话，说外面传薰和聂文超的绯闻。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "八卦分享者",
+        "inner_monologue": "我确实跟家明提过聂文超的事，但没想到会传成这样。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "旁观"
+      },
+      "id": "274_009",
+      "global_id": 472
+    }
+  ]
+}

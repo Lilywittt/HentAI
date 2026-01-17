@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静和家明、沙沙放学回家时，看到马路对面哭泣的海蒂，随后海蒂被面包车拐走。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密朋友/同伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明看到海蒂后突然冲过马路，差点被车撞到。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "关心朋友、担忧的女孩",
+        "inner_monologue": "我吓坏了，家明刚才差点出事，他怎么能这么冲动？",
+        "external_action": "眼中有了泪水，和沙沙一起跑过来隔着栏杆捶打家明。",
+        "speech_text": "你干嘛，玩杂技啊……知不知道你刚才差点被撞死啊……",
+        "mood_state": "惊恐"
+      },
+      "id": "023_001",
+      "global_id": 88
+    },
+    {
+      "scene_snapshot": "家明解释小女孩被拐走后，叶灵静和沙沙提议报警。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密朋友/同伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明说小女孩被面包车拐走了。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "担忧、想帮忙的女孩",
+        "inner_monologue": "那个小女孩好可怜，我们得赶紧做点什么救她。",
+        "external_action": "停止打骂家明，望着马路对面。",
+        "speech_text": "快报警。",
+        "mood_state": "焦急"
+      },
+      "id": "023_002",
+      "global_id": 89
+    }
+  ]
+}

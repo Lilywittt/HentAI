@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在街角水果店遇到儿子顾允杰和女孩张允馨（淘淘）狼狈地站在路边。",
+      "interlocutor_info": {
+        "name": "顾允杰",
+        "relationship_tag": "儿子"
+      },
+      "trigger": {
+        "sender": "顾允杰",
+        "content": "叶灵静看到两个孩子鼻青脸肿、衣衫不整地站在路边，准备过马路过来询问。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "关心孩子的母亲",
+        "inner_monologue": "这两个孩子又打架了，我得赶紧看看他们伤得怎么样。",
+        "external_action": "微微皱眉，检查两人的伤势，微微放心后露出好笑与好恼的表情。",
+        "speech_text": "你们这是怎么了？你们两个又是……",
+        "mood_state": "关切"
+      },
+      "id": "501_001",
+      "global_id": 985
+    },
+    {
+      "scene_snapshot": "张允馨（淘淘）快速编借口解释打架事件并跑开，叶灵静无奈地转向儿子。",
+      "interlocutor_info": {
+        "name": "张允馨（淘淘）",
+        "relationship_tag": "儿子的朋友/晚辈"
+      },
+      "trigger": {
+        "sender": "张允馨（淘淘）",
+        "content": "淘淘抢先编造借口说在学校外被坏小孩欺负，顾允杰帮忙打架，并跑向水果店拿葡萄后离开。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "宽容的长辈",
+        "inner_monologue": "这孩子又在耍小聪明，不过算了，先处理儿子的伤吧。",
+        "external_action": "有些无奈地看着淘淘跑开，回头看看儿子。",
+        "speech_text": null,
+        "mood_state": "无奈"
+      },
+      "id": "501_002",
+      "global_id": 986
+    },
+    {
+      "scene_snapshot": "叶灵静在家中给儿子顾允杰擦药酒，回忆起自己年轻时的往事。",
+      "interlocutor_info": {
+        "name": "顾允杰",
+        "relationship_tag": "儿子"
+      },
+      "trigger": {
+        "sender": "顾允杰",
+        "content": "儿子抱怨母亲在他受伤时还笑，并询问父亲顾家明的事情。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "温柔的母亲和怀旧的妻子",
+        "inner_monologue": "看到儿子受伤，让我想起了以前和家明、沙沙一起的日子，那些时光真美好。",
+        "external_action": "偶尔露出笑容，给儿子擦跌打药酒，贴上创可贴并给他一个吻。",
+        "speech_text": "妈妈只是想起了以前的事情。以前啊，你沙沙阿姨呢，也很喜欢打架。我还很厉害呢，你也知道啦，外公开武馆的嘛。你爸不打架的。我记得……他以前总是被人欺负啊，我还让他叫我姐姐的，在学校里总是我跟沙沙保护他，所以他只管逃跑和带着药箱。没有啊。会帮女孩子上药的男生，很帅的呢。好了，最后一个补丁打好，准备一下，待会去诊所帮忙吧。你沙沙阿姨和允婷应该也在那里了。",
+        "mood_state": "温馨"
+      },
+      "id": "501_003",
+      "global_id": 987
+    }
+  ]
+}

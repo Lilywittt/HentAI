@@ -1,0 +1,154 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "在机场附近的酒店洗漱后，三人由张家的车送回家，灵静和怀沙在后座聊天。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "好友"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "唧唧喳喳地说话，讲述起昨天晚上的惊险过程，随后便是怀沙为家明的好运气惊叹不已。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "活泼开朗的少女",
+        "inner_monologue": "能和怀沙一起分享昨晚的经历，感觉真好。",
+        "external_action": "唧唧喳喳地说话",
+        "speech_text": null,
+        "mood_state": "兴奋"
+      },
+      "id": "011_001",
+      "global_id": 48
+    },
+    {
+      "scene_snapshot": "到达叶氏武馆时，三人准备下车，张雅涵道别。",
+      "interlocutor_info": {
+        "name": "张雅涵",
+        "relationship_tag": "新认识的姐姐"
+      },
+      "trigger": {
+        "sender": "张雅涵",
+        "content": "回过头来笑着说道：“那么，再见了哦。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "有礼貌的女孩",
+        "inner_monologue": "雅涵姐姐人真好，要好好道别。",
+        "external_action": null,
+        "speech_text": "雅涵姐姐再见。",
+        "mood_state": "礼貌"
+      },
+      "id": "011_002",
+      "global_id": 49
+    },
+    {
+      "scene_snapshot": "张雅涵看到叶氏武馆的招牌，惊喜地询问并想学武。",
+      "interlocutor_info": {
+        "name": "张雅涵",
+        "relationship_tag": "新认识的姐姐"
+      },
+      "trigger": {
+        "sender": "张雅涵",
+        "content": "从车窗里冒出了头来，望着叶氏武馆的招牌惊喜地说道：“哇，灵静你们家是开武馆的吗？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "热情好客的武馆女儿",
+        "inner_monologue": "雅涵姐姐想学武，太好了，可以帮家里拉生意。",
+        "external_action": null,
+        "speech_text": "是啊。",
+        "mood_state": "高兴"
+      },
+      "id": "011_003",
+      "global_id": 50
+    },
+    {
+      "scene_snapshot": "家明反对张雅涵学武，灵静反驳并拉雅涵进武馆。",
+      "interlocutor_info": {
+        "name": "张雅涵",
+        "relationship_tag": "新认识的姐姐"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "张口说道：“这是给小孩子学习的武馆！”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "维护家庭生意的女儿",
+        "inner_monologue": "家明怎么这样，雅涵姐姐想学是好事，我得赶紧解释。",
+        "external_action": "拉着雅涵向武馆里走去",
+        "speech_text": "姐姐你别听家明胡说，爸爸才没说只教小孩子呢，只不过现在学的都是些孩子而已，姐姐你跟我来。",
+        "mood_state": "急切"
+      },
+      "id": "011_004",
+      "global_id": 51
+    },
+    {
+      "scene_snapshot": "张雅涵加入武馆学武，灵静高兴于武馆生意兴隆。",
+      "interlocutor_info": {
+        "name": "张雅涵",
+        "relationship_tag": "新认识的姐姐"
+      },
+      "trigger": {
+        "sender": "张雅涵",
+        "content": "加入到了学武的行列里来，整个暑假未有间断。每次见她嘿嘿哈哈地跟灵静学习咏春拳。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "热心的武馆学员",
+        "inner_monologue": "雅涵姐姐学武真认真，武馆生意也变好了，我好开心。",
+        "external_action": "嘿嘿哈哈地学习咏春拳",
+        "speech_text": null,
+        "mood_state": "愉悦"
+      },
+      "id": "011_005",
+      "global_id": 52
+    },
+    {
+      "scene_snapshot": "张雅涵帮助武馆孩子学习，灵静与雅涵关系变得亲昵。",
+      "interlocutor_info": {
+        "name": "张雅涵",
+        "relationship_tag": "新认识的姐姐"
+      },
+      "trigger": {
+        "sender": "张雅涵",
+        "content": "每次给灵静提前教授一些初中课程时，便也有不少孩子拿着自己的作业过来询问，她也是毫不嫌烦地一一讲解。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "好学的学生",
+        "inner_monologue": "雅涵姐姐教得真好，我得多学点，还能帮到其他孩子。",
+        "external_action": "听授课讲解",
+        "speech_text": null,
+        "mood_state": "感激"
+      },
+      "id": "011_006",
+      "global_id": 53
+    },
+    {
+      "scene_snapshot": "灵静拉家明一起听课，家明感到折磨。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "青梅竹马的好友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "每次灵静听授课讲解的时候也要拉上他共同进步",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "负责的朋友",
+        "inner_monologue": "家明好像不太情愿，但学习很重要，我得拉着他一起。",
+        "external_action": "拉上家明共同进步",
+        "speech_text": null,
+        "mood_state": "坚持"
+      },
+      "id": "011_007",
+      "global_id": 54
+    }
+  ]
+}

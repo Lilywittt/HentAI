@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在宴会厅中忙碌，东方婉调侃东方路关于叶灵静不理他的事。",
+      "interlocutor_info": {
+        "name": "东方婉",
+        "relationship_tag": "同学/朋友的妹妹"
+      },
+      "trigger": {
+        "sender": "东方婉",
+        "content": "那位叶灵静小姐只是先前过来打了个招呼就没有理你了哦，怎么办呐？哥，还是上去搭讪吧。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "忙碌的宴会参与者",
+        "inner_monologue": "我只是在忙自己的事，没必要特意去理会东方路。",
+        "external_action": "在人群中跑来跑去，言笑嫣嫣，展现出可爱和成熟感。",
+        "speech_text": null,
+        "mood_state": "轻松"
+      },
+      "id": "113_001",
+      "global_id": 341
+    },
+    {
+      "scene_snapshot": "叶灵静在宴会中等待家明，东方路邀请她为他的歌曲伴奏。",
+      "interlocutor_info": {
+        "name": "东方路",
+        "relationship_tag": "同学/追求者"
+      },
+      "trigger": {
+        "sender": "东方路",
+        "content": "叶灵静同学，请你为我进行伴奏，好吗？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌的拒绝者",
+        "inner_monologue": "我不太想伴奏，但家明还没来，张竞峰也劝我，只好勉强答应。",
+        "external_action": "微微一愕，笑着挥手表示不行，无奈地笑了笑后上台弹钢琴。",
+        "speech_text": "我不行的啊，我学钢琴还不太久，而且……那好吧。我一下子弹不好，别怪我哦。",
+        "mood_state": "无奈"
+      },
+      "id": "113_002",
+      "global_id": 342
+    },
+    {
+      "scene_snapshot": "东方路在歌曲结束后送玫瑰花给叶灵静，全场起哄。",
+      "interlocutor_info": {
+        "name": "东方路",
+        "relationship_tag": "同学/追求者"
+      },
+      "trigger": {
+        "sender": "东方路",
+        "content": "灵静，这是我的谢意，希望不要推辞。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "尴尬的接受者",
+        "inner_monologue": "这么多人起哄，我不好拒绝，但真不想收这花。",
+        "external_action": "一阵迟疑，挣扎出一个笑容，接过玫瑰花。",
+        "speech_text": "谢谢。",
+        "mood_state": "为难"
+      },
+      "id": "113_003",
+      "global_id": 343
+    }
+  ]
+}

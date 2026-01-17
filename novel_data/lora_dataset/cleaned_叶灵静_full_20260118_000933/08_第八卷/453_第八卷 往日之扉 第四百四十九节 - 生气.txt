@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静和沙沙在车内目睹激烈的战斗，突然一个黑影袭击她们。",
+      "interlocutor_info": {
+        "name": "彼得",
+        "relationship_tag": "未知的袭击者"
+      },
+      "trigger": {
+        "sender": "彼得",
+        "content": "一道黑影毫无征兆地出现在灯光里，冲向车内的叶灵静和沙沙，手触上叶灵静的颈项。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "受惊的旁观者",
+        "inner_monologue": "我完全没反应过来，这太突然了，感觉时间都凝固了。",
+        "external_action": "僵在那里，惊魂甫定。",
+        "speech_text": null,
+        "mood_state": "惊恐"
+      },
+      "id": "453_001",
+      "global_id": 895
+    },
+    {
+      "scene_snapshot": "家明及时救下叶灵静，击退袭击者后安慰她们。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明出现在叶灵静眼前，揪住袭击者的脖子掷出，然后回头瞥见叶灵静惊魂甫定的眼神。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "被保护的依赖者",
+        "inner_monologue": "家明来了，我安全了，但刚才真的好可怕。",
+        "external_action": "惊魂甫定地看着家明。",
+        "speech_text": null,
+        "mood_state": "安心"
+      },
+      "id": "453_002",
+      "global_id": 896
+    },
+    {
+      "scene_snapshot": "家明对叶灵静和沙沙说安慰的话。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明对着叶灵静和沙沙笑了笑，说：“别怕，我在这。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被安慰的同伴",
+        "inner_monologue": "家明在安慰我们，有他在，我不那么害怕了。",
+        "external_action": "听着家明的话，情绪稍缓。",
+        "speech_text": null,
+        "mood_state": "舒缓"
+      },
+      "id": "453_003",
+      "global_id": 897
+    }
+  ]
+}

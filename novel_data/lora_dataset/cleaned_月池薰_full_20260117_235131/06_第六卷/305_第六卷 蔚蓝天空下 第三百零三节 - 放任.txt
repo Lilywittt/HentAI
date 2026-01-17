@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "薰在酒吧吧台被一名男子搭讪并试图拿她的杯子，引发冲突。",
+      "interlocutor_info": {
+        "name": "搭讪男子",
+        "relationship_tag": "骚扰者"
+      },
+      "trigger": {
+        "sender": "搭讪男子",
+        "content": "伸手要去拿薰手上的玻璃杯",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "冷静的防卫者",
+        "inner_monologue": "我在等人，不要打扰我。",
+        "external_action": "左手冷冷一推，将男子摔出两米之外",
+        "speech_text": null,
+        "mood_state": "冷静"
+      },
+      "id": "305_001",
+      "global_id": 214
+    },
+    {
+      "scene_snapshot": "男子被推倒后感到难堪，再次试图攻击薰。",
+      "interlocutor_info": {
+        "name": "搭讪男子",
+        "relationship_tag": "骚扰者"
+      },
+      "trigger": {
+        "sender": "搭讪男子",
+        "content": "一只手用力拍在薰身前的吧台上，另一只手便要向薰的身上拍去",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "果断的战士",
+        "inner_monologue": "我必须制止这种骚扰。",
+        "external_action": "将男子身体直接飞起摔在地板上，右手一挥将另一人的头按在吧台上，用酒瓶断口抵住他的喉咙",
+        "speech_text": "我在等人，不要惹我。",
+        "mood_state": "冷澈"
+      },
+      "id": "305_002",
+      "global_id": 215
+    },
+    {
+      "scene_snapshot": "薰在冲突后走向家明，准备离开酒吧。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "保护者/同伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明处理完黄浩兵的事后准备离开，薰注意到他的行动",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "恭敬的随从",
+        "inner_monologue": "家明要走了，我该跟随他。",
+        "external_action": "放开了她按住的那人，朝着家明走过来，微微地鞠了一躬，随后安静地站在了他的身边",
+        "speech_text": null,
+        "mood_state": "顺从"
+      },
+      "id": "305_003",
+      "global_id": 216
+    },
+    {
+      "scene_snapshot": "家明将从骚扰者身上搜出的药物递给薰。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "保护者/同伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "将东西递到薰的手里，介绍着迷幻药、春药等",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "沉默的接收者",
+        "inner_monologue": "家明在处理这些危险物品，我需要配合他。",
+        "external_action": "接收家明递来的药物",
+        "speech_text": null,
+        "mood_state": "专注"
+      },
+      "id": "305_004",
+      "global_id": 217
+    }
+  ]
+}

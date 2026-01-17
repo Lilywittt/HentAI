@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静和沙沙在早餐时讨论下午看电影的计划，并询问顾家明的去向。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "追问顾家明下午要去见谁，怀疑是日本女孩月池薰。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心但害羞的朋友",
+        "inner_monologue": "我觉得沙沙追问家明的事情有点奇怪，但又不好意思直接说。",
+        "external_action": "在背后与沙沙窃窃私语，表达困惑。",
+        "speech_text": "沙沙，你干嘛追问他那么多……",
+        "mood_state": "困惑"
+      },
+      "id": "042_001",
+      "global_id": 117
+    },
+    {
+      "scene_snapshot": "叶灵静和沙沙在背后私下讨论顾家明的事情。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "强调要看好顾家明，防止他学坏。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "犹豫不决的朋友",
+        "inner_monologue": "我感觉这样关注家明有点尴尬，但沙沙说得好像有道理。",
+        "external_action": "继续与沙沙窃窃私语，表现出不确定。",
+        "speech_text": "可是、可是……好奇怪的感觉啊……",
+        "mood_state": "犹豫"
+      },
+      "id": "042_002",
+      "global_id": 118
+    }
+  ]
+}

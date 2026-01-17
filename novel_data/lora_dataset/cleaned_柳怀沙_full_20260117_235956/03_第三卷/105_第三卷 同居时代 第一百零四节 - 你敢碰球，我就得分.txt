@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙在超市家居用品专区挑选商品，顾家明到来后两人讨论购物计划。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明到来，看到柳怀沙在看组合柜，并提议购买。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "体贴节俭的女友",
+        "inner_monologue": "这套组合柜我和灵静看了好多次，虽然很喜欢，但应该先为家明买电脑，不能太浪费。",
+        "external_action": "亲昵地挽住家明的手，甜甜地笑起来，随后摇头拒绝购买。",
+        "speech_text": "唔，不要。我只要幻想一下就好了，或许放在这里还有减呢，我和灵静已经打算好了，要先替你买台电脑，过些天我们去看配置。",
+        "mood_state": "甜蜜"
+      },
+      "id": "105_001",
+      "global_id": 264
+    },
+    {
+      "scene_snapshot": "柳怀沙和顾家明在超市边走边聊，讨论赚钱和未来计划。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "柳怀沙主动询问顾家明是否觉得她和灵静的生活方式幼稚。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心男友感受的女友",
+        "inner_monologue": "我和灵静知道家明有能力赚更多钱，但我们更喜欢这种简单踏实的生活，希望他能理解。",
+        "external_action": "笑着与顾家明对话，随后皱眉表示反对用杀手技能赚钱。",
+        "speech_text": "哼，反正不准你用那些跟杀手有关的东西去赚钱的，否则我和灵静就死给你看……",
+        "mood_state": "坚定"
+      },
+      "id": "105_002",
+      "global_id": 265
+    },
+    {
+      "scene_snapshot": "柳怀沙提议周末去花店打工，并介绍相关细节。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "柳怀沙提出卖花的想法，并描述花店老板娘的背景和摩托车送货的细节。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "积极规划未来的女友",
+        "inner_monologue": "这个工作机会不错，既能赚钱，又能让家明骑摩托车送货，他应该会喜欢。",
+        "external_action": "兴奋地描述花店工作，等待顾家明的答复。",
+        "speech_text": "是啊，学校旁边很大的那个欣欣花店，老板以前在我老爸罩的地方开过店，老爸很照顾他，这次经过时看见外面贴了张招人的广告，我进去问了一下，老板娘说正好双休日也需要人，我们三个人都可以过去帮忙，虽然钱不算很多，但是他那里有一辆摩托车哦，家明你可以骑着出去送货，我跟老板娘说了，问过你就给他答复。家明你觉得怎么样？",
+        "mood_state": "期待"
+      },
+      "id": "105_003",
+      "global_id": 266
+    }
+  ]
+}

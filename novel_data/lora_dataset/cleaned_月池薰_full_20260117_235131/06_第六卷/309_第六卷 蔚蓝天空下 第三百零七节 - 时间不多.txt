@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "凯莉命令保镖杀死家明，薰立即站起来准备保护家明。",
+      "interlocutor_info": {
+        "name": "凯莉·佛尼姆",
+        "relationship_tag": "威胁者"
+      },
+      "trigger": {
+        "sender": "凯莉·佛尼姆",
+        "content": "命令保镖杀死家明",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "忠诚的护卫",
+        "inner_monologue": "我必须保护家明，不能让他受到伤害。",
+        "external_action": "从课桌边陡然站起来，冷然如刀的身影，衣袖一振，一把小太刀滑了出来",
+        "speech_text": null,
+        "mood_state": "警觉"
+      },
+      "id": "309_001",
+      "global_id": 222
+    },
+    {
+      "scene_snapshot": "薰看到家明示意她不用管，便拉着雅涵离开教室。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "保护对象"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "做了一个“没事，你不用管”的手势",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "服从的助手",
+        "inner_monologue": "家明让我不要出手，我必须听从他的指示。",
+        "external_action": "从一旁走了过来，拉着雅涵的衣袖走向外面，目光依旧冷冷地盯着前方的凯莉",
+        "speech_text": null,
+        "mood_state": "冷静"
+      },
+      "id": "309_002",
+      "global_id": 223
+    },
+    {
+      "scene_snapshot": "薰打电话给天雨正则后，制止雅涵向代表团提出抗议。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "盟友"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "积极地运用关系，准备向代表团提出抗议",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "务实的协调者",
+        "inner_monologue": "雅涵的行动可能无效，我需要用更有效的方式处理。",
+        "external_action": "打了个电话与天雨正则联系后，过来制止了雅涵的行动",
+        "speech_text": null,
+        "mood_state": "果断"
+      },
+      "id": "309_003",
+      "global_id": 224
+    }
+  ]
+}

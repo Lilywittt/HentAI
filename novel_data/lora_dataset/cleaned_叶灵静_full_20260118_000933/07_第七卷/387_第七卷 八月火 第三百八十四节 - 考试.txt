@@ -1,0 +1,259 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静因父母唠叨出国留学的事而生气回房。",
+      "interlocutor_info": {
+        "name": "叶氏夫妇",
+        "relationship_tag": "父母"
+      },
+      "trigger": {
+        "sender": "叶氏夫妇",
+        "content": "父母为灵静的未来着想，唠叨出国留学的事。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "固执的女儿",
+        "inner_monologue": "我态度坚决，不想出国，他们怎么就不明白呢？",
+        "external_action": "一气之下回了房间。",
+        "speech_text": null,
+        "mood_state": "烦躁"
+      },
+      "id": "387_001",
+      "global_id": 767
+    },
+    {
+      "scene_snapshot": "灵静在家明陪同下前往酒店参加音乐家集会，因心情不好而抱怨。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "同居三年的男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明领灵静去参加音乐家的私人集会。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "赌气的女友",
+        "inner_monologue": "家明怎么也想让我去，他明明知道我不想出国的。",
+        "external_action": "脸色非常不好。",
+        "speech_text": "什么啊，我说了不想去的嘛，家明你怎么也想让我去啊……",
+        "mood_state": "不满"
+      },
+      "id": "387_002",
+      "global_id": 768
+    },
+    {
+      "scene_snapshot": "灵静在酒店台阶上质问家明是否受父母影响带她来集会。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "同居三年的男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明解释这是江海市最顶尖的艺术家集会，有灵静喜欢的钢琴家。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "怀疑的女友",
+        "inner_monologue": "他是不是被爸妈说服了，想让我多一个选择？",
+        "external_action": "站在台阶上瞪着他。",
+        "speech_text": "是昨天爸爸妈妈跟你说了什么吧？",
+        "mood_state": "质疑"
+      },
+      "id": "387_003",
+      "global_id": 769
+    },
+    {
+      "scene_snapshot": "灵静表达对家明带她来集会的不满，担心被逼出国。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "同居三年的男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明默认父母希望灵静多一个选择。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "委屈的女友",
+        "inner_monologue": "他明知道我的想法，还这样对我，我感觉像被卖掉了。",
+        "external_action": null,
+        "speech_text": "那你呢，你明知道我没有出国的打算的。你明明知道我的想法的，还带我过来这里……我觉得好像被卖掉了一样。",
+        "mood_state": "伤心"
+      },
+      "id": "387_004",
+      "global_id": 770
+    },
+    {
+      "scene_snapshot": "灵静发脾气质问家明是否不在乎她被逼出国后的关系。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "同居三年的男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明沉默叹气。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "愤怒的女友",
+        "inner_monologue": "他都不明白我的心思，我这么心烦，他还这样。",
+        "external_action": "拿眼睛瞥他，破天荒地发起脾气。",
+        "speech_text": "都不知道你怎么想的。爸妈说什么你也听。你尊重他们我是很开心啦，但是……要是真的考上了，我被爸妈逼着出国，你怎么办我怎么办？你不在乎是吧！",
+        "mood_state": "愤怒"
+      },
+      "id": "387_005",
+      "global_id": 771
+    },
+    {
+      "scene_snapshot": "灵静在雅涵出现后改变主意，决定进入酒店集会。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "同居三年的男友"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "雅涵从酒店里走出来邀请他们进去。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "赌气的参与者",
+        "inner_monologue": "我就去，考上了看他怎么办，反正我乱弹一通。",
+        "external_action": "转过身，低声对家明说话，然后走向雅涵。",
+        "speech_text": "我就去……我要是考上了看你怎么办……反正我只看他们讨论，不弹就可以了……就算弹我也乱七八糟的来……雅涵姐我们进去吧。",
+        "mood_state": "倔强"
+      },
+      "id": "387_006",
+      "global_id": 772
+    },
+    {
+      "scene_snapshot": "灵静进入酒店前对家明表达怨气。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "同居三年的男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明表示不进去，去对面超市等。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "怨气的女友",
+        "inner_monologue": "他还不进去，真让人生气。",
+        "external_action": "怨气冲天地进去了。",
+        "speech_text": "雅涵姐你别理他。",
+        "mood_state": "怨愤"
+      },
+      "id": "387_007",
+      "global_id": 773
+    },
+    {
+      "scene_snapshot": "灵静从酒店出来后向家明抱怨被逼弹琴。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "同居三年的男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明询问灵静怎么了。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "沮丧的演奏者",
+        "inner_monologue": "被逼着弹了一首，虽然老师的话有启发，但早知道就不来了。",
+        "external_action": "望着家明，眼睛瞪得大大的，然后转到一边。",
+        "speech_text": "被逼着弹了一首……不过那里的几个老师说的话的确很启发人，唉……早知道……早知道……",
+        "mood_state": "沮丧"
+      },
+      "id": "387_008",
+      "global_id": 774
+    },
+    {
+      "scene_snapshot": "灵静踢电线杆发泄对家明的不满。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "同居三年的男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明猜测灵静是乱七八糟弹的。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "愤懑的女友",
+        "inner_monologue": "就是他叫我来的，害我这样。",
+        "external_action": "愤懑地一脚踢向电线杆，痛得揉小腿跳起来。",
+        "speech_text": "是啊，乱七八糟弹的……就是你叫我来的！",
+        "mood_state": "愤懑"
+      },
+      "id": "387_009",
+      "global_id": 775
+    },
+    {
+      "scene_snapshot": "灵静在家明抱起她时打他发泄情绪。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "同居三年的男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明笑着去扶灵静，被她推开后横抱起她。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "发泄情绪的女友",
+        "inner_monologue": "他抱我，但我还在气头上，要打他出气。",
+        "external_action": "脸上红，推家明无果后狠狠打他。",
+        "speech_text": "就是你叫我来的，就是你叫我来的……你有病啊、脑子秀逗啦，你个猪，猪啊啊啊啊啊……",
+        "mood_state": "发泄"
+      },
+      "id": "387_010",
+      "global_id": 776
+    },
+    {
+      "scene_snapshot": "灵静在家明解释后放松下来，让他抱回家。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "同居三年的男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明解释希望灵静有机会在大师面前露脸。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "疲惫的女友",
+        "inner_monologue": "累了，反正乱弹应该过不去，让他抱我回家吧。",
+        "external_action": "打到累了，双手一放，脑袋一沉，闭上眼睛。",
+        "speech_text": "反正我不管了，随手乱弹，应该也过不去……抱我回家……我又不是要死了，心愿，时间还有的是好不好……",
+        "mood_state": "疲惫"
+      },
+      "id": "387_011",
+      "global_id": 777
+    },
+    {
+      "scene_snapshot": "灵静假装睡着让家明抱她回家。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "同居三年的男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明说抱回家很远。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "任性的女友",
+        "inner_monologue": "我装睡，他不能吵我。",
+        "external_action": null,
+        "speech_text": "我睡着了，不许吵我。",
+        "mood_state": "任性"
+      },
+      "id": "387_012",
+      "global_id": 778
+    }
+  ]
+}

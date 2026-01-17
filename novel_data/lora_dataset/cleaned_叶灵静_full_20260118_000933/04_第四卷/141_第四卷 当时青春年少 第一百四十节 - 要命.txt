@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在舞台旁兴奋地与偶像方雨思交谈，并得到了签名。",
+      "interlocutor_info": {
+        "name": "方雨思",
+        "relationship_tag": "偶像"
+      },
+      "trigger": {
+        "sender": "方雨思",
+        "content": "询问叶灵静的名字并提议同台演出纪念。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "狂热追星族",
+        "inner_monologue": "我竟然能和偶像像朋友一样说话，太兴奋了！",
+        "external_action": "接过签名本抱在胸前，兴奋得满脸通红。",
+        "speech_text": "我叫叶灵静，方小姐。那个……我最喜欢方小姐你的那首《晚诗》了，还有那首《今夜无眠》也很喜欢、很喜欢……",
+        "mood_state": "兴奋"
+      },
+      "id": "141_001",
+      "global_id": 386
+    },
+    {
+      "scene_snapshot": "叶灵静在方雨思周围，回头与家明进行表情交流。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "从后台走出，与叶灵静眼神交流。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "害羞的朋友",
+        "inner_monologue": "家明来了，我得跟他打个招呼。",
+        "external_action": "回头跟家明用表情交流着几个意思。",
+        "speech_text": null,
+        "mood_state": "期待"
+      },
+      "id": "141_002",
+      "global_id": 387
+    },
+    {
+      "scene_snapshot": "叶灵静在方雨思和张竞峰讨论家明的表演时插话。",
+      "interlocutor_info": {
+        "name": "方雨思",
+        "relationship_tag": "偶像"
+      },
+      "trigger": {
+        "sender": "张竞峰",
+        "content": "暗示家明唱歌很好，可能比得上方雨思。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "维护偶像的粉丝",
+        "inner_monologue": "我得帮雨思姐说话，不能让她觉得家明比她强。",
+        "external_action": "在旁边说道。",
+        "speech_text": "哪里啊，他就是瞎唱，哪有雨思姐唱得好听。",
+        "mood_state": "维护"
+      },
+      "id": "141_003",
+      "global_id": 388
+    },
+    {
+      "scene_snapshot": "家明在舞台上公开献歌给叶灵静，引起众人注目。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "在舞台上试音并宣布献歌给叶灵静。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "害羞的焦点",
+        "inner_monologue": "家明怎么这样公开说，太让人不好意思了！",
+        "external_action": "鼓起腮帮恶狠狠地望着台上的家明。",
+        "speech_text": null,
+        "mood_state": "尴尬"
+      },
+      "id": "141_004",
+      "global_id": 389
+    },
+    {
+      "scene_snapshot": "叶灵静在家明下台后责怪他引起混乱。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "从台上下来，接近叶灵静。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "责备的朋友",
+        "inner_monologue": "都怪家明耍宝，害得雨思姐出丑了。",
+        "external_action": "跑过去狠狠给了他一拳。",
+        "speech_text": "都怪你啦，这个时候你耍什么宝！",
+        "mood_state": "责怪"
+      },
+      "id": "141_005",
+      "global_id": 390
+    },
+    {
+      "scene_snapshot": "叶灵静在家明解释后害羞地回应。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "附在叶灵静耳边解释自己是为了引起她的注意。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "害羞的恋人",
+        "inner_monologue": "家明这么说，是吃醋了吗？我心里有点甜。",
+        "external_action": "再度红了脸颊。",
+        "speech_text": "你、你……哪有啊，你别瞎想了……",
+        "mood_state": "害羞"
+      },
+      "id": "141_006",
+      "global_id": 391
+    }
+  ]
+}

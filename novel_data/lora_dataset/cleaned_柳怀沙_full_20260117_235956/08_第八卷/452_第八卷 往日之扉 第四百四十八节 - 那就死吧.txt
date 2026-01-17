@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在车内醒来，看到家明被奎托斯、米莉亚和维克托三人包围在街道上。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友/同伴"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静也回过了头来：“沙沙。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "担忧的同伴",
+        "inner_monologue": "家明有危险，我必须去帮他，不能让他一个人面对三个敌人。",
+        "external_action": "她下意识的便要从腰间拔枪，这一下拔了个空",
+        "speech_text": "“灵静，家明他……我要帮忙……”",
+        "mood_state": "焦急"
+      },
+      "id": "452_001",
+      "global_id": 685
+    },
+    {
+      "scene_snapshot": "沙沙准备拿武器去帮家明，灵静提醒家明说过别出去。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友/同伴"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静看着她的动作：“家明说过别出去的……”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坚持的同伴",
+        "inner_monologue": "我知道家明担心我们，但敌人太强了，我不能坐视不管。",
+        "external_action": "她说着，便要去拿座位下装武器的袋子",
+        "speech_text": "“可他们三个很厉害……”",
+        "mood_state": "坚定"
+      },
+      "id": "452_002",
+      "global_id": 686
+    }
+  ]
+}

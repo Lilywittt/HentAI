@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明在营地炒菜，薰在一旁安静地帮忙打下手。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "同伴/保护对象"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "炒锅在大火之上翻腾，头上戴着一个白色塑料袋装大厨的家明正熟练地挥动着铁铲，在他身后打下手的。倒是一脸安静恬淡的薰",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "安静助手",
+        "inner_monologue": "我在帮家明打下手，保持专注就好。",
+        "external_action": "安静恬淡地打下手",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "326_001",
+      "global_id": 233
+    }
+  ]
+}

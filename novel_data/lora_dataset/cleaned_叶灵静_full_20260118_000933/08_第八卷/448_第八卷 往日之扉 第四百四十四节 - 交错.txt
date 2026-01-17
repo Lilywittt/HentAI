@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在演唱会后台发呆，方雨思过来安慰她。",
+      "interlocutor_info": {
+        "name": "方雨思",
+        "relationship_tag": "朋友/导师"
+      },
+      "trigger": {
+        "sender": "方雨思",
+        "content": "询问灵静化妆是否准备好，并注意到她的失魂落魄。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "紧张不安的表演者",
+        "inner_monologue": "我越来越不知道为什么上台……也许唱给家明听，他能听到吗？",
+        "external_action": "被方雨思提醒后惊醒，点头回应，随后拿出歌词复习。",
+        "speech_text": "啊！呃……呃，化妆……好了……",
+        "mood_state": "迷茫"
+      },
+      "id": "448_001",
+      "global_id": 872
+    },
+    {
+      "scene_snapshot": "叶灵静发现纸条后离开体育馆，去小卖部打听方国琳的下落。",
+      "interlocutor_info": {
+        "name": "小卖部阿姨",
+        "relationship_tag": "陌生人"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "发现纸条和玻璃小瓶，决定去附近地址寻找。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "困惑的寻找者",
+        "inner_monologue": "好像……就在附近……我得找到方国琳，把东西交给她。",
+        "external_action": "走出体育馆，开车去地址，按门铃无人后询问小卖部阿姨。",
+        "speech_text": "阿姨，请问住在隔壁的人去哪里了？哦，我想知道有没有一个叫方国琳的女孩子住在这里……",
+        "mood_state": "急切"
+      },
+      "id": "448_002",
+      "global_id": 873
+    },
+    {
+      "scene_snapshot": "叶灵静在演唱会舞台上介绍自己并准备唱歌。",
+      "interlocutor_info": {
+        "name": "观众",
+        "relationship_tag": "公众"
+      },
+      "trigger": {
+        "sender": "方雨思",
+        "content": "方雨思在台上介绍灵静，引导她出场。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "感伤的表演者",
+        "inner_monologue": "我想唱给他听……我很想他们……",
+        "external_action": "在舞台上停顿，声音哽咽。",
+        "speech_text": "大家好，我是叶灵静，也是……曾经的黄瓜……很高兴，能在舞台上再次跟大家见面……其实不知道该说什么，几年前，我失去了最重要的人，最重要的朋友……在最意气风发的年纪里……那时候我们把一切都想得很单纯，谁知道一旦错过……就再也见不到了……这首歌是他写的，我想唱给他听……我很想他们……",
+        "mood_state": "悲伤"
+      },
+      "id": "448_003",
+      "global_id": 874
+    }
+  ]
+}

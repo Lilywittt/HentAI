@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静和沙沙在宿舍旁送别即将离开的薰，表达不舍并邀请她留下。",
+      "interlocutor_info": {
+        "name": "薰",
+        "relationship_tag": "亲密的朋友"
+      },
+      "trigger": {
+        "sender": "薰",
+        "content": "薰准备上车离开，没有提前告知灵静和沙沙。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "热情体贴的朋友",
+        "inner_monologue": "我没想到薰这么快就要走，还想留她多玩一会儿呢。",
+        "external_action": "跑过来拉起薰的手，表达挽留之意。",
+        "speech_text": "这么快就走，也不说一声，我们今天还好过来了……本来还想留你住在我家呢，考试分数还没出来，志愿也要填的吧……",
+        "mood_state": "不舍"
+      },
+      "id": "389_001",
+      "global_id": 779
+    },
+    {
+      "scene_snapshot": "灵静和薰拥抱告别，表达对未来的期待。",
+      "interlocutor_info": {
+        "name": "薰",
+        "relationship_tag": "亲密的朋友"
+      },
+      "trigger": {
+        "sender": "薰",
+        "content": "薰与沙沙拥抱后，走到灵静面前准备告别。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "温暖的朋友",
+        "inner_monologue": "这次分别不知道什么时候能再见了，但希望以后还能相聚。",
+        "external_action": "与薰拥抱。",
+        "speech_text": null,
+        "mood_state": "感伤"
+      },
+      "id": "389_002",
+      "global_id": 780
+    },
+    {
+      "scene_snapshot": "灵静在出租房内躺在床上，与家明和沙沙谈论薰的离开和高中生活的结束。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明安慰灵静，说未来总有机会再见到薰。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "感性的回忆者",
+        "inner_monologue": "这三年发生了好多事，现在一切都结束了，真让人感慨。",
+        "external_action": "躺在床上，望着天花板，举起手看光线。",
+        "speech_text": "就要伤感，不行啊。",
+        "mood_state": "怅然"
+      },
+      "id": "389_003",
+      "global_id": 781
+    },
+    {
+      "scene_snapshot": "灵静回忆高中三年的点滴，从租房到组建乐队等经历。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密的朋友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙回忆第一次见薰的情景，感叹时间飞逝。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "怀旧的叙述者",
+        "inner_monologue": "这些记忆好珍贵，现在高中真的结束了。",
+        "external_action": "点头附和，继续回忆往事。",
+        "speech_text": "是哦，发生好多事情……租下房子住到这里，第一次在这里打扫的情景我还记得，后来一点一点往里面买东西，大家一块把房间布置起来，那次我们一块搬着床边的桌子回来，那个人踢足球撞在我头上，家明还生气了，后来弄得沸沸扬扬，接下来就真的跟薰变成同学了……我第一次打工，后来跟着星梦号游轮出海玩，家明唱歌，组建乐队……这样那样……",
+        "mood_state": "怀念"
+      },
+      "id": "389_004",
+      "global_id": 782
+    },
+    {
+      "scene_snapshot": "灵静总结高中生活的结束，表达对时光流逝的感慨。",
+      "interlocutor_info": {
+        "name": "无",
+        "relationship_tag": "无"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "高中毕业后的空虚校园氛围和时光流逝的象征。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "反思的毕业生",
+        "inner_monologue": "一切都过去了，高中就这样结束了，真快啊。",
+        "external_action": "右手举起在空中，看五指之间渗进来的光芒。",
+        "speech_text": "……结束了。",
+        "mood_state": "释然"
+      },
+      "id": "389_005",
+      "global_id": 783
+    }
+  ]
+}

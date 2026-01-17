@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "顾家明在图书室发现叶灵静失踪，焦急地询问沙沙和雅涵。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密朋友/恋人"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "告诉顾家明叶灵静跑出去找他，可能去了二楼。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "担忧的恋人",
+        "inner_monologue": "灵静可能有危险，我必须立刻找到她，不惜一切代价。",
+        "external_action": "深吸一口气，回头望周围人群，说去找她。",
+        "speech_text": "我去找她。",
+        "mood_state": "焦急"
+      },
+      "id": "090_001",
+      "global_id": 259
+    },
+    {
+      "scene_snapshot": "顾家明安慰沙沙并询问坠子的事，准备出发寻找叶灵静。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密朋友/恋人"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "拿出坠子解释没戴的原因，并提到灵静的坠子也在她那里。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静的决策者",
+        "inner_monologue": "坠子没戴，无法用雷达定位灵静，这增加了寻找的难度，但我必须行动。",
+        "external_action": "低头叹气，给沙沙戴上坠子，拿灵静的坠子在手，将沙沙推向雅涵。",
+        "speech_text": "雅涵姐，沙沙交给你了，我去把灵静带回来。",
+        "mood_state": "坚定"
+      },
+      "id": "090_002",
+      "global_id": 260
+    }
+  ]
+}

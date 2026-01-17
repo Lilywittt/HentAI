@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙因灵静晚归而表达担忧，并抱怨灵静过于投入方雨思的舞蹈排练。",
+      "interlocutor_info": {
+        "name": "叶灵静",
+        "relationship_tag": "亲密好友/同居伙伴"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "灵静晚上七点还没到家，沙沙去学校找她，两人一块儿回来。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "关心但略带醋意的朋友",
+        "inner_monologue": "我担心灵静的安全，永盛帮的人还在捣乱，她怎么这么晚才回来？难道方雨思比我和家明还重要吗？",
+        "external_action": "微微有些埋怨",
+        "speech_text": "每天都很晚才回来，永盛帮的人还在准备继续捣乱呢，我和家明都很担心你知不知道？那个方雨思比我和家明还重要吗？",
+        "mood_state": "担忧"
+      },
+      "id": "142_001",
+      "global_id": 322
+    },
+    {
+      "scene_snapshot": "沙沙看到灵静拿出方雨思签名的笔记本，作为方雨思的歌迷，她感到惊喜但拒绝接受。",
+      "interlocutor_info": {
+        "name": "叶灵静",
+        "relationship_tag": "亲密好友/同居伙伴"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "灵静从房间里将那个方雨思签名的笔记本拿了出来，转送给沙沙以安抚她。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "傲娇的歌迷",
+        "inner_monologue": "哇，是方雨思的签名！但我不能就这么接受，上面写了灵静的名字，我要一个专属的签名。",
+        "external_action": "眼前一亮，将笔记本抢到手上，片刻之后，方才还了回去",
+        "speech_text": "真的！算了，我不要……上面都写了你名字的，下次见到她，你得让她也给我特别签一个！",
+        "mood_state": "兴奋"
+      },
+      "id": "142_002",
+      "global_id": 323
+    },
+    {
+      "scene_snapshot": "沙沙在女子排球队中与队长谭素妍明争暗斗，每天回家分享让谭素妍吃瘪的事迹。",
+      "interlocutor_info": {
+        "name": "谭素妍",
+        "relationship_tag": "竞争对手/不喜欢的学姐"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "沙沙成为女子排球队主力，与队长谭素妍对不上眼，最近老在明争暗斗。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "竞争心强的队员",
+        "inner_monologue": "谭素妍总跟我作对，我得想办法让她出丑，证明我比她强。",
+        "external_action": "每天回家，沙沙口中说的必定是如何让谭素妍吃瘪的光辉事迹",
+        "speech_text": null,
+        "mood_state": "得意"
+      },
+      "id": "142_003",
+      "global_id": 324
+    }
+  ]
+}

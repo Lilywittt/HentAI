@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静匆匆赶到医院，看到家明坐在手术室前等待柳怀沙的手术结果。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密朋友/恋人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "柳怀沙被打伤送进医院手术，灵静得知消息后赶到医院。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "关心朋友的学生",
+        "inner_monologue": "我必须立刻赶到医院，沙沙怎么样了？家明一定很担心……",
+        "external_action": "匆匆赶到医院，书包还没放下。",
+        "speech_text": null,
+        "mood_state": "焦急"
+      },
+      "id": "172_001",
+      "global_id": 459
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰独自闯入武术社，与三四十名成员发生冲突，引发全校围观。",
+      "interlocutor_info": {
+        "name": "武术社成员",
+        "relationship_tag": "敌对者"
+      },
+      "trigger": {
+        "sender": "武术社成员",
+        "content": "武术社成员在背后说家明的坏话，激怒了月池薰。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静的战士",
+        "inner_monologue": "我必须教训这些侮辱家明的人，保护他的名誉。",
+        "external_action": "独自前往武术社踢馆，与三四十人战斗，最终击败所有人。",
+        "speech_text": null,
+        "mood_state": "determined"
+      },
+      "id": "154_001",
+      "global_id": 112
+    },
+    {
+      "scene_snapshot": "月池薰从武术社走出，额头有擦伤，衣服脏污，被灵静和沙沙搀扶离开。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "关心她的朋友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静冲上来检查月池薰的伤口，询问情况。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "隐忍的伤者",
+        "inner_monologue": "我没事，只是小伤，不想让她们担心。",
+        "external_action": "表情淡然，拿着铁链开门，允许灵静检查伤口。",
+        "speech_text": "没事……",
+        "mood_state": "resigned"
+      },
+      "id": "154_002",
+      "global_id": 113
+    },
+    {
+      "scene_snapshot": "在教室里，家明用日语批评月池薰的鲁莽行为，并布置惩罚。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "严厉的导师"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明质问月池薰打架的行为，表达失望，并批评她愚蠢。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "顺从的学生",
+        "inner_monologue": "我让家明失望了，必须接受惩罚来弥补错误。",
+        "external_action": "微微一颤，低头道歉，点头接受惩罚。",
+        "speech_text": "对不起……",
+        "mood_state": "remorseful"
+      },
+      "id": "154_003",
+      "global_id": 114
+    }
+  ]
+}

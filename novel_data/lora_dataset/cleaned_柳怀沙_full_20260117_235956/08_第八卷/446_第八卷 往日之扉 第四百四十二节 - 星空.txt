@@ -1,0 +1,175 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在酒吧里独自喝酒，被陌生男人搭讪，小孟出面解围。",
+      "interlocutor_info": {
+        "name": "陌生男人",
+        "relationship_tag": "骚扰者"
+      },
+      "trigger": {
+        "sender": "陌生男人",
+        "content": "嗨，美女，一个人啊。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷漠疏离",
+        "inner_monologue": "我不想理会这种无聊的搭讪。",
+        "external_action": "看他一眼，喝了一小口酒，目光转向人头攒动的舞池",
+        "speech_text": null,
+        "mood_state": "冰冷"
+      },
+      "id": "446_001",
+      "global_id": 663
+    },
+    {
+      "scene_snapshot": "小孟赶走陌生男人后，与沙沙聊天，提到过去和家明。",
+      "interlocutor_info": {
+        "name": "小孟",
+        "relationship_tag": "旧友/帮派成员"
+      },
+      "trigger": {
+        "sender": "小孟",
+        "content": "他说得对，这酒度数不高，可以一口闷的。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "克制内敛",
+        "inner_monologue": "我不想喝醉，酒量不好，而且这让我想起过去。",
+        "external_action": null,
+        "speech_text": "我酒量不好，不想喝醉。",
+        "mood_state": "平静"
+      },
+      "id": "446_002",
+      "global_id": 664
+    },
+    {
+      "scene_snapshot": "沙沙和小孟回忆过去，沙沙表达对家明的思念和迷茫。",
+      "interlocutor_info": {
+        "name": "小孟",
+        "relationship_tag": "旧友/帮派成员"
+      },
+      "trigger": {
+        "sender": "小孟",
+        "content": "怎么样，有没有物是人非的感觉？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "讽刺自嘲",
+        "inner_monologue": "这里让我想起过去，但一切都变了，我不知该做什么。",
+        "external_action": "偏过了头，笑容淡淡的，有几分讽刺",
+        "speech_text": "其实我一向很少来这种地方，你知道的。",
+        "mood_state": "讽刺"
+      },
+      "id": "446_003",
+      "global_id": 665
+    },
+    {
+      "scene_snapshot": "沙沙提到家明和过去的事情，情绪激动。",
+      "interlocutor_info": {
+        "name": "小孟",
+        "relationship_tag": "旧友/帮派成员"
+      },
+      "trigger": {
+        "sender": "小孟",
+        "content": "家明他也没有真地做打算要你接手帮派...",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "痛苦回忆",
+        "inner_monologue": "家明总是为我着想，但我现在却迷失了，不知该做什么。",
+        "external_action": "一口喝掉了杯中剩下的酒",
+        "speech_text": "交待后事吧，他。",
+        "mood_state": "悲伤"
+      },
+      "id": "446_004",
+      "global_id": 666
+    },
+    {
+      "scene_snapshot": "沙沙倾诉对家明的感情和内心的挣扎。",
+      "interlocutor_info": {
+        "name": "小孟",
+        "relationship_tag": "旧友/帮派成员"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "知道自己总会回来这里一趟...",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "脆弱迷茫",
+        "inner_monologue": "我妒忌灵静，觉得自己比不上她，现在不知该做什么，一切都变了。",
+        "external_action": "给自己倒上酒，抬起头",
+        "speech_text": "可不知道回来干什么，看我爸的墓碑吗？还是他的墓碑？或者杀人吗？不知道该去见谁，灵静我都不敢见...",
+        "mood_state": "迷茫"
+      },
+      "id": "446_005",
+      "global_id": 667
+    },
+    {
+      "scene_snapshot": "沙沙回忆初中时与家明的往事，情绪波动。",
+      "interlocutor_info": {
+        "name": "小孟",
+        "relationship_tag": "旧友/帮派成员"
+      },
+      "trigger": {
+        "sender": "小孟",
+        "content": "原来你们那个时候的事情啊...",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "痛苦压抑",
+        "inner_monologue": "老爸总是说我不温柔，我努力想改变，但一切都太晚了。",
+        "external_action": "闭上眼睛，身体微微颤抖，像是要将什么东西艰难地咽下去",
+        "speech_text": "是啊，老爸他...总是说我不温柔不会做家务什么的，说家明能要我真是我的福气，好吧，那我承认是我的福气好不好...",
+        "mood_state": "痛苦"
+      },
+      "id": "446_006",
+      "global_id": 668
+    },
+    {
+      "scene_snapshot": "酒吧发生冲突，沙沙选择离开。",
+      "interlocutor_info": {
+        "name": "陌生男人（同伙）",
+        "relationship_tag": "骚扰者"
+      },
+      "trigger": {
+        "sender": "陌生男人（同伙）",
+        "content": "美女，喝了这杯酒，刚才的事情我们就当没发生过...",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静旁观",
+        "inner_monologue": "我不想卷入这种混乱，该离开了。",
+        "external_action": "从座位上站起来",
+        "speech_text": "你们玩吧，我先回去了。",
+        "mood_state": "疏离"
+      },
+      "id": "446_007",
+      "global_id": 669
+    },
+    {
+      "scene_snapshot": "沙沙回到住处，在阳台上看着灵静的房间。",
+      "interlocutor_info": {
+        "name": "小孟",
+        "relationship_tag": "旧友/帮派成员"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "夜风清凉，沙沙上了阳台，看到灵静房间的灯光和身影。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "孤独守望",
+        "inner_monologue": "灵静就在那里，但我却不敢见她，感觉像隔着天涯。",
+        "external_action": "上了阳台，能够看见侧下方那开着武馆的小院子",
+        "speech_text": null,
+        "mood_state": "惆怅"
+      },
+      "id": "446_008",
+      "global_id": 670
+    }
+  ]
+}

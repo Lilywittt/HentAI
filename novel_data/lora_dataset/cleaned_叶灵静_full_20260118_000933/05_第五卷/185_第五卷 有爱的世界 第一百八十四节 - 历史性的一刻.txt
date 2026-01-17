@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静和沙沙在宴会中靠近家明，讨论他为何挑衅对方并准备单挑。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "闺蜜"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "你干嘛非要单挑啊，要是让人知道了……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心朋友",
+        "inner_monologue": "我担心家明这样做太冒险，但我知道他做事有分寸，应该相信他。",
+        "external_action": "拉着沙沙的手",
+        "speech_text": "好羡慕哦，他为了你肯这样子出头，一定是我刚才教你说的话让他听得很开心啦。",
+        "mood_state": "concerned"
+      },
+      "id": "185_001",
+      "global_id": 494
+    },
+    {
+      "scene_snapshot": "叶灵静和沙沙互相调笑，回忆家明为她们出头的事情。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "闺蜜"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "哪有……我还羡慕那次平安夜他为了你唱歌的事情呢……他又没帮我写《东风破》……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "亲密朋友",
+        "inner_monologue": "我和沙沙都珍惜家明为我们做的一切，这种感觉很温暖。",
+        "external_action": null,
+        "speech_text": "可是那一次他为了你在篮球场上把人家打到一点面子都没有了……",
+        "mood_state": "affectionate"
+      },
+      "id": "185_002",
+      "global_id": 495
+    },
+    {
+      "scene_snapshot": "叶灵静和沙沙笑着看家明在单挑中从桌下钻出来，形象狼狈。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "从圆桌下钻出来，形象有些狼狈",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "轻松旁观者",
+        "inner_monologue": "家明总是用这种出人意料的方式应对，虽然狼狈但很有趣。",
+        "external_action": "笑了出来",
+        "speech_text": null,
+        "mood_state": "amused"
+      },
+      "id": "185_003",
+      "global_id": 496
+    }
+  ]
+}

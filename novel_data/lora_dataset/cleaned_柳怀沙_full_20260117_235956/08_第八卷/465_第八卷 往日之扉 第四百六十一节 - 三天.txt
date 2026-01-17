@@ -1,0 +1,154 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "早晨，柳怀沙与家明、灵静在床上醒来，三人亲密互动。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密伴侣/挚友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静伸出手指去点沙沙的脸颊。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "慵懒撒娇的恋人",
+        "inner_monologue": "别吵我睡觉，我还想多睡会儿呢。",
+        "external_action": "嘟囔一句：“别吵我。”，脑袋撞在家明的下巴上。",
+        "speech_text": "别吵我。",
+        "mood_state": "困倦"
+      },
+      "id": "465_001",
+      "global_id": 716
+    },
+    {
+      "scene_snapshot": "柳怀沙被撞醒后，迷糊中质问家明和灵静。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/挚友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明和灵静轻声说话并互动，可能间接吵醒柳怀沙。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "刚醒来的迷糊恋人",
+        "inner_monologue": "头好痛，你们干嘛打我？我还在做梦呢。",
+        "external_action": "抽出一只手捂在头上，睁开眼睛后迷惑地望着两人。",
+        "speech_text": "你们……啊……头好痛，你们干嘛打我？",
+        "mood_state": "困惑"
+      },
+      "id": "465_002",
+      "global_id": 717
+    },
+    {
+      "scene_snapshot": "柳怀沙被灵静亲后，反击并扑咬灵静。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密伴侣/挚友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静扑过去在沙沙脸上亲了一下，说：“沙沙越来越可爱了……”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调皮嬉闹的恋人",
+        "inner_monologue": "可爱？这就让你知道到底有多可爱！",
+        "external_action": "抱住灵静，扑咬她。",
+        "speech_text": "可爱？这就让你知道到底有多可爱，啊呜！",
+        "mood_state": "顽皮"
+      },
+      "id": "465_003",
+      "global_id": 718
+    },
+    {
+      "scene_snapshot": "柳怀沙回答家明关于昨晚去向的问题。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/挚友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明问：“昨晚跑哪去了？”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坦诚分享的恋人",
+        "inner_monologue": "昨晚跟小孟哥见了沙竹帮的人，没什么大事。",
+        "external_action": "一边跟家明说话，一边想要坐起来。",
+        "speech_text": "跟小孟哥一块见了沙竹帮以前的一些叔叔伯伯，大家一起吃了个宵夜……压住我的腿了！",
+        "mood_state": "轻松"
+      },
+      "id": "465_004",
+      "global_id": 719
+    },
+    {
+      "scene_snapshot": "床塌后，柳怀沙调侃灵静和家明昨晚的激烈行为。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密伴侣/挚友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "床塌了，灵静掉下来磕到家明的嘴。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "戏谑调侃的恋人",
+        "inner_monologue": "哈哈，床塌了，肯定是你们昨晚太激烈了。",
+        "external_action": "躺在那儿骨碌碌的眨着眼睛，若有所思地说。",
+        "speech_text": "昨天晚上你们也太激烈了吧。",
+        "mood_state": "戏谑"
+      },
+      "id": "465_005",
+      "global_id": 720
+    },
+    {
+      "scene_snapshot": "柳怀沙回应家明的关心，并表达自己的愿望。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/挚友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明问：“没摔到吧？”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "深情依恋的恋人",
+        "inner_monologue": "我也想要这样的亲密时光，就像以前一样。",
+        "external_action": "用手揉了揉眼睛，顿了顿后笑起来。",
+        "speech_text": "做梦梦到以前睡懒觉的时候了，你们老是吵我……我也想要……",
+        "mood_state": "温柔"
+      },
+      "id": "465_006",
+      "global_id": 721
+    },
+    {
+      "scene_snapshot": "柳怀沙在超市被新河帮的人围住并质问。",
+      "interlocutor_info": {
+        "name": "新河帮成员",
+        "relationship_tag": "敌对帮派成员"
+      },
+      "trigger": {
+        "sender": "新河帮成员",
+        "content": "那人拿着照片问：“你是柳怀沙？”，并警告她不要搞事。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静警惕的前帮派成员",
+        "inner_monologue": "这些人是谁？新河帮？看来江海的帮派格局变了。",
+        "external_action": "打量了周围人一眼，皱眉。",
+        "speech_text": "怎么了？",
+        "mood_state": "警觉"
+      },
+      "id": "465_007",
+      "global_id": 722
+    }
+  ]
+}

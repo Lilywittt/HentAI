@@ -1,0 +1,175 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明进入病房时，灵静正在旁边的病床上穿衣服，看到家明后急忙用被子盖住自己。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明推门进入病房",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "羞涩而警觉的少女",
+        "inner_monologue": "哎呀，有人进来了，我得赶紧遮住自己。",
+        "external_action": "连忙拉起被子盖住全身，看清楚是家明才放下被子，轻轻瞪了他一眼",
+        "speech_text": "看着外面不要有人来。",
+        "mood_state": "羞涩"
+      },
+      "id": "177_001",
+      "global_id": 468
+    },
+    {
+      "scene_snapshot": "灵静穿好衣服后，坐在床沿询问家明昨晚是否受伤，表达担忧。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明插好花束并询问沙沙的情况",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心恋人的女友",
+        "inner_monologue": "家明昨晚在外面行动，我很担心他有没有受伤。",
+        "external_action": "坐在床沿抚动额前的刘海，望着家明",
+        "speech_text": "昨晚……昨晚听外面那几个人说，警察和武警部队同时出动，永盛帮一夜之间被打光了，永盛帮的老大被抓然后失踪，家明，你……你没受伤吧……",
+        "mood_state": "担忧"
+      },
+      "id": "177_002",
+      "global_id": 469
+    },
+    {
+      "scene_snapshot": "家明搂住灵静的肩膀安慰她，灵静抱住家明寻求安慰。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明过去搂了搂她的肩膀",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "依赖恋人的少女",
+        "inner_monologue": "家明在这里，我感到安心了。",
+        "external_action": "坐在床沿上抱住了他，额头在他的胸膛上轻轻地摩擦",
+        "speech_text": "嗯……",
+        "mood_state": "安心"
+      },
+      "id": "177_003",
+      "global_id": 470
+    },
+    {
+      "scene_snapshot": "灵静确认家明无事后，笑着放开他，准备去洗漱并要早餐。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密恋人"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静主动结束拥抱",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "活泼开朗的少女",
+        "inner_monologue": "家明没事，我心情好多了，得赶紧去洗漱吃早餐。",
+        "external_action": "笑着放开他，笑容灿烂，从床上跳下来，蹦蹦跳跳地拉着鞋帮",
+        "speech_text": "好了，确定你没事我就放心了，我去妈妈的办公室刷牙洗脸，早餐我要大碗的啊！",
+        "mood_state": "开心"
+      },
+      "id": "177_004",
+      "global_id": 471
+    },
+    {
+      "scene_snapshot": "家明暧昧地望向灵静的肚子，灵静笑着回应关于生孩子的话题。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明暧昧地望着她的肚子",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "俏皮而害羞的少女",
+        "inner_monologue": "家明又在开玩笑了，我可不想这么早生孩子。",
+        "external_action": "笑着白了他一眼",
+        "speech_text": "啐。你别想我现在就给你生孩子，我才不想十六岁就带球跑呢，爸爸妈妈还不打死我啊。",
+        "mood_state": "俏皮"
+      },
+      "id": "177_005",
+      "global_id": 472
+    },
+    {
+      "scene_snapshot": "灵静在办公室洗脸时，母亲段静娴询问她关于家明和沙沙恋爱的事情。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "段静娴询问灵静家明和沙沙是否在谈恋爱",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "尴尬但维护朋友的女儿",
+        "inner_monologue": "妈妈发现了家明和沙沙的事，我得小心回应，别让事情传出去。",
+        "external_action": "擦脸的动作当场定格了一秒，脸上绽出一个有些尴尬的笑脸",
+        "speech_text": "呃，呵呵……呵呵……老妈，这事可别抖出去啊……",
+        "mood_state": "尴尬"
+      },
+      "id": "177_006",
+      "global_id": 473
+    },
+    {
+      "scene_snapshot": "段静娴表达对灵静可能当电灯泡的担忧，灵静自信回应。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "段静娴担心灵静当电灯泡会被嫌弃",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "自信而坚定的朋友",
+        "inner_monologue": "我和家明、沙沙是好朋友，恋爱不会影响我们的关系。",
+        "external_action": "扬了扬拳头",
+        "speech_text": "他们敢！",
+        "mood_state": "自信"
+      },
+      "id": "177_007",
+      "global_id": 474
+    },
+    {
+      "scene_snapshot": "灵静坐在自行车后座，搂着家明的腰，谈论自己作为情妇和小老婆的话题。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密恋人"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静主动提起话题",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "豁达而深情的恋人",
+        "inner_monologue": "我和沙沙都选择缠着家明，只要他对我好就行。",
+        "external_action": "紧紧搂住了家明的腰，用脸颊狠狠地撞了一下家明的后背",
+        "speech_text": "看起来，我这一辈子都要当你的情妇和小老婆了……别说对不起了，又不是你的错，是我和沙沙姐要缠着你的哦，你也不许抱怨，对我们姐妹俩好点就行了，呵呵……",
+        "mood_state": "豁达"
+      },
+      "id": "177_008",
+      "global_id": 475
+    }
+  ]
+}

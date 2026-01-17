@@ -1,0 +1,154 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "薰和沙沙在黑暗的房间里制作土炸弹，讨论当前危机。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "朋友/保护对象"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "询问薰是否认为家明会找到她们，并提到信号发射器可能被干扰。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静的保护者",
+        "inner_monologue": "我必须保持镇定，顾君一定能找到我们，干扰只是暂时的。",
+        "external_action": "淡淡地打断沙沙的话，目光望向前方，随后低头继续倒漂白剂。",
+        "speech_text": "不会的。要控制这里，他们安置了干扰电子信号的东西，所以顾君才没有找过来，我想现在他一定已经进来了……现在放歌的那个人叫诸神无念，是个神经病。他虽然很厉害，但比他更厉害的人，顾君也打败过两次……顾君不会有问题的……",
+        "mood_state": "determined"
+      },
+      "id": "207_001",
+      "global_id": 166
+    },
+    {
+      "scene_snapshot": "沙沙担心薰的伤势，提议分头逃跑。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "朋友/保护对象"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "询问薰的伤势，并建议分头逃跑以商量对策。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坚定的守护者",
+        "inner_monologue": "我不能让沙沙独自面对危险，这是我的责任。",
+        "external_action": "望了沙沙一眼。",
+        "speech_text": "我不会跟你分开。你在我后面就可以了。",
+        "mood_state": "resolute"
+      },
+      "id": "207_002",
+      "global_id": 167
+    },
+    {
+      "scene_snapshot": "薰解释自己会保护沙沙，否则家明不会饶了她。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "朋友/保护对象"
+      },
+      "trigger": {
+        "sender": "薰",
+        "content": "主动说明保护沙沙的决心和后果。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "忠诚的追随者",
+        "inner_monologue": "我必须保护好沙沙，否则顾君会失望。",
+        "external_action": null,
+        "speech_text": "我会保护你，如果我做不到……他不会饶了我的……",
+        "mood_state": "solemn"
+      },
+      "id": "207_003",
+      "global_id": 168
+    },
+    {
+      "scene_snapshot": "沙沙询问薰是否是自愿来江海，引发薰的情绪波动。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "朋友/保护对象"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "询问薰是否是自愿来江海，提到家明很少关心她。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "内疚的棋子",
+        "inner_monologue": "这件事我一直隐瞒着，现在必须坦白。",
+        "external_action": "手一震，漂白剂倒在左手上，深吸一口气，目光犹豫地望着沙沙。",
+        "speech_text": "对不起……",
+        "mood_state": "guilty"
+      },
+      "id": "207_004",
+      "global_id": 169
+    },
+    {
+      "scene_snapshot": "薰坦白自己来江海是为了拉家明下水，导致当前危机。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "朋友/保护对象"
+      },
+      "trigger": {
+        "sender": "薰",
+        "content": "主动解释自己来江海的目的和后果。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "自责的参与者",
+        "inner_monologue": "这一切都是我的错，我连累了顾君。",
+        "external_action": "眼神失去焦距，心跳加快，随后恢复清澈，准确倒漂白剂。",
+        "speech_text": "其实我过来，是为了拉顾君下水的。如果不是因为顾君教了我东西，裴罗嘉……或许也不会将他视为敌人，也不会有这次……诸神无念的事情了……",
+        "mood_state": "remorseful"
+      },
+      "id": "207_005",
+      "global_id": 170
+    },
+    {
+      "scene_snapshot": "沙沙问薰是否喜欢家明，薰迅速否认。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "朋友/保护对象"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "直接询问薰是否喜欢家明。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "自卑的仰慕者",
+        "inner_monologue": "我配不上顾君，不能有这样的感情。",
+        "external_action": "眼睛也不眨地回答。",
+        "speech_text": "我不配的……",
+        "mood_state": "self-deprecating"
+      },
+      "id": "207_006",
+      "global_id": 171
+    },
+    {
+      "scene_snapshot": "薰递给沙沙一颗手雷，说明在危机时使用以保护家明。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "朋友/保护对象"
+      },
+      "trigger": {
+        "sender": "薰",
+        "content": "主动递手雷并解释用法和目的。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "决绝的牺牲者",
+        "inner_monologue": "如果最坏的情况发生，我必须确保沙沙和顾君的安全。",
+        "external_action": "伸手将手雷递到沙沙面前。",
+        "speech_text": "用法很简单，拉掉这里的拉环，近距离内，没有人能够活下来，我给自己留了一颗……待会如果有事了，我会在你前面，如果我保护不了你了，也逃不掉的时候，就用它。别让他们威胁到他，好吗？",
+        "mood_state": "resigned"
+      },
+      "id": "207_007",
+      "global_id": 172
+    }
+  ]
+}

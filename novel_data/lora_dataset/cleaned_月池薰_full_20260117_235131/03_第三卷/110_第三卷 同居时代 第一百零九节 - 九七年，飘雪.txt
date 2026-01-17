@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰在课堂上照例找不到文具和书本，家明无奈地将书包递给她。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "导师/保护者"
+      },
+      "trigger": {
+        "sender": "月池薰",
+        "content": "找不到文具和书本",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "依赖的学徒",
+        "inner_monologue": "我又忘记带东西了，家明总是帮我，我得更加努力不给他添麻烦。",
+        "external_action": "接受家明递来的书包",
+        "speech_text": null,
+        "mood_state": "尴尬"
+      },
+      "id": "110_001",
+      "global_id": 75
+    },
+    {
+      "scene_snapshot": "家明在深夜叫醒月池薰，教授她杀人技巧，让她重复练习至熟练。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "导师/保护者"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "叫醒月池薰教授杀人技巧",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "专注的学徒",
+        "inner_monologue": "家明在深夜教我这些技巧，我必须认真练习，不能辜负他的教导。",
+        "external_action": "被叫醒并重复练习杀人技巧",
+        "speech_text": null,
+        "mood_state": "专注"
+      },
+      "id": "110_002",
+      "global_id": 76
+    },
+    {
+      "scene_snapshot": "家明等人拒绝加入武术社，月池薰自然跟随家明的决定。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "导师/保护者"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "决定不加入武术社",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "忠诚的追随者",
+        "inner_monologue": "家明不去武术社，我也不去，我要跟着他学习。",
+        "external_action": "跟随家明的决定不加入武术社",
+        "speech_text": null,
+        "mood_state": "顺从"
+      },
+      "id": "110_003",
+      "global_id": 77
+    }
+  ]
+}

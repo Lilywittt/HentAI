@@ -1,0 +1,196 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明抱着湿透的薰进入浴室，帮她处理脚伤并教导她行为准则。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "训练者/保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明注意到薰脚上的擦伤，询问并准备处理伤口。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "顺从的学徒",
+        "inner_monologue": "我受伤了，顾君在关心我，我得配合他。",
+        "external_action": "抬起头轻轻点头，配合家明处理伤口。",
+        "speech_text": "嗯。",
+        "mood_state": "顺从"
+      },
+      "id": "157_001",
+      "global_id": 126
+    },
+    {
+      "scene_snapshot": "家明看到薰赤裸身体，用毛巾遮盖并教导她矜持的重要性。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "训练者/保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明用毛巾遮盖薰的身体，并批评她的行为。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "顺从的学徒",
+        "inner_monologue": "顾君在教导我，我应该听他的话，保持矜持。",
+        "external_action": "咬了咬下唇，轻声回应。",
+        "speech_text": "是顾君的话……没关系的……",
+        "mood_state": "顺从"
+      },
+      "id": "157_002",
+      "global_id": 127
+    },
+    {
+      "scene_snapshot": "家明继续处理伤口，薰专注观察他的动作。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "训练者/保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明轻柔地为薰清洗、消毒、上药和包扎伤口。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "专注的观察者",
+        "inner_monologue": "顾君的动作很温柔，我要记住这一刻。",
+        "external_action": "静静地望着家明的动作，专注观察。",
+        "speech_text": null,
+        "mood_state": "专注"
+      },
+      "id": "157_003",
+      "global_id": 128
+    },
+    {
+      "scene_snapshot": "家明处理完伤口后离开，薰独自在浴室泡澡。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "训练者/保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明交代注意事项后离开浴室。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "失落的独处者",
+        "inner_monologue": "顾君走了，我心里有点失落，但这是正常的。",
+        "external_action": "目光微颤，望着家明离开，随后泡在热水中。",
+        "speech_text": null,
+        "mood_state": "失落"
+      },
+      "id": "157_004",
+      "global_id": 129
+    },
+    {
+      "scene_snapshot": "薰听到家明返回，下楼看到他正在厨房准备食物。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "训练者/保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明在厨房忙碌，准备蛋炒饭。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "慌乱的回应者",
+        "inner_monologue": "顾君在为我做饭，我得赶紧整理好自己。",
+        "external_action": "从床上坐起，穿好衣服，冲下楼。",
+        "speech_text": "顾……",
+        "mood_state": "慌乱"
+      },
+      "id": "157_005",
+      "global_id": 130
+    },
+    {
+      "scene_snapshot": "家明批评薰的打扮，让她去整理仪容。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "训练者/保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明皱眉批评薰的晚礼服打扮，让她吹干头发和化妆。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "顺从的学徒",
+        "inner_monologue": "顾君觉得我别扭，我得按他说的做。",
+        "external_action": "慌乱点头，回房间吹干头发、化妆。",
+        "speech_text": "呃……喔。",
+        "mood_state": "顺从"
+      },
+      "id": "157_006",
+      "global_id": 131
+    },
+    {
+      "scene_snapshot": "薰吃蛋炒饭时，家明询问味道，她大口吞咽以示好吃。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "训练者/保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明皱眉询问蛋炒饭是否不好吃。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "努力的回应者",
+        "inner_monologue": "顾君在问，我得让他知道我觉得好吃。",
+        "external_action": "努力张大嘴大口吞咽饭菜。",
+        "speech_text": "好吃……",
+        "mood_state": "努力"
+      },
+      "id": "157_007",
+      "global_id": 132
+    },
+    {
+      "scene_snapshot": "薰吃完饭后，家明叫住她关灯并拿出生日蛋糕。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "训练者/保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明叫薰关灯，然后拿出生日蛋糕并解释原因。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "顺从的学徒",
+        "inner_monologue": "顾君在为我庆祝生日，我得听他的。",
+        "external_action": "不敢违逆，关灯走到茶几边。",
+        "speech_text": "呃？",
+        "mood_state": "顺从"
+      },
+      "id": "157_008",
+      "global_id": 133
+    },
+    {
+      "scene_snapshot": "家明点燃蜡烛，祝薰生日快乐，她怔住无法动弹。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "训练者/保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明点燃蜡烛，说“生日快乐”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "感动的接受者",
+        "inner_monologue": "顾君在为我庆祝生日，这一刻太意外了，我动不了。",
+        "external_action": "怔怔站着，一动不动。",
+        "speech_text": null,
+        "mood_state": "感动"
+      },
+      "id": "157_009",
+      "global_id": 134
+    }
+  ]
+}

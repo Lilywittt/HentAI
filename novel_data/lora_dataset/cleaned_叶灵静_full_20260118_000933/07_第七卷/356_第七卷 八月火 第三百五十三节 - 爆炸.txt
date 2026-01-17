@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "在柳正的丧礼上，新宁帮的薛诚在灵堂中挑衅沙沙的亲戚，质疑丧礼的礼数。",
+      "interlocutor_info": {
+        "name": "薛诚",
+        "relationship_tag": "敌对的黑社会头目"
+      },
+      "trigger": {
+        "sender": "薛诚",
+        "content": "薛诚在灵堂中侃侃而谈，质疑丧礼的礼数，并挑衅沙沙的堂叔，说“大家出来混的，做错了就要认，挨打了要立正……”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "勇敢的保护者",
+        "inner_monologue": "我不能让他这样欺负沙沙和她的家人，必须站出来制止他。",
+        "external_action": "脸色冰冷，一手指向灵堂大门外，愤怒地站出来。",
+        "speech_text": "“请你出去！”",
+        "mood_state": "愤怒"
+      },
+      "id": "356_001",
+      "global_id": 704
+    },
+    {
+      "scene_snapshot": "薛诚走近灵静，试图握她的手并自我介绍，态度轻佻。",
+      "interlocutor_info": {
+        "name": "薛诚",
+        "relationship_tag": "敌对的黑社会头目"
+      },
+      "trigger": {
+        "sender": "薛诚",
+        "content": "薛诚笑着走近灵静，说“我是来拜祭柳老大的，你赶我走？凭什么……对了。忘了介绍一下，新宁帮薛诚，美女你是……”，并伸出手试图握灵静的手指。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "坚定的拒绝者",
+        "inner_monologue": "他太无礼了，我不能让他碰到我，必须保持距离。",
+        "external_action": "一言不发地退回沙沙身边坐着，接过家明递来的粥碗。",
+        "speech_text": "“请你出去！”（重复之前的对话，但在此场景中未再说话，行动代替了言语）",
+        "mood_state": "坚决"
+      },
+      "id": "356_002",
+      "global_id": 705
+    },
+    {
+      "scene_snapshot": "家明介入后，灵静退到沙沙身边，照顾沙沙喝粥。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的朋友/保护者"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明伸出手与薛诚握手，将粥碗递给灵静，点头示意“我来吧”。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "支持性的朋友",
+        "inner_monologue": "家明处理得很好，我可以放心照顾沙沙了。",
+        "external_action": "接过碗，一言不发地退回沙沙身边坐着。",
+        "speech_text": null,
+        "mood_state": "安心"
+      },
+      "id": "356_003",
+      "global_id": 706
+    },
+    {
+      "scene_snapshot": "灵静扶沙沙进去休息，沙沙拒绝宽衣睡觉，灵静和家明等人安慰她。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "悲伤的朋友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙摇头，声音哽咽沙哑地说“不要了，晚上还有人要来的……”，并哭泣。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "体贴的照顾者",
+        "inner_monologue": "沙沙太累了，我必须帮她放松下来，让她好好休息。",
+        "external_action": "想给沙沙宽衣到床上睡会儿，点头同意家明的决定。",
+        "speech_text": null,
+        "mood_state": "关切"
+      },
+      "id": "356_004",
+      "global_id": 707
+    },
+    {
+      "scene_snapshot": "家明和灵静在宴会上吃东西，薛诚在另一桌挑衅，要求沙沙露面。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的朋友/保护者"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明放下筷子，无奈地站起来朝薛诚的桌子走过去。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "忠诚的跟随者",
+        "inner_monologue": "家明要去处理麻烦，我不能让他一个人面对，得跟上去支持他。",
+        "external_action": "站起来，跟在家明身后不远处。",
+        "speech_text": null,
+        "mood_state": "担忧"
+      },
+      "id": "356_005",
+      "global_id": 708
+    }
+  ]
+}

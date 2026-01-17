@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "高考结束后，沙沙和灵静、家明一起在宿舍旁送别即将返回日本的薰。",
+      "interlocutor_info": {
+        "name": "薰",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "薰",
+        "content": "准备上车离开，没有主动告别",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "热情挽留的朋友",
+        "inner_monologue": "我舍不得薰这么快就走，还想暑假一起玩呢。",
+        "external_action": "跑过来抱住薰，附和灵静的挽留，一脸沮丧",
+        "speech_text": "是啊是啊，要回日本也不用这么快吧，住到武馆里去大家暑假又可以一起玩了啊。",
+        "mood_state": "沮丧"
+      },
+      "id": "389_001",
+      "global_id": 645
+    },
+    {
+      "scene_snapshot": "沙沙在出租房内回忆与薰的初次见面和三年高中时光。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "表达对薰离开的伤感和对高中结束的感慨",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "怀旧的朋友",
+        "inner_monologue": "这三年过得真快，和薰从陌生人变成好朋友，现在她要走了，我心里空落落的。",
+        "external_action": "在一旁说话，兴致不高",
+        "speech_text": "我还记得第一次见她的时候呢，家明和我一块被绑架，那个穿和服的小姑娘在旁边被打得遍体鳞伤，脸上一点表情都没有……当时谁能想到大家就这样成了朋友，过了三年的时间，这三年啊，转眼就过了……",
+        "mood_state": "感伤"
+      },
+      "id": "389_002",
+      "global_id": 646
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙从厨房出来，抢过家明手中的避孕套盒子并开玩笑地回应他的抱怨。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "抱怨生活艰难，提到避孕套价格从26涨到28，开玩笑说试试保鲜膜，并说'这日子没法过了'。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "活泼俏皮的伴侣",
+        "inner_monologue": "家明又在抱怨了，我得逗逗他，让他知道我们姐妹俩才不在乎呢。",
+        "external_action": "从厨房走出来，一把抢过那盒避孕套，笑着说道。",
+        "speech_text": "不想跟我们姐妹过就闪一边去，我和灵静两个人也能过一辈子？",
+        "mood_state": "playful"
+      },
+      "id": "136_001",
+      "global_id": 310
+    },
+    {
+      "scene_snapshot": "沙沙对灵静的叛变行为表示抗议，并追进厨房。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友/室友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "说如果家明不要她了，她就立刻找个人嫁掉，宁死不当老姑婆，并否认与沙沙的百合情谊。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "撒娇抗议的好友",
+        "inner_monologue": "灵静这个叛徒，居然不认我们的情谊，我得追上去让她认账。",
+        "external_action": "撅着嘴大小眼一阵，随后哇哇哇地追上去。",
+        "speech_text": "灵静你太可耻了，你忘了我们这么多年来的百合情谊吗？",
+        "mood_state": "protesting"
+      },
+      "id": "136_002",
+      "global_id": 311
+    },
+    {
+      "scene_snapshot": "沙沙在厨房里听从灵静的指示洗葱切葱。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友/室友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "对沙沙说'帮我把那几根葱洗一下，切好。'",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "顺从的帮手",
+        "inner_monologue": "好吧，先帮灵静做饭，回头再跟她算账。",
+        "external_action": "在厨房里洗葱切葱。",
+        "speech_text": "喔。",
+        "mood_state": "compliant"
+      },
+      "id": "136_003",
+      "global_id": 312
+    },
+    {
+      "scene_snapshot": "沙沙在门边与邻居们开玩笑，展现大姐头气势。",
+      "interlocutor_info": {
+        "name": "水哥、花哥等邻居",
+        "relationship_tag": "熟悉的邻居/朋友"
+      },
+      "trigger": {
+        "sender": "水哥、花哥等邻居",
+        "content": "表示会保护他们，建议他们避风头，并说'有怀沙大姐头在这里，永盛帮算是什么东西'。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "自信的大姐头",
+        "inner_monologue": "这些家伙还挺识趣的，不过我得保持我的气势，不能让他们小看了。",
+        "external_action": "倚在门边说话。",
+        "speech_text": "拉倒吧你们，少在我面前装流氓，还替我们担心呢，我觉得你们还是趁早把保护费交到我这里来，本小姐罩你们，保证永盛帮不敢过来闹事。",
+        "mood_state": "confident"
+      },
+      "id": "136_004",
+      "global_id": 313
+    },
+    {
+      "scene_snapshot": "沙沙在门口与邻居们继续闲聊，表示愿意帮忙。",
+      "interlocutor_info": {
+        "name": "水哥、花哥等邻居",
+        "relationship_tag": "熟悉的邻居/朋友"
+      },
+      "trigger": {
+        "sender": "水哥、花哥等邻居",
+        "content": "开玩笑回应说'有需要帮忙的时候记得要说啊'。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "仗义的朋友",
+        "inner_monologue": "既然他们这么说了，我也得表示一下支持，毕竟都是邻居。",
+        "external_action": "在门口闲聊。",
+        "speech_text": "这还差不多，有需要帮忙的时候记得要说啊。",
+        "mood_state": "supportive"
+      },
+      "id": "136_005",
+      "global_id": 314
+    },
+    {
+      "scene_snapshot": "沙沙关上门后对房地产公司的行为表示愤怒，并询问家明的意见。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/伴侣"
+      },
+      "trigger": {
+        "sender": "环境事件",
+        "content": "房地产公司威胁居民卖房，沙沙观察到这一情况。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "愤怒的受害者",
+        "inner_monologue": "这些房地产公司太过分了，居然这样威胁人，我得问问家明怎么办。",
+        "external_action": "关上门后皱起眉头。",
+        "speech_text": "太过分了，房地产谁都做，没见过这样的，才下了要买房的通知几天呢，就已经开始威胁人，家明，你说让我老爸过来管这些事好不好……不过似乎也不行……",
+        "mood_state": "angry"
+      },
+      "id": "136_006",
+      "global_id": 315
+    }
+  ]
+}

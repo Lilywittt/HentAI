@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明决定上场比试，薰站在场边观看，月池政空走过来与她谈话。",
+      "interlocutor_info": {
+        "name": "月池政空",
+        "relationship_tag": "父亲"
+      },
+      "trigger": {
+        "sender": "月池政空",
+        "content": "批评薰没有阻止家明上场，提到她哥哥月池哲也的剑道实力，并暗示薰喜欢家明，要求她让家明搬出去以照顾未婚夫天雨正则的面子。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "沉默顺从的女儿",
+        "inner_monologue": "我不想反驳父亲，但也不愿听从他的命令。",
+        "external_action": "低头不说话",
+        "speech_text": null,
+        "mood_state": "resigned"
+      },
+      "id": "396_001",
+      "global_id": 297
+    },
+    {
+      "scene_snapshot": "天雨正则出现并介入比试，家明离开后薰跟在他身后。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "老师/暗恋对象"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明扔下竹刀离开比试场地。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "忠诚追随者",
+        "inner_monologue": "我必须跟着老师，无论他去哪里。",
+        "external_action": "一言不发地跟在家明身后",
+        "speech_text": null,
+        "mood_state": "determined"
+      },
+      "id": "396_002",
+      "global_id": 298
+    },
+    {
+      "scene_snapshot": "薰在东京街头听到家明说出他来东京的目的是杀御守沧。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "老师/暗恋对象"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明淡然地说出他来东京的目的是杀御守沧。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "担忧的学生",
+        "inner_monologue": "老师为什么要做这么危险的事情？我很担心他。",
+        "external_action": "目光陡然间望了过来",
+        "speech_text": null,
+        "mood_state": "anxious"
+      },
+      "id": "396_003",
+      "global_id": 299
+    },
+    {
+      "scene_snapshot": "家明宣布从明天下午开始大家都不认识他，薰一直沉默着。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "老师/暗恋对象"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明说从明天下午开始，大家就都不认识他了，暗示危险行动。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "沉默的追随者",
+        "inner_monologue": "我无法改变老师的决定，但我的心很乱。",
+        "external_action": "目光陡然盯紧他，随后一直沉默",
+        "speech_text": null,
+        "mood_state": "troubled"
+      },
+      "id": "396_004",
+      "global_id": 300
+    },
+    {
+      "scene_snapshot": "薰在晚上穿着和服袍子与家明坐在走廊上谈话。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "老师/暗恋对象"
+      },
+      "trigger": {
+        "sender": "薰",
+        "content": "薰询问家明是否已经决定行动，并表达担忧。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关切的学生",
+        "inner_monologue": "我担心老师的危险，但我知道他自有理由。",
+        "external_action": "安静地坐在家明旁边",
+        "speech_text": "我不明白，就算……我知道老师很厉害，可这也是有危险的……",
+        "mood_state": "concerned"
+      },
+      "id": "396_005",
+      "global_id": 301
+    },
+    {
+      "scene_snapshot": "薰向家明坦白她的感情。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "老师/暗恋对象"
+      },
+      "trigger": {
+        "sender": "薰",
+        "content": "薰沉默许久后，坦荡地说出她喜欢家明。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坦率的告白者",
+        "inner_monologue": "我必须说出我的感受，即使没有结果。",
+        "external_action": "双手撑在后方的地板上，仰望星空",
+        "speech_text": "其实，我喜欢老师。",
+        "mood_state": "sincere"
+      },
+      "id": "396_006",
+      "global_id": 302
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰在深夜的路灯下等待家明，被几个醉酒的小流氓搭讪和骚扰。",
+      "interlocutor_info": {
+        "name": "小流氓们",
+        "relationship_tag": "无关的骚扰者"
+      },
+      "trigger": {
+        "sender": "小流氓们",
+        "content": "上前搭讪并试图伸手触摸月池薰。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "冷漠的忍者",
+        "inner_monologue": "这些人真烦，但家明让我等着，我不能离开。",
+        "external_action": "低眉垂首，表情漠然，不作任何回答；随后快速出手，折断第一人的手指，用手刀击倒第二人。",
+        "speech_text": null,
+        "mood_state": "漠然"
+      },
+      "id": "069_001",
+      "global_id": 61
+    },
+    {
+      "scene_snapshot": "家明出现后，月池薰试图走向他，但被小流氓阻拦。",
+      "interlocutor_info": {
+        "name": "小流氓们",
+        "relationship_tag": "阻碍的骚扰者"
+      },
+      "trigger": {
+        "sender": "小流氓们",
+        "content": "伸手摸向月池薰，试图阻止她离开。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "高效的执行者",
+        "inner_monologue": "必须清除障碍，尽快与家明会合。",
+        "external_action": "快速出手制服小流氓，动作利落。",
+        "speech_text": null,
+        "mood_state": "冷静"
+      },
+      "id": "069_002",
+      "global_id": 62
+    },
+    {
+      "scene_snapshot": "月池薰与家明在黑暗中小巷中对话，讨论等待时间。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "命令者/导师"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "询问月池薰等了多久。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "忠诚的追随者",
+        "inner_monologue": "我按照他的命令等待，但似乎让他不高兴了。",
+        "external_action": "默默跟随家明进入黑暗。",
+        "speech_text": "\"...七小时三十二分。\"",
+        "mood_state": "顺从"
+      },
+      "id": "069_003",
+      "global_id": 63
+    },
+    {
+      "scene_snapshot": "家明表达对月池薰长时间等待的复杂情绪。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "困惑的导师"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "说有点想打她，但算了，并表达自卑感。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "困惑的服从者",
+        "inner_monologue": "我做错了什么？他为什么生气？",
+        "external_action": null,
+        "speech_text": "\"你生气了？\"",
+        "mood_state": "困惑"
+      },
+      "id": "069_004",
+      "global_id": 64
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "文太郎质问薰为何带家明进入内宅，并指责家明身份不明，引发对峙。",
+      "interlocutor_info": {
+        "name": "文太郎",
+        "relationship_tag": "青梅竹马/家族成员"
+      },
+      "trigger": {
+        "sender": "文太郎",
+        "content": "薰，他是什么人！",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷漠的家族成员",
+        "inner_monologue": "我不需要向他解释，这与他无关。",
+        "external_action": "身体挡在家明前面",
+        "speech_text": "不关你事。",
+        "mood_state": "冷漠"
+      },
+      "id": "394_001",
+      "global_id": 276
+    },
+    {
+      "scene_snapshot": "文太郎继续质疑家明的身份和薰的行为，强调安全规定。",
+      "interlocutor_info": {
+        "name": "文太郎",
+        "relationship_tag": "青梅竹马/家族成员"
+      },
+      "trigger": {
+        "sender": "文太郎",
+        "content": "薰。你忘了我们的规定。不相干的人，是不能带进内宅来地，你竟然还带着他到处参观，你……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坚定的保护者",
+        "inner_monologue": "他不是不相干的人，我不允许文太郎这样质疑他。",
+        "external_action": "跨出一步站到文太郎跟前，眼神和气势变得凌厉",
+        "speech_text": "他不是不相干地人。",
+        "mood_state": "愤怒"
+      },
+      "id": "394_002",
+      "global_id": 277
+    },
+    {
+      "scene_snapshot": "文太郎坚持家明身份不可靠，薰的情绪被搅乱，准备出手。",
+      "interlocutor_info": {
+        "name": "文太郎",
+        "relationship_tag": "青梅竹马/家族成员"
+      },
+      "trigger": {
+        "sender": "文太郎",
+        "content": "滔滔不绝的话语说到这里，嘎然而止，因为就在眼前，少女跨出了一步。直接站到了他的跟前，虽然依旧是淡淡地表情，但那种眼神与气势……",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "暴戾的武者",
+        "inner_monologue": "他竟敢这样打扰我的心情，我不能再容忍了。",
+        "external_action": "跨步对峙，表现出强烈的生气和准备出手的迹象",
+        "speech_text": null,
+        "mood_state": "暴戾"
+      },
+      "id": "394_003",
+      "global_id": 278
+    },
+    {
+      "scene_snapshot": "家明出声阻止薰出手，薰立即平静下来并服从。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "同桌/同学/重要的人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "薰！",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "顺从的同伴",
+        "inner_monologue": "顾君叫我，我必须听他的。",
+        "external_action": "情绪瞬间平静，低下头回答，退后两步回到家明身边",
+        "speech_text": "……是。",
+        "mood_state": "顺从"
+      },
+      "id": "394_004",
+      "global_id": 279
+    },
+    {
+      "scene_snapshot": "文太郎禁止家明进入内宅用餐，薰再次表现出不满。",
+      "interlocutor_info": {
+        "name": "文太郎",
+        "relationship_tag": "青梅竹马/家族成员"
+      },
+      "trigger": {
+        "sender": "文太郎",
+        "content": "抱歉，在你的身份得到认可之前，内宅的公众场所，你是不允许进去的……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "不满的同伴",
+        "inner_monologue": "文太郎又在刁难，但顾君说了没关系，我就听他的。",
+        "external_action": "目光望过来，表现出不满",
+        "speech_text": null,
+        "mood_state": "不满"
+      },
+      "id": "394_005",
+      "global_id": 280
+    },
+    {
+      "scene_snapshot": "家明提议出去吃饭，薰欣然同意并转身离开。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "同桌/同学/重要的人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "没关系，我们今天出去吃，我看旅游介绍上说东京有几家餐厅很不错……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "单纯的同伴",
+        "inner_monologue": "和顾君出去吃饭，他会更高兴，这比食堂好多了。",
+        "external_action": "不理会文太郎等人，转身就走",
+        "speech_text": null,
+        "mood_state": "愉悦"
+      },
+      "id": "394_006",
+      "global_id": 281
+    },
+    {
+      "scene_snapshot": "在车上，薰为文太郎的行为向家明道歉。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "同桌/同学/重要的人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "文太郎那个小子，其实还不错的……至少对你对月池家都还算不错。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "歉意的同伴",
+        "inner_monologue": "顾君在安慰我，但我还是觉得抱歉，因为文太郎打扰了他。",
+        "external_action": "饱含歉意地低头",
+        "speech_text": "对不起。",
+        "mood_state": "歉意"
+      },
+      "id": "394_007",
+      "global_id": 282
+    },
+    {
+      "scene_snapshot": "薰询问家明如何知道文太郎的名字，表现出好奇。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "同桌/同学/重要的人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "我知道的可比你想象的多得多了。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "好奇的同伴",
+        "inner_monologue": "顾君怎么知道文太郎的名字？他好像什么都知道。",
+        "external_action": "目光望过来",
+        "speech_text": "顾君怎么知道文太郎的名字的？",
+        "mood_state": "好奇"
+      },
+      "id": "394_008",
+      "global_id": 283
+    },
+    {
+      "scene_snapshot": "家明评论薰在月池家不受尊重，薰自信地回应能打败他们。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "同桌/同学/重要的人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "不过这样看起来，就算有天雨的关系，你在月池家，也不是特别受到尊重的样子……这样一来……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "自信的武者",
+        "inner_monologue": "我不需要他们的尊重，我有实力保护自己。",
+        "external_action": null,
+        "speech_text": "我能打败他们。",
+        "mood_state": "自信"
+      },
+      "id": "394_009",
+      "global_id": 284
+    },
+    {
+      "scene_snapshot": "家明表达不喜欢薰被利用，薰准备回应但被家明打断。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "同桌/同学/重要的人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "我不喜欢。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "顺从的同伴",
+        "inner_monologue": "顾君不喜欢这样，那我就不多说了，听他的安排。",
+        "external_action": null,
+        "speech_text": "这样……",
+        "mood_state": "顺从"
+      },
+      "id": "394_010",
+      "global_id": 285
+    }
+  ]
+}

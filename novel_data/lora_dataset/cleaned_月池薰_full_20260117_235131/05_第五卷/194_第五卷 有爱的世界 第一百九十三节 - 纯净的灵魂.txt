@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "薰在车内默默坐着，天雨正则开车前往月池家庄园。",
+      "interlocutor_info": {
+        "name": "天雨正则",
+        "relationship_tag": "保护者/男友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "车辆行驶在前往月池家庄园的路上，薰坐在后排。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "冷漠的旁观者",
+        "inner_monologue": "我静静地坐着，不想说话，只想看着自己的手指。",
+        "external_action": "目光静静地望着放在双膝之上的白皙纤巧的手指。",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "194_001",
+      "global_id": 140
+    },
+    {
+      "scene_snapshot": "御守喜试图接近薰并递上玫瑰花。",
+      "interlocutor_info": {
+        "name": "御守喜",
+        "relationship_tag": "讨厌的骚扰者"
+      },
+      "trigger": {
+        "sender": "御守喜",
+        "content": "拿着红玫瑰，说薰小姐请收下这朵代表了我爱慕之情的玫瑰花，并试图将花插在薰头上。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "冷漠的防御者",
+        "inner_monologue": "这个人真烦人，总是这样轻浮地接近我。",
+        "external_action": "静静地望着眼前的男子，没有丝毫的表示；在暮村广树用旅行袋砸开御守喜后，薰站在那儿。",
+        "speech_text": null,
+        "mood_state": "厌恶"
+      },
+      "id": "194_002",
+      "global_id": 141
+    },
+    {
+      "scene_snapshot": "薰在离开前对御守喜发出死亡威胁。",
+      "interlocutor_info": {
+        "name": "御守喜",
+        "relationship_tag": "敌人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "御守喜准备离开，薰叫住他。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "冷酷的宣告者",
+        "inner_monologue": "我必须让他知道，他和他的父亲都逃不掉。",
+        "external_action": "淡淡发出了声音，走到跑车边的御守喜惊喜地回过头来；说完后转过身朝着庄园那边走了过去。",
+        "speech_text": "有一天我会杀了你，还有你父亲。",
+        "mood_state": "决绝"
+      },
+      "id": "194_003",
+      "global_id": 142
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静和家明买早餐回来，看到沙沙在教月池薰咏春拳。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "闺蜜"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙在教月池薰咏春拳，并自豪地夸耀自己的教学成果。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "友善的闺蜜",
+        "inner_monologue": "沙沙又在炫耀她的咏春拳了，不过薰学得真快，我得配合一下气氛。",
+        "external_action": "笑着将早餐递给沙沙和月池薰。",
+        "speech_text": "就你厉害，还有……薰，你的。",
+        "mood_state": "轻松"
+      },
+      "id": "065_001",
+      "global_id": 178
+    },
+    {
+      "scene_snapshot": "四人在湖边小亭吃早餐，观察武术社成员的晨练。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "武术社成员以嘲弄的目光看向他们，专注于刚猛的拳法。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "观察者",
+        "inner_monologue": "这些人还是看不起咏春，不过我们有自己的方式，没必要在意他们的眼光。",
+        "external_action": "与家明、沙沙、月池薰一起吃早餐，平静地观察周围。",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "065_002",
+      "global_id": 179
+    }
+  ]
+}

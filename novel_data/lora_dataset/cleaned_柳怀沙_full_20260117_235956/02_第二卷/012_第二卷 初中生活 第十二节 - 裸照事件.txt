@@ -1,0 +1,196 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙被五名高中生堵在死胡同里，对方威胁要拍她裸照。",
+      "interlocutor_info": {
+        "name": "胖子",
+        "relationship_tag": "敌对的高中生"
+      },
+      "trigger": {
+        "sender": "胖子",
+        "content": "柳怀沙，你他妈的不是嚣张吗？怎么现在不嚣张了？干，你是自己动手还是让我们来……我操……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "倔强反抗者",
+        "inner_monologue": "我绝不能示弱，就算受伤也要跟他们拼了。",
+        "external_action": "一瘸一拐地向后退，手中握紧球棒，眼神倔强灼人。",
+        "speech_text": "你这头死猪。有种的就过来单挑！",
+        "mood_state": "愤怒"
+      },
+      "id": "012_001",
+      "global_id": 30
+    },
+    {
+      "scene_snapshot": "顾家明出现在巷口，柳怀沙担心他被牵连。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "死党"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "你、你又跟人打架了！",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "保护者",
+        "inner_monologue": "这个白痴怎么来了，不能让他卷进来受伤。",
+        "external_action": "勉强站直身子大喊。",
+        "speech_text": "你去死啦，快给我滚走，不要你管！",
+        "mood_state": "焦急"
+      },
+      "id": "012_002",
+      "global_id": 31
+    },
+    {
+      "scene_snapshot": "胖子威胁要连顾家明一起拍裸照，柳怀沙试图阻止。",
+      "interlocutor_info": {
+        "name": "胖子",
+        "relationship_tag": "敌对的高中生"
+      },
+      "trigger": {
+        "sender": "胖子",
+        "content": "碰他又怎么了？你以为这是在你爸沙竹帮的地盘上呢？这是新华区！今天就要让你们一块拍裸照……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "威胁者",
+        "inner_monologue": "他们敢动家明，我就跟他们拼命。",
+        "external_action": "举起球棒大嚷。",
+        "speech_text": "你们几个，要是敢碰他……",
+        "mood_state": "威胁"
+      },
+      "id": "012_003",
+      "global_id": 32
+    },
+    {
+      "scene_snapshot": "顾家明推垃圾车冲进来救柳怀沙，她配合逃跑。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "死党"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "推起了一旁一辆放垃圾桶的小推车，向着里面冲了过来。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "配合者",
+        "inner_monologue": "家明来救我了，得赶紧抓住机会逃跑。",
+        "external_action": "直接坐上去，球棒乱挥。",
+        "speech_text": "顾家明你这个白痴，你快跑啊！",
+        "mood_state": "紧张"
+      },
+      "id": "012_004",
+      "global_id": 33
+    },
+    {
+      "scene_snapshot": "两人逃到防海大堤后，柳怀沙嘲笑顾家明逃命厉害。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "死党"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "没、没追来了吧……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调侃者",
+        "inner_monologue": "这家伙逃命确实有一套，不过这次多亏了他。",
+        "external_action": "四处望望，拍了一下少年的肩膀失笑。",
+        "speech_text": "没有啦，就你逃命最厉害。",
+        "mood_state": "轻松"
+      },
+      "id": "012_005",
+      "global_id": 34
+    },
+    {
+      "scene_snapshot": "顾家明为柳怀沙治疗腿伤，她抱怨疼痛。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "死党"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "你没事总那么喜欢打架干嘛，他们是高中生，知不知道？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "辩解者",
+        "inner_monologue": "我就是看不惯那胖子嚣张，但这次确实有点疼。",
+        "external_action": "不时疼得拍打一下少年的肩膀。",
+        "speech_text": "谁叫那胖子那么嚣张的，占住球场不让人玩，我就是看不过去……呀，你轻点……",
+        "mood_state": "抱怨"
+      },
+      "id": "012_006",
+      "global_id": 35
+    },
+    {
+      "scene_snapshot": "顾家明提到裸照威胁，柳怀沙感到羞恼。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "死党"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "要不是正好有辆垃圾车可以把你拖出来，我老早就跑掉啦，留下你一个人在那里被他们拍照。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "羞恼者",
+        "inner_monologue": "这家伙居然提裸照，太丢脸了，但我确实不想让他管。",
+        "external_action": "伸手又在家明肩上捶了一下。",
+        "speech_text": "我叫过你不要过来的，干嘛，是你自己要……哼，我就算被别人拍……也不用你管。",
+        "mood_state": "羞恼"
+      },
+      "id": "012_007",
+      "global_id": 36
+    },
+    {
+      "scene_snapshot": "顾家明抢走苹果并让她自己擦药，柳怀沙抱怨但服从。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "死党"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "别乱动！嘴边有伤吃什么苹果，不想将来破相，脸上的自己擦。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "服从者",
+        "inner_monologue": "这个暴君，但我的腿在他手里，只好听他的。",
+        "external_action": "倒了药油往脸上涂。",
+        "speech_text": "哼，暴君！",
+        "mood_state": "无奈"
+      },
+      "id": "012_008",
+      "global_id": 37
+    },
+    {
+      "scene_snapshot": "柳怀沙开玩笑建议顾家明当医生，并询问叶灵静。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "死党"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "家明，你将来当跌打医生算了，正好叶妈妈就可以教你……对了，灵静呢？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "玩笑者",
+        "inner_monologue": "家明擦药技术真好，开个玩笑逗逗他。",
+        "external_action": "望着少年在夕阳中看起来似乎有些呆呆傻傻的沉思表情，少女扑哧笑出声来。",
+        "speech_text": "开玩笑的啦。",
+        "mood_state": "愉悦"
+      },
+      "id": "012_009",
+      "global_id": 38
+    }
+  ]
+}

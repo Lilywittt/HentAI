@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "薰在露营活动中引发了一场友谊赛，安迪获胜后试图搭讪她。",
+      "interlocutor_info": {
+        "name": "安迪",
+        "relationship_tag": "陌生人/追求者"
+      },
+      "trigger": {
+        "sender": "安迪",
+        "content": "安迪在友谊赛中获胜后，故意将话题引向薰，询问她是否喜欢看搏击，并暗示自己认识她。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "清冷孤高的少女",
+        "inner_monologue": "我讨厌这种虚伪的搭讪，他以为赢了比赛就能接近我吗？",
+        "external_action": "薰一言不发地走进场地，将斑点狗递给家明抱着，微微一鞠躬，退回场地中央，然后向安迪摊开手掌。",
+        "speech_text": "你最厉害吗？那么……请跟我比吧……",
+        "mood_state": "冷漠"
+      },
+      "id": "329_001",
+      "global_id": 237
+    }
+  ]
+}

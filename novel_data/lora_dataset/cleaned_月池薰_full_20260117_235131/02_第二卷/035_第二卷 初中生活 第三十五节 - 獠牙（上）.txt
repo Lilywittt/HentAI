@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰在河滩上被老头追上并击倒，老头试图说服她交出家族秘诀。",
+      "interlocutor_info": {
+        "name": "老头",
+        "relationship_tag": "敌人/追捕者"
+      },
+      "trigger": {
+        "sender": "老头",
+        "content": "将池樱千幻的秘诀告诉我，我会帮你治伤，并且放你走。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坚韧的逃亡者",
+        "inner_monologue": "我不能屈服，即使受伤也要坚持。",
+        "external_action": "女孩没有答话，执拗地向前爬着。",
+        "speech_text": null,
+        "mood_state": "determined"
+      },
+      "id": "035_001",
+      "global_id": 10
+    },
+    {
+      "scene_snapshot": "老头继续劝说月池薰，强调月池家的危机和需要他的帮助。",
+      "interlocutor_info": {
+        "name": "老头",
+        "relationship_tag": "敌人/追捕者"
+      },
+      "trigger": {
+        "sender": "老头",
+        "content": "月池家已经处于巨大的危机之中！...能帮得上忙的只有欧洲的幽暗天琴。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "沉默的抵抗者",
+        "inner_monologue": "他在说谎，我不能相信他。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "suspicious"
+      },
+      "id": "035_002",
+      "global_id": 11
+    },
+    {
+      "scene_snapshot": "老头情绪激动地声称自己是对的，月池薰突然反击。",
+      "interlocutor_info": {
+        "name": "老头",
+        "relationship_tag": "敌人/追捕者"
+      },
+      "trigger": {
+        "sender": "老头",
+        "content": "我是对的，只有我可以救月池家...那本来就是我的！",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "绝望的反击者",
+        "inner_monologue": "我必须做点什么，不能就这样放弃。",
+        "external_action": "她蓦地转身，一颗鹅卵石便向他扔了出去。",
+        "speech_text": null,
+        "mood_state": "desperate"
+      },
+      "id": "035_003",
+      "global_id": 12
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙注意到家明和杨晨光之间的紧张气氛，走过来询问情况。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友/闺蜜"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "小声地跟她解释着",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心朋友",
+        "inner_monologue": "我得弄清楚发生了什么，家明和灵静好像遇到麻烦了。",
+        "external_action": "走到了近处",
+        "speech_text": "什么事啊？",
+        "mood_state": "关切"
+      },
+      "id": "473_001",
+      "global_id": 757
+    },
+    {
+      "scene_snapshot": "沙沙在混乱中保护灵静，避免她被卷入冲突。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友/闺蜜"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "人群推推搡搡起来",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "保护者",
+        "inner_monologue": "我得确保灵静安全，不能让她受伤。",
+        "external_action": "拉着灵静退后几步",
+        "speech_text": null,
+        "mood_state": "警惕"
+      },
+      "id": "473_002",
+      "global_id": 758
+    }
+  ]
+}

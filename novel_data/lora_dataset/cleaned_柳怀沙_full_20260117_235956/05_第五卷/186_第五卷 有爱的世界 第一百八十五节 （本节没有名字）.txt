@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "在柳正的生日宴上，顾家明与华家父子对峙，沙沙和灵静突然拔枪指向华为。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "询问沙沙手枪保险的位置。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "支持顾家明的同伴",
+        "inner_monologue": "我得帮灵静打开保险，不能让家明一个人面对危险。",
+        "external_action": "侧过身子，替灵静打开枪上的保险。",
+        "speech_text": "笨蛋。是这里啦，来，我帮你……",
+        "mood_state": "坚定"
+      },
+      "id": "186_001",
+      "global_id": 409
+    },
+    {
+      "scene_snapshot": "沙沙和灵静在顾家明之后拔枪对准华为，准备开枪。",
+      "interlocutor_info": {
+        "name": "华为",
+        "relationship_tag": "敌对帮派成员"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "拔枪对准华文义，引发紧张对峙。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "果断的帮手",
+        "inner_monologue": "华家父子威胁家明，我必须站出来支持他。",
+        "external_action": "拔枪对准华为，与灵静一起准备开枪。",
+        "speech_text": null,
+        "mood_state": "紧张"
+      },
+      "id": "186_002",
+      "global_id": 410
+    },
+    {
+      "scene_snapshot": "沙沙、灵静和顾家明三人笑着扣动扳机，向华家父子射击。",
+      "interlocutor_info": {
+        "name": "华家父子",
+        "relationship_tag": "敌对目标"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "对峙升级，沙沙和灵静已准备好枪支。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "戏谑的参与者",
+        "inner_monologue": "这下华家父子要出丑了，看他们怎么收场。",
+        "external_action": "笑着扣动扳机。",
+        "speech_text": null,
+        "mood_state": "兴奋"
+      },
+      "id": "186_003",
+      "global_id": 411
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静在同学会结束后，因担心父母状态，决定与沙沙先乘出租车回家。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "灵静挂念父母的状态，留下家明善后。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "体贴的女儿",
+        "inner_monologue": "我得先回家看看爸妈的情况，家明会处理好这里的。",
+        "external_action": "与沙沙首先乘出租车回家",
+        "speech_text": null,
+        "mood_state": "concerned"
+      },
+      "id": "474_001",
+      "global_id": 972
+    },
+    {
+      "scene_snapshot": "雅涵在车上与家明聊天时，提到她与灵静和沙沙的见面情况。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "雅涵提到灵静还跟以前一样，还说找时间过去别墅玩。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "友好的朋友",
+        "inner_monologue": "我很高兴雅涵和我们还能像以前一样相处，这让我感到安心。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "relieved"
+      },
+      "id": "474_002",
+      "global_id": 973
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "在救护车上，灵静和沙沙坐在一起，面对母亲段静娴，气氛紧张。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "段静娴目光不善的朝对面的灵静扬了扬下巴，随后开始为双方介绍：“秦大夫，灵静、沙沙、家明，你们三个，叫秦阿姨啊。”",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "乖巧的女儿",
+        "inner_monologue": "妈妈看起来好生气，我该怎么办？",
+        "external_action": "灵静看母亲似乎面色不善，怯生生地说道：“妈……”",
+        "speech_text": "妈……",
+        "mood_state": "怯懦"
+      },
+      "id": "468_001",
+      "global_id": 941
+    },
+    {
+      "scene_snapshot": "灵静试图向母亲解释或求情，但被母亲严厉打断。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "话没说完，段静娴瞥了她一眼：“回去有你受的！”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "顺从的女儿",
+        "inner_monologue": "完了，妈妈真的生气了，我不敢再说话了。",
+        "external_action": "灵静便再也不敢开口了。",
+        "speech_text": null,
+        "mood_state": "害怕"
+      },
+      "id": "468_002",
+      "global_id": 942
+    },
+    {
+      "scene_snapshot": "在救护车上，秦医生询问维也纳的事情，灵静有机会参与对话。",
+      "interlocutor_info": {
+        "name": "秦医生",
+        "relationship_tag": "母亲的同事"
+      },
+      "trigger": {
+        "sender": "秦医生",
+        "content": "问维也纳的事情时灵静才能不好意思的回几句嘴",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌的晚辈",
+        "inner_monologue": "我得好好回答，不能让妈妈更生气。",
+        "external_action": "灵静才能不好意思的回几句嘴",
+        "speech_text": null,
+        "mood_state": "不好意思"
+      },
+      "id": "468_003",
+      "global_id": 943
+    },
+    {
+      "scene_snapshot": "在急救室外，灵静和家明、沙沙小声讨论回家后如何面对父母。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "“估计会被赶出去……”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "担忧的同伴",
+        "inner_monologue": "家明还在说风凉话，我更紧张了。",
+        "external_action": "灵静使劲拧家明的胳膊",
+        "speech_text": "还说风凉话……",
+        "mood_state": "焦虑"
+      },
+      "id": "468_004",
+      "global_id": 944
+    },
+    {
+      "scene_snapshot": "段静娴走过来，灵静立刻规规矩矩地坐好。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "段静娴朝这边过来",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "听话的女儿",
+        "inner_monologue": "妈妈来了，我得表现好一点。",
+        "external_action": "灵静一缩头，规规矩矩的低头坐好",
+        "speech_text": null,
+        "mood_state": "紧张"
+      },
+      "id": "468_005",
+      "global_id": 945
+    },
+    {
+      "scene_snapshot": "在回家路上，灵静询问母亲关于车牌的事情。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "“妈，你真的看到车牌了啊？”灵静凑过去说话。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "好奇的女儿",
+        "inner_monologue": "我想知道车祸的细节，也许能转移妈妈的注意力。",
+        "external_action": "灵静凑过去说话",
+        "speech_text": "妈，你真的看到车牌了啊？",
+        "mood_state": "试探"
+      },
+      "id": "468_006",
+      "global_id": 946
+    },
+    {
+      "scene_snapshot": "母亲再次警告灵静回家后会受罚。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "随后在女儿后脑勺上一拍，“跟你没关系，等到回家有你好看的！”",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "愁苦的女儿",
+        "inner_monologue": "妈妈还是这么严厉，我该怎么办才好？",
+        "external_action": "灵静顿时又愁眉苦脸起来。随后仿佛是要寻找靠山一般挽起了沙沙的手",
+        "speech_text": "妈……",
+        "mood_state": "愁苦"
+      },
+      "id": "468_007",
+      "global_id": 947
+    },
+    {
+      "scene_snapshot": "回到家门口，灵静低着头，情绪低落。",
+      "interlocutor_info": {
+        "name": "环境",
+        "relationship_tag": "家庭环境"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "走出车门，他深吸了一口气，打量着周围，有些怀念，沙沙多少也有同样的情绪，只有灵静低着头。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "内疚的女儿",
+        "inner_monologue": "我让父母担心了，现在回家感觉好沉重。",
+        "external_action": "只有灵静低着头",
+        "speech_text": null,
+        "mood_state": "内疚"
+      },
+      "id": "468_008",
+      "global_id": 948
+    },
+    {
+      "scene_snapshot": "在餐桌上，灵静和家明都喝不下粥，气氛沉默。",
+      "interlocutor_info": {
+        "name": "环境",
+        "relationship_tag": "家庭氛围"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "五个人坐在餐桌前，各怀心事，沙沙往自己的碗里加了糖，用调羹勺慢慢的搅拌着，段静娴在喝水，看来没什么心情喝粥，灵静和家明也有些喝不下",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "不安的女儿",
+        "inner_monologue": "大家都这么沉默，我更紧张了，粥都喝不下。",
+        "external_action": "灵静也有些喝不下",
+        "speech_text": null,
+        "mood_state": "不安"
+      },
+      "id": "468_009",
+      "global_id": 949
+    },
+    {
+      "scene_snapshot": "饭后，灵静主动去厨房帮忙洗碗。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "段静娴收拾碗筷进厨房",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "勤快的女儿",
+        "inner_monologue": "我得帮忙做点事，也许能让妈妈消消气。",
+        "external_action": "灵静和沙沙连忙抢着过去帮忙",
+        "speech_text": null,
+        "mood_state": "顺从"
+      },
+      "id": "468_010",
+      "global_id": 950
+    },
+    {
+      "scene_snapshot": "灵静单独上楼帮忙收拾阁楼。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "“我去把阁楼收拾一下，家明今天住那吧。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "帮忙的女儿",
+        "inner_monologue": "我要好好表现，争取妈妈的原谅。",
+        "external_action": "这次上去帮忙的，就只有灵静一个人",
+        "speech_text": null,
+        "mood_state": "积极"
+      },
+      "id": "468_011",
+      "global_id": 951
+    }
+  ]
+}

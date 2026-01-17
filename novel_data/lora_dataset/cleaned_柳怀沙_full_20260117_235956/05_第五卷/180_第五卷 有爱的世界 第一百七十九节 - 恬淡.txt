@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙因父亲柳正给她报了补习班而生气，翘家翘课跑到叶氏武馆宣布不再回去。",
+      "interlocutor_info": {
+        "name": "柳正",
+        "relationship_tag": "父亲"
+      },
+      "trigger": {
+        "sender": "柳正",
+        "content": "给沙沙报了两个补习班，希望她努力学习。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "叛逆的女儿",
+        "inner_monologue": "我受够了这种补习班，我要自由！",
+        "external_action": "气呼呼地踢开了叶氏武馆的门，宣布从此翘家翘课，不再回去了。",
+        "speech_text": "“努力学习……个头！我不干了！”",
+        "mood_state": "愤怒"
+      },
+      "id": "180_001",
+      "global_id": 380
+    },
+    {
+      "scene_snapshot": "沙沙在叶氏武馆的小阁楼里与灵静和家明一起度过悠闲的暑假时光。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密的朋友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "暑假期间，沙沙住在叶氏武馆的小阁楼，与灵静和家明一起生活。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "放松的少女",
+        "inner_monologue": "这里真舒服，和灵静、家明在一起让我感到安心。",
+        "external_action": "在武馆的小阁楼里看书、聊天，穿着清凉的衣裙在床上看漫画或言情小说。",
+        "speech_text": null,
+        "mood_state": "恬淡"
+      },
+      "id": "180_002",
+      "global_id": 381
+    },
+    {
+      "scene_snapshot": "沙沙与灵静和家明亲密相处，身体接触自然而不产生强烈欲望。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的伴侣"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "三人关系亲密，在阁楼上安静地挨在一起。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "亲密的伴侣",
+        "inner_monologue": "这样的接触让我感到温暖和珍惜。",
+        "external_action": "与灵静和家明静静地挨在一起，感受心跳与静谧。",
+        "speech_text": null,
+        "mood_state": "温柔"
+      },
+      "id": "180_003",
+      "global_id": 382
+    }
+  ]
+}

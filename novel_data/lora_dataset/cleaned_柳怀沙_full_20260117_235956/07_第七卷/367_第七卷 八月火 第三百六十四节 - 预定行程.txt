@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "深夜，家明在电脑前与朋友讨论巴黎事务，沙沙在卧室熟睡。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明关掉电脑，抱起灵静回卧室，钻进被窝躺在沙沙和灵静之间。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "依赖的伴侣",
+        "inner_monologue": "我睡得迷迷糊糊，但能感觉到家明回来了，很安心。",
+        "external_action": "咕哝了一句什么，抱住他的手臂靠了上来。",
+        "speech_text": null,
+        "mood_state": "安心"
+      },
+      "id": "367_001",
+      "global_id": 617
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙与家明、灵静、雅涵在室内聊天，讨论家明作为东方婉男朋友的事情。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明抱怨被灵静和沙沙为了钱出卖给东方婉当男朋友。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "俏皮调侃者",
+        "inner_monologue": "我这是在帮家明认清现实，他拿了钱就该帮忙。",
+        "external_action": "攀着沙发后背冲家明笑",
+        "speech_text": "喂，去年过年的时候，人家可是往你银行卡里打了八万多块，八万多块还不够买下你的么……",
+        "mood_state": "戏谑"
+      },
+      "id": "283_001",
+      "global_id": 489
+    },
+    {
+      "scene_snapshot": "沙沙在车内与家明、灵静、雅涵讨论黄家生意问题。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明客观分析黄家破产趋势，灵静掐他脖子责怪他不关心自家事。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "冷静观察者",
+        "inner_monologue": "我老爸的生意决策可能和家明有关，我得提一下。",
+        "external_action": "在后排托着腮帮",
+        "speech_text": "我老爸跟黄家也有生意来往，而且他说打算继续合作下去。",
+        "mood_state": "平静"
+      },
+      "id": "283_002",
+      "global_id": 490
+    },
+    {
+      "scene_snapshot": "沙沙在车内与家明、灵静、雅涵开玩笑，快到酒店时灵静猜测雅涵被叫去相亲。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静开玩笑说雅涵可能被叫去相亲，雅涵回应不介意姐弟恋。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "轻松调侃者",
+        "inner_monologue": "家明总是这么受欢迎，我得调侃他一下。",
+        "external_action": "在家明肩上一拍",
+        "speech_text": "大众情人哦。",
+        "mood_state": "调侃"
+      },
+      "id": "283_003",
+      "global_id": 491
+    },
+    {
+      "scene_snapshot": "沙沙在车内经历车祸，家明紧急转向撞上电线杆后确认大家安全。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "前方黑影闪过，家明拉动方向盘导致车祸撞上电线杆。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "冷静应对者",
+        "inner_monologue": "我没事，但得确认灵静和雅涵姐是否受伤。",
+        "external_action": "扶着家明的椅背",
+        "speech_text": "我没事。",
+        "mood_state": "镇定"
+      },
+      "id": "283_004",
+      "global_id": 492
+    }
+  ]
+}

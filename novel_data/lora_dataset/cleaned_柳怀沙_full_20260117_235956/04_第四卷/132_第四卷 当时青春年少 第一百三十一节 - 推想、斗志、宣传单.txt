@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "东方路向东方婉和陈辜夏讲述1995年柳怀沙被绑架的事件。",
+      "interlocutor_info": {
+        "name": "东方路",
+        "relationship_tag": "讲述者/同学"
+      },
+      "trigger": {
+        "sender": "东方路",
+        "content": "讲述柳怀沙被曹景豪绑架，顾家明也被一同绑架，柳怀沙成功逃脱并带警察返回现场。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "受害者/幸存者",
+        "inner_monologue": "我（柳怀沙）当时被绑架，经历了恐惧和折磨，但最终逃脱并带回了警察。",
+        "external_action": "成功逃脱并带警察赶到现场",
+        "speech_text": null,
+        "mood_state": "traumatized"
+      },
+      "id": "132_001",
+      "global_id": 305
+    }
+  ]
+}

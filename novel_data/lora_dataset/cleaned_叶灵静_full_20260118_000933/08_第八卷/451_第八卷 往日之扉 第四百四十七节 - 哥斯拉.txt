@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Romance"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在车内发现顾家明后，情绪激动地下车与他重逢。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "失散多年的爱人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "顾家明坐在小车后排，目光越过四年光阴望向灵静和沙沙。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "情感压抑的恋人",
+        "inner_monologue": "我找到阿丑了，这真的是他吗？四年了，我终于又见到他了……",
+        "external_action": "咽了一口口水，深吸一口气，将手朝后方伸过去，手指触碰顾家明皮肤后弹开又被握住，站在车门外望着顾家明，呼吸时而缓慢时而急促。",
+        "speech_text": null,
+        "mood_state": "激动"
+      },
+      "id": "451_001",
+      "global_id": 888
+    },
+    {
+      "scene_snapshot": "顾家明下车买水后，与叶灵静在路边沉默对视。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "失散多年的爱人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "顾家明买水回来，靠在栏杆上与灵静相对站着。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "沉默观察的恋人",
+        "inner_monologue": "他就站在我面前，我该说什么？这四年的一切都涌上心头……",
+        "external_action": "沉默地盯着顾家明看。",
+        "speech_text": null,
+        "mood_state": "紧张"
+      },
+      "id": "451_002",
+      "global_id": 889
+    },
+    {
+      "scene_snapshot": "顾家明轻声说“我回来了”并拥抱叶灵静。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "失散多年的爱人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "顾家明轻声说“我回来了”，然后向前两步抱住灵静。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "情感爆发的恋人",
+        "inner_monologue": "他回来了，他真的回来了……这四年的委屈和心痛都要发泄出来。",
+        "external_action": "被顾家明拥抱，身体失去所有力气，随后咬住顾家明肩膀，用拳头锤他的背。",
+        "speech_text": null,
+        "mood_state": "释然"
+      },
+      "id": "451_003",
+      "global_id": 890
+    },
+    {
+      "scene_snapshot": "叶灵静在拥抱后无力松开，任由顾家明抱着。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "失散多年的爱人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "顾家明继续拥抱灵静，没有松开。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "疲惫虚弱的恋人",
+        "inner_monologue": "我太累了，心力耗尽，就这样让他抱着我吧……",
+        "external_action": "无力的松开嘴，身体微微呼吸和颤抖，双手垂在身侧，任由顾家明抱着站立。",
+        "speech_text": null,
+        "mood_state": "疲惫"
+      },
+      "id": "451_004",
+      "global_id": 891
+    },
+    {
+      "scene_snapshot": "顾家明让叶灵静坐回车里，以应对远处出现的威胁。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "失散多年的爱人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "顾家明让灵静坐回车里，自己喝水并打量远处的奎托斯和米莉亚。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "顺从的伴侣",
+        "inner_monologue": "他让我坐回去，外面有危险，我得听他的。",
+        "external_action": "坐回车里。",
+        "speech_text": null,
+        "mood_state": "担忧"
+      },
+      "id": "451_005",
+      "global_id": 892
+    }
+  ]
+}

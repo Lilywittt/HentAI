@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "薰在诊所里擦拭玻璃门，一名中年男子（孩子的父亲）在她身边搭话。",
+      "interlocutor_info": {
+        "name": "中年男子（孩子的父亲）",
+        "relationship_tag": "陌生人/病人家长"
+      },
+      "trigger": {
+        "sender": "中年男子（孩子的父亲）",
+        "content": "正在护士身边说着些什么，笑容温和有礼。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "专业护士",
+        "inner_monologue": "I need to focus on my work and maintain professionalism.",
+        "external_action": "正在用抹布擦拭着玻璃门。",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "503_001",
+      "global_id": 358
+    },
+    {
+      "scene_snapshot": "薰在诊所外与灵静、小男孩（允杰）互动。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "朋友/同事"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "从里间拿了拖把出去帮忙薰做打扫。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "友善同事",
+        "inner_monologue": "I appreciate the help from a friend.",
+        "external_action": "与灵静一起打扫。",
+        "speech_text": null,
+        "mood_state": "平和"
+      },
+      "id": "503_002",
+      "global_id": 359
+    },
+    {
+      "scene_snapshot": "小男孩（允杰）跑进来要帮薰搞卫生。",
+      "interlocutor_info": {
+        "name": "允杰",
+        "relationship_tag": "朋友的孩子"
+      },
+      "trigger": {
+        "sender": "允杰",
+        "content": "跑去里间拿抹布：'我去帮薰姨搞卫生。'",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "亲切阿姨",
+        "inner_monologue": "I'm glad he wants to help, he's such an active child.",
+        "external_action": "接受允杰的帮助一起打扫。",
+        "speech_text": null,
+        "mood_state": "温和"
+      },
+      "id": "503_003",
+      "global_id": 360
+    }
+  ]
+}

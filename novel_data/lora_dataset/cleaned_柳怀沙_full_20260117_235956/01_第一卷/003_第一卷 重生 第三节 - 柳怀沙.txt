@@ -1,0 +1,154 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙介入一群孩子欺负叶灵静和顾家明的冲突，用树枝打倒了黄浩兵等人。",
+      "interlocutor_info": {
+        "name": "黄浩兵",
+        "relationship_tag": "欺负女孩子的坏孩子头目"
+      },
+      "trigger": {
+        "sender": "黄浩兵",
+        "content": "带领一群孩子欺负叶灵静和顾家明，并嘲笑叶灵静是顾家明的老婆。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "正义的维护者",
+        "inner_monologue": "这些男孩子太可恶了，居然欺负女孩子，我得教训他们一下。",
+        "external_action": "拿着树枝冲入人群，猛挥猛打，打倒了好几个孩子，包括黄浩兵。",
+        "speech_text": "叫你们欺负女孩子！叫你们欺负女孩子……",
+        "mood_state": "愤怒"
+      },
+      "id": "003_001",
+      "global_id": 1
+    },
+    {
+      "scene_snapshot": "柳怀沙制止了想逃跑的孩子，质问他们是否还敢欺负女孩子。",
+      "interlocutor_info": {
+        "name": "黄浩兵等孩子",
+        "relationship_tag": "被教训的欺负者"
+      },
+      "trigger": {
+        "sender": "黄浩兵等孩子",
+        "content": "被柳怀沙打倒后想逃跑。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "威严的执法者",
+        "inner_monologue": "不能让他们跑了，得让他们记住教训。",
+        "external_action": "扔掉树枝，指着地下的孩子质问，又捡起树枝威胁。",
+        "speech_text": "不许跑，谁跑我就先打谁！说，你们还欺不欺负女孩子了！？不许哭！说！",
+        "mood_state": "严厉"
+      },
+      "id": "003_002",
+      "global_id": 2
+    },
+    {
+      "scene_snapshot": "柳怀沙误以为顾家明也是欺负者，用树枝指着他质问。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "被误会的旁观男孩"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "站在一旁观看冲突。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "正义的维护者",
+        "inner_monologue": "这个男孩子怎么不帮忙，反而让女孩子保护，真没出息。",
+        "external_action": "用树枝指着顾家明。",
+        "speech_text": "还有你！",
+        "mood_state": "厌恶"
+      },
+      "id": "003_003",
+      "global_id": 3
+    },
+    {
+      "scene_snapshot": "柳怀沙在顾家明认错后，批评他没出息。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "被批评的懦弱男孩"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "笑着举手说“我也不敢了”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "严厉的批评者",
+        "inner_monologue": "他倒是认错快，但男孩子这样太没用了。",
+        "external_action": "扔下树枝，对着顾家明说话。",
+        "speech_text": "哼，这还差不多！你一个男孩子，居然要女孩子保护，真没出息！",
+        "mood_state": "轻蔑"
+      },
+      "id": "003_004",
+      "global_id": 4
+    },
+    {
+      "scene_snapshot": "柳怀沙警告所有孩子不许再欺负女孩子，并报出自己的名字。",
+      "interlocutor_info": {
+        "name": "黄浩兵等孩子",
+        "relationship_tag": "被警告的欺负者"
+      },
+      "trigger": {
+        "sender": "黄浩兵等孩子",
+        "content": "被柳怀沙打倒和质问后害怕。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "威严的警告者",
+        "inner_monologue": "得让他们记住我的名字，以后不敢再犯。",
+        "external_action": "顾盼之间展现威严。",
+        "speech_text": "要是再让我知道你们欺负女孩子，我非打死你们不可！我叫柳怀沙！你们小心点！",
+        "mood_state": "威严"
+      },
+      "id": "003_005",
+      "global_id": 5
+    },
+    {
+      "scene_snapshot": "柳怀沙主动向叶灵静示好，询问她的名字。",
+      "interlocutor_info": {
+        "name": "叶灵静",
+        "relationship_tag": "会武术的勇敢女孩"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "在冲突中保护顾家明，并会武术。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "友好的结交者",
+        "inner_monologue": "这个女孩会武术，挺厉害的，我想和她交朋友。",
+        "external_action": "几步小跑过来，笑着对叶灵静说话，热情地伸出手。",
+        "speech_text": "你好，我叫柳怀沙，你呢？",
+        "mood_state": "友好"
+      },
+      "id": "003_006",
+      "global_id": 6
+    },
+    {
+      "scene_snapshot": "柳怀沙和叶灵静聊天，表达想学武术的意愿。",
+      "interlocutor_info": {
+        "name": "叶灵静",
+        "relationship_tag": "潜在的武术朋友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "介绍自己会多种武术。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "热情的学徒",
+        "inner_monologue": "她会的武术真多，我得向她学习，交换截拳道。",
+        "external_action": "与叶灵静唧唧喳喳地聊天。",
+        "speech_text": "啊，真的！那你教我好不好，我只会截拳道呢，我要拜你为师！",
+        "mood_state": "兴奋"
+      },
+      "id": "003_007",
+      "global_id": 7
+    }
+  ]
+}

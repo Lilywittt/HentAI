@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "薰被天雨正则拉住，无法进入混乱的庄园，龙堂唯安慰她，而天雨正则分析基地内的战斗情况。",
+      "interlocutor_info": {
+        "name": "天雨正则",
+        "relationship_tag": "异能者盟友"
+      },
+      "trigger": {
+        "sender": "天雨正则",
+        "content": "拉住薰的手，阻止她进入庄园，并质疑她的能力。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "执拗的担忧者",
+        "inner_monologue": "我一定要进去看看，家明可能在里面有危险，我不能袖手旁观。",
+        "external_action": "脸色铁青，咬紧牙关，浑身发抖，挣扎不掉。",
+        "speech_text": "我要进去……",
+        "mood_state": "焦虑"
+      },
+      "id": "403_001",
+      "global_id": 312
+    },
+    {
+      "scene_snapshot": "薰被天雨正则阻止后，龙堂唯过来握住她的手安慰她。",
+      "interlocutor_info": {
+        "name": "龙堂唯",
+        "relationship_tag": "安慰的朋友"
+      },
+      "trigger": {
+        "sender": "龙堂唯",
+        "content": "握住薰的手，安慰她顾家明会没事。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "被安慰的担忧者",
+        "inner_monologue": "唯说得对，家明很厉害，但我还是忍不住担心，这黑暗中的战斗太可怕了。",
+        "external_action": "被握住手，没有挣脱，脸色铁青。",
+        "speech_text": null,
+        "mood_state": "担忧"
+      },
+      "id": "403_002",
+      "global_id": 313
+    }
+  ]
+}

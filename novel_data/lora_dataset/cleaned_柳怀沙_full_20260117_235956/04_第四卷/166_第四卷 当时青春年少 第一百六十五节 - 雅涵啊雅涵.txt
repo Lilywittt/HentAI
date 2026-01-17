@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙和灵静在床上与家明打闹后，询问家明关于雅涵的事情。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "男友/伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明穿鞋准备离开时，沙沙询问雅涵叫家明去说了什么。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心且担忧的女友",
+        "inner_monologue": "我担心雅涵姐的反应，她发现了我们的关系，这可能会很麻烦。",
+        "external_action": "在床上跟灵静搂在一块儿，语无伦次地说话。",
+        "speech_text": "但但但但但但但是……她……雅涵姐反应怎么样，你……你怎么能坦白呢！",
+        "mood_state": "anxious"
+      },
+      "id": "166_001",
+      "global_id": 369
+    },
+    {
+      "scene_snapshot": "沙沙听到家明坦白后，表达对雅涵反应的担忧。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "男友/伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明解释雅涵很生气，觉得他花心，但问题应该不大。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "紧张且不安的女友",
+        "inner_monologue": "雅涵姐生气了，这可能会影响我们的关系，我得和灵静商量怎么办。",
+        "external_action": "在窃窃私语地议论，可能和灵静讨论此事。",
+        "speech_text": null,
+        "mood_state": "worried"
+      },
+      "id": "166_002",
+      "global_id": 370
+    }
+  ]
+}

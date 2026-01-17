@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "雅涵起床后与沙沙讨论江于薇和谭君荣的事情，并提到杜丽丢失内衣裤的传闻。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "亲近的姐姐/朋友"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "雅涵询问沙沙江于薇与灵静的谈话内容，并表达对谭君荣的不看好。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "友好而略带尴尬的妹妹",
+        "inner_monologue": "雅涵姐直接点出我和灵静与家明的关系，让我有点不好意思。",
+        "external_action": "不好意思地笑了笑",
+        "speech_text": "是啊，我也不是很喜欢她，其实灵静也知道了，不过江于薇不是要过来牵线的……对了，雅涵姐，你的内衣裤没有丢吧？",
+        "mood_state": "尴尬"
+      },
+      "id": "332_001",
+      "global_id": 536
+    },
+    {
+      "scene_snapshot": "沙沙告诉雅涵杜丽丢失内衣裤的传闻，引发对变态色狼的讨论。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "亲近的姐姐/朋友"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "雅涵回应沙沙关于内衣裤丢失的询问，表示自己没丢。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "八卦而关心的朋友",
+        "inner_monologue": "这个传闻真奇怪，我得提醒雅涵姐检查一下。",
+        "external_action": null,
+        "speech_text": "听江于薇说，那个杜丽今天早上醒来，发现她昨晚换下的胸围和内裤不见了，她怀疑有变态色狼混在我们队伍里面啊，现在正在暗地里问呢。",
+        "mood_state": "好奇"
+      },
+      "id": "332_002",
+      "global_id": 537
+    },
+    {
+      "scene_snapshot": "家明开玩笑指责薰是偷内衣裤的变态，沙沙踢了他一脚并指责他。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "男朋友/亲密伙伴"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明开玩笑说薰可能有收集美女内衣裤的嗜好。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "直率而维护朋友的女友",
+        "inner_monologue": "家明这家伙又在胡说八道，薰可是我的朋友，不能让他乱说。",
+        "external_action": "一脚踢在家明的屁股上",
+        "speech_text": "顾家明，这种话你也说得出来，欠扁啊。",
+        "mood_state": "恼怒"
+      },
+      "id": "332_003",
+      "global_id": 538
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Negotiation"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰在咖啡馆与顾家明和天雨正则会面，表达感谢和歉意。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "救命恩人/神秘人物"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明在对面的一个座位上坐下，点了一杯咖啡，方才说道：“知不知道警察现在在盯你，这个时候把我约出来，有可能会给我惹上麻烦，我最讨厌麻烦。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "恭敬的感谢者",
+        "inner_monologue": "我因为透露了信息给天雨君而感到愧疚，希望顾君能原谅我的不成熟。",
+        "external_action": "双手放在腿上鞠了个躬，向来没什么表情的脸上竟然露出了一丝歉疚之意。",
+        "speech_text": null,
+        "mood_state": "歉疚"
+      },
+      "id": "042_001",
+      "global_id": 37
+    },
+    {
+      "scene_snapshot": "月池薰在天雨正则解释顾家明的玩笑后，认真思考其含义。",
+      "interlocutor_info": {
+        "name": "天雨正则",
+        "relationship_tag": "保护者/导师"
+      },
+      "trigger": {
+        "sender": "天雨正则",
+        "content": "“嗯，说了他是日本一夜九世家的第二子。”天雨正则似笑非笑地说道。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "认真的学习者",
+        "inner_monologue": "一夜九世家第二子？这听起来很奇怪，我需要理解顾君话中的真实意思。",
+        "external_action": "月池薰重复着那个奇怪的名字，天雨正则望着她一本正经的样子，不由得失笑。",
+        "speech_text": "“一夜九世家……第二子……”",
+        "mood_state": "困惑"
+      },
+      "id": "042_002",
+      "global_id": 38
+    }
+  ]
+}

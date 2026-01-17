@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在帐篷里看书，顾家明进来后两人轻松互动。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "走进帐篷并开玩笑说要睡在这里。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "俏皮女友",
+        "inner_monologue": "他这时候来我帐篷干嘛，不过看到他我就开心。",
+        "external_action": "笑着用书挡住脸，拍开他的手，拉他躺下并按摩头部。",
+        "speech_text": "你这个时候跑到我帐篷里来干嘛，大色狼，去找你女朋友沙沙去。",
+        "mood_state": "温柔"
+      },
+      "id": "331_001",
+      "global_id": 663
+    },
+    {
+      "scene_snapshot": "叶灵静察觉顾家明身体不适，担忧地询问。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "对灵静的询问愣住不知如何回答。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "体贴女友",
+        "inner_monologue": "他肯定不舒服，我得关心他。",
+        "external_action": "轻轻按摩他的头部，眼中露出忧虑。",
+        "speech_text": "家明，你不舒服吧？",
+        "mood_state": "担忧"
+      },
+      "id": "331_002",
+      "global_id": 664
+    }
+  ]
+}

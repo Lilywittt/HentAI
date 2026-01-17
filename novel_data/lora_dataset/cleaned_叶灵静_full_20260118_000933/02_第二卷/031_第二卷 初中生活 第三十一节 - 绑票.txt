@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在叶家为沙沙庆祝生日，家明开玩笑说有两个童养媳。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "“呃，那我不就有两个童养媳了？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "害羞的少女",
+        "inner_monologue": "家明怎么突然说这种话，太羞人了。",
+        "external_action": "轻啐一声，红着脸使劲打他",
+        "speech_text": null,
+        "mood_state": "羞涩"
+      },
+      "id": "031_001",
+      "global_id": 103
+    },
+    {
+      "scene_snapshot": "叶灵静在学校帮忙老师分类资料，家明和沙沙在校外等她时被绑架。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "家明和沙沙在校外被绑架，叶灵静不在场但被提及。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "缺席的同伴",
+        "inner_monologue": "家明和沙沙怎么还没回来？我得赶紧做完去找他们。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "担忧"
+      },
+      "id": "031_002",
+      "global_id": 104
+    },
+    {
+      "scene_snapshot": "曹东峰在绑架现场质问手下为什么没抓到叶灵静。",
+      "interlocutor_info": {
+        "name": "曹东峰",
+        "relationship_tag": "讨厌的同学"
+      },
+      "trigger": {
+        "sender": "曹东峰",
+        "content": "“是啊，叶灵静呢，你们怎么没把她也抓来？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被觊觎的对象",
+        "inner_monologue": "曹东峰这个混蛋，居然还想抓我，真恶心。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "厌恶"
+      },
+      "id": "031_003",
+      "global_id": 105
+    }
+  ]
+}

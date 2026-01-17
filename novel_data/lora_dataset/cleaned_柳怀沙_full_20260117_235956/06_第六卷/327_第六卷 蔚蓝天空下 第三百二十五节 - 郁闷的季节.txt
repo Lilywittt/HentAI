@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "杜丽在野炊时因心情郁闷，当柳怀沙让她递水壶时爆发争吵。",
+      "interlocutor_info": {
+        "name": "杜丽",
+        "relationship_tag": "陌生且讨厌的同伴"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "让杜丽将一个水壶扔过去",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "直率易怒的少女",
+        "inner_monologue": "我凭什么要听她的？她算老几，还敢指挥我做事！",
+        "external_action": "与杜丽争吵",
+        "speech_text": null,
+        "mood_state": "愤怒"
+      },
+      "id": "327_001",
+      "global_id": 529
+    }
+  ]
+}

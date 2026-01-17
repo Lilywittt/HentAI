@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在体育馆观看家明与韩刚成的调解赛，听到韩刚成挑衅家明后冲动想冲上去打人。",
+      "interlocutor_info": {
+        "name": "韩刚成",
+        "relationship_tag": "讨厌的挑衅者"
+      },
+      "trigger": {
+        "sender": "韩刚成",
+        "content": "你怕啦？死心吧，今天这场你打定了，等着挨揍吧！",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冲动的保护者",
+        "inner_monologue": "我得先上去给这个大个子一棒，这样家明就不用打架了。",
+        "external_action": "皱了皱眉头，当即便要冲上去",
+        "speech_text": null,
+        "mood_state": "愤怒"
+      },
+      "id": "059_001",
+      "global_id": 180
+    },
+    {
+      "scene_snapshot": "沙沙被灵静拉住后，家明回头安慰她和灵静。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "关心的人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明回过头来，安慰似的望了两人一眼",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "被安抚的同伴",
+        "inner_monologue": "家明在安慰我们，他应该没事的，我相信他。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "安心"
+      },
+      "id": "059_002",
+      "global_id": 181
+    },
+    {
+      "scene_snapshot": "沙沙和灵静在台下观看比赛，看到家明躲避韩刚成的攻击时笑成一团。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "有趣的朋友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明在擂台上不断躲避韩刚成的攻击，动作滑稽",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "兴奋的观众",
+        "inner_monologue": "哈哈，家明又在用他那一套了，终于能让别人也尝尝这种郁闷感了。",
+        "external_action": "灵静与沙沙已经在下面笑着抱成了一团",
+        "speech_text": null,
+        "mood_state": "兴奋"
+      },
+      "id": "059_003",
+      "global_id": 182
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Romance"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明在厨房里唤醒昏迷的灵静，并抱着她寻找安全地点躲避危险。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明解开上衣，将蜷缩成一团的少女深深地搂进怀里，摩擦她冰冷的四肢，并轻声呼唤她。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "依赖的恋人",
+        "inner_monologue": "我终于找到家明了，有他在我就安全了。",
+        "external_action": "缓缓睁开眼睛，抬头望着家明，身体放松依顺他的胸膛。",
+        "speech_text": "家明……我终于找到你了……",
+        "mood_state": "安心"
+      },
+      "id": "092_001",
+      "global_id": 263
+    },
+    {
+      "scene_snapshot": "灵静和家明躲在小房间里，灵静讲述自己如何躲进冰柜的经历。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/倾听者"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "枪声、人声、风雨声传来，两人在毯子包裹下依偎。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "倾诉的伴侣",
+        "inner_monologue": "在冰柜里时，我相信家明一定会来救我，现在终于可以告诉他我的经历了。",
+        "external_action": "乖巧地缩在家明怀里，小声说话。",
+        "speech_text": "……因为我们找不到你，又听说下面会很危险，沙沙就想下来找你……黑暗里，我觉得家明你一定会过来找我，然后你就真的找到我了……",
+        "mood_state": "信任"
+      },
+      "id": "092_002",
+      "global_id": 264
+    },
+    {
+      "scene_snapshot": "家明为灵静戴上坠子，并叮嘱她不要冲动。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/守护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明从口袋里拿出坠子为灵静戴上，并说：“戴上我送的东西，就是我的人了……下次不要这么冲动了。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "顺从的恋人",
+        "inner_monologue": "家明这么关心我，我一定要听他的话。",
+        "external_action": "用自己的脸颊轻轻摩擦家明的侧脸，喝咖啡，点头。",
+        "speech_text": "家明，你是怎么找到我的呢？",
+        "mood_state": "依恋"
+      },
+      "id": "092_003",
+      "global_id": 265
+    },
+    {
+      "scene_snapshot": "灵静向家明坦白与沙沙的亲密经历，表达自己的感受。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/知己"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明说有一个秘密要告诉灵静，灵静回应自己也有秘密要交换。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坦诚的伴侣",
+        "inner_monologue": "我必须告诉家明这件事，让他理解我的感受，虽然很害羞。",
+        "external_action": "抿着嘴，深吸气，笑出来，害羞得脸埋到胸脯，用额头顶家明。",
+        "speech_text": "其实……其实我跟沙沙……还不算百合啦……昨天……沙沙用手指那个我……我也没有觉得太讨厌，只是心中知道，那是不对的……我希望我们三个人永远都在一起……我的身子，只想给家明你……",
+        "mood_state": "羞怯"
+      },
+      "id": "092_004",
+      "global_id": 266
+    },
+    {
+      "scene_snapshot": "家明准备去对付敌人，灵静担心地拉住他。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明说走廊来了四个坏蛋，并抱起灵静放到一边，准备离开。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "担忧的恋人",
+        "inner_monologue": "家明要去冒险了，我好害怕他会受伤，但我必须相信他。",
+        "external_action": "眼中闪过一丝恐惧，伸手拉住家明的裤腿。",
+        "speech_text": null,
+        "mood_state": "恐惧"
+      },
+      "id": "092_005",
+      "global_id": 267
+    }
+  ]
+}

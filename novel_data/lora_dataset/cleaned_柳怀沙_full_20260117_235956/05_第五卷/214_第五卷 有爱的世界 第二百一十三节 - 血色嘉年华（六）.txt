@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙和薰在受伤状态下被坦克追击，在小树林中发生激烈战斗。",
+      "interlocutor_info": {
+        "name": "坦克",
+        "relationship_tag": "敌人"
+      },
+      "trigger": {
+        "sender": "坦克",
+        "content": "开枪射击沙沙和薰",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "勇敢反抗者",
+        "inner_monologue": "我必须保护自己和薰，不能让他得逞。",
+        "external_action": "被薰推开躲过子弹，随后在薰被击飞后猛冲向坦克攻击",
+        "speech_text": null,
+        "mood_state": "坚毅"
+      },
+      "id": "214_001",
+      "global_id": 438
+    },
+    {
+      "scene_snapshot": "沙沙在薰被坦克击飞后，主动冲向坦克进行攻击。",
+      "interlocutor_info": {
+        "name": "坦克",
+        "relationship_tag": "敌人"
+      },
+      "trigger": {
+        "sender": "坦克",
+        "content": "击飞薰并准备追击",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "果断反击者",
+        "inner_monologue": "薰受伤了，我必须拖住他，不能让他继续伤害我们。",
+        "external_action": "用直拳攻击坦克，抽出皮带扣抽向对方头部，试图踢向对方双腿之间",
+        "speech_text": null,
+        "mood_state": "愤怒"
+      },
+      "id": "214_002",
+      "global_id": 439
+    },
+    {
+      "scene_snapshot": "沙沙被坦克一拳击飞，薰捡起树干反击后拉起沙沙逃跑。",
+      "interlocutor_info": {
+        "name": "坦克",
+        "relationship_tag": "敌人"
+      },
+      "trigger": {
+        "sender": "坦克",
+        "content": "一拳将沙沙击飞",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "受伤幸存者",
+        "inner_monologue": "好痛，但我们必须赶紧逃，不能被他抓住。",
+        "external_action": "被击飞落地，随后被薰拉起踉跄逃跑",
+        "speech_text": null,
+        "mood_state": "痛苦"
+      },
+      "id": "214_003",
+      "global_id": 440
+    }
+  ]
+}

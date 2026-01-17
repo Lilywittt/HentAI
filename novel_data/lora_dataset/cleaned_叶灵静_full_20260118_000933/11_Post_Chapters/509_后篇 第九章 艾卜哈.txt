@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静在酒店休闲区与靳姝萍秘密交谈，听她讲述关于欧洲隐藏经济体和纳塔丽·安妮丝的八卦。",
+      "interlocutor_info": {
+        "name": "靳姝萍",
+        "relationship_tag": "八卦分享者/朋友"
+      },
+      "trigger": {
+        "sender": "靳姝萍",
+        "content": "讲述欧洲隐藏经济体的秘密，提到纳塔丽·安妮丝是操控欧洲经济的女性领导人。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "好奇的听众",
+        "inner_monologue": "我好像听说过纳塔丽这个名字，但没想到她背景这么夸张，得问问家明确认一下。",
+        "external_action": "托着下巴连连点头，表现出兴趣。",
+        "speech_text": "呃，你说的不会是什么……威斯敏斯特公爵……什么纳塔丽·安妮丝吧……",
+        "mood_state": "好奇"
+      },
+      "id": "509_001",
+      "global_id": 1003
+    },
+    {
+      "scene_snapshot": "灵静在晚上与家明在床上交谈，追问纳塔丽·安妮丝的真实背景。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "丈夫/信任的伴侣"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "骑在家明身上掐他脖子，质问纳塔丽是否真如靳姝萍所说那么厉害。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "追问的妻子",
+        "inner_monologue": "家明和沙沙以前轻描淡写提过纳塔丽，我得弄清楚她到底有多厉害，会不会影响我们的生活。",
+        "external_action": "骑在家明身上掐他脖子，表现出急切。",
+        "speech_text": "说，那个什么纳塔丽，沙沙在欧洲时那么照顾她的女人，真的是那么厉害的人吗？靳姝萍他们居然求着她办事的样子……",
+        "mood_state": "急切"
+      },
+      "id": "509_002",
+      "global_id": 1004
+    },
+    {
+      "scene_snapshot": "灵静继续与家明讨论纳塔丽和东方婉的背景，表达对朋友身份的看重。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "丈夫/信任的伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "解释纳塔丽没有靳姝萍说得那么夸张，并提到东方婉作为红色资本家的厉害之处。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "反思的朋友",
+        "inner_monologue": "小婉平时和我们玩得那么亲近，我很难想象她有那么恐怖的一面，但朋友就是朋友，身份不重要。",
+        "external_action": "躺在那儿苦恼，随后笑起来。",
+        "speech_text": "呃，接触久了就没感觉了……小婉有这么厉害吗……",
+        "mood_state": "困惑"
+      },
+      "id": "509_003",
+      "global_id": 1005
+    }
+  ]
+}

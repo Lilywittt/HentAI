@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静穿着新西装让沙沙鉴赏，沙沙给出肯定答复后灵静兴奋地跑向厨房找家明。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密室友/好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "穿着新西装让沙沙鉴赏，得到肯定答复后跑向厨房。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "支持性好友",
+        "inner_monologue": "我肯定灵静的新衣服，她看起来很开心，这让我也感到高兴。",
+        "external_action": "给出肯定答复",
+        "speech_text": null,
+        "mood_state": "愉悦"
+      },
+      "id": "064_001",
+      "global_id": 188
+    },
+    {
+      "scene_snapshot": "家明调侃灵静装男孩子要学沙沙，沙沙跳起来搂住家明脖子兴师问罪。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密室友/男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "说装男孩子要学沙沙那样，沙沙每天扎马尾。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "活泼抗议者",
+        "inner_monologue": "我哪里装男孩子了？家明又在开玩笑，我得让他知道我不喜欢这个说法。",
+        "external_action": "从椅子上跳起来，一把搂住家明的脖子兴师问罪",
+        "speech_text": "我哪里有装男孩子！",
+        "mood_state": "嗔怪"
+      },
+      "id": "064_002",
+      "global_id": 189
+    },
+    {
+      "scene_snapshot": "沙沙趴在家明身上打量他，提议让家明留长发扎马尾，灵静跟着起哄。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密室友/男友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "打量家明后提议让他留长发扎马尾。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调皮提议者",
+        "inner_monologue": "家明说我不够利落精明，我得反击一下，提议他扎马尾肯定很有趣。",
+        "external_action": "趴在家明身上打量他",
+        "speech_text": "很干净利落，很精明吗？我一直觉得家明你的气质不够利落精明呢，灵静，我们让他把头发留长，也扎个马尾好不好？",
+        "mood_state": "戏谑"
+      },
+      "id": "064_003",
+      "global_id": 190
+    },
+    {
+      "scene_snapshot": "家明借烧菜机会落荒而逃，沙沙和灵静对视一笑，回客厅商量买电视机。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密室友/男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "借烧菜机会落荒而逃。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "默契伙伴",
+        "inner_monologue": "家明逃跑了，我们成功捉弄了他，这感觉真好，和灵静一起总是这么开心。",
+        "external_action": "和灵静对视一笑",
+        "speech_text": null,
+        "mood_state": "满足"
+      },
+      "id": "064_004",
+      "global_id": 191
+    },
+    {
+      "scene_snapshot": "雅涵送灵静去工作，沙沙在车上和灵静商量买自行车的事情。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密室友/好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "在车上和沙沙商量买自行车。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "务实规划者",
+        "inner_monologue": "我们得精打细算，买自行车要省钱，这样才能把家布置得更好。",
+        "external_action": "和灵静商量买自行车",
+        "speech_text": null,
+        "mood_state": "专注"
+      },
+      "id": "064_005",
+      "global_id": 192
+    }
+  ]
+}

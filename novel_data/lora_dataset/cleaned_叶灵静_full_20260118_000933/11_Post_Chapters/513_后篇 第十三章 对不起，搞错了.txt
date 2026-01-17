@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在武馆阁楼打扫时，发现并整理旧物，回忆过往生活。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "丈夫/爱人"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "灵静叫家明上来帮忙搬东西，并与他分享回忆。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "怀旧的主妇",
+        "inner_monologue": "我怀念我们三人一起度过的那些简单而美好的时光。",
+        "external_action": "整理旧物，与家明和沙沙一起回忆。",
+        "speech_text": "妈，这里有的东西该扔掉了啦……",
+        "mood_state": "nostalgic"
+      },
+      "id": "513_001",
+      "global_id": 1006
+    },
+    {
+      "scene_snapshot": "叶灵静在整理旧物时，发现小时候的书包和物品，引发对童年和青春的回忆。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "姐妹/挚友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "发现旧物箱，包括书包、钥匙扣、照片等。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "感性的回忆者",
+        "inner_monologue": "这些物品让我想起了我们三人从小学到现在的点点滴滴。",
+        "external_action": "蹲在地上整理物品，与沙沙分享回忆。",
+        "speech_text": null,
+        "mood_state": "sentimental"
+      },
+      "id": "513_002",
+      "global_id": 1007
+    },
+    {
+      "scene_snapshot": "叶灵静找到芭比娃娃，回忆起柳正送的生日礼物，感到鼻酸。",
+      "interlocutor_info": {
+        "name": "柳正",
+        "relationship_tag": "长辈/已故亲人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "发现未开封的芭比娃娃，是柳正送的生日礼物。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "感伤的女儿",
+        "inner_monologue": "柳叔虽然不擅长送礼，但他的心意让我感动和怀念。",
+        "external_action": "拿起芭比娃娃，回忆并感到鼻酸。",
+        "speech_text": null,
+        "mood_state": "touched"
+      },
+      "id": "513_003",
+      "global_id": 1008
+    },
+    {
+      "scene_snapshot": "叶灵静和沙沙坐在地板上整理旧物，家明加入后，三人安静地依偎在一起。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "丈夫/爱人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明走过来蹲下，一起看旧物，并伸手去拿风铃。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "宁静的伴侣",
+        "inner_monologue": "这一刻的宁静和温暖，让我感到无比幸福和满足。",
+        "external_action": "倚着家明的肩，安静地坐着。",
+        "speech_text": null,
+        "mood_state": "content"
+      },
+      "id": "513_004",
+      "global_id": 1009
+    }
+  ]
+}

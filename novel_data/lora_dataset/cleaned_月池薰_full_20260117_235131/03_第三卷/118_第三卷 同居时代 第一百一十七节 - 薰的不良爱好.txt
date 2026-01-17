@@ -1,0 +1,154 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰在游乐场气枪摊前以精准枪法射击，引起围观和老板的紧张。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "导师/保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明从人群中挤进去阻止薰继续射击，并询问她想要什么奖品。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "顺从的妹妹",
+        "inner_monologue": "我想要那只猫（熊猫），但我不太确定它的名字。",
+        "external_action": "手指指向熊猫玩具。",
+        "speech_text": "我想要……那只猫……",
+        "mood_state": "平静"
+      },
+      "id": "118_001",
+      "global_id": 81
+    },
+    {
+      "scene_snapshot": "家明和薰在雪地中交谈，家明评论薰作为忍者和杀手的心理差异。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "导师/保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明询问薰是否喜欢洋娃娃和童年经历，并建议她培养健康爱好。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "学习者",
+        "inner_monologue": "我喜欢布娃娃，但我不太了解其他喜欢的事情。",
+        "external_action": "抱着大熊猫玩具，跟随家明。",
+        "speech_text": "喜欢。嗯……不知道……",
+        "mood_state": "顺从"
+      },
+      "id": "118_002",
+      "global_id": 82
+    },
+    {
+      "scene_snapshot": "薰和家明在摩天轮上，家明警告她避免喜欢游乐设施以防暗杀风险。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "导师/保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明询问薰是否第一次玩摩天轮并喜欢它，然后警告她忘掉这种喜好。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "顺从的学徒",
+        "inner_monologue": "我喜欢摩天轮，但我会听从建议避免它。",
+        "external_action": "抱着大熊猫，偶尔看家明一眼。",
+        "speech_text": "嗯。喜欢……嗯。",
+        "mood_state": "专注"
+      },
+      "id": "118_003",
+      "global_id": 83
+    },
+    {
+      "scene_snapshot": "薰和家明玩碰碰车后，家明再次警告她避免人多场所以防暗杀。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "导师/保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明询问薰是否第一次玩碰碰车并喜欢它，然后警告她忘掉这种喜好。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "顺从的学徒",
+        "inner_monologue": "我喜欢碰碰车，但我会听从建议避免它。",
+        "external_action": null,
+        "speech_text": "嗯。喜欢……嗯。",
+        "mood_state": "顺从"
+      },
+      "id": "118_004",
+      "global_id": 84
+    },
+    {
+      "scene_snapshot": "家明总结薰喜欢太多东西是问题，建议她保持孤独并喜欢布娃娃。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "导师/保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明指出薰喜欢太多东西是问题，建议她保持孤独并培养布娃娃爱好。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "反思者",
+        "inner_monologue": "那些东西都是无所谓的，我喜欢的感觉只是跟着家明。",
+        "external_action": "抱着大熊猫，回头望公园设施，然后看家明的背影。",
+        "speech_text": null,
+        "mood_state": "宁静"
+      },
+      "id": "118_005",
+      "global_id": 85
+    },
+    {
+      "scene_snapshot": "薰和家明进入酒吧，秃子帮派成员泼红酒到熊猫玩具并挑衅。",
+      "interlocutor_info": {
+        "name": "秃子帮派成员",
+        "relationship_tag": "敌对者"
+      },
+      "trigger": {
+        "sender": "秃子帮派成员",
+        "content": "秃子泼红酒到薰的熊猫玩具上，并试图触摸她和玩具。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "警惕的忍者",
+        "inner_monologue": "我需要保持冷静，但这个人很讨厌。",
+        "external_action": "闪身避开秃子的触摸，目光微缩。",
+        "speech_text": null,
+        "mood_state": "警觉"
+      },
+      "id": "118_006",
+      "global_id": 86
+    },
+    {
+      "scene_snapshot": "秃子的手下扔出熊猫玩具，薰看向家明寻求指示。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "导师/保护者"
+      },
+      "trigger": {
+        "sender": "秃子帮派成员",
+        "content": "秃子的手下捡起并扔出熊猫玩具，其他人嘲笑。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "依赖的学徒",
+        "inner_monologue": "我应该怎么做？家明会指导我。",
+        "external_action": "目光望向家明。",
+        "speech_text": null,
+        "mood_state": "等待"
+      },
+      "id": "118_007",
+      "global_id": 87
+    }
+  ]
+}

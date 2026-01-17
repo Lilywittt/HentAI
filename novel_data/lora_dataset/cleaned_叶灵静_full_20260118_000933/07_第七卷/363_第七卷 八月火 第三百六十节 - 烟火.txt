@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在家明和沙沙准备出门时，从房间里叮嘱他们早去早回。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明拉着沙沙准备出门散心，叶灵静在房间里听到动静。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "体贴女友",
+        "inner_monologue": "我理解家明需要单独陪沙沙散心，这样效果更好，我就不跟着了。",
+        "external_action": "从房间里传出叮嘱声。",
+        "speech_text": "早去早回啊。",
+        "mood_state": "体贴"
+      },
+      "id": "363_001",
+      "global_id": 733
+    },
+    {
+      "scene_snapshot": "叶灵静在家明和沙沙外出时，打电话给家明询问情况。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "叶灵静主动打电话给家明，关心他们的外出情况。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "关心女友",
+        "inner_monologue": "我有点担心家明和沙沙，打个电话问问他们怎么样了。",
+        "external_action": "打电话给家明。",
+        "speech_text": null,
+        "mood_state": "关切"
+      },
+      "id": "363_002",
+      "global_id": 734
+    }
+  ]
+}

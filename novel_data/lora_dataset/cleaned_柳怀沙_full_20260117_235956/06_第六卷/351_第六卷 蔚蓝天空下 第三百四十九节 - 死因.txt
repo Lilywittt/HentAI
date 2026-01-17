@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙在夜市的一家麻将馆门口寻找宽哥，询问关于黄浩兵的事情。",
+      "interlocutor_info": {
+        "name": "宽哥",
+        "relationship_tag": "父亲的手下/黑社会成员"
+      },
+      "trigger": {
+        "sender": "宽哥",
+        "content": "你就是……柳先生的女儿？没错吧。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静从容的大小姐",
+        "inner_monologue": "我是柳怀沙，我爸是柳正，我得保持镇定来问清楚黄浩兵的事。",
+        "external_action": "淡淡地点了点头",
+        "speech_text": "嗯。我爸是柳正，我是柳怀沙，你……接到杨叔叔的电话了？",
+        "mood_state": "冷静"
+      },
+      "id": "351_001",
+      "global_id": 560
+    },
+    {
+      "scene_snapshot": "柳怀沙和宽哥在办公室内，她直接询问黄浩兵是否吸毒。",
+      "interlocutor_info": {
+        "name": "宽哥",
+        "relationship_tag": "父亲的手下/黑社会成员"
+      },
+      "trigger": {
+        "sender": "宽哥",
+        "content": "黄浩兵，黄家少爷嘛，当然认识……先前大小姐你还说过要这边关照他的，大哥亲自打过电话过来，不过他最近……呃……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "追问真相的少女",
+        "inner_monologue": "我必须确认黄浩兵吸毒的事，这关系到他的死因。",
+        "external_action": "喃喃自语地点了点头",
+        "speech_text": "是啊，我说过要关照他……是这样的，我想知道，他是不是在吸毒？",
+        "mood_state": "急切"
+      },
+      "id": "351_002",
+      "global_id": 561
+    },
+    {
+      "scene_snapshot": "宽哥确认黄浩兵吸毒并解释情况，柳怀沙意识到自己的责任。",
+      "interlocutor_info": {
+        "name": "宽哥",
+        "relationship_tag": "父亲的手下/黑社会成员"
+      },
+      "trigger": {
+        "sender": "宽哥",
+        "content": "这种事情……我们当时不知道大小姐你并不知情，否则一定可以保证他在江海市内绝对拿不到半克毒品，这个……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "自责的少女",
+        "inner_monologue": "我害死他了，都是我的错，我当初应该多关心一下的。",
+        "external_action": "笑着抬起头，眼中却隐隐有些泪光",
+        "speech_text": "没事，不是你的错，我当时想过之后要打个电话问问的……",
+        "mood_state": "悲伤"
+      },
+      "id": "351_003",
+      "global_id": 562
+    },
+    {
+      "scene_snapshot": "柳怀沙离开麻将馆，在门口遇到一个穿着校服、拿着鲜花的少年。",
+      "interlocutor_info": {
+        "name": "少年",
+        "relationship_tag": "不明身份的跟踪者/同学"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "一个穿着圣心学院校服的少年正捧着一大束鲜花站在门口，似乎被那宽哥的手下拦住了进不来",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "警惕的少女",
+        "inner_monologue": "这个人是谁？为什么跟踪我？我现在没心情应付这种事。",
+        "external_action": "抿了抿嘴走过去，她拿眼睛瞥着对方",
+        "speech_text": "你跟踪我啊。",
+        "mood_state": "烦躁"
+      },
+      "id": "351_004",
+      "global_id": 563
+    }
+  ]
+}

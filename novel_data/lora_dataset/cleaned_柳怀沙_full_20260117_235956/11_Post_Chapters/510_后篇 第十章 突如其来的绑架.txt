@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙在酒店里与允杰、淘淘等孩子在一起，孩子们感到无聊并讨论外出。",
+      "interlocutor_info": {
+        "name": "允杰",
+        "relationship_tag": "朋友/同伴"
+      },
+      "trigger": {
+        "sender": "允杰",
+        "content": "提议外出转转，并激将淘淘一起去。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静观察者",
+        "inner_monologue": "这些孩子又在闹腾了，我得留意他们别惹出麻烦。",
+        "external_action": "可能在场观察或参与对话（文本未明确描述她的具体动作，但作为在场成人被提及）。",
+        "speech_text": null,
+        "mood_state": "警觉"
+      },
+      "id": "510_001",
+      "global_id": 777
+    },
+    {
+      "scene_snapshot": "柳怀沙在酒店里，家明发现孩子失踪后询问她的去向。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "朋友/同伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "询问柳怀沙是否知道孩子们的去向。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "合作者",
+        "inner_monologue": "孩子们不见了？我得帮忙找找，希望没出什么事。",
+        "external_action": "被家明询问，可能摇头或表示不清楚（文本未明确描述她的具体反应）。",
+        "speech_text": null,
+        "mood_state": "担忧"
+      },
+      "id": "510_002",
+      "global_id": 778
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙和灵静、家明一起旷课，在商店购物后准备去她家玩。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "闺蜜"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "三人从学校翻墙旷课，决定去柳怀沙家度过一天。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "叛逆的伙伴",
+        "inner_monologue": "旷课真刺激，能和灵静、家明一起玩太开心了。",
+        "external_action": "欢呼，跑在前面逛商店，掏钱购物。",
+        "speech_text": null,
+        "mood_state": "兴奋"
+      },
+      "id": "015_001",
+      "global_id": 42
+    },
+    {
+      "scene_snapshot": "柳怀沙和灵静看到桥墩下的母女，心生同情并给予帮助。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "闺蜜"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "看到穿着睡衣的母女蜷缩在桥墩下，小女孩向家明求助。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "善良的旁观者",
+        "inner_monologue": "这对母女好可怜，我们应该帮帮她们。",
+        "external_action": "多看几眼，和灵静商量后给小女孩衣服、食物和钱。",
+        "speech_text": null,
+        "mood_state": "同情"
+      },
+      "id": "015_002",
+      "global_id": 43
+    },
+    {
+      "scene_snapshot": "柳怀沙带灵静和家明进入她家的别墅，宣布这里是他们的地盘。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "闺蜜"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "到达别墅小区，柳怀沙亮出身份进入。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "主人",
+        "inner_monologue": "这是我的家，现在可以和朋友们一起享受了。",
+        "external_action": "亮出身份，打开门，神气地宣布。",
+        "speech_text": "现在，这里就是我们的地盘了！",
+        "mood_state": "自豪"
+      },
+      "id": "015_003",
+      "global_id": 44
+    },
+    {
+      "scene_snapshot": "柳怀沙和灵静在客厅看录像、玩游戏，享受下午时光。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "闺蜜"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "在别墅里安顿下来，开始休闲活动。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "玩伴",
+        "inner_monologue": "和灵静一起玩真有趣，不用想太多烦恼。",
+        "external_action": "窝在沙发上看录像、玩游戏。",
+        "speech_text": null,
+        "mood_state": "放松"
+      },
+      "id": "015_004",
+      "global_id": 45
+    },
+    {
+      "scene_snapshot": "柳怀沙在玩《大富翁》游戏时热衷于害人，和灵静联合对付家明。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "闺蜜"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "三人一起玩电脑游戏《大富翁》。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "竞争的游戏玩家",
+        "inner_monologue": "我要用炸弹和卡片害家明，和灵静一起打败他！",
+        "external_action": "热衷于害人，扔炸弹和害人卡片，和灵静联合对付家明。",
+        "speech_text": null,
+        "mood_state": "好斗"
+      },
+      "id": "015_005",
+      "global_id": 46
+    },
+    {
+      "scene_snapshot": "柳怀沙和灵静在床上打闹，灵静发现避孕套并向柳怀沙请教。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "闺蜜"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静从被单下找到避孕套，询问柳怀沙其用途。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "博学的朋友",
+        "inner_monologue": "终于有机会在灵静面前显示我知道得多，虽然我也不太懂。",
+        "external_action": "脸颊微红，故作镇定地解释，翻箱倒柜找录像带。",
+        "speech_text": "噢？这个东西啊。嗯，避孕套，很常见的啦。",
+        "mood_state": "得意"
+      },
+      "id": "015_006",
+      "global_id": 47
+    },
+    {
+      "scene_snapshot": "柳怀沙找出录像带给灵静看，两人一起学习，身体变得滚烫。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "闺蜜"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "柳怀沙找出录像带，准备对灵静进行更客观的讲解。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "引导者",
+        "inner_monologue": "我要让灵静看看这个有趣的东西，一起学习新知识。",
+        "external_action": "关好门窗，熄灯，播放录像，和灵静抱在一起看。",
+        "speech_text": "哼哼，爸爸还以为我不知道呢，还是被我找出来了吧，灵静，这是很有趣的东西哟……啦啦啦啦……",
+        "mood_state": "好奇"
+      },
+      "id": "015_007",
+      "global_id": 48
+    }
+  ]
+}

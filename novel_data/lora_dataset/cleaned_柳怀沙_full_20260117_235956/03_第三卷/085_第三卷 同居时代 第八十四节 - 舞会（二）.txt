@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙和家明、灵静在舞会角落吃东西，沙沙因环境感到窘迫但显得文静羞赧。",
+      "interlocutor_info": {
+        "name": "环境/人群",
+        "relationship_tag": "陌生社交场合"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "舞会华丽氛围和人群注视",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "文静羞赧的少女",
+        "inner_monologue": "我不喜欢这种场合，感觉好不自在。",
+        "external_action": "坐在那儿微微有些窘迫，将张扬代换成了诱人的文静与羞赧",
+        "speech_text": null,
+        "mood_state": "窘迫"
+      },
+      "id": "085_001",
+      "global_id": 233
+    },
+    {
+      "scene_snapshot": "陈克安过来搭讪，灵静介绍沙沙和家明给他认识。",
+      "interlocutor_info": {
+        "name": "陈克安",
+        "relationship_tag": "灵静的钢琴老师，陌生人"
+      },
+      "trigger": {
+        "sender": "陈克安",
+        "content": "打招呼并询问灵静的朋友",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌的朋友",
+        "inner_monologue": "这是灵静常提的陈老师，我得表现得体些。",
+        "external_action": "打招呼",
+        "speech_text": null,
+        "mood_state": "礼貌"
+      },
+      "id": "085_002",
+      "global_id": 234
+    },
+    {
+      "scene_snapshot": "灵静提议让家明陪沙沙跳第一支舞，沙沙推辞说不会跳。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "最好的朋友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "提议让家明陪沙沙跳第一支舞",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "害羞推辞的少女",
+        "inner_monologue": "我根本不会跳舞，好尴尬，不想在别人面前出丑。",
+        "external_action": "被推向家明那边",
+        "speech_text": "可是……我不会跳啊……还是灵静来吧……",
+        "mood_state": "害羞"
+      },
+      "id": "085_003",
+      "global_id": 235
+    },
+    {
+      "scene_snapshot": "家明拉着沙沙去跳舞，沙沙笨拙地移动并表达对三人关系的不安。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "最喜欢的男孩子，同居伴侣"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "拉着沙沙的手去跳舞并说教她",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "依赖又不安的伴侣",
+        "inner_monologue": "家明在教我跳舞，但我心里好乱，不喜欢我们三个人现在不开心的样子。",
+        "external_action": "将额头抵着家明的肩膀，小心翼翼地移动步伐，踩家明的脚背",
+        "speech_text": "家明，我不喜欢这样的感觉……",
+        "mood_state": "不安"
+      },
+      "id": "085_004",
+      "global_id": 236
+    },
+    {
+      "scene_snapshot": "沙沙向家明倾诉对三人关系复杂化的担忧和怀念过去。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "最喜欢的男孩子，同居伴侣"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "安慰沙沙说人总会变复杂",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "情感直率的倾诉者",
+        "inner_monologue": "我害怕失去灵静，害怕怀孕会改变一切，宁愿回到以前单纯的朋友关系。",
+        "external_action": "倚在家明身上，低声呢喃，生气时踩家明脚背",
+        "speech_text": "我不喜欢……不喜欢我们三个人现在的样子……我想要我们三个人以前的那种样子……",
+        "mood_state": "忧伤"
+      },
+      "id": "085_005",
+      "global_id": 237
+    },
+    {
+      "scene_snapshot": "沙沙追问家明有没有办法让三人更好地在一起，并踩他脚背催促。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "最喜欢的男孩子，同居伴侣"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "说没办法解决三人关系问题",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "急切又任性的伴侣",
+        "inner_monologue": "家明必须想出办法来，我不能接受我们就这样不开心下去。",
+        "external_action": "在家明脚背上狠狠地踩",
+        "speech_text": "不许你没办法！乖乖给我想！",
+        "mood_state": "急切"
+      },
+      "id": "085_006",
+      "global_id": 238
+    }
+  ]
+}

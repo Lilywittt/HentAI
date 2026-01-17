@@ -1,0 +1,175 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静在医院焦急等待沙沙的手术结果，看到母亲段静娴出来时冲过去询问情况。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "医生走出来，灵静冲过去询问沙沙的状况。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "担忧的妹妹",
+        "inner_monologue": "沙沙到底怎么样了？我好担心她出事。",
+        "external_action": "哽咽着说话，眼中还有泪水。",
+        "speech_text": "妈妈，沙沙她怎么样了？",
+        "mood_state": "anxious"
+      },
+      "id": "173_001",
+      "global_id": 460
+    },
+    {
+      "scene_snapshot": "灵静向母亲解释为什么叫来了柳正等人，因为担心沙沙被打。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静主动解释打电话叫柳正的原因。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "解释者",
+        "inner_monologue": "我得告诉妈妈为什么叫了这么多人，免得她误会。",
+        "external_action": "哽咽着说话。",
+        "speech_text": "因为听见沙沙被打了，我就打电话也叫柳叔叔他们过来了……",
+        "mood_state": "concerned"
+      },
+      "id": "173_002",
+      "global_id": 461
+    },
+    {
+      "scene_snapshot": "灵静观察到家明的紧张与放松，在母亲身边松了一口气。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明肩膀垮下来，显示出紧张后的放松。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "观察者",
+        "inner_monologue": "只有我能看出家明的紧张，现在他终于放松了。",
+        "external_action": "长舒一口气，回过头心虚地吐了吐舌头。",
+        "speech_text": null,
+        "mood_state": "relieved"
+      },
+      "id": "173_003",
+      "global_id": 462
+    },
+    {
+      "scene_snapshot": "灵静和家明在主任办公室吃饭，讨论雅涵罚家明打扫教务处的事情。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明提到雅涵罚他打扫教务处。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心者",
+        "inner_monologue": "雅涵姐为什么突然刁难家明？是不是因为我们同居的事情？",
+        "external_action": "小口小口地吃饭，瞪大眼睛。",
+        "speech_text": "雅涵姐罚你打扫教务处？",
+        "mood_state": "curious"
+      },
+      "id": "173_004",
+      "global_id": 463
+    },
+    {
+      "scene_snapshot": "灵静心虚地望了望母亲和柳叔叔，然后建议家明打电话给雅涵。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静知道雅涵反常的原因，心虚地建议家明联系她。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "心虚的伴侣",
+        "inner_monologue": "雅涵姐肯定是因为我们同居才生气的，我得小心点别让妈妈发现。",
+        "external_action": "心虚地望了望在前方交谈的母亲与柳叔叔。",
+        "speech_text": "对了，雅涵姐会不会在教务处等你过去啊……我书包里有教务处的电话，你等等。",
+        "mood_state": "guilty"
+      },
+      "id": "173_005",
+      "global_id": 464
+    },
+    {
+      "scene_snapshot": "灵静将自己的饭分一半给家明，并抱怨菜太咸。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静主动分享食物并抱怨饭菜。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "照顾者",
+        "inner_monologue": "家明肯定饿了，我把饭分给他，但我不喜欢吃肉。",
+        "external_action": "将自己的饭盒靠过去，匀了一半饭给家明，抱怨菜咸。",
+        "speech_text": "你来，我的饭吃不完，分一半给你吧，菜也有点咸，这个青椒炒肉一点也不专业。",
+        "mood_state": "caring"
+      },
+      "id": "173_006",
+      "global_id": 465
+    },
+    {
+      "scene_snapshot": "灵静强势地将瘦肉推给家明，坚持自己吃青椒。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静推瘦肉给家明，家明伸筷子去挡。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "强势的伴侣",
+        "inner_monologue": "我不吃肉，家明得接受这个，青椒对皮肤好。",
+        "external_action": "强势地将瘦肉推给家明。",
+        "speech_text": "你知道我不喜欢吃肉，想让我长胖吗？青椒美容的，我今天吃这个……",
+        "mood_state": "assertive"
+      },
+      "id": "173_007",
+      "global_id": 466
+    },
+    {
+      "scene_snapshot": "柳正开玩笑问家明选灵静还是沙沙，灵静红着脸轻声嘟囔。",
+      "interlocutor_info": {
+        "name": "柳正",
+        "relationship_tag": "朋友的父亲"
+      },
+      "trigger": {
+        "sender": "柳正",
+        "content": "柳正开玩笑说家明该选灵静或沙沙。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "害羞的少女",
+        "inner_monologue": "柳叔叔怎么开这种玩笑，好尴尬啊。",
+        "external_action": "红着脸，轻声嘟囔。",
+        "speech_text": "是啊，哪有这么说自己女儿的……",
+        "mood_state": "embarrassed"
+      },
+      "id": "173_008",
+      "global_id": 467
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静和沙沙每天中午和晚上来医院看望家明，并为月池薰带饭。",
+      "interlocutor_info": {
+        "name": "月池薰",
+        "relationship_tag": "新认识的日本朋友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静用蹩脚英语与月池薰交流，并每天为她带饭。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "友善的同学",
+        "inner_monologue": "我虽然英语不好，但想和这个日本女孩交朋友，她看起来有点孤单。",
+        "external_action": "用英语与月池薰交流，并为她带饭。",
+        "speech_text": null,
+        "mood_state": "友善"
+      },
+      "id": "041_001",
+      "global_id": 115
+    },
+    {
+      "scene_snapshot": "灵静在出院前与月池薰告别。",
+      "interlocutor_info": {
+        "name": "月池薰",
+        "relationship_tag": "新认识的日本朋友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静大概跟月池薰说了拜拜的事情。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "体贴的朋友",
+        "inner_monologue": "我要和月池薰道别了，希望她以后能好起来。",
+        "external_action": "与月池薰告别。",
+        "speech_text": null,
+        "mood_state": "关心"
+      },
+      "id": "041_002",
+      "global_id": 116
+    }
+  ]
+}

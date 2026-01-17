@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "吕放向父亲吕颂为解释在校门口与月池薰等人冲突的经过。",
+      "interlocutor_info": {
+        "name": "吕放",
+        "relationship_tag": "挑衅者"
+      },
+      "trigger": {
+        "sender": "吕放",
+        "content": "我们根本没打人啊，老实说，阿姆雷说要跟月池薰挑战，我们可从没想过要动叶灵静和柳怀沙……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静的武者",
+        "inner_monologue": "我让朋友走开是为了保护她们，这个挑战我必须面对。",
+        "external_action": "让她的两个朋友走开",
+        "speech_text": null,
+        "mood_state": "警惕"
+      },
+      "id": "277_001",
+      "global_id": 208
+    },
+    {
+      "scene_snapshot": "吕放描述月池薰与阿姆雷对峙时，便衣警察突然介入。",
+      "interlocutor_info": {
+        "name": "阿姆雷",
+        "relationship_tag": "挑战者"
+      },
+      "trigger": {
+        "sender": "阿姆雷",
+        "content": "阿姆雷说要跟月池薰挑战",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "专注的对手",
+        "inner_monologue": "这个泰拳手想挑战我，我必须集中精神应对。",
+        "external_action": "双方看着是要打起来",
+        "speech_text": null,
+        "mood_state": "专注"
+      },
+      "id": "277_002",
+      "global_id": 209
+    }
+  ]
+}

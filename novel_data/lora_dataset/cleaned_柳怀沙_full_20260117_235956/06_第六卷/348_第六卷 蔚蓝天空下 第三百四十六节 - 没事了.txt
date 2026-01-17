@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "何云被特工制服后，灵静和沙沙惊讶地退后，不明白发生了什么。",
+      "interlocutor_info": {
+        "name": "何云",
+        "relationship_tag": "陌生人/潜在威胁"
+      },
+      "trigger": {
+        "sender": "何云",
+        "content": "何云淡淡地打量着雅涵等人，笑着点头，承认被发现了。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "警惕的旁观者",
+        "inner_monologue": "我完全不明白这是怎么回事，为什么会有匕首和特工出现？",
+        "external_action": "惊讶着退后了好几步",
+        "speech_text": null,
+        "mood_state": "confused"
+      },
+      "id": "348_001",
+      "global_id": 552
+    },
+    {
+      "scene_snapshot": "杀手挟持雅涵后，特工将灵静和沙沙保护在身后。",
+      "interlocutor_info": {
+        "name": "特工",
+        "relationship_tag": "保护者"
+      },
+      "trigger": {
+        "sender": "特工",
+        "content": "几个人将灵静与沙沙保护在了身后。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "被保护的同伴",
+        "inner_monologue": "雅涵姐被挟持了，情况很危险，我必须保持冷静。",
+        "external_action": "被保护在特工身后",
+        "speech_text": null,
+        "mood_state": "anxious"
+      },
+      "id": "348_002",
+      "global_id": 553
+    },
+    {
+      "scene_snapshot": "凯莉杀死杀手后，灵静和沙沙扑上去安慰雅涵。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "亲近的朋友/姐姐"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "雅涵双眼忍着泪水与她们抱在一起，说没事了。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "安慰者",
+        "inner_monologue": "雅涵姐很害怕，我需要支持她，让她知道我们都在这里。",
+        "external_action": "扑了上去与雅涵抱在一起",
+        "speech_text": null,
+        "mood_state": "supportive"
+      },
+      "id": "348_003",
+      "global_id": 554
+    },
+    {
+      "scene_snapshot": "雅涵在凌晨独自洗澡时，灵静和沙沙已经睡着。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "亲近的朋友/姐姐"
+      },
+      "trigger": {
+        "sender": "叙述者",
+        "content": "灵静和沙沙倒是坦然…或许也是装出来的坦然吧……安慰了她几句，等了一会儿，快一点的时候两人就在一起睡着了。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "体贴的同伴",
+        "inner_monologue": "雅涵姐还在担心，但我和灵静应该表现出坚强，不让她更焦虑。",
+        "external_action": "与灵静一起安慰雅涵后睡着",
+        "speech_text": null,
+        "mood_state": "resigned"
+      },
+      "id": "348_004",
+      "global_id": 555
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在家等待家明回来，与沙沙一起玩闹。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明提着糖炒栗子回家，被沙沙用塑胶大锤攻击。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "温柔俏皮的少女",
+        "inner_monologue": "我有点担心家明这么晚回来，但看到他带了栗子，就不生气了。",
+        "external_action": "笑着从一旁走过来，拿走纸袋。",
+        "speech_text": "我不生气了。沙沙你继续。",
+        "mood_state": "amused"
+      },
+      "id": "320_001",
+      "global_id": 627
+    },
+    {
+      "scene_snapshot": "叶灵静和沙沙因栗子内讧，家明加入打闹。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙扔掉锤子，改去追灵静抢栗子。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "俏皮活泼的少女",
+        "inner_monologue": "沙沙又来抢东西了，我得赶紧跑开。",
+        "external_action": "被家明扑倒，参与打闹。",
+        "speech_text": null,
+        "mood_state": "playful"
+      },
+      "id": "320_002",
+      "global_id": 628
+    },
+    {
+      "scene_snapshot": "叶灵静坐在沙发上吃栗子，看家明和沙沙打闹。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明和沙沙在地毯上打闹，互相锁住。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "旁观调皮的少女",
+        "inner_monologue": "看他们打闹真有趣，我才不插手呢。",
+        "external_action": "抱着一只枕头盘腿坐在沙发上，一边吃糖炒栗子。",
+        "speech_text": "我看戏，我不插手……",
+        "mood_state": "entertained"
+      },
+      "id": "320_003",
+      "global_id": 629
+    },
+    {
+      "scene_snapshot": "叶灵静回应沙沙的求助，准备去开热水。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙呐喊说这是家明的阴谋，请求灵静帮忙。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "独立务实的少女",
+        "inner_monologue": "沙沙又在瞎喊了，我还是去准备洗澡吧。",
+        "external_action": "拿了纸袋去浴室。",
+        "speech_text": "我才不管呢，我去开热水，家明你准备洗澡啊。",
+        "mood_state": "nonchalant"
+      },
+      "id": "320_004",
+      "global_id": 630
+    },
+    {
+      "scene_snapshot": "叶灵静和沙沙在房间里打闹，后来与家明亲密互动。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明洗澡后，与灵静和沙沙在房间里打闹成一片。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "亲密参与的少女",
+        "inner_monologue": "和家明、沙沙一起玩闹真开心，感觉很温馨。",
+        "external_action": "在房间里打闹，后来参与亲密互动。",
+        "speech_text": null,
+        "mood_state": "content"
+      },
+      "id": "320_005",
+      "global_id": 631
+    },
+    {
+      "scene_snapshot": "叶灵静在床上酣睡，家明起床离开。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明在凌晨三点起床，穿好衣服离开。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "沉睡的少女",
+        "inner_monologue": "我睡得很熟，没有察觉家明起床。",
+        "external_action": "酣睡，没有被惊动。",
+        "speech_text": null,
+        "mood_state": "peaceful"
+      },
+      "id": "320_006",
+      "global_id": 632
+    }
+  ]
+}

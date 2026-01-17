@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰在黑暗的草地中被裴罗嘉杀手追捕，她设置陷阱并展开反击。",
+      "interlocutor_info": {
+        "name": "立明道旭",
+        "relationship_tag": "敌对杀手首领"
+      },
+      "trigger": {
+        "sender": "立明道旭",
+        "content": "指挥手下从西北方向合围，试图堵住月池薰的去路。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "冷静的陷阱设置者",
+        "inner_monologue": "我必须利用这个背包作为诱饵，制造混乱来反击。",
+        "external_action": "放置背包作为陷阱，随后在爆炸中快速移动攻击敌人。",
+        "speech_text": null,
+        "mood_state": "专注"
+      },
+      "id": "478_001",
+      "global_id": 325
+    },
+    {
+      "scene_snapshot": "月池薰在爆炸后与杀手近身搏斗，展现出高超的忍术技巧。",
+      "interlocutor_info": {
+        "name": "裴罗嘉杀手",
+        "relationship_tag": "敌对追捕者"
+      },
+      "trigger": {
+        "sender": "裴罗嘉杀手",
+        "content": "在爆炸后试图开枪攻击月池薰。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "致命的刺客",
+        "inner_monologue": "机会来了，我要快速解决这个敌人，减少威胁。",
+        "external_action": "用匕首划出冷光，快速移动并斩杀敌人。",
+        "speech_text": null,
+        "mood_state": "果断"
+      },
+      "id": "478_002",
+      "global_id": 326
+    },
+    {
+      "scene_snapshot": "月池薰在战斗中受伤，但继续使用冲锋枪反击。",
+      "interlocutor_info": {
+        "name": "立明道旭",
+        "relationship_tag": "敌对杀手首领"
+      },
+      "trigger": {
+        "sender": "立明道旭",
+        "content": "开枪攻击月池薰，导致她受伤。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "顽强的战士",
+        "inner_monologue": "我必须坚持住，瞄准立明道旭，不能让他逃脱。",
+        "external_action": "紧扣扳机，用冲锋枪对准立明道旭射击，但被打飞出去。",
+        "speech_text": null,
+        "mood_state": "坚韧"
+      },
+      "id": "478_003",
+      "global_id": 327
+    },
+    {
+      "scene_snapshot": "月池薰在废弃工地中继续战斗，使用铁管和枪械对抗杀手。",
+      "interlocutor_info": {
+        "name": "裴罗嘉杀手",
+        "relationship_tag": "敌对追捕者"
+      },
+      "trigger": {
+        "sender": "裴罗嘉杀手",
+        "content": "在工地中开枪并试图围堵月池薰。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "敏捷的游击者",
+        "inner_monologue": "这里环境复杂，我可以利用脚手架和黑暗来周旋。",
+        "external_action": "使用铁管攻击，以命换命地刺穿敌人胸口，并继续躲避和还击。",
+        "speech_text": null,
+        "mood_state": "决绝"
+      },
+      "id": "478_004",
+      "global_id": 328
+    },
+    {
+      "scene_snapshot": "月池薰引爆工地陷阱后，被一名重伤的杀手偷袭。",
+      "interlocutor_info": {
+        "name": "裴罗嘉杀手",
+        "relationship_tag": "敌对垂死者"
+      },
+      "trigger": {
+        "sender": "裴罗嘉杀手",
+        "content": "怒吼着冲过来撞击月池薰。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "受伤的幸存者",
+        "inner_monologue": "我大意了，没想到还有敌人在这里。",
+        "external_action": "被撞到墙壁上，半身被掩埋，但用刀子刺中敌人。",
+        "speech_text": null,
+        "mood_state": "震惊"
+      },
+      "id": "478_005",
+      "global_id": 329
+    },
+    {
+      "scene_snapshot": "月池薰在爆炸后艰难爬出，决定继续完成剩余任务。",
+      "interlocutor_info": {
+        "name": "无",
+        "relationship_tag": "无"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "爆炸后的废墟和远处警车声。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "坚定的执行者",
+        "inner_monologue": "虽然受伤严重，但我必须完成最后的事情，不能辜负老师的期望。",
+        "external_action": "踉跄走出，消失在黑暗中。",
+        "speech_text": null,
+        "mood_state": "执着"
+      },
+      "id": "478_006",
+      "global_id": 330
+    }
+  ]
+}

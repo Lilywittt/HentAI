@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙和灵静在中午饭后从家里出来，一边走一边商量暑假计划。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "提议暑假去海边别墅消暑，并提到东方婉的旅游社活动。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "活泼开朗的闺蜜",
+        "inner_monologue": "我想去海边玩，把大家都叫上应该会很有趣。",
+        "external_action": "与灵静边走边聊",
+        "speech_text": "当然是去海边住两个月啦，把雅涵姐叫过来，薰如果不回日本的话，也可以一块叫来玩啊，反正那么大的房子……",
+        "mood_state": "兴奋"
+      },
+      "id": "350_001",
+      "global_id": 556
+    },
+    {
+      "scene_snapshot": "沙沙和灵静继续讨论暑假计划，灵静提到家明想买小岛的想法。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "提到家明想买小岛修别墅，并询问沙沙的意见。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "务实又爱开玩笑的朋友",
+        "inner_monologue": "买小岛听起来很浪漫，但得花很多钱，我得想想怎么帮忙。",
+        "external_action": "皱眉思考，伸手打灵静一下",
+        "speech_text": "海里会有暴风雨啊。",
+        "mood_state": "好奇"
+      },
+      "id": "350_002",
+      "global_id": 557
+    },
+    {
+      "scene_snapshot": "沙沙和灵静开玩笑地讨论打工赚钱和黑帮相关话题。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "提议暑假打工赚钱，沙沙开玩笑说去帮父亲点钞票。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调皮幽默的伙伴",
+        "inner_monologue": "我其实不想掺和老爸的黑帮事，但开开玩笑逗逗灵静挺好玩的。",
+        "external_action": "开玩笑地说",
+        "speech_text": "过去帮我老爸那边的帮派内部点钞票吧，偶尔还可以中饱私囊，反正都是不义之财，我们俩就当是替天行道啦。",
+        "mood_state": "戏谑"
+      },
+      "id": "350_003",
+      "global_id": 558
+    },
+    {
+      "scene_snapshot": "沙沙和灵静在校园里看到有人跳楼，发现是黄浩兵。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "听到惊呼声和物体坠落声，发现有人跳楼。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "震惊害怕的学生",
+        "inner_monologue": "天啊，那是黄浩兵吗？怎么会这样……",
+        "external_action": "身体发抖，咽口水，直勾勾地看着地面",
+        "speech_text": null,
+        "mood_state": "惊恐"
+      },
+      "id": "350_004",
+      "global_id": 559
+    }
+  ]
+}

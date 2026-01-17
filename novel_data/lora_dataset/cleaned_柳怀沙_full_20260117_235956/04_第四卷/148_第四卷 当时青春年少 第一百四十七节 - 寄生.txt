@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明向玛丽莲展示钱包照片，介绍他的两个女朋友叶灵静和柳怀沙。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "男朋友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "详细情况说起来很复杂，不过我们三个人现在住在一块儿。左边的叫叶灵静，右边的叫柳怀沙，一般都叫她沙沙，我们三个从小就在一块儿了。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被提及的亲密伴侣",
+        "inner_monologue": "我是家明的女朋友之一，和灵静一起与他住在一块儿。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "neutral"
+      },
+      "id": "148_001",
+      "global_id": 332
+    }
+  ]
+}

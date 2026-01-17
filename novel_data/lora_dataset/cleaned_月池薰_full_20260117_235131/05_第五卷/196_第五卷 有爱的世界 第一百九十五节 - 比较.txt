@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "薰在道场中向父亲月池政空表达要回江海的决心，引发冲突。",
+      "interlocutor_info": {
+        "name": "月池政空",
+        "relationship_tag": "父亲"
+      },
+      "trigger": {
+        "sender": "月池政空",
+        "content": "一掌重重地拍在了身边的草席上：“这里才是你应该在的地方！”",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "叛逆的女儿",
+        "inner_monologue": "我必须坚持我的决定，无论如何都要回去见家明。",
+        "external_action": "迟疑了一会儿，片刻后依旧是一字一顿地说道：“我要去江海。”",
+        "speech_text": "我要去江海。",
+        "mood_state": "坚决"
+      },
+      "id": "196_001",
+      "global_id": 149
+    },
+    {
+      "scene_snapshot": "月池政空命令侍卫抓薰，薰反抗并击退侍卫。",
+      "interlocutor_info": {
+        "name": "侍卫",
+        "relationship_tag": "打手"
+      },
+      "trigger": {
+        "sender": "月池政空",
+        "content": "抓起来，把她关在房间里不许离开！",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "反抗者",
+        "inner_monologue": "我不能被抓住，必须战斗才能离开。",
+        "external_action": "薰的双手在膝盖上一撑，无声地站了起来，随后出手使两名侍卫胳膊脱臼。",
+        "speech_text": "对不起……",
+        "mood_state": "冷静"
+      },
+      "id": "196_002",
+      "global_id": 150
+    },
+    {
+      "scene_snapshot": "薰在道场中与多名学员战斗，展现高超身手。",
+      "interlocutor_info": {
+        "name": "学员",
+        "relationship_tag": "同伴"
+      },
+      "trigger": {
+        "sender": "学员",
+        "content": "文太郎向身边的人使了个眼色，第一个人首先冲了出去，紧接着是第二个，或是长短不一的木刀，或是徒手，朝着薰围了上去。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "战斗者",
+        "inner_monologue": "这些攻击我能应付，必须突破包围去江海。",
+        "external_action": "薰凭借着灵活的身手左冲右突，击退多名学员。",
+        "speech_text": null,
+        "mood_state": "专注"
+      },
+      "id": "196_003",
+      "global_id": 151
+    },
+    {
+      "scene_snapshot": "薰在战斗中回忆与家明的训练，强化决心。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "爱人"
+      },
+      "trigger": {
+        "sender": "薰",
+        "content": "与家明无数次比斗的画面在脑中掠过，他现在中枪了，无论如何，她要回去！",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "思念者",
+        "inner_monologue": "家明教我的东西让我变强了，我必须回去见他。",
+        "external_action": "薰在战斗中继续突破，击退进攻者。",
+        "speech_text": null,
+        "mood_state": "坚定"
+      },
+      "id": "196_004",
+      "global_id": 152
+    },
+    {
+      "scene_snapshot": "薰在战斗中受伤，但继续坚持应对攻击。",
+      "interlocutor_info": {
+        "name": "学员",
+        "relationship_tag": "对手"
+      },
+      "trigger": {
+        "sender": "学员",
+        "content": "密密麻麻的攻击一齐而来，她手中木刀一划，逼退了大多数，但仍旧有两把木刀直接落在她的身上。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "坚韧的战士",
+        "inner_monologue": "这些伤不算什么，只有家明才能让我真正记住东西。",
+        "external_action": "薰受的伤也不少，右腿姿势不太自然，右手受伤流血，但表情淡淡地转身应对攻击。",
+        "speech_text": null,
+        "mood_state": "不屈"
+      },
+      "id": "196_005",
+      "global_id": 153
+    }
+  ]
+}

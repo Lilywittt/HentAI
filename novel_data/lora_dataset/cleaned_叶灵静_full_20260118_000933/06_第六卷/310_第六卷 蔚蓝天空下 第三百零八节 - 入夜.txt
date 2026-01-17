@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静和沙沙在放学后被高中生搭讪，水哥出手解围。",
+      "interlocutor_info": {
+        "name": "搭讪的高中生",
+        "relationship_tag": "无聊的搭讪男"
+      },
+      "trigger": {
+        "sender": "搭讪的高中生",
+        "content": "故意撞向叶灵静并说“嗨，美女，你撞到我了耶”",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "冷静而温和的少女",
+        "inner_monologue": "这些人一开始或许只是好玩，但如果遇上没什么力量的少女，或许就是女方吃亏。",
+        "external_action": "伸出手将他挡了一下，微微皱起了眉头",
+        "speech_text": null,
+        "mood_state": "嫌恶"
+      },
+      "id": "310_001",
+      "global_id": 623
+    },
+    {
+      "scene_snapshot": "叶灵静和沙沙向水哥道谢后离开现场。",
+      "interlocutor_info": {
+        "name": "水哥",
+        "relationship_tag": "帮忙的混混"
+      },
+      "trigger": {
+        "sender": "水哥",
+        "content": "出手打跑搭讪的高中生",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "礼貌而温和的少女",
+        "inner_monologue": "别打得太厉害了，给他们一点教训就够了。",
+        "external_action": "回头说道",
+        "speech_text": "水哥，谢谢了啊，别打得太厉害了。",
+        "mood_state": "感激"
+      },
+      "id": "310_002",
+      "global_id": 624
+    },
+    {
+      "scene_snapshot": "叶灵静和沙沙回到家，与顾家明交谈。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的男友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "解释下午有事提前回家，并询问考试和排球赛",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心男友的女友",
+        "inner_monologue": "他没事吧？我很担心他。",
+        "external_action": "顺手从厨房门边的墙壁上取下带哆啦A梦图案的围裙，一面系上",
+        "speech_text": "没事吧？",
+        "mood_state": "担忧"
+      },
+      "id": "310_003",
+      "global_id": 625
+    },
+    {
+      "scene_snapshot": "叶灵静在厨房与顾家明准备晚餐。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的男友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "提到晚上要出去一趟",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "体贴而支持的女友",
+        "inner_monologue": "我是不想知道你在弄些什么事，不过你当心啊，我和沙沙都很担心你的……",
+        "external_action": "笑着撞他一下，被家明从背后搂住腰肢",
+        "speech_text": "那晚上还回来吗？",
+        "mood_state": "温柔"
+      },
+      "id": "310_004",
+      "global_id": 626
+    }
+  ]
+}

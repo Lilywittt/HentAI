@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在小卖部门口与邻居聊天时遇到家明回来。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/亲密伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "走近时，家明问起灵静：'沙沙呢？'",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "亲切自然的伴侣",
+        "inner_monologue": "我正和邻居聊天等他回来，他一来就问沙沙，看来还是关心我们三个人的状态。",
+        "external_action": "笑着说完，转向其他几人告别，很自然的牵着手离开。",
+        "speech_text": "'还没回来，我下来买点东西，跟阿姨她们聊几句。'",
+        "mood_state": "平和"
+      },
+      "id": "463_001",
+      "global_id": 920
+    },
+    {
+      "scene_snapshot": "叶灵静和家明在回家路上聊起探望父母的事情。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/亲密伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "'今天回去看了叶爸叶妈吧？'",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "体贴担忧的女儿",
+        "inner_monologue": "父母看到我的样子很奇怪，家明的事情快瞒不住了，我得提醒他想想办法。",
+        "external_action": "点头。",
+        "speech_text": "'嗯。看见我的样子，听说我要到这边来住，奇怪得不得了，你的事情估计瞒不下几天啦，到时候可怎么办呢。'",
+        "mood_state": "担忧"
+      },
+      "id": "463_002",
+      "global_id": 921
+    },
+    {
+      "scene_snapshot": "叶灵静和家明在家吃饭，聊起她在维也纳的生活。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/亲密伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "'维也纳怎么样？'",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "怀念过去的伴侣",
+        "inner_monologue": "维也纳虽然好，但总不如家里亲切，我一直想着回来见他，现在终于能一起吃饭了。",
+        "external_action": "用调羹勺将紫菜汤弄到碗里，笑了笑。",
+        "speech_text": "'音乐气氛很好，环境不错，不过……家里亲切，一直都没怎么适应那边，冬天太冷了，但好歹还是撑下来了……一直想着回来骂你来着。'",
+        "mood_state": "怀念"
+      },
+      "id": "463_003",
+      "global_id": 922
+    },
+    {
+      "scene_snapshot": "叶灵静和家明开玩笑讨论开糖炒栗子店。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/亲密伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "'应该……还可以吧，生意一直不错来着。'",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "害羞憧憬的伴侣",
+        "inner_monologue": "我随口说开糖炒栗子店，他居然认真考虑，但我不是非得当老板娘，还是让他选自己喜欢的吧。",
+        "external_action": "笑道，随后红了脸，耸了耸肩。",
+        "speech_text": "'那我们以后开家卖糖炒栗子的店？' 和 '还是不要了……别我这么说你就决定吧，到底喜欢什么再选择做什么吧。我也不是非得当糖炒栗子店的老板娘。'",
+        "mood_state": "害羞"
+      },
+      "id": "463_004",
+      "global_id": 923
+    },
+    {
+      "scene_snapshot": "叶灵静在客厅主动向家明表达亲密意愿。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/亲密伙伴"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "电视播放肥皂剧，时间晚上八点多，两人刚洗完澡，气氛安静。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "深情主动的伴侣",
+        "inner_monologue": "四年分离让我们之间有了鸿沟，我需要用亲密来克服战战兢兢的情绪，重新连接。",
+        "external_action": "从沙发上下来，安静的走到他的跟前，将手按在家明的胸口上，身体发烫，微微的颤抖，抬起头注视他。",
+        "speech_text": "'我想上床。'",
+        "mood_state": "渴望"
+      },
+      "id": "463_005",
+      "global_id": 924
+    }
+  ]
+}

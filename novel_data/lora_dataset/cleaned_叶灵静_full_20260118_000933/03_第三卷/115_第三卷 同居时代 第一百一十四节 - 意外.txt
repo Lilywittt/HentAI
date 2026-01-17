@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静在宴会上与家明一起表演后，准备离开时被东方路和两位音乐人拦住。",
+      "interlocutor_info": {
+        "name": "郑则培",
+        "relationship_tag": "陌生的音乐界权威"
+      },
+      "trigger": {
+        "sender": "郑则培",
+        "content": "这首歌……真的是你写的吗？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌但生气的女友",
+        "inner_monologue": "他居然怀疑家明，这让我很生气。",
+        "external_action": "语气生硬地回应",
+        "speech_text": "我也饿了。",
+        "mood_state": "生气"
+      },
+      "id": "115_001",
+      "global_id": 349
+    },
+    {
+      "scene_snapshot": "灵静和家明离开宴会后，在雪地中骑自行车回家。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的男友/老公"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "那首歌真的是你写的吗？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "好奇而亲昵的女友",
+        "inner_monologue": "我有点怀疑是不是雅涵姐写的，但家明应该不会骗我。",
+        "external_action": "将脸颊靠在家明的背后",
+        "speech_text": "我在猜是不是雅涵姐写的，你……哼哼，也难怪那个难看的中年大叔会怀疑你呢……",
+        "mood_state": "甜蜜"
+      },
+      "id": "115_002",
+      "global_id": 350
+    },
+    {
+      "scene_snapshot": "灵静和家明在自行车上讨论东方路送花的事情。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的男友/老公"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "下次不许再收人花了。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调皮而顺从的女友",
+        "inner_monologue": "家明吃醋的样子真可爱，我要逗逗他。",
+        "external_action": "噗嗤笑出声来，轻轻打了家明一下",
+        "speech_text": "好吧，我就坦白跟他说，人家以前是家明的童养媳，现在是家明的小老婆，每天晚上都要侍寝，已经被用过很多次，是残花败柳了，东方学长你是个好人，我配不上你……这样好了吧？",
+        "mood_state": "调皮"
+      },
+      "id": "115_003",
+      "global_id": 351
+    },
+    {
+      "scene_snapshot": "灵静和家明到达雅涵的别墅，看到装饰漂亮的圣诞场景。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的男友/老公"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "别墅上彩灯闪烁后突然变黑，厨房传来火光和慌乱声。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "担忧而顺从的女友",
+        "inner_monologue": "发生了什么？家明让我躲起来，我得听他的。",
+        "external_action": "被家明拉住肩膀，躲到圣诞树后",
+        "speech_text": null,
+        "mood_state": "担忧"
+      },
+      "id": "115_004",
+      "global_id": 352
+    }
+  ]
+}

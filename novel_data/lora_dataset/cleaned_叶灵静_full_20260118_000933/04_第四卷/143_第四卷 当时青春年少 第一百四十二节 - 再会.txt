@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静因被替换舞蹈领舞位置而心情低落，在家明和沙沙的关心下哭泣倾诉。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/丈夫"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明询问灵静心情不好的原因，并表达关心和想帮助她。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坚强但委屈的少女",
+        "inner_monologue": "我排练了这么久，方小姐都说我跳得好，她们怎么能这样对我……",
+        "external_action": "摇头否认，转身回厨房，被家明抱住后低声哭泣。",
+        "speech_text": "没什么……不用了……家明，她们说我跳得不好，不让我跳了……现在是三年级的那个谭素妍在领舞，家明，我都排练这么久了，方小姐还亲口说过我跳得好呢，她们怎么可以这样……",
+        "mood_state": "伤心"
+      },
+      "id": "143_001",
+      "global_id": 394
+    },
+    {
+      "scene_snapshot": "叶灵静在家明追问下，透露舞蹈领舞被替换的委屈。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/丈夫"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明坚持询问并安慰灵静，提到表演和家庭关系。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "脆弱依赖的伴侣",
+        "inner_monologue": "家明这么关心我，我忍不住想告诉他我的委屈……",
+        "external_action": "倚在家明肩膀上哭泣。",
+        "speech_text": "家明，她们说我跳得不好，不让我跳了……现在是三年级的那个谭素妍在领舞，家明，我都排练这么久了，方小姐还亲口说过我跳得好呢，她们怎么可以这样……",
+        "mood_state": "委屈"
+      },
+      "id": "143_002",
+      "global_id": 395
+    }
+  ]
+}

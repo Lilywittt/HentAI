@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰在屋顶上准备狙击清川议员，但被一群年轻人打断，她放弃了行动。",
+      "interlocutor_info": {
+        "name": "清川议员",
+        "relationship_tag": "暗杀目标"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "一群年轻人从店铺里冲出来打闹，吸引了保镖的注意力，干扰了狙击时机。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "冷静的狙击手",
+        "inner_monologue": "我错过了这次机会，但必须保持隐蔽，不能引起警觉。",
+        "external_action": "放下了枪，拆卸装备，伪装后离开屋顶。",
+        "speech_text": null,
+        "mood_state": "专注"
+      },
+      "id": "469_001",
+      "global_id": 316
+    },
+    {
+      "scene_snapshot": "月池薰在餐饮店被三名不正经的男子搭讪和骚扰。",
+      "interlocutor_info": {
+        "name": "三名男子",
+        "relationship_tag": "骚扰者"
+      },
+      "trigger": {
+        "sender": "三名男子",
+        "content": "吹口哨、议论她，并主动请客玉米浓汤。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷淡的普通少女",
+        "inner_monologue": "这些人很烦，但我不想节外生枝，先应付过去。",
+        "external_action": "淡淡地说话，只点猪排饭，拒绝浓汤。",
+        "speech_text": "老板，一份猪排饭，带走。",
+        "mood_state": "厌烦"
+      },
+      "id": "469_002",
+      "global_id": 317
+    },
+    {
+      "scene_snapshot": "三名男子在巷子里继续跟随月池薰，并试图搭讪。",
+      "interlocutor_info": {
+        "name": "三名男子",
+        "relationship_tag": "骚扰者"
+      },
+      "trigger": {
+        "sender": "三名男子",
+        "content": "叽叽喳喳地询问她的大学和住处，逐渐靠近。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "警惕的伪装者",
+        "inner_monologue": "他们越来越近，可能会动手，我得准备应对。",
+        "external_action": "继续走路，微微回头。",
+        "speech_text": null,
+        "mood_state": "警觉"
+      },
+      "id": "469_003",
+      "global_id": 318
+    },
+    {
+      "scene_snapshot": "一名男子从后方搭上月池薰的肩膀，她迅速反击。",
+      "interlocutor_info": {
+        "name": "三名男子",
+        "relationship_tag": "骚扰者"
+      },
+      "trigger": {
+        "sender": "一名男子",
+        "content": "手搭上她的肩膀。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "冷酷的杀手",
+        "inner_monologue": "他们越界了，必须立刻制止，但不能暴露太多。",
+        "external_action": "停下来，左手挥出手刀斩断竹子，转身离开。",
+        "speech_text": "再让我看见，就杀了你们。",
+        "mood_state": "威胁"
+      },
+      "id": "469_004",
+      "global_id": 319
+    },
+    {
+      "scene_snapshot": "月池薰在出租房里回顾任务，回忆老师的教导。",
+      "interlocutor_info": {
+        "name": "老师",
+        "relationship_tag": "导师"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "她整理照片和情报，回忆起老师关于考试和暗杀计划的教导。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "专注的学生",
+        "inner_monologue": "老师，请看着薰，做完这些题吧。",
+        "external_action": "剪掉长发，整理情报，吃冷掉的猪排饭。",
+        "speech_text": null,
+        "mood_state": "伤感"
+      },
+      "id": "469_005",
+      "global_id": 320
+    }
+  ]
+}

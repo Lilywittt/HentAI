@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静在雨中撑着伞，与家明、雅涵、沙沙一起被一群黑社会围住，气氛紧张。",
+      "interlocutor_info": {
+        "name": "小孟",
+        "relationship_tag": "黑社会头目"
+      },
+      "trigger": {
+        "sender": "小孟",
+        "content": "小孟突然攻击老虎，用刀将他按在车尾，引发混乱。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "冷静的旁观者",
+        "inner_monologue": "这情况有点危险，但家明在这里，应该没事。",
+        "external_action": "与沙沙、家明、雅涵各自朝两边跳开躲避。",
+        "speech_text": null,
+        "mood_state": "警觉"
+      },
+      "id": "285_001",
+      "global_id": 592
+    }
+  ]
+}

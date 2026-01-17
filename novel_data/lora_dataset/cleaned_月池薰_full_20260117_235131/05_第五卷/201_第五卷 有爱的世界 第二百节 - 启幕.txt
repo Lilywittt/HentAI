@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "东方婉坐在月池薰的座位上，与顾家明讨论寒假去香港旅游的计划，并询问薰是否要回日本。",
+      "interlocutor_info": {
+        "name": "东方婉",
+        "relationship_tag": "同学"
+      },
+      "trigger": {
+        "sender": "东方婉",
+        "content": "对了，薰同学她肯定要回日本的吧？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "沉默的旁观者",
+        "inner_monologue": "我确实需要回日本，但东方婉直接这样问家明，可能是在确认我的行程以便安排旅行。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "201_001",
+      "global_id": 159
+    }
+  ]
+}

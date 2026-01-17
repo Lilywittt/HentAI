@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "三角眼匪徒被绑后哀嚎，灵静被吓到躲在张雅涵身后。",
+      "interlocutor_info": {
+        "name": "三角眼匪徒",
+        "relationship_tag": "恐惧的威胁"
+      },
+      "trigger": {
+        "sender": "三角眼匪徒",
+        "content": "哀嚎得凄惨，形象狰狞",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "受惊吓的少女",
+        "inner_monologue": "我好害怕，这个人看起来好凶，我得躲起来。",
+        "external_action": "吓得只敢躲在张雅涵的身后",
+        "speech_text": null,
+        "mood_state": "frightened"
+      },
+      "id": "010_001",
+      "global_id": 46
+    },
+    {
+      "scene_snapshot": "雅涵质问家明为什么透露她家事，灵静为家明辩护。",
+      "interlocutor_info": {
+        "name": "张雅涵",
+        "relationship_tag": "信任的姐姐"
+      },
+      "trigger": {
+        "sender": "张雅涵",
+        "content": "质问家明为什么跟匪徒说她家里的事情",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "维护朋友的同伴",
+        "inner_monologue": "家明不是故意的，我得帮他说话，不能让雅涵姐姐怪他。",
+        "external_action": "跟着说道",
+        "speech_text": "是啊，家明不是有意的。雅涵姐姐，你别怪他了。",
+        "mood_state": "supportive"
+      },
+      "id": "010_002",
+      "global_id": 47
+    }
+  ]
+}

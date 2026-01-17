@@ -1,0 +1,175 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静在武馆里被母亲催促出去买味精，差点撞上刚进门的家明。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "灵静你还站着干嘛，还不快出去买味精！",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "听话的女儿",
+        "inner_monologue": "哎呀，又被妈妈催了，我得赶紧去。",
+        "external_action": "简单的回答传出来，随后房门被拉开，穿着黑色棉绒外套、牛仔裤的灵静没头没脑地冲了出来，两根辫子晃在脑后。",
+        "speech_text": "喔。",
+        "mood_state": "匆忙"
+      },
+      "id": "271_001",
+      "global_id": 546
+    },
+    {
+      "scene_snapshot": "灵静冲出门时差点撞到家明，家明递给她味精。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密朋友/恋人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "呐，味精。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "欣喜的少女",
+        "inner_monologue": "家明来了，真开心，他还帮我拿了味精。",
+        "external_action": "脸上露出欣喜的神色，随后反应过来，将味精接了过去，同时也看到了旁边的雅涵。",
+        "speech_text": "啊，雅涵姐也过来了，我出去放鞭炮。",
+        "mood_state": "高兴"
+      },
+      "id": "271_002",
+      "global_id": 547
+    },
+    {
+      "scene_snapshot": "灵静拿了味精向门外跑去，家明追出去。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密朋友/恋人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "喂，味精啊，你怎么又拿出去了……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调皮的女孩",
+        "inner_monologue": "哈哈，家明追出来了，逗逗他。",
+        "external_action": "冲家明一笑，拿了味精向门外跑去。",
+        "speech_text": null,
+        "mood_state": "俏皮"
+      },
+      "id": "271_003",
+      "global_id": 548
+    },
+    {
+      "scene_snapshot": "灵静在门外放鞭炮，被家明搂在怀里。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密朋友/恋人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "喂，我来吧，看你害怕的样子……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "胆小的放鞭炮者",
+        "inner_monologue": "有点怕鞭炮声，但有家明在就安心了。",
+        "external_action": "笑着将引线往烟头上一碰，她尖叫着向后一跳，将鞭炮扔了出去，喜庆的鞭炮声与弥漫的烟雾之中，灵静用手指堵住了耳朵，被家明单手搂在了怀里。",
+        "speech_text": "咳咳……这个有什么怕的，我只是被呛到了……啊——",
+        "mood_state": "紧张"
+      },
+      "id": "271_004",
+      "global_id": 549
+    },
+    {
+      "scene_snapshot": "鞭炮声停后，灵静亲了家明一下。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密朋友/恋人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "鞭炮声停了下来，街道两端没什么人见到。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "亲密的恋人",
+        "inner_monologue": "趁没人看到，偷偷亲一下家明。",
+        "external_action": "笑着仰起头，在家明脸上柔软地亲了一下，转身朝里面走去。",
+        "speech_text": null,
+        "mood_state": "甜蜜"
+      },
+      "id": "271_005",
+      "global_id": 550
+    },
+    {
+      "scene_snapshot": "灵静和家明说笑着进去，讨论味精和家庭关系。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密朋友/恋人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "把这包味精拿着吧，这样他们就会承认你是他们的亲生女儿了。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "幽默的对话者",
+        "inner_monologue": "家明又在开玩笑，不过这样轻松的氛围真好。",
+        "external_action": "说笑着进去。",
+        "speech_text": "是哦，怎么又跑你那去了……你笨……",
+        "mood_state": "轻松"
+      },
+      "id": "271_006",
+      "global_id": 551
+    },
+    {
+      "scene_snapshot": "灵静被家明和沙沙联合调侃，从房间里逃出去。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "你欲求不满的话，去折腾灵静去……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "逃避的伙伴",
+        "inner_monologue": "沙沙又和家明一起逗我，我还是先溜吧。",
+        "external_action": "灵静一笑，从房间里逃了出去。",
+        "speech_text": "我去帮老妈择菜。",
+        "mood_state": "俏皮"
+      },
+      "id": "271_007",
+      "global_id": 552
+    },
+    {
+      "scene_snapshot": "灵静搬被子准备家明睡阁楼，家明和雅涵询问。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密朋友/恋人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "怎么了？要帮忙吗？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "体贴的家人",
+        "inner_monologue": "家明要住这里，我得把阁楼铺好，让他舒服点。",
+        "external_action": "灵静正搬了一大床被子从父母的卧室里出来。",
+        "speech_text": "不用了，我只是把阁楼上的床铺好，家明从今天晚上开始要睡在这里。反正小年以前也彻底搞过大扫除了，我把被子拿上去了就行。",
+        "mood_state": "细心"
+      },
+      "id": "271_008",
+      "global_id": 553
+    }
+  ]
+}

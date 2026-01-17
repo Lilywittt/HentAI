@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶莲的车队赶到现场，发现顾家明正在与吸血鬼战斗，并找到了叶灵静和柳怀沙的位置。",
+      "interlocutor_info": {
+        "name": "叶莲",
+        "relationship_tag": "同伴/救援者"
+      },
+      "trigger": {
+        "sender": "叶莲",
+        "content": "叶莲呼叫总部报告找到了叶灵静和柳怀沙，并描述了顾家明压倒吸血鬼的战况。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被保护者",
+        "inner_monologue": "我（叶灵静）和沙沙终于安全了，家明回来了，他在保护我们。",
+        "external_action": "在车内被找到，具体动作未描述，但处于被救援状态。",
+        "speech_text": null,
+        "mood_state": "relieved"
+      },
+      "id": "454_001",
+      "global_id": 898
+    }
+  ]
+}

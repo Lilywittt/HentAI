@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在宴会上与家明、沙沙围坐一桌吃东西，雅涵走过来抱怨应酬烦人。",
+      "interlocutor_info": {
+        "name": "张雅涵",
+        "relationship_tag": "好朋友/姐姐"
+      },
+      "trigger": {
+        "sender": "张雅涵",
+        "content": "哇喔，你们三个倒是清闲，我都被人烦了一晚上了……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "体贴的朋友",
+        "inner_monologue": "雅涵姐看起来挺累的，我得帮她准备点吃的。",
+        "external_action": "笑着将一碟早已准备好的食物推到雅涵的面前",
+        "speech_text": "又是找雅涵姐你走后门的吧？",
+        "mood_state": "关切"
+      },
+      "id": "272_001",
+      "global_id": 554
+    },
+    {
+      "scene_snapshot": "家明调侃雅涵走后门，叶灵静好奇地寻找雅涵提到的男性怨妇。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "男朋友/亲密伴侣"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "我看怕又是表白啊之类的事情，刚才我看到许老师了，反正他跟雅涵姐在一起无非就是那些话题啦，哦，人群中那个像怨妇一样看着雅涵姐的男人不会也是因为表白未遂吧？我觉得那怨念好大……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "好奇的少女",
+        "inner_monologue": "家明又在逗雅涵姐了，不过那个怨妇是谁？我得看看。",
+        "external_action": "好奇地在人群中寻找着那位男性怨妇",
+        "speech_text": "唔，哪里？哪里？",
+        "mood_state": "好奇"
+      },
+      "id": "272_002",
+      "global_id": 555
+    },
+    {
+      "scene_snapshot": "雅涵的小妈过来打招呼，叶灵静礼貌地回应。",
+      "interlocutor_info": {
+        "name": "雅涵的小妈",
+        "relationship_tag": "长辈/雅涵的家人"
+      },
+      "trigger": {
+        "sender": "雅涵的小妈",
+        "content": "咦，这不是那个叫家明的同学吗，玩得还好吗……雅涵……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌的晚辈",
+        "inner_monologue": "雅涵姐的小妈来了，我得礼貌点打招呼。",
+        "external_action": "跟小妈互相打过了招呼",
+        "speech_text": null,
+        "mood_state": "礼貌"
+      },
+      "id": "272_003",
+      "global_id": 556
+    }
+  ]
+}

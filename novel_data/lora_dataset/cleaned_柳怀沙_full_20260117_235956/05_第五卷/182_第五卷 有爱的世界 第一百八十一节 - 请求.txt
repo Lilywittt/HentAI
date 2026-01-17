@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在书店与家明、灵静一起参与书店的答题活动。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/老公"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "笑着接过冰激凌，首先问道：“不是说去吃冷饮等着我们吗？怎么又跑过来了？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "活泼开朗的少女",
+        "inner_monologue": "我吃完冰激凌了，他们还没来，我得去找他们一起玩。",
+        "external_action": "将两个冰激凌发完，感兴趣地翻阅着柜台上两本新买的小说",
+        "speech_text": "“我的都吃完啦，你们还没过来，就买了过来找你们喽。”",
+        "mood_state": "开心"
+      },
+      "id": "182_001",
+      "global_id": 383
+    },
+    {
+      "scene_snapshot": "沙沙在书店答题活动中抢答第一题。",
+      "interlocutor_info": {
+        "name": "收银女生",
+        "relationship_tag": "陌生人/服务人员"
+      },
+      "trigger": {
+        "sender": "收银女生",
+        "content": "说出第一题：“长坂桥头杀气生……一声好似轰雷震，独退曹家百万兵”赞颂哪位英雄？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "好胜的参与者",
+        "inner_monologue": "这道题我知道，我得先答对，不能输给灵静。",
+        "external_action": "首先说道",
+        "speech_text": "“这个我知道，是张飞！”",
+        "mood_state": "得意"
+      },
+      "id": "182_002",
+      "global_id": 384
+    },
+    {
+      "scene_snapshot": "沙沙在海边大堤上追打家明，因为家明在答题时开玩笑。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/老公"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "在答题时开玩笑说“斩草不除根”作为“春风吹又生”的上一句",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "凶悍的“大老婆”",
+        "inner_monologue": "这个家伙又在乱开玩笑，我得教训他一下。",
+        "external_action": "恶狠狠地追杀着自己的老公，飞腿踢他",
+        "speech_text": "“叫你斩草不除根、叫你斩草不除根……”",
+        "mood_state": "恼怒"
+      },
+      "id": "182_003",
+      "global_id": 385
+    },
+    {
+      "scene_snapshot": "沙沙在三岔路口与灵静、家明讨论东方路约见家明的事情。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密姐妹/共侍一夫"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "问道：“东方路到底干嘛要找你啊，你们在学校又没什么交情……”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "保护性的伴侣",
+        "inner_monologue": "东方路暗恋灵静，我得警告家明别出卖她。",
+        "external_action": "嫌恶地皱了皱鼻子",
+        "speech_text": "“哼，说不定是为了灵静呢。”",
+        "mood_state": "警惕"
+      },
+      "id": "182_004",
+      "global_id": 386
+    },
+    {
+      "scene_snapshot": "沙沙继续警告家明关于东方路可能用钱收买他的事情。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/老公"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明没有直接回应，但沙沙基于对话上下文发出警告",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "强势的警告者",
+        "inner_monologue": "我得确保家明不会因为钱而伤害灵静。",
+        "external_action": null,
+        "speech_text": "“要是他拿钱砸你，家明你可千万要把持住，不许出卖灵静！我警告你哦！”",
+        "mood_state": "严肃"
+      },
+      "id": "182_005",
+      "global_id": 387
+    }
+  ]
+}

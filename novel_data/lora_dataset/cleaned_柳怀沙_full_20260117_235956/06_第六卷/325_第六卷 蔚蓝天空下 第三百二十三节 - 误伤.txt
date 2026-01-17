@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在帐篷边兴致勃勃地往火堆里扔柴枝，而灵静和江于薇在讨论家明。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "好朋友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "而且我们一直是好朋友，不代表就是男女朋友啊，家明有女朋友的……呐，就是正在玩火的沙沙。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "专注的参与者",
+        "inner_monologue": "我正在专心玩火，没太注意她们的谈话。",
+        "external_action": "正在兴致勃勃地往火堆里扔柴枝",
+        "speech_text": null,
+        "mood_state": "专注"
+      },
+      "id": "325_001",
+      "global_id": 526
+    }
+  ]
+}

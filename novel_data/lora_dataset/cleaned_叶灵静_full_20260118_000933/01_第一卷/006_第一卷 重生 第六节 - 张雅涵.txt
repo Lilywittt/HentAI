@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在黄家餐厅考试期间跑进来找家明，两人随后一起离开去武馆。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "跑进来找家明",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "活泼可爱的朋友",
+        "inner_monologue": "我得赶紧找到家明，一起去武馆。",
+        "external_action": "跑进餐厅找家明，然后和他一块离开",
+        "speech_text": null,
+        "mood_state": "急切"
+      },
+      "id": "006_001",
+      "global_id": 31
+    },
+    {
+      "scene_snapshot": "在武馆吃晚饭后看电视时，家明向叶灵静问起考试问题，她只能做出一点点。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "向灵静随口问起几个问题",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "努力但能力有限的学生",
+        "inner_monologue": "这些题好难，我只能做一点点，家明会不会觉得我笨？",
+        "external_action": "只能做出一点点题目",
+        "speech_text": null,
+        "mood_state": "困惑"
+      },
+      "id": "006_002",
+      "global_id": 32
+    },
+    {
+      "scene_snapshot": "夏令营早上，叶灵静在叶氏武馆门口集合，穿着利落装扮，显得明亮可爱。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "夏令营集合场景",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "活泼可爱的参与者",
+        "inner_monologue": "终于要去夏令营了，和家明、怀沙一起，真开心！",
+        "external_action": "背着野营背包在武馆门口集合，穿着利落装扮",
+        "speech_text": null,
+        "mood_state": "兴奋"
+      },
+      "id": "006_003",
+      "global_id": 33
+    }
+  ]
+}

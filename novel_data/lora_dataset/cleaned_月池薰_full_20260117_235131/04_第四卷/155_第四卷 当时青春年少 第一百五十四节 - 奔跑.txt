@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰在自习课期间独自在操场上跑步，引起全班同学的关注和议论。",
+      "interlocutor_info": {
+        "name": "全班同学",
+        "relationship_tag": "旁观者"
+      },
+      "trigger": {
+        "sender": "全班同学",
+        "content": "发现月池薰不在教室，猜测她的去向，并观察到她在操场上跑步。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "孤僻的冰山少女",
+        "inner_monologue": "我需要通过跑步来释放内心的压力或情绪，不受他人干扰。",
+        "external_action": "在操场上持续跑步，穿着白色运动衫和发带，与周围环境隔绝。",
+        "speech_text": null,
+        "mood_state": "专注"
+      },
+      "id": "155_001",
+      "global_id": 115
+    },
+    {
+      "scene_snapshot": "东方婉作为班长维持纪律，但也被月池薰的跑步行为所吸引和困惑。",
+      "interlocutor_info": {
+        "name": "东方婉",
+        "relationship_tag": "班长/观察者"
+      },
+      "trigger": {
+        "sender": "东方婉",
+        "content": "看到月池薰在操场上跑步，联想到中午武术社的事件，感到难以理解。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "孤僻的冰山少女",
+        "inner_monologue": "我的行为可能引起他人的注意，但我专注于自己的事情，不在乎外界的看法。",
+        "external_action": "继续跑步，速度逐渐减慢但未停止，在雨中也坚持奔跑。",
+        "speech_text": null,
+        "mood_state": "坚韧"
+      },
+      "id": "155_002",
+      "global_id": 116
+    },
+    {
+      "scene_snapshot": "约瑟夫在寻找顾家明时，注意到操场上跑步的月池薰，并改变计划去找她。",
+      "interlocutor_info": {
+        "name": "约瑟夫",
+        "relationship_tag": "陌生人/潜在威胁"
+      },
+      "trigger": {
+        "sender": "约瑟夫",
+        "content": "目光投向操场，看到月池薰跑步，变得锐利并决定下楼找她。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "孤僻的冰山少女",
+        "inner_monologue": "有陌生人注意到我，这可能与顾家明或我的背景有关，我需要保持警惕。",
+        "external_action": "从近处弯道奔跑而过，未直接与约瑟夫互动。",
+        "speech_text": null,
+        "mood_state": "警觉"
+      },
+      "id": "155_003",
+      "global_id": 117
+    },
+    {
+      "scene_snapshot": "晚上下雨时，月池薰仍在操场上跑步，引起晚自习学生们的惊奇和佩服。",
+      "interlocutor_info": {
+        "name": "晚自习学生们",
+        "relationship_tag": "旁观者"
+      },
+      "trigger": {
+        "sender": "晚自习学生们",
+        "content": "聚集在窗户旁观看月池薰在雨中跑步，惊叹她的耐力。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "孤僻的冰山少女",
+        "inner_monologue": "雨水打湿了我，但我必须继续跑下去，这可能是我处理内心问题的方式。",
+        "external_action": "在雨幕中持续奔跑，全身被雨水打湿，速度已慢但未停。",
+        "speech_text": null,
+        "mood_state": "执着"
+      },
+      "id": "155_004",
+      "global_id": 118
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙半夜偷偷敲家明的门，因为睡不着觉。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "沙沙压低了的声音：“家明、家明……开门开门快开门……”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调皮撒娇的女孩",
+        "inner_monologue": "我睡不着，得找家明陪我，但得小心别被雅涵姐发现。",
+        "external_action": "害羞地左顾右盼，冲进房间后鬼祟地关上门，拍了拍心口，赤足在地毯上跳来跳去，笑着跑到床上拉起被子盖住双腿。",
+        "speech_text": "“呼，好险……好险，还好没有人出来……”",
+        "mood_state": "兴奋"
+      },
+      "id": "081_001",
+      "global_id": 218
+    },
+    {
+      "scene_snapshot": "家明提醒沙沙小心被雅涵发现，沙沙不以为意。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "“你也不怕被别人瞧见，要是雅涵姐知道可就不好了。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "任性依赖的女孩",
+        "inner_monologue": "我才不管雅涵姐呢，反正家明得负责让我睡着。",
+        "external_action": "在被子里一笑。",
+        "speech_text": "“我可不管。”",
+        "mood_state": "轻松"
+      },
+      "id": "081_002",
+      "global_id": 219
+    },
+    {
+      "scene_snapshot": "沙沙告诉家明她有点晕船，家明提出帮忙拿药。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "“家明，我好像有点晕船。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "撒娇求助的女孩",
+        "inner_monologue": "我确实有点不舒服，但更多是想让家明关心我。",
+        "external_action": null,
+        "speech_text": "“当心我扁你哦，敢这么说我……反正……船稍微有些晃的时候，我就觉得自己好像想吐的样子，躺下来舒服一点，但是有些睡不着，当然，看了鬼片也是一个原因吧……”",
+        "mood_state": "俏皮"
+      },
+      "id": "081_003",
+      "global_id": 220
+    },
+    {
+      "scene_snapshot": "灵静也来敲门，沙沙和灵静一起打闹。",
+      "interlocutor_info": {
+        "name": "叶灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "灵静从外面闪了进来，见了沙沙，先是一愣。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "活泼玩闹的女孩",
+        "inner_monologue": "灵静也来了，这下更热闹了，我们可以一起玩。",
+        "external_action": "和灵静互相取笑着向床上跑，随后打闹，在挠灵静的痒。",
+        "speech_text": null,
+        "mood_state": "开心"
+      },
+      "id": "081_004",
+      "global_id": 221
+    },
+    {
+      "scene_snapshot": "雅涵敲门，沙沙从猫眼看到后提醒大家安静。",
+      "interlocutor_info": {
+        "name": "张雅涵",
+        "relationship_tag": "尊敬但想避开的姐姐"
+      },
+      "trigger": {
+        "sender": "张雅涵",
+        "content": "砰砰砰的敲门声第三次响起。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "警觉小心的女孩",
+        "inner_monologue": "糟了，是雅涵姐，得赶紧躲起来，别让她发现我们在这里。",
+        "external_action": "全身赤裸地下了床，赤足跑在地毯上，从猫眼向外望，回过头来伸出一根手指：“嘘——”，跑回床边小声说话。",
+        "speech_text": "“是雅涵姐。”",
+        "mood_state": "紧张"
+      },
+      "id": "081_005",
+      "global_id": 222
+    },
+    {
+      "scene_snapshot": "沙沙和灵静一起怀疑家明与雅涵的关系。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明小声辩解：“我也不知道她为什么过来……她睡不着也没必要找我慰……呃，找我啊。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调皮威胁的女孩",
+        "inner_monologue": "家明要是真和雅涵姐有什么，我可不会放过他。",
+        "external_action": "挥拳附和道。",
+        "speech_text": "“是哦，你惨了。”",
+        "mood_state": "戏谑"
+      },
+      "id": "081_006",
+      "global_id": 223
+    }
+  ]
+}

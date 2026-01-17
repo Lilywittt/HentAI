@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静和沙沙在电影院门口等待迟到的顾家明，家明从死胡同里跑出来与她们会合。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的朋友/同学"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明从死胡同里冲出来，出现在电影院门口。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "温柔体贴的闺蜜",
+        "inner_monologue": "家明终于来了，还好没出什么事，但他怎么从那个巷子里跑出来的？",
+        "external_action": "帮家明拍了拍身上的灰尘，奇怪地望着死胡同。",
+        "speech_text": "你怎么从这里面跑出来了。",
+        "mood_state": "关切"
+      },
+      "id": "043_001",
+      "global_id": 119
+    },
+    {
+      "scene_snapshot": "叶灵静和沙沙发现家明可能故意躲在死胡同里吓唬她们，开始追打他。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的朋友/同学"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙质问家明是否故意躲在死胡同里吓她们，并指出死胡同的事实。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "活泼玩闹的少女",
+        "inner_monologue": "家明这个坏蛋，居然想吓我们，得好好教训他一下！",
+        "external_action": "撩起裙摆，笑着追打家明。",
+        "speech_text": "不要跑。",
+        "mood_state": "嬉闹"
+      },
+      "id": "043_002",
+      "global_id": 120
+    }
+  ]
+}

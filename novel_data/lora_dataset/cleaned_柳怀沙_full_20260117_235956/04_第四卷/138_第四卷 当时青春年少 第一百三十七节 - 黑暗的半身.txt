@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙在烛光下与灵静一起写作业，顾家明从阳台出现后，她们继续学习。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密伴侣/保护者"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "从阳台上无声地出现",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "温柔女友",
+        "inner_monologue": "家明回来了，他没事就好，我们继续做作业吧。",
+        "external_action": "笑得灿烂，抬起头看他",
+        "speech_text": null,
+        "mood_state": "安心"
+      },
+      "id": "138_001",
+      "global_id": 319
+    },
+    {
+      "scene_snapshot": "警察来询问情况后，柳怀沙与灵静、顾家明一起躺在床上。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密伴侣/保护者"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "在黑暗中问会不会觉得他很残忍",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "体贴女友",
+        "inner_monologue": "家明又在担心这个了，他做什么我都支持，别吵我睡觉就好。",
+        "external_action": "嘟囔一声，仰起头在他脸颊上重重亲了一口",
+        "speech_text": "啰嗦……不许吵我……",
+        "mood_state": "亲昵"
+      },
+      "id": "138_002",
+      "global_id": 320
+    },
+    {
+      "scene_snapshot": "第二天上学时，柳怀沙向薰讲述昨晚的犯罪过程。",
+      "interlocutor_info": {
+        "name": "薰",
+        "relationship_tag": "徒弟/朋友"
+      },
+      "trigger": {
+        "sender": "薰",
+        "content": "跑步过来，作为徒弟听柳怀沙讲述",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "武术老师/讲述者",
+        "inner_monologue": "薰是我的徒弟，我得好好教她，顺便讲讲昨晚的事吓吓她。",
+        "external_action": "绘声绘色地对漂亮徒弟讲述着那穷凶极恶的犯罪过程",
+        "speech_text": null,
+        "mood_state": "兴奋"
+      },
+      "id": "138_003",
+      "global_id": 321
+    }
+  ]
+}

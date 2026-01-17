@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰在教室中苦恼地阅读中文课本，并向顾家明道歉并请求教导武学。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "武学高手/潜在威胁"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明望了望四周，随后说道：“我早就说过不希望跟你有什么瓜葛，你这又是干嘛？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "谦卑的求教者",
+        "inner_monologue": "我必须坚持请求，这是天雨君的建议，也是我提升武学的唯一机会。",
+        "external_action": "微微低了低头",
+        "speech_text": "“对不起，但是……我这次过来，是希望顾君能够教导我池樱千幻的更高诀窍……”",
+        "mood_state": "apologetic"
+      },
+      "id": "058_001",
+      "global_id": 41
+    },
+    {
+      "scene_snapshot": "月池薰解释来中国学习武学的原因，并再次向顾家明道歉。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "武学高手/潜在威胁"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "“池樱千幻是你们家的东西，我能有什么诀窍。你想要变得厉害，不会去找天雨正则？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坚定的学习者",
+        "inner_monologue": "顾君不理解我的处境，我必须解释清楚天雨君的提议和我的无奈。",
+        "external_action": null,
+        "speech_text": "“这正是天雨君在订婚之后提出的意见。天雨君不会池樱千幻，但是按照他的推测，顾君既然能将池樱千幻练到那种程度，应该是熟知了其他类似的武学，然后作为对照归纳，一法通，则万法通。中国武术门派、分支众多，也是日本所有武术的源头，因此天雨君提议让我来中国学习。而在中国，我能够认识的人，也只有顾君你……”",
+        "mood_state": "determined"
+      },
+      "id": "058_002",
+      "global_id": 42
+    },
+    {
+      "scene_snapshot": "月池薰在顾家明威胁后保持沉默，并在后续课程中继续阅读中文课本。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "武学高手/潜在威胁"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "“我现在已经在考虑要不要杀掉你了，要学武随便找个武馆，别给我添麻烦！”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "顺从的道歉者",
+        "inner_monologue": "顾君生气了，我不能再多说，只能道歉并等待机会。",
+        "external_action": null,
+        "speech_text": "“对不起。”",
+        "mood_state": "resigned"
+      },
+      "id": "058_003",
+      "global_id": 43
+    },
+    {
+      "scene_snapshot": "月池薰在课堂上苦恼地阅读中文课本，偶尔望向顾家明但不敢说话。",
+      "interlocutor_info": {
+        "name": "环境",
+        "relationship_tag": "学习环境"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "新老师过来自我介绍、发书，东方婉活跃地帮忙发书。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "专注的学生",
+        "inner_monologue": "这些汉字真难懂，我必须努力适应，不能分心。",
+        "external_action": "苦恼地阅读着还不算太熟悉的汉字，偶尔望向家明一眼",
+        "speech_text": null,
+        "mood_state": "frustrated"
+      },
+      "id": "058_004",
+      "global_id": 44
+    }
+  ]
+}

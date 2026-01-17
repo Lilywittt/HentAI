@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙和家明进入大厅，沙沙看到杨振兴后情绪激动，但被家明牵住手克制住。",
+      "interlocutor_info": {
+        "name": "杨振兴",
+        "relationship_tag": "仇敌"
+      },
+      "trigger": {
+        "sender": "杨振兴",
+        "content": "杨振兴在人群中，沙沙一进门就看到他。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "愤怒的复仇者",
+        "inner_monologue": "我看到这个害死爸爸的仇人了，恨不得立刻冲上去。",
+        "external_action": "目光颤抖，被家明牵住手才没有爆发，随后狠狠地盯紧杨振兴的脸。",
+        "speech_text": null,
+        "mood_state": "愤怒"
+      },
+      "id": "361_001",
+      "global_id": 598
+    },
+    {
+      "scene_snapshot": "家明处理手机事件后，沙沙和家明坐在沙发上，杨振兴主动打招呼。",
+      "interlocutor_info": {
+        "name": "杨振兴",
+        "relationship_tag": "虚伪的仇敌"
+      },
+      "trigger": {
+        "sender": "杨振兴",
+        "content": "杨振兴带着笑容说：“好久不见了，家明，还有沙沙侄女。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷漠的旁观者",
+        "inner_monologue": "这个虚伪的家伙还敢叫我侄女，我绝不会回应他。",
+        "external_action": "埋头吃面，表情冰冷。",
+        "speech_text": null,
+        "mood_state": "冰冷"
+      },
+      "id": "361_002",
+      "global_id": 599
+    }
+  ]
+}

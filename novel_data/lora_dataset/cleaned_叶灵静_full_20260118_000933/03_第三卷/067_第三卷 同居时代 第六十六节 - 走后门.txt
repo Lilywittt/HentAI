@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静和家明在巷子里遇到抢劫，歹徒逃跑后他们去帮助被抢的少女。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密朋友/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明拉着叶灵静退开，避免被歹徒的匕首伤到。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "关心朋友但有些惊慌的少女",
+        "inner_monologue": "我学过入白刃的功夫，但只是理论，现在好慌啊。",
+        "external_action": "被家明拉着退开，心中慌乱。",
+        "speech_text": null,
+        "mood_state": "惊慌"
+      },
+      "id": "067_001",
+      "global_id": 185
+    },
+    {
+      "scene_snapshot": "叶灵静和家明检查歹徒逃跑后，她首先关心家明是否受伤。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密朋友/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明说“我没事，先看看她吧”，指被抢的少女。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "体贴关心的朋友",
+        "inner_monologue": "家明没事就好，我得赶紧看看那个女孩怎么样了。",
+        "external_action": "抓住家明的右手紧张地看来看去。",
+        "speech_text": "家明你没事吧。",
+        "mood_state": "关切"
+      },
+      "id": "067_002",
+      "global_id": 186
+    },
+    {
+      "scene_snapshot": "叶灵静和家明走近被抢的少女，发现她在地上摸索眼镜。",
+      "interlocutor_info": {
+        "name": "许毅婷",
+        "relationship_tag": "陌生人/同学"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "少女蹲在地上双手摸索，家明用电筒照见眼镜。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "好奇而友善的旁观者",
+        "inner_monologue": "她是在找眼镜吗？看起来像是近视眼。",
+        "external_action": "侧过头小声问家明“瞎子？”，然后笑着吐了吐舌头，小跑过去拿起眼镜为少女戴上。",
+        "speech_text": null,
+        "mood_state": "好奇"
+      },
+      "id": "067_003",
+      "global_id": 187
+    },
+    {
+      "scene_snapshot": "许毅婷认出家明是表哥，叶灵静感到疑惑并询问。",
+      "interlocutor_info": {
+        "name": "许毅婷",
+        "relationship_tag": "陌生人/同学"
+      },
+      "trigger": {
+        "sender": "许毅婷",
+        "content": "许毅婷说“家明表哥？”，认出家明。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "疑惑的朋友",
+        "inner_monologue": "他们居然认识？家明怎么没提过？",
+        "external_action": "疑惑地看看两人。",
+        "speech_text": "你们认识？",
+        "mood_state": "疑惑"
+      },
+      "id": "067_004",
+      "global_id": 188
+    },
+    {
+      "scene_snapshot": "叶灵静和家明在街口与许毅婷道别后，她开玩笑地拍家明肩膀。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密朋友/恋人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "许毅婷走远后，场景切换到叶灵静和家明单独相处。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "调皮开玩笑的朋友",
+        "inner_monologue": "家明居然记得只见过一面的女孩，我得逗逗他。",
+        "external_action": "笑着在家明肩上拍了一下。",
+        "speech_text": "前年见了一面而已，你居然还记得，你这个大色狼看上人家了？",
+        "mood_state": "戏谑"
+      },
+      "id": "067_005",
+      "global_id": 189
+    },
+    {
+      "scene_snapshot": "叶灵静和家明继续开玩笑讨论许毅婷的容貌。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密朋友/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明说“哪里啊……她和沙沙不切掉我才怪，何况她又不漂亮……”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "继续调侃的朋友",
+        "inner_monologue": "家明在辩解呢，我再说说她摘掉眼镜的样子。",
+        "external_action": null,
+        "speech_text": "摘掉眼镜的时候挺漂亮的。",
+        "mood_state": "轻松"
+      },
+      "id": "067_006",
+      "global_id": 190
+    }
+  ]
+}

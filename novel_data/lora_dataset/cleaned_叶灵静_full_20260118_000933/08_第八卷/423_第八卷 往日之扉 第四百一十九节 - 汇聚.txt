@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在维也纳偶遇前校医李云秀，两人在咖啡店外聊天。",
+      "interlocutor_info": {
+        "name": "李云秀",
+        "relationship_tag": "前校医/熟人"
+      },
+      "trigger": {
+        "sender": "李云秀",
+        "content": "李云秀认出叶灵静并主动搭话，提到叶灵静考上维也纳音乐学院，并请求她帮忙带一个小饰品回江海给方国琳。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌友好的毕业生",
+        "inner_monologue": "我毕业了要回江海，终于解放了，但李云秀突然出现有点不自然。",
+        "external_action": "托着腮帮微笑，接过小布包放进手袋，皱眉看着李云秀离开的背影。",
+        "speech_text": "我其实已经毕业了，过几天就回江海。在这边四年了，终于熬到头，感觉就跟解放了一样。",
+        "mood_state": "平静"
+      },
+      "id": "423_001",
+      "global_id": 826
+    }
+  ]
+}

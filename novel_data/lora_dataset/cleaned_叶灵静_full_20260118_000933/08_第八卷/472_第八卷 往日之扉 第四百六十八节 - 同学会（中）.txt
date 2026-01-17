@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在同学会上与沈家伟对峙，为柳怀沙解围。",
+      "interlocutor_info": {
+        "name": "沈家伟",
+        "relationship_tag": "讨厌的同学"
+      },
+      "trigger": {
+        "sender": "沈家伟",
+        "content": "沈家伟带着刻薄与讽刺的表情对柳怀沙说话，引发冲突。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "保护朋友的闺蜜",
+        "inner_monologue": "这家伙又来惹事，我得帮沙沙。",
+        "external_action": "小跑过来，蹙着眉头听沈家伟说话，随后开口讽刺他。",
+        "speech_text": null,
+        "mood_state": "defensive"
+      },
+      "id": "472_001",
+      "global_id": 962
+    },
+    {
+      "scene_snapshot": "叶灵静走到顾家明身边，亲昵地搂住他并询问沈家伟的事情。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的男友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "顾家明坐在桌边，叶灵静主动走过来。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "亲昵的女友",
+        "inner_monologue": "家明这家伙，沙沙被欺负也不帮忙，我得提醒他。",
+        "external_action": "走到家明背后直接搂住他的脖子，将侧脸附在他耳边说话。",
+        "speech_text": "那个沈家伟的叔叔就是新河帮的老大好像，跑过来撂话的……沙沙的事情你也不过去帮忙，出了事怎么办？",
+        "mood_state": "concerned"
+      },
+      "id": "472_002",
+      "global_id": 963
+    },
+    {
+      "scene_snapshot": "叶灵静看到张雅涵出现，意味深长地看了顾家明一眼后去打招呼。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的男友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "张雅涵出现在楼梯间，叶灵静注意到她。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "俏皮的女友",
+        "inner_monologue": "雅涵姐来了，这下家明要头疼了，我得去打个招呼。",
+        "external_action": "扭头望着那边，目光亮晶晶的，转过头来意味深长地望了家明一阵，深吸一口气。",
+        "speech_text": "我去打个招呼。",
+        "mood_state": "playful"
+      },
+      "id": "472_003",
+      "global_id": 964
+    },
+    {
+      "scene_snapshot": "叶灵静在宴会上与顾家明赌气，不跟他说话但互相夹菜。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的男友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "顾家明给叶灵静夹菜，试图缓和气氛。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "赌气的女友",
+        "inner_monologue": "我就不理你，看你能憋多久。",
+        "external_action": "看见家明喜欢吃的了也给他夹菜，但不开口说话。",
+        "speech_text": null,
+        "mood_state": "stubborn"
+      },
+      "id": "472_004",
+      "global_id": 965
+    },
+    {
+      "scene_snapshot": "叶灵静在楼梯间跳上顾家明的背，表达微醉后的亲密和担忧。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的男友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "顾家明下楼拿饮料，叶灵静从背后跟上来。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "微醉的亲密女友",
+        "inner_monologue": "家明这个花心大萝卜，但我还是爱他，我们该怎么办……",
+        "external_action": "跳上他的后背，轻声笑了起来，用下巴在他头发上摩擦，随后将他的脸扳过来亲吻。",
+        "speech_text": "吓到了吧？……就是想气气你。你这花心大萝卜……我们该怎么办啊，家明……不许再说分手了……",
+        "mood_state": "affectionate"
+      },
+      "id": "472_005",
+      "global_id": 966
+    },
+    {
+      "scene_snapshot": "叶灵静听到沈家伟谈论武馆威胁后，脸色一变并打电话回家。",
+      "interlocutor_info": {
+        "name": "沈家伟",
+        "relationship_tag": "讨厌的同学"
+      },
+      "trigger": {
+        "sender": "沈家伟",
+        "content": "沈家伟醉醺醺地吹嘘如何威胁武馆，提到修改记录和砸武馆。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "担忧的女儿",
+        "inner_monologue": "这家伙在威胁我家武馆？我得赶紧确认妈妈的安全。",
+        "external_action": "看着沈家伟脸色一变，随后目光阴沉地走到一旁开始打电话回家。",
+        "speech_text": null,
+        "mood_state": "alarmed"
+      },
+      "id": "472_006",
+      "global_id": 967
+    }
+  ]
+}

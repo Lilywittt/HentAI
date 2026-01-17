@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静进入病房，向沙沙抱怨她不等自己，并分享朗诵比赛获奖的喜悦。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙从床上翻过去：“怎么样？得到奖了吗？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "自信而随和的获奖者",
+        "inner_monologue": "我得了第一名，这没什么大不了的，反正沙沙会喜欢这个本子。",
+        "external_action": "毫不在意地点了点头，从背后拿出一张奖状，一个笔记本。",
+        "speech_text": "“得到了。”",
+        "mood_state": "平静"
+      },
+      "id": "038_001",
+      "global_id": 106
+    },
+    {
+      "scene_snapshot": "沙沙开玩笑要亲叶灵静，导致两人摔倒在地上，叶灵静试图躲避。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "“来，作为奖励，灵静小美女，让怀沙哥哥亲一个。”沙沙一面笑，一面开玩笑地扑了过去，便要强吻灵静红红的脸颊。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "害羞而抗拒的少女",
+        "inner_monologue": "沙沙又在胡闹了，我不想在医院里这样，但躲不开她。",
+        "external_action": "笑着将身体拼命后侧，最终被沙沙压倒在地上。",
+        "speech_text": "“不要啦……啊——”",
+        "mood_state": "尴尬"
+      },
+      "id": "038_002",
+      "global_id": 107
+    }
+  ]
+}

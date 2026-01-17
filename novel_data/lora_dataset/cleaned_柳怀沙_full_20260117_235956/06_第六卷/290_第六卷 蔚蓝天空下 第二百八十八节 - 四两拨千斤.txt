@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙和灵静在宴会厅的圆桌旁闲聊学校里的八卦。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "与沙沙谈论学校里女生恋爱分手的无聊传闻。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "八卦爱好者",
+        "inner_monologue": "我喜欢听这些恋爱故事，和灵静聊天总是很有趣。",
+        "external_action": "与灵静聊天",
+        "speech_text": null,
+        "mood_state": "relaxed"
+      },
+      "id": "290_001",
+      "global_id": 506
+    },
+    {
+      "scene_snapshot": "文从易试图与灵静搭话，沙沙在一旁观察。",
+      "interlocutor_info": {
+        "name": "文从易",
+        "relationship_tag": "陌生人"
+      },
+      "trigger": {
+        "sender": "文从易",
+        "content": "向灵静提及智力问答并试图营造亲昵感。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "旁观者",
+        "inner_monologue": "这家伙想接近灵静，真讨厌，我们才懒得理他。",
+        "external_action": "与灵静聊天，不理会文从易",
+        "speech_text": null,
+        "mood_state": "annoyed"
+      },
+      "id": "290_002",
+      "global_id": 507
+    },
+    {
+      "scene_snapshot": "灵静澄清文从易是雅涵姐的相亲对象，沙沙在一旁。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "解释文从易是雅涵姐的相亲对象，破坏他在叶涵面前的好感。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "支持者",
+        "inner_monologue": "灵静真聪明，一句话就让他露馅了，我们才不要这种人打扰。",
+        "external_action": "继续与灵静聊天",
+        "speech_text": null,
+        "mood_state": "satisfied"
+      },
+      "id": "290_003",
+      "global_id": 508
+    }
+  ]
+}

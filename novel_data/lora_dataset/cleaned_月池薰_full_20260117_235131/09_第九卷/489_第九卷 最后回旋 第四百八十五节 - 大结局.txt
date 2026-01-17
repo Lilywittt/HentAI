@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "薰在诊所里当护士，与沙沙一起悠闲地看八卦杂志。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密的朋友/同伴"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "研究图片上的猛男身上到底哪一块肌肉最发达。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "安静的参与者",
+        "inner_monologue": "I'm just going along with this casual activity to bond with friends.",
+        "external_action": "与沙沙一块看八卦杂志",
+        "speech_text": null,
+        "mood_state": "relaxed"
+      },
+      "id": "489_001",
+      "global_id": 353
+    },
+    {
+      "scene_snapshot": "薰被灵静和沙沙拉着参与日常活动，如挑选诊所物品。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密的朋友/同伴"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "拉上薰参与挑选诊所的桌椅柜台等物品。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "顺从的助手",
+        "inner_monologue": "I'm helping out as part of the group, even if it's just small tasks.",
+        "external_action": "被拉上参与挑选物品",
+        "speech_text": null,
+        "mood_state": "cooperative"
+      },
+      "id": "489_002",
+      "global_id": 354
+    },
+    {
+      "scene_snapshot": "薰和沙沙在诊所附近散步，享受悠闲生活。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密的朋友/同伴"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "日常的散步活动在海堤附近。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "平静的陪伴者",
+        "inner_monologue": "I'm enjoying this peaceful time with friends, away from past troubles.",
+        "external_action": "与沙沙一块散步",
+        "speech_text": null,
+        "mood_state": "content"
+      },
+      "id": "489_003",
+      "global_id": 355
+    },
+    {
+      "scene_snapshot": "薰被灵静和沙沙试图物色男朋友，但计划不了了之。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密的朋友/同伴"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "试图给薰物色一个足够配得上她的男朋友。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "被动的接受者",
+        "inner_monologue": "I don't really need or want this, but I appreciate their concern.",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "resigned"
+      },
+      "id": "489_004",
+      "global_id": 356
+    },
+    {
+      "scene_snapshot": "薰在街头与沙沙一起保护怀孕的灵静，远离劫匪的危险。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密的朋友/同伴"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "劫匪持枪冲出来，引起人群骚乱。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "保护性的同伴",
+        "inner_monologue": "I need to keep everyone safe, especially灵静 in her condition.",
+        "external_action": "拉着灵静等人让她们不要靠近危险",
+        "speech_text": null,
+        "mood_state": "alert"
+      },
+      "id": "489_005",
+      "global_id": 357
+    }
+  ]
+}

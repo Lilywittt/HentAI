@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在舞台上演唱《旋木》，雅涵和家明在后台房间观看并讨论她与家明、沙沙的三角关系。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "朋友/姐姐般的存在"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "雅涵质问家明是否与叶灵静或沙沙在一起，并展示在叶灵静床上发现的避孕套。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "表演者/被讨论的对象",
+        "inner_monologue": "我专注于演唱，不知道后台正在发生的激烈争吵。",
+        "external_action": "在舞台上演唱《旋木》，鞠躬致谢。",
+        "speech_text": "谢谢。",
+        "mood_state": "专注"
+      },
+      "id": "165_001",
+      "global_id": 449
+    },
+    {
+      "scene_snapshot": "家明向雅涵坦白与叶灵静和沙沙的三人关系，叶灵静在舞台上继续演唱。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/亲密伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明解释三人关系的起源和现状，提到叶灵静的父母会反对。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被保护者/关系中的一方",
+        "inner_monologue": "我们的关系复杂而隐秘，希望家明能处理好雅涵的质疑。",
+        "external_action": "在舞台上演唱，歌声流转。",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "165_002",
+      "global_id": 450
+    },
+    {
+      "scene_snapshot": "雅涵情绪激动地要求家明做出选择，叶灵静在舞台上结束演唱。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "关心但冲突的朋友"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "雅涵要求家明与叶灵静或沙沙分手，并宣布暂时断绝朋友关系。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "无辜的第三方",
+        "inner_monologue": "我完成了表演，但后台的紧张气氛可能影响到了我的朋友们。",
+        "external_action": "鞠躬，说谢谢，接受掌声。",
+        "speech_text": "谢谢。",
+        "mood_state": "专业"
+      },
+      "id": "165_003",
+      "global_id": 451
+    }
+  ]
+}

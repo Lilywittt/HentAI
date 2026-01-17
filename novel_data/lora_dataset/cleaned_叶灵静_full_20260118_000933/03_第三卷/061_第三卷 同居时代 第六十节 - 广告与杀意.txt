@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "武术社成员冲上擂台围攻家明，场面混乱。",
+      "interlocutor_info": {
+        "name": "武术社成员",
+        "relationship_tag": "敌对者"
+      },
+      "trigger": {
+        "sender": "武术社成员",
+        "content": "冲上擂台围攻家明，口中怒骂不休。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "关心朋友的支持者",
+        "inner_monologue": "我得赶快去帮家明，不能让他受伤。",
+        "external_action": "从旁边冲了过来，试图帮助家明。",
+        "speech_text": null,
+        "mood_state": "焦急"
+      },
+      "id": "061_001",
+      "global_id": 166
+    },
+    {
+      "scene_snapshot": "家明走下擂台后，与灵静和沙沙交谈。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明走下擂台，沙沙迎上来，灵静笑着说话。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "轻松调侃的朋友",
+        "inner_monologue": "家明这家伙总是这么乱来，不过没事就好。",
+        "external_action": "笑着对家明说话。",
+        "speech_text": "你居然打广告，丢人……",
+        "mood_state": "轻松"
+      },
+      "id": "061_002",
+      "global_id": 167
+    },
+    {
+      "scene_snapshot": "灵静告诉家明和沙沙她遇到了月池薰。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "灵静主动分享她遇到月池薰的消息。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "分享惊喜的朋友",
+        "inner_monologue": "我得赶紧告诉家明和沙沙这个好消息，薰来了。",
+        "external_action": "笑着对家明和沙沙说话。",
+        "speech_text": "对了，家明，你猜我刚才见到谁了？我刚才上厕所，居然见到月池薰了，那天早上引起打架的日本女孩子果然是薰啊，她还学会了中国话呢。我刚才跟她聊了几句，想着你这边比武就赶快过来了，她现在应该在门口等着我们，走吧。",
+        "mood_state": "兴奋"
+      },
+      "id": "061_003",
+      "global_id": 168
+    },
+    {
+      "scene_snapshot": "灵静提议让月池薰加入他们的学习小组。",
+      "interlocutor_info": {
+        "name": "顾家明和沙沙",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "灵静拉着月池薰的手提出建议。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "热心安排的组织者",
+        "inner_monologue": "这样安排对薰和我们都有好处，可以互相帮助。",
+        "external_action": "拉着月池薰的手说话。",
+        "speech_text": "对了，家明，沙沙，薰说她来中国是想学武术呢，正好我也想要她教我英文，所以就准备把她介绍到我家的武馆去啦，当然，这里离武馆太远，平时在学校的时候，就由我们三个教她好不好？正好她也可以帮我们提高英语，薰的英语很厉害的哦。",
+        "mood_state": "热心"
+      },
+      "id": "061_004",
+      "global_id": 169
+    }
+  ]
+}

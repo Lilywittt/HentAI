@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙与灵静、雅涵在小溪边洗菜择菜，参与露营的集体活动。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友/室友"
+      },
+      "trigger": {
+        "sender": "叙述者",
+        "content": "灵静、雅涵与沙沙则是到小溪边洗菜择菜。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "积极参与的露营者",
+        "inner_monologue": "我和灵静一起洗菜，这种集体活动挺有趣的，能和大家一起动手准备晚餐。",
+        "external_action": "在小溪边洗菜择菜",
+        "speech_text": null,
+        "mood_state": "engaged"
+      },
+      "id": "324_001",
+      "global_id": 525
+    }
+  ]
+}

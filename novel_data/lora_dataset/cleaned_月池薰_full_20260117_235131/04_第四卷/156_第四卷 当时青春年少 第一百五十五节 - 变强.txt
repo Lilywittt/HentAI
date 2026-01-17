@@ -1,0 +1,154 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "薰在小卖部购买面包，拒绝了年轻人提供的雨伞。",
+      "interlocutor_info": {
+        "name": "年轻人",
+        "relationship_tag": "陌生人"
+      },
+      "trigger": {
+        "sender": "年轻人",
+        "content": "雨伞要吗？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷漠的顾客",
+        "inner_monologue": "我不需要雨伞，已经湿透了，而且钱包里钱不多。",
+        "external_action": "望了望雨伞栏上的标签，摇了摇头，从湿漉漉的衣兜里掏出钱包付钱。",
+        "speech_text": "不用。",
+        "mood_state": "疲惫"
+      },
+      "id": "156_001",
+      "global_id": 119
+    },
+    {
+      "scene_snapshot": "薰在圣心学院宿舍区的小路上被约瑟夫拦住质问。",
+      "interlocutor_info": {
+        "name": "约瑟夫",
+        "relationship_tag": "敌人"
+      },
+      "trigger": {
+        "sender": "约瑟夫",
+        "content": "我想你应该认识我。周六那天晚上，蓝鸟酒吧停车场，开车的是你！我要知道玛丽莲和海蒂的下落！",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静的忍者",
+        "inner_monologue": "这个人很强，是黑市拳手，我必须小心应对。",
+        "external_action": "平淡地回应，转身试图离开。",
+        "speech_text": "我不知道。",
+        "mood_state": "警惕"
+      },
+      "id": "156_002",
+      "global_id": 120
+    },
+    {
+      "scene_snapshot": "约瑟夫威胁薰跟他走，薰再次拒绝。",
+      "interlocutor_info": {
+        "name": "约瑟夫",
+        "relationship_tag": "敌人"
+      },
+      "trigger": {
+        "sender": "约瑟夫",
+        "content": "那么你跟我走！这不是请求。你只是个孩子，虽然四个多小时能够跑完一次马拉松足以证明你的与众不同，但是希望你明白，我有过黑市拳的一百胜的战绩……一旦出手，我怕你会死。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坚定的反抗者",
+        "inner_monologue": "我拒绝屈服，即使面对死亡威胁。",
+        "external_action": "无视拦路，举步前行。",
+        "speech_text": "我拒绝。",
+        "mood_state": "决绝"
+      },
+      "id": "156_003",
+      "global_id": 121
+    },
+    {
+      "scene_snapshot": "约瑟夫动手抓薰，薰反击但被击飞。",
+      "interlocutor_info": {
+        "name": "约瑟夫",
+        "relationship_tag": "敌人"
+      },
+      "trigger": {
+        "sender": "约瑟夫",
+        "content": "约瑟夫的手向着她的肩膀抓了过来。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "战斗的忍者",
+        "inner_monologue": "必须反击，用池樱千幻的技巧攻击他的要害。",
+        "external_action": "右手腕陡然一转，指尖朝着约瑟夫的手腕血脉划过去。",
+        "speech_text": null,
+        "mood_state": "专注"
+      },
+      "id": "156_004",
+      "global_id": 122
+    },
+    {
+      "scene_snapshot": "薰在打斗中评估自己的进步，想起家明的教导。",
+      "interlocutor_info": {
+        "name": "约瑟夫",
+        "relationship_tag": "敌人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "打斗中薰不断躲避约瑟夫的攻击，身体疲惫但本能反应增强。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "反思的学习者",
+        "inner_monologue": "我变强了，中国功夫的训练让我能更好地认识自己，在生死关头激发潜能。",
+        "external_action": "本能地躲避攻击，脑中回想家明的教导。",
+        "speech_text": null,
+        "mood_state": "激动"
+      },
+      "id": "156_005",
+      "global_id": 123
+    },
+    {
+      "scene_snapshot": "薰使用忍术·死拳反击，迫使约瑟夫退让。",
+      "interlocutor_info": {
+        "name": "约瑟夫",
+        "relationship_tag": "敌人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "拳风袭来，薰在黑暗中反击。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "决绝的战士",
+        "inner_monologue": "用死拳攻击，或许能两败俱伤，我必须抓住这个机会。",
+        "external_action": "转身避开拳风，跨步聚力，双拳横扫向约瑟夫的胸膛。",
+        "speech_text": null,
+        "mood_state": "决绝"
+      },
+      "id": "156_006",
+      "global_id": 124
+    },
+    {
+      "scene_snapshot": "薰被神秘人救起，得到夸奖。",
+      "interlocutor_info": {
+        "name": "神秘人",
+        "relationship_tag": "保护者"
+      },
+      "trigger": {
+        "sender": "神秘人",
+        "content": "有人揪住了她的后衣领，将她向后扔飞出去，然后抱起她。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "虚弱的依赖者",
+        "inner_monologue": "是家明吗？在他怀里，所有的累和痛都消失了，我想多躺一会儿。",
+        "external_action": "被抱起，雨滴落在脸上，感受那人的胸膛。",
+        "speech_text": null,
+        "mood_state": "安心"
+      },
+      "id": "156_007",
+      "global_id": 125
+    }
+  ]
+}

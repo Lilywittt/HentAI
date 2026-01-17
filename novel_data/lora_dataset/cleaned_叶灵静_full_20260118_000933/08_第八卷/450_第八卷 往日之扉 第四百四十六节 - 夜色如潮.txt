@@ -1,0 +1,175 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静在舞台后台与多年未见的沙沙重逢，情绪崩溃地拥抱哭泣。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲如姐妹的挚友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙朝灵静走过来，脸上带着微笑但泪水直流。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "情感脆弱、依赖的妹妹",
+        "inner_monologue": "我终于见到沙沙了，这四年来的心痛和委屈可以全部发泄出来了。",
+        "external_action": "走到沙沙身边，抱住她大声哭泣。",
+        "speech_text": "沙沙……家明死了啊……",
+        "mood_state": "悲痛"
+      },
+      "id": "450_001",
+      "global_id": 880
+    },
+    {
+      "scene_snapshot": "沙沙询问灵静关于李云秀给的发光小瓶子，并催促她离开。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲如姐妹的挚友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙问灵静发光小瓶子是否还在她身上，并说'我们该走了'。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "困惑但顺从的同伴",
+        "inner_monologue": "沙沙突然问起这个瓶子，事情好像不简单，但我得先找到它。",
+        "external_action": "跑向化妆台去拿瓶子。",
+        "speech_text": "……在手袋里。",
+        "mood_state": "迷茫"
+      },
+      "id": "450_002",
+      "global_id": 881
+    },
+    {
+      "scene_snapshot": "朱利安试图阻止沙沙带走灵静，灵静解释沙沙是她的姐姐。",
+      "interlocutor_info": {
+        "name": "朱利安",
+        "relationship_tag": "后台的同事或熟人"
+      },
+      "trigger": {
+        "sender": "朱利安",
+        "content": "朱利安站出来质问'你们干什么！'，几把枪对准了他。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "维护姐姐的妹妹",
+        "inner_monologue": "朱利安别拦我们，沙沙是我姐姐，我得跟她走。",
+        "external_action": "摇头并说话。",
+        "speech_text": "是我姐姐。",
+        "mood_state": "急切"
+      },
+      "id": "450_003",
+      "global_id": 882
+    },
+    {
+      "scene_snapshot": "灵静在车上询问沙沙关于袭击者的身份。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲如姐妹的挚友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静平稳呼吸后问'是什么人？'",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "担忧的询问者",
+        "inner_monologue": "这些人是谁？为什么袭击我们？沙沙知道些什么。",
+        "external_action": "平稳呼吸后提问。",
+        "speech_text": "是什么人？",
+        "mood_state": "紧张"
+      },
+      "id": "450_004",
+      "global_id": 883
+    },
+    {
+      "scene_snapshot": "灵静质问沙沙为何隐瞒事情并多年未联系她。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲如姐妹的挚友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静低头说'你也瞒着我……家明以前也是这样瞒着我们的……'",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "受伤且质问的妹妹",
+        "inner_monologue": "沙沙和家明一样瞒着我，这让我感到被背叛和孤独。",
+        "external_action": "低头说话。",
+        "speech_text": "你也瞒着我……家明以前也是这样瞒着我们的……",
+        "mood_state": "伤心"
+      },
+      "id": "450_005",
+      "global_id": 884
+    },
+    {
+      "scene_snapshot": "灵静追问沙沙这几年的去向。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲如姐妹的挚友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静望着沙沙问'可你一直没去找我。你这几年在哪里呢？'",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "渴望答案的追问者",
+        "inner_monologue": "沙沙这些年在哪里？为什么都不来找我？我们本该在一起的。",
+        "external_action": "望着沙沙提问。",
+        "speech_text": "可你一直没去找我。你这几年在哪里呢？",
+        "mood_state": "困惑"
+      },
+      "id": "450_006",
+      "global_id": 885
+    },
+    {
+      "scene_snapshot": "沙沙试图从灵静手中拿走发光小瓶子，灵静拒绝并情绪激动。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲如姐妹的挚友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙伸手从灵静的手袋里拿出小瓶子。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "恐惧且抗拒的守护者",
+        "inner_monologue": "我不能让沙沙拿走这个瓶子，这是我们仅剩的东西了，我们必须一起回家。",
+        "external_action": "攥住沙沙的手，摇头哭泣。",
+        "speech_text": "你抢我就咬你……只有我们了！我们不管这些事！我们回家啊！沙沙……",
+        "mood_state": "绝望"
+      },
+      "id": "450_007",
+      "global_id": 886
+    },
+    {
+      "scene_snapshot": "灵静在车上产生幻觉，以为看到了家明。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲如姐妹的挚友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静望向后视镜说'我出现幻觉了……居然看见家明了……'",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "恍惚且怀旧的妹妹",
+        "inner_monologue": "我一定是太想家明了，居然觉得他坐在后面，这不可能……",
+        "external_action": "望向后视镜说话。",
+        "speech_text": "我出现幻觉了……居然看见家明了……",
+        "mood_state": "恍惚"
+      },
+      "id": "450_008",
+      "global_id": 887
+    }
+  ]
+}

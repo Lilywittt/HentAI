@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰赤裸着身体躺在地上，目睹家明与老头激烈战斗，使用池樱千幻忍术。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "神秘而强大的救助者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明与老头战斗，炫耀般地使用池樱千幻忍术，展现出远超月池薰的熟练度。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "震惊的旁观者",
+        "inner_monologue": "池樱千幻使到这个程度，家族之中……谁能做得到？",
+        "external_action": "看得心惊",
+        "speech_text": null,
+        "mood_state": "震惊"
+      },
+      "id": "037_001",
+      "global_id": 18
+    },
+    {
+      "scene_snapshot": "老头被家明重伤后，月池薰突然冲上前攻击老头。",
+      "interlocutor_info": {
+        "name": "老头",
+        "relationship_tag": "敌人或威胁"
+      },
+      "trigger": {
+        "sender": "老头",
+        "content": "老头被家明在小腹上划出伤口，踉跄站立，质疑家明如何会池樱千幻。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "复仇的执行者",
+        "inner_monologue": "我必须抓住这个机会结束他。",
+        "external_action": "从旁边冲上，在老头的脖子上划出一道致命的伤口",
+        "speech_text": null,
+        "mood_state": "决绝"
+      },
+      "id": "037_002",
+      "global_id": 19
+    },
+    {
+      "scene_snapshot": "家明将刀架在月池薰脖子上，威胁要杀她灭口，但她晕厥过去。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "潜在威胁但犹豫的救助者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明将刀锋直接架在月池薰的脖子上，解释不能让人知道今天的事情，只能杀人灭口。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "虚弱而无奈的伤者",
+        "inner_monologue": "我伤得太重，无法回应他的威胁。",
+        "external_action": "晕厥，倒在家明怀里",
+        "speech_text": null,
+        "mood_state": "无助"
+      },
+      "id": "037_003",
+      "global_id": 20
+    }
+  ]
+}

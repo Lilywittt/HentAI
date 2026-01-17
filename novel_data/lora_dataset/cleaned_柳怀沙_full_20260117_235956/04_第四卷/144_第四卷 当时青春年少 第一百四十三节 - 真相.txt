@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙冲进大礼堂质问学生会为什么撤掉叶灵静的领舞资格。",
+      "interlocutor_info": {
+        "name": "学生会成员",
+        "relationship_tag": "权威机构成员"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙风风火火地冲进正在排练节目的大礼堂，阻拦的两个学生会成员，被她直接推到了一边：“我才不管你们是不是排练期间，我要找负责舞蹈的人！”",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "愤怒的维护者",
+        "inner_monologue": "我必须为灵静讨回公道，他们不能这样随意对待她的努力。",
+        "external_action": "冲进礼堂，推开阻拦的学生会成员，大声质问",
+        "speech_text": "我想知道你们为什么不让叶灵静领舞了，是因为她跳得不好还是什么？你们知道她为了这支舞蹈下了多大的功夫吗？说让人跳就让人跳，说不让了就马上叫她走人！你们学生会是怎么做出决定的！舞蹈老师呢！？",
+        "mood_state": "愤怒"
+      },
+      "id": "144_001",
+      "global_id": 327
+    },
+    {
+      "scene_snapshot": "沙沙与谭素妍争吵，提议让灵静和谭素妍比一场来决定领舞资格。",
+      "interlocutor_info": {
+        "name": "谭素妍",
+        "relationship_tag": "竞争对手"
+      },
+      "trigger": {
+        "sender": "谭素妍",
+        "content": "谭素妍也仰着头说了起来：“我也觉得比一场是个好办法啊，我没问题！”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坚定的挑战者",
+        "inner_monologue": "好，既然她敢应战，我就让灵静用实力证明自己。",
+        "external_action": "与谭素妍针锋相对地争吵",
+        "speech_text": "那好，大家都听到了，到了比的时候，可别抵赖啊！",
+        "mood_state": "挑衅"
+      },
+      "id": "144_002",
+      "global_id": 328
+    },
+    {
+      "scene_snapshot": "谭素妍透露撤掉灵静领舞是方雨思的意思，沙沙感到震惊和无力。",
+      "interlocutor_info": {
+        "name": "谭素妍",
+        "relationship_tag": "竞争对手"
+      },
+      "trigger": {
+        "sender": "谭素妍",
+        "content": "谭素妍似乎吵得不耐烦了：“哼，说出来又怎么了！不管怎么比，总之叶灵静也不能当领舞，她不行的话是方小姐亲口说的，为什么非得保密！还说什么方小姐亲口夸奖她呢……那是礼貌式的敷衍好不好！”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "受挫的维护者",
+        "inner_monologue": "怎么会这样？方雨思明明夸过灵静的，这太不公平了。",
+        "external_action": "语音变得干涩，失去底气",
+        "speech_text": "你说……什么？",
+        "mood_state": "震惊"
+      },
+      "id": "144_003",
+      "global_id": 329
+    },
+    {
+      "scene_snapshot": "家明出现安慰沙沙，带她离开礼堂。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "一道人影从旁边走了过来，拍拍她的肩膀，熟悉的触感。一回头，果然是家明：“别说了，走吧。”",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "顺从的同伴",
+        "inner_monologue": "家明来了，也许他知道该怎么做，我先跟他离开这里。",
+        "external_action": "迟疑地点头，回头望了望众人，与家明一同出去",
+        "speech_text": "……嗯。",
+        "mood_state": "困惑"
+      },
+      "id": "144_004",
+      "global_id": 330
+    },
+    {
+      "scene_snapshot": "沙沙和家明在僻静处讨论如何告诉灵静真相。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明用手指刮了刮她的鼻梁，笑道：“你啊，老是风风火火的……”",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "担忧的朋友",
+        "inner_monologue": "灵静一定会很伤心，我们得小心处理这件事。",
+        "external_action": "笑了笑，随后叹气",
+        "speech_text": "那怎么办呢？灵静会很伤心，我们要告诉她事实吗？",
+        "mood_state": "担忧"
+      },
+      "id": "144_005",
+      "global_id": 331
+    }
+  ]
+}

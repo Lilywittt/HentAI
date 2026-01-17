@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明从东方家别墅出来，在街角与沙沙分开。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/同伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "从东方家别墅出来，在街角与沙沙分开",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "支持性的朋友",
+        "inner_monologue": "我理解家明需要先去见雅涵姐和淘淘，这是应该的。",
+        "external_action": "与家明分开",
+        "speech_text": null,
+        "mood_state": "理解"
+      },
+      "id": "459_001",
+      "global_id": 713
+    }
+  ]
+}

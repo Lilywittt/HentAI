@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "雅涵开车送家明、灵静和沙沙去圣心贵族学校，讨论他们独立生活的计划。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "关心他们的姐姐"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "那么……你们真的打算好了不住宿舍？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坚定独立的女孩",
+        "inner_monologue": "我支持灵静的想法，我们要靠自己生活。",
+        "external_action": "点着头",
+        "speech_text": "嗯，没错。",
+        "mood_state": "determined"
+      },
+      "id": "054_001",
+      "global_id": 160
+    },
+    {
+      "scene_snapshot": "雅涵提议让他们住到她家，但被灵静和沙沙拒绝。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "关心他们的姐姐"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "呃，那好，这样吧，我其实也是住在学校分在校外的房子里，房子很大，我也是一个人住，如果你们想住在校外，到我那里来好不好？说好了，我收房租的哦。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坚持独立的女孩",
+        "inner_monologue": "住在雅涵姐那里会被照顾，这违背了我们独立的初衷。",
+        "external_action": "和灵静对望一眼",
+        "speech_text": "不要。",
+        "mood_state": "resolute"
+      },
+      "id": "054_002",
+      "global_id": 161
+    },
+    {
+      "scene_snapshot": "雅涵提醒灵静和沙沙小心在学校受欢迎，沙沙展示防狼喷剂。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "关心他们的姐姐"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "而且沙沙今天又没有把球棒带来，当心灵静会被人劫走了呢。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "有备无患的女孩",
+        "inner_monologue": "我带了防狼喷剂，可以保护自己和灵静。",
+        "external_action": "从口袋里拿出一支小型的防狼喷剂",
+        "speech_text": null,
+        "mood_state": "prepared"
+      },
+      "id": "054_003",
+      "global_id": 162
+    },
+    {
+      "scene_snapshot": "雅涵在学校板起严肃面孔吓退搭讪的男生，沙沙和灵静、家明感到惊讶。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "关心他们的姐姐"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "嗯，这三个同学已经报过名了，我会带他们熟悉学校，你去帮助其他新生吧。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "惊讶的旁观者",
+        "inner_monologue": "雅涵姐在学校的样子好吓人，那些男生都跑了。",
+        "external_action": "目瞪口呆地望着雅涵",
+        "speech_text": null,
+        "mood_state": "surprised"
+      },
+      "id": "054_004",
+      "global_id": 163
+    },
+    {
+      "scene_snapshot": "雅涵解释她在学校严肃的原因，沙沙和灵静、家明听后大笑。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "关心他们的姐姐"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "当然，灵静你都不知道现在的学生坏成什么程度，要让他们听话，就得要他们怕你！",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被逗笑的女孩",
+        "inner_monologue": "雅涵姐的严肃面孔和学生的反应太搞笑了。",
+        "external_action": "捧腹不已",
+        "speech_text": null,
+        "mood_state": "amused"
+      },
+      "id": "054_005",
+      "global_id": 164
+    }
+  ]
+}

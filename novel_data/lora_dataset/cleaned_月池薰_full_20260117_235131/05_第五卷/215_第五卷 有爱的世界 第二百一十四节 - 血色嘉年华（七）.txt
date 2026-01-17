@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "薰和沙沙被坦克追击，薰身受重伤倒地，沙沙试图用手雷与坦克同归于尽。",
+      "interlocutor_info": {
+        "name": "坦克",
+        "relationship_tag": "敌人"
+      },
+      "trigger": {
+        "sender": "坦克",
+        "content": "枪口对准在地上挣扎的薰，并开枪击中她的右臂。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "坚韧的战士",
+        "inner_monologue": "我必须让沙沙逃走，不能让她死在这里。",
+        "external_action": "倒在地上，右手颤抖着放在小腹的伤口上，急促呼吸，无法再爬起来。",
+        "speech_text": "快走……",
+        "mood_state": "desperate"
+      },
+      "id": "215_001",
+      "global_id": 183
+    },
+    {
+      "scene_snapshot": "沙沙拉开手雷冲向坦克，薰试图保护沙沙。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "同伴"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "拉开手雷拉环，冲向坦克。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "保护者",
+        "inner_monologue": "我不能让沙沙牺牲自己，必须阻止她。",
+        "external_action": "一道黑影从旁边插入两人之间，沙沙冲进那人怀里，双手被抓住。",
+        "speech_text": null,
+        "mood_state": "resolute"
+      },
+      "id": "215_002",
+      "global_id": 184
+    }
+  ]
+}

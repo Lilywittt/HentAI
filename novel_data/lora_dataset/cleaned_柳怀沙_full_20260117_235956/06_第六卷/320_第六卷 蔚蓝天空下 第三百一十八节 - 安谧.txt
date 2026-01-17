@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙和灵静在家中等家明回来，用充气锤打闹迎接他。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明开门回家，提着糖炒栗子。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "活泼顽皮的恋人",
+        "inner_monologue": "我等他这么久，得好好教训他一下！",
+        "external_action": "用充气塑胶大锤扑打家明，喊着“让你这么晚回来！让你这么晚……”。",
+        "speech_text": "让你这么晚回来！让你这么晚……",
+        "mood_state": "兴奋"
+      },
+      "id": "320_001",
+      "global_id": 516
+    },
+    {
+      "scene_snapshot": "沙沙和灵静因糖炒栗子内讧，家明趁机加入打闹。",
+      "interlocutor_info": {
+        "name": "叶灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "灵静拿走糖炒栗子纸袋，说“我不生气了。沙沙你继续。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "贪玩好斗的少女",
+        "inner_monologue": "灵静抢我的栗子，我得追回来！",
+        "external_action": "扔掉锤子，改去追灵静。",
+        "speech_text": "喂。有一半是我的好不好。",
+        "mood_state": "急切"
+      },
+      "id": "320_002",
+      "global_id": 517
+    },
+    {
+      "scene_snapshot": "沙沙被家明扑倒并锁住，在地毯上挣扎。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明从后面扑倒沙沙，将她锁住。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "被压制但顽抗的恋人",
+        "inner_monologue": "这家伙力气真大，我得想办法挣脱！",
+        "external_action": "被压在地上，手扣手、脚压脚固定，双腿挣扎。",
+        "speech_text": "哇哇，叶灵静你个目光短浅的小女人，他欺负过我之后你以为就不欺负你了吗……这是各个击破的阴谋，是阴谋啊……",
+        "mood_state": "激动"
+      },
+      "id": "320_003",
+      "global_id": 518
+    },
+    {
+      "scene_snapshot": "沙沙被家明调戏，睡裙被拉起，身体发热。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明拈着沙沙的睡裙向上拉，说“其实我觉得这种姿势也很不错哦……”。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "害羞但兴奋的恋人",
+        "inner_monologue": "这样好羞人，但又有点刺激……",
+        "external_action": "身体逐渐变烫，修长双腿挣扎，口中乱喊。",
+        "speech_text": "变态啊……强奸啊……你先去洗澡啦……不行，不能在这里……",
+        "mood_state": "羞涩"
+      },
+      "id": "320_004",
+      "global_id": 519
+    },
+    {
+      "scene_snapshot": "沙沙和灵静在房间里打闹，后来在床上嬉笑低语。",
+      "interlocutor_info": {
+        "name": "叶灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "家明洗澡后，两个女孩子在房间里打闹。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "亲密玩伴",
+        "inner_monologue": "和灵静一起玩真开心，今晚要好好享受。",
+        "external_action": "在房间里打闹成一片，后来灯熄后传出低吟与喘息。",
+        "speech_text": null,
+        "mood_state": "愉悦"
+      },
+      "id": "320_005",
+      "global_id": 520
+    }
+  ]
+}

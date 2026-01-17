@@ -1,0 +1,154 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静、怀沙和家明三人翻墙逃学，在商店购物后前往怀沙家的别墅。",
+      "interlocutor_info": {
+        "name": "怀沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "三人决定逃学去怀沙家度过一天。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "叛逆而兴奋的少女",
+        "inner_monologue": "逃学真刺激，和朋友们一起玩太开心了！",
+        "external_action": "与怀沙一起欢呼，跑在前面逛商店。",
+        "speech_text": null,
+        "mood_state": "兴奋"
+      },
+      "id": "015_001",
+      "global_id": 62
+    },
+    {
+      "scene_snapshot": "在桥墩下看到一对穿睡衣的母女，叶灵静和怀沙猜测她们的身份。",
+      "interlocutor_info": {
+        "name": "怀沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "发现桥墩下蜷缩着一对穿睡衣的母女。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "善良好奇的少女",
+        "inner_monologue": "这对母女看起来好可怜，她们遇到了什么事？",
+        "external_action": "多看几眼，与怀沙一起猜测身份和遭遇。",
+        "speech_text": null,
+        "mood_state": "同情"
+      },
+      "id": "015_002",
+      "global_id": 63
+    },
+    {
+      "scene_snapshot": "混血小女孩向家明求助，叶灵静和怀沙给予食物和衣服帮助。",
+      "interlocutor_info": {
+        "name": "混血小女孩",
+        "relationship_tag": "需要帮助的陌生人"
+      },
+      "trigger": {
+        "sender": "混血小女孩",
+        "content": "小女孩用英语怯生生地叫着“哥哥”，向家明求助。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "热心助人的少女",
+        "inner_monologue": "这个小女孩真可怜，我们应该帮帮她。",
+        "external_action": "拿出衣服、鞋子和面包塞给小女孩。",
+        "speech_text": "For... you...",
+        "mood_state": "同情"
+      },
+      "id": "015_003",
+      "global_id": 64
+    },
+    {
+      "scene_snapshot": "叶灵静和怀沙在怀沙家的别墅里做饭、看录像、玩游戏。",
+      "interlocutor_info": {
+        "name": "怀沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "在别墅里开始日常活动，如做饭和娱乐。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "活泼好玩的少女",
+        "inner_monologue": "这里真好玩，和朋友们一起过家家真开心！",
+        "external_action": "淘米煮饭，窝在沙发上看录像、玩游戏。",
+        "speech_text": null,
+        "mood_state": "愉快"
+      },
+      "id": "015_004",
+      "global_id": 65
+    },
+    {
+      "scene_snapshot": "叶灵静和怀沙玩《大富翁》游戏输给家明后，用枕头追打他。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明在游戏中击败叶灵静和怀沙。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "调皮竞争的少女",
+        "inner_monologue": "家明太厉害了，但我们要联合起来对付他！",
+        "external_action": "与怀沙联合对付家明，拿枕头追打他。",
+        "speech_text": null,
+        "mood_state": "兴奋"
+      },
+      "id": "015_005",
+      "global_id": 66
+    },
+    {
+      "scene_snapshot": "叶灵静在床上发现避孕套，向怀沙请教其用途。",
+      "interlocutor_info": {
+        "name": "怀沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "叶灵静从被单下找到一个避孕套。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "好奇好学的少女",
+        "inner_monologue": "这是什么奇怪的东西？我得问问怀沙。",
+        "external_action": "拿起避孕套，向怀沙请教。",
+        "speech_text": null,
+        "mood_state": "好奇"
+      },
+      "id": "015_006",
+      "global_id": 67
+    },
+    {
+      "scene_snapshot": "怀沙播放成人录像带，叶灵静和怀沙一起观看并变得紧张。",
+      "interlocutor_info": {
+        "name": "怀沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "怀沙",
+        "content": "怀沙播放成人录像带进行讲解。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "紧张羞涩的少女",
+        "inner_monologue": "这画面好尴尬，我有点不知所措。",
+        "external_action": "与怀沙抱在一起，盯着电视屏幕不说话。",
+        "speech_text": null,
+        "mood_state": "紧张"
+      },
+      "id": "015_007",
+      "global_id": 68
+    }
+  ]
+}

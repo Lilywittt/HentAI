@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙和家明、灵静在聚会中玩耍，沙沙去玩蒙眼敲锣游戏。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "男朋友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "灵静向家明表达自责，担心沙沙不开心。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "粘人的女朋友",
+        "inner_monologue": "我玩得正开心呢，灵静又在瞎担心什么。",
+        "external_action": "蒙着眼睛玩敲锣游戏，显得呆呆傻傻。",
+        "speech_text": null,
+        "mood_state": "开心"
+      },
+      "id": "328_001",
+      "global_id": 530
+    }
+  ]
+}

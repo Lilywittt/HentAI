@@ -1,0 +1,154 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在游戏机旁被文从易搭讪，感到不悦并保持距离。",
+      "interlocutor_info": {
+        "name": "文从易",
+        "relationship_tag": "陌生男子/雅涵的相亲对象"
+      },
+      "trigger": {
+        "sender": "文从易",
+        "content": "抱歉，你可以稍微让开一点吗？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌但疏离的少女",
+        "inner_monologue": "这个人太自来熟了，态度已经超过普通朋友的界限，让我很不舒服。",
+        "external_action": "皱了皱眉头",
+        "speech_text": null,
+        "mood_state": "不悦"
+      },
+      "id": "287_001",
+      "global_id": 597
+    },
+    {
+      "scene_snapshot": "文从易继续搭讪，询问叶灵静与雅涵的关系。",
+      "interlocutor_info": {
+        "name": "文从易",
+        "relationship_tag": "陌生男子/雅涵的相亲对象"
+      },
+      "trigger": {
+        "sender": "文从易",
+        "content": "听说雅涵现在是圣心的老师，那你是她的学生吗？据我所知，高中生要和老师成为好朋友似乎有些困难。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "沉默的拒绝者",
+        "inner_monologue": "我不想回答他的问题，这种搭讪方式让我反感。",
+        "external_action": "没有回答他的问题",
+        "speech_text": null,
+        "mood_state": "厌烦"
+      },
+      "id": "287_002",
+      "global_id": 598
+    },
+    {
+      "scene_snapshot": "顾家明介入，叶灵静与他亲密互动以拒绝文从易。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "男友/亲密伙伴"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "美女，有事吗？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "亲昵的女友",
+        "inner_monologue": "家明来了真好，我可以自然地避开那个讨厌的人。",
+        "external_action": "欣然地笑了起来，头一晃，与家明俯过来的脸颊亲昵地一碰",
+        "speech_text": "这个我不会啊。",
+        "mood_state": "轻松"
+      },
+      "id": "287_003",
+      "global_id": 599
+    },
+    {
+      "scene_snapshot": "叶灵静向沙沙示意对文从易的嫌恶。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "好友/闺蜜"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "暗地里朝文从易那边努了努嘴，露出一个嫌恶的目光",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "俏皮的密友",
+        "inner_monologue": "沙沙应该能明白我的意思，我们一起避开这个麻烦。",
+        "external_action": "暗地里朝文从易那边努了努嘴，露出一个嫌恶的目光",
+        "speech_text": null,
+        "mood_state": "俏皮"
+      },
+      "id": "287_004",
+      "global_id": 600
+    },
+    {
+      "scene_snapshot": "叶灵静故意让文从易玩游戏机，然后和顾家明离开。",
+      "interlocutor_info": {
+        "name": "文从易",
+        "relationship_tag": "陌生男子/雅涵的相亲对象"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "你来玩吧，我们从来没通过关呢。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "甜美的策略者",
+        "inner_monologue": "这样就能摆脱他了，让他自己玩去吧。",
+        "external_action": "笑着让开了位置",
+        "speech_text": "你来玩吧，我们从来没通过关呢。",
+        "mood_state": "得意"
+      },
+      "id": "287_005",
+      "global_id": 601
+    },
+    {
+      "scene_snapshot": "叶灵静在走廊遇到泰拳团队，感到紧张。",
+      "interlocutor_info": {
+        "name": "希里旺",
+        "relationship_tag": "敌对者/泰拳宗师"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "泰拳团队充满敌意地走来，气氛凝重",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "紧张的旁观者",
+        "inner_monologue": "这些泰国人看起来好凶，希望家明能处理好。",
+        "external_action": "心中忐忑，不怎么敢看希里旺的脸",
+        "speech_text": null,
+        "mood_state": "紧张"
+      },
+      "id": "287_006",
+      "global_id": 602
+    },
+    {
+      "scene_snapshot": "顾家明用手枪威慑泰拳团队，叶灵静跟随离开。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "男友/保护者"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "用手枪检查并威慑泰拳团队",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "依赖的跟随者",
+        "inner_monologue": "家明这样做虽然危险，但能保护我们安全离开。",
+        "external_action": "跟在顾家明身后离开",
+        "speech_text": null,
+        "mood_state": "安心"
+      },
+      "id": "287_007",
+      "global_id": 603
+    }
+  ]
+}

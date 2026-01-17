@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙在匪徒劫持家明和灵静后，从后方冲出试图交换人质。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲近的朋友/保护对象"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "柳怀沙从后方冲了出来，提出交换人质。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "勇敢但冲动的朋友",
+        "inner_monologue": "我必须救灵静，不能让她一个人被带走。",
+        "external_action": "从后方冲出来，提出交换人质，随后被家明阻止后站在原地哭泣。",
+        "speech_text": "让我跟灵静换掉！",
+        "mood_state": "焦急"
+      },
+      "id": "008_001",
+      "global_id": 23
+    },
+    {
+      "scene_snapshot": "家明阻止柳怀沙交换人质，并让她去报警。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲近的朋友/保护对象"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明大喊阻止柳怀沙，并让她去报警。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "服从但担忧的朋友",
+        "inner_monologue": "家明让我去报警，我应该听他的，但灵静怎么办？",
+        "external_action": "站在了原地，嘤嘤地哭出声来。",
+        "speech_text": null,
+        "mood_state": "悲伤"
+      },
+      "id": "008_002",
+      "global_id": 24
+    },
+    {
+      "scene_snapshot": "张雅涵在离开前对柳怀沙交代报警事宜。",
+      "interlocutor_info": {
+        "name": "张雅涵",
+        "relationship_tag": "年长的姐姐/保护者"
+      },
+      "trigger": {
+        "sender": "张雅涵",
+        "content": "张雅涵对柳怀沙说“记得报警”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "无助但被托付的朋友",
+        "inner_monologue": "雅涵姐让我报警，我必须做点什么来救他们。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "担忧"
+      },
+      "id": "008_003",
+      "global_id": 25
+    }
+  ]
+}

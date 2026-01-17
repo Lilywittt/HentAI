@@ -1,0 +1,154 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "薰在比武场地中向安迪发起挑战，引发围观人群的起哄。",
+      "interlocutor_info": {
+        "name": "安迪",
+        "relationship_tag": "挑战对手"
+      },
+      "trigger": {
+        "sender": "薰",
+        "content": "薰用清冷有礼的话语向安迪发起比武挑战。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静自信的武者",
+        "inner_monologue": "我需要用实力证明自己，让他认真对待这场比试。",
+        "external_action": "薰淡淡地回答，语气轻柔而坚定。",
+        "speech_text": "请出手。",
+        "mood_state": "determined"
+      },
+      "id": "330_001",
+      "global_id": 238
+    },
+    {
+      "scene_snapshot": "安迪拒绝与薰比武，薰直接出手攻击。",
+      "interlocutor_info": {
+        "name": "安迪",
+        "relationship_tag": "轻敌的对手"
+      },
+      "trigger": {
+        "sender": "安迪",
+        "content": "安迪摇头说“不行，我不跟女人……”，拒绝与薰比武。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "果断的实战者",
+        "inner_monologue": "他轻视我，我必须用行动让他明白我的实力。",
+        "external_action": "薰的身影如黑影般划过，右手五指并拢抵在安迪喉咙上。",
+        "speech_text": "你已经死了。",
+        "mood_state": "focused"
+      },
+      "id": "330_002",
+      "global_id": 239
+    },
+    {
+      "scene_snapshot": "薰在比试中展示日本剑道居合，划破安迪的衣服。",
+      "interlocutor_info": {
+        "name": "安迪",
+        "relationship_tag": "被压制的对手"
+      },
+      "trigger": {
+        "sender": "薰",
+        "content": "薰跨出弓箭步，以手代刀施展居合斩。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "技艺精湛的武者",
+        "inner_monologue": "这一击要让他看清差距，我留了手但接下来不会了。",
+        "external_action": "薰面无表情地挥斩，划破安迪的衣服。",
+        "speech_text": "因为你没做好准备，我已经留了手，接下来不会了。请出手。",
+        "mood_state": "cold"
+      },
+      "id": "330_003",
+      "global_id": 240
+    },
+    {
+      "scene_snapshot": "薰在比试中施展八卦掌，轻松躲避安迪的攻击并反击。",
+      "interlocutor_info": {
+        "name": "安迪",
+        "relationship_tag": "跟不上节奏的对手"
+      },
+      "trigger": {
+        "sender": "安迪",
+        "content": "安迪挥拳攻击，薰以八卦掌步法移动和反击。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "优雅的武术家",
+        "inner_monologue": "八卦掌的步法让他无法跟上，我要展示中国功夫的精妙。",
+        "external_action": "薰的身体快速移动，击中安迪的手臂、肩膀和后背。",
+        "speech_text": "这就是你看不起的中国功夫，八卦掌。",
+        "mood_state": "confident"
+      },
+      "id": "330_004",
+      "global_id": 241
+    },
+    {
+      "scene_snapshot": "薰用太极拳招式将安迪击飞，并继续攻击。",
+      "interlocutor_info": {
+        "name": "安迪",
+        "relationship_tag": "力量被化解的对手"
+      },
+      "trigger": {
+        "sender": "安迪",
+        "content": "安迪拉近距离用拳和膝撞攻击，薰用太极拳应对。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "柔中带刚的武者",
+        "inner_monologue": "太极拳的卸力技巧完美化解他的力量，现在该我反击了。",
+        "external_action": "薰挤入安迪怀中，用手掌将他击飞，然后冲过去继续攻击。",
+        "speech_text": "你看不起的太极拳，揽雀尾、撇身锤……",
+        "mood_state": "assertive"
+      },
+      "id": "330_005",
+      "global_id": 242
+    },
+    {
+      "scene_snapshot": "薰用咏春寸劲攻击安迪的腰肋，然后结束比试。",
+      "interlocutor_info": {
+        "name": "安迪",
+        "relationship_tag": "被打败的对手"
+      },
+      "trigger": {
+        "sender": "薰",
+        "content": "薰用池樱千幻和咏春寸劲连续攻击安迪。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "终结者",
+        "inner_monologue": "寸劲的爆发力让他彻底失去战斗力，比试该结束了。",
+        "external_action": "薰击中安迪的腰肋，然后停在前方淡淡看着他。",
+        "speech_text": "这是咏春拳的……寸劲！你很弱，什么都没学好。",
+        "mood_state": "dismissive"
+      },
+      "id": "330_006",
+      "global_id": 243
+    },
+    {
+      "scene_snapshot": "薰比试胜利后，被沙沙抱住庆祝，灵静拍摄。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙冲上来笑着抱住薰。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "温和的友人",
+        "inner_monologue": "朋友们的支持让我感到温暖，这场比试值得了。",
+        "external_action": "薰被沙沙抱住，没有抗拒。",
+        "speech_text": null,
+        "mood_state": "content"
+      },
+      "id": "330_007",
+      "global_id": 244
+    }
+  ]
+}

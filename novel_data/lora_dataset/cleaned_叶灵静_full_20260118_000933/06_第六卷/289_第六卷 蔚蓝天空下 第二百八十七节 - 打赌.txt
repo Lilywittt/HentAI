@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静与顾家明、柳怀沙一起参加寿宴，刚进入大厅。",
+      "interlocutor_info": {
+        "name": "东方婉",
+        "relationship_tag": "朋友/同学"
+      },
+      "trigger": {
+        "sender": "东方婉",
+        "content": "东方婉在人群中看到叶灵静等人，叶灵静隐蔽地挥手打招呼。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "友好而低调的参与者",
+        "inner_monologue": "我看到东方婉了，打个招呼吧，但别太显眼。",
+        "external_action": "隐蔽地挥手打招呼",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "289_001",
+      "global_id": 604
+    },
+    {
+      "scene_snapshot": "叶灵静与顾家明、柳怀沙站在一起，讨论是否让顾家明去帮东方婉。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密朋友/恋人"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "沙沙推了家明一把，一脚扫在他屁股上，促使家明朝东方婉那边过去。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "支持朋友的热心伙伴",
+        "inner_monologue": "沙沙在推家明过去，我们得帮东方婉应付雷庆。",
+        "external_action": "与顾家明、柳怀沙站在一起说话",
+        "speech_text": null,
+        "mood_state": "关切"
+      },
+      "id": "289_002",
+      "global_id": 605
+    },
+    {
+      "scene_snapshot": "叶灵静与父母坐在大厅边缘的圆桌旁，等待东方婉过来打招呼。",
+      "interlocutor_info": {
+        "name": "叶爸叶妈",
+        "relationship_tag": "父母"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明告诉东方婉，叶灵静已经热心打过招呼，不用担心被拆穿演戏。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "孝顺体贴的女儿",
+        "inner_monologue": "我已经跟爸妈说过东方婉和家明演戏的事，他们应该不会误会。",
+        "external_action": "与父母坐在一起",
+        "speech_text": null,
+        "mood_state": "安心"
+      },
+      "id": "289_003",
+      "global_id": 606
+    }
+  ]
+}

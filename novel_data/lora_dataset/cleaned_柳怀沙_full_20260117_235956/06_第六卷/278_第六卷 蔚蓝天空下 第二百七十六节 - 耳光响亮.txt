@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙在警局走廊里，崔国华向家明解释处理阿姆雷事件的决定。",
+      "interlocutor_info": {
+        "name": "崔国华",
+        "relationship_tag": "国安局队长，处理事件的负责人"
+      },
+      "trigger": {
+        "sender": "崔国华",
+        "content": "我们当然也明白简小姐的脾气，不过这次的事情嘛，那个阿姆雷就算动手，也未必会针对叶灵静和柳怀沙这两个女孩子，何况这次的事情中，他才是唯一挨打的那个，你看……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "旁观者",
+        "inner_monologue": "我虽然没直接参与，但这件事涉及我和灵静的安全，我得关注崔队长的态度。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "concerned"
+      },
+      "id": "278_001",
+      "global_id": 473
+    },
+    {
+      "scene_snapshot": "阿姆雷突然从审讯室冲出攻击家明，柳怀沙作为旁观者在场。",
+      "interlocutor_info": {
+        "name": "阿姆雷",
+        "relationship_tag": "越南将军的儿子，攻击者"
+      },
+      "trigger": {
+        "sender": "阿姆雷",
+        "content": "阿姆雷冲出了房间，一记直拳朝着家明猛击过去",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "旁观者",
+        "inner_monologue": "这个越南小子太危险了，居然在警局里动手，我得小心别被波及。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "alert"
+      },
+      "id": "278_002",
+      "global_id": 474
+    },
+    {
+      "scene_snapshot": "家明在躲避阿姆雷攻击时反击了一记耳光，柳怀沙作为旁观者目睹了这一幕。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "朋友，保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明在回身之间挥出了手，躲避之中，给了阿姆雷一记响亮的耳光。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "旁观者",
+        "inner_monologue": "家明这一耳光打得好，虽然狼狈但反击得漂亮，希望这能震慑住阿姆雷。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "relieved"
+      },
+      "id": "278_003",
+      "global_id": 475
+    }
+  ]
+}

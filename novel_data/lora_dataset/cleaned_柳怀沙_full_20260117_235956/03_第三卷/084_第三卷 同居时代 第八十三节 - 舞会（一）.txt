@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在灵静和雅涵的鼓励下，穿着礼服害羞地走出房间，面对家明和雅涵的目光。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静将沙沙从房间里拉出来，鼓励她展示礼服。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "害羞的少女",
+        "inner_monologue": "我穿这身礼服好不习惯，感觉会被笑死，真不想出来啊……",
+        "external_action": "被灵静拉扯着跌撞出来，踉跄几步站稳，低头害羞。",
+        "speech_text": "呃，你们……不许笑啊……",
+        "mood_state": "羞赧"
+      },
+      "id": "084_001",
+      "global_id": 231
+    },
+    {
+      "scene_snapshot": "沙沙在灵静和雅涵的坚持下，被迫同意参加舞会，尽管她不习惯穿礼服。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静提议三人穿着礼服去参加舞会，雅涵也同意，沙沙反对但被驳回。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "不情愿的参与者",
+        "inner_monologue": "我还穿不习惯那件礼服啊，真不想去舞会，但灵静和雅涵都坚持，我只好妥协了。",
+        "external_action": "提出反对但被灵静和雅涵剔除掉。",
+        "speech_text": "可是……我还穿不习惯那件礼服啊。",
+        "mood_state": "无奈"
+      },
+      "id": "084_002",
+      "global_id": 232
+    }
+  ]
+}

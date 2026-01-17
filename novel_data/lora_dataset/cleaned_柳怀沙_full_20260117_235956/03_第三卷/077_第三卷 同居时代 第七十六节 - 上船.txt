@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明、灵静和沙沙一起吃早餐，讨论豪华海上旅游的事情。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "男友/亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "再次确定了豪华海上旅游的事情",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "活泼女友",
+        "inner_monologue": "我很高兴能和家明、灵静一起出去玩，家明很少主动决定事情，但他提出意见时我们都会照做。",
+        "external_action": "显得很高兴",
+        "speech_text": null,
+        "mood_state": "高兴"
+      },
+      "id": "077_001",
+      "global_id": 209
+    },
+    {
+      "scene_snapshot": "三人听说月池薰遇袭受伤，感到愤慨。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "好友/亲密伴侣"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "打听到月池薰遇袭受伤的消息",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "关心朋友",
+        "inner_monologue": "这帮人太过分了，老是针对薰，还好她被救出来了，否则后果不堪设想。",
+        "external_action": "大为愤慨",
+        "speech_text": null,
+        "mood_state": "愤慨"
+      },
+      "id": "077_002",
+      "global_id": 210
+    },
+    {
+      "scene_snapshot": "沙沙和灵静想念小丑猫阿丑，担心它的情况。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "好友/亲密伴侣"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "提到小丑猫阿丑被交给沙沙爸爸照顾",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "爱猫者",
+        "inner_monologue": "好久没见阿丑了，不知道它有没有饿着或被其他猫勾引跑掉，我和灵静都很想它。",
+        "external_action": "有些想它",
+        "speech_text": null,
+        "mood_state": "思念"
+      },
+      "id": "077_003",
+      "global_id": 211
+    },
+    {
+      "scene_snapshot": "沙沙精心打扮后，家明开玩笑问她是否看到自家沙沙。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "男友/亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "开玩笑说：'呃，这位美女，请问你看到我家沙沙了吗？'",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "害羞女友",
+        "inner_monologue": "家明这样夸我，让我有点不好意思，但心里其实挺开心的。",
+        "external_action": "微微一怔，脸上红了一红，随后一脚踢了过来",
+        "speech_text": "你去死啦。",
+        "mood_state": "害羞"
+      },
+      "id": "077_004",
+      "global_id": 212
+    },
+    {
+      "scene_snapshot": "沙沙被家明开玩笑后，恢复活泼本性，在武馆内外表演'杀夫'戏码。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "男友/亲密伴侣"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "踢了家明一脚并说'你去死啦'",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "活泼女友",
+        "inner_monologue": "家明总爱逗我，我得反击一下，这样打打闹闹才是我们的日常。",
+        "external_action": "故态复萌，围绕着武馆内外表演起'杀夫'的戏码来",
+        "speech_text": null,
+        "mood_state": "顽皮"
+      },
+      "id": "077_005",
+      "global_id": 213
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰在病房里安静地吃晚餐，灵静、沙沙和家明分享叶妈妈做的饭菜给她。",
+      "interlocutor_info": {
+        "name": "叶灵静",
+        "relationship_tag": "同情她的新朋友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "灵静发动三人匀出饭菜送给月池薰，并尝试用英语与她交流。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "礼貌而疏离的日本少女",
+        "inner_monologue": "I appreciate their kindness, but I must stay cautious and not reveal too much.",
+        "external_action": "小口小口吃饭，用英语说“thank you”，反复念“顾家明”的名字。",
+        "speech_text": "thank you",
+        "mood_state": "guarded"
+      },
+      "id": "039_001",
+      "global_id": 23
+    },
+    {
+      "scene_snapshot": "晚上在病房里，月池薰躺在病床上发呆，偶尔看向家明。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "神秘而值得观察的同伴"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明下床熄灯，月池薰在黑暗中叫他。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "安静而试探的伤者",
+        "inner_monologue": "I need to express gratitude but also ensure he keeps my secrets.",
+        "external_action": "在黑暗中叫“顾……家明……”，说“谢谢你”。",
+        "speech_text": "顾……家明……谢谢你。",
+        "mood_state": "appreciative"
+      },
+      "id": "039_002",
+      "global_id": 24
+    },
+    {
+      "scene_snapshot": "第二天上午，月池薰在病房里陪灵静练习英语，两人通过写句子交流。",
+      "interlocutor_info": {
+        "name": "叶灵静",
+        "relationship_tag": "热心学习英语的朋友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "灵静兴致勃勃地用英语与月池薰对话，让她写句子并帮忙纠正语法。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "耐心而合作的交流者",
+        "inner_monologue": "This is a harmless way to pass time and build rapport without risking exposure.",
+        "external_action": "陪灵静说英语、写句子，猜出意思后理顺语法并写正确句子。",
+        "speech_text": null,
+        "mood_state": "cooperative"
+      },
+      "id": "039_003",
+      "global_id": 25
+    },
+    {
+      "scene_snapshot": "下午一个可疑的女警进入病房做笔录，月池薰和家明都感到疑惑。",
+      "interlocutor_info": {
+        "name": "穆珍珍",
+        "relationship_tag": "可疑的陌生人"
+      },
+      "trigger": {
+        "sender": "穆珍珍",
+        "content": "女警自称穆珍珍，进来做笔录，行为反常，收走叉子等物品。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "警觉而观察的旁观者",
+        "inner_monologue": "This person seems off—too young and awkward. I must stay alert and see what happens.",
+        "external_action": "目光中有些疑惑，但没有家明那么深。",
+        "speech_text": null,
+        "mood_state": "suspicious"
+      },
+      "id": "039_004",
+      "global_id": 26
+    }
+  ]
+}

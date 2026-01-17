@@ -1,0 +1,154 @@
+{
+  "meta_info": {
+    "global_scene_type": "Romance"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静和沙沙在舞曲停顿后，搀扶着离开宴会厅，准备回房间。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友/室友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "笑着推回送行的家明和雅涵，说会照顾好灵静。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "体贴的朋友",
+        "inner_monologue": "我喝了酒有点晕，但沙沙喝得更多，我得照顾好她。",
+        "external_action": "扬起绯红的脸蛋一笑。",
+        "speech_text": "放心啦，我会照顾好沙沙的，你和雅涵姐好好玩吧，我们先回去了，拜拜……",
+        "mood_state": "开心"
+      },
+      "id": "087_001",
+      "global_id": 244
+    },
+    {
+      "scene_snapshot": "灵静和沙沙回到卧室，准备洗澡，沙沙开始帮她脱衣服。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友/室友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "嘟囔着说知道三个人在一起的办法，并抱住灵静。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "困惑的朋友",
+        "inner_monologue": "沙沙在说什么？感觉好奇怪，她喝醉了吗？",
+        "external_action": "翻过身来，将晚礼服从下方缓缓拉开，半裸的身体钻了出来。",
+        "speech_text": "沙沙，你要干嘛，别闹了……",
+        "mood_state": "疑惑"
+      },
+      "id": "087_002",
+      "global_id": 245
+    },
+    {
+      "scene_snapshot": "沙沙亲吻灵静，并开始抚摸她的身体。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友/室友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "将嘴唇印在灵静嘴上，并伸舌头进入。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "抗拒的朋友",
+        "inner_monologue": "这太突然了，沙沙怎么能这样？我们都是女孩子啊！",
+        "external_action": "奋力将沙沙的身体推开，脸上漾起羞涩的酡红，呼吸急促。",
+        "speech_text": "呜……呜……不要……闹啦……都什么时候了你还要闹……家明又不在，哈哈，啊……救命啊，沙沙饶命，我不来了啦……",
+        "mood_state": "羞涩"
+      },
+      "id": "087_003",
+      "global_id": 246
+    },
+    {
+      "scene_snapshot": "沙沙用手指进入灵静的身体，灵静挣扎并求饶。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友/室友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "将手指伸进灵静的内裤，撩拨她的敏感。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "无助的朋友",
+        "inner_monologue": "这太过分了，沙沙怎么能做这种事？我好难受，但又有点奇怪的感觉……",
+        "external_action": "夹紧大腿，双手按向双腿之间，身体蜷缩如虾米，挣扎剧烈。",
+        "speech_text": "呜……沙沙，不要啦，好过分，不能这个样子的，呜，沙沙，我不来了，沙沙……",
+        "mood_state": "痛苦"
+      },
+      "id": "087_004",
+      "global_id": 247
+    },
+    {
+      "scene_snapshot": "灵静在高潮后哭泣，沙沙从背后抱着她。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友/室友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "从背后抱着灵静，表达不想分开的心情。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "脆弱的女孩",
+        "inner_monologue": "我刚刚经历了什么？感觉好丢脸，但沙沙说不想分开……",
+        "external_action": "身体软绵绵地停下来，急促喘息，脸颊挂着泪珠，低泣。",
+        "speech_text": null,
+        "mood_state": "悲伤"
+      },
+      "id": "087_005",
+      "global_id": 248
+    },
+    {
+      "scene_snapshot": "灵静蜷缩到床角，沙沙哭着解释原因。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友/室友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "哭着说不想因为怀孕而分开，想三个人永远在一起。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "困惑的女孩",
+        "inner_monologue": "我们都是女孩子，这样真的可以吗？但沙沙说得对，我不想分开……",
+        "external_action": "双手抱膝蜷缩到大床的角落里。",
+        "speech_text": "可我们都是女孩子，怎么可以这样……",
+        "mood_state": "困惑"
+      },
+      "id": "087_006",
+      "global_id": 249
+    },
+    {
+      "scene_snapshot": "灵静主动亲吻沙沙，表示要公平地看回沙沙的样子。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友/室友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "擦着眼泪，哽咽地问灵静是否怪她。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调皮的女孩",
+        "inner_monologue": "沙沙和家明老喜欢看我丢脸，这次我也要让她害羞一下。",
+        "external_action": "爬过来跪坐在沙沙身边，轻轻吻上她的脸颊。",
+        "speech_text": "才没有呢。你和家明老喜欢看我丢脸的样子，一点也不公平，我……我也要看回你的才行。",
+        "mood_state": "俏皮"
+      },
+      "id": "087_007",
+      "global_id": 250
+    }
+  ]
+}

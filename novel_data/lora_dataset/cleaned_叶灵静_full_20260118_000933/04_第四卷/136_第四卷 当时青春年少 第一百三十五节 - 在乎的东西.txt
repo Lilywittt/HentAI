@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静、沙沙和家明在合租屋中吃饭，隔壁传来拒绝卖房的争吵声，随后建筑公司的人来敲门威胁。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明在门口与建筑公司的人交谈后，回到屋内表达担忧，说“我想杀人了……”，暗示因灵静和沙沙受到威胁而愤怒。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "体贴关心但内心担忧的伴侣",
+        "inner_monologue": "家明很少露出这样为难的表情，他一定很担心我们的安全，我得支持他的决定，但杀人……这太危险了，我害怕他会出事。",
+        "external_action": "灵静点了点头，表示理解家明的担忧。",
+        "speech_text": "你是说，我们搬走吗？",
+        "mood_state": "concerned"
+      },
+      "id": "136_001",
+      "global_id": 374
+    },
+    {
+      "scene_snapshot": "灵静和沙沙在厨房准备晚餐，沙沙开玩笑提到百合情谊，灵静回应并关心家明。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友/室友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙开玩笑说“灵静你太可耻了，你忘了我们这么多年来的百合情谊吗？”，调侃灵静之前叛变说想嫁人的话。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "幽默调侃但体贴的闺蜜",
+        "inner_monologue": "沙沙又在开玩笑了，不过这种轻松的氛围真好，能暂时忘记外面的烦恼，但家明刚才的表情让我有点不安。",
+        "external_action": "灵静将干毛巾扔到家明的头上，笑着回了厨房。",
+        "speech_text": "你才是百合呢，是你强暴我的，可怜我一个弱女子，每天都要受到你们夫妻俩的轮番摧残，给你们做饭，还得陪你们上床……把头发擦干，外面下雨呢，别着凉了。",
+        "mood_state": "playful"
+      },
+      "id": "136_002",
+      "global_id": 375
+    },
+    {
+      "scene_snapshot": "建筑公司的人离开后，附近的黑帮成员（水哥、花哥）上门表示会保护灵静和沙沙，沙沙以大姐头气势回应。",
+      "interlocutor_info": {
+        "name": "水哥、花哥",
+        "relationship_tag": "邻居/保护者"
+      },
+      "trigger": {
+        "sender": "水哥、花哥",
+        "content": "水哥、花哥表示会保护灵静和沙沙，建议她们暂时避风头，说“就怕灵静跟怀沙两个女孩子出事”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "乖巧礼貌的邻居女孩",
+        "inner_monologue": "这些人虽然看起来凶，但挺热心的，不过家明在，其实我更放心他的保护，但不想让他们担心，所以表现得乖巧些。",
+        "external_action": "灵静望着家明的侧脸，不由得抿嘴一笑，口中乖巧地说道。",
+        "speech_text": "谢谢水哥、花哥了。",
+        "mood_state": "grateful"
+      },
+      "id": "136_003",
+      "global_id": 376
+    }
+  ]
+}

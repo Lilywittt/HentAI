@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在武术社外焦急地撬门，试图帮助月池薰。",
+      "interlocutor_info": {
+        "name": "月池薰",
+        "relationship_tag": "朋友/需要保护的人"
+      },
+      "trigger": {
+        "sender": "月池薰",
+        "content": "月池薰独自进入武术社踢馆，引发混乱和惨叫声。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "保护者",
+        "inner_monologue": "薰一个人在里面太危险了，我必须赶紧救她出来。",
+        "external_action": "用钢管撬门，大喊着威胁里面的人。",
+        "speech_text": "薰！你在里面吗？回答一声啊……里面的人听着，你们谁敢打薰的，我绝对饶不了你们！",
+        "mood_state": "焦急"
+      },
+      "id": "154_001",
+      "global_id": 345
+    },
+    {
+      "scene_snapshot": "沙沙看到家明到来，急切地寻求帮助。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "信赖的伙伴"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明到达武术社外，被沙沙拉住。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "求助者",
+        "inner_monologue": "家明一定有办法救薰，我得赶紧告诉他情况。",
+        "external_action": "焦急地拉着家明的手。",
+        "speech_text": "家明，快想想办法啊，薰她就算再厉害，也不可能打得过三四十个人，这样下去一定会出事的。",
+        "mood_state": "担忧"
+      },
+      "id": "154_002",
+      "global_id": 346
+    },
+    {
+      "scene_snapshot": "沙沙冲进武术社查看情况后，搀扶月池薰离开。",
+      "interlocutor_info": {
+        "name": "月池薰",
+        "relationship_tag": "朋友/需要照顾的人"
+      },
+      "trigger": {
+        "sender": "月池薰",
+        "content": "月池薰打开门走出武术社，额头受伤。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "支持者",
+        "inner_monologue": "薰受伤了，我得赶紧带她离开这里。",
+        "external_action": "骂了一句后冲进武术社查看，然后转身跑出搀扶薰离开。",
+        "speech_text": "呃……嗯，那个……我们先走吧，薰……",
+        "mood_state": "关切"
+      },
+      "id": "154_003",
+      "global_id": 347
+    }
+  ]
+}

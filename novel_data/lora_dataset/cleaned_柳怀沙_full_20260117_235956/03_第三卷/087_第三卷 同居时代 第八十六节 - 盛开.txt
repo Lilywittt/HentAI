@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Romance"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在宴会厅吧台前喝酒，试图鼓起勇气。",
+      "interlocutor_info": {
+        "name": "调酒师",
+        "relationship_tag": "陌生人"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "沙沙点酒说“我要最烈的，最能给人勇气那种酒！”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "豪爽的饮酒者",
+        "inner_monologue": "我需要勇气来面对我的想法。",
+        "external_action": "灌下鸡尾酒，脸色变红",
+        "speech_text": "“唔，没什么感觉，我还要。”",
+        "mood_state": "determined"
+      },
+      "id": "087_001",
+      "global_id": 241
+    },
+    {
+      "scene_snapshot": "沙沙和灵静离开宴会厅，沙沙推家明和雅涵回去。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明和雅涵要送她们出来",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "体贴的朋友",
+        "inner_monologue": "我想让他们享受今晚，我和灵静能处理好。",
+        "external_action": "笑着推家明和雅涵回去",
+        "speech_text": "“回去啦，回去啦，你今天晚上还没有陪雅涵姐跳舞呢，不用管我们，我们能回去，放心吧，我会帮你照顾好乖乖灵静的……”",
+        "mood_state": "happy"
+      },
+      "id": "087_002",
+      "global_id": 242
+    },
+    {
+      "scene_snapshot": "沙沙和灵静回到房间，沙沙表达对三人关系的想法。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "沙沙嘟囔着说“灵静……我知道该怎么办了，我们三个人在一起的办法”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "confident proposer",
+        "inner_monologue": "我找到了让我们永远在一起的方法。",
+        "external_action": "抱住灵静，亲吻她",
+        "speech_text": "“灵静……我们三个人，要永远在一起，灵静，我不想跟你分开，书上都是那样写的，要是我怀孕了，灵静你就要一个人离开了，我不想让你不高兴，不想你离开……”",
+        "mood_state": "resolute"
+      },
+      "id": "087_003",
+      "global_id": 243
+    },
+    {
+      "scene_snapshot": "沙沙和灵静在床上亲密互动，沙沙解释她的动机。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静挣扎和求饶",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "persuasive lover",
+        "inner_monologue": "我必须让她理解，这样我们才能不分开。",
+        "external_action": "手指进入灵静身体，撩拨她",
+        "speech_text": "“家明说，这个就叫百合，我们要是这样了，就不会再有人介意了，灵静，我们不久前才说了三个人要永远在一起的，我不要因为怀孕你就走掉，可要是你怀孕了，我……我就也不知道该怎么办了，我喜欢跟家明在一起，可我也喜欢跟灵静你在一起，我只想我们三个人……”",
+        "mood_state": "earnest"
+      },
+      "id": "087_004",
+      "global_id": 244
+    },
+    {
+      "scene_snapshot": "沙沙和灵静哭泣后，沙沙回应灵静的亲吻。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静亲吻沙沙的脸颊",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "relieved friend",
+        "inner_monologue": "她原谅我了，我们还能在一起。",
+        "external_action": "擦眼泪，破涕为笑",
+        "speech_text": "“灵静你不怪我了？”",
+        "mood_state": "relieved"
+      },
+      "id": "087_005",
+      "global_id": 245
+    },
+    {
+      "scene_snapshot": "沙沙同意让灵静看她的身体以换取原谅。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静说“我……我也要看回你的才行。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "shy participant",
+        "inner_monologue": "如果这样能让她原谅我，我愿意做。",
+        "external_action": "脱下内裤，躺在床上，捂住双眼",
+        "speech_text": "“你……你看吧……”",
+        "mood_state": "embarrassed"
+      },
+      "id": "087_006",
+      "global_id": 246
+    }
+  ]
+}

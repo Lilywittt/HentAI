@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在车内与失忆后重逢的家明互动，情绪激动。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "失散多年的爱人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明握住沙沙的手按在自己脸上，暗示身份确认。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "震惊而脆弱的女战士",
+        "inner_monologue": "我心底的东西被抽走了，眼前的一切都在晃动……",
+        "external_action": "手指触碰家明皮肤后弹开，又被家明握住按在脸上，张嘴说不出话。",
+        "speech_text": "你是……",
+        "mood_state": "overwhelmed"
+      },
+      "id": "451_001",
+      "global_id": 683
+    },
+    {
+      "scene_snapshot": "沙沙在车内因情绪冲击而晕倒。",
+      "interlocutor_info": {
+        "name": "叶灵静",
+        "relationship_tag": "亲密的朋友/同伴"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "沙沙情绪激动导致晕倒。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "失去意识的同伴",
+        "inner_monologue": "（无意识状态）",
+        "external_action": "倒下在车内。",
+        "speech_text": null,
+        "mood_state": "unconscious"
+      },
+      "id": "451_002",
+      "global_id": 684
+    }
+  ]
+}

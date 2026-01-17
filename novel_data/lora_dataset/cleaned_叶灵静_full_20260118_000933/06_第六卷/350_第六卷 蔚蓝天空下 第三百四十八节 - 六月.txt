@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静和沙沙在校园里边走边商量暑假计划，讨论去海边、旅游社和小岛等话题。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "当然是去海边住两个月啦，把雅涵姐叫过来，薰如果不回日本的话，也可以一块叫来玩啊，反正那么大的房子……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "活泼开朗的闺蜜",
+        "inner_monologue": "我觉得去海边是个好主意，但人多了会不会尴尬？",
+        "external_action": "笑了起来",
+        "speech_text": "我们跟家明一起，你不怕觉得尴尬啊？对了，小婉她的那个旅游兴趣社，据说组织分班后的第一次活动。去黄山玩一个星期哦。",
+        "mood_state": "轻松"
+      },
+      "id": "350_001",
+      "global_id": 690
+    },
+    {
+      "scene_snapshot": "灵静和沙沙继续讨论暑假计划，灵静提到家明说的小岛。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "前些天家明跟我提起那个小岛。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "憧憬未来的少女",
+        "inner_monologue": "那个小岛真的很美，如果能买下来就好了，但需要很多钱吧。",
+        "external_action": "小跑着转个身，笑道",
+        "speech_text": "这不是分了你一半了吗？你觉得怎么样？",
+        "mood_state": "兴奋"
+      },
+      "id": "350_002",
+      "global_id": 691
+    },
+    {
+      "scene_snapshot": "灵静和沙沙讨论买小岛的可能性，灵静提到家庭存款和家明的能力。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "那一定要很多钱吧，何况……买小岛，一直觉得是亿万富豪才做的事情啊。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "务实但乐观的规划者",
+        "inner_monologue": "家明说有可能做到，但我觉得自己还不够努力，得想办法赚钱。",
+        "external_action": null,
+        "speech_text": "家明说要有关系的，不过这一点基本上没什么问题。他只是说了一下，好像很简单的样子，那就是有可能做到啦，唔，我们家里现在的帐户上有差不多五十万了。读高中还有一年。大学四年，有五年地时间。我觉得也不是不可能做到啊，不过跟家明比起来，就觉得自己好没用……",
+        "mood_state": "自省"
+      },
+      "id": "350_003",
+      "global_id": 692
+    },
+    {
+      "scene_snapshot": "灵静和沙沙开玩笑讨论打工赚钱和帮派话题，气氛轻松。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "帮派规矩，女人又不会立刻砍死，顶多是轮暴一百遍啦，家明肯定受不了这个，我喜欢看他帮我打人，哈哈……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "幽默调侃的伙伴",
+        "inner_monologue": "沙沙又在开玩笑了，她其实很排斥黑帮的事。",
+        "external_action": null,
+        "speech_text": "我看最好是柳叔叔不喜欢他，然后他连柳叔叔一块打一顿，抢了你就跑，这样才好是吧？",
+        "mood_state": "戏谑"
+      },
+      "id": "350_004",
+      "global_id": 693
+    },
+    {
+      "scene_snapshot": "灵静和沙沙进入校园，灵静提到黄家二舅被判死刑的消息。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "对了，你知道黄家的事情了吧？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心时事的同学",
+        "inner_monologue": "黄家二舅人挺好的，这个消息真让人难过。",
+        "external_action": null,
+        "speech_text": "嗯，昨天听说宣判了，是死刑呢，从杜渊那里知道的……只是觉得有些伤感，黄家二舅对人挺不错的……",
+        "mood_state": "伤感"
+      },
+      "id": "350_005",
+      "global_id": 694
+    },
+    {
+      "scene_snapshot": "灵静和沙沙在校园里突然听到惊呼声，看到有人跳楼，发现是黄浩兵。",
+      "interlocutor_info": {
+        "name": "环境",
+        "relationship_tag": "突发事件"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "周围陡然传出了一声惊呼，一道黑影刷的自旁边不远的地方从天而降，发出了“啪”的一声沉闷回响",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "震惊恐惧的旁观者",
+        "inner_monologue": "天啊，发生了什么？是有人跳楼了吗？这太可怕了。",
+        "external_action": "惊愕地缓缓走过去，蓦地捂住了嘴",
+        "speech_text": null,
+        "mood_state": "惊恐"
+      },
+      "id": "350_006",
+      "global_id": 695
+    }
+  ]
+}

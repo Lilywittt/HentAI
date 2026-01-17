@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰被日本老头用竹刀拷打，她端坐不动，像丢了灵魂一样承受击打。",
+      "interlocutor_info": {
+        "name": "日本老头",
+        "relationship_tag": "施虐者/师父"
+      },
+      "trigger": {
+        "sender": "日本老头",
+        "content": "挥动竹刀击打月池薰，发出脆响声。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "隐忍的受害者",
+        "inner_monologue": "我必须忍受这一切，不能表现出任何反应。",
+        "external_action": "端坐在那儿，打一下歪一下随后坐正，像丢了灵魂一般。",
+        "speech_text": null,
+        "mood_state": "麻木"
+      },
+      "id": "033_001",
+      "global_id": 3
+    },
+    {
+      "scene_snapshot": "家明察觉到月池薰冰冷的目光移过来一瞬，感到她对自己能忍感到奇怪。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "同受拷打者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明察觉到月池薰的目光移过来，推测她对自己能忍感到奇怪。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "观察者",
+        "inner_monologue": "他注意到我了，可能在想为什么我也能忍。",
+        "external_action": "冰冷的目光移向家明一瞬。",
+        "speech_text": null,
+        "mood_state": "警觉"
+      },
+      "id": "033_002",
+      "global_id": 4
+    },
+    {
+      "scene_snapshot": "日本老头命令曹东峰脱光月池薰的衣服并侵犯她，曹东峰伸手时月池薰出手反击。",
+      "interlocutor_info": {
+        "name": "曹东峰",
+        "relationship_tag": "威胁者/侵犯者"
+      },
+      "trigger": {
+        "sender": "曹东峰",
+        "content": "曹东峰伸手要接触月池薰的和服衣领。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "反抗者",
+        "inner_monologue": "我必须保护自己，不能让他得逞。",
+        "external_action": "左手缩回，袍袖中滴出鲜血，用指甲攻击曹东峰。",
+        "speech_text": null,
+        "mood_state": "决绝"
+      },
+      "id": "033_003",
+      "global_id": 5
+    },
+    {
+      "scene_snapshot": "月池薰试图逃跑，被日本老头用竹刀击倒在地，露出伤痕累累的小腿。",
+      "interlocutor_info": {
+        "name": "日本老头",
+        "relationship_tag": "施虐者/师父"
+      },
+      "trigger": {
+        "sender": "日本老头",
+        "content": "日本老头用竹刀击打月池薰，使她掉落在地。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "挣扎的受害者",
+        "inner_monologue": "我逃不掉，但绝不能放弃抵抗。",
+        "external_action": "蓦地跳起来试图逃跑，被击倒后和服铺展，露出伤痕累累的小腿。",
+        "speech_text": null,
+        "mood_state": "绝望"
+      },
+      "id": "033_004",
+      "global_id": 6
+    },
+    {
+      "scene_snapshot": "曹东峰再次俯身侵犯，月池薰右手刺出反击，被竹刀迎击后手指颤抖。",
+      "interlocutor_info": {
+        "name": "曹东峰",
+        "relationship_tag": "威胁者/侵犯者"
+      },
+      "trigger": {
+        "sender": "曹东峰",
+        "content": "曹东峰俯身伸手向月池薰。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "顽抗者",
+        "inner_monologue": "我要用尽最后力气反击，不能让他碰我。",
+        "external_action": "右手猛地刺出，被竹刀迎击后手指血红颤抖。",
+        "speech_text": null,
+        "mood_state": "痛苦"
+      },
+      "id": "033_005",
+      "global_id": 7
+    },
+    {
+      "scene_snapshot": "家明制服曹东峰后，月池薰抬头望着家明，看到他嘴角流血并笑了。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "救援者/同受拷打者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明制服曹东峰，嘴角流血并笑了。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "观察者",
+        "inner_monologue": "他受伤了，但还在笑，也许他和我一样遍体鳞伤。",
+        "external_action": "静静地抬起头，望着家明。",
+        "speech_text": null,
+        "mood_state": "复杂"
+      },
+      "id": "033_006",
+      "global_id": 8
+    }
+  ]
+}

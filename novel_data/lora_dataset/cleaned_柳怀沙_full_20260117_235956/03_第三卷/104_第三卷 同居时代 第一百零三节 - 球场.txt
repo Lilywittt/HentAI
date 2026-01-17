@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在球场边与家明交谈，被七班的啦啦队女生围住八卦。",
+      "interlocutor_info": {
+        "name": "周文慧",
+        "relationship_tag": "同学/朋友"
+      },
+      "trigger": {
+        "sender": "周文慧",
+        "content": "亲昵地搂住沙沙的脖子，好奇地望着家明，问沙沙这是否是她青梅竹马的男朋友。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "直率活泼的女生",
+        "inner_monologue": "这些八卦女真烦人，我得赶紧把她们赶走。",
+        "external_action": "不耐烦地推开周文慧，随后踢踢打打地将这堆八卦女全都赶开。",
+        "speech_text": "喂，周文慧，你们这帮女人全都给我走开，当心我打人了哦……",
+        "mood_state": "不耐烦"
+      },
+      "id": "104_001",
+      "global_id": 260
+    },
+    {
+      "scene_snapshot": "沙沙与家明讨论购物和球赛，准备离开球场。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "男朋友/亲密伴侣"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "递给沙沙钱包，交代购物清单，并提议待会儿一块走。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "体贴的女友",
+        "inner_monologue": "我得记住这些购物项，免得又被家明和灵静取笑。",
+        "external_action": "点头，晃晃手中的钥匙准备离开。",
+        "speech_text": "不啦，还是我先去买好了，盐、猪肉、紫菜、面条、虾仁……嗯，记住了，免得你和灵静老是取笑我只会刷碗。你可要好好打哦，把他们打得落花流水，不然今天晚上不让你上床。",
+        "mood_state": "俏皮"
+      },
+      "id": "104_002",
+      "global_id": 261
+    },
+    {
+      "scene_snapshot": "戴志强冲撞家明后，沙沙冲过去质问。",
+      "interlocutor_info": {
+        "name": "戴志强",
+        "relationship_tag": "同学/潜在冲突者"
+      },
+      "trigger": {
+        "sender": "戴志强",
+        "content": "冲撞家明，导致家明退出三步，哨声响起判犯规。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "保护男友的强势女生",
+        "inner_monologue": "戴志强这家伙是故意的吧，我得替家明出头。",
+        "external_action": "冲过去将戴志强猛地推了一把。",
+        "speech_text": "戴志强，你搞什么！？",
+        "mood_state": "愤怒"
+      },
+      "id": "104_003",
+      "global_id": 262
+    },
+    {
+      "scene_snapshot": "戴志强道歉后，沙沙瞪了他一眼并离开。",
+      "interlocutor_info": {
+        "name": "戴志强",
+        "relationship_tag": "同学/潜在冲突者"
+      },
+      "trigger": {
+        "sender": "戴志强",
+        "content": "无辜地举手道歉，称是意外。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "不满但克制的女生",
+        "inner_monologue": "这家伙道歉了，但看起来不真诚，算了，先走吧。",
+        "external_action": "狠狠地瞪了戴志强一眼，向家明晃晃钥匙，随后转身离开。",
+        "speech_text": null,
+        "mood_state": "不满"
+      },
+      "id": "104_004",
+      "global_id": 263
+    }
+  ]
+}

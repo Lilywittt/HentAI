@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明在酒店休闲区与沙沙私下交谈，开玩笑地介绍沙特的风俗。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "沙特这边有个风俗很棒的，如果有人邀请我们过去吃饭，到他家里之后就要表现出非常有好奇心的样子，你对什么好奇，人家就会把什么东西送给你，譬如说你如果问现在是几点钟啦，对方就会把手表取下来给你，反正沙特这边请客是男女分开的，我们去吃顿饭，就可以把人家家里全给搬空了……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "俏皮调侃者",
+        "inner_monologue": "这家伙又在瞎掰了，明明知道我们不会去参加这种邀请，还拿这个开玩笑。",
+        "external_action": "忍住笑在那儿瞪他半天，忽然伸出两根手指：“叉你眼睛。”",
+        "speech_text": "叉你眼睛。",
+        "mood_state": "amused"
+      },
+      "id": "509_001",
+      "global_id": 776
+    }
+  ]
+}

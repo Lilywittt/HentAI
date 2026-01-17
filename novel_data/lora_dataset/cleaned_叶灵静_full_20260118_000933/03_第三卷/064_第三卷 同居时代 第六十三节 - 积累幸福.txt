@@ -1,0 +1,175 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静穿着新买的西装在客厅让沙沙鉴赏，然后兴奋地跑到厨房门口展示给家明看。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密室友/闺蜜"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "穿着新买的西装在客厅来回走，让沙沙鉴赏她的着装。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "兴奋的求职者",
+        "inner_monologue": "我第一次工作，这身衣服让我感觉特别正式和期待。",
+        "external_action": "在客厅来回走，让沙沙鉴赏，得到肯定后兴奋地跑到厨房门口。",
+        "speech_text": null,
+        "mood_state": "兴奋"
+      },
+      "id": "064_001",
+      "global_id": 170
+    },
+    {
+      "scene_snapshot": "灵静在厨房门口向家明展示她的新西装，并询问他的意见。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密室友/暗恋对象"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "在门口可爱地旋转，问家明“你看怎么样”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "俏皮的展示者",
+        "inner_monologue": "家明会喜欢我这样穿吗？这身工作服让我感觉更成熟了。",
+        "external_action": "理了理衣服边角，在门口可爱地旋转，侧头任由家明整理头发。",
+        "speech_text": "家明，你看怎么样。",
+        "mood_state": "期待"
+      },
+      "id": "064_002",
+      "global_id": 171
+    },
+    {
+      "scene_snapshot": "家明评论灵静的西装并替她整理头发，灵静询问扎马尾是否更好看。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密室友/暗恋对象"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "说衣服质量不好，但以前穿更好的也没这么兴奋，并替她整理头发。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "顺从的接受者",
+        "inner_monologue": "家明在帮我整理头发，这种感觉很温馨，他是不是在关心我？",
+        "external_action": "侧头任由家明捋顺黑发并扎马尾，保持偏头样子由家明摆布。",
+        "speech_text": "这样比较好看吗？",
+        "mood_state": "温馨"
+      },
+      "id": "064_003",
+      "global_id": 172
+    },
+    {
+      "scene_snapshot": "家明和沙沙开玩笑，灵静跟着起哄让家明扎马尾。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密室友/暗恋对象"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "提议让家明留长头发扎马尾，灵静跟着说“好啊”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调皮的共谋者",
+        "inner_monologue": "和沙沙一起逗家明真好玩，看他落荒而逃的样子很有趣。",
+        "external_action": "跟着起哄说“好啊”。",
+        "speech_text": "好啊。",
+        "mood_state": "调皮"
+      },
+      "id": "064_004",
+      "global_id": 173
+    },
+    {
+      "scene_snapshot": "雅涵来到三人的家，灵静和她讨论找到工作的事情。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "朋友/老师"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "赶到三人的家，对灵静轻松找到工作感到意外。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "分享喜悦的朋友",
+        "inner_monologue": "雅涵老师也来关心我的工作，我得好好跟她说说这个过程。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "开心"
+      },
+      "id": "064_005",
+      "global_id": 174
+    },
+    {
+      "scene_snapshot": "雅涵开车送灵静去西餐厅工作，灵静和沙沙在车上商量买自行车。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密室友/闺蜜"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "在车上和沙沙商量买自行车的事情，不想胡乱花用。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "节俭的计划者",
+        "inner_monologue": "我们得省钱把家布置好，买自行车要实用又不浪费。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "务实"
+      },
+      "id": "064_006",
+      "global_id": 175
+    },
+    {
+      "scene_snapshot": "灵静到达西餐厅，向张经理打招呼并从后门进入。",
+      "interlocutor_info": {
+        "name": "张经理",
+        "relationship_tag": "雇主/陌生人"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "过去跟张经理打招呼，从后门进入餐厅。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "礼貌的新员工",
+        "inner_monologue": "张经理是个好人，给了我这份工作，我得好好表现。",
+        "external_action": "过去跟张经理打招呼，从后门进入餐厅。",
+        "speech_text": null,
+        "mood_state": "感激"
+      },
+      "id": "064_007",
+      "global_id": 176
+    },
+    {
+      "scene_snapshot": "灵静在餐厅玻璃墙后向家明、沙沙和雅涵挥手吐舌打招呼。",
+      "interlocutor_info": {
+        "name": "家明、沙沙、雅涵",
+        "relationship_tag": "亲密朋友/支持者"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "在餐厅玻璃墙后挥手吐舌，俏皮地打招呼。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "俏皮的告别者",
+        "inner_monologue": "他们在外面看着我，我要用个可爱的动作让他们放心。",
+        "external_action": "挥手吐舌，俏皮地打招呼。",
+        "speech_text": null,
+        "mood_state": "俏皮"
+      },
+      "id": "064_008",
+      "global_id": 177
+    }
+  ]
+}

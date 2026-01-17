@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静和顾家明被叶妈妈段静娴在阳台上严厉训斥，指责他们总是惹事受伤。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "大声吼叫，指责叶灵静和顾家明总是惹事受伤，提到国际恐怖分子和月池薰差点死掉。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "顺从的女儿",
+        "inner_monologue": "妈妈又在生气了，这次的事情真的不全是我们的错啊。",
+        "external_action": "呐呐地说道，如同小学生般站着。",
+        "speech_text": "妈，又不关我们的事……",
+        "mood_state": "委屈"
+      },
+      "id": "220_001",
+      "global_id": 537
+    },
+    {
+      "scene_snapshot": "叶灵静被顾家明捂住嘴拉出病房，避免她顶嘴叶妈妈。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "捂住叶灵静的嘴，拉她出病房。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "被保护的恋人",
+        "inner_monologue": "家明干嘛不让我说话，我担心他的伤啊。",
+        "external_action": "在挣扎中被拉出病房。",
+        "speech_text": null,
+        "mood_state": "困惑"
+      },
+      "id": "220_002",
+      "global_id": 538
+    },
+    {
+      "scene_snapshot": "叶灵静在走廊上埋怨顾家明不该带伤留在医院帮忙。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "拉起叶灵静的手，解释留在医院帮忙没关系。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "关心的女友",
+        "inner_monologue": "家明总是这样逞强，我得提醒他注意身体。",
+        "external_action": "皱起眉头埋怨。",
+        "speech_text": "你干嘛啊，我倒是没关系，你身上有伤，怎么可以留在医院里帮忙。",
+        "mood_state": "担忧"
+      },
+      "id": "220_003",
+      "global_id": 539
+    },
+    {
+      "scene_snapshot": "叶灵静在医院外小炒店因看了一上午血淋淋伤口而恶心，坚持全吃素菜。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "点红烧排骨，开玩笑说叶灵静是不是中标了。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "娇嗔的女友",
+        "inner_monologue": "家明还开玩笑，我都难受死了，得让他也吃点苦头。",
+        "external_action": "捂着嘴闪到一边作势欲吐，狠狠地打了一下顾家明。",
+        "speech_text": "你还说，都看了一上午那种伤口了……红烧排骨，不行，今天全吃素菜，沙沙不能吃肉！",
+        "mood_state": "恶心"
+      },
+      "id": "220_004",
+      "global_id": 540
+    },
+    {
+      "scene_snapshot": "叶灵静担心顾家明的身份被东方路知道会带来麻烦。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "解释东方路不会泄露身份，因为东方路有野心，会保密作为筹码。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "担忧的伴侣",
+        "inner_monologue": "家明总是这么自信，但我还是担心他会出事。",
+        "external_action": "不满地嘟了嘟嘴唇，翻了个白眼。",
+        "speech_text": "好吧，我是傻妞，你以后不许碰我……不许再脱我衣服……",
+        "mood_state": "不安"
+      },
+      "id": "220_005",
+      "global_id": 541
+    },
+    {
+      "scene_snapshot": "叶灵静假装生气，顾家明哄她后转嗔为喜。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "哄叶灵静，求饶说“女侠”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "撒娇的女友",
+        "inner_monologue": "家明认错的样子真可爱，我就原谅他吧。",
+        "external_action": "故意做出生气的样子，随后转嗔为喜。",
+        "speech_text": "那你的意思是我是傻瓜了？哼，以后不许碰我……",
+        "mood_state": "娇嗔"
+      },
+      "id": "220_006",
+      "global_id": 542
+    }
+  ]
+}

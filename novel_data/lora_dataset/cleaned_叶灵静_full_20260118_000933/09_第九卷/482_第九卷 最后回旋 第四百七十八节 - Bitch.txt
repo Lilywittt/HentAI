@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在江海打电话给顾家明，表达对薰受伤的关心和埋怨。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的朋友/恋人"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "打电话给家明，提到她和沙沙已经接到薰，看到薰受伤的样子，埋怨家明没有保护好薰。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心和略带责备的朋友",
+        "inner_monologue": "我担心薰的伤势，家明这次怎么没照顾好她，以前他可不是这样的。",
+        "external_action": "打电话表达情绪",
+        "speech_text": "电话是灵静和沙沙在江海打过来的，她们已经接到了刚下飞机的薰，看见她受伤的样子，免不了就埋怨一番。明明是过去帮忙的，居然还让人伤成这样，实在比以前逊了太多。",
+        "mood_state": "担忧"
+      },
+      "id": "482_001",
+      "global_id": 981
+    },
+    {
+      "scene_snapshot": "叶灵静继续与顾家明通话，讨论机场骚乱事件。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的朋友/恋人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明在电话中与叶灵静交谈，可能提到机场的骚乱或结束通话。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "保持通话的伴侣",
+        "inner_monologue": "我想多和家明说说话，了解他在日本的情况，确保他安全。",
+        "external_action": "继续通话",
+        "speech_text": "与灵静再说得一阵，那少年已经进了候机大厅。",
+        "mood_state": "关切"
+      },
+      "id": "482_002",
+      "global_id": 982
+    }
+  ]
+}

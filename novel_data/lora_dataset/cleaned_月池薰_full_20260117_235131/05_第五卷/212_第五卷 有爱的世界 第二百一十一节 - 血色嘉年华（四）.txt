@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "薰和沙沙在枪林弹雨中匍匐前行，躲避敌人追捕。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "同伴/战友"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "说起羡慕灵静和家明在船上的经历。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静的战士",
+        "inner_monologue": "我需要专注在任务上，不能分心。",
+        "external_action": "望了她一眼，将一颗简易炸弹小心地挂在了门上。",
+        "speech_text": null,
+        "mood_state": "专注"
+      },
+      "id": "212_001",
+      "global_id": 173
+    },
+    {
+      "scene_snapshot": "沙沙在枪声中俯冲出门，薰拉她到安全转角。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "同伴/战友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "侧面射来的子弹划过墙面，灰粉洒落。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "保护者",
+        "inner_monologue": "必须确保沙沙的安全。",
+        "external_action": "蓦地回过手来，拉住她飞快地跑过这段走廊，在前方一处稍微安全的转角方才停下。",
+        "speech_text": null,
+        "mood_state": "警觉"
+      },
+      "id": "212_002",
+      "global_id": 174
+    },
+    {
+      "scene_snapshot": "沙沙询问家明是否会来，薰在黑暗中回应。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "同伴/战友"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "薰，你说……他也会来吗，如果这个的信号被屏蔽了……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坚定的同伴",
+        "inner_monologue": "我相信家明会来救我们。",
+        "external_action": "拉着沙沙的手继续俯身向前，轻轻地点了点头。",
+        "speech_text": "会。",
+        "mood_state": "坚定"
+      },
+      "id": "212_003",
+      "global_id": 175
+    }
+  ]
+}

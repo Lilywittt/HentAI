@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙和月池薰被佣兵包围在公寓前的草地上，佣兵们举枪威胁她们投降。",
+      "interlocutor_info": {
+        "name": "坦克",
+        "relationship_tag": "敌人"
+      },
+      "trigger": {
+        "sender": "坦克",
+        "content": "站住！不想死就举起手……扔掉枪……放下武器……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "桀骜不屈的少女",
+        "inner_monologue": "我绝不会向这些敌人屈服，薰会保护我的。",
+        "external_action": "身躯微微颤抖，马尾散乱，脸上有灰迹和汗珠，张了张嘴，表情桀骜，环顾周围几人",
+        "speech_text": null,
+        "mood_state": "紧张"
+      },
+      "id": "213_001",
+      "global_id": 434
+    },
+    {
+      "scene_snapshot": "薰扔掉手枪后，佣兵们上前但被薰手中的手雷威胁，场面僵持。",
+      "interlocutor_info": {
+        "name": "坦克",
+        "relationship_tag": "敌人"
+      },
+      "trigger": {
+        "sender": "坦克",
+        "content": "坦克等人上前两步又停下，薰举起手雷威胁",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "受保护的同伴",
+        "inner_monologue": "薰在保护我，我必须保持冷静，不能拖累她。",
+        "external_action": "被薰拉到背后",
+        "speech_text": null,
+        "mood_state": "警惕"
+      },
+      "id": "213_002",
+      "global_id": 435
+    },
+    {
+      "scene_snapshot": "坦克开枪射伤薰的手臂，薰扔出手雷引发爆炸，沙沙被气浪扫飞。",
+      "interlocutor_info": {
+        "name": "坦克",
+        "relationship_tag": "敌人"
+      },
+      "trigger": {
+        "sender": "坦克",
+        "content": "砰的一枪射伤薰的左臂",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "幸存者",
+        "inner_monologue": "爆炸了！薰受伤了，我们必须赶紧离开这里。",
+        "external_action": "被汹涌的气流扫出两米之外",
+        "speech_text": null,
+        "mood_state": "震惊"
+      },
+      "id": "213_003",
+      "global_id": 436
+    },
+    {
+      "scene_snapshot": "爆炸后沙沙和薰艰难爬起，搀扶着离开，坦克受伤无法追击。",
+      "interlocutor_info": {
+        "name": "坦克",
+        "relationship_tag": "敌人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "爆炸后的火海与废墟，坦克受伤挣扎",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "逃亡者",
+        "inner_monologue": "我们得赶紧走，坦克可能还会追来，薰需要治疗。",
+        "external_action": "艰难地爬了起来，搀扶着薰往一边走远",
+        "speech_text": null,
+        "mood_state": "急切"
+      },
+      "id": "213_004",
+      "global_id": 437
+    }
+  ]
+}

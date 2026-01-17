@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静和沙沙在医院手术室外等待家明的手术结果，两人都穿着睡衣，灵静掉了一只拖鞋，默默流泪。",
+      "interlocutor_info": {
+        "name": "东方路",
+        "relationship_tag": "同学/追求者"
+      },
+      "trigger": {
+        "sender": "东方路",
+        "content": "脱下自己的外衣给灵静披上",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "抗拒的少女",
+        "inner_monologue": "我不想接受他的好意，尤其是在这种时候，我只想安静地等家明。",
+        "external_action": "一把将那外套扔到了地上，然后继续坐着抹眼泪",
+        "speech_text": null,
+        "mood_state": "distressed"
+      },
+      "id": "193_001",
+      "global_id": 502
+    },
+    {
+      "scene_snapshot": "手术室门开了，叶妈妈段静娴出来宣布家明没事，灵静哭着跑上去询问。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "说家明没事，子弹从心脏边射过去，手术已做完，需要休息，建议沙沙进去探病",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "担忧的女友",
+        "inner_monologue": "家明真的没事了吗？我必须亲眼看到他，我不能只是在这里等着。",
+        "external_action": "哭着跑了上去询问，然后光着一只脚跟在沙沙身后跑进了手术室",
+        "speech_text": "没事吧，家明没事吧……",
+        "mood_state": "anxious"
+      },
+      "id": "193_002",
+      "global_id": 503
+    }
+  ]
+}

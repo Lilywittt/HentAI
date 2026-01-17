@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明在灵静离开后，独自在房间里打电话给月池薰。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴/保护对象"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "打电话给薰，告知明天下午坐飞机到东京。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "忠诚的助手",
+        "inner_monologue": "家明突然联系我，要去东京，一定有重要的事情需要我处理。",
+        "external_action": "接听电话（推测，基于家明的行动）。",
+        "speech_text": null,
+        "mood_state": "警觉"
+      },
+      "id": "391_001",
+      "global_id": 266
+    }
+  ]
+}

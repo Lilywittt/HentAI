@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰和柳怀沙被佣兵包围在公寓前的草地上，佣兵要求她们放下武器。",
+      "interlocutor_info": {
+        "name": "坦克",
+        "relationship_tag": "敌方佣兵首领"
+      },
+      "trigger": {
+        "sender": "坦克",
+        "content": "站住！不想死就举起手……扔掉枪……放下武器……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静的保护者",
+        "inner_monologue": "我必须保护沙沙，不能让他们抓住我们。",
+        "external_action": "将沙沙拉到背后，举起右手扔掉手枪，随后拿出拉环已扣的手雷威胁。",
+        "speech_text": "过来啊……",
+        "mood_state": "冷静"
+      },
+      "id": "213_001",
+      "global_id": 176
+    },
+    {
+      "scene_snapshot": "坦克开枪击中月池薰的左臂，试图迫使她放下手雷。",
+      "interlocutor_info": {
+        "name": "坦克",
+        "relationship_tag": "敌方佣兵首领"
+      },
+      "trigger": {
+        "sender": "坦克",
+        "content": "砰的一枪，子弹划过薰的发际，射入后方的小树林：不想死就放下！",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "坚定的抵抗者",
+        "inner_monologue": "我不能退缩，必须坚持到最后一刻。",
+        "external_action": "几乎连眼睛都没有眨上一眨，冷冷地望着坦克。",
+        "speech_text": null,
+        "mood_state": "坚定"
+      },
+      "id": "213_002",
+      "global_id": 177
+    },
+    {
+      "scene_snapshot": "坦克再次开枪击中月池薰的左臂，导致她拉开手雷拉环并扔出。",
+      "interlocutor_info": {
+        "name": "坦克",
+        "relationship_tag": "敌方佣兵首领"
+      },
+      "trigger": {
+        "sender": "坦克",
+        "content": "坦克猛地一扬手，再次开了枪，血花从薰的左臂上向后飞溅出去。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "受伤的陷阱执行者",
+        "inner_monologue": "就是现在，引爆陷阱！",
+        "external_action": "身体一晃，手雷拉环被拉开，脸上露出不可置信的神情，下意识扬起右手将手雷扔向佣兵方向。",
+        "speech_text": null,
+        "mood_state": "决绝"
+      },
+      "id": "213_003",
+      "global_id": 178
+    },
+    {
+      "scene_snapshot": "爆炸后，月池薰和柳怀沙从废墟中爬起，搀扶着离开。",
+      "interlocutor_info": {
+        "name": "坦克",
+        "relationship_tag": "敌方佣兵首领"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "爆炸导致公寓化为火海与废墟，佣兵伤亡，坦克受伤倒地。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "逃脱的幸存者",
+        "inner_monologue": "必须尽快离开这里，沙沙需要帮助。",
+        "external_action": "艰难地爬起来，搀扶着沙沙往一边走远，消失在视线中。",
+        "speech_text": null,
+        "mood_state": "疲惫"
+      },
+      "id": "213_004",
+      "global_id": 179
+    }
+  ]
+}

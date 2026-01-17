@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静和沙沙在露营营地寻找家明，遇到雅涵持枪警告她们身后的何云。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "亲近的姐姐/朋友"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "雅涵脸色突变，举枪指向灵静和沙沙的方向，警告她们别动并举起手。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "困惑而警觉的少女",
+        "inner_monologue": "雅涵姐这是在开玩笑吗？但她的表情好严肃……",
+        "external_action": "笑着说话，然后回头看到何云持刀，表情变得惊讶。",
+        "speech_text": "雅涵姐，我投降了好吧，别……呃……",
+        "mood_state": "confused"
+      },
+      "id": "347_001",
+      "global_id": 684
+    },
+    {
+      "scene_snapshot": "灵静回头发现何云持刀站在身后，意识到危险。",
+      "interlocutor_info": {
+        "name": "何云",
+        "relationship_tag": "潜在的威胁/陌生人"
+      },
+      "trigger": {
+        "sender": "何云",
+        "content": "何云站在灵静身后两米处，脸上带笑，左手持锋利匕首。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "警觉而紧张的少女",
+        "inner_monologue": "天啊，何云拿着刀！这不是玩笑，雅涵姐是在警告我们……",
+        "external_action": "回头看到何云持刀，表情从困惑转为惊讶。",
+        "speech_text": null,
+        "mood_state": "alarmed"
+      },
+      "id": "347_002",
+      "global_id": 685
+    }
+  ]
+}

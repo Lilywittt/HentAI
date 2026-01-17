@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰持枪拦截囚车，试图救出家明。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "深爱的人"
+      },
+      "trigger": {
+        "sender": "叶莲",
+        "content": "叶莲停车并告知月池薰可以带走家明。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "决绝的营救者",
+        "inner_monologue": "我必须救他，无论如何都要带他走。",
+        "external_action": "扑进家明怀里，随后摇头哭泣并争执。",
+        "speech_text": null,
+        "mood_state": "desperate"
+      },
+      "id": "412_001",
+      "global_id": 314
+    },
+    {
+      "scene_snapshot": "月池薰被未婚夫阻止，无法救出家明。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "深爱的人"
+      },
+      "trigger": {
+        "sender": "未婚夫",
+        "content": "未婚夫制住月池薰的枪并抱住她。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "无助的挣扎者",
+        "inner_monologue": "为什么阻止我？我不能失去他。",
+        "external_action": "如困兽般挣扎，目光与家明对望。",
+        "speech_text": null,
+        "mood_state": "anguished"
+      },
+      "id": "412_002",
+      "global_id": 315
+    }
+  ]
+}

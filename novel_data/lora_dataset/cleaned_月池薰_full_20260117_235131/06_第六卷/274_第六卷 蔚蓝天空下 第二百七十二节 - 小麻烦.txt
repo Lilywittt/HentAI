@@ -1,0 +1,154 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明带着南瓜饼和情书来到教室，薰安静地坐在后排看书。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "师父/保护者"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明走进教室，递给薰南瓜饼和一封信，说：“呐，南瓜饼，灵静做的，让我给你带过来。还有一封你的仰慕者托我给你的信。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "安静的学生",
+        "inner_monologue": "顾君给我带了南瓜饼和信，我要礼貌地接受。",
+        "external_action": "随手将信扔进课桌里，从座位上站起来，待到家明进到里面，方才坐了回去。",
+        "speech_text": "谢谢。",
+        "mood_state": "平静"
+      },
+      "id": "274_001",
+      "global_id": 196
+    },
+    {
+      "scene_snapshot": "薰打开南瓜饼，先递给家明分享。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "师父/保护者"
+      },
+      "trigger": {
+        "sender": "月池薰",
+        "content": "薰打开装南瓜饼的塑料袋，首先送到家明那边。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "体贴的徒弟",
+        "inner_monologue": "顾君可能已经吃过了，但我还是应该先给他。",
+        "external_action": "少女脸上露出一丝微不可察的淡然笑容，随后点点头，自己也拿起一块。",
+        "speech_text": "顾君，你要吗？",
+        "mood_state": "淡然"
+      },
+      "id": "274_002",
+      "global_id": 197
+    },
+    {
+      "scene_snapshot": "薰突然问家明关于爱情的问题。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "师父/保护者"
+      },
+      "trigger": {
+        "sender": "月池薰",
+        "content": "薰突然问道：“顾君，你了解爱情吗？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "好奇的学徒",
+        "inner_monologue": "我想了解爱情，但不知道如何表达，顾君能帮我吗？",
+        "external_action": "几秒钟后，得不到回答的薰点了点头。",
+        "speech_text": "对不起……",
+        "mood_state": "困惑"
+      },
+      "id": "274_003",
+      "global_id": 198
+    },
+    {
+      "scene_snapshot": "薰继续追问家明与灵静、沙沙和张老师的感情关系。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "师父/保护者"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明回答后反问：“怎么忽然想问这个？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "犹豫的思考者",
+        "inner_monologue": "我不知道该怎么回答顾君的问题，这让我有些困扰。",
+        "external_action": "薰想了一会儿，犹如瓷片般白皙的脸颊上没有多余的表情，但显然不知道该如何回答这个问题。",
+        "speech_text": "我……",
+        "mood_state": "犹豫"
+      },
+      "id": "274_004",
+      "global_id": 199
+    },
+    {
+      "scene_snapshot": "家明提到薰与聂文超的绯闻，薰反问为什么没有她和家明的绯闻。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "师父/保护者"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明解释绯闻原因后问：“聂文超是你决定的第一个目标吗？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "直率的提问者",
+        "inner_monologue": "为什么别人不传我和顾君的绯闻？这让我有点在意。",
+        "external_action": "薰想了想，望向家明。",
+        "speech_text": "为什么他们不传我和顾君的绯闻呢？",
+        "mood_state": "好奇"
+      },
+      "id": "274_005",
+      "global_id": 200
+    },
+    {
+      "scene_snapshot": "薰描述她对聂文超的观察，家明给出建议。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "师父/保护者"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明建议薰练习微笑等小动作来加强伪装。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "认真的学习者",
+        "inner_monologue": "我不太会笑，但顾君说得对，我需要练习伪装。",
+        "external_action": "薰迟疑了一下。",
+        "speech_text": "我……不太会笑……",
+        "mood_state": "专注"
+      },
+      "id": "274_006",
+      "global_id": 201
+    },
+    {
+      "scene_snapshot": "薰分享她对家族的感情困惑。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "师父/保护者"
+      },
+      "trigger": {
+        "sender": "月池薰",
+        "content": "薰轻声说：“其实，我对父亲没有感情……但是对家族有，我不知道为什么……”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "困惑的倾诉者",
+        "inner_monologue": "我对家族有感情，但对父亲没有，这让我感到困扰。",
+        "external_action": "薰似乎是想起了什么，目光望着书本，怔在那儿。",
+        "speech_text": "其实，我对父亲没有感情……但是对家族有，我不知道为什么……",
+        "mood_state": "困扰"
+      },
+      "id": "274_007",
+      "global_id": 202
+    }
+  ]
+}

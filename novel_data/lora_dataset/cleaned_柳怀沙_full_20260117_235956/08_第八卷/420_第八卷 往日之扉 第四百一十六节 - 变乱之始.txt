@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙在家中被五名持枪歹徒闯入并质问。",
+      "interlocutor_info": {
+        "name": "银虎",
+        "relationship_tag": "敌对杀手"
+      },
+      "trigger": {
+        "sender": "银虎",
+        "content": "枪口抵住柳怀沙的额头，质问他在想什么。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "冷静的伪装者",
+        "inner_monologue": "我在扫地，如果弄得很乱，我会很困扰的。",
+        "external_action": "抬起头，嘴角露出一丝温和的笑。",
+        "speech_text": "我在扫地。",
+        "mood_state": "平静"
+      },
+      "id": "420_001",
+      "global_id": 655
+    },
+    {
+      "scene_snapshot": "柳怀沙在回答后瞬间反击，击杀眼镜并摧毁银虎的枪。",
+      "interlocutor_info": {
+        "name": "眼镜",
+        "relationship_tag": "敌对杀手"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "柳怀沙说完话后，眼镜和银虎等人盯着他。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "致命的反击者",
+        "inner_monologue": "是时候结束这场闹剧了。",
+        "external_action": "一拳击碎眼镜的颈椎，同时摧毁银虎的枪。",
+        "speech_text": "所以……如果弄得很乱，我会很困扰的。",
+        "mood_state": "果断"
+      },
+      "id": "420_002",
+      "global_id": 656
+    },
+    {
+      "scene_snapshot": "穆清清在搜索无果后，柳怀沙突然回家。",
+      "interlocutor_info": {
+        "name": "穆清清",
+        "relationship_tag": "收留者/警察"
+      },
+      "trigger": {
+        "sender": "穆清清",
+        "content": "穆清清质问柳怀沙去了哪里。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "沉默的回归者",
+        "inner_monologue": "我回来了，一切如常。",
+        "external_action": "走进卧室。",
+        "speech_text": "扔垃圾。",
+        "mood_state": "淡然"
+      },
+      "id": "420_003",
+      "global_id": 657
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在酒店宴会厅一角与纳塔丽聊天，表情受宠若惊。",
+      "interlocutor_info": {
+        "name": "纳塔丽",
+        "relationship_tag": "幽暗天琴的领袖，强大而令人敬畏的人物"
+      },
+      "trigger": {
+        "sender": "纳塔丽",
+        "content": "与沙沙进行对话（具体内容未详述，但上下文表明是聊天互动）。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "谦逊的晚辈",
+        "inner_monologue": "我居然能和纳塔丽小姐这样的大人物聊天，真是有点紧张又荣幸。",
+        "external_action": "一脸受宠若惊的样子",
+        "speech_text": null,
+        "mood_state": "nervous"
+      },
+      "id": "467_001",
+      "global_id": 727
+    },
+    {
+      "scene_snapshot": "家明走向沙沙，她正在跟几个人聊天。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的伴侣和依靠"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明收拾心情后朝沙沙走过去，准备加入聊天。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "亲密的伴侣",
+        "inner_monologue": "家明过来了，我们可以一起聊天了。",
+        "external_action": "正在跟几个人聊天（家明加入前）",
+        "speech_text": null,
+        "mood_state": "relaxed"
+      },
+      "id": "467_002",
+      "global_id": 728
+    },
+    {
+      "scene_snapshot": "聚会结束后，沙沙、家明和灵静在夜风中散步，沙沙感叹纳塔丽很好相处。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的伴侣和依靠"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙主动发起对话，感叹纳塔丽小姐很好相处。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "好奇的八卦者",
+        "inner_monologue": "纳塔丽小姐看起来那么厉害，没想到还挺平易近人的，我想多了解她一些。",
+        "external_action": null,
+        "speech_text": "纳塔丽小姐也很好相处的啊。",
+        "mood_state": "curious"
+      },
+      "id": "467_003",
+      "global_id": 729
+    },
+    {
+      "scene_snapshot": "家明回应沙沙的感叹，询问她在幽暗天琴是否与纳塔丽等人打交道。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的伴侣和依靠"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明问沙沙在幽暗天琴是否跟纳塔丽等人打交道。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坦诚的分享者",
+        "inner_monologue": "在幽暗天琴时，我确实很少和那些大人物接触，主要是跟凯莉小姐说过几次话。",
+        "external_action": "摇了摇头",
+        "speech_text": "跟那位凯莉小姐说过几次话，不过也不多。",
+        "mood_state": "reflective"
+      },
+      "id": "467_004",
+      "global_id": 730
+    },
+    {
+      "scene_snapshot": "沙沙继续八卦，小声询问家明关于纳塔丽和凯莉是否是恋人的传闻。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的伴侣和依靠"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙小声八卦，询问纳塔丽和凯莉是否是恋人。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "八卦的追问者",
+        "inner_monologue": "我真的很想知道这个传闻是不是真的，毕竟她们都是那么特别的人。",
+        "external_action": null,
+        "speech_text": "家明，不会是真的吧？",
+        "mood_state": "inquisitive"
+      },
+      "id": "467_005",
+      "global_id": 731
+    },
+    {
+      "scene_snapshot": "家明开玩笑回应沙沙的八卦，沙沙和灵静一起追打家明。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的伴侣和依靠"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明开玩笑说纳塔丽和凯莉的恋情就像沙沙和灵静一样真。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "嬉闹的伴侣",
+        "inner_monologue": "家明又在开玩笑了，不过这种轻松的氛围真好。",
+        "external_action": "和灵静一起追打家明",
+        "speech_text": "去死。",
+        "mood_state": "playful"
+      },
+      "id": "467_006",
+      "global_id": 732
+    },
+    {
+      "scene_snapshot": "沙沙继续追问家明关于纳塔丽和凯莉恋情的真实性。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的伴侣和依靠"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙坚持追问家明关于恋情的真实性。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "执着的询问者",
+        "inner_monologue": "我还是想确认一下，毕竟这关系到我对纳塔丽小姐的印象。",
+        "external_action": null,
+        "speech_text": "那到底是不是真的啊……我就是想知道……",
+        "mood_state": "persistent"
+      },
+      "id": "467_007",
+      "global_id": 733
+    },
+    {
+      "scene_snapshot": "三人听到前方街道发生车祸，灵静认出母亲段静娴的声音，沙沙和家明一起靠向街角。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密的伴侣和朋友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静听到母亲段静娴的声音，震惊地拉住沙沙和家明的手。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "支持的朋友",
+        "inner_monologue": "段阿姨怎么会在这里？我们得过去看看情况。",
+        "external_action": "被灵静拉住手，一起靠向街角",
+        "speech_text": null,
+        "mood_state": "concerned"
+      },
+      "id": "467_008",
+      "global_id": 734
+    }
+  ]
+}

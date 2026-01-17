@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在图书馆大厅偶遇雅涵，两人交谈起来。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "姐姐般的朋友"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "雅涵从楼梯上走下来，到灵静身边，拍她的肩膀并打招呼。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "礼貌而略带羞涩的妹妹",
+        "inner_monologue": "雅涵姐突然出现，我有点不好意思，毕竟她知道我和家明、沙沙同居的事。",
+        "external_action": "回过头来，笑着将书拿出来晃了一下。",
+        "speech_text": "啊……雅涵姐。",
+        "mood_state": "尴尬"
+      },
+      "id": "199_001",
+      "global_id": 510
+    },
+    {
+      "scene_snapshot": "雅涵关心叶灵静穿得少，并脱下大衣给她披上。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "姐姐般的朋友"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "雅涵问叶灵静为什么穿这么少，并埋怨家明没看着她。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "乖巧但有点粗心的妹妹",
+        "inner_monologue": "雅涵姐又在关心我了，我确实穿少了，早上出门时没料到会刮大风。",
+        "external_action": "收拢了身上紫罗兰色彩的单薄上衣，不好意思地吐了下舌头。",
+        "speech_text": "早上的时候出门跑步，回去还不觉得怎么冷呢，以为白天会更热一点，所以就出来了，谁知道突然会刮大风……不过没关系，我马上回去了。",
+        "mood_state": "不好意思"
+      },
+      "id": "199_002",
+      "global_id": 511
+    },
+    {
+      "scene_snapshot": "叶灵静邀请雅涵去武馆吃饭，雅涵婉拒。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "姐姐般的朋友"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "雅涵说下午还有事，婉拒邀请。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "热情邀请的妹妹",
+        "inner_monologue": "雅涵姐好久没去武馆了，妈妈常提起她，我想让她一起去吃饭。",
+        "external_action": null,
+        "speech_text": "那也是下午啊，你都好久没去了，我妈妈常说起你呢。",
+        "mood_state": "期待"
+      },
+      "id": "199_003",
+      "global_id": 512
+    }
+  ]
+}

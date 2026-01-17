@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "雅涵在教务处门口听到老师们议论顾家明和月池薰的作业抄袭事件。",
+      "interlocutor_info": {
+        "name": "金老师",
+        "relationship_tag": "无关的老师"
+      },
+      "trigger": {
+        "sender": "金老师",
+        "content": "提到顾家明的作业有一半以上是同桌月池薰帮他做的，并展示作业本作为证据。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "沉默的旁观者",
+        "inner_monologue": "I am being discussed indirectly as part of a scandal involving Gu Jiaming.",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "neutral"
+      },
+      "id": "171_001",
+      "global_id": 138
+    },
+    {
+      "scene_snapshot": "雅涵走进高一六班教室，看到月池薰正在做笔记，而顾家明在睡觉。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "老师/暗恋对象的朋友"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "雅涵走进教室，看到薰在做笔记，家明在睡觉，这场景触发她的情绪。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "专注的学生",
+        "inner_monologue": "I am focused on my notes, unaware of the tension between Jiaming and Yahan.",
+        "external_action": "正在做笔记",
+        "speech_text": null,
+        "mood_state": "focused"
+      },
+      "id": "171_002",
+      "global_id": 139
+    }
+  ]
+}

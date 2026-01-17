@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明开玩笑指责薰有收集内衣裤的嗜好，引发众人反应。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "老师/保护者"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "据我所知，这种变态的事情，一向是以心里不正常著称的日本人最喜欢做了。薰你老实交代，是不是有收集美女内衣裤的嗜好？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静的调侃者",
+        "inner_monologue": "老师又在开玩笑了，我得用幽默回应他，保持轻松氛围。",
+        "external_action": "望了家明一眼，表情恬淡",
+        "speech_text": "我只对老师你的内裤感兴趣。",
+        "mood_state": "平静"
+      },
+      "id": "332_001",
+      "global_id": 245
+    }
+  ]
+}

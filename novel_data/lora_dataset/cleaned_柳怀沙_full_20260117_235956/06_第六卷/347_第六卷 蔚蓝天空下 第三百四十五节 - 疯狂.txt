@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在赌场帐篷里和一群女孩子玩梭哈，灵静走过来查看她的牌。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "走到沙沙身后，俯下身子拈起她的底牌偷看，随后郁闷地翻了个白眼说“切……”。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "轻松随和的玩伴",
+        "inner_monologue": "灵静又来偷看我的牌，不过一对小五其实也不小了，她肯定觉得没意思。",
+        "external_action": "笑着说道，随后站了起来。",
+        "speech_text": "呵呵，一对小五其实也很大了好不好……算了，我不来啦，你们慢慢玩。",
+        "mood_state": "轻松"
+      },
+      "id": "347_001",
+      "global_id": 550
+    },
+    {
+      "scene_snapshot": "沙沙和灵静在帐篷群里寻找家明，遇到雅涵时雅涵突然举枪指向她们身后。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "信任的姐姐"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "雅涵的脸色蓦地变了变，右手一举，握着一把手枪朝这边指了过来，说“别动！别乱来！把手举起来！”。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "警觉的同伴",
+        "inner_monologue": "雅涵姐突然举枪，肯定有危险，我得看看身后是什么情况。",
+        "external_action": "回头一看。",
+        "speech_text": null,
+        "mood_state": "警觉"
+      },
+      "id": "347_002",
+      "global_id": 551
+    }
+  ]
+}

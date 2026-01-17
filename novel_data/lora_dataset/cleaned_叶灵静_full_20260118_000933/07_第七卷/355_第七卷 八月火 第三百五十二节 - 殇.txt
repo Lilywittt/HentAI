@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "在柳正的葬礼上，叶灵静陪伴着悲伤的沙沙，照顾她的饮食和情绪。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙从早上跪在灵堂七八个小时不动，不肯吃饭，情绪低落。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "体贴的陪伴者",
+        "inner_monologue": "我必须照顾好沙沙，她这么伤心，我不能让她再受任何伤害。",
+        "external_action": "手臂上戴着黑纱，拿着一杯水跪在旁边陪沙沙，喂她喝水，并帮她按摩双腿。",
+        "speech_text": "她从早上跪在这里都七八个小时没动过了，还不肯吃饭，你劝劝她吧。",
+        "mood_state": "担忧"
+      },
+      "id": "355_001",
+      "global_id": 700
+    },
+    {
+      "scene_snapshot": "家明试图扶起沙沙时，叶灵静配合并建议他去拿粥。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明俯身轻声劝沙沙，并扶她起来坐到凳子上。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "协作的助手",
+        "inner_monologue": "家明来了，我们一起帮沙沙，她需要我们的支持。",
+        "external_action": "连忙过去帮沙沙按摩双腿。",
+        "speech_text": "我叫厨房煮了点粥，家明你去拿过来吧。",
+        "mood_state": "关切"
+      },
+      "id": "355_002",
+      "global_id": 701
+    },
+    {
+      "scene_snapshot": "沙沙的亲戚试图挤开叶灵静，她不动声色地坚持照顾沙沙。",
+      "interlocutor_info": {
+        "name": "沙沙的亲戚",
+        "relationship_tag": "敌意的外人"
+      },
+      "trigger": {
+        "sender": "沙沙的亲戚",
+        "content": "两个孩子在父母授意下挤到沙沙和灵静中间，试图挤开灵静。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "坚定的守护者",
+        "inner_monologue": "这些人真讨厌，但为了沙沙，我不能在灵堂上闹事，得稳住。",
+        "external_action": "望了家明一眼，微微摇头，不动声色地拗着不被挤开。",
+        "speech_text": null,
+        "mood_state": "隐忍"
+      },
+      "id": "355_003",
+      "global_id": 702
+    },
+    {
+      "scene_snapshot": "家明离开时，叶灵静继续照顾沙沙，面对亲戚的干扰。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明摇头正要出门，小孟过来询问是否需要赶走亲戚。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静的应对者",
+        "inner_monologue": "家明在看我，他知道我能处理，我不能让沙沙为难。",
+        "external_action": "在灵堂中继续照顾沙沙，面对亲戚的干扰。",
+        "speech_text": null,
+        "mood_state": "镇定"
+      },
+      "id": "355_004",
+      "global_id": 703
+    }
+  ]
+}

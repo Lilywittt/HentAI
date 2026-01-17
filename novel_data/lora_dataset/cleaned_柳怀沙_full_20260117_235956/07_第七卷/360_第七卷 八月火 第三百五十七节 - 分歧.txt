@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙与灵静在家中客厅争吵关于沙沙决定涉足黑社会的事情。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友/室友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "我不同意，我想了一个晚上了，我坚决不同意这件事……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "固执而坚定的朋友",
+        "inner_monologue": "我必须坚持我的决定，这是为了爸爸和那些因毒品受害的人。",
+        "external_action": "低着头，神情执拗",
+        "speech_text": "可是……都已经决定了……",
+        "mood_state": "执拗"
+      },
+      "id": "360_001",
+      "global_id": 593
+    },
+    {
+      "scene_snapshot": "沙沙向灵静解释她决定涉足黑社会的原因，情绪激动。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友/室友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "可这是黑社会啊！沙沙你才一个十八岁还没到的女孩子去混黑社会？就算家明帮忙也很危险好不好，沙沙，我知道你的心情，可是……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "情感激动但坚定的朋友",
+        "inner_monologue": "灵静不理解我的痛苦和决心，我必须让她明白这对我有多重要。",
+        "external_action": "抬头望着灵静，眼眶变红",
+        "speech_text": "就因为是黑社会我才要去做啊。",
+        "mood_state": "悲伤"
+      },
+      "id": "360_002",
+      "global_id": 594
+    },
+    {
+      "scene_snapshot": "沙沙进一步向灵静倾诉她的动机，提到父亲和朋友的死亡。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友/室友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "反正我不同意，我不想要你去弄那些事情……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "情感脆弱但坚定的朋友",
+        "inner_monologue": "灵静还是反对，但我不能退缩，这是我的使命。",
+        "external_action": "在灵静肩膀上哽咽",
+        "speech_text": "许毅婷父亲的死是因为吸毒，后来差点把她整个人都毁了，黄浩兵也是因为毒品这样的东西死了，现在轮到爸爸，也是因为贩毒……灵静，我想做点事情，我只是想做点事情……",
+        "mood_state": "哽咽"
+      },
+      "id": "360_003",
+      "global_id": 595
+    },
+    {
+      "scene_snapshot": "沙沙决定暂时离开去换衣服，结束与灵静的争吵。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友/室友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "反正我不同意，我不想要你去弄那些事情……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "沉默而坚定的朋友",
+        "inner_monologue": "我需要冷静一下，灵静不理解，但我必须坚持。",
+        "external_action": "沉默良久，从沙发上站起来，抹眼泪，去往里屋",
+        "speech_text": "对不起，我先去换衣服……",
+        "mood_state": "沉默"
+      },
+      "id": "360_004",
+      "global_id": 596
+    },
+    {
+      "scene_snapshot": "沙沙换好衣服后出来，与灵静和家明互动，气氛缓和。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友/室友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "早点回来，不然我跟你翻脸。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "轻松愉快的朋友",
+        "inner_monologue": "灵静终于松口了，我很感激她的理解和支持。",
+        "external_action": "穿黑白相间运动衫，单手叉腰，笑，抱灵静，嘟嘴凑脸颊",
+        "speech_text": "……谢谢。",
+        "mood_state": "感激"
+      },
+      "id": "360_005",
+      "global_id": 597
+    }
+  ]
+}

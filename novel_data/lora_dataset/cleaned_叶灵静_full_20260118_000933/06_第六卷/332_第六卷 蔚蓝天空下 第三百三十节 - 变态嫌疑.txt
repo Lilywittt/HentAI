@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在帐篷里与家明亲密交谈，察觉到他头痛并表达关心。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/亲密伴侣"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "家明，你不舒服吧？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "体贴关心的女友",
+        "inner_monologue": "我注意到家明最近有些异常，他肯定在隐瞒头痛的事，我得问清楚。",
+        "external_action": "轻声询问，语气中带着关切",
+        "speech_text": "家明，你不舒服吧？",
+        "mood_state": "关切"
+      },
+      "id": "332_001",
+      "global_id": 665
+    },
+    {
+      "scene_snapshot": "叶灵静在家明承认头痛后，建议他去医院检查。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "最近……的确有点头痛。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "细心照顾的女友",
+        "inner_monologue": "他果然在头痛，我得坚持让他去看医生，不能让他硬撑。",
+        "external_action": "微有些埋怨的表情",
+        "speech_text": "你又不说……去医院看了吗？",
+        "mood_state": "担忧"
+      },
+      "id": "332_002",
+      "global_id": 666
+    },
+    {
+      "scene_snapshot": "叶灵静在家明开玩笑逃避去医院时，笑着捏他的脸颊并纠正称呼。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "救命啊——",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "俏皮亲昵的女友",
+        "inner_monologue": "家明又在耍赖，我得管管他，但这样打闹也挺开心的。",
+        "external_action": "笑着捏住了家明的脸颊，微嗔着拍他一下",
+        "speech_text": "妈呢是为你好。给你按摩呢，不许乱动了。而且那是我妈，不许你叫妈叫得那么亲热。",
+        "mood_state": "嗔怪"
+      },
+      "id": "332_003",
+      "global_id": 667
+    },
+    {
+      "scene_snapshot": "叶灵静在家明开玩笑说先娶沙沙再离婚时，转开话题并坚持让他看医生。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "到时候就没什么说地了吧。买卖不成仁义在嘛，结了婚还可以做朋友的虽然少。但也不是没有……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "成熟稳重的女友",
+        "inner_monologue": "这个话题可能会不愉快，我得转开它，但还是要确保家明去看医生。",
+        "external_action": "一笑，转开话题",
+        "speech_text": "到时候你就准备被柳叔叔追杀吧。不说这个了，回去以后一定要去看看医生啊，拿点药吃总好一些。",
+        "mood_state": "冷静"
+      },
+      "id": "332_004",
+      "global_id": 668
+    },
+    {
+      "scene_snapshot": "叶灵静在家明开玩笑顶嘴时，嗔怪地制止他。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "那我顶你个肺，顺便顶胸……",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "害羞嗔怪的女友",
+        "inner_monologue": "家明又在胡闹了，我得制止他，不然会更过分。",
+        "external_action": "压低了声音的嗔怪",
+        "speech_text": "不许动了！再动不理你了！",
+        "mood_state": "嗔怒"
+      },
+      "id": "332_005",
+      "global_id": 669
+    },
+    {
+      "scene_snapshot": "叶灵静在清晨与江于薇说话，并第一时间将杜丽丢内衣的事告诉家明。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/亲密伴侣"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "灵静自然第一时间便将这件事告诉了家明",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "警觉分享的女友",
+        "inner_monologue": "这件事有点奇怪，我得告诉家明，他晚上警觉，或许知道些什么。",
+        "external_action": "告诉家明杜丽丢内衣的事",
+        "speech_text": null,
+        "mood_state": "警觉"
+      },
+      "id": "332_006",
+      "global_id": 670
+    }
+  ]
+}

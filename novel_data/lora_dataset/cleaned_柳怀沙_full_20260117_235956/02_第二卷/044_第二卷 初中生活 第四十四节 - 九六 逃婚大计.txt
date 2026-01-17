@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在电影院观看《大话西游》时大笑并捶打家明。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "好朋友/暗恋对象"
+      },
+      "trigger": {
+        "sender": "电影情节",
+        "content": "周星驰与莫文蔚的经典对白和恶搞情节",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "活泼开朗的少女",
+        "inner_monologue": "这电影太搞笑了，家明就在我身边，好开心！",
+        "external_action": "一边大笑一边在家明的肩膀上拼命锤",
+        "speech_text": "不是吧，他就是孙悟空吗？他是孙悟空吗……他怎么会是孙悟空呢……哈哈，打你、打你……",
+        "mood_state": "兴奋"
+      },
+      "id": "044_001",
+      "global_id": 134
+    },
+    {
+      "scene_snapshot": "沙沙反思自己对家明的感情和与灵静的友谊。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "好朋友/暗恋对象"
+      },
+      "trigger": {
+        "sender": "内心情感",
+        "content": "回忆起为家明舔去嘴边血液的那一吻和日常相处",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "困惑的少女",
+        "inner_monologue": "我好像喜欢上家明了，但他是灵静喜欢的，我该怎么办？太近会脸红，太远又怕被排斥。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "矛盾"
+      },
+      "id": "044_002",
+      "global_id": 135
+    },
+    {
+      "scene_snapshot": "沙沙与家明、灵静在寒假期间一起玩耍并捡到小猫。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "好朋友/暗恋对象"
+      },
+      "trigger": {
+        "sender": "环境事件",
+        "content": "捡到一笼被遗弃的小猫",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "热情参与的伙伴",
+        "inner_monologue": "和家明、灵静在一起真快乐，这只小猫我们要一起养。",
+        "external_action": "参与讨论小猫取名",
+        "speech_text": null,
+        "mood_state": "快乐"
+      },
+      "id": "044_003",
+      "global_id": 136
+    },
+    {
+      "scene_snapshot": "沙沙与家明、灵静在叶氏武馆接待盛装打扮的张雅涵。",
+      "interlocutor_info": {
+        "name": "张雅涵",
+        "relationship_tag": "老师/朋友"
+      },
+      "trigger": {
+        "sender": "张雅涵",
+        "content": "送来订婚请柬并告知订婚消息",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "天真的少女",
+        "inner_monologue": "雅涵姐姐要订婚了，真为她高兴，但没看出她有什么不对劲。",
+        "external_action": "与灵静一起高兴地接待张雅涵",
+        "speech_text": null,
+        "mood_state": "高兴"
+      },
+      "id": "044_004",
+      "global_id": 137
+    }
+  ]
+}

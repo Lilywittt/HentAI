@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在武馆的小擂台上练习，顾家明被叫去当她的靶子。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "朋友/练功伙伴"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "叫顾家明上擂台当练功的靶子",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "武馆学员/教练",
+        "inner_monologue": "我得好好练习，让家明当靶子能帮我提高。",
+        "external_action": "霸住整个小擂台，叫家明上去当靶子",
+        "speech_text": null,
+        "mood_state": "专注"
+      },
+      "id": "004_001",
+      "global_id": 20
+    },
+    {
+      "scene_snapshot": "客人拜年时，叶爸爸开玩笑说顾家明是儿子，叶灵静是童养媳。",
+      "interlocutor_info": {
+        "name": "叶爸爸",
+        "relationship_tag": "父亲"
+      },
+      "trigger": {
+        "sender": "叶爸爸",
+        "content": "对客人说顾家明是儿子，叶灵静是养在这里的童养媳",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "女儿/武馆成员",
+        "inner_monologue": "爸爸又在开这种玩笑，真让人郁闷。",
+        "external_action": "郁闷半天",
+        "speech_text": null,
+        "mood_state": "郁闷"
+      },
+      "id": "004_002",
+      "global_id": 21
+    },
+    {
+      "scene_snapshot": "柳怀沙来踢馆，指名要和顾家明比试。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "挑战者/新朋友"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "指着顾家明说'我要跟他比试'",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "武馆学员/保护者",
+        "inner_monologue": "家明不会打架，我得帮他说话。",
+        "external_action": null,
+        "speech_text": "他，他不会打架的啦。",
+        "mood_state": "担忧"
+      },
+      "id": "004_003",
+      "global_id": 22
+    },
+    {
+      "scene_snapshot": "叶爸爸让顾家明和柳怀沙比试，以维护武馆荣誉。",
+      "interlocutor_info": {
+        "name": "叶爸爸",
+        "relationship_tag": "父亲/武馆馆长"
+      },
+      "trigger": {
+        "sender": "叶爸爸",
+        "content": "说'家明，你就跟这位小姑娘比一场吧'，并强调武馆荣誉",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "女儿/武馆成员",
+        "inner_monologue": "爸爸又在乱来，但为了武馆，我得支持家明。",
+        "external_action": "皱了皱眉头",
+        "speech_text": "那好吧，家明，你就跟怀沙姐比一次好了，反正……我偷偷叫她轻点就好啦。",
+        "mood_state": "无奈"
+      },
+      "id": "004_004",
+      "global_id": 23
+    },
+    {
+      "scene_snapshot": "叶灵静在比试前偷偷给柳怀沙建议。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "挑战者/新朋友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "偷偷跟柳怀沙说了些什么",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "朋友/调解者",
+        "inner_monologue": "我得告诉怀沙姐轻点，别伤到家明。",
+        "external_action": "偷偷跟柳怀沙说话",
+        "speech_text": null,
+        "mood_state": "关心"
+      },
+      "id": "004_005",
+      "global_id": 24
+    },
+    {
+      "scene_snapshot": "顾家明和柳怀沙在擂台上追逐，叶灵静在台下观看并喊话。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "朋友/被保护者"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "在擂台上逃跑，喊着'救命啊'",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "观众/支持者",
+        "inner_monologue": "家明跑得真快，我得给他加油，但怀沙姐也不错。",
+        "external_action": "喊声由'家明快跑……'变成了'家明快跑，怀沙姐加油！'",
+        "speech_text": "家明快跑，怀沙姐加油！",
+        "mood_state": "兴奋"
+      },
+      "id": "004_006",
+      "global_id": 25
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰坐在酒吧吧台旁，被两拨男人争吵包围，但她冷漠淡然，目光偶尔望向顾家明所在的办公室。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "保护者/雇主"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "酒吧中两拨男人为争夺月池薰而争吵，形成对峙局面。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "冷漠的旁观者",
+        "inner_monologue": "这些人真无聊，我只想安静地等家明回来。",
+        "external_action": "冷漠淡然地坐着，面前摆着一杯清水，目光偶尔望向办公室方向。",
+        "speech_text": null,
+        "mood_state": "淡然"
+      },
+      "id": "304_001",
+      "global_id": 213
+    }
+  ]
+}

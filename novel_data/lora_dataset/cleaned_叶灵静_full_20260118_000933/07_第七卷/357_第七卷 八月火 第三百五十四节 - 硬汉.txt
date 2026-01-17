@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明在晚宴上暴力殴打薛诚后，灵静笑着跟在家明身后离开现场。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明打完人后气呼呼地转身离开。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "支持者/陪伴者",
+        "inner_monologue": "我理解家明的愤怒，他需要我的支持。",
+        "external_action": "笑着跟在家明身后。",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "357_001",
+      "global_id": 709
+    },
+    {
+      "scene_snapshot": "家明和灵静回到座位后，家明抱怨菜有点冷。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明嘟囔说菜有点冷了。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "倾听者/陪伴者",
+        "inner_monologue": "家明在发泄后恢复了日常状态，我需要陪着他。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "关切"
+      },
+      "id": "357_002",
+      "global_id": 710
+    }
+  ]
+}

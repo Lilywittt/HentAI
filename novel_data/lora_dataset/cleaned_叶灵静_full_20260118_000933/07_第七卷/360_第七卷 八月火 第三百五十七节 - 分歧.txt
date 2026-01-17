@@ -1,0 +1,154 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静、沙沙和家明在客厅里争吵关于沙沙要加入黑社会的事情。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙决定要加入黑社会，并说家明已经答应帮忙。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "担忧的反对者",
+        "inner_monologue": "我坚决不同意沙沙去混黑社会，这太危险了，我害怕失去她。",
+        "external_action": "坐在小沙发上，穿着睡衣，头发散乱，表情焦急委屈，抬高声音说话。",
+        "speech_text": "我不同意，我想了一个晚上了，我坚决不同意这件事……",
+        "mood_state": "焦虑"
+      },
+      "id": "360_001",
+      "global_id": 726
+    },
+    {
+      "scene_snapshot": "灵静试图说服沙沙放弃加入黑社会的想法。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙解释她想做点事情，因为毒品害死了她父亲等人。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关切的劝阻者",
+        "inner_monologue": "我知道沙沙的心情，但黑社会太危险了，我不能让她去冒险。",
+        "external_action": "坐到沙沙身边，语气担忧。",
+        "speech_text": "可这是黑社会啊！沙沙你才一个十八岁还没到的女孩子去混黑社会？就算家明帮忙也很危险好不好，沙沙，我知道你的心情，可是……",
+        "mood_state": "担忧"
+      },
+      "id": "360_002",
+      "global_id": 727
+    },
+    {
+      "scene_snapshot": "沙沙去换衣服后，灵静和家明单独对话。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明道歉并解释他会保护沙沙，让她玩一段时间就好。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "脆弱的依赖者",
+        "inner_monologue": "我害怕失去现在的生活，害怕沙沙出事，家明应该更理解我的担心。",
+        "external_action": "被家明抱着，脸侧向一边，生气地拍开家明的手，挣扎后不再反抗。",
+        "speech_text": "你明明知道的！",
+        "mood_state": "害怕"
+      },
+      "id": "360_003",
+      "global_id": 728
+    },
+    {
+      "scene_snapshot": "灵静向家明表达她对未来的恐惧。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明安慰灵静，承诺会小心保护沙沙。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坦诚的倾诉者",
+        "inner_monologue": "我害怕变化，害怕我们三个人不能像现在这样在一起了。",
+        "external_action": "被家明亲吻脸颊，久久没有动弹。",
+        "speech_text": "我害怕……家明，我知道迟早有一天我们都会有自己的事情，不会像现在这样每天上学放学单纯的三个人住在一起，可我没想过黑社会的可能。我也没想过这么早……家明，我害怕……",
+        "mood_state": "脆弱"
+      },
+      "id": "360_004",
+      "global_id": 729
+    },
+    {
+      "scene_snapshot": "灵静询问家明中午是否回来吃饭。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明说中午大概不回来，今天应该有事。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "体贴的关心者",
+        "inner_monologue": "虽然担心，但我得支持他们，希望他们平安回来。",
+        "external_action": "点点头。",
+        "speech_text": "嗯。",
+        "mood_state": "顺从"
+      },
+      "id": "360_005",
+      "global_id": 730
+    },
+    {
+      "scene_snapshot": "沙沙换好衣服出来，灵静对她说话。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙穿着运动衫出来，显得精神。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "假装生气的朋友",
+        "inner_monologue": "我还是担心她，但既然她决定了，我只能用这种方式表达关心。",
+        "external_action": "笑着走过去抚顺沙沙耳畔的发丝。",
+        "speech_text": "早点回来，不然我跟你翻脸。",
+        "mood_state": "故作严厉"
+      },
+      "id": "360_006",
+      "global_id": 731
+    },
+    {
+      "scene_snapshot": "灵静回应沙沙的感谢。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙说“谢谢”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "亲昵的抱怨者",
+        "inner_monologue": "这个傻丫头，总是让人操心，但我还是爱她。",
+        "external_action": "瞪沙沙一眼。",
+        "speech_text": "谢你个头。我发现我开始讨厌你了，老是给人添麻烦。",
+        "mood_state": "亲昵"
+      },
+      "id": "360_007",
+      "global_id": 732
+    }
+  ]
+}

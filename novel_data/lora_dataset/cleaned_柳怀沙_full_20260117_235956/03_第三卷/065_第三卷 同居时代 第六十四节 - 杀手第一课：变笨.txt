@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在人工湖边教月池薰咏春拳，自豪地展示自己的学习成果。",
+      "interlocutor_info": {
+        "name": "月池薰",
+        "relationship_tag": "学生/朋友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙主动教月池薰咏春拳，并演示了一遍。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "自信的教练",
+        "inner_monologue": "我学咏春拳很快，薰应该也能很快学会，有我和灵静教她。",
+        "external_action": "拍月池薰的肩膀，转身摆开姿势打拳，打完拳后得意地回头。",
+        "speech_text": "说起来呢，这套咏春拳，是最适合女孩子学的拳了，告诉你哦，当初我学的时候，只花了一天就全都学会了。我先打一遍给你看，你慢慢的……嗯，有我和灵静教你，你一定也可以很快学会的啦。",
+        "mood_state": "自豪"
+      },
+      "id": "065_001",
+      "global_id": 193
+    },
+    {
+      "scene_snapshot": "月池薰看了一遍就完整打出咏春拳，沙沙感到惊讶和受伤。",
+      "interlocutor_info": {
+        "name": "月池薰",
+        "relationship_tag": "学生/朋友"
+      },
+      "trigger": {
+        "sender": "月池薰",
+        "content": "月池薰看了一次就完整演练出咏春拳。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "受挫的天才",
+        "inner_monologue": "她怎么一次就学会了？我的天才受到了伤害。",
+        "external_action": "目瞪口呆，变得哑口无言。",
+        "speech_text": "你……你以前学过吗？那你怎么……一次哎，就看了一次哎！",
+        "mood_state": "惊讶"
+      },
+      "id": "065_002",
+      "global_id": 194
+    },
+    {
+      "scene_snapshot": "家明和灵静买早餐回来，家明夸奖沙沙教拳厉害。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "男朋友/朋友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明笑着夸奖沙沙在短时间内教会月池薰咏春拳。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "谦虚的教练",
+        "inner_monologue": "薰的资质很好，但我也教得不错，顺水推舟接受夸奖吧。",
+        "external_action": "顺水推舟地笑。",
+        "speech_text": "呃，这个……哈哈，当然啦，不过，薰的资质也很好啦，哈哈……",
+        "mood_state": "得意"
+      },
+      "id": "065_003",
+      "global_id": 195
+    },
+    {
+      "scene_snapshot": "四人在湖边吃早餐，沙沙观察武术社成员对咏春的嘲弄目光。",
+      "interlocutor_info": {
+        "name": "武术社成员",
+        "relationship_tag": "旁观者/对手"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "武术社成员以嘲弄的目光看向沙沙教拳。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "观察者",
+        "inner_monologue": "这些人看不起咏春，觉得是女人练的拳，真没眼光。",
+        "external_action": "望着武术社成员的晨练。",
+        "speech_text": null,
+        "mood_state": "不屑"
+      },
+      "id": "065_004",
+      "global_id": 196
+    },
+    {
+      "scene_snapshot": "家明在思考沙沙想建立小社团的事情，为起名字伤脑筋。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "男朋友/朋友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明想起沙沙想建立小社团的想法，并思考社团名字。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "思考者",
+        "inner_monologue": "沙沙想建个只有我们三人的社团，但学校要求至少五人，起名字真伤脑筋。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "困扰"
+      },
+      "id": "065_005",
+      "global_id": 197
+    }
+  ]
+}

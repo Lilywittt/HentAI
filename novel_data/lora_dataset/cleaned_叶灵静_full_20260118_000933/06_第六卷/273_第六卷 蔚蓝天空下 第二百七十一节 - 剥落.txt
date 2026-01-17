@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在黄家别墅外与家明碰面，两人在雨中散步并谈论黄家近况。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友/青梅竹马"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明评论黄浩云和黄浩兵已经废了，并提到黄浩兵小时候欺负他。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "温柔体贴的伴侣",
+        "inner_monologue": "我觉得黄浩兵挺可怜的，他以前在学校表现不错，现在却变成这样，让人同情。",
+        "external_action": "望着别墅区，边走边说",
+        "speech_text": "黄浩兵我觉得他也挺可怜的，他以前在学校挺不错的，篮球也好，成绩也过得去，一个月的时间就变了一个人了……",
+        "mood_state": "同情"
+      },
+      "id": "273_001",
+      "global_id": 557
+    },
+    {
+      "scene_snapshot": "叶灵静和家明在婚纱摄影城前看婚纱，她表现出对婚纱的兴趣。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友/青梅竹马"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "路过婚纱摄影城，看到新款婚纱陈列。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "浪漫憧憬的少女",
+        "inner_monologue": "这件婚纱真漂亮，我在电视广告里见过，是雨思姐代言的那款，好想试试看。",
+        "external_action": "站在陈列柜前望着婚纱",
+        "speech_text": "你不觉得这款很漂亮吗，而且我在电视里看见过。",
+        "mood_state": "兴奋"
+      },
+      "id": "273_002",
+      "global_id": 558
+    },
+    {
+      "scene_snapshot": "叶灵静向家明解释她对婚纱的喜爱，提到女明星雨思。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友/青梅竹马"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明质疑她对雨思的崇拜，并指出歌曲是他写的。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "俏皮崇拜的女友",
+        "inner_monologue": "我知道家明和沙沙不喜欢雨思姐，但我其实更崇拜家明，因为他写了那首歌。",
+        "external_action": "轻哼歌曲，笑着回应",
+        "speech_text": "好了，我知道你和沙沙都讨厌她，我再也不会崇拜现实里的她了啊，不过她最近是越来越火了……所以我其实是在崇拜你啊。",
+        "mood_state": "俏皮"
+      },
+      "id": "273_003",
+      "global_id": 559
+    },
+    {
+      "scene_snapshot": "崔国华邀请叶灵静和家明进婚纱店试穿拍照，叶灵静起初惊喜但随后警惕。",
+      "interlocutor_info": {
+        "name": "崔国华",
+        "relationship_tag": "可疑的陌生人"
+      },
+      "trigger": {
+        "sender": "崔国华",
+        "content": "崔国华假装不认识叶灵静，邀请她进店试穿婚纱拍照。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌但警惕的少女",
+        "inner_monologue": "这个叔叔突然邀请我们，还假装不认识我，感觉有点不对劲，我得小心点。",
+        "external_action": "惊喜地笑了笑，随后觉得不对",
+        "speech_text": "啊。可这是婚纱……什么灵静小妹，我是他姐姐啊。不过，我们今天还有事……",
+        "mood_state": "警惕"
+      },
+      "id": "273_004",
+      "global_id": 560
+    },
+    {
+      "scene_snapshot": "叶灵静听到崔国华的名字后，立即拉家明离开。",
+      "interlocutor_info": {
+        "name": "崔国华",
+        "relationship_tag": "危险人物"
+      },
+      "trigger": {
+        "sender": "崔国华",
+        "content": "崔国华自我介绍名字，并试图编造与家明认识的谎言。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "果断保护者",
+        "inner_monologue": "崔国华？这个名字听起来很危险，我必须立刻带家明离开这里，不能让他接近我们。",
+        "external_action": "秀气的脸一沉，转身拉家明的手朝马路对面走",
+        "speech_text": "家明我们走！",
+        "mood_state": "警觉"
+      },
+      "id": "273_005",
+      "global_id": 561
+    }
+  ]
+}

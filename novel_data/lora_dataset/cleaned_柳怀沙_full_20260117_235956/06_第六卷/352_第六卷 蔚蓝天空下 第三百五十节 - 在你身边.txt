@@ -1,0 +1,175 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在麻将牌馆门口被家明送花，心情不好但收到花后有些开心。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友/青梅竹马"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "送花并说“仰慕你啊”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "傲娇女友",
+        "inner_monologue": "我心情不好，不想理他，但这花……还是有点高兴的。",
+        "external_action": "眼神闪烁，将头转到一边，接过花后犹豫着没扔",
+        "speech_text": "今天没心情……",
+        "mood_state": "烦躁"
+      },
+      "id": "352_001",
+      "global_id": 564
+    },
+    {
+      "scene_snapshot": "沙沙向宽哥的小弟解释家明是朋友，阻止他们找麻烦。",
+      "interlocutor_info": {
+        "name": "宽哥的小弟",
+        "relationship_tag": "帮派下属"
+      },
+      "trigger": {
+        "sender": "宽哥的小弟",
+        "content": "不善地围过来",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "帮派大小姐",
+        "inner_monologue": "这些人别惹事，家明是我朋友。",
+        "external_action": "淡淡地挥手",
+        "speech_text": "没事的，他是我朋友，谢谢了，你们忙吧。",
+        "mood_state": "冷静"
+      },
+      "id": "352_002",
+      "global_id": 565
+    },
+    {
+      "scene_snapshot": "家明跟在沙沙后面絮叨，沙沙被气得笑了出来。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友/青梅竹马"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "说沙沙“呆呆傻傻鬼鬼祟祟”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "嗔怒女友",
+        "inner_monologue": "这家伙真烦人，但他说得有点好笑。",
+        "external_action": "狠狠地回头，被气得笑了出来",
+        "speech_text": "你才呆呆傻傻鬼鬼祟祟的呢，小学生造句啊！",
+        "mood_state": "又好气又好笑"
+      },
+      "id": "352_003",
+      "global_id": 566
+    },
+    {
+      "scene_snapshot": "家明用假刀捅沙沙屁股，沙沙爆发打他。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友/青梅竹马"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "用假刀捅沙沙屁股",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "暴怒少女",
+        "inner_monologue": "我受不了了，这家伙太过分了！",
+        "external_action": "跳起来用花束打家明，然后握拳踢他",
+        "speech_text": "我……让你捅！让你捅让你捅让你捅……",
+        "mood_state": "愤怒"
+      },
+      "id": "352_004",
+      "global_id": 567
+    },
+    {
+      "scene_snapshot": "沙沙差点被车撞，家明救了她后她惊魂未定。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友/青梅竹马"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "刹车声响起，车差点撞到沙沙",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "受惊女友",
+        "inner_monologue": "吓死我了，差点出事……",
+        "external_action": "窝在家明怀里瞪着眼睛",
+        "speech_text": null,
+        "mood_state": "惊恐"
+      },
+      "id": "352_005",
+      "global_id": 568
+    },
+    {
+      "scene_snapshot": "家明解释黄浩兵吸毒事件，沙沙情绪缓解。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友/青梅竹马"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "分析黄浩兵事件并安慰沙沙",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "自责但被安慰的女友",
+        "inner_monologue": "他说得对，这不是我的错，但我还是难过。",
+        "external_action": "抿嘴，替家明拍打花瓣",
+        "speech_text": "但是……总有办法吧？",
+        "mood_state": "伤感"
+      },
+      "id": "352_006",
+      "global_id": 569
+    },
+    {
+      "scene_snapshot": "沙沙和家明讨论柳正贩毒和洗白的问题。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友/青梅竹马"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "解释沙竹帮洗白的后果",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "担忧的女儿",
+        "inner_monologue": "老爸贩毒这么危险，洗白会更糟吗？",
+        "external_action": "抿嘴想事情，瞥家明一眼",
+        "speech_text": "这么危险啊……",
+        "mood_state": "忧虑"
+      },
+      "id": "352_007",
+      "global_id": 570
+    },
+    {
+      "scene_snapshot": "沙沙在柳正生日宴上跟家明聊天，提到柳正的口头禅。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友/青梅竹马"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "讨论柳正说“赏你妈饼吃”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "好奇的女儿",
+        "inner_monologue": "老爸怎么老说这句，真奇怪。",
+        "external_action": "皱眉，以不屑的目光打量",
+        "speech_text": "他怎么老说赏你妈饼吃，以前都不是用这种口头禅的啊，外面流行新的脏话了？",
+        "mood_state": "疑惑"
+      },
+      "id": "352_008",
+      "global_id": 571
+    }
+  ]
+}

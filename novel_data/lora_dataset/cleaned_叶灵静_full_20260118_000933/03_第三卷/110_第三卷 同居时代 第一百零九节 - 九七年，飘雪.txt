@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "顾家明向灵静和沙沙讲述自己用杀气逼退大狗的经历，但无法演示，引发嬉闹。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "同居男友/亲密伙伴"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "讲述用杀气逼退大狗的英姿，但无法演示杀气",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "活泼俏皮的少女",
+        "inner_monologue": "家明这家伙又在吹牛了，杀气什么的根本看不到嘛，真逗。",
+        "external_action": "与沙沙一起笑翻在床上",
+        "speech_text": null,
+        "mood_state": "amused"
+      },
+      "id": "110_001",
+      "global_id": 324
+    },
+    {
+      "scene_snapshot": "灵静和沙沙为家明的网络ID取名，灵静提出创意，沙沙进行修饰。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "亲密闺蜜/同居伙伴"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "需要为网络ID取名",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "有创意的伙伴",
+        "inner_monologue": "我想个有趣的名字给家明用，沙沙肯定会添油加醋，不过这样才好玩。",
+        "external_action": "提出ID创意",
+        "speech_text": null,
+        "mood_state": "playful"
+      },
+      "id": "110_002",
+      "global_id": 325
+    },
+    {
+      "scene_snapshot": "灵静学习电脑，上论坛问家明问题并偶尔发言，导致网络传言白雪公猪是女性。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "同居男友/亲密伙伴"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "上电脑网络论坛看到感兴趣的问题",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "好奇好学的学生",
+        "inner_monologue": "这些电脑问题挺有意思的，问问家明怎么解决，我也可以试试帮别人。",
+        "external_action": "问家明问题并偶尔在论坛发言",
+        "speech_text": null,
+        "mood_state": "curious"
+      },
+      "id": "110_003",
+      "global_id": 326
+    },
+    {
+      "scene_snapshot": "武术社有人挑战，灵静一脚踢飞挑战者，导致挑战现象停止。",
+      "interlocutor_info": {
+        "name": "武术社挑战者",
+        "relationship_tag": "无关的挑衅者"
+      },
+      "trigger": {
+        "sender": "武术社挑战者",
+        "content": "过来挑战",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "自信的武者",
+        "inner_monologue": "这些人真烦人，想挑战家明？先过我这一关吧。",
+        "external_action": "一脚踢飞挑战者",
+        "speech_text": null,
+        "mood_state": "determined"
+      },
+      "id": "110_004",
+      "global_id": 327
+    },
+    {
+      "scene_snapshot": "灵静成为副班长，组织活动并处理学生会借人请求，但内心与东方路保持距离。",
+      "interlocutor_info": {
+        "name": "东方路",
+        "relationship_tag": "学生会成员/需要保持距离的同学"
+      },
+      "trigger": {
+        "sender": "东方路",
+        "content": "学生会过来借人",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "负责的班干部",
+        "inner_monologue": "学生会又来借人了，我帮忙是应该的，但得小心别和东方路走太近。",
+        "external_action": "热情处理请求，但内心划清界限",
+        "speech_text": null,
+        "mood_state": "cautious"
+      },
+      "id": "110_005",
+      "global_id": 328
+    },
+    {
+      "scene_snapshot": "灵静每晚去北欧幻想弹钢琴，由家明接回家，张竞峰保持礼貌关心。",
+      "interlocutor_info": {
+        "name": "张竞峰",
+        "relationship_tag": "工作场所的礼貌同事"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "在北欧幻想弹钢琴工作",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "专注的钢琴演奏者",
+        "inner_monologue": "弹钢琴既是工作也是爱好，家明会来接我，张竞峰人不错但保持距离就好。",
+        "external_action": "弹钢琴，由家明接回家",
+        "speech_text": null,
+        "mood_state": "content"
+      },
+      "id": "110_006",
+      "global_id": 329
+    }
+  ]
+}

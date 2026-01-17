@@ -1,0 +1,175 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在病房里喂家明吃橘子罐头，两人轻松地开玩笑。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/同伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明说沙沙变脸快，跟四川师傅学过。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "活泼俏皮的女孩",
+        "inner_monologue": "我这样开玩笑，家明应该不会生气吧，反正他总爱逗我。",
+        "external_action": "笑着扬起手",
+        "speech_text": "再说我打你哦。",
+        "mood_state": "playful"
+      },
+      "id": "038_001",
+      "global_id": 111
+    },
+    {
+      "scene_snapshot": "沙沙询问家明为什么来得早，提到学校朗诵比赛和灵静。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/同伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明问沙沙今天怎么来得这么早，不用上课吗？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心朋友的学生",
+        "inner_monologue": "我得解释清楚，免得家明担心我逃课，其实我是看了灵静表演才来的。",
+        "external_action": "笑着用拿着剩下的半个罐头送了过来",
+        "speech_text": "今天学校朗诵比赛啊，本来就计划好了的，你忘记啦？当然是看了才翘课的。反正灵静也会是第一名啦，说不定待会她就会拿着奖状过来了呢。你不吃了，那我拿给她吃了？",
+        "mood_state": "cheerful"
+      },
+      "id": "038_002",
+      "global_id": 112
+    },
+    {
+      "scene_snapshot": "沙沙主动给月池薰送橘子罐头，面对她的优雅举止有些紧张。",
+      "interlocutor_info": {
+        "name": "月池薰",
+        "relationship_tag": "同病房的日本少女/共患难的人"
+      },
+      "trigger": {
+        "sender": "月池薰",
+        "content": "月池薰优雅地向沙沙鞠了半个躬。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "礼貌但略显笨拙的少女",
+        "inner_monologue": "她好优雅啊，我这样递罐头会不会太随便了？我得赶紧回礼。",
+        "external_action": "将放好了调羹勺的橘子罐头递过去，随后也慌忙地回敬了半个躬",
+        "speech_text": "呃……你好……这个……给你。",
+        "mood_state": "nervous"
+      },
+      "id": "038_003",
+      "global_id": 113
+    },
+    {
+      "scene_snapshot": "沙沙询问家明日语单词的意思，并讨论自己的回答是否合适。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/同伴"
+      },
+      "trigger": {
+        "sender": "月池薰",
+        "content": "月池薰说阿里嘎多（谢谢）。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "好奇而自嘲的学生",
+        "inner_monologue": "哎呀，我连基本的日语都忘了，刚才回答得真尴尬，家明肯定在笑话我。",
+        "external_action": "跑到家明这边",
+        "speech_text": "家明，阿里嘎多是什么意思？对哦，阿里嘎多是谢谢，沙扬娜拉是再见，我都忘掉了呢。那我刚才是不是回答得牛头不对马嘴？",
+        "mood_state": "embarrassed"
+      },
+      "id": "038_004",
+      "global_id": 114
+    },
+    {
+      "scene_snapshot": "沙沙向家明表达对月池薰的钦佩，并评论她的优雅举止。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/同伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明问沙沙干嘛这么怕月池薰。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "钦佩他人的女孩",
+        "inner_monologue": "月池薰真的很厉害，我能感受到她的坚韧和优雅，这让我有点自愧不如。",
+        "external_action": "一面乍舌一面拉着家明看MM吃东西的姿态",
+        "speech_text": "也不是怕啦，可是我觉得她很厉害啊，看着你被曹东峰那个混蛋打了那么久我就觉得肯定痛得受不了了，她被那个变态老头打了三天啊。还有，你看，她吃东西的姿势好优雅。比灵静还要厉害哦。",
+        "mood_state": "admiring"
+      },
+      "id": "038_005",
+      "global_id": 115
+    },
+    {
+      "scene_snapshot": "沙沙在家明肩上拍了一下，笑他批评月池薰，然后趴在床上笑。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/同伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明滔滔不绝地批评月池薰的举止。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调皮的朋友",
+        "inner_monologue": "家明这家伙又在胡说八道了，不过他说得挺有趣的，我得制止他一下。",
+        "external_action": "在家明没有伤口的肩上拍了一下，沙沙趴在病床上的被子里呼呼地笑",
+        "speech_text": "你去死啦，这样说人家。",
+        "mood_state": "amused"
+      },
+      "id": "038_006",
+      "global_id": 116
+    },
+    {
+      "scene_snapshot": "灵静进入病房，沙沙询问比赛结果并欢呼得到奖品。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密的朋友/同伴"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静抱怨沙沙不等她。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "兴奋的朋友",
+        "inner_monologue": "灵静来了，她肯定得奖了，我得赶紧问问，奖品又可以归我了！",
+        "external_action": "从床上翻过去",
+        "speech_text": "怎么样？得到奖了吗？好耶！本子归我了！灵静今天很漂亮对不对？",
+        "mood_state": "excited"
+      },
+      "id": "038_007",
+      "global_id": 117
+    },
+    {
+      "scene_snapshot": "沙沙开玩笑要亲灵静，两人打闹后摔倒在地上。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密的朋友/同伴"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静正在脱书包，躲避沙沙的玩笑。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "顽皮爱闹的女孩",
+        "inner_monologue": "哈哈，灵静害羞的样子真可爱，我得趁机亲她一下，反正我们经常这样玩。",
+        "external_action": "开玩笑地扑了过去，便要强吻灵静红红的脸颊",
+        "speech_text": "来，作为奖励，灵静小美女，让怀沙哥哥亲一个。",
+        "mood_state": "mischievous"
+      },
+      "id": "038_008",
+      "global_id": 118
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明和灵静在小卖部与邻居聊天，询问沙沙的去向。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/复杂情感对象"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "沙沙呢？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "缺席但被提及的亲密伙伴",
+        "inner_monologue": "我还在整理爸爸的遗物，需要一些时间来处理这些回忆。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "463_001",
+      "global_id": 714
+    },
+    {
+      "scene_snapshot": "灵静向家明解释沙沙晚归的原因，提及沙沙整理父亲遗物。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友/情感纽带"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "沙沙中午回来过一趟，后来打电话给我。又出去了，说是整理以前柳叔留下来的一些东西，今天会晚点回来。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被间接描述的缺席者",
+        "inner_monologue": "我需要独自处理父亲的遗物，这对我很重要，但我也想念大家。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "怀念"
+      },
+      "id": "463_002",
+      "global_id": 715
+    }
+  ]
+}

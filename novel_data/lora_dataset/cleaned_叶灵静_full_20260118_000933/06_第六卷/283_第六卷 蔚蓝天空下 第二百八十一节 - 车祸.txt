@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静和沙沙、雅涵在家聊天，家明加入讨论东方婉的事情。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴/男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "抱怨被灵静和沙沙为了钱出卖给东方婉当男朋友。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调皮帮腔的朋友",
+        "inner_monologue": "我确实觉得家明拿了钱不做事有点过分，但东方婉也不是坏人，帮帮忙应该的。",
+        "external_action": "在一边帮着腔说话",
+        "speech_text": "是啊，那还说是去年刚起步时给你的分红，可我就没见你帮她做过什么事，不做事就拿钱，连我们都看不过去哦，只是在必要的时候让你帮忙干掉几只苍蝇你就唧唧歪歪啰啰嗦嗦……",
+        "mood_state": "调侃"
+      },
+      "id": "283_001",
+      "global_id": 586
+    },
+    {
+      "scene_snapshot": "灵静在车内听到家明客观分析黄家破产的事，感到不满。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴/男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "客观分析黄家破产，语气轻松甚至带笑。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心又责备的女友",
+        "inner_monologue": "这是他自己家的事，他怎么还能笑得出来？我得提醒他别这么冷漠。",
+        "external_action": "偷偷扬起手在他头上砰的敲了一下，随后俯过身体来掐他的脖子",
+        "speech_text": "这是你自己家的事情啊，你还笑这么开心！",
+        "mood_state": "责备"
+      },
+      "id": "283_002",
+      "global_id": 587
+    },
+    {
+      "scene_snapshot": "灵静在车内和雅涵开玩笑，提议当她的女朋友。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "尊敬的老师/姐姐"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "开玩笑说让家明帮她顶相亲，不介意姐弟恋。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "乖巧撒娇的妹妹",
+        "inner_monologue": "雅涵姐这么洒脱，我开个玩笑逗逗她，反正大家关系好。",
+        "external_action": "笑着贴近雅涵，脸上漾起可爱的酒窝",
+        "speech_text": "雅涵姐，还是说我是你女朋友吧。",
+        "mood_state": "俏皮"
+      },
+      "id": "283_003",
+      "global_id": 588
+    },
+    {
+      "scene_snapshot": "车祸发生后，灵静在车内确认大家的安全。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "尊敬的老师/姐姐"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "询问灵静和沙沙是否没事。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心他人的朋友",
+        "inner_monologue": "吓死我了，差点撞到变速杆，幸好家明挡住了。大家都没事吧？",
+        "external_action": "差点撞到前方的变速杆，被家明横过的腿挡住",
+        "speech_text": "我没事。",
+        "mood_state": "惊慌"
+      },
+      "id": "283_004",
+      "global_id": 589
+    }
+  ]
+}

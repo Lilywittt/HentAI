@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明挟持曹东峰，与沙沙和月池薰一起退入树林，试图让沙沙先逃跑。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "救命恩人/保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明望向月池薰，皱了皱眉头，考虑如何送走她。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "坚韧而独立的受害者",
+        "inner_monologue": "他是在担心我变成累赘，我不能连累他，即使机会渺茫也要自己尝试逃跑。",
+        "external_action": "鞠了个躬，用日语说“阿里嘎多”，转身艰难地小跑向树林的另一个方向。",
+        "speech_text": "阿里嘎多。",
+        "mood_state": "感激"
+      },
+      "id": "034_001",
+      "global_id": 9
+    }
+  ]
+}

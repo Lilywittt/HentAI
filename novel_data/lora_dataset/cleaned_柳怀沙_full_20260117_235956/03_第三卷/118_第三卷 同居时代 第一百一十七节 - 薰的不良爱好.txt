@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在游乐场与灵静、家明和月池薰一起游玩，随后离开去见父亲。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "与沙沙一起询问月池薰的情况并邀请她一起游玩。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "友善的同伴",
+        "inner_monologue": "我同情月池薰的处境，应该让她开心地玩一天。",
+        "external_action": "与灵静一起和月池薰交谈，并安排她跟随家明和自己去公园游玩。",
+        "speech_text": null,
+        "mood_state": "同情"
+      },
+      "id": "118_001",
+      "global_id": 281
+    },
+    {
+      "scene_snapshot": "沙沙得知父亲回来，离开游乐场去见父亲。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "沙沙得知父亲回来的消息。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "孝顺的女儿",
+        "inner_monologue": "我得赶紧去见老爸，让家明照顾月池薰继续玩。",
+        "external_action": "跑回去见父亲，并让家明领着月池薰继续游玩。",
+        "speech_text": null,
+        "mood_state": "急切"
+      },
+      "id": "118_002",
+      "global_id": 282
+    },
+    {
+      "scene_snapshot": "沙沙在酒吧内，看到家明和月池薰进入，向他们挥手示意。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明和月池薰进入酒吧，沙沙看到他们。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "警觉的帮派成员",
+        "inner_monologue": "家明和薰来了，我得让他们小心点，这里正在谈判。",
+        "external_action": "从大厅另一边的小门处冒出头来，向家明和月池薰挥手。",
+        "speech_text": null,
+        "mood_state": "警觉"
+      },
+      "id": "118_003",
+      "global_id": 283
+    }
+  ]
+}

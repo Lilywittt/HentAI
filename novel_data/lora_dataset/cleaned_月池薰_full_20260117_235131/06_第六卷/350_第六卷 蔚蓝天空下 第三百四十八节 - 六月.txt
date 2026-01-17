@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明、灵静、沙沙在分班后，薰与家明依旧同桌。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "同学/同桌"
+      },
+      "trigger": {
+        "sender": "叙述者",
+        "content": "五月中旬圣心学院分了文理科班，家明、灵静、沙沙选的都是文科，但灵静和沙沙分到了一块儿，家明却被单独分了出去，唯有薰还跟着他，依旧与家明同桌。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "安静的同桌",
+        "inner_monologue": "我继续和家明同桌，这样很好。",
+        "external_action": "与家明同桌",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "350_001",
+      "global_id": 246
+    },
+    {
+      "scene_snapshot": "家明生日时，薰被邀请参加狂欢派对。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "朋友/同学"
+      },
+      "trigger": {
+        "sender": "叙述者",
+        "content": "晚上的时候，邀请了雅涵与薰过来狂欢，东方婉却也是不请自到，送了份礼物过来，说是老总对下属的关怀，六个人在天台上烧烤玩闹到午夜时分。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "受邀的客人",
+        "inner_monologue": "家明邀请我参加他的生日派对，我很高兴能和大家一起庆祝。",
+        "external_action": "参加派对，烧烤玩闹",
+        "speech_text": null,
+        "mood_state": "愉快"
+      },
+      "id": "350_002",
+      "global_id": 247
+    },
+    {
+      "scene_snapshot": "沙沙和灵静讨论暑假计划，提到薰如果不回日本可以一起玩。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "朋友/同学"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "当然是去海边住两个月啦，把雅涵姐叫过来，薰如果不回日本的话，也可以一块叫来玩啊，反正那么大的房子……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被提及的朋友",
+        "inner_monologue": "沙沙和灵静在计划暑假，她们考虑邀请我，这让我感到温暖。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "欣慰"
+      },
+      "id": "350_003",
+      "global_id": 248
+    }
+  ]
+}

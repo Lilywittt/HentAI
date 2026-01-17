@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静和家明在夏令营的大客车上坐在一起听收音机，被其他学生注视。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密朋友/情侣"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "大客车行驶中，两人共用一个收音机听广播，其他学生投来好奇和羡慕的目光。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "安静陪伴者",
+        "inner_monologue": "我和家明这样坐在一起听歌，感觉真好，虽然别人在看我们，但我不在乎。",
+        "external_action": "与家明坐在一起，共用耳机听收音机。",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "007_001",
+      "global_id": 34
+    },
+    {
+      "scene_snapshot": "叶灵静在野营地点帮忙择菜，与柳怀沙和家明一起准备午饭。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "朋友/同伴"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "柳怀沙拒绝加入其他队伍，并分配任务让叶灵静择菜。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "合作参与者",
+        "inner_monologue": "怀沙总是这么要强，不过我能帮忙择菜，应该没问题，希望午饭能顺利做好。",
+        "external_action": "择菜准备午饭。",
+        "speech_text": null,
+        "mood_state": "专注"
+      },
+      "id": "007_002",
+      "global_id": 35
+    },
+    {
+      "scene_snapshot": "叶灵静和柳怀沙嘲笑其他学生笨拙的行为，如黄浩云淘米失误。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "朋友/同伴"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "看到黄浩云淘米时把米全倒进池塘，引发混乱。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "轻松旁观者",
+        "inner_monologue": "这些人真是笨手笨脚的，和怀沙一起笑他们还挺有趣的。",
+        "external_action": "与柳怀沙指指点点，耻笑其他学生。",
+        "speech_text": null,
+        "mood_state": "愉悦"
+      },
+      "id": "007_003",
+      "global_id": 36
+    },
+    {
+      "scene_snapshot": "叶灵静离开去解手时，被两名持枪匪徒撞倒并劫持。",
+      "interlocutor_info": {
+        "name": "三角眼匪徒",
+        "relationship_tag": "危险陌生人"
+      },
+      "trigger": {
+        "sender": "三角眼匪徒",
+        "content": "匪徒从树林冲出撞倒叶灵静，并用枪劫持她。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "恐惧受害者",
+        "inner_monologue": "好痛，我被撞倒了，这些人是谁？他们拿着枪，我好害怕，家明在哪里？",
+        "external_action": "捂着额头爬起来，被匪徒抓住肩膀，身体颤抖，流泪。",
+        "speech_text": null,
+        "mood_state": "恐惧"
+      },
+      "id": "007_004",
+      "global_id": 37
+    },
+    {
+      "scene_snapshot": "叶灵静被匪徒劫持后，与家明进行眼神交流，家明用唇语安慰她。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密朋友/情侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明用唇语对叶灵静说“放心，没事的”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "依赖求助者",
+        "inner_monologue": "家明在说什么？我看懂了，他在安慰我，但我更害怕了，泪水止不住。",
+        "external_action": "泪水大滴掉落，双眼望着家明。",
+        "speech_text": null,
+        "mood_state": "绝望"
+      },
+      "id": "007_005",
+      "global_id": 38
+    }
+  ]
+}

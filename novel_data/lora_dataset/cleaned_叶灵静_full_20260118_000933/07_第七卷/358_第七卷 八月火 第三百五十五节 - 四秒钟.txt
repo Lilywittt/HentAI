@@ -1,0 +1,175 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静和家明在傍晚的街道上散步，讨论家明打人的事和沙沙的处境。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "干嘛老是偷看我？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "俏皮女友",
+        "inner_monologue": "我确实觉得他很帅，忍不住想多看几眼。",
+        "external_action": "背负双手，踢动石子，裙摆扬起露出小腿和白袜，偶尔仰头深吸空气，转头望家明的脸。",
+        "speech_text": "很帅啊。",
+        "mood_state": "轻松"
+      },
+      "id": "358_001",
+      "global_id": 711
+    },
+    {
+      "scene_snapshot": "叶灵静回忆家明打人的场景，表达对家明暴力的看法。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "我第一次看见你在这么多人面前出手打人的样子，真的……很帅。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "支持女友",
+        "inner_monologue": "我没想到他会这么暴力，但看到后反而觉得很过瘾，这让我有点意外。",
+        "external_action": "清澈地笑了起来，双眸慧黠地转了转。",
+        "speech_text": "装的吧？那种气急败坏的样子……我根本没见过有什么人让你那么上火过……",
+        "mood_state": "好奇"
+      },
+      "id": "358_002",
+      "global_id": 712
+    },
+    {
+      "scene_snapshot": "叶灵静回应家明关于在灵堂没有立刻动手的担忧。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "在灵堂里没有立刻动手，你不会觉得我很差劲吧？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "理解女友",
+        "inner_monologue": "我完全理解他，在柳叔的丧礼上动手才是不合适的。",
+        "external_action": "伸手握住家明的手腕。",
+        "speech_text": "柳叔的丧礼。要是你在灵堂里就直接打打杀杀，我才会觉得你混呢。我还不明白你么？",
+        "mood_state": "温柔"
+      },
+      "id": "358_003",
+      "global_id": 713
+    },
+    {
+      "scene_snapshot": "叶灵静询问家明关于沙沙未来可能遇到的麻烦。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "这件事以后，真的会有麻烦找上沙沙么？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心朋友",
+        "inner_monologue": "我很担心沙沙，怕她因为柳叔的事被卷入更多麻烦。",
+        "external_action": "轻轻抚平耳际乱舞的发丝。",
+        "speech_text": "那个柳士杰太可恨了，现在又跑得快。不知道什么时候才能抓住他。柳叔这事……",
+        "mood_state": "忧虑"
+      },
+      "id": "358_004",
+      "global_id": 714
+    },
+    {
+      "scene_snapshot": "叶灵静对家明说可以随时抓住柳士杰感到惊讶，并询问原因。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "随时可以抓住他的。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "惊讶女友",
+        "inner_monologue": "他居然已经掌握了柳士杰的行踪，为什么不立刻行动？",
+        "external_action": "瞪大了眼睛。",
+        "speech_text": "为什么啊？",
+        "mood_state": "困惑"
+      },
+      "id": "358_005",
+      "global_id": 715
+    },
+    {
+      "scene_snapshot": "叶灵静听完家明的解释后，同意他的计划并邀请他晚上过来。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "好诈啊……不过也是这样最好了。喂，晚上过来吧。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "俏皮女友",
+        "inner_monologue": "我想让他晚上过来陪沙沙，也陪陪我，但得小心别被爸妈发现。",
+        "external_action": "微嗔地白他一眼，样子看起来像是要扑过去咬人一般。",
+        "speech_text": "晚上啊。沙沙昨晚就没睡了，我怕她今晚也拗着性子不肯睡，你过来一块啦。",
+        "mood_state": "俏皮"
+      },
+      "id": "358_006",
+      "global_id": 716
+    },
+    {
+      "scene_snapshot": "叶灵静和家明继续散步，讨论沙沙表舅的奇怪行为。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "喂，沙沙的那个表舅找你要说什么啊？刚才看他的样子怪怪的……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "好奇女友",
+        "inner_monologue": "我很想知道沙沙表舅到底说了什么，看起来神神秘秘的。",
+        "external_action": "牵着手走，与行人擦肩而过。",
+        "speech_text": "到底是什么啊，之前不是还见他说过什么不是在开玩笑……",
+        "mood_state": "好奇"
+      },
+      "id": "358_007",
+      "global_id": 717
+    },
+    {
+      "scene_snapshot": "叶灵静在别墅中陪沙沙睡觉，处理守夜事务。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "晚上守夜，沙沙被灵静强行拖着去房间里睡觉。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "照顾朋友",
+        "inner_monologue": "沙沙太伤心了，我得确保她好好休息，不能让她熬夜。",
+        "external_action": "强行拖着沙沙去房间里睡觉。",
+        "speech_text": null,
+        "mood_state": "关切"
+      },
+      "id": "358_008",
+      "global_id": 718
+    }
+  ]
+}

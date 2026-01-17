@@ -1,0 +1,217 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明在轮机室修理船只，灵静兴奋地看到船转向海岛。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/信赖的人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明修好船并调整方向对准海岛。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "兴奋崇拜的伴侣",
+        "inner_monologue": "太好了，家明把船修好了，我们终于有希望了！",
+        "external_action": "扑过去亲了家明一口。",
+        "speech_text": "太好了，家明，你好棒，把船修好了！家明你是最棒的！",
+        "mood_state": "兴奋"
+      },
+      "id": "096_001",
+      "global_id": 293
+    },
+    {
+      "scene_snapshot": "家明提到船只是暂时能用，灵静表达信心并幻想荒岛生活。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/信赖的人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明说船只是暂时能用，担心坚持不到海岛。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "乐观支持的伴侣",
+        "inner_monologue": "我相信家明一定能行，就算不行，我们也可以一起游过去，就像书里的冒险一样。",
+        "external_action": "冲着岛屿方向大喊一声，脸颊红扑扑，神采飞扬。",
+        "speech_text": "一定可以的。要不然我们就跳海游过去啊，只属于我们的荒岛……",
+        "mood_state": "憧憬"
+      },
+      "id": "096_002",
+      "global_id": 294
+    },
+    {
+      "scene_snapshot": "家明询问为什么要是荒岛，灵静引用书中的描述。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/信赖的人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明问为什么要是荒岛。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "天真浪漫的伴侣",
+        "inner_monologue": "因为书上都是这样写的，这让我觉得像一场浪漫的冒险。",
+        "external_action": null,
+        "speech_text": "因为书上都是这样写的……",
+        "mood_state": "俏皮"
+      },
+      "id": "096_003",
+      "global_id": 295
+    },
+    {
+      "scene_snapshot": "灵静回想昨天的恐惧和幻想，现在阴影一扫而空。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/信赖的人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "看到海岛后，灵静内心的恐惧和幻想被扫除。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "释然乐观的伴侣",
+        "inner_monologue": "昨天我还担心食物和水的问题，甚至幻想家明会吃掉我，但现在看到海岛，这些黑暗情绪都消失了，我感到解脱和快乐。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "释然"
+      },
+      "id": "096_004",
+      "global_id": 296
+    },
+    {
+      "scene_snapshot": "船触礁后，家明和灵静一起划皮筏艇登陆小岛。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/信赖的人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "船触礁后，家明和灵静一起行动登陆小岛。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "合作支持的伴侣",
+        "inner_monologue": "船触礁了，但没关系，我们可以一起划皮筏艇上岸，只要和家明在一起，我就不怕。",
+        "external_action": "和家明一起放下船锚，整理东西，划皮筏艇登陆。",
+        "speech_text": null,
+        "mood_state": "镇定"
+      },
+      "id": "096_005",
+      "global_id": 297
+    },
+    {
+      "scene_snapshot": "家明在树林中探路并讲解植物，灵静佩服并撒娇打他。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/信赖的人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明讲解植物知识，让灵静佩服。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "撒娇佩服的伴侣",
+        "inner_monologue": "家明懂得真多，比我厉害多了，这让我有点小嫉妒，但更多的是佩服和爱意。",
+        "external_action": "恨恨地追着家明打了几下。",
+        "speech_text": null,
+        "mood_state": "娇嗔"
+      },
+      "id": "096_006",
+      "global_id": 298
+    },
+    {
+      "scene_snapshot": "家明杀死毒蛇并宣布吃蛇肉，灵静做出可爱表情。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/信赖的人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明杀死毒蛇并宣布吃蛇肉。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "俏皮可爱的伴侣",
+        "inner_monologue": "家明真厉害，能处理毒蛇，但吃蛇肉听起来有点恶心，不过我相信他。",
+        "external_action": "皱着鼻子，翻了个可爱的白眼。",
+        "speech_text": null,
+        "mood_state": "俏皮"
+      },
+      "id": "096_007",
+      "global_id": 299
+    },
+    {
+      "scene_snapshot": "晚上在帐篷里，灵静规划岛上的生活，家明淡淡笑。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/信赖的人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明听灵静规划生活，淡淡笑。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "憧憬未来的伴侣",
+        "inner_monologue": "我想和家明永远住在这里，建木屋、种食物，过简单的生活，这让我感到幸福和安心。",
+        "external_action": "在家明怀里小声规划生活。",
+        "speech_text": null,
+        "mood_state": "憧憬"
+      },
+      "id": "096_008",
+      "global_id": 300
+    },
+    {
+      "scene_snapshot": "在海滩边，灵静表达想念沙沙。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/信赖的人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "坐在海滩边，灵静想起正常生活和朋友。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "思念朋友的伴侣",
+        "inner_monologue": "我好想沙沙，我们三个是连体婴一样的好朋友，即使现在和家明在一起，这份友谊也很重要。",
+        "external_action": null,
+        "speech_text": "我好想沙沙……",
+        "mood_state": "思念"
+      },
+      "id": "096_009",
+      "global_id": 301
+    },
+    {
+      "scene_snapshot": "发现雇佣兵信号后，灵静看到家明握紧枪，心揪起来。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/信赖的人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明安慰一笑，握紧手中的枪。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "担忧紧张的伴侣",
+        "inner_monologue": "看到家明握紧枪，雇佣兵来了，我的心又揪起来了，担心会有危险。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "担忧"
+      },
+      "id": "096_010",
+      "global_id": 302
+    }
+  ]
+}

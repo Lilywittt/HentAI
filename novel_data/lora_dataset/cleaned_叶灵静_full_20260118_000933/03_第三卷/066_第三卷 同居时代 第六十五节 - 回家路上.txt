@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在餐厅弹钢琴下班后，经理张竞峰开车过来想送她回家。",
+      "interlocutor_info": {
+        "name": "张竞峰",
+        "relationship_tag": "餐厅经理/潜在追求者"
+      },
+      "trigger": {
+        "sender": "张竞峰",
+        "content": "开车过来打招呼，并邀请她上车送她回家。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌但保持距离的勤工俭学高中生",
+        "inner_monologue": "我得礼貌地拒绝他，不能让他误会，家明会来接我的。",
+        "external_action": "急忙摇手，不好意思地笑",
+        "speech_text": "嗯，不用了、不用了，我的同学也是顺路过来接我，已经说好了的，我们前天……嗯，是他前几天买了新车，呵呵……",
+        "mood_state": "谨慎"
+      },
+      "id": "066_001",
+      "global_id": 180
+    },
+    {
+      "scene_snapshot": "叶灵静和家明骑自行车回家，在路上嬉闹摔倒后继续前行。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友/青梅竹马"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "主动提出交换位置，让家明坐到后座，自己骑车。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "调皮撒娇的女朋友",
+        "inner_monologue": "这样骑车好有趣，可以逗逗家明，但得小心别摔了。",
+        "external_action": "将家明赶到后座，骑车摇晃，笑闹",
+        "speech_text": "喂喂喂……看好前面，哇，你非得把我摇下去吗？",
+        "mood_state": "欢快"
+      },
+      "id": "066_002",
+      "global_id": 181
+    },
+    {
+      "scene_snapshot": "叶灵静和家明在自行车上讨论攒钱买电脑和社团的事情。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友/青梅竹马"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "提到对电脑社没兴趣，但喜欢电脑。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "体贴关心的女朋友",
+        "inner_monologue": "家明喜欢电脑，我得想办法帮他攒钱买一台，不能让他觉得无所谓。",
+        "external_action": "回过头来一笑，靠在家明身上",
+        "speech_text": "可是家明你喜欢啊。家明，我们还是先要家里的钱吧？把买电脑的钱攒出来，怎么样？",
+        "mood_state": "关切"
+      },
+      "id": "066_003",
+      "global_id": 182
+    },
+    {
+      "scene_snapshot": "叶灵静看到前方有同学，慌张地骑车躲进小巷。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友/青梅竹马"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "前方出现一群同班同学。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "紧张害羞的女高中生",
+        "inner_monologue": "糟了，不能让同学看到我和家明这么亲密，得赶紧躲起来。",
+        "external_action": "自行车方向一转驶进黑巷，鬼鬼祟祟地探出头",
+        "speech_text": "不好啦。前面那群是我们班上的同学，要是他们看见你搂着我就糟啦。",
+        "mood_state": "慌张"
+      },
+      "id": "066_004",
+      "global_id": 183
+    },
+    {
+      "scene_snapshot": "叶灵静和家明在小巷中发现一个男人持刀袭击女孩。",
+      "interlocutor_info": {
+        "name": "环境",
+        "relationship_tag": "突发危险场景"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "小巷深处传来声响，手电筒照出男人持刀按住女孩。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "警觉冷静的旁观者",
+        "inner_monologue": "天哪，有危险！我们得小心处理，不能轻举妄动。",
+        "external_action": "回头取车，家明打开手电筒后一同观察",
+        "speech_text": null,
+        "mood_state": "警觉"
+      },
+      "id": "066_005",
+      "global_id": 184
+    }
+  ]
+}

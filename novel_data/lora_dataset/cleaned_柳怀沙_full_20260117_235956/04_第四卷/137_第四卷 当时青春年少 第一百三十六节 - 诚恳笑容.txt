@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在游戏室内，看到家明从外面回来，好奇地追问家明刚才做了什么。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明从外面回来，用毛巾擦头，没有主动解释刚才的行为。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "好奇活泼的少女",
+        "inner_monologue": "我一定要知道家明刚才干了什么，他神神秘秘的，肯定有有趣的事情。",
+        "external_action": "从阳台上跑出来，手中拿着望远镜，表情兴奋；踢家明一脚，仰头瞪大眼睛；像蜜蜂一样围着家明转。",
+        "speech_text": "老实交代，你刚才干什么了，我看见你给了个钱包给他们，你哪来的？喂，老实点快说。告诉我啦，家明、家明，家明哥哥、家明老公，老公老公老公老公……说啦说啦说啦说啦……",
+        "mood_state": "兴奋"
+      },
+      "id": "137_001",
+      "global_id": 316
+    },
+    {
+      "scene_snapshot": "家明解释了他在黑社会成员身上放了跟踪器，沙沙听后感到惊讶和佩服。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明解释了他在黑社会成员身上放了跟踪器，并偷了钱包。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "天真崇拜的少女",
+        "inner_monologue": "家明好厉害啊，这么轻松就做到了，我们以后说不定能靠这个赚钱呢。",
+        "external_action": "眨了眨眼睛；跑回里屋搂着灵静的肩膀笑。",
+        "speech_text": "没注意哎。好厉害啊，灵静，将来要是我们没钱，可以去当小偷哦。",
+        "mood_state": "佩服"
+      },
+      "id": "137_002",
+      "global_id": 317
+    },
+    {
+      "scene_snapshot": "灵静提醒沙沙关阳台门和写作业，沙沙回应并去关门。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友/室友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静提醒沙沙关阳台门和写作业。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调皮任性的少女",
+        "inner_monologue": "灵静又在唠叨了，不过外面确实吵，关上门也好，作业我自己写就行。",
+        "external_action": "从旁边跳起来，去关上了通往阳台的房门。",
+        "speech_text": "哼，不用你帮！",
+        "mood_state": "倔强"
+      },
+      "id": "137_003",
+      "global_id": 318
+    }
+  ]
+}

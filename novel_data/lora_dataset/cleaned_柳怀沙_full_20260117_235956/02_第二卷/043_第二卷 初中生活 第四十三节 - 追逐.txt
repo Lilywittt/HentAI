@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙在电影院门口等待顾家明，因他迟到而生气质问。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的朋友/同伴"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "顾家明从死胡同冲出来，解释自己拼死拼活跑来，并展示手表时间。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "急躁且爱打闹的少女",
+        "inner_monologue": "这家伙居然敢迟到，还从死胡同里跑出来，肯定又想耍花样吓我们！",
+        "external_action": "质问并打他几拳、踢上几脚，随后查看手表时间。",
+        "speech_text": "说，你跑到哪里去了！我的过两分！死胡同！这么说……你根本没有迟到，一直等在里面想要吓我们一跳？",
+        "mood_state": "恼怒"
+      },
+      "id": "043_001",
+      "global_id": 132
+    },
+    {
+      "scene_snapshot": "柳怀沙发现顾家明可能故意躲在死胡同里，更加生气并追打他。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的朋友/同伴"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "顾家明见势不妙，转身逃跑。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "顽皮且报复心强的女孩",
+        "inner_monologue": "他果然在骗我们，这次一定要抓住他好好教训一顿！",
+        "external_action": "张牙舞爪地追打过去。",
+        "speech_text": "杀掉你！",
+        "mood_state": "兴奋"
+      },
+      "id": "043_002",
+      "global_id": 133
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明和灵静在巷子里遇到抢劫事件后，与许毅婷交谈并发现她是家明的远亲。",
+      "interlocutor_info": {
+        "name": "许毅婷",
+        "relationship_tag": "远亲"
+      },
+      "trigger": {
+        "sender": "许毅婷",
+        "content": "认出家明并称呼他为“家明表哥”，表示去年过年时见过。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌的旁观者",
+        "inner_monologue": "我去年过年时确实见过她一面，但没想到她还记得我，这得归功于我的杀手记忆力。",
+        "external_action": "家明皱了皱眉，随后笑了起来，回应许毅婷的问候。",
+        "speech_text": "去年过年时见过，许……毅婷？",
+        "mood_state": "平静"
+      },
+      "id": "067_001",
+      "global_id": 198
+    },
+    {
+      "scene_snapshot": "家明和灵静在街口道别许毅婷后，灵静开玩笑地问家明是否看上许毅婷。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友/恋人"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "开玩笑地拍家明的肩，问家明是否因为记得许毅婷而看上她。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "幽默的否认者",
+        "inner_monologue": "灵静又在开玩笑了，我和沙沙的关系这么亲密，怎么可能看上别人，而且许毅婷确实不漂亮。",
+        "external_action": "家明回应灵静的玩笑话。",
+        "speech_text": "哪里啊……你和沙沙不切掉我才怪，何况她又不漂亮……",
+        "mood_state": "轻松"
+      },
+      "id": "067_002",
+      "global_id": 199
+    },
+    {
+      "scene_snapshot": "家明在雅涵办公室提交社团申请表，提到沙沙想办社团的事情。",
+      "interlocutor_info": {
+        "name": "张雅涵",
+        "relationship_tag": "老师/朋友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明告诉雅涵，沙沙想办社团，并提交了申请表。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "随意的支持者",
+        "inner_monologue": "沙沙闹着玩想办社团，我就帮她处理一下申请，反正没什么大不了的。",
+        "external_action": "家明从口袋里抽出申请表递给雅涵，并解释社团情况。",
+        "speech_text": "前些天沙沙不是说自己办社团吗？昨天我们找到了第五个愿意参加的人，今天签了字，懒得去找其他老师，所以就直接扔你这里了，你看着办吧。",
+        "mood_state": "随意"
+      },
+      "id": "067_003",
+      "global_id": 200
+    }
+  ]
+}

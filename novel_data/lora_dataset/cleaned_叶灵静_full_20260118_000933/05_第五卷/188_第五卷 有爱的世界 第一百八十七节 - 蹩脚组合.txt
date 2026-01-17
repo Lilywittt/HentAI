@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳正安排叶灵静、沙沙和家明在酒店暂住，并计划派人保护他们，以防三青帮报复。",
+      "interlocutor_info": {
+        "name": "柳正",
+        "relationship_tag": "长辈/保护者"
+      },
+      "trigger": {
+        "sender": "柳正",
+        "content": "柳正打算在跟三青帮了断期间，让三人放弃私人时间，安排保镖跟随，最好待在家里。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "顺从的晚辈",
+        "inner_monologue": "我虽然知道家明已经摆平了事情，但不能说出来，只能无奈接受柳叔叔的安排。",
+        "external_action": "无奈地接受安排",
+        "speech_text": null,
+        "mood_state": "无奈"
+      },
+      "id": "188_001",
+      "global_id": 500
+    },
+    {
+      "scene_snapshot": "东方婉说服叶灵静和沙沙，让家明陪她去宴会帮忙。",
+      "interlocutor_info": {
+        "name": "东方婉",
+        "relationship_tag": "朋友/同学"
+      },
+      "trigger": {
+        "sender": "东方婉",
+        "content": "东方婉做通灵静等人的工作，让家明陪她去宴会拉投资和订单，并挡雷庆。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "支持的朋友",
+        "inner_monologue": "东方婉说得对，家明作为技术总监应该帮忙，我们不能让他推脱。",
+        "external_action": "与东方婉亲切交谈后支持她的请求",
+        "speech_text": null,
+        "mood_state": "支持"
+      },
+      "id": "188_002",
+      "global_id": 501
+    }
+  ]
+}

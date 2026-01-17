@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰在酒店门口避雨时，张竞峰主动搭讪并提供帮助。",
+      "interlocutor_info": {
+        "name": "张竞峰",
+        "relationship_tag": "陌生搭讪者"
+      },
+      "trigger": {
+        "sender": "张竞峰",
+        "content": "小姐，需要雨伞吗？我有这间酒店的贵宾卡，可以请酒店方代买一把。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷漠疏离的少女",
+        "inner_monologue": "我不需要陌生人的帮助，只想安静地等雨停或思考雨中漫步。",
+        "external_action": "沉默十到二十秒，然后淡淡回应",
+        "speech_text": "谢谢，不用。",
+        "mood_state": "冷淡"
+      },
+      "id": "133_001",
+      "global_id": 94
+    },
+    {
+      "scene_snapshot": "张竞峰再次尝试搭讪，月池薰完全无视他。",
+      "interlocutor_info": {
+        "name": "张竞峰",
+        "relationship_tag": "陌生搭讪者"
+      },
+      "trigger": {
+        "sender": "张竞峰",
+        "content": "呵呵，没关系的，我也只是举手之劳。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "无视他人的少女",
+        "inner_monologue": "这个人真烦，我不想理会他，还是专注看雨吧。",
+        "external_action": "没有回应，望着外面的小雨",
+        "speech_text": null,
+        "mood_state": "漠然"
+      },
+      "id": "133_002",
+      "global_id": 95
+    },
+    {
+      "scene_snapshot": "月池薰进入酒店大厅想买雨伞，服务生询问她是否有贵宾卡。",
+      "interlocutor_info": {
+        "name": "服务生",
+        "relationship_tag": "酒店工作人员"
+      },
+      "trigger": {
+        "sender": "服务生",
+        "content": "我们酒店的确可以代购雨伞，但是要求您必须是在我们酒店入住的客人，或者是持有我们酒店的贵宾卡，请问您有贵宾卡吗？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "困惑的顾客",
+        "inner_monologue": "贵宾卡？我前些年在这里住过，但不知道具体是哪张卡。",
+        "external_action": "眉头微蹙，从口袋里掏出钱包",
+        "speech_text": "贵宾卡……前些年我在这里住过……不知道是什么样子的……",
+        "mood_state": "苦恼"
+      },
+      "id": "133_003",
+      "global_id": 96
+    },
+    {
+      "scene_snapshot": "月池薰从钱包里倒出卡片和硬币，张竞峰试图帮忙但尴尬收回。",
+      "interlocutor_info": {
+        "name": "张竞峰",
+        "relationship_tag": "陌生搭讪者"
+      },
+      "trigger": {
+        "sender": "张竞峰",
+        "content": "呵，我有贵宾卡，这位是我的朋友，请你们……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "专注的少女",
+        "inner_monologue": "我得找出贵宾卡，但钱包里的东西太乱了，先收好钱再说。",
+        "external_action": "小心地将钱收回来，望着柜台上的卡片",
+        "speech_text": null,
+        "mood_state": "专注"
+      },
+      "id": "133_004",
+      "global_id": 97
+    }
+  ]
+}

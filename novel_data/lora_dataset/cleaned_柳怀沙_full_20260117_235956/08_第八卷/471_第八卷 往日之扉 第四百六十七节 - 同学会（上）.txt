@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙穿着短裙和高跟凉鞋的新打扮进入房间，引起灵静和家明的称赞和玩笑。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密伴侣/挚友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "看到沙沙的新打扮，灵静和家明同时吹了声口哨，说“好漂亮”，并开玩笑要带枪打死往沙沙膝盖以上看的人。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "害羞但配合的玩闹者",
+        "inner_monologue": "这身打扮果然太显眼了，连灵静和家明都这样开玩笑，有点不好意思。",
+        "external_action": "脸上一红，轻轻地磨了磨牙齿，转身要走说“算了，我换回来”。",
+        "speech_text": "算了，我换回来。",
+        "mood_state": "害羞"
+      },
+      "id": "471_001",
+      "global_id": 748
+    },
+    {
+      "scene_snapshot": "沙沙被灵静抱住阻止换衣服，两人嬉笑打闹。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密伴侣/挚友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵笑着冲过去抱住沙沙说“不要啊！爱死了。沙沙让我咬一口好不好。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "轻松玩闹的伴侣",
+        "inner_monologue": "灵静还是这么爱闹，不过这样也挺好，能放松一下。",
+        "external_action": "笑着轻啐一声，玩闹般地用这身打扮特意地摆了几个造型。",
+        "speech_text": null,
+        "mood_state": "愉悦"
+      },
+      "id": "471_002",
+      "global_id": 749
+    },
+    {
+      "scene_snapshot": "沙沙在同学会入口处签到，被旧同学认出但互动冷淡。",
+      "interlocutor_info": {
+        "name": "旧同学（群体）",
+        "relationship_tag": "疏远的旧识"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "沙沙在同学会入口处签到，周围有旧同学议论她的变化和过去被通缉的事。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "疏离的旁观者",
+        "inner_monologue": "这些人还是老样子，议论纷纷，我和他们早就没联系了，没必要多说什么。",
+        "external_action": "站在家明和灵静的身边显得有些冷，只签下名字，没有主动打招呼。",
+        "speech_text": null,
+        "mood_state": "冷淡"
+      },
+      "id": "471_003",
+      "global_id": 750
+    },
+    {
+      "scene_snapshot": "沙沙在同学会中与灵静和家明分开，去见自己的朋友。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密伴侣/挚友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "在同学会中，灵静和沙沙各自有交友圈子，三人自然分开活动。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "独立的参与者",
+        "inner_monologue": "和灵静、家明分开一下也好，我可以去见见以前的朋友，虽然可能有些陌生了。",
+        "external_action": "与灵静和家明分开，去见不同的朋友。",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "471_004",
+      "global_id": 751
+    }
+  ]
+}

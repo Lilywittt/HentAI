@@ -1,0 +1,196 @@
+{
+  "meta_info": {
+    "global_scene_type": "Romance"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在洗手间独自整理情绪，努力掩饰内心的失落。",
+      "interlocutor_info": {
+        "name": "无",
+        "relationship_tag": "无"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "洗手间里无人，她面对镜子中的自己。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "努力维持开心的外表",
+        "inner_monologue": "我这样不好，我们三个人是跟别人不一样的，但我看起来像个怨妇。",
+        "external_action": "擦干脸上的水渍，走出洗手间",
+        "speech_text": "这样不好，灵静，我们三个人，是跟别人不一样的。",
+        "mood_state": "失落"
+      },
+      "id": "086_001",
+      "global_id": 235
+    },
+    {
+      "scene_snapshot": "张竞峰在洗手间外关心叶灵静，并猜测她的感情状况。",
+      "interlocutor_info": {
+        "name": "张竞峰",
+        "relationship_tag": "殷勤但讨厌的追求者"
+      },
+      "trigger": {
+        "sender": "张竞峰",
+        "content": "我看你进去得太久，还怕你出什么事情呢。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌但疏离",
+        "inner_monologue": "你又不是家明，跑过来干什么，真讨厌。",
+        "external_action": "露齿一笑，摇头否认不开心",
+        "speech_text": "谢谢，没什么事。",
+        "mood_state": "烦躁"
+      },
+      "id": "086_002",
+      "global_id": 236
+    },
+    {
+      "scene_snapshot": "张竞峰进一步追问叶灵静的感情问题，她误喝烈酒。",
+      "interlocutor_info": {
+        "name": "张竞峰",
+        "relationship_tag": "多管闲事的追求者"
+      },
+      "trigger": {
+        "sender": "张竞峰",
+        "content": "你……不开心？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "故作轻松",
+        "inner_monologue": "你怎么也猜不着我们三个人住在一块儿，真烦人。",
+        "external_action": "摇头，拿水喝却误喝烈酒，咳嗽",
+        "speech_text": "呃？没有啊。呵呵，我们的事情……不是你想的那个样子啦。",
+        "mood_state": "尴尬"
+      },
+      "id": "086_003",
+      "global_id": 237
+    },
+    {
+      "scene_snapshot": "张竞峰试图安慰叶灵静并邀请跳舞，她拒绝并推开他。",
+      "interlocutor_info": {
+        "name": "张竞峰",
+        "relationship_tag": "纠缠不休的追求者"
+      },
+      "trigger": {
+        "sender": "张竞峰",
+        "content": "你何必这样，他不懂得珍惜你，是他的损失，你感觉还好吧……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷淡拒绝",
+        "inner_monologue": "我没事，不用扶着我，你是个好人（恶作剧地想打击他）。",
+        "external_action": "推开张竞峰的胸膛，退后两步",
+        "speech_text": "呵呵，说了不是那个样子的啦。我没事，不用扶着我。谢谢你，张经理。你是个好人。",
+        "mood_state": "嫌恶"
+      },
+      "id": "086_004",
+      "global_id": 238
+    },
+    {
+      "scene_snapshot": "顾家明出现并扶住叶灵静，她立刻变得乖巧依赖。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "心爱的男朋友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "刚才去哪里了？我都没找到你，你喝酒了？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "可爱撒娇",
+        "inner_monologue": "在家明怀里真好，刚才的烦心事都忘了。",
+        "external_action": "窝在家明怀里，苦着脸吐舌头",
+        "speech_text": "我去洗手间，出来的时候，把一杯度数好高的白酒当成白开水喝了，很厉害吧。",
+        "mood_state": "安心"
+      },
+      "id": "086_005",
+      "global_id": 239
+    },
+    {
+      "scene_snapshot": "叶灵静和顾家明跳舞并亲密交谈，分享内心感受。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "呵，我被她抛弃掉了，我刚才跟她开了几个玩笑……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "温柔倾诉",
+        "inner_monologue": "要是真能什么都不管，和家明、沙沙在一起多好啊，我刚才把人生想得太简单了。",
+        "external_action": "目光朦胧地望向家明，皱眉白了他一眼",
+        "speech_text": "你老是说这些乱七八糟的。要是真能那样该多好啊，家明，我先前……好像把人生想得太简单了……",
+        "mood_state": "依恋"
+      },
+      "id": "086_006",
+      "global_id": 240
+    },
+    {
+      "scene_snapshot": "顾家明开玩笑关于荒岛生活，叶灵静害羞回应并踩到他的脚。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "调皮的爱人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "不过，荒岛上可没有避孕的东西，到时候你和沙沙要生好多孩子了……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "害羞嗔怪",
+        "inner_monologue": "家明真坏，老说这些，但和他在一起总是很开心。",
+        "external_action": "吃吃一笑，踩到家明的脚",
+        "speech_text": "我才不要当母猪呢。都怪你，男人都不是好东西，要是到了荒岛上，我和沙沙就把你的坏东西割掉……啊，对不起……",
+        "mood_state": "羞涩"
+      },
+      "id": "086_007",
+      "global_id": 241
+    },
+    {
+      "scene_snapshot": "顾家明抱起叶灵静跳舞，她感到害羞但享受亲密。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "保护者"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "干这个。让那双玉足踩在自己的皮鞋背上……",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "依赖顺从",
+        "inner_monologue": "家明抱紧我了，虽然有人看着，但在他怀里很安全。",
+        "external_action": "搂紧家明的脖子，身体贴紧，闭上眼睛",
+        "speech_text": "家明，你要干嘛？家明，有人看着我们呢。",
+        "mood_state": "温馨"
+      },
+      "id": "086_008",
+      "global_id": 242
+    },
+    {
+      "scene_snapshot": "叶灵静和顾家明互相倾诉吃醋，在舞蹈中感受彼此。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "灵魂伴侣"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "我知道……灵静，我刚才吃醋了……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "温柔坦诚",
+        "inner_monologue": "家明也吃醋了，我们心意相通，现在什么都不用想，只要和他在一起。",
+        "external_action": "脸上滑过温柔笑意，闭上眼睛随他舞蹈",
+        "speech_text": "家明，其实……我刚才也吃醋了……",
+        "mood_state": "幸福"
+      },
+      "id": "086_009",
+      "global_id": 243
+    }
+  ]
+}

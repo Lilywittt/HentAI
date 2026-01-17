@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在病房里喝粥，与家明互动后想让他抱着睡觉。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "喂沙沙喝粥，收拾碗筷后沙沙提出想睡觉。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "撒娇依赖的女友",
+        "inner_monologue": "我想让家明抱着我睡，这样才安心。",
+        "external_action": "从被子里伸出双手，脸上一红，用枕头打家明。",
+        "speech_text": "家明，我想睡觉了……我只是想让你抱着我睡……",
+        "mood_state": "依恋"
+      },
+      "id": "101_001",
+      "global_id": 258
+    },
+    {
+      "scene_snapshot": "灵静进入病房，沙沙和家明与她笑闹。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静从门口冒出头来，满脸笑意地说路过。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调皮玩闹的伙伴",
+        "inner_monologue": "灵静来了，正好可以一起玩闹放松。",
+        "external_action": "温顺地点头，和灵静在被子里抱在一起睡去。",
+        "speech_text": null,
+        "mood_state": "温馨"
+      },
+      "id": "101_002",
+      "global_id": 259
+    }
+  ]
+}

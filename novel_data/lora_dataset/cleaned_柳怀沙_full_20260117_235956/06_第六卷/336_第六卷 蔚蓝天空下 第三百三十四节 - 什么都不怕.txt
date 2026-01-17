@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙在帐篷中与朋友们玩棋，输掉后心情不爽，看到谭君荣走过并评论他失魂落魄。",
+      "interlocutor_info": {
+        "name": "谭君荣",
+        "relationship_tag": "讨厌的追求者"
+      },
+      "trigger": {
+        "sender": "谭君荣",
+        "content": "谭君荣穿着西装走过帐篷外，看起来失魂落魄。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "直率的朋友",
+        "inner_monologue": "这个谭君荣怎么看起来怪怪的，肯定又在打什么坏主意。",
+        "external_action": "从帐篷帘子边向外看，皱了皱眉头。",
+        "speech_text": "那个谭君荣，怎么看起来失魂落魄的。",
+        "mood_state": "不爽"
+      },
+      "id": "336_001",
+      "global_id": 541
+    },
+    {
+      "scene_snapshot": "柳怀沙与东方婉讨论谭君荣的行为，并开玩笑说要用黑帮势力教训他。",
+      "interlocutor_info": {
+        "name": "东方婉",
+        "relationship_tag": "朋友/伙伴"
+      },
+      "trigger": {
+        "sender": "东方婉",
+        "content": "东方婉评论谭君荣穿西装有病，并开玩笑说黑道大小姐不一样。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "俏皮的黑道大小姐",
+        "inner_monologue": "东方婉这家伙还挺会开玩笑的，不过我可不怕她。",
+        "external_action": "耸肩，与东方婉说笑。",
+        "speech_text": "切，不管他了，癞蛤蟆想吃天鹅肉，他要是还敢过来，回去之后我叫上几百个人给他胖揍一顿，保证他医好了都是扁的。",
+        "mood_state": "轻松"
+      },
+      "id": "336_002",
+      "global_id": 542
+    },
+    {
+      "scene_snapshot": "柳怀沙看到谭君荣手捧玫瑰花走过来，惊讶地认为他要求婚。",
+      "interlocutor_info": {
+        "name": "谭君荣",
+        "relationship_tag": "讨厌的追求者"
+      },
+      "trigger": {
+        "sender": "谭君荣",
+        "content": "谭君荣手捧一大束玫瑰花朝帐篷走来，穿着西装，引人侧目。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "惊讶的旁观者",
+        "inner_monologue": "天啊，这家伙真的豁出去了，不会是要搞什么大场面吧？",
+        "external_action": "吃惊地张大了嘴，从帐篷帘子边往外看。",
+        "speech_text": "开什么玩笑，真的杀过来了！",
+        "mood_state": "吃惊"
+      },
+      "id": "336_003",
+      "global_id": 543
+    },
+    {
+      "scene_snapshot": "柳怀沙参与讨论谭君荣的意图，并开玩笑建议家明出去干掉他。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "男朋友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明猜测谭君荣可能不是对灵静来的，引发东方婉打赌。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "支持男朋友的朋友",
+        "inner_monologue": "家明又在瞎猜了，不过东方婉这么自信，打赌肯定好玩。",
+        "external_action": "跳起来锤家明，与灵静一起。",
+        "speech_text": "家明，出去干掉他吧……",
+        "mood_state": "调皮"
+      },
+      "id": "336_004",
+      "global_id": 544
+    },
+    {
+      "scene_snapshot": "柳怀沙在东方婉与家明打赌时，与灵静一起开玩笑地锤家明。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "男朋友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明提出打赌条件，要东方婉说羞耻的话并打耳光。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "活泼的参与者",
+        "inner_monologue": "家明这家伙真会出馊主意，不过看东方婉脸红的样子真有趣。",
+        "external_action": "跳起来锤家明，与灵静一起。",
+        "speech_text": null,
+        "mood_state": "开心"
+      },
+      "id": "336_005",
+      "global_id": 545
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静下班后进入诊所，与小孟和家明聊天。",
+      "interlocutor_info": {
+        "name": "小孟",
+        "relationship_tag": "朋友/熟人"
+      },
+      "trigger": {
+        "sender": "小孟",
+        "content": "嗨，灵静下班了？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心朋友的家庭主妇",
+        "inner_monologue": "我担心小孟哥在珠宝展劫案中出事，所以特地打电话给清清姐确认。",
+        "external_action": "进入诊所并回应问候",
+        "speech_text": "嗯，我看电视说那个珠宝展出了劫案，还怕小孟哥你出事，特地打了电话给清清姐呢，她说你在现场，还好没受伤……",
+        "mood_state": "关切"
+      },
+      "id": "503_001",
+      "global_id": 988
+    },
+    {
+      "scene_snapshot": "家明告诉叶灵静小孟在劫案中干掉了三个劫匪。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "丈夫/亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "没错，你看小孟哥长得越来越像布拉德皮特了，说不定下次007都找他演，啧，灵静你不知道，小孟哥干掉了三个劫匪。对了，吃山楂不？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "惊讶而好奇的妻子",
+        "inner_monologue": "小孟哥居然这么厉害，我得听听细节，但得小心别让沙沙知道，否则她会闹着要去现场。",
+        "external_action": "嘴巴惊讶成“O”型，尝山楂",
+        "speech_text": "真的？待会一定要跟我们说说事情经过……不对，不能在沙沙面前说，否则她肯定会遗憾自己为什么不在那里……唔，这个山楂味道很好……",
+        "mood_state": "惊讶"
+      },
+      "id": "503_002",
+      "global_id": 989
+    },
+    {
+      "scene_snapshot": "叶灵静看到小孟因家明的话而咳嗽，产生疑惑。",
+      "interlocutor_info": {
+        "name": "小孟",
+        "relationship_tag": "朋友/熟人"
+      },
+      "trigger": {
+        "sender": "小孟",
+        "content": "小孟陡然笑了起来，被一颗山楂堵住气管，咳个不停。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "细心而狐疑的妻子",
+        "inner_monologue": "小孟怎么突然咳嗽？是不是家明又在搞什么怪，我得检查一下山楂有没有问题。",
+        "external_action": "将口中的山楂吐到手心看了几眼，确定没什么之后才又吃进去，在饮水机倒了一杯水给小孟",
+        "speech_text": "又搞怪……",
+        "mood_state": "狐疑"
+      },
+      "id": "503_003",
+      "global_id": 990
+    },
+    {
+      "scene_snapshot": "叶灵静询问家明关于沙沙和允婷的去向，并注意到外面常来的男子。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "丈夫/亲密伴侣"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "对了，跟薰出去吃过饭了吧？沙沙跟允婷呢？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心家庭日常的妻子",
+        "inner_monologue": "我得确认沙沙和允婷的去向，顺便问问外面那个常来的男子是怎么回事。",
+        "external_action": "朝外面瞥了瞥",
+        "speech_text": "嗯，在对街的餐厅吃的。沙沙带着允婷去美容院玩了。外面那个人……来过好多次了吧……",
+        "mood_state": "平静"
+      },
+      "id": "503_004",
+      "global_id": 991
+    },
+    {
+      "scene_snapshot": "叶灵静拿拖把出去帮忙薰做打扫。",
+      "interlocutor_info": {
+        "name": "薰",
+        "relationship_tag": "朋友/同事"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "诊所需要打扫，薰正在擦拭玻璃门。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "勤劳助人的朋友",
+        "inner_monologue": "薰一个人打扫挺辛苦的，我去帮帮她吧，顺便活动一下。",
+        "external_action": "从里间拿了拖把出去帮忙薰做打扫",
+        "speech_text": null,
+        "mood_state": "勤快"
+      },
+      "id": "503_005",
+      "global_id": 992
+    }
+  ]
+}

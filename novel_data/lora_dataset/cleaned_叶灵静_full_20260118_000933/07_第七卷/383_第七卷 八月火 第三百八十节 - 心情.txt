@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在客厅提出想搬出去住，灵静和家明在场。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友/室友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "“我想……搬出去……”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "困惑和不安的室友",
+        "inner_monologue": "我听到了什么？沙沙要搬出去？",
+        "external_action": "回过头来问“什么？”",
+        "speech_text": "“什么？”",
+        "mood_state": "shocked"
+      },
+      "id": "383_001",
+      "global_id": 753
+    },
+    {
+      "scene_snapshot": "沙沙解释搬出去的原因，灵静听完后转身离开。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友/室友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "解释想搬出去住一阵子，因为沙竹帮事情多，回来晚方便。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "受伤和逃避的室友",
+        "inner_monologue": "我不想听这些，这太突然了，我需要冷静一下。",
+        "external_action": "一个转身往房间里走去，说“我洗澡。”",
+        "speech_text": "“我洗澡。”",
+        "mood_state": "hurt"
+      },
+      "id": "383_002",
+      "global_id": 754
+    },
+    {
+      "scene_snapshot": "灵静在卧室里情绪崩溃，衣物散落一地，家明和沙沙进来。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "卧室里“哗”的轻响一声，像是衣服掉在地上。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "脆弱和悲伤的少女",
+        "inner_monologue": "我控制不住自己，一切都乱了，我好难过。",
+        "external_action": "靠着床铺坐在地下散乱的衣物当中，摇头，与家明对视，眼中有了眼泪。",
+        "speech_text": null,
+        "mood_state": "sad"
+      },
+      "id": "383_003",
+      "global_id": 755
+    },
+    {
+      "scene_snapshot": "沙沙道歉并试图安慰灵静，灵静推开她并质问。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友/室友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "“灵静，对不起了，可是我……”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "愤怒和受伤的质问者",
+        "inner_monologue": "你觉得我妨碍你了？我这么关心你，你却这样对我。",
+        "external_action": "被沙沙搂住后摇晃身体挣开。",
+        "speech_text": "“柳怀沙，你觉得我妨碍到你了是吧？”",
+        "mood_state": "angry"
+      },
+      "id": "383_004",
+      "global_id": 756
+    },
+    {
+      "scene_snapshot": "灵静哭着表达对沙沙混黑社会的担忧和关心。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友/室友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "“可是……我真的不知道要干什么……”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "担忧和哭泣的关心者",
+        "inner_monologue": "我讨厌你这样冒险，我不想失去你，你是我最重要的人之一。",
+        "external_action": "说着说着又哭了起来。",
+        "speech_text": "“你就真的不打算读书了？不上大学了？难道当黑社会的大姐头那么有趣吗？你要是……你要是遇上跟柳叔一样的事情，我和家明怎么办啊？” “我讨厌你一个女孩子总是谈判谈判的，你觉得我错了，我不该管你的是吧，我把你当成、我当你是……我不要你出事啊……”",
+        "mood_state": "worried"
+      },
+      "id": "383_005",
+      "global_id": 757
+    }
+  ]
+}

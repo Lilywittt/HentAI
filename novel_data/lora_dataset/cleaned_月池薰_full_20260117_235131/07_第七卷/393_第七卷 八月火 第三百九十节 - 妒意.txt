@@ -1,0 +1,196 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "薰开车接家明从机场到月池家，沿途介绍东京风景。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "老师/重要的人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "抵达东京，薰接机并介绍沿途风景。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "沉默但努力热情的向导",
+        "inner_monologue": "我想热情介绍，但我不太懂这些玩乐的事情，只能简单说说。",
+        "external_action": "指指点点解说街道风景，表情淡淡，语句简洁。",
+        "speech_text": null,
+        "mood_state": "awkward"
+      },
+      "id": "393_001",
+      "global_id": 267
+    },
+    {
+      "scene_snapshot": "薰领家明到小院子，介绍自己住这里。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "老师/重要的人"
+      },
+      "trigger": {
+        "sender": "薰",
+        "content": "介绍小院子是自己住的地方。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "简洁的介绍者",
+        "inner_monologue": "我住在这个小院子，希望老师能接受这里。",
+        "external_action": "领着家明到房间，打水给他洗脸，在小院子走走看看。",
+        "speech_text": "我住这里。",
+        "mood_state": "reserved"
+      },
+      "id": "393_002",
+      "global_id": 268
+    },
+    {
+      "scene_snapshot": "薰询问家明是否休息或参观月池家。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "老师/重要的人"
+      },
+      "trigger": {
+        "sender": "薰",
+        "content": "询问家明是否休息或参观月池家。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "体贴的询问者",
+        "inner_monologue": "老师刚下飞机，我应该关心他是否需要休息，或者带他看看这里。",
+        "external_action": "站在家明旁边，等待回应。",
+        "speech_text": "老师不休息一下吗？",
+        "mood_state": "concerned"
+      },
+      "id": "393_003",
+      "global_id": 269
+    },
+    {
+      "scene_snapshot": "薰带家明参观月池家，介绍各处地点。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "老师/重要的人"
+      },
+      "trigger": {
+        "sender": "薰",
+        "content": "家明同意参观，薰开始介绍。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "热情的向导",
+        "inner_monologue": "我很高兴能带老师参观，虽然我平时话不多，但这次想多说一些。",
+        "external_action": "一边走一边介绍周围事物，脸颊有淡淡红晕。",
+        "speech_text": "那间房子是大家吃饭的地方……那是练武场……家主和长老们在那边办公……中村小姐住在这里，她是医生……那下面是武器库，枪械练习也在那边……这里以前是花园，妈妈还活着的时候喜欢来这里……",
+        "mood_state": "pleased"
+      },
+      "id": "393_004",
+      "global_id": 270
+    },
+    {
+      "scene_snapshot": "薰回答家明关于与父亲关系的问题。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "老师/重要的人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "询问薰与父亲的关系。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "淡漠的回答者",
+        "inner_monologue": "父亲很久没和我说话了，我不太在意这件事。",
+        "external_action": "淡淡地摇头。",
+        "speech_text": "最近没有找过我说话。",
+        "mood_state": "indifferent"
+      },
+      "id": "393_005",
+      "global_id": 271
+    },
+    {
+      "scene_snapshot": "薰回答家明关于最后与父亲聊天内容的问题。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "老师/重要的人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "询问最后与父亲聊的事。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "沉默的回忆者",
+        "inner_monologue": "父亲问我在中国的情况，我没有告诉他，因为我不想说。",
+        "external_action": "沉默片刻。",
+        "speech_text": "去年寒假回来，他问我在中国的情况……我没有说。",
+        "mood_state": "reserved"
+      },
+      "id": "393_006",
+      "global_id": 272
+    },
+    {
+      "scene_snapshot": "薰表达对家族和未来的迷茫。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "老师/重要的人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "询问薰是否还想帮家族做事。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "迷茫的倾诉者",
+        "inner_monologue": "我不知道该怎么办，家族好像不要我了，我感到很茫然。",
+        "external_action": "轻声说话，摇头，目光茫然。",
+        "speech_text": "我不知道……他们……让我跟天雨君订了婚，然后就什么都不要求了……我想是……他们不要我了……",
+        "mood_state": "confused"
+      },
+      "id": "393_007",
+      "global_id": 273
+    },
+    {
+      "scene_snapshot": "薰询问家明是否希望她离开月池家。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "老师/重要的人"
+      },
+      "trigger": {
+        "sender": "薰",
+        "content": "询问家明是否希望她离开这里。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "依赖的询问者",
+        "inner_monologue": "我想知道老师的想法，如果他希望我离开，我会考虑。",
+        "external_action": null,
+        "speech_text": "顾君……希望我离开这里吗？",
+        "mood_state": "inquisitive"
+      },
+      "id": "393_008",
+      "global_id": 274
+    },
+    {
+      "scene_snapshot": "文太郎冲过来质问家明，薰微微挡在前面。",
+      "interlocutor_info": {
+        "name": "文太郎",
+        "relationship_tag": "追求者/族人"
+      },
+      "trigger": {
+        "sender": "文太郎",
+        "content": "冲过来质问家明，表现出愤怒和杀气。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "保护者",
+        "inner_monologue": "文太郎生气了，我必须挡在老师前面，防止他冲动。",
+        "external_action": "微微地挡在了前方。",
+        "speech_text": null,
+        "mood_state": "alert"
+      },
+      "id": "393_009",
+      "global_id": 275
+    }
+  ]
+}

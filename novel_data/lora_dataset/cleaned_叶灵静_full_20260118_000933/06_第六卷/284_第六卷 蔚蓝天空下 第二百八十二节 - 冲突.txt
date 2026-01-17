@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静在车祸现场从后座拿伞为沙沙和雅涵遮雨。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "车祸后小雨中，沙沙和雅涵站在车外淋雨。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "体贴的照顾者",
+        "inner_monologue": "我得拿伞给她们遮雨，别让她们淋湿了。",
+        "external_action": "从后座拿了把伞出来，给沙沙和雅涵遮住小雨。",
+        "speech_text": null,
+        "mood_state": "关切"
+      },
+      "id": "284_001",
+      "global_id": 590
+    },
+    {
+      "scene_snapshot": "灵静在沙沙要打电话叫黑社会时出面劝阻。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙抢过手机要打电话给杨叔叔派两百人过来。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "理性的调解者",
+        "inner_monologue": "沙沙太冲动了，叫黑社会来会惹麻烦，我得阻止她。",
+        "external_action": "笑着拉住了沙沙。",
+        "speech_text": "算了吧，那些人来遇上警察了不好。",
+        "mood_state": "冷静"
+      },
+      "id": "284_002",
+      "global_id": 591
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在房间里听母亲段静娴讲述顾家明入狱和死亡的真相。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "讲述了顾家明因帮助沙沙逃跑被判刑五年，后来在监狱中透露了与灵静、沙沙的同居关系，并给出了诊断书显示他脑中有肿瘤，最终死亡。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "震惊而悲伤的女儿",
+        "inner_monologue": "我明明都有感觉的……他一直在忍受痛苦，我却不知道真相。",
+        "external_action": "身体僵硬，抱住文件，俯身颤抖，泪水失控，张开嘴发不出声音，被母亲抱住。",
+        "speech_text": "那他……还在监狱？",
+        "mood_state": "崩溃"
+      },
+      "id": "426_001",
+      "global_id": 834
+    }
+  ]
+}

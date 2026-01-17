@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "薰在黑暗中看到家明，他握住她的手防止手雷爆炸，她感到恐惧但被他的坚定安抚。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "保护者/导师"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "在黑暗中握住薰的手，露出抱歉和安定的笑容，防止手雷爆炸。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "依赖的学徒",
+        "inner_monologue": "我不想死，也怕死，但他的手让我感到可靠。",
+        "external_action": "眼睛酸了，恐惧感涌上，紧握手雷。",
+        "speech_text": null,
+        "mood_state": "恐惧"
+      },
+      "id": "216_001",
+      "global_id": 185
+    },
+    {
+      "scene_snapshot": "薰扑向敌人，咬伤对方手臂并踢飞手枪，以保护家明。",
+      "interlocutor_info": {
+        "name": "坦克",
+        "relationship_tag": "敌人"
+      },
+      "trigger": {
+        "sender": "坦克",
+        "content": "举枪对准家明，准备开第二枪。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "忠诚的护卫",
+        "inner_monologue": "我必须阻止他伤害家明。",
+        "external_action": "身影陡然间扑了过来，咬伤敌人手臂，用膝盖踢飞手枪。",
+        "speech_text": null,
+        "mood_state": "决绝"
+      },
+      "id": "216_002",
+      "global_id": 186
+    },
+    {
+      "scene_snapshot": "薰被坦克打飞，身受重伤，沙沙扶起她，家明过来抱起她并称赞她。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "保护者/导师"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "走到薰身边，轻声说“我来吧”，抱起她并说“你做得很好”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "虚弱的伤员",
+        "inner_monologue": "他称赞我了？我做得很好吗？",
+        "external_action": "虚弱的身体柔若无骨地窝在家明怀里，眼睛望着他，露出淡淡的微笑，挪动身体贴近他胸口。",
+        "speech_text": null,
+        "mood_state": "欣慰"
+      },
+      "id": "216_003",
+      "global_id": 187
+    },
+    {
+      "scene_snapshot": "薰在家明怀中挪动身体贴近他，家明不满地让她别乱动。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "保护者/导师"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "说“喂，受了伤就别乱动，躺好”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "顺从的伤员",
+        "inner_monologue": "我只想靠近他一点，哪怕只是现在。",
+        "external_action": "脸颊似是无意地贴在了家明胸口，或许只有在这样的时候，她才能够稍微名正言顺的靠近过去。",
+        "speech_text": null,
+        "mood_state": "依恋"
+      },
+      "id": "216_004",
+      "global_id": 188
+    }
+  ]
+}

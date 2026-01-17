@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙和灵静放学回家，在游戏室门口遇到高中生搭讪，被水哥等人解围后回到家中。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友/室友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "询问沙沙为什么没打排球赛",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "活泼直率的少女",
+        "inner_monologue": "我担心家明出事，哪还有心思打球啊。",
+        "external_action": "扔下书包，坐到长椅上脱下袜子，耸肩一笑",
+        "speech_text": "还说呢，考完之后跑去找你，结果听说你得罪了一个什么外国女人，被追杀到后山去了，我哪里还顾得上球赛啊，被灵静拉着就跑回来了。",
+        "mood_state": "关切"
+      },
+      "id": "310_001",
+      "global_id": 514
+    },
+    {
+      "scene_snapshot": "沙沙在家中讨论晚餐安排，准备去洗澡。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友/室友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "告知灵静青菜和排骨已准备好，询问烹饪方式",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调皮任性的少女",
+        "inner_monologue": "我饿了，想吃点好的，反正有家明和灵静在厨房忙。",
+        "external_action": "从长椅上跳了起来，脱下外衣",
+        "speech_text": "青菜弄碎煮瘦肉汤！红烧排骨！厨房的事就交给两位爱妃了，朕中午打球出了汗，洗个澡先。",
+        "mood_state": "轻松"
+      },
+      "id": "310_002",
+      "global_id": 515
+    }
+  ]
+}

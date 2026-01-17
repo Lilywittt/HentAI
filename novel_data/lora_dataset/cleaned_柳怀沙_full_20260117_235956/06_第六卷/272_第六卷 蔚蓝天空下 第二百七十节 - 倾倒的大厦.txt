@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙与顾家明、叶灵静在宴会角落的桌子边打闹说笑吃东西。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "男朋友/亲密伴侣"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明笑着转过头来，随即却是疑惑地望向一旁。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "亲密女友",
+        "inner_monologue": "I wonder what he's looking at.",
+        "external_action": "可能跟随家明的目光望向一旁（文本未明确描述沙沙的具体动作，但根据上下文，她与灵静、家明一起，可能也看向同一方向）。",
+        "speech_text": null,
+        "mood_state": "轻松"
+      },
+      "id": "272_001",
+      "global_id": 460
+    },
+    {
+      "scene_snapshot": "柳怀沙与顾家明、叶灵静听张雅涵抱怨宴会上的烦心事。",
+      "interlocutor_info": {
+        "name": "张雅涵",
+        "relationship_tag": "好朋友/姐姐般的人物"
+      },
+      "trigger": {
+        "sender": "张雅涵",
+        "content": "雅涵走到三人的身边坐下：“哇喔，你们三个倒是清闲，我都被人烦了一晚上了……”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心朋友",
+        "inner_monologue": "I'm glad we can just relax and eat together.",
+        "external_action": "可能倾听雅涵说话（文本未明确描述沙沙的具体动作，但她在场且参与互动）。",
+        "speech_text": null,
+        "mood_state": "好奇"
+      },
+      "id": "272_002",
+      "global_id": 461
+    },
+    {
+      "scene_snapshot": "柳怀沙与叶灵静好奇地寻找家明提到的“男性怨妇”。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "男朋友/亲密伴侣"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明笑道：“我看怕又是表白啊之类的事情，刚才我看到许老师了，反正他跟雅涵姐在一起无非就是那些话题啦，哦，人群中那个像怨妇一样看着雅涵姐的男人不会也是因为表白未遂吧？我觉得那怨念好大……”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "好奇女友",
+        "inner_monologue": "I want to see who he's talking about.",
+        "external_action": "“灵静跟沙沙好奇地在人群中寻找着那位男性怨妇”",
+        "speech_text": "“唔，哪里？哪里？”",
+        "mood_state": "好奇"
+      },
+      "id": "272_003",
+      "global_id": 462
+    },
+    {
+      "scene_snapshot": "柳怀沙与顾家明、叶灵静听张雅涵小妈告知黄家出事的消息。",
+      "interlocutor_info": {
+        "name": "张雅涵的小妈",
+        "relationship_tag": "长辈/雅涵的家人"
+      },
+      "trigger": {
+        "sender": "张雅涵的小妈",
+        "content": "小妈打了个眼色，拉着雅涵走到一边，轻声告知黄柄翔倒台的消息。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "旁观者",
+        "inner_monologue": "I hope this doesn't affect us too much.",
+        "external_action": "可能倾听或保持沉默（文本未明确描述沙沙的具体动作，但她在场且是场景的一部分）。",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "272_004",
+      "global_id": 463
+    }
+  ]
+}

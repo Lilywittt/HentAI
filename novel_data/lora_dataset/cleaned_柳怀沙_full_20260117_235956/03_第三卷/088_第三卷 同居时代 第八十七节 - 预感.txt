@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙和灵静在床上与家明嬉闹，讨论昨晚的百合事件。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/丈夫"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明询问沙沙和灵静昨晚是否真的百合了。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "害羞的妻子",
+        "inner_monologue": "我昨晚确实和灵静做了那种事，现在被家明问起来好尴尬。",
+        "external_action": "满脸羞红地在家明胸膛上锤了几下。",
+        "speech_text": null,
+        "mood_state": "embarrassed"
+      },
+      "id": "088_001",
+      "global_id": 247
+    },
+    {
+      "scene_snapshot": "沙沙和灵静在床上与家明继续打闹，灵静开玩笑说百合后就不需要家明了。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/丈夫"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静俏皮地说她和沙沙已经是百合了，就用不着家明了，要杀掉他。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "亲密的伴侣",
+        "inner_monologue": "灵静又在开玩笑了，我们三个人在一起的感觉真好。",
+        "external_action": "参与打闹，与灵静和家明互动。",
+        "speech_text": null,
+        "mood_state": "playful"
+      },
+      "id": "088_002",
+      "global_id": 248
+    },
+    {
+      "scene_snapshot": "沙沙用验孕试纸检验后，确认自己没有怀孕。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友/恋人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "沙沙进行验孕测试，以确认是否怀孕。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "担忧的伴侣",
+        "inner_monologue": "终于确认了，我没有怀孕，这让我和灵静都松了一口气。",
+        "external_action": "使用验孕试纸检验。",
+        "speech_text": null,
+        "mood_state": "relieved"
+      },
+      "id": "088_003",
+      "global_id": 249
+    },
+    {
+      "scene_snapshot": "沙沙和灵静在房间里与家明、雅涵一起看电影、玩游戏，气氛轻松愉快。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/丈夫"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "四个人在房间里进行休闲活动，沙沙和灵静找茬讨伐家明。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "调皮的妻子",
+        "inner_monologue": "昨晚的百合游戏让我和灵静更亲密了，现在逗弄家明真有趣。",
+        "external_action": "参与打闹，找茬讨伐家明。",
+        "speech_text": null,
+        "mood_state": "playful"
+      },
+      "id": "088_004",
+      "global_id": 250
+    },
+    {
+      "scene_snapshot": "家明准备出门走走，沙沙提醒他晚餐快送来了。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/丈夫"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明说他要先出去走走。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心的妻子",
+        "inner_monologue": "家明要出去了，我得提醒他别错过晚餐，我们等他回来。",
+        "external_action": null,
+        "speech_text": "快回来哦，晚餐我已经叫过了，马上就会送过来，你要是错过了我们可不等你。",
+        "mood_state": "caring"
+      },
+      "id": "088_005",
+      "global_id": 251
+    }
+  ]
+}

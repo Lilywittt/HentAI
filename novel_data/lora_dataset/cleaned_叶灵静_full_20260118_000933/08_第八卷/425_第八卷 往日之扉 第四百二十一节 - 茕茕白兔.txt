@@ -1,0 +1,154 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在凌晨与母亲在客厅聊天，分享维也纳的生活。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "“给我讲讲这几年在维也纳的事情吧。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "乖巧女儿",
+        "inner_monologue": "我其实不想多谈这些，但妈妈问了，我就简单说说吧。",
+        "external_action": "她笑起来",
+        "speech_text": "“也没什么可说的啊，练琴，看书，偶尔出去逛街，去多瑙河边坐坐，早上跑跑步啊，练功什么地。”",
+        "mood_state": "平静"
+      },
+      "id": "425_001",
+      "global_id": 827
+    },
+    {
+      "scene_snapshot": "叶灵静在酒店邀请朱利安等人到家里吃饭。",
+      "interlocutor_info": {
+        "name": "朱利安",
+        "relationship_tag": "老师"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "“晚上的时候，去我家吃个饭吧，我爸妈一直都很想正式地感谢老师您对我这几年的照顾。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌学生",
+        "inner_monologue": "这是爸妈的意思，我得表现得体一些。",
+        "external_action": null,
+        "speech_text": "“不会的，那就这样说定了，下午的时候我来接大家。”",
+        "mood_state": "礼貌"
+      },
+      "id": "425_002",
+      "global_id": 828
+    },
+    {
+      "scene_snapshot": "叶灵静在游戏室门口被一个少年搭讪。",
+      "interlocutor_info": {
+        "name": "少年",
+        "relationship_tag": "陌生人"
+      },
+      "trigger": {
+        "sender": "少年",
+        "content": "“小姐，要帮忙吗？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "疏离路人",
+        "inner_monologue": "我不想和任何人说话，只想一个人待着。",
+        "external_action": "灵静看了他几秒钟，扭头走上楼梯",
+        "speech_text": "“我回家……”",
+        "mood_state": "伤感"
+      },
+      "id": "425_003",
+      "global_id": 829
+    },
+    {
+      "scene_snapshot": "叶灵静在厨房打破碗后被母亲赶出。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "母亲赶她出去（动作）",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "心不在焉的女儿",
+        "inner_monologue": "我太恍惚了，连碗都拿不稳。",
+        "external_action": "被母亲赶了出去",
+        "speech_text": null,
+        "mood_state": "恍惚"
+      },
+      "id": "425_004",
+      "global_id": 830
+    },
+    {
+      "scene_snapshot": "朱利安在卧室门口关心叶灵静的情绪。",
+      "interlocutor_info": {
+        "name": "朱利安",
+        "relationship_tag": "老师"
+      },
+      "trigger": {
+        "sender": "朱利安",
+        "content": "“四年的时间没有回来，物是人非的感觉，很难受吗？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌但疏离",
+        "inner_monologue": "我不想谈这个，但得谢谢他的关心。",
+        "external_action": "灵静勉强一笑",
+        "speech_text": "“抱歉。”",
+        "mood_state": "低落"
+      },
+      "id": "425_005",
+      "global_id": 831
+    },
+    {
+      "scene_snapshot": "叶灵静在卧室向母亲询问家明和沙沙的情况。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "“怎么了？今天去了哪里？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "急切女儿",
+        "inner_monologue": "我必须知道他们怎么样了，不能再逃避了。",
+        "external_action": "灵静皱了皱眉，片刻之后，终于深吸了一口气",
+        "speech_text": "“家明和沙沙……他们现在怎么样了？”",
+        "mood_state": "紧张"
+      },
+      "id": "425_006",
+      "global_id": 832
+    },
+    {
+      "scene_snapshot": "叶灵静看到报纸后震惊地询问母亲。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "递给她报纸（动作）",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "震惊",
+        "inner_monologue": "这不可能，沙沙怎么会……",
+        "external_action": "灵静张开了嘴",
+        "speech_text": "“他……怎么了？”",
+        "mood_state": "恐惧"
+      },
+      "id": "425_007",
+      "global_id": 833
+    }
+  ]
+}

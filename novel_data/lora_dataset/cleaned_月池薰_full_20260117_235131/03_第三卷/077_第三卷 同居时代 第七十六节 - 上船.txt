@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明、灵静和沙沙去医院看望受伤的月池薰。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "朋友/保护对象"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明、灵静和沙沙去医院看望月池薰，并从她口中得知崔国华已录过口供。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "受伤的受害者",
+        "inner_monologue": "我受伤了，不能去旅行，但还好被救出来了。",
+        "external_action": "在医院接受治疗，与家明等人交谈。",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "077_001",
+      "global_id": 74
+    }
+  ]
+}

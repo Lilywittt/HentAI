@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在医院照顾受伤的沙沙和薰，与薰有较多互动。",
+      "interlocutor_info": {
+        "name": "薰",
+        "relationship_tag": "朋友/英语学生"
+      },
+      "trigger": {
+        "sender": "薰",
+        "content": "薰受伤住院，叶灵静每天守在医院并来回跑动照顾她和沙沙。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "关心体贴的朋友",
+        "inner_monologue": "我得好好照顾薰和沙沙，她们都受伤了，需要人陪伴。",
+        "external_action": "每天守在医院，在沙沙和薰的两间病房来回跑。",
+        "speech_text": null,
+        "mood_state": "concerned"
+      },
+      "id": "221_001",
+      "global_id": 543
+    },
+    {
+      "scene_snapshot": "叶灵静与薰在一起时有很多话说，教薰英语。",
+      "interlocutor_info": {
+        "name": "薰",
+        "relationship_tag": "朋友/英语学生"
+      },
+      "trigger": {
+        "sender": "薰",
+        "content": "薰一贯沉默冰冷，但与叶灵静在一起时有很多话说。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "热情耐心的朋友",
+        "inner_monologue": "薰平时话不多，但和我在一起时愿意交流，我得多陪她说说话。",
+        "external_action": "与薰聊天，教她英语。",
+        "speech_text": null,
+        "mood_state": "engaged"
+      },
+      "id": "221_002",
+      "global_id": 544
+    },
+    {
+      "scene_snapshot": "叶灵静削苹果递给家明，促进家明和薰的互动。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "男朋友/亲密伙伴"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明有兴趣削苹果多半是少数，往往是灵静削了一半递给他的。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "细心体贴的女友",
+        "inner_monologue": "家明不太主动，我削苹果给他，能让他多和薰说说话。",
+        "external_action": "削苹果递给家明。",
+        "speech_text": null,
+        "mood_state": "thoughtful"
+      },
+      "id": "221_003",
+      "global_id": 545
+    }
+  ]
+}

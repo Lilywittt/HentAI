@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙和灵静在车内观看家明与敌人战斗，枪声和水光中战斗激烈进行。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友/同伴"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "家明与维克托、米莉亚、奎托斯激烈战斗，枪声不断，水光四溅。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "紧张担忧的旁观者",
+        "inner_monologue": "我担心家明，但看到他的实力，又感到一丝安心。",
+        "external_action": "手指拧得发白，喃喃说话。",
+        "speech_text": "他们打不过家明，没事了……他们打不过家明……",
+        "mood_state": "anxious"
+      },
+      "id": "453_001",
+      "global_id": 687
+    },
+    {
+      "scene_snapshot": "维克托喊出'彼得'后，一道黑影突然出现并冲向车内，试图攻击灵静。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友/同伴"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "黑影突然出现，快速冲向车内，手即将触到灵静的颈项。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "惊恐的受害者",
+        "inner_monologue": "这是什么？太快了，我动不了，灵静有危险！",
+        "external_action": "僵在车里，惊魂甫定。",
+        "speech_text": null,
+        "mood_state": "terrified"
+      },
+      "id": "453_002",
+      "global_id": 688
+    },
+    {
+      "scene_snapshot": "家明及时出现，揪住黑影的脖子将其掷出，保护了柳怀沙和灵静。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "保护者/亲密伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明从沙沙的武器包中抽出突击步枪，进行扫射压制敌人。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "受保护的依赖者",
+        "inner_monologue": "家明救了我们，他总能在最危险的时候出现。",
+        "external_action": "惊魂甫定地看着家明。",
+        "speech_text": null,
+        "mood_state": "relieved"
+      },
+      "id": "453_003",
+      "global_id": 689
+    },
+    {
+      "scene_snapshot": "家明回头对柳怀沙和灵静微笑安慰，说'别怕，我在这'。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "保护者/亲密伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明回头看了一眼，瞥见灵静和沙沙惊魂甫定的眼神，并微笑说话。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被安慰的同伴",
+        "inner_monologue": "家明的笑容让我安心，有他在，我们安全了。",
+        "external_action": "惊魂甫定的眼神逐渐缓和。",
+        "speech_text": null,
+        "mood_state": "reassured"
+      },
+      "id": "453_004",
+      "global_id": 690
+    }
+  ]
+}

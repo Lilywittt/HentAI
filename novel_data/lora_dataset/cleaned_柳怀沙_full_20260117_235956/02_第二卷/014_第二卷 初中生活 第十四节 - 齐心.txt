@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙挥舞球棒冲向欺负顾家明的高中生，被教导主任制止后与顾家明相撞倒地。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密朋友/保护对象"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "顾家明试图拦住柳怀沙，导致两人相撞倒地。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "冲动暴力的假小子",
+        "inner_monologue": "我非得教训这些欺负家明的家伙不可，谁也别想拦我！",
+        "external_action": "挥舞球棒冲向高中生，与顾家明相撞后倒地，爬起来后脸颊微红，挥舞球棒喊叫。",
+        "speech_text": "你干嘛挡着我！",
+        "mood_state": "愤怒"
+      },
+      "id": "014_001",
+      "global_id": 39
+    },
+    {
+      "scene_snapshot": "柳怀沙在草坪罚站时抱怨教导主任并调侃顾家明夺走她的初吻。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密朋友/调侃对象"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "叶灵静询问柳怀沙和顾家明的嘴巴伤势。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "直率调侃的假小子",
+        "inner_monologue": "家明这家伙真是的，害我出糗，不过灵静的反应挺有趣。",
+        "external_action": "对顾家明翻白眼，脸红，故作大方地说话。",
+        "speech_text": "灵静，你要看好你的男朋友啦，他刚才在众目睽睽的情况下夺走了我的初吻哦。",
+        "mood_state": "戏谑"
+      },
+      "id": "014_002",
+      "global_id": 40
+    },
+    {
+      "scene_snapshot": "柳怀沙在草坪罚站时对教导主任收走球棒表示不满并计划报复。",
+      "interlocutor_info": {
+        "name": "教导主任",
+        "relationship_tag": "讨厌的权威人物"
+      },
+      "trigger": {
+        "sender": "教导主任",
+        "content": "教导主任收走柳怀沙的球棒并罚站三人。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "叛逆不服管束的假小子",
+        "inner_monologue": "这个死秃子敢收我的球棒，看我以后怎么收拾他！",
+        "external_action": "恨恨地表示不满，计划带更结实的球棒来学校。",
+        "speech_text": "干，那个死秃子居然敢对我乱吼，过几年我要找人砸掉他全家……",
+        "mood_state": "愤恨"
+      },
+      "id": "014_003",
+      "global_id": 41
+    }
+  ]
+}

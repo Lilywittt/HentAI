@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在诊所门口替护士月池薰敷衍一位中年男性追求者。",
+      "interlocutor_info": {
+        "name": "中年男性（唐先生）",
+        "relationship_tag": "追求薰的陌生人"
+      },
+      "trigger": {
+        "sender": "中年男性（唐先生）",
+        "content": "表达对薰的诚恳追求，强调自己的物质条件和诚意，请求给一个开始的机会。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "温柔体贴的调解者",
+        "inner_monologue": "这个人真难缠，说辞这么完美，如果是几年前我可能就点头了，但现在必须推掉，心情好纠结。",
+        "external_action": "保持清新诚恳的笑容，暗地里掐了丈夫顾家明的手一下。",
+        "speech_text": "呃，我明白，不过，的确不是其他的问题，薰她……真的已经有喜欢的人了。",
+        "mood_state": "无奈"
+      },
+      "id": "504_001",
+      "global_id": 993
+    },
+    {
+      "scene_snapshot": "叶灵静的儿子允杰和丈夫顾家明捣乱，编造薰没有身份证的谎言吓跑了追求者。",
+      "interlocutor_info": {
+        "name": "中年男性（唐先生）",
+        "relationship_tag": "被谎言误导的追求者"
+      },
+      "trigger": {
+        "sender": "中年男性（唐先生）",
+        "content": "听到谎言后呆住，询问薰是否真的没有身份证，然后失落地离开。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "尴尬的澄清者",
+        "inner_monologue": "天啊，这两个家伙把事情搞砸了，现在怎么解释才好？",
+        "external_action": "迟疑了一下，试图开口解释。",
+        "speech_text": "呃，唐先生……",
+        "mood_state": "窘迫"
+      },
+      "id": "504_002",
+      "global_id": 994
+    },
+    {
+      "scene_snapshot": "追求者离开后，叶灵静蹲在路灯下，被儿子和丈夫烦扰。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "顽皮的丈夫"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "蹲在旁边环抱妻子肩膀，轻声重复儿子的话，摇晃她。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "娇嗔的妻子",
+        "inner_monologue": "这两个家伙又来了，家里就我一个正经人，快被他们折腾死了。",
+        "external_action": "象征性地挣扎一下，笑出来后爆发，语带娇嗔地瞪丈夫和儿子。",
+        "speech_text": "家里就我一个正经人，再这样迟早被你们折腾死了……",
+        "mood_state": "又好气又好笑"
+      },
+      "id": "504_003",
+      "global_id": 995
+    },
+    {
+      "scene_snapshot": "叶灵静教训儿子允杰不该说那种谎言。",
+      "interlocutor_info": {
+        "name": "允杰",
+        "relationship_tag": "调皮的儿子"
+      },
+      "trigger": {
+        "sender": "允杰",
+        "content": "辩解说是开玩笑，并分享前些天追求者哭泣的趣事。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "无奈的母亲",
+        "inner_monologue": "这孩子怎么这么调皮，跟家明一样爱捣乱，我得好好管教他。",
+        "external_action": "揪起儿子打屁股，没好气地笑出来。",
+        "speech_text": "谁教你说那种话的。那是开玩笑，以后不许跟别人那样说。",
+        "mood_state": "哭笑不得"
+      },
+      "id": "504_004",
+      "global_id": 996
+    },
+    {
+      "scene_snapshot": "叶灵静和小孟哥聊天，谈论家庭和孩子。",
+      "interlocutor_info": {
+        "name": "小孟哥",
+        "relationship_tag": "熟悉的朋友"
+      },
+      "trigger": {
+        "sender": "小孟哥",
+        "content": "称赞顾家明会教孩子，并讨论女儿书慧作为童养媳的事。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "幸福的朋友",
+        "inner_monologue": "家明虽然没正经，但偶尔还是很可靠的，我们的家庭故事真温馨。",
+        "external_action": "磨了磨牙，笑靥中充满幸福。",
+        "speech_text": "其实绝大部分时间还是没个正经的，沙沙也是一样，结果他们三个在家里的时候都跟打仗一样，还好有这种偶尔正经的时候，要不然我咬死他……有这种偶尔正经的时候就已经很可靠了……什么时候还是把书慧接到江海来吧，放我家来养啊，可以跟允杰一块上学放学，别忘了她可是我家预定了的小童养媳，我家也有份的。",
+        "mood_state": "温馨"
+      },
+      "id": "504_005",
+      "global_id": 997
+    },
+    {
+      "scene_snapshot": "薰换好衣服出来，从背后抱住叶灵静。",
+      "interlocutor_info": {
+        "name": "月池薰",
+        "relationship_tag": "亲密的姐妹/朋友"
+      },
+      "trigger": {
+        "sender": "月池薰",
+        "content": "轻轻抱住叶灵静，下巴搁在她肩膀上打招呼。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "亲切的姐妹",
+        "inner_monologue": "薰总是这么温柔，能和她这样亲近真好。",
+        "external_action": "脸颊跟薰的脸碰了碰，微笑起来。",
+        "speech_text": "嗯。对了对了，刚才可是差点就替你打发了那个烦人的家伙了，不过呢，被两个唯恐天下不乱的家伙捣乱之后，一切努力都成了泡影。",
+        "mood_state": "温柔"
+      },
+      "id": "504_006",
+      "global_id": 998
+    }
+  ]
+}

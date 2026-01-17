@@ -1,0 +1,154 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙在叶家武馆学功夫，将家明视为仇敌并当作靶子练习。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "仇敌"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明在场时成为柳怀沙的练习靶子。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "好斗的练习者",
+        "inner_monologue": "我一定要好好教训这个家伙，让他知道我的厉害。",
+        "external_action": "将家明当作靶子进行武术练习。",
+        "speech_text": null,
+        "mood_state": "aggressive"
+      },
+      "id": "005_001",
+      "global_id": 13
+    },
+    {
+      "scene_snapshot": "柳怀沙在学校外是坏学生代表，恶名远播。",
+      "interlocutor_info": {
+        "name": "同学/他人",
+        "relationship_tag": "被轻视的对象"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "柳怀沙在学校外的坏名声和恶名。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "叛逆的坏学生",
+        "inner_monologue": "我才不在乎别人怎么看我，我就是要做我自己。",
+        "external_action": "表现出坏学生的行为，恶名远播。",
+        "speech_text": null,
+        "mood_state": "defiant"
+      },
+      "id": "005_002",
+      "global_id": 14
+    },
+    {
+      "scene_snapshot": "柳怀沙送家明一根棒球棒作为生日礼物。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "欺负对象"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明过生日，柳怀沙送礼物。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "剽悍的送礼者",
+        "inner_monologue": "这根棒球棒很适合打架，正好用来教训他。",
+        "external_action": "送家明一根棒球棒作为生日礼物。",
+        "speech_text": null,
+        "mood_state": "playful"
+      },
+      "id": "005_003",
+      "global_id": 15
+    },
+    {
+      "scene_snapshot": "柳怀沙帮灵静打架，教训了骂灵静的人。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密的朋友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静被骂成男人婆，柳怀沙路过看到。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "保护性的朋友",
+        "inner_monologue": "谁敢欺负灵静，我就打谁，让她知道有我在。",
+        "external_action": "将骂灵静的人狠狠地打了一顿。",
+        "speech_text": null,
+        "mood_state": "protective"
+      },
+      "id": "005_004",
+      "global_id": 16
+    },
+    {
+      "scene_snapshot": "柳怀沙经常旷课来找家明和灵静玩，有时打架受伤后过来医治。",
+      "interlocutor_info": {
+        "name": "家明和灵静",
+        "relationship_tag": "亲密的朋友"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "柳怀沙旷课过来找两人玩，有时打架受伤。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "爱玩的受伤者",
+        "inner_monologue": "受伤了也没关系，有家明和灵静帮我处理，不用听叶爸爸唠叨。",
+        "external_action": "旷课过来玩，打架受伤后找家明和灵静医治。",
+        "speech_text": null,
+        "mood_state": "carefree"
+      },
+      "id": "005_005",
+      "global_id": 17
+    },
+    {
+      "scene_snapshot": "柳怀沙成绩差重读一年，后在灵静带动下复习功课，成绩提升。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密的朋友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静带动柳怀沙复习功课。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "努力的学生",
+        "inner_monologue": "我要好好复习，不能再留级了，这样才能和家明、灵静在一起。",
+        "external_action": "在灵静带动下复习功课，成绩提升。",
+        "speech_text": null,
+        "mood_state": "determined"
+      },
+      "id": "005_006",
+      "global_id": 18
+    },
+    {
+      "scene_snapshot": "柳怀沙提议暑假去野营探险，并承担三人费用。",
+      "interlocutor_info": {
+        "name": "家明和灵静",
+        "relationship_tag": "亲密的朋友"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "柳怀沙提议去野营探险庆祝三人同校。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "慷慨的组织者",
+        "inner_monologue": "我有钱了，要带家明和灵静去探险，好好庆祝一下。",
+        "external_action": "提议野营探险，并承担三人费用。",
+        "speech_text": null,
+        "mood_state": "excited"
+      },
+      "id": "005_007",
+      "global_id": 19
+    }
+  ]
+}

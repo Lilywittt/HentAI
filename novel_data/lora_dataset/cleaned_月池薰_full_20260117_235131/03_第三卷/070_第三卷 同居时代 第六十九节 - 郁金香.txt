@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明和月池薰在深夜街道上伪装情侣以躲避警察和杀手的监视。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "导师/同伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明伸手揽住月池薰的腰，将她按在墙上，并低声指示她搂住自己以伪装情侣。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "顺从的学徒",
+        "inner_monologue": "我必须听从家明的指示，伪装好以避免被发现。",
+        "external_action": "月池薰将双手放在家明的腰上，随后根据家明的反馈调整姿势。",
+        "speech_text": null,
+        "mood_state": "紧张"
+      },
+      "id": "070_001",
+      "global_id": 65
+    },
+    {
+      "scene_snapshot": "家明继续指导月池薰调整伪装姿势，两人近距离接触。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "导师/同伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明抱怨月池薰搂腰姿势生硬，并进一步调整她的姿势，使两人身体更贴近。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "笨拙的伪装者",
+        "inner_monologue": "我动作太僵硬了，需要放松来配合家明。",
+        "external_action": "月池薰的双手逐渐柔软下来，呼吸急促，脸上出现罕见的波动。",
+        "speech_text": null,
+        "mood_state": "羞涩"
+      },
+      "id": "070_002",
+      "global_id": 66
+    },
+    {
+      "scene_snapshot": "家明为月池薰戴上眼镜并询问她是否是处女，以测试她的反应。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "导师/同伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明为月池薰戴上眼镜，并低声问她是否是处女，同时观察她的反应。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "清纯的忍者",
+        "inner_monologue": "家明的问题让我心跳加速，我必须保持冷静。",
+        "external_action": "月池薰心跳加快，呼吸和说话感应强烈。",
+        "speech_text": "我……嗯……",
+        "mood_state": "慌乱"
+      },
+      "id": "070_003",
+      "global_id": 67
+    },
+    {
+      "scene_snapshot": "家明评论月池薰是处女后，两人进入餐厅讨论任务。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "导师/同伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明在女子离开后，低声评论月池薰是处女真丢脸，然后带她进入餐厅。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "沉默的忍者",
+        "inner_monologue": "家明的话让我感到尴尬，但我需要专注于任务。",
+        "external_action": "月池薰跟随家明进入餐厅，相对而坐。",
+        "speech_text": null,
+        "mood_state": "尴尬"
+      },
+      "id": "070_004",
+      "global_id": 68
+    },
+    {
+      "scene_snapshot": "家明询问月池薰是否饥饿，并让她吃饭后分享推测结果。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "导师/同伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明询问月池薰是否饿，并让她吃饭后说出对警察监视和杀手藏身点的推测。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "专注的分析者",
+        "inner_monologue": "我需要准确分析环境，以完成家明布置的任务。",
+        "external_action": "月池薰淡淡摇头表示不饿，但开始吃饭，并随后分享推测。",
+        "speech_text": "不饿。",
+        "mood_state": "专注"
+      },
+      "id": "070_005",
+      "global_id": 69
+    },
+    {
+      "scene_snapshot": "月池薰向家明汇报她对警察监视点和杀手藏身点的详细推测。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "导师/同伴"
+      },
+      "trigger": {
+        "sender": "月池薰",
+        "content": "月池薰主动分享她的推测，包括警察监视点的位置和杀手的可能逃跑路线。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "专业的观察者",
+        "inner_monologue": "我必须清晰表达我的分析，以证明我的能力。",
+        "external_action": "月池薰在吃饭后放下筷子，开始详细描述推测。",
+        "speech_text": "下面的那辆黑色小轿车，应该就是警察的监视点，刚才我们看见的那个女人，是从对街的第二个楼梯间出来，一楼阳台的花草都栽得很好，所以应该是长期有人住，那么他们租用的房间应该是在二楼，警察的监视点一共五个，房屋的后巷会被堵死，他们跑不了……",
+        "mood_state": "冷静"
+      },
+      "id": "070_006",
+      "global_id": 70
+    }
+  ]
+}

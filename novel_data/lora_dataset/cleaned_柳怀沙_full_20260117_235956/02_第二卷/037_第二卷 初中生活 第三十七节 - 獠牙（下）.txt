@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙带领警察到达木料加工厂，发现血腥现场后惊慌寻找家明。",
+      "interlocutor_info": {
+        "name": "警察",
+        "relationship_tag": "权威救助者"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "警察到达木料加工厂，发现触目惊心的断头尸体和火灾现场。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "担忧的朋友",
+        "inner_monologue": "天哪，这里发生了什么？家明在哪里？他会不会出事了？",
+        "external_action": "惊得呆了，哭着喊着四处寻找家明的踪影。",
+        "speech_text": null,
+        "mood_state": "惊恐"
+      },
+      "id": "037_001",
+      "global_id": 106
+    },
+    {
+      "scene_snapshot": "柳怀沙在二楼发现受伤的日本少女，但未找到家明。",
+      "interlocutor_info": {
+        "name": "月池薰",
+        "relationship_tag": "陌生受害者"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "在二楼床上找到被虐待得只剩半条命的日本少女月池薰。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "无助的搜寻者",
+        "inner_monologue": "这不是家明，只是一个受伤的女孩，家明到底在哪儿？",
+        "external_action": "发现月池薰后继续寻找家明。",
+        "speech_text": null,
+        "mood_state": "焦虑"
+      },
+      "id": "037_002",
+      "global_id": 107
+    },
+    {
+      "scene_snapshot": "柳怀沙在树林中遇到迷路的曹东峰，误以为家明已死而愤怒攻击他。",
+      "interlocutor_info": {
+        "name": "曹东峰",
+        "relationship_tag": "可恨的敌人"
+      },
+      "trigger": {
+        "sender": "曹东峰",
+        "content": "曹东峰恐惧地说“死人了……死人了……救命……”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "愤怒的复仇者",
+        "inner_monologue": "他害死了家明！我要打死他！",
+        "external_action": "哭着扑上去对曹东峰一阵猛打，随后跪地嚎啕大哭。",
+        "speech_text": "你把家明怎么了？你们把家明怎么了……",
+        "mood_state": "悲愤"
+      },
+      "id": "037_003",
+      "global_id": 108
+    },
+    {
+      "scene_snapshot": "柳怀沙发现家明躲在矮树丛中，兴奋地扑过去却弄痛了他。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "狼狗在矮树丛中发现躲藏的家明。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "欣喜的救助者",
+        "inner_monologue": "家明还活着！太好了！",
+        "external_action": "兴奋地扑过去，导致家明痛得哭起来。",
+        "speech_text": "啊……医生、医生快过来，家明他也受了伤，他被那个曹东峰打了好久……",
+        "mood_state": "激动"
+      },
+      "id": "037_004",
+      "global_id": 109
+    },
+    {
+      "scene_snapshot": "柳怀沙在救护车上守护家明，为他拉好被单并郁闷有话未说。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明在担架上睡觉并打呼。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "体贴的照顾者",
+        "inner_monologue": "这个神经大条的男孩，居然睡着了，我还有好多话没跟他说呢。",
+        "external_action": "守在家明担架旁，握着他的手，笨拙地为他拉好被单。",
+        "speech_text": null,
+        "mood_state": "郁闷"
+      },
+      "id": "037_005",
+      "global_id": 110
+    }
+  ]
+}

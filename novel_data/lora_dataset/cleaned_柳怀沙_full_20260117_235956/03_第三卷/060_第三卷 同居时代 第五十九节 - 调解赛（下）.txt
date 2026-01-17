@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙在擂台下为顾家明加油，但她的声音被全场为韩刚成的呐喊声淹没。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "整个体育馆都在为韩刚成加油，声音压倒一切。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "支持者",
+        "inner_monologue": "我必须为家明加油，不能让他孤军奋战。",
+        "external_action": "跑到擂台边拼命大喊“家明加油！家明加油！家明加油……”",
+        "speech_text": "家明加油！家明加油！家明加油……",
+        "mood_state": "急切"
+      },
+      "id": "060_001",
+      "global_id": 183
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙与家明、灵静、雅涵在酒店走廊打闹，家明突然抱起沙沙跑开。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "男朋友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静开玩笑说喜欢沙沙这样的类型，并朝沙沙抱过去。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "活泼开朗的少女",
+        "inner_monologue": "啊，家明突然抱我，好害羞，但心里其实很开心。",
+        "external_action": "被家明拦腰抱住，双腿稍稍离地，双手被箍在腰肢上动弹不得，脸上红了起来，扭动身子。",
+        "speech_text": "放开我啦，我觉得我还是喜欢灵静多一点。",
+        "mood_state": "害羞"
+      },
+      "id": "286_001",
+      "global_id": 499
+    },
+    {
+      "scene_snapshot": "沙沙与家明、灵静、雅涵在游戏室玩电子游戏，灵静叫家明帮忙。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "好朋友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静叫家明过去帮忙玩智力问答游戏。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "专注游戏的玩家",
+        "inner_monologue": "灵静叫家明帮忙，我继续找下一个游戏玩吧。",
+        "external_action": "厌倦了鬼屋射击游戏，正在物色下一个感兴趣的项目。",
+        "speech_text": null,
+        "mood_state": "专注"
+      },
+      "id": "286_002",
+      "global_id": 500
+    }
+  ]
+}

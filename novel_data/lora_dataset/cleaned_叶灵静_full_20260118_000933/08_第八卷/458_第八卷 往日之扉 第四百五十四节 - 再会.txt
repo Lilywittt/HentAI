@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静和沙沙在厨房准备早餐，灵静起床后加入她们。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友/姐妹"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙用手比了比：“好可惜的头发啊，你从小就留起来的……”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "独立务实的女性",
+        "inner_monologue": "我一个人住，短发更方便，不用花时间打理。",
+        "external_action": "笑着挣扎",
+        "speech_text": "“方便行动，而且一个人住，就不用打理自己了。”",
+        "mood_state": "轻松"
+      },
+      "id": "458_001",
+      "global_id": 916
+    },
+    {
+      "scene_snapshot": "灵静和沙沙在餐桌前吃早餐，讨论回家见父母的事情。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/复杂关系者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明吃着东西：“伸头一刀，缩头也是一刀？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "体贴担忧的伴侣",
+        "inner_monologue": "爸妈肯定会生气，我得先想好怎么解释，别让家明再受伤害。",
+        "external_action": "扑哧一声笑了出来，白了他一眼",
+        "speech_text": "“算了吧，今天还是别了，都还没想好怎么跟爸妈说呢，算什么事啊……爸妈准得再打死你一次去。”",
+        "mood_state": "嗔怪"
+      },
+      "id": "458_002",
+      "global_id": 917
+    },
+    {
+      "scene_snapshot": "灵静决定在家打扫，担心父母因沙沙持枪而担忧。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友/姐妹"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙倒有些担心那帮吸血鬼再来，跟家明说了一下",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "细心顾家的女性",
+        "inner_monologue": "我得把家里打扫一下，也许回家看看爸妈，他们可能担心沙沙持枪的事。",
+        "external_action": null,
+        "speech_text": "“我把家里打扫一下吧，也许回家看看爸妈他们。沙沙昨晚拉着我跑掉，手上是拿了枪的，要是有人在他们面前提一下，他们一准得担心。”",
+        "mood_state": "担忧"
+      },
+      "id": "458_003",
+      "global_id": 918
+    },
+    {
+      "scene_snapshot": "灵静在家明出门前，告诉他雅涵生女的消息并劝他去看望。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/复杂关系者"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "临出门时，空气安静，灵静准备说出重要消息",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "理智包容的伴侣",
+        "inner_monologue": "我知道这很复杂，雅涵姐爱家明，我们像亲人一样，总得让他知道并处理这件事。",
+        "external_action": "张了张嘴，好半晌，方才说道，抿了抿嘴，想了许久",
+        "speech_text": "“雅涵姐帮你生了个女儿。我知道我现在说什么都不理智，雅涵姐真的很爱你，为了淘淘她差点跟家里人决裂。好多人跟她求婚她也拒绝了，她也以为你死了，心里一直只有你一个，我不知道该怎么办。可是……我们四个人都认识这么多年了，其实就像亲人一样，不管什么事。以后总能坐下来说清楚的。现在……我觉得你应该去看看她，总得让她知道你回来了……”",
+        "mood_state": "纠结"
+      },
+      "id": "458_004",
+      "global_id": 919
+    }
+  ]
+}

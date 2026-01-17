@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静在期末考试中取得优异成绩，与家明和沙沙一起被老师和其他同学注意到。",
+      "interlocutor_info": {
+        "name": "老师和其他同学",
+        "relationship_tag": "旁观者"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "灵静期末考试成绩位列全年级第三，家明成绩较差，两人站在一起引起他人关注。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "品学兼优的乖宝宝",
+        "inner_monologue": "我成绩好是应该的，但家明这样会不会被老师批评？",
+        "external_action": "站在家明身边",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "180_001",
+      "global_id": 476
+    },
+    {
+      "scene_snapshot": "沙沙因补习班压力翘家，来到叶氏武馆与灵静和家明一起生活。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙气呼呼地踢开叶氏武馆的门，宣布翘家翘课。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "关心朋友的好姐妹",
+        "inner_monologue": "沙沙又翘家了，我得帮她安抚叶爸爸叶妈妈。",
+        "external_action": "与叶爸爸叶妈妈一起处理沙沙翘家的事",
+        "speech_text": null,
+        "mood_state": "关切"
+      },
+      "id": "180_002",
+      "global_id": 477
+    },
+    {
+      "scene_snapshot": "灵静、沙沙和家明在武馆小阁楼里享受悠闲的暑假时光。",
+      "interlocutor_info": {
+        "name": "家明和沙沙",
+        "relationship_tag": "亲密伴侣和朋友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "三人在小阁楼里看书、聊天、玩游戏，享受静谧的午后。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "温柔体贴的女友",
+        "inner_monologue": "这样的日子真美好，和家明、沙沙在一起是最幸福的时光。",
+        "external_action": "穿着清凉衣裙躺在床上看漫画或言情小说",
+        "speech_text": null,
+        "mood_state": "幸福"
+      },
+      "id": "180_003",
+      "global_id": 478
+    },
+    {
+      "scene_snapshot": "灵静为未来做长远打算，与家明和沙沙规划积蓄和共同生活。",
+      "interlocutor_info": {
+        "name": "家明和沙沙",
+        "relationship_tag": "亲密伴侣和朋友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "三人有三十多万积蓄，灵静考虑未来进大学、买房买车等计划。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "有远见的规划者",
+        "inner_monologue": "我得好好规划这些钱，确保我们三个的未来能安稳幸福。",
+        "external_action": "与家明和沙沙讨论积蓄和未来计划",
+        "speech_text": null,
+        "mood_state": "深思熟虑"
+      },
+      "id": "180_004",
+      "global_id": 479
+    }
+  ]
+}

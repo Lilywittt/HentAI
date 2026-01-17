@@ -1,0 +1,175 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙和灵静通过雅涵的电话联系家明，试探他是否生气离家出走。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/家人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明在电话中解释自己只是出来兜风，没有生气。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "心虚试探的伴侣",
+        "inner_monologue": "我担心家明生气，所以用这种方式试探他。",
+        "external_action": "语气心虚地询问家明在哪里。",
+        "speech_text": "家明……你在哪里啊……",
+        "mood_state": "心虚"
+      },
+      "id": "385_001",
+      "global_id": 632
+    },
+    {
+      "scene_snapshot": "沙沙听到家明没有生气，放下心来，但笑声欲盖弥彰。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/家人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明表示没事，会马上回头并买糖炒栗子。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "放松的伴侣",
+        "inner_monologue": "太好了，家明没生气，我可以放心了。",
+        "external_action": "放下心来，发出欲盖弥彰的笑声。",
+        "speech_text": "呵呵，我们只是有些奇怪你跑哪去了，没什么事的，你如果有事的话不用急着回来，哈哈……",
+        "mood_state": "放松"
+      },
+      "id": "385_002",
+      "global_id": 633
+    },
+    {
+      "scene_snapshot": "家明回到雅涵别墅，沙沙在玩对打游戏时扁着嘴望着他。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/家人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明进门后提醒沙沙雅涵要趁机打败她。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "赌气的伴侣",
+        "inner_monologue": "家明回来了，但我还在为之前的事情有点不开心。",
+        "external_action": "扁着嘴望着家明，然后瞪他一眼转身继续游戏。",
+        "speech_text": null,
+        "mood_state": "赌气"
+      },
+      "id": "385_003",
+      "global_id": 634
+    },
+    {
+      "scene_snapshot": "沙沙在凌晨发现家明起床，端咖啡给他并依偎在他怀里。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/家人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明询问沙沙是否睡不着。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "依赖的伴侣",
+        "inner_monologue": "我只是发现家明起来了，想和他待在一起。",
+        "external_action": "端咖啡给家明，依偎在他怀里。",
+        "speech_text": "只是发现你起来了……",
+        "mood_state": "依恋"
+      },
+      "id": "385_004",
+      "global_id": 635
+    },
+    {
+      "scene_snapshot": "沙沙向家明倾诉自己的烦恼，觉得自己不如灵静懂事。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/家人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明捏捏沙沙的脸颊，询问她为什么说这个。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "自我怀疑的伴侣",
+        "inner_monologue": "我担心自己一直不懂事，会给家明和灵静添麻烦。",
+        "external_action": "在家明怀里裹紧被子，小声咕哝。",
+        "speech_text": "喂，家明，是不是我一直以来都很不懂事？给你和灵静添麻烦？",
+        "mood_state": "忧虑"
+      },
+      "id": "385_005",
+      "global_id": 636
+    },
+    {
+      "scene_snapshot": "沙沙继续倾诉自己的不自信和未来迷茫。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/家人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明倾听并轻拍沙沙，没有立即回应。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "迷茫的伴侣",
+        "inner_monologue": "我什么都不会，担心未来会被家明和灵静讨厌。",
+        "external_action": "在家明怀里轻声说话，表达自我怀疑。",
+        "speech_text": "我想做点自己的事情，可又不知道该做什么……以前我们刚认识的时候，你还是个小不点呢……",
+        "mood_state": "迷茫"
+      },
+      "id": "385_006",
+      "global_id": 637
+    },
+    {
+      "scene_snapshot": "沙沙提到想管理沙竹帮但担心家明不喜欢，决定放弃。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/家人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明保证不讨厌沙沙，只想永远保护她。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "妥协的伴侣",
+        "inner_monologue": "家明保证不讨厌我，但我还是想为他放弃自己的想法。",
+        "external_action": "脸颊贴在家明怀里，嘟囔着说话。",
+        "speech_text": "说大话……这个时候的保证都是不可信的……不过……好吧，我也知道一个女孩子立志当黑道大姐头很乱来，家明你如果不希望我继续做下去，那我就不再关心沙竹帮的事情了……",
+        "mood_state": "妥协"
+      },
+      "id": "385_007",
+      "global_id": 638
+    },
+    {
+      "scene_snapshot": "家明鼓励沙沙去做想做的事，沙沙感到意外和不解。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/家人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明询问沙沙是否只能想到管理沙竹帮这一件想做的事。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "意外的伴侣",
+        "inner_monologue": "家明居然鼓励我去做？我以为他会反对。",
+        "external_action": "扭过头来不解地望着家明。",
+        "speech_text": "呃……那个，大概是这样啦，反正我从来就没有什么理想……",
+        "mood_state": "意外"
+      },
+      "id": "385_008",
+      "global_id": 639
+    }
+  ]
+}

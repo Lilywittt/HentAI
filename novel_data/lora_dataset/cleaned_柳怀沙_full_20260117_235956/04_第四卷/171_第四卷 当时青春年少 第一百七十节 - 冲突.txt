@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在街口冲突中为保护老太太而受伤，被送往医院。",
+      "interlocutor_info": {
+        "name": "阿水",
+        "relationship_tag": "邻居/熟人"
+      },
+      "trigger": {
+        "sender": "阿水",
+        "content": "告诉家明沙沙受伤并被救护车送到医院的消息。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "受伤的旁观者",
+        "inner_monologue": "我肚子痛得厉害，但看到老太太被推倒，我必须去帮她。",
+        "external_action": "冲过去推开攻击老太太的人，与几个人发生冲突，导致受伤。",
+        "speech_text": "你想干什么！老人你们也碰！",
+        "mood_state": "愤怒"
+      },
+      "id": "171_001",
+      "global_id": 372
+    }
+  ]
+}

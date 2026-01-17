@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "武术社成员冲上擂台攻击家明，场面混乱。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密朋友/保护对象"
+      },
+      "trigger": {
+        "sender": "武术社成员",
+        "content": "冲上擂台攻击家明，引发混乱。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "保护者",
+        "inner_monologue": "我得赶紧拿球棒去帮家明！",
+        "external_action": "连忙回座位拿球棒。",
+        "speech_text": null,
+        "mood_state": "焦急"
+      },
+      "id": "061_001",
+      "global_id": 184
+    },
+    {
+      "scene_snapshot": "家明用防狼喷剂击退攻击者后走下擂台。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密朋友/保护对象"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "走下擂台，准备离开。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "关心者",
+        "inner_monologue": "家明没事了，我差点想抱住他，但得克制一下。",
+        "external_action": "差点像在家里那样冲上来抱住他，不过终于还是抑制住，拿着球棒轻轻打他一下。",
+        "speech_text": null,
+        "mood_state": "欣慰"
+      },
+      "id": "061_002",
+      "global_id": 185
+    },
+    {
+      "scene_snapshot": "灵静提到在厕所遇到月池薰，并邀请她一起学武术和英语。",
+      "interlocutor_info": {
+        "name": "叶灵静",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "说在厕所遇到月池薰，并提议一起教她武术和英语。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "好奇者",
+        "inner_monologue": "月池薰？那个日本女孩？这真是意外之喜！",
+        "external_action": "听了灵静的话，也有些惊喜。",
+        "speech_text": "真的是她？",
+        "mood_state": "惊喜"
+      },
+      "id": "061_003",
+      "global_id": 186
+    },
+    {
+      "scene_snapshot": "家明同意灵静的提议，三人准备教月池薰武术。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密朋友/保护对象"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "开心地笑了起来，同意灵静的提议。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "支持者",
+        "inner_monologue": "家明看起来很开心，我也支持这个计划。",
+        "external_action": "点头。",
+        "speech_text": null,
+        "mood_state": "赞同"
+      },
+      "id": "061_004",
+      "global_id": 187
+    }
+  ]
+}

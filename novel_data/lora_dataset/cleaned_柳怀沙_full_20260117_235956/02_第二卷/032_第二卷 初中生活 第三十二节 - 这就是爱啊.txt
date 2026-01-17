@@ -1,0 +1,175 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙和家明被关在房间里，沙沙踢门大骂后吃饭，担心饭菜有毒。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密朋友/保护对象"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "吃到一半，忽然反应过来：“啊，要是这饭菜里有毒药怎么办。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冲动直率",
+        "inner_monologue": "我得确认家明没事，不能让他中毒。",
+        "external_action": "迟疑半晌，问了问家明有没有感到肚子痛什么的，没有心情再吃下去。",
+        "speech_text": "“啊，要是这饭菜里有毒药怎么办。”",
+        "mood_state": "担忧"
+      },
+      "id": "032_001",
+      "global_id": 83
+    },
+    {
+      "scene_snapshot": "沙沙坐在床头低声咒骂，幻想逃生策略，偶尔安慰家明。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密朋友/保护对象"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙坐在床头低声咒骂，幻想着一个个逃生策略，偶尔安慰家明一句“别怕”。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "勇敢保护者",
+        "inner_monologue": "我不能让家明害怕，得想办法逃出去保护他。",
+        "external_action": "低声咒骂，幻想逃生策略，安慰家明。",
+        "speech_text": "“别怕”",
+        "mood_state": "坚定"
+      },
+      "id": "032_002",
+      "global_id": 84
+    },
+    {
+      "scene_snapshot": "家明提议沙沙睡觉，沙沙担心家明感冒，邀请他同床。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密朋友/保护对象"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明道：“沙沙你睡吧。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "体贴关心",
+        "inner_monologue": "家明不能睡桌子，会感冒的，我得让他一起睡床。",
+        "external_action": "跳了起来，犹豫一会儿，提议一块睡床上。",
+        "speech_text": "“那怎么能行！……干脆……干脆一块睡这张床上吧，反正穿着衣服睡。”",
+        "mood_state": "关切"
+      },
+      "id": "032_003",
+      "global_id": 85
+    },
+    {
+      "scene_snapshot": "沙沙和家明同床，沙沙起初僵硬，后来不适应地动来动去。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密朋友/保护对象"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "两人同床，没有枕头，被子薄。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "紧张羞涩",
+        "inner_monologue": "第一次和家明同床，好紧张，但得适应一下。",
+        "external_action": "直挺挺地躺在那儿不敢动，俨如僵尸一般，不久后嘟囔一句，很不适应地在床上动起来。",
+        "speech_text": "“连枕头都没有……”",
+        "mood_state": "不安"
+      },
+      "id": "032_004",
+      "global_id": 86
+    },
+    {
+      "scene_snapshot": "沙沙半夜起床，小心地为家明盖被子，然后去上厕所。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密朋友/保护对象"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙半爬起身，伸手在家明眼前晃了几晃，似乎要爬过家明的身体下床。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "细心体贴",
+        "inner_monologue": "家明可能冷了，我得给他盖好被子，不能吵醒他。",
+        "external_action": "跳了回去，拉着那床毯子很小心地盖在了家明身上，还为他拉了拉肩膀处的被沿，爬下床去上厕所。",
+        "speech_text": null,
+        "mood_state": "温柔"
+      },
+      "id": "032_005",
+      "global_id": 87
+    },
+    {
+      "scene_snapshot": "沙沙悄悄抓住家明的手当枕头，侧身搂住他睡觉，并向灵静道歉。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密朋友/保护对象"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "没有枕头，寒冷，沙沙不舒服地蜷缩。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "依赖深情",
+        "inner_monologue": "好冷，抱着家明会暖和些，但得向灵静道歉，这是爱啊。",
+        "external_action": "悄悄地抓住了家明的一只手，轻轻地将他的手横在床上，侧身搂住了家明的身子。",
+        "speech_text": "“灵静，抱歉哦，就这一次……”",
+        "mood_state": "依恋"
+      },
+      "id": "032_006",
+      "global_id": 88
+    },
+    {
+      "scene_snapshot": "第二天早上沙沙脸红尴尬，又开始破口大骂。",
+      "interlocutor_info": {
+        "name": "环境",
+        "relationship_tag": "无特定对象"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "早上醒来，同床后的尴尬。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "掩饰害羞",
+        "inner_monologue": "好尴尬，昨晚抱着家明睡了，得用骂人来掩饰。",
+        "external_action": "脸红得像番茄一般，又开始破口大骂起来。",
+        "speech_text": null,
+        "mood_state": "羞涩"
+      },
+      "id": "032_007",
+      "global_id": 89
+    },
+    {
+      "scene_snapshot": "曹东峰要打家明，沙沙被堵嘴前大声警告。",
+      "interlocutor_info": {
+        "name": "曹东峰",
+        "relationship_tag": "敌人/威胁"
+      },
+      "trigger": {
+        "sender": "曹东峰",
+        "content": "曹东峰一边破口骂着一边走了过来，准备打家明。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "愤怒保护者",
+        "inner_monologue": "曹东峰敢动家明，我绝不放过他！",
+        "external_action": "大声喊道：“曹东峰，你要干什么！你敢动他我不会放过你！”",
+        "speech_text": "“曹东峰，你要干什么！你敢动他我不会放过你！”",
+        "mood_state": "愤怒"
+      },
+      "id": "032_008",
+      "global_id": 90
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静、家明和沙沙因跷课被学校严厉批评后，家明和沙沙想安慰灵静。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明与沙沙本想安慰一下心灵受到严重摧残的灵静",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "调皮叛逆的好学生",
+        "inner_monologue": "我其实觉得这次跷课很刺激，不像表面那么受打击。",
+        "external_action": "吐舌一笑",
+        "speech_text": "好刺激，下次还要玩……",
+        "mood_state": "兴奋"
+      },
+      "id": "018_001",
+      "global_id": 81
+    },
+    {
+      "scene_snapshot": "灵静、家明和沙沙在柳家别墅玩《皇帝》游戏，讨论妃子。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明往往是开着玩笑在旁边插嘴",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "害羞但好胜的女孩",
+        "inner_monologue": "我虽然脸红，但也要坚持自己的看法，不能总被他们开玩笑。",
+        "external_action": "俏脸微红，偶尔与两人争得面红耳赤",
+        "speech_text": null,
+        "mood_state": "争强好胜"
+      },
+      "id": "018_002",
+      "global_id": 82
+    },
+    {
+      "scene_snapshot": "灵静、家明和沙沙在柳家别墅分工做家务，灵静负责买菜煮饭。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "三人分工合作，往往是灵静买菜煮饭，家明炒菜，沙沙打杂",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "勤劳持家的女孩",
+        "inner_monologue": "我喜欢这样和家明、沙沙一起做饭，感觉像一家人。",
+        "external_action": "买菜煮饭",
+        "speech_text": null,
+        "mood_state": "温馨"
+      },
+      "id": "018_003",
+      "global_id": 83
+    },
+    {
+      "scene_snapshot": "灵静和家明在厨房忙碌，围着哆啦A梦围裙准备午饭。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "灵静与家明围着胸前有哆啦A梦图案的小围裙，忙碌地跑来跑去",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "活泼可爱的女孩",
+        "inner_monologue": "和家明一起做饭真开心，这些小细节让生活更有趣。",
+        "external_action": "围着围裙忙碌地跑来跑去",
+        "speech_text": null,
+        "mood_state": "快乐"
+      },
+      "id": "018_004",
+      "global_id": 84
+    },
+    {
+      "scene_snapshot": "灵静、家明和沙沙晚上在沙发上看电视，打闹玩耍。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "两个女孩子会穿了睡袍与家明一块窝在长长的沙发上看电视，三人翻滚打闹",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "无忧无虑的玩伴",
+        "inner_monologue": "这样的夜晚太美好了，和家明、沙沙在一起什么都不用想。",
+        "external_action": "穿着睡袍与家明、沙沙在沙发上看电视、打闹",
+        "speech_text": null,
+        "mood_state": "放松"
+      },
+      "id": "018_005",
+      "global_id": 85
+    }
+  ]
+}

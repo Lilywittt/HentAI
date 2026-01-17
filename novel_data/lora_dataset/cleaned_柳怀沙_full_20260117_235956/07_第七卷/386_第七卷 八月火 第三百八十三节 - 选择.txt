@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙搬出后，灵静和家明在家中讨论她的搬离和三人关系。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友/同居伙伴"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "抱怨沙沙搬出去，觉得少了点什么，并质疑沙沙搬去沙竹帮的动机。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "缺席但被讨论的对象",
+        "inner_monologue": "我搬出去是为了学习管理沙竹帮，但灵静好像不太高兴，我得努力平衡帮派和学习来让她放心。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "determined"
+      },
+      "id": "386_001",
+      "global_id": 640
+    },
+    {
+      "scene_snapshot": "灵静和家明在散步时回忆三人过往，讨论如果没有红酒事件可能的发展。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友/同居伙伴"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "回忆三人从小到大的关系，并假设如果没有红酒事件，三人可能走向悲剧。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "缺席但被回忆的对象",
+        "inner_monologue": "灵静在怀念我们的过去，我也想念和他们在一起的日子，但搬出去是为了我的责任。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "nostalgic"
+      },
+      "id": "386_002",
+      "global_id": 641
+    },
+    {
+      "scene_snapshot": "灵静和家明决定去看沙沙，并在沙沙的住处过夜。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友/同居伙伴"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "提议一起去看沙沙，不想回家。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被探望的对象",
+        "inner_monologue": "灵静和家明来看我了，真好，虽然搬出来了，但我们的关系还是这么紧密。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "happy"
+      },
+      "id": "386_003",
+      "global_id": 642
+    },
+    {
+      "scene_snapshot": "沙沙在沙竹帮学习管理，并尝试做饭给家明吃。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明单独去看沙沙，沙沙兴高采烈地学做饭。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "努力学习的新手",
+        "inner_monologue": "我想学做饭给家明吃，像灵静那样照顾他，但我不太擅长，得加油。",
+        "external_action": "去超市买东西学做饭，但天分不高，最后需要家明帮忙。",
+        "speech_text": null,
+        "mood_state": "enthusiastic"
+      },
+      "id": "386_004",
+      "global_id": 643
+    },
+    {
+      "scene_snapshot": "雅涵提议灵静去维也纳学钢琴，灵静犹豫并看向家明和沙沙。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "老师/朋友"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "提议灵静去维也纳音乐学院面试，灵静表示不想出国。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心朋友的支持者",
+        "inner_monologue": "灵静有机会去维也纳学钢琴，这是好事，但我不想她离开，我们三个应该在一起。",
+        "external_action": "灵静望望家明和沙沙，沙沙作为在场角色可能有关注反应。",
+        "speech_text": null,
+        "mood_state": "concerned"
+      },
+      "id": "386_005",
+      "global_id": 644
+    }
+  ]
+}

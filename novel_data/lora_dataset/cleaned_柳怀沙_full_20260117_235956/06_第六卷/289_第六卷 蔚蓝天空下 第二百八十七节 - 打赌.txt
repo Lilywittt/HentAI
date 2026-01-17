@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙与顾家明、叶灵静在宴会厅入口处交谈，随后推了顾家明一把让他去东方婉那边。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密朋友/恋人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "顾家明与叶灵静、柳怀沙站在一起说着话，随后似乎也看到了东方婉在这边，灵静隐蔽地挥手打了个招呼，接着，家明也望了过来。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "活泼直率的伙伴",
+        "inner_monologue": "我得推家明一把，让他别磨蹭了，东方婉在等着呢。",
+        "external_action": "沙沙推了家明一把，一脚扫在他屁股上。",
+        "speech_text": null,
+        "mood_state": "催促"
+      },
+      "id": "289_001",
+      "global_id": 504
+    },
+    {
+      "scene_snapshot": "柳怀沙坐在大厅边缘的圆桌旁，向东方婉挥手示意。",
+      "interlocutor_info": {
+        "name": "东方婉",
+        "relationship_tag": "朋友/合作者"
+      },
+      "trigger": {
+        "sender": "东方婉",
+        "content": "东方婉点了点头：“那我先跟你坐到那一桌去，然后……我大概查了几个跟那帮纨绔子弟没什么关系的经销商，你如果看到雷庆过来烦我，就准备帮忙好了。”她说着，率先向叶爸叶妈那边走了过去，脸上堆起笑容，准备打招呼。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "支持性的朋友",
+        "inner_monologue": "东方婉过来了，我得配合她演戏，让她顺利打招呼。",
+        "external_action": "坐到那边的沙沙也站起来挥了挥手。",
+        "speech_text": null,
+        "mood_state": "配合"
+      },
+      "id": "289_002",
+      "global_id": 505
+    }
+  ]
+}

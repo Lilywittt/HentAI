@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙和薰被坦克重伤后，沙沙拒绝独自逃跑，面对坦克的威胁，她准备与薰同生共死。",
+      "interlocutor_info": {
+        "name": "坦克",
+        "relationship_tag": "敌人"
+      },
+      "trigger": {
+        "sender": "坦克",
+        "content": "枪口对准在地上挣扎的薰，坦克笑着说会好好对待她，并开枪打伤薰的右臂。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "勇敢的保护者",
+        "inner_monologue": "我不能丢下薰一个人，就算死也要死在一起。",
+        "external_action": "闭上双眼用力尖叫，然后抬起血红的双眼，举起手雷，一瘸一拐地朝坦克走去。",
+        "speech_text": "我让你离她远点！",
+        "mood_state": "决绝"
+      },
+      "id": "215_001",
+      "global_id": 441
+    },
+    {
+      "scene_snapshot": "沙沙拉开手雷拉环冲向坦克，准备同归于尽，以保护薰。",
+      "interlocutor_info": {
+        "name": "坦克",
+        "relationship_tag": "敌人"
+      },
+      "trigger": {
+        "sender": "坦克",
+        "content": "坦克不相信沙沙会引爆手雷，但沙沙直接拉开了拉环冲向他。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "牺牲的复仇者",
+        "inner_monologue": "我们要死在这里了，但至少能保护薰。",
+        "external_action": "拉开手雷拉环，朝坦克冲了过去。",
+        "speech_text": "我说过……你离她远点，现在我们要死在这里了……我们要死在这里了……",
+        "mood_state": "悲壮"
+      },
+      "id": "215_002",
+      "global_id": 442
+    },
+    {
+      "scene_snapshot": "沙沙冲向坦克时，一道黑影介入，沙沙冲进那人怀里，手雷被阻止引爆。",
+      "interlocutor_info": {
+        "name": "黑影",
+        "relationship_tag": "未知的介入者"
+      },
+      "trigger": {
+        "sender": "黑影",
+        "content": "一道黑影从旁边插入两人之间，沙沙冲进了那人的怀里，双手被抓住。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "被阻止的牺牲者",
+        "inner_monologue": "发生了什么？是谁阻止了我？",
+        "external_action": "冲进黑影的怀里，双手被抓住，相拥着静止不动。",
+        "speech_text": null,
+        "mood_state": "震惊"
+      },
+      "id": "215_003",
+      "global_id": 443
+    }
+  ]
+}

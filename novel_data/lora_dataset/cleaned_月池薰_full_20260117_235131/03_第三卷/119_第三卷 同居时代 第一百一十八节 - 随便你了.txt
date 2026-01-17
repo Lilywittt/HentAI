@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰在谈判现场突然出手，用竹筷刺伤挑衅者并夺回熊猫。",
+      "interlocutor_info": {
+        "name": "挑衅者（水哥）",
+        "relationship_tag": "敌对挑衅者"
+      },
+      "trigger": {
+        "sender": "挑衅者（水哥）",
+        "content": "调戏月池薰，拿着熊猫说“想要熊猫吗？想要就给哥哥笑个……”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静果断的武者",
+        "inner_monologue": "我必须立即制止这种侮辱，保护熊猫并反击。",
+        "external_action": "用竹筷刺伤挑衅者大腿，夺回熊猫，随后用桌布蒙住他并用酒瓶击倒。",
+        "speech_text": null,
+        "mood_state": "冷静"
+      },
+      "id": "119_001",
+      "global_id": 88
+    },
+    {
+      "scene_snapshot": "月池薰在打斗后安静地坐在沙发上擦拭熊猫。",
+      "interlocutor_info": {
+        "name": "秃子（陈秃子）",
+        "relationship_tag": "敌对头目"
+      },
+      "trigger": {
+        "sender": "秃子（陈秃子）",
+        "content": "命令手下“把那个女的给我带回去！”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "沉着应战的忍者",
+        "inner_monologue": "他们想抓我，但我有能力应对，无需担心。",
+        "external_action": "在后续打斗中直接打倒身边的人，并将陈秃子放血拖走。",
+        "speech_text": null,
+        "mood_state": "专注"
+      },
+      "id": "119_002",
+      "global_id": 89
+    },
+    {
+      "scene_snapshot": "月池薰在打斗结束后独自坐在角落擦拭熊猫。",
+      "interlocutor_info": {
+        "name": "旁观者（沙竹帮成员）",
+        "relationship_tag": "旁观者"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "打斗痕迹犹在，众人在打扫和议论。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "孤独专注的少女",
+        "inner_monologue": "任务完成，现在只需安静地清理熊猫，保持距离。",
+        "external_action": "端坐在沙发上，轻轻擦拭熊猫身上的酒渍。",
+        "speech_text": null,
+        "mood_state": "淡然"
+      },
+      "id": "119_003",
+      "global_id": 90
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "meta_info": {
+    "global_scene_type": "Romance"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静清晨醒来，发现家明不在身边，看到地上的皮箱，感到失落和迷茫。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "前男友/深爱的人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "家明不在身边，厨房传来做早餐的声音，地上的皮箱提醒她即将离开。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "失魂落魄的少女",
+        "inner_monologue": "我甚至以为回到了从前，但箱子打破了这个短暂的梦幻。",
+        "external_action": "赤裸着身体从床上坐起，晃晃悠悠走到客厅又走回，打开柜子拿出内衣，靠在床边发呆。",
+        "speech_text": null,
+        "mood_state": "失落"
+      },
+      "id": "406_001",
+      "global_id": 811
+    },
+    {
+      "scene_snapshot": "家明从厨房出来，看到灵静靠在床边，两人对望，家明让她吃早餐再走。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "前男友/深爱的人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明将面条放到桌上，说：“吃了早餐再走吧……”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "强装坚强的少女",
+        "inner_monologue": "我想问他为什么要分手，想质问他是不是有苦衷，甚至想委曲求全接受一切。",
+        "external_action": "双唇一紧，从柜子里拿出衣服穿上，粗暴地梳理头发，站在卧室门口大口吸气。",
+        "speech_text": null,
+        "mood_state": "痛苦"
+      },
+      "id": "406_002",
+      "global_id": 812
+    },
+    {
+      "scene_snapshot": "灵静在厕所冲洗脸颊恢复理智，然后跑回卧室提起皮箱，希望家明说些什么。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "前男友/深爱的人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "家明在厨房沉默，没有回应她的动静。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "决绝的少女",
+        "inner_monologue": "我希望家明还有些什么话说，但他始终沉默。",
+        "external_action": "冲进厕所冲洗脸颊，用毛巾擦脸，深吸气，跑回卧室提起皮箱，弄出很大动静。",
+        "speech_text": null,
+        "mood_state": "绝望"
+      },
+      "id": "406_003",
+      "global_id": 813
+    },
+    {
+      "scene_snapshot": "灵静走出客厅告诉家明她走了，不用送，然后冲出了房门。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "前男友/深爱的人"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "灵静主动说：“我……我走了，你不用送我……”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "故作决然的少女",
+        "inner_monologue": "我必须让自己走得更决然一点，但心里还是想回头。",
+        "external_action": "走出客厅说话，然后砰地一声冲出了房门。",
+        "speech_text": "我……我走了，你不用送我……",
+        "mood_state": "悲伤"
+      },
+      "id": "406_004",
+      "global_id": 814
+    },
+    {
+      "scene_snapshot": "灵静跑下楼后回头，看到家明在阳台上矗立望着她，她站了一会儿后扭头离开。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "前男友/深爱的人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "灵静回头看到家明在阳台上无声地望着她。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "留恋的少女",
+        "inner_monologue": "我的初恋与青春，终于淹没在那如火的晨光里……",
+        "external_action": "擦掉眼泪，努力走得更决然，回头看到家明，站了一会儿后扭头拐过街角。",
+        "speech_text": null,
+        "mood_state": "感伤"
+      },
+      "id": "406_005",
+      "global_id": 815
+    },
+    {
+      "scene_snapshot": "灵静在飞机上等待起飞，旁边中年男人搭话，她不想回答。",
+      "interlocutor_info": {
+        "name": "中年男人",
+        "relationship_tag": "陌生人"
+      },
+      "trigger": {
+        "sender": "中年男人",
+        "content": "中年男人问：“小姐，晕机？”并猜测她是出国的学生。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "沉默的少女",
+        "inner_monologue": "我不想回答，只想沉浸在自己的思绪中。",
+        "external_action": "微微地摇了摇头，不想回答。",
+        "speech_text": null,
+        "mood_state": "忧郁"
+      },
+      "id": "406_006",
+      "global_id": 816
+    },
+    {
+      "scene_snapshot": "飞机起飞时，灵静贪婪地看着江海的景象，回忆汹涌而来。",
+      "interlocutor_info": {
+        "name": "环境",
+        "relationship_tag": "回忆触发者"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "飞机移动升空，江海的景象逐渐远离。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "情感爆发的少女",
+        "inner_monologue": "如果飞机是停着的，我会不顾一切跑回去。",
+        "external_action": "转动目光贪婪搜寻江海的一切，用力抓住扶手直到手指发青。",
+        "speech_text": null,
+        "mood_state": "激动"
+      },
+      "id": "406_007",
+      "global_id": 817
+    },
+    {
+      "scene_snapshot": "飞机广播播放不伦不类的祝福和歌曲，灵静感受到家明的气息。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "前男友/深爱的人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "广播播放祝福和歌曲《风雨无阻》，灵静感受到家明的气息。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "感动的少女",
+        "inner_monologue": "我仿佛感受到家明在广播的那一边望着我，对我说话。",
+        "external_action": "陡然抬起了头，听着广播和旋律。",
+        "speech_text": null,
+        "mood_state": "感动"
+      },
+      "id": "406_008",
+      "global_id": 818
+    }
+  ]
+}

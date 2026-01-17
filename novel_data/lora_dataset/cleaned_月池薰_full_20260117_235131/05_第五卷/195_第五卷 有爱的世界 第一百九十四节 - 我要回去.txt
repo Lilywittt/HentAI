@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "在月池家主练习厅的晚间训练中，暮村广树向月池薰发起挑战。",
+      "interlocutor_info": {
+        "name": "暮村广树",
+        "relationship_tag": "天雨正则的朋友，温和的挑战者"
+      },
+      "trigger": {
+        "sender": "暮村广树",
+        "content": "笑着站起来，跑到月池薰面前说：'嘿，美丽的薰小姐，我想跟你进行一次有关体术的友好切磋，请问你介意吗？'",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷漠顺从的忍者",
+        "inner_monologue": "我应该先询问天雨正则的意见，因为家明说过要听他的安排。",
+        "external_action": "抬起头望了他一眼，目光斜望向前方，随后站起来说：'请多指教。'",
+        "speech_text": "请多指教。",
+        "mood_state": "谨慎"
+      },
+      "id": "195_001",
+      "global_id": 143
+    },
+    {
+      "scene_snapshot": "薰在比试中面对暮村广树，尝试摆出战斗姿势。",
+      "interlocutor_info": {
+        "name": "暮村广树",
+        "relationship_tag": "天雨正则的朋友，温和的挑战者"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "暮村广树摆出柔道起手式，周围众人关注着比试。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "困惑的练习者",
+        "inner_monologue": "我该用什么姿势？家明的训练没有固定起手式，这让我感到为难。",
+        "external_action": "双手握拳摆出难看的咏春拳姿势，随后换回忍术姿态但生硬，最后苦恼地望着自己的手指，手足无措。",
+        "speech_text": null,
+        "mood_state": "困惑"
+      },
+      "id": "195_002",
+      "global_id": 144
+    },
+    {
+      "scene_snapshot": "薰轻松击败暮村广树后，面对他的惨叫声。",
+      "interlocutor_info": {
+        "name": "暮村广树",
+        "relationship_tag": "天雨正则的朋友，温和的挑战者"
+      },
+      "trigger": {
+        "sender": "暮村广树",
+        "content": "被过肩摔后惨叫：'啊。我的肩膀……脱臼了……啊，肯定是脱臼了……好痛……痛痛痛痛……'",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌的胜利者",
+        "inner_monologue": "我没想到会这么轻易获胜，他可能并不擅长战斗。",
+        "external_action": "望着摔倒在地的暮村广树有些错愕，随后退后一步鞠了个躬。",
+        "speech_text": null,
+        "mood_state": "意外"
+      },
+      "id": "195_003",
+      "global_id": 145
+    },
+    {
+      "scene_snapshot": "薰接到江海市的消息后，情绪发生变化。",
+      "interlocutor_info": {
+        "name": "天雨正则",
+        "relationship_tag": "未婚夫，可信赖的上级"
+      },
+      "trigger": {
+        "sender": "天雨正则",
+        "content": "接完电话后拍薰的肩膀说：'请过来一下，江海市有消息传过来……'",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "担忧的伙伴",
+        "inner_monologue": "江海市的消息？希望不是坏消息，我得赶紧确认。",
+        "external_action": "冷漠的目光蓦地一变，随着天雨正则走到一边，听完后脸上出现一丝慌乱，拿起电话按动号码。",
+        "speech_text": "喂……沙沙，我是薰，他中枪了？怎么会……",
+        "mood_state": "慌乱"
+      },
+      "id": "195_004",
+      "global_id": 146
+    },
+    {
+      "scene_snapshot": "薰在训练结束后打断父亲月池政空的训话，宣布要返回江海市。",
+      "interlocutor_info": {
+        "name": "月池政空",
+        "relationship_tag": "父亲，严厉的长辈"
+      },
+      "trigger": {
+        "sender": "月池政空",
+        "content": "批评薰的怯战行为，并说：'希望你明天可以……'",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坚决的反叛者",
+        "inner_monologue": "我必须回去江海市，不能再留在这里了，即使这会激怒父亲。",
+        "external_action": "站起来走到道场中央，低头跪下去说：'对不起，父亲，我将会乘坐明天早上的飞机回到江海市。不会参加明天的训练了。'",
+        "speech_text": "对不起，父亲，我将会乘坐明天早上的飞机回到江海市。不会参加明天的训练了。",
+        "mood_state": "坚决"
+      },
+      "id": "195_005",
+      "global_id": 147
+    },
+    {
+      "scene_snapshot": "薰面对父亲的质问，坚定地重复要返回江海市。",
+      "interlocutor_info": {
+        "name": "月池政空",
+        "relationship_tag": "父亲，严厉的长辈"
+      },
+      "trigger": {
+        "sender": "月池政空",
+        "content": "愤怒地质问：'你说什么！？'",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "淡然的坚持者",
+        "inner_monologue": "无论父亲如何反对，我都要回去，这是不容动摇的决定。",
+        "external_action": "抬起头以淡然而坚决的目光与他对视。",
+        "speech_text": "我要回去。",
+        "mood_state": "坚定"
+      },
+      "id": "195_006",
+      "global_id": 148
+    }
+  ]
+}

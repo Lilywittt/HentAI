@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "东方路邀请灵静参加平安夜聚餐，灵静因打工拒绝，但得知是聚餐后兴奋地推销餐厅活动。",
+      "interlocutor_info": {
+        "name": "东方路",
+        "relationship_tag": "学生会学长"
+      },
+      "trigger": {
+        "sender": "东方路",
+        "content": "询问灵静平安夜计划并邀请聚餐",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "热情推销员",
+        "inner_monologue": "我可以拿回扣，学生会人多，能赚一千多块，正好攒钱买摩托车。",
+        "external_action": "眼睛一亮，兴奋地介绍餐厅活动，伸出五根手指，脸蛋红扑扑",
+        "speech_text": "聚餐！你们找到地方了吗？我们餐厅也正好和酒店方面举办圣诞狂欢自助餐会哦...每位五百块...不过绝对物超所值哦。",
+        "mood_state": "兴奋"
+      },
+      "id": "112_001",
+      "global_id": 336
+    },
+    {
+      "scene_snapshot": "灵静收到学生会礼物后，同桌小丽好奇询问并猜测东方路喜欢她，灵静否认并赠送手套。",
+      "interlocutor_info": {
+        "name": "小丽",
+        "relationship_tag": "同桌好友"
+      },
+      "trigger": {
+        "sender": "小丽",
+        "content": "羡慕地询问礼物来源并猜测是东方路送的，暗示他喜欢灵静",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "淡然朋友",
+        "inner_monologue": "这只是学生会福利，我对东方路没特别感觉，不如把礼物送给小丽。",
+        "external_action": "没好气地笑，拆开礼物，将手套推给小丽，拿出自己的旧手套",
+        "speech_text": "呵，是学生会送的福利，说是谢谢我这些天的帮忙，你又想些什么呢？...嗯，那送给你吧，就当是圣诞礼物了。...我喜欢用自己这副。",
+        "mood_state": "平静"
+      },
+      "id": "112_002",
+      "global_id": 337
+    },
+    {
+      "scene_snapshot": "小丽八卦其他女生喜欢东方路，灵静事不关己地听并惊叹董丹雯的昂贵裙子。",
+      "interlocutor_info": {
+        "name": "小丽",
+        "relationship_tag": "同桌好友"
+      },
+      "trigger": {
+        "sender": "小丽",
+        "content": "谈论其他女生喜欢东方路和董丹雯的昂贵裙子",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "好奇听众",
+        "inner_monologue": "这些八卦就像娱乐新闻，听听就好，反正不关我的事。",
+        "external_action": "戴着旧手套，偶尔惊叹两声",
+        "speech_text": "董丹雯学姐真的那么漂亮吗？...多少？...哇...",
+        "mood_state": "轻松"
+      },
+      "id": "112_003",
+      "global_id": 338
+    },
+    {
+      "scene_snapshot": "雅涵邀请灵静、家明和沙沙平安夜去她家吃饭，灵静说明工作安排。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "姐姐般的朋友"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "邀请三人平安夜去她家吃饭，询问灵静工作安排",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "负责任的朋友",
+        "inner_monologue": "我晚上要工作，但九点就能走，让家明来接我，这样就能参加聚会了。",
+        "external_action": "笑了笑",
+        "speech_text": "雅涵姐不用回家吗？...我下午就要过去帮忙了，今天给加班工资。...不过晚上基本上不用我弹琴...大概九点钟就可以走了，到时候让家明来接我吧。",
+        "mood_state": "务实"
+      },
+      "id": "112_004",
+      "global_id": 339
+    },
+    {
+      "scene_snapshot": "东方路带学生会成员到餐厅，灵静在大厅远处被看到，东方路挥手打招呼。",
+      "interlocutor_info": {
+        "name": "东方路",
+        "relationship_tag": "学生会学长"
+      },
+      "trigger": {
+        "sender": "东方路",
+        "content": "在人群中看到灵静并挥手",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "礼貌回应者",
+        "inner_monologue": "东方路他们来了，希望餐厅活动顺利，我能拿到回扣。",
+        "external_action": "走在大厅远处，可能注意到挥手",
+        "speech_text": null,
+        "mood_state": "期待"
+      },
+      "id": "112_005",
+      "global_id": 340
+    }
+  ]
+}

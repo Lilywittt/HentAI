@@ -1,0 +1,154 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静在医院门口与家明告别，家明要去处理善后事宜。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "沙沙她们应该在里面了，薰的伤势比较重，现在也不知道会不会有危险，我还有点事情要做，马上过来，让沙沙她们别担心，好吗？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心又嗔怪的女友",
+        "inner_monologue": "我担心他受伤，但他总这样逞强，还装没事人。",
+        "external_action": "挥了挥小拳头，嗔道",
+        "speech_text": "切。讨厌，别用大人的口气跟我说话，我看你根本就是找借口不敢进去吧，最近这么多次受伤，又是挨刀又是中枪的，进去一准被老妈唠叨死……好吧，我进去陪沙沙她们，你要早点过来啊。",
+        "mood_state": "嗔怪"
+      },
+      "id": "219_001",
+      "global_id": 530
+    },
+    {
+      "scene_snapshot": "灵静在医院门口目送家明离开后，转身进入医院。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "是，灵静大人。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "俏皮的女友",
+        "inner_monologue": "这家伙又贫嘴，不过看他没事我就放心了。",
+        "external_action": "翻了个白眼，转身去往医院",
+        "speech_text": "去……",
+        "mood_state": "轻松"
+      },
+      "id": "219_002",
+      "global_id": 531
+    },
+    {
+      "scene_snapshot": "灵静在医院门口悄悄掀开帘子目送家明的车离开。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "家明目送她进去了，方才踩紧了油门，疾驰而去。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "担忧的女友",
+        "inner_monologue": "他开车走了，希望他真的没事，我得振作起来去看沙沙和薰。",
+        "external_action": "掀开帘子望了汽车一阵，转过了身，深吸一口气，随后拍拍胸口，尽量放宽心，蹦蹦跳跳地看望沙沙和薰去了",
+        "speech_text": null,
+        "mood_state": "担忧"
+      },
+      "id": "219_003",
+      "global_id": 532
+    },
+    {
+      "scene_snapshot": "灵静在病房与沙沙聊天，家明进来后坦白受伤的事情。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "我有件事情想要跟你们坦白。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "警觉的女友",
+        "inner_monologue": "他又要说什么？不会是又惹上什么麻烦了吧？",
+        "external_action": "与沙沙对望一眼，随后皱着眉头说道",
+        "speech_text": "你又喜欢上别的女孩子了？薰吗？",
+        "mood_state": "警觉"
+      },
+      "id": "219_004",
+      "global_id": 533
+    },
+    {
+      "scene_snapshot": "灵静在病房听家明解释受伤并检查他的伤口。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "其实我今天中了一枪，不过问题不大，刚才怕你们担心没跟你们说，现在已经包扎好了，你们要保密啊，呐，看看……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心又埋怨的女友",
+        "inner_monologue": "他果然受伤了，还瞒着我们，真让人心疼又生气。",
+        "external_action": "张大嘴看了一会儿，随后拉近了检查",
+        "speech_text": null,
+        "mood_state": "心疼"
+      },
+      "id": "219_005",
+      "global_id": 534
+    },
+    {
+      "scene_snapshot": "灵静在病房让家明枕着她的腿睡觉。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明轻轻地闭上了眼睛，片刻后，靠着灵静沉沉地睡了过去。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "温柔体贴的女友",
+        "inner_monologue": "他今天累坏了，就让他好好睡吧，我这样陪着他就好。",
+        "external_action": "脱了鞋子，穿着白袜的双腿蜷在了沙发上，一面打着呵欠微笑地与沙沙聊着今天的危险事情，一面让家明躺下来，将自己的大腿当成舒服的枕头，心疼地抚摸着他身上一些细碎的伤痕",
+        "speech_text": "嗯，我知道……算了吧，就这样也没关系，要不然又吵醒他了，呵……他今天好累呢……",
+        "mood_state": "温柔"
+      },
+      "id": "219_006",
+      "global_id": 535
+    },
+    {
+      "scene_snapshot": "灵静在病房被母亲段静娴盖被子时醒来。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "她拿来两床被子，盖住了枕着自己女儿大腿睡觉的，自己视如亲子的少年，随后再轻轻地盖住女儿",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "困倦的女儿",
+        "inner_monologue": "是妈妈来了，好困，继续睡吧。",
+        "external_action": "带着朦胧的双眼再度睡去",
+        "speech_text": "妈……",
+        "mood_state": "困倦"
+      },
+      "id": "219_007",
+      "global_id": 536
+    }
+  ]
+}

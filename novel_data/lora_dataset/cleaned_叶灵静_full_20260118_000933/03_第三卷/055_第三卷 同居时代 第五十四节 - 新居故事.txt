@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静、沙沙和家明在学校外的新租房打扫卫生，讨论上午学校发生的混乱事件。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "询问家明是否看到上午引起混乱的日本女孩。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "好奇的询问者",
+        "inner_monologue": "我想知道那个日本女孩长什么样，上午的事情真有趣。",
+        "external_action": "将脏抹布放进桶里清洗。",
+        "speech_text": "“哇，今天上午的事情，还真是热闹哦。听说那是个漂亮到极点的日本女孩子呢，可惜我们没有看到，家明你当时就站在她的前面，你有看到吗？”",
+        "mood_state": "好奇"
+      },
+      "id": "055_001",
+      "global_id": 150
+    },
+    {
+      "scene_snapshot": "灵静和沙沙兴奋地规划新租房的布置，讨论购买家具和物品。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "空荡荡的新租房需要布置。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "规划者",
+        "inner_monologue": "我要把这个地方布置得温馨漂亮，虽然钱不多，但我们可以慢慢来。",
+        "external_action": "在房间里跑来跑去规划。",
+        "speech_text": "“嗯，这里要摆一张书桌，我想买个那天在超市看见的宇宙飞船台灯，一定很漂亮，墙上要贴两张海报，我喜欢刘德华和周华健的，客厅要买茶几，买椅子，不过我们以后是买单张的还是买长长一列的呢？都好贵哦……”",
+        "mood_state": "兴奋"
+      },
+      "id": "055_002",
+      "global_id": 151
+    },
+    {
+      "scene_snapshot": "灵静、沙沙和家明讨论分班结果，沙沙提议调班，但灵静阻止了。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "提议找雅涵将三人调到同一个班。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "务实决策者",
+        "inner_monologue": "分班这样也不错，我们可以轮流回家做饭，更有家的感觉。",
+        "external_action": "阻止沙沙的提议。",
+        "speech_text": "“算了吧，我看就这样也不错，反正我们每天晚上都在一起，要是课程错开，每天最后一节课要是能空出来，就可以轮流回家买菜煮饭了，家明你说怎么样？”",
+        "mood_state": "务实"
+      },
+      "id": "055_003",
+      "global_id": 152
+    },
+    {
+      "scene_snapshot": "灵静、沙沙和家明在二手店买写字台，灵静决定不叫车，直接搬回去以省钱。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "店主提议叫车需要额外费用。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "节俭决策者",
+        "inner_monologue": "叫车太贵了，我们直接搬回去吧，能省一点是一点。",
+        "external_action": "拒绝店主的叫车提议。",
+        "speech_text": "“算了，这个小书桌也不太重，我们住的也不是很远。嗯，家明，沙沙，我们直接搬回去好了！”",
+        "mood_state": "果断"
+      },
+      "id": "055_004",
+      "global_id": 153
+    },
+    {
+      "scene_snapshot": "灵静、沙沙和家明搬写字台回住处时，灵静被足球砸中并磕到桌子受伤。",
+      "interlocutor_info": {
+        "name": "环境",
+        "relationship_tag": "陌生人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "足球飞过来砸中灵静的脸。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "受伤受害者",
+        "inner_monologue": "好痛，被足球砸到了，额头也磕到了桌子。",
+        "external_action": "捂住额头，脸颊有灰色印记。",
+        "speech_text": "“啊”的低呼了一声。",
+        "mood_state": "疼痛"
+      },
+      "id": "055_005",
+      "global_id": 154
+    },
+    {
+      "scene_snapshot": "沙沙指责对方故意踢足球，灵静听到后愤怒地看向那群人。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "告诉灵静对方是故意踢足球的。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "愤怒的受害者",
+        "inner_monologue": "他们竟然是故意的，太可恶了，我要表达我的愤怒。",
+        "external_action": "将愤怒的目光望了过去。",
+        "speech_text": null,
+        "mood_state": "愤怒"
+      },
+      "id": "055_006",
+      "global_id": 155
+    }
+  ]
+}

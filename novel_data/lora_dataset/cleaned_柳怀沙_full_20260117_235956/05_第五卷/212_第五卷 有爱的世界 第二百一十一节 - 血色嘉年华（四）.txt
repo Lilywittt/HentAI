@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙和薰在枪林弹雨中匍匐前行，躲避敌人追捕。",
+      "interlocutor_info": {
+        "name": "薰",
+        "relationship_tag": "可靠的同伴"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙轻声说话，表达对灵静的羡慕。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "紧张但依赖同伴的少女",
+        "inner_monologue": "我羡慕灵静能和家明独处，但现在我们必须活下去。",
+        "external_action": "微躬着身子，小心翼翼地跟在薰的后面。",
+        "speech_text": "“说起来，其实我一直很羡慕灵静……”",
+        "mood_state": "紧张"
+      },
+      "id": "212_001",
+      "global_id": 431
+    },
+    {
+      "scene_snapshot": "沙沙和薰在走廊中躲避子弹，薰拉她到安全角落。",
+      "interlocutor_info": {
+        "name": "薰",
+        "relationship_tag": "可靠的同伴"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "侧面射来的子弹划过墙面，灰粉洒落。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "恐惧但坚强的少女",
+        "inner_monologue": "太危险了，差点被击中，幸好薰拉住了我。",
+        "external_action": "俯低了身子猛冲出门，被灰粉洒满全身，身子微微颤抖。",
+        "speech_text": null,
+        "mood_state": "恐惧"
+      },
+      "id": "212_002",
+      "global_id": 432
+    },
+    {
+      "scene_snapshot": "沙沙和薰在转角处稍作休息，沙沙询问家明是否会来。",
+      "interlocutor_info": {
+        "name": "薰",
+        "relationship_tag": "可靠的同伴"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙握住胸前的坠子，询问薰家明是否会来。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "担忧但抱有希望的少女",
+        "inner_monologue": "家明会来救我们吗？信号被屏蔽了，但我相信他。",
+        "external_action": "轻轻拍打头上的粉尘，握住胸前的坠子，警惕四周。",
+        "speech_text": "“薰，你说……他也会来吗，如果这个的信号被屏蔽了……”",
+        "mood_state": "担忧"
+      },
+      "id": "212_003",
+      "global_id": 433
+    }
+  ]
+}

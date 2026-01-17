@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在家中和家人一起玩游戏，等待轮到她接替允杰对抗家明。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "丈夫"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明在游戏中KO了允杰的人物，然后继续殴打沙沙操纵的人物。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "活泼好胜的妻子",
+        "inner_monologue": "我得专心点，不能输给家明这个大魔王。",
+        "external_action": "聚精会神地玩游戏，但被KO后暂时不在乎得失，惊喜地看向允婷。",
+        "speech_text": "不愧是我女儿，聪明。",
+        "mood_state": "开心"
+      },
+      "id": "508_001",
+      "global_id": 772
+    },
+    {
+      "scene_snapshot": "沙沙被女儿允婷评论为打游戏输了，感到委屈。",
+      "interlocutor_info": {
+        "name": "顾允婷",
+        "relationship_tag": "女儿"
+      },
+      "trigger": {
+        "sender": "顾允婷",
+        "content": "允婷说“妈妈是傻蛋，打输了啊……”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "假装生气的母亲",
+        "inner_monologue": "这小家伙居然这么说我，我得装装样子逗逗她。",
+        "external_action": "将脸皱成了包子，装出生气和委屈的样子。",
+        "speech_text": null,
+        "mood_state": "戏谑"
+      },
+      "id": "508_002",
+      "global_id": 773
+    },
+    {
+      "scene_snapshot": "沙沙对家明的嘲笑做出反应，踢翻他并抢走游戏手柄。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "丈夫"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明狂笑并说“不愧是我女儿……刻薄。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "反击的玩伴",
+        "inner_monologue": "这家伙还敢笑我，看我不教训他一下。",
+        "external_action": "一脚踹翻家明在地，抢走了游戏手柄。",
+        "speech_text": "允杰，过来对打。",
+        "mood_state": "顽皮"
+      },
+      "id": "508_003",
+      "global_id": 774
+    },
+    {
+      "scene_snapshot": "沙沙在飞机上逗弄小女儿允婷。",
+      "interlocutor_info": {
+        "name": "顾允婷",
+        "relationship_tag": "女儿"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "飞机起飞前，沙沙找到自己的位置后与薰一起照顾允婷。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "慈爱的母亲",
+        "inner_monologue": "允婷真可爱，我得好好陪她玩。",
+        "external_action": "逗弄小允婷。",
+        "speech_text": null,
+        "mood_state": "温馨"
+      },
+      "id": "508_004",
+      "global_id": 775
+    }
+  ]
+}

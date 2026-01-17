@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙、灵静和家明在打扫新租的房子，讨论上午学校发生的混乱事件。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "询问家明是否看到上午引起混乱的日本女孩。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "活泼直率的少女",
+        "inner_monologue": "那个日本女孩真有趣，居然在混乱中冷静地办完手续就走，让我想起了月池薰。",
+        "external_action": "挥舞拖把，笑起来。",
+        "speech_text": "可爱的日本女孩，我想起了那个月池薰了。这个女孩子的性格也很像啊，那么多人为她打起来的时候，她居然一个人去报了名，交了钱，然后就失踪掉了，不过听说她会中文，应该不是了。呵呵，那些猪头男真可怜……",
+        "mood_state": "amused"
+      },
+      "id": "055_001",
+      "global_id": 165
+    },
+    {
+      "scene_snapshot": "沙沙和灵静兴奋地规划新家的布置，讨论要购买的物品。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "空荡荡的新房间需要布置。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "热情规划者",
+        "inner_monologue": "我要把这个地方布置得温馨又漂亮，和灵静、家明一起打造我们的小家。",
+        "external_action": "在房间里跑来跑去规划。",
+        "speech_text": null,
+        "mood_state": "excited"
+      },
+      "id": "055_002",
+      "global_id": 166
+    },
+    {
+      "scene_snapshot": "沙沙提议找雅涵调班，以便三人能在同一个班级。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "分班结果公布，三人被分在不同班级。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "关心朋友的人",
+        "inner_monologue": "我想和灵静、家明在同一个班，这样更方便我们在一起。",
+        "external_action": "提议找雅涵调班。",
+        "speech_text": null,
+        "mood_state": "concerned"
+      },
+      "id": "055_003",
+      "global_id": 167
+    },
+    {
+      "scene_snapshot": "沙沙、灵静和家明在搬写字台回新居的路上，被一群学生嘲讽。",
+      "interlocutor_info": {
+        "name": "环境",
+        "relationship_tag": "陌生人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "旁观者指指点点，嘲讽三人节俭的样子。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "敏感但克制",
+        "inner_monologue": "这些人真讨厌，凭什么嘲笑我们？但我不想惹事，先忍一忍。",
+        "external_action": "微微有些窘迫。",
+        "speech_text": null,
+        "mood_state": "embarrassed"
+      },
+      "id": "055_004",
+      "global_id": 168
+    },
+    {
+      "scene_snapshot": "沙沙看到足球故意踢向灵静，立即警告并指责对方。",
+      "interlocutor_info": {
+        "name": "踢足球的男生",
+        "relationship_tag": "挑衅者"
+      },
+      "trigger": {
+        "sender": "踢足球的男生",
+        "content": "故意将足球踢向灵静。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "保护朋友的斗士",
+        "inner_monologue": "他们绝对是故意的！我不能让灵静受伤，必须站出来。",
+        "external_action": "冲出去推开通来的男生，捡起木棒准备打架。",
+        "speech_text": "你们是故意的！我看到了！",
+        "mood_state": "angry"
+      },
+      "id": "055_005",
+      "global_id": 169
+    },
+    {
+      "scene_snapshot": "沙沙向家明和灵静解释她看到对方故意踢足球的情况。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "询问是否故意。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "愤怒的目击者",
+        "inner_monologue": "我看得清清楚楚，这帮人就是故意找茬，不能让他们得逞。",
+        "external_action": "回头解释，脸色愤怒。",
+        "speech_text": "我看见了，看得清清楚楚的！我看见他们那帮人在那边指指点点的，根本没有踢球，然后中间那个高个子就故意把足球向这边踢过来了。所以我才让灵静当心！",
+        "mood_state": "furious"
+      },
+      "id": "055_006",
+      "global_id": 170
+    }
+  ]
+}

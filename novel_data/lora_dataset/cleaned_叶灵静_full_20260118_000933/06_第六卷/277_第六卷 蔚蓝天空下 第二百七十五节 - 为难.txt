@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "吕放向父亲吕颂为解释在校门口与叶灵静等人对峙的经过。",
+      "interlocutor_info": {
+        "name": "吕放",
+        "relationship_tag": "敌对方/挑衅者"
+      },
+      "trigger": {
+        "sender": "吕放",
+        "content": "吕放向父亲解释他们根本没打人，阿姆雷说要跟月池薰挑战，从没想过要动叶灵静和柳怀沙。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静旁观者",
+        "inner_monologue": "我（叶灵静）只是想打电话找人帮忙，避免冲突升级。",
+        "external_action": "想打电话找人帮忙",
+        "speech_text": null,
+        "mood_state": "警觉"
+      },
+      "id": "277_001",
+      "global_id": 568
+    }
+  ]
+}

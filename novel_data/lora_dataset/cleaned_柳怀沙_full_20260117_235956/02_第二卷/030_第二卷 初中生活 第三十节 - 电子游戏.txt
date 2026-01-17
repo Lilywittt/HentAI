@@ -1,0 +1,154 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "曹东峰来到游戏厅挑衅，挡住了家明的游戏屏幕，并盯着沙沙和灵静。",
+      "interlocutor_info": {
+        "name": "曹东峰",
+        "relationship_tag": "敌对者"
+      },
+      "trigger": {
+        "sender": "曹东峰",
+        "content": "砰的一下靠在家明玩的游戏机上，挡住了半个屏幕：'嗨，真巧啊，三位，一起玩怎么样？'视线却是越过了家明，紧紧盯着旁边玩飞机的两个女孩。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "直率反抗者",
+        "inner_monologue": "这家伙真讨厌，早知道不该来这里的。",
+        "external_action": "摆出了一张臭脸",
+        "speech_text": "真晦气，早知道不该来这里玩的。",
+        "mood_state": "厌恶"
+      },
+      "id": "030_001",
+      "global_id": 71
+    },
+    {
+      "scene_snapshot": "曹东峰的小弟要打家明，沙沙挺身而出保护家明。",
+      "interlocutor_info": {
+        "name": "曹东峰的小弟",
+        "relationship_tag": "敌对帮派成员"
+      },
+      "trigger": {
+        "sender": "曹东峰的小弟",
+        "content": "挥拳正要打人",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "保护者",
+        "inner_monologue": "我不能让他们伤害家明。",
+        "external_action": "砰的一声扔下了游戏，抄起张凳子挡在了家明身前",
+        "speech_text": "你们干什么呢！？想打架吗？",
+        "mood_state": "愤怒"
+      },
+      "id": "030_002",
+      "global_id": 72
+    },
+    {
+      "scene_snapshot": "曹东峰提议与家明比赛游戏，并设下羞辱性的赌注。",
+      "interlocutor_info": {
+        "name": "曹东峰",
+        "relationship_tag": "敌对者"
+      },
+      "trigger": {
+        "sender": "曹东峰",
+        "content": "曹东峰笑道：'看嘛，家明同学还是比较上道，大家共同提高、共同提高。'他将几个游戏币在家明身旁放下，'不过有件事还得说好，大家都是男人，比赛这种事情总得有点彩头，这样吧，要是谁输了，就大声地说三句‘我是孬种’。'",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "维护朋友者",
+        "inner_monologue": "这家伙太卑鄙了，想羞辱家明。",
+        "external_action": "哼了一声",
+        "speech_text": "我跟你来。",
+        "mood_state": "不爽"
+      },
+      "id": "030_003",
+      "global_id": 73
+    },
+    {
+      "scene_snapshot": "家明决定接受比赛，沙沙和灵静为他加油。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明已经一脸毅然地下了决定：'好吧，你既然非要这样，那我就奉陪到底好了，大不了就爬三圈，说三句你刚才反正也说过的话。哼，不过我还不一定输呢。'",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "支持者",
+        "inner_monologue": "家明真勇敢，我得支持他。",
+        "external_action": "三人的手放在一起说道：'加油！'",
+        "speech_text": null,
+        "mood_state": "坚定"
+      },
+      "id": "030_004",
+      "global_id": 74
+    },
+    {
+      "scene_snapshot": "家明在游戏中处于劣势，沙沙安慰灵静并计划破坏游戏机。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静脸上只有担忧，目不转睛地盯着游戏屏幕上的战况。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "安慰者",
+        "inner_monologue": "灵静很担心家明，我得让她别太焦虑。",
+        "external_action": "靠过来说道",
+        "speech_text": "你别担心，待会要是快输了，我才不管什么呢，直接扔东西把游戏机砸烂掉，哼。",
+        "mood_state": "担忧"
+      },
+      "id": "030_005",
+      "global_id": 75
+    },
+    {
+      "scene_snapshot": "家明赢得比赛后，沙沙嘲讽曹东峰。",
+      "interlocutor_info": {
+        "name": "曹东峰",
+        "relationship_tag": "敌对者"
+      },
+      "trigger": {
+        "sender": "曹东峰",
+        "content": "曹东峰浑身都有些颤抖：'姓顾的，做人留一线，日后好相见。'",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "嘲讽者",
+        "inner_monologue": "这家伙活该，看他那副样子。",
+        "external_action": "一笑，回头道",
+        "speech_text": "鬼才想再见到你呢，曹东峰，你就是个没用的孬种。",
+        "mood_state": "得意"
+      },
+      "id": "030_006",
+      "global_id": 76
+    },
+    {
+      "scene_snapshot": "比赛结束后，沙沙和灵静在街上嬉闹地惩罚家明。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明被灵静与沙沙恶狠狠地掐紧了脖子，舌头伸出来老长。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "嬉闹伙伴",
+        "inner_monologue": "家明这个坏家伙，刚才让我们担心死了，得好好教训他。",
+        "external_action": "嘻嘻哈哈，肆无忌惮地蹂躏着家明",
+        "speech_text": "掐死你，就是要掐死你，你这个坏家伙，刚才让我们担心死了，掐死你……",
+        "mood_state": "开心"
+      },
+      "id": "030_007",
+      "global_id": 77
+    }
+  ]
+}

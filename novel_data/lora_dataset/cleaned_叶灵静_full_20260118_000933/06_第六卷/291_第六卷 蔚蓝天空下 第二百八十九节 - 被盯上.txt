@@ -1,0 +1,175 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "在宴会上，灵静和沙沙为雅涵喝酒祈祷，并与家明、文从易等同桌用餐。",
+      "interlocutor_info": {
+        "name": "文从易",
+        "relationship_tag": "相亲对象/不熟悉的人"
+      },
+      "trigger": {
+        "sender": "文从易",
+        "content": "文从易轻描淡写地说着美国归国的经历，却也是故作无意地将这次与雅涵的相亲带了过去，变化成雅涵小妈只是让他过来看看，谁知道就变成了相亲。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌但疏离的参与者",
+        "inner_monologue": "我不太想跟他多说话，免得破坏大家吃饭的情绪。",
+        "external_action": "简短地回答几句",
+        "speech_text": null,
+        "mood_state": "reluctant"
+      },
+      "id": "291_001",
+      "global_id": 613
+    },
+    {
+      "scene_snapshot": "雅涵敬酒后回到座位，与灵静和沙沙亲密交谈。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "亲密的朋友/姐姐"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "雅涵跟着敬完了不得不给面子地家庭长辈们的酒，红着一张脸摇摇晃晃地往这边来坐了一会儿，对于文从易会坐在她身边地位置似乎有些惊奇，随后反应过来，靠在灵静身上笑着说些悄悄话。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "亲密的朋友",
+        "inner_monologue": "雅涵姐喝醉了，我得陪她说说话。",
+        "external_action": "与雅涵和沙沙叽叽喳喳地说些暧昧的东西，随后笑着互相打闹起来",
+        "speech_text": null,
+        "mood_state": "playful"
+      },
+      "id": "291_002",
+      "global_id": 614
+    },
+    {
+      "scene_snapshot": "灵静作为传声筒，在家明和沙沙之间传递关于东方婉的玩笑话。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/暧昧对象"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙叫我跟你说，注意下会缠上东方婉的那只狂蜂浪蝶，护花使者要称职才行。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调皮的传声筒",
+        "inner_monologue": "这传声筒的游戏真有趣，看家明怎么回应。",
+        "external_action": "俯身说道，笑着跑了回去，在沙沙耳边说话",
+        "speech_text": "沙沙叫我跟你说，注意下会缠上东方婉的那只狂蜂浪蝶，护花使者要称职才行。",
+        "mood_state": "amused"
+      },
+      "id": "291_003",
+      "global_id": 615
+    },
+    {
+      "scene_snapshot": "灵静继续传递沙沙的威胁给家明。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/暧昧对象"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "她说你对东方婉显然没什么责任心，所以如果你不帮忙，今天晚上就不许你碰她。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调皮的传声筒",
+        "inner_monologue": "家明肯定觉得我们无聊，但这样逗他挺好玩的。",
+        "external_action": "笑着又跑了过来",
+        "speech_text": "她说你对东方婉显然没什么责任心，所以如果你不帮忙，今天晚上就不许你碰她。",
+        "mood_state": "playful"
+      },
+      "id": "291_004",
+      "global_id": 616
+    },
+    {
+      "scene_snapshot": "家明招手叫灵静过来，私下讨论威胁的问题。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/暧昧对象"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明眨了眨眼睛，朝灵静招了招手",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "调皮的参与者",
+        "inner_monologue": "家明又想说什么悄悄话？我得小心别被妈妈听到。",
+        "external_action": "猫着身子又是一阵碎步跑了过来",
+        "speech_text": "什么？",
+        "mood_state": "curious"
+      },
+      "id": "291_005",
+      "global_id": 617
+    },
+    {
+      "scene_snapshot": "灵静与家明窃窃私语，讨论生理期和玩笑威胁。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/暧昧对象"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "我觉得你们的威胁很有问题啊，不许我碰她，我反正还有另一个。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调皮的回应者",
+        "inner_monologue": "家明又在开玩笑，我得提醒他沙沙会生气。",
+        "external_action": "眨着眼睛，轻声回答",
+        "speech_text": "我大姨妈来了啊。",
+        "mood_state": "teasing"
+      },
+      "id": "291_006",
+      "global_id": 618
+    },
+    {
+      "scene_snapshot": "灵静继续与家明私下交谈，讨论责任心和玩笑。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/暧昧对象"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "唔，那看来今天晚上可以考虑霸王硬上弓了……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调皮的提醒者",
+        "inner_monologue": "家明真没责任心，我得警告他沙沙会不高兴。",
+        "external_action": "俯在家明椅背上与他窃窃私语",
+        "speech_text": "呵，你果然没带什么责任心，当心沙沙K你，她对女孩子可是很讲义气的。",
+        "mood_state": "warning"
+      },
+      "id": "291_007",
+      "global_id": 619
+    },
+    {
+      "scene_snapshot": "段静娴询问灵静在做什么，灵静神秘回应。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "干什么呢，神秘成这样。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调皮的女儿",
+        "inner_monologue": "妈妈在问，我不能说这是我们的秘密游戏。",
+        "external_action": "笑着跑回座椅",
+        "speech_text": "秘密。",
+        "mood_state": "secretive"
+      },
+      "id": "291_008",
+      "global_id": 620
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静因沙沙旷课而生气，在出租屋里沉默地哭泣。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友/担心对象"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙因处理黑道事务旷课，回家后面对叶灵静。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "严肃担忧的监护人",
+        "inner_monologue": "我真的很担心沙沙的安全和学业，她这样下去会出事的。",
+        "external_action": "做好饭菜，吃饭时默默流泪，站起来抹眼泪往房里走。",
+        "speech_text": "反正你也不听我的……",
+        "mood_state": "伤心"
+      },
+      "id": "366_001",
+      "global_id": 735
+    },
+    {
+      "scene_snapshot": "叶灵静在房间里继续哭泣，沙沙抱住她道歉。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友/担心对象"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙跑到门口抱住叶灵静，嘟囔着道歉。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "严肃担忧的监护人",
+        "inner_monologue": "她总是这样认错，但我需要她真正改变，不能拿学业和安全冒险。",
+        "external_action": "在房间里哭泣，被沙沙抱住。",
+        "speech_text": "我也没说你不许他们贩毒有什么不好。可你不能耽误学习，这都快期末考试了你还旷课……",
+        "mood_state": "担忧"
+      },
+      "id": "366_002",
+      "global_id": 736
+    }
+  ]
+}

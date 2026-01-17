@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在客厅向家明和灵静提出想搬出去住，试探他们的反应。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "我想……搬出去……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "犹豫试探",
+        "inner_monologue": "我必须鼓起勇气说出来，但担心他们会胡思乱想。",
+        "external_action": "搂着抱枕坐在沙发一角，目光微带试探地在家明与灵静身上移动。",
+        "speech_text": "我想……搬出去……",
+        "mood_state": "紧张"
+      },
+      "id": "383_001",
+      "global_id": 626
+    },
+    {
+      "scene_snapshot": "沙沙在家明的注视下，详细解释想搬出去的原因。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "听清楚后第一时间望定了她。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "内疚解释",
+        "inner_monologue": "家明在看着我，我必须说清楚，但我知道这事关重大，心里很内疚。",
+        "external_action": "在家明的目光下犹豫了好久，深吸一口气。",
+        "speech_text": "我想搬出去一阵子，现在沙竹帮的事情比较多，我有时候回来得会比较晚，我爸爸以前住在那边的时候，也有他的房间，我是觉得这样子会比较方便……",
+        "mood_state": "内疚"
+      },
+      "id": "383_002",
+      "global_id": 627
+    },
+    {
+      "scene_snapshot": "灵静转身离开后，沙沙与家明对视，感到沮丧。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "我洗澡。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "沮丧无助",
+        "inner_monologue": "灵静打断了我的话，我的勇气一下子垮了，不知道该怎么办。",
+        "external_action": "将双肩垮了下来，与家明对视，低下头，又望了家明一眼，紧抿起双唇。",
+        "speech_text": null,
+        "mood_state": "沮丧"
+      },
+      "id": "383_003",
+      "global_id": 628
+    },
+    {
+      "scene_snapshot": "沙沙跑进卧室，看到灵静在哭，试图安慰她。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "卧室里衣服散落一地，灵静在哭。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "关心安慰",
+        "inner_monologue": "灵静在哭，我必须去安慰她，但我也很内疚。",
+        "external_action": "跑进来，神情犹豫，走前几步，蹲下去默默收拾衣物。",
+        "speech_text": "灵静，对不起了，可是我……",
+        "mood_state": "关切"
+      },
+      "id": "383_004",
+      "global_id": 629
+    },
+    {
+      "scene_snapshot": "沙沙搂住灵静，但被灵静挣开，两人发生争执。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "柳怀沙，你觉得我妨碍到你了是吧？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "辩解无奈",
+        "inner_monologue": "灵静误解了我，我不是觉得她妨碍我，但我真的没办法。",
+        "external_action": "将衣物放到床上，过去搂住灵静，随后被她摇晃身体挣开。",
+        "speech_text": "不是……可是我，可是我……我也没办法啊……",
+        "mood_state": "无奈"
+      },
+      "id": "383_005",
+      "global_id": 630
+    },
+    {
+      "scene_snapshot": "沙沙与灵静抱在一起，继续争论关于黑社会和未来的问题。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "你就真的不打算读书了？不上大学了？难道当黑社会的大姐头那么有趣吗？你要是……你要是遇上跟柳叔一样的事情，我和家明怎么办啊？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "迷茫辩解",
+        "inner_monologue": "灵静担心我，但我真的不知道要干什么，沙竹帮现在有事，我不能不管。",
+        "external_action": "与灵静抱在一起。",
+        "speech_text": "可是……我真的不知道要干什么……我是打排球，可我不喜欢当运动员打好多年啊，设计师是说着玩的……可沙竹帮现在有事啊，最近好几个帮派都要进来，今天晚上又跟人谈判，被我推掉了，可是总不能……",
+        "mood_state": "迷茫"
+      },
+      "id": "383_006",
+      "global_id": 631
+    }
+  ]
+}

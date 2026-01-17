@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "诸神无念在灯火通明的大礼堂上层边缘，得知月池薰逃脱的消息。",
+      "interlocutor_info": {
+        "name": "诸神无念",
+        "relationship_tag": "敌人/追捕者"
+      },
+      "trigger": {
+        "sender": "诸神无念",
+        "content": "询问手下关于月池薰、叶灵静和张雅涵逃脱的情况，并得知月池薰已受伤但被咬住。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "逃亡者",
+        "inner_monologue": "我必须保持冷静，虽然受伤了，但绝不能让他们抓住。",
+        "external_action": "受伤并被追捕中，具体行动未描述但处于逃亡状态。",
+        "speech_text": null,
+        "mood_state": "警惕"
+      },
+      "id": "205_001",
+      "global_id": 160
+    }
+  ]
+}

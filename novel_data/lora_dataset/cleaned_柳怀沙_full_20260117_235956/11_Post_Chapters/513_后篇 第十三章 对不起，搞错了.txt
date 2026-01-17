@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静和沙沙在阁楼整理旧物，回忆过去的生活点滴。",
+      "interlocutor_info": {
+        "name": "叶灵静",
+        "relationship_tag": "亲密姐妹/爱人"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "灵静提到阁楼是孩子们喜欢的地方，并和沙沙一起整理旧电视机等物品。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "怀旧而温柔的伴侣",
+        "inner_monologue": "I remember how much we loved this attic, and now it's filled with memories of our past together.",
+        "external_action": "沙沙帮忙搬东西、拍打灰尘，并和灵静一起捣鼓旧电视机。",
+        "speech_text": "不知道还能不能用呢……",
+        "mood_state": "nostalgic"
+      },
+      "id": "513_001",
+      "global_id": 779
+    },
+    {
+      "scene_snapshot": "沙沙和灵静发现旧物中的芭比娃娃，回忆起柳正送的生日礼物。",
+      "interlocutor_info": {
+        "name": "叶灵静",
+        "relationship_tag": "亲密姐妹/爱人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "翻出未开封的芭比娃娃，是柳正送的生日礼物。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "感伤的女儿",
+        "inner_monologue": "I miss Dad and how he tried his best to give me a special gift, even if it wasn't perfect.",
+        "external_action": "沙沙和灵静一起翻看旧物，灵静提到柳正送礼物的事。",
+        "speech_text": null,
+        "mood_state": "melancholy"
+      },
+      "id": "513_002",
+      "global_id": 780
+    },
+    {
+      "scene_snapshot": "家明加入灵静和沙沙在阁楼，三人一起回忆过去，沙沙躺在家明腿上。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "爱人/伴侣"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明走过来，看到摆放的旧物，明白他们在回忆过去。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "深情而安静的伴侣",
+        "inner_monologue": "I'm so grateful to have these moments with them, reliving our shared memories.",
+        "external_action": "沙沙躺倒在家明的腿上，灵静倚着他的肩，家明伸手触碰风铃。",
+        "speech_text": null,
+        "mood_state": "content"
+      },
+      "id": "513_003",
+      "global_id": 781
+    }
+  ]
+}

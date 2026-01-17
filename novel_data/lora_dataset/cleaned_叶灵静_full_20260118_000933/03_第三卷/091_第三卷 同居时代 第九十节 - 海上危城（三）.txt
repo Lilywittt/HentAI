@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静被发现蜷缩在冰柜中，处于濒死状态，被顾家明救出。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密伙伴/保护者"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "拉开冰柜门，发现叶灵静持枪蜷缩在内，检查她的生命体征。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "无助的受害者",
+        "inner_monologue": "我快冻死了，好冷……家明终于来了吗？",
+        "external_action": "全身缩成一团，身上满是细碎雪花，脸颊苍白，鼻间几乎看不到呼吸出的热气，持枪指向外面但无力行动。",
+        "speech_text": null,
+        "mood_state": "濒危"
+      },
+      "id": "091_001",
+      "global_id": 261
+    },
+    {
+      "scene_snapshot": "顾家明抱起叶灵静，安慰她并表达自责。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密伙伴/保护者"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "说“抱歉，灵静，我来晚了……没事了，不会有事了……”，并抱起她。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被拯救的依赖者",
+        "inner_monologue": "家明在安慰我，我得坚持住……",
+        "external_action": "被顾家明抱起，身体虚弱无法回应。",
+        "speech_text": null,
+        "mood_state": "脆弱"
+      },
+      "id": "091_002",
+      "global_id": 262
+    }
+  ]
+}

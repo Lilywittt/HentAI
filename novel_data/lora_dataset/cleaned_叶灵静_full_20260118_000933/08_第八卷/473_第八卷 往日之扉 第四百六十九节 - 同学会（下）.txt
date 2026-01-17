@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静接到电话后，得知父母被威胁，愤怒地走到家明身边说明情况。",
+      "interlocutor_info": {
+        "name": "杨晨光",
+        "relationship_tag": "威胁者"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静挂掉电话，走到家明身边说明父母被威胁的情况。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "愤怒的受害者",
+        "inner_monologue": "我绝不能容忍他们伤害我的家人，必须让家明知道这件事。",
+        "external_action": "皱着眉头走到家明身边，目光阴沉地盯着沈家伟和杨晨光。",
+        "speech_text": "妈没事，不过有人到医院去威胁过她，昨天晚上下班的时候也有人跟着想要找麻烦，妈妈跟朋友一块走的，避过去了，今天爸爸去了医院接她，她不想我们担心，就没说出来，爸爸已经考虑报警了。",
+        "mood_state": "愤怒"
+      },
+      "id": "473_001",
+      "global_id": 968
+    },
+    {
+      "scene_snapshot": "杨晨光询问威胁事件是否与灵静有关，灵静小声向沙沙解释情况。",
+      "interlocutor_info": {
+        "name": "杨晨光",
+        "relationship_tag": "威胁者"
+      },
+      "trigger": {
+        "sender": "杨晨光",
+        "content": "杨晨光询问那个人是否是灵静的亲戚。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "警惕的受害者",
+        "inner_monologue": "他这是在试探我，我必须小心应对，不能让他得逞。",
+        "external_action": "小声向沙沙解释情况。",
+        "speech_text": null,
+        "mood_state": "警惕"
+      },
+      "id": "473_002",
+      "global_id": 969
+    },
+    {
+      "scene_snapshot": "混乱中，沙沙拉着灵静后退几步，避免被卷入冲突。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "朋友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "人群推推搡搡，冲突升级。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "受保护的朋友",
+        "inner_monologue": "情况越来越危险，我得跟着沙沙退后，不能给家明添麻烦。",
+        "external_action": "被沙沙拉着退后几步。",
+        "speech_text": null,
+        "mood_state": "担忧"
+      },
+      "id": "473_003",
+      "global_id": 970
+    },
+    {
+      "scene_snapshot": "冲突结束后，东方路询问灵静父母的情况，灵静简要回答。",
+      "interlocutor_info": {
+        "name": "东方路",
+        "relationship_tag": "关心者"
+      },
+      "trigger": {
+        "sender": "东方路",
+        "content": "东方路询问伯父伯母是否没事。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "感激的回应者",
+        "inner_monologue": "还好父母没事，感谢东方路的关心，但事情还没完全解决。",
+        "external_action": null,
+        "speech_text": "没出什么事。",
+        "mood_state": "平静"
+      },
+      "id": "473_004",
+      "global_id": 971
+    }
+  ]
+}

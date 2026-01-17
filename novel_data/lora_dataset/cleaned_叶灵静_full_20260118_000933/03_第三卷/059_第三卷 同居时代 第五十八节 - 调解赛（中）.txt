@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙想冲上去替家明打架，被灵静拉住。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "韩刚成",
+        "content": "挑衅家明，说“你怕啦？死心吧，今天这场你打定了，等着挨揍吧！”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静调解者",
+        "inner_monologue": "我得拉住沙沙，不能让她冲动坏事，家明自己能处理。",
+        "external_action": "赶忙拉住沙沙",
+        "speech_text": null,
+        "mood_state": "担忧"
+      },
+      "id": "059_001",
+      "global_id": 164
+    },
+    {
+      "scene_snapshot": "灵静和沙沙在台下看家明比赛，笑成一团。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "在擂台上用滑稽的躲闪动作逗乐观众",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "轻松旁观者",
+        "inner_monologue": "家明又在耍宝了，看他这样逗大家开心真好玩。",
+        "external_action": "和沙沙笑着抱成了一团",
+        "speech_text": null,
+        "mood_state": "愉悦"
+      },
+      "id": "059_002",
+      "global_id": 165
+    }
+  ]
+}

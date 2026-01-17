@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明发现两个孩子可能被绑架，薰在酒店询问情况并主动要求帮忙。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴/保护对象"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明在监控室发现孩子失踪，推测可能被绑架，并说“我出去看看”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关切且主动的协助者",
+        "inner_monologue": "我必须跟上去帮忙，不能让他一个人冒险。",
+        "external_action": "薰也连忙跟了上来",
+        "speech_text": "我跟你一起。",
+        "mood_state": "担忧"
+      },
+      "id": "510_001",
+      "global_id": 366
+    },
+    {
+      "scene_snapshot": "薰在家明准备独自行动时提出通知东方路，家明给出指示。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴/保护对象"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明说“不用，我还不知道是发生了什么事，如果真有事，你在这里看着灵静她们”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静的支持者",
+        "inner_monologue": "他需要后援，我应该通知东方路来协调资源。",
+        "external_action": null,
+        "speech_text": "那我通知东方路。",
+        "mood_state": "镇定"
+      },
+      "id": "510_002",
+      "global_id": 367
+    },
+    {
+      "scene_snapshot": "薰在家明给出具体指示后回应并准备执行。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴/保护对象"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明说“可以通知一声，不过不用让他走外交途径解决……让灵静她们不用担心”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "服从的协作者",
+        "inner_monologue": "我会按照他的安排去做，确保后方稳定。",
+        "external_action": null,
+        "speech_text": "嗯。",
+        "mood_state": "专注"
+      },
+      "id": "510_003",
+      "global_id": 368
+    },
+    {
+      "scene_snapshot": "家明在也门打电话给东方路，提到要转告薰关于孩子的消息。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴/保护对象"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明在电话中说“我已经找到了允杰跟淘淘的消息，你帮我转告薰”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被关心的后方成员",
+        "inner_monologue": "他还在挂念着我，希望孩子们能安全回来。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "焦虑"
+      },
+      "id": "510_004",
+      "global_id": 369
+    }
+  ]
+}

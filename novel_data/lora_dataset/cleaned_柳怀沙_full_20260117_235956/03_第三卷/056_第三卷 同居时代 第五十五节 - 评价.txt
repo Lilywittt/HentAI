@@ -1,0 +1,154 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在广场冲突中挥舞木棒威胁对方男生。",
+      "interlocutor_info": {
+        "name": "对方男生",
+        "relationship_tag": "敌人"
+      },
+      "trigger": {
+        "sender": "对方男生",
+        "content": "指着家明说要继续冲突，并声称不想打女人。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "保护者",
+        "inner_monologue": "我绝不能让这家伙靠近家明。",
+        "external_action": "举起木棒对准对方男生。",
+        "speech_text": "居然怎么样？你再敢走过来试试看！",
+        "mood_state": "aggressive"
+      },
+      "id": "056_001",
+      "global_id": 171
+    },
+    {
+      "scene_snapshot": "沙沙主动攻击对方男生，将其打倒在地。",
+      "interlocutor_info": {
+        "name": "对方男生",
+        "relationship_tag": "敌人"
+      },
+      "trigger": {
+        "sender": "对方男生",
+        "content": "威胁说今天的事情没完，并挑衅说不想打女人。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "攻击者",
+        "inner_monologue": "看我不教训你这个娘娘腔！",
+        "external_action": "一棒挥向对方男生，并追打过去。",
+        "speech_text": "没完就没完，谁还会怕你们这些娘娘腔吗？",
+        "mood_state": "furious"
+      },
+      "id": "056_002",
+      "global_id": 172
+    },
+    {
+      "scene_snapshot": "沙沙被卢建川踢飞，家明冲上来保护她。",
+      "interlocutor_info": {
+        "name": "卢建川",
+        "relationship_tag": "强敌"
+      },
+      "trigger": {
+        "sender": "卢建川",
+        "content": "凌空踢腿攻击沙沙，踢断了她的木棒。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "受害者",
+        "inner_monologue": "好险，差点被踢中，家明救了我！",
+        "external_action": "向后飞跌出去，爬起来后望着断掉的木棒。",
+        "speech_text": null,
+        "mood_state": "relieved"
+      },
+      "id": "056_003",
+      "global_id": 173
+    },
+    {
+      "scene_snapshot": "沙沙和灵静踢开试图拖开家明的人。",
+      "interlocutor_info": {
+        "name": "对方同伴",
+        "relationship_tag": "敌人"
+      },
+      "trigger": {
+        "sender": "对方同伴",
+        "content": "当先的两个人伸手要去拖开家明。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "保护者",
+        "inner_monologue": "我得帮家明挡住这些人。",
+        "external_action": "和灵静一起踢开对方同伴。",
+        "speech_text": null,
+        "mood_state": "determined"
+      },
+      "id": "056_004",
+      "global_id": 174
+    },
+    {
+      "scene_snapshot": "沙沙听到卢建川的惨叫后感到惊吓。",
+      "interlocutor_info": {
+        "name": "卢建川",
+        "relationship_tag": "强敌"
+      },
+      "trigger": {
+        "sender": "卢建川",
+        "content": "被家明折断手指后发出撕心裂肺的惨叫。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "旁观者",
+        "inner_monologue": "这声音真可怕，家明下手好狠。",
+        "external_action": "被惨叫声吓到。",
+        "speech_text": null,
+        "mood_state": "shocked"
+      },
+      "id": "056_005",
+      "global_id": 175
+    },
+    {
+      "scene_snapshot": "沙沙和灵静、家明一起离开冲突现场。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "放下卢建川的手，轻哼一声，掉头就走。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "跟随者",
+        "inner_monologue": "终于结束了，我们快走吧。",
+        "external_action": "和灵静一起跟着家明离开。",
+        "speech_text": null,
+        "mood_state": "relieved"
+      },
+      "id": "056_006",
+      "global_id": 176
+    },
+    {
+      "scene_snapshot": "沙沙在回家路上和家明、灵静轻松交谈。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "开玩笑说沙沙又想要了。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "亲密伙伴",
+        "inner_monologue": "家明又在逗我了，不过刚才他真的好厉害。",
+        "external_action": "和灵静一起叽叽喳喳地笑。",
+        "speech_text": null,
+        "mood_state": "playful"
+      },
+      "id": "056_007",
+      "global_id": 177
+    }
+  ]
+}

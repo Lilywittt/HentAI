@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳正和段静娴在里屋聊天，讨论女儿们的性格和婚姻前景。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "朋友/邻居的母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "数落女儿灵静毛手毛脚，称赞沙沙做事干净利落。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "谦虚的父亲",
+        "inner_monologue": "我女儿沙沙确实像男孩子，多亏灵静的影响才收敛些，但嫁人可能难。",
+        "external_action": "说话回应段静娴",
+        "speech_text": "哪里，我们家沙沙跟个男孩子似的，要不是你们家灵静的影响，我都怕她已经跟着我出来混了呢，你也不是不知道她小时候打架是常事，现在才有点起色，不过要说嫁人，估计想娶你们家灵静的人一大堆，可没什么人敢娶我们家沙沙了，哈哈。",
+        "mood_state": "轻松"
+      },
+      "id": "271_001",
+      "global_id": 457
+    },
+    {
+      "scene_snapshot": "家明进入灵静的卧室，沙沙正在书桌前抄寒假作业。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "男朋友/亲密伴侣"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "从后面抱住沙沙，双手覆在她胸前。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "淡定女友",
+        "inner_monologue": "家明又来闹了，不过作业要紧，让他去逗灵静吧。",
+        "external_action": "继续抄作业，眉头带笑",
+        "speech_text": "好摸吗？老公。",
+        "mood_state": "平静"
+      },
+      "id": "271_002",
+      "global_id": 458
+    },
+    {
+      "scene_snapshot": "家明回应沙沙的提问，沙沙继续专注于作业。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "男朋友/亲密伴侣"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "抱怨手感不好，因为隔着衣服。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "务实学生",
+        "inner_monologue": "我得赶紧写完作业，别开学被老师念，让家明去找灵静玩吧。",
+        "external_action": "继续抄作业",
+        "speech_text": "那就放开啦，别吵着我写作业，我可不想开学又被老师念，你欲求不满的话，去折腾灵静去……",
+        "mood_state": "专注"
+      },
+      "id": "271_003",
+      "global_id": 459
+    }
+  ]
+}

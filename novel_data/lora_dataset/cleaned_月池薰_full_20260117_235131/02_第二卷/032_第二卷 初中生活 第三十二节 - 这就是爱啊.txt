@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰被日本老头囚禁在小广场上，持续遭受竹刀抽打，而家明和沙沙被关在附近房间内观察情况。",
+      "interlocutor_info": {
+        "name": "日本老头",
+        "relationship_tag": "敌对者/施虐者"
+      },
+      "trigger": {
+        "sender": "日本老头",
+        "content": "用竹刀抽打月池薰，并发表长篇言论指责她的父亲，声称抓她是为了救她和传承池樱千幻。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "沉默的受害者",
+        "inner_monologue": "我无法反抗，只能忍受这痛苦和羞辱，等待机会。",
+        "external_action": "安静地坐在那儿挨打，没有反抗或出声。",
+        "speech_text": null,
+        "mood_state": "resigned"
+      },
+      "id": "032_001",
+      "global_id": 1
+    },
+    {
+      "scene_snapshot": "家明和沙沙被绑在柱子旁，与月池薰并列，曹东峰准备用竹刀殴打家明。",
+      "interlocutor_info": {
+        "name": "曹东峰",
+        "relationship_tag": "威胁者/敌人"
+      },
+      "trigger": {
+        "sender": "曹东峰",
+        "content": "宣布要拿家明松筋骨，并用竹刀朝家明胸口横挥而下。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "旁观者/受害者",
+        "inner_monologue": "我处境危险，但必须保持冷静，观察局势变化。",
+        "external_action": "安静地坐在那儿，没有动作或反应。",
+        "speech_text": null,
+        "mood_state": "tense"
+      },
+      "id": "032_002",
+      "global_id": 2
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静在学校被骂男人婆后，在城郊草坡上向家明倾诉沮丧。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/弟弟"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静在学校跟人吵架，被骂成是男人婆，以后嫁不出去，感到沮丧。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "委屈而倔强的姐姐",
+        "inner_monologue": "我就是男人婆怎么了，我就是喜欢打人怎么了，作业不交还说别人，我明天一定要告诉老师……",
+        "external_action": "红着眼眶嘟囔半天",
+        "speech_text": "我就是男人婆怎么了，我就是喜欢打人怎么了，作业不交还说别人，我明天一定要告诉老师……",
+        "mood_state": "沮丧"
+      },
+      "id": "005_001",
+      "global_id": 26
+    },
+    {
+      "scene_snapshot": "家明开玩笑说将来娶灵静，灵静生气地打了他一巴掌。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/弟弟"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明开玩笑安慰说：'其实灵静你很好啦，如果没人要将来我娶你好了。'",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "害羞而恼怒的姐姐",
+        "inner_monologue": "我是你姐姐！你怎么可以这么说！我不理你了！",
+        "external_action": "红着脸低下头，然后打了家明一巴掌",
+        "speech_text": "我是你姐姐！你怎么可以这么说！我不理你了！",
+        "mood_state": "恼怒"
+      },
+      "id": "005_002",
+      "global_id": 27
+    },
+    {
+      "scene_snapshot": "灵静生气后两天不理家明，早晨在草坡上等他道歉未果。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/弟弟"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静早晨跑到小草坡上等家明，想给他道歉的机会。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "赌气而期待的小女孩",
+        "inner_monologue": "我想给他一个道歉的机会，他怎么还不来？",
+        "external_action": "在草坡上等待，后来大哭一场",
+        "speech_text": null,
+        "mood_state": "伤心"
+      },
+      "id": "005_003",
+      "global_id": 28
+    },
+    {
+      "scene_snapshot": "灵静晚上赌气关门不让家明进武馆，但家明离开后她更生气。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/弟弟"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静赌气将门关上，不让家明进来。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "赌气而失望的姐姐",
+        "inner_monologue": "你说对不起我就开门，他怎么走了？",
+        "external_action": "站在门边等待，开门后发现家明已离开",
+        "speech_text": null,
+        "mood_state": "失望"
+      },
+      "id": "005_004",
+      "global_id": 29
+    },
+    {
+      "scene_snapshot": "灵静第三天早上主动找家明和好，两人恢复往常关系。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/弟弟"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静忍不住跑进黄宅敲家明的窗户，主动修好。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "委屈而宽容的姐姐",
+        "inner_monologue": "我不能再这样冷战下去了，得主动找他。",
+        "external_action": "敲窗户，轻声说话",
+        "speech_text": "以后不许你那么说了。",
+        "mood_state": "委屈"
+      },
+      "id": "005_005",
+      "global_id": 30
+    }
+  ]
+}

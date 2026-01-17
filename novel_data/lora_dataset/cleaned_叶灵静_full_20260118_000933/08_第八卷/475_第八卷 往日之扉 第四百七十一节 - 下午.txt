@@ -1,0 +1,154 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静回家看到家明和沙沙在卧室里玩闹，沙沙偏着脑袋让家明掏耳朵。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明把沙沙的脑袋搁在大腿上拼命拍，说“看她的脑袋是不是空的”。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "温和包容的伴侣",
+        "inner_monologue": "这两个人又在胡闹了，真是拿他们没办法。",
+        "external_action": "笑着摇头，去客厅放下塑料袋，将东西一件件拿出来。",
+        "speech_text": "“你们干嘛啊？”",
+        "mood_state": "amused"
+      },
+      "id": "475_001",
+      "global_id": 974
+    },
+    {
+      "scene_snapshot": "灵静在客厅整理购物袋，听到卧室里家明和沙沙继续玩闹。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明制止沙沙发飙说“别乱动别乱动了，我再看看出来没”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "无奈旁观者",
+        "inner_monologue": "他们玩得这么开心，我还是别打扰了。",
+        "external_action": "无奈忍笑去看卧室里的混乱。",
+        "speech_text": null,
+        "mood_state": "tolerant"
+      },
+      "id": "475_002",
+      "global_id": 975
+    },
+    {
+      "scene_snapshot": "家明从沙沙耳朵里掏出东西后感叹，灵静和沙沙同时笑骂他。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明感叹“真有成就感，另一边”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "戏谑的伴侣",
+        "inner_monologue": "这家伙真恶心，不过也挺可爱的。",
+        "external_action": "和沙沙几乎同时笑骂出来。",
+        "speech_text": "“你恶心不恶心啊！”",
+        "mood_state": "playful"
+      },
+      "id": "475_003",
+      "global_id": 976
+    },
+    {
+      "scene_snapshot": "沙沙问灵静找工作的情况，灵静在客厅里回答。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙问道“灵静，你跑去找工作怎么样了？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "求职者",
+        "inner_monologue": "找工作真不容易，那些人都不理解我的选择。",
+        "external_action": "在客厅里摇头。",
+        "speech_text": "“说是考虑好之后给我答复。”",
+        "mood_state": "frustrated"
+      },
+      "id": "475_004",
+      "global_id": 977
+    },
+    {
+      "scene_snapshot": "家明评论灵静的工作选择，灵静解释自己的理由。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明说“他们会想你胸无大志吧”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "务实的生活者",
+        "inner_monologue": "我只想要稳定平淡的生活，这有什么错？",
+        "external_action": null,
+        "speech_text": "“因为我想要稳定啊，何况以前都有这种工作的经验了，上手也快。”",
+        "mood_state": "resigned"
+      },
+      "id": "475_005",
+      "global_id": 978
+    },
+    {
+      "scene_snapshot": "灵静提议三人补读大学，但家明和沙沙觉得累，她反思现状。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明和沙沙对补读大学的提议觉得累（间接触发灵静的内心活动）。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "体贴的规划者",
+        "inner_monologue": "大家都有各自的难处，我得慢慢帮他们适应普通生活。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "thoughtful"
+      },
+      "id": "475_006",
+      "global_id": 979
+    },
+    {
+      "scene_snapshot": "灵静和沙沙去玩电脑游戏，家明出门办证件。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙和灵静一起去玩电脑游戏（场景转换）。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "放松的伙伴",
+        "inner_monologue": "和沙沙一起玩游戏能让她开心点，慢慢找回目标吧。",
+        "external_action": "跑到小房间里去玩电脑游戏。",
+        "speech_text": null,
+        "mood_state": "content"
+      },
+      "id": "475_007",
+      "global_id": 980
+    }
+  ]
+}

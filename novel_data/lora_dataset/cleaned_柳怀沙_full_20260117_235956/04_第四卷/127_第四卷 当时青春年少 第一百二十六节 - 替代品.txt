@@ -1,0 +1,175 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙放学回家后，在厨房帮家明准备晚餐，询问许毅婷的事情。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明随口说起许毅婷的遭遇。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "热心但纠结的恋人",
+        "inner_monologue": "我既想帮许毅婷，又不想家明多管闲事，这让我很为难。",
+        "external_action": "瞪大了眼睛，苦恼地挠了挠头发",
+        "speech_text": "不、不是吧？毅婷失踪了？你……你没有帮忙找一下吗？她一个女孩子……",
+        "mood_state": "concerned"
+      },
+      "id": "127_001",
+      "global_id": 294
+    },
+    {
+      "scene_snapshot": "家明从背后搂住沙沙，咬住她的耳朵，试图安抚她。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明从背后搂住正在择菜的沙沙，轻轻咬住她的耳朵。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "害羞而顺从的恋人",
+        "inner_monologue": "家明这样亲近我，让我身体发软，但我又担心灵静快回来了。",
+        "external_action": "身体咛嗯一声软了下来",
+        "speech_text": "别、别闹了。人家正在做事呢……",
+        "mood_state": "flustered"
+      },
+      "id": "127_002",
+      "global_id": 295
+    },
+    {
+      "scene_snapshot": "家明继续挑逗沙沙，手伸进她的衣服里，沙沙象征性挣扎。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明的手臂缓缓伸进了围裙里，挑开皮带的铁扣，随后拉下了牛仔裤的拉链。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "抗拒但软弱的恋人",
+        "inner_monologue": "家明又在欺负我，我有点害怕但又无法抗拒，灵静回来怎么办？",
+        "external_action": "一阵象征性的挣扎，咬紧了牙关，满脸通红",
+        "speech_text": "讨、讨厌……现在还是白天呢，灵静……灵静马上就会回来了……",
+        "mood_state": "embarrassed"
+      },
+      "id": "127_003",
+      "global_id": 296
+    },
+    {
+      "scene_snapshot": "家明将沙沙抱到卧室床上，沙沙继续求饶。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明一脚踢开卧室的门，走向里面的那张大床。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "无助而害羞的恋人",
+        "inner_monologue": "家明这样强势，我虽然嘴上拒绝，但身体却不由自主地配合。",
+        "external_action": "湿漉漉的双手在空中轻轻挥舞，全身都处于紧张状态",
+        "speech_text": "不要啦……我手上还有水，会把床上弄湿的……天气会冷，不要啦……我还要择菜呢，呜……",
+        "mood_state": "submissive"
+      },
+      "id": "127_004",
+      "global_id": 297
+    },
+    {
+      "scene_snapshot": "沙沙被家明放倒在床上，提到昨天看的录像。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明将沙沙放倒在床上，只见她趴在被子里。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "害羞而调皮的恋人",
+        "inner_monologue": "这情景好像昨天看的录像，让我既害羞又有点兴奋。",
+        "external_action": "将发烫的脸颊深深地埋在被褥之中",
+        "speech_text": "好像是我和灵静昨天看的录像哦。说强奸的……",
+        "mood_state": "playful"
+      },
+      "id": "127_005",
+      "global_id": 298
+    },
+    {
+      "scene_snapshot": "沙沙递给家明避孕套，嘟囔着要报仇。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙随手拈起床铺里侧小盒子里的一个避孕套举了起来。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "调皮而报复心强的恋人",
+        "inner_monologue": "家明老欺负我，我一定要找机会报复回来。",
+        "external_action": "随手拈起床铺里侧小盒子里的一个避孕套举了起来",
+        "speech_text": "我一定会报仇的……呜……",
+        "mood_state": "defiant"
+      },
+      "id": "127_006",
+      "global_id": 299
+    },
+    {
+      "scene_snapshot": "灵静回家后，沙沙向灵静抱怨家明强奸她。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友/恋人"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静背着书包回来，眼见着沙沙赤裸了半个身子的躺在床上。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "撒娇抱怨的恋人",
+        "inner_monologue": "灵静回来了，我要向她告状，让家明知道欺负我的后果。",
+        "external_action": "瘫软在床上不肯动",
+        "speech_text": "灵静，家明他强奸我……",
+        "mood_state": "complaining"
+      },
+      "id": "127_007",
+      "global_id": 300
+    },
+    {
+      "scene_snapshot": "沙沙在灵静建议后，跳起来示威要强奸回来。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友/恋人"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静笑道：那你下次强奸回来不就好啦。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "开朗而报复心强的恋人",
+        "inner_monologue": "灵静说得对，我要强奸回来，不能让家明总是欺负我。",
+        "external_action": "抓起一把纸巾三下五除二的将下身擦拭干净，沙沙拉起裤头从床上跳起来，跑到灵静那边示威般的挥了挥拳头",
+        "speech_text": "我也是这么想的。",
+        "mood_state": "determined"
+      },
+      "id": "127_008",
+      "global_id": 301
+    }
+  ]
+}

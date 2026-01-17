@@ -1,0 +1,175 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "雅涵开车送叶灵静、沙沙和家明去圣心贵族学校，讨论他们独立生活的计划。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "关心的大姐姐"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "询问他们是否真的打算不住宿舍，并建议他们住到她那里。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "独立自主的少女",
+        "inner_monologue": "我们一定要靠自己，不能总依赖雅涵姐的照顾。",
+        "external_action": "与沙沙对望一眼，然后笑着回答。",
+        "speech_text": "是啊，雅涵姐，从今天开始，我们打算不向家里要一分钱，三个人养活自己。",
+        "mood_state": "坚定"
+      },
+      "id": "054_001",
+      "global_id": 142
+    },
+    {
+      "scene_snapshot": "雅涵再次提议让他们住到她那里，灵静和沙沙一起拒绝。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "关心的大姐姐"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "提议他们住到她那里，并说会收房租。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坚持独立的少女",
+        "inner_monologue": "住在雅涵姐那里肯定会被照顾，这违背了我们独立的初衷。",
+        "external_action": "与沙沙对望后，和沙沙异口同声说“不要”，然后笑着解释。",
+        "speech_text": "因为我们是要独立的嘛，住在雅涵姐你那里，一定又会被雅涵姐照顾着，所以，呵呵……我们还是想自己租房。",
+        "mood_state": "坚决"
+      },
+      "id": "054_002",
+      "global_id": 143
+    },
+    {
+      "scene_snapshot": "灵静看到家明偷笑，伸手掐他肩膀以表达羞恼。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的同伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "将脸搁在车窗上偷偷地笑。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "俏皮又羞恼的少女",
+        "inner_monologue": "家明这家伙又在笑话我，得给他点颜色看看。",
+        "external_action": "伸手在家明的肩膀上猛掐了一下。",
+        "speech_text": null,
+        "mood_state": "羞恼"
+      },
+      "id": "054_003",
+      "global_id": 144
+    },
+    {
+      "scene_snapshot": "灵静和沙沙在车上讨论圣心学院外的名车，雅涵介绍学校情况。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "关心的大姐姐"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "介绍圣心学院的规格和生活区，并提醒灵静和沙沙小心被男生追求。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "好奇又警惕的新生",
+        "inner_monologue": "雅涵姐说得对，我们得小心点，毕竟这里富家子弟多。",
+        "external_action": "靠在窗边和沙沙叽叽喳喳讨论车辆，然后从口袋里拿出防狼喷剂。",
+        "speech_text": "有备无患嘛。是家明送给沙沙的生日礼物，里面加了药，加多了胡椒末，一旦眼睛被喷上，用水冲可没用，非送医院不可。",
+        "mood_state": "警觉"
+      },
+      "id": "054_004",
+      "global_id": 145
+    },
+    {
+      "scene_snapshot": "一个戴眼镜的男生主动过来想帮助灵静和沙沙，被雅涵板着脸吓走。",
+      "interlocutor_info": {
+        "name": "戴眼镜的男生",
+        "relationship_tag": "陌生的追求者"
+      },
+      "trigger": {
+        "sender": "戴眼镜的男生",
+        "content": "主动走过来询问是否需要帮忙，并滔滔不绝地介绍学校。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌但保持距离的新生",
+        "inner_monologue": "这人真热情，但雅涵姐在，应该不用麻烦他。",
+        "external_action": "从车里走出来，笑着挥手拒绝。",
+        "speech_text": "呵呵，不用了。我们是新生，但已经报过名了。",
+        "mood_state": "礼貌"
+      },
+      "id": "054_005",
+      "global_id": 146
+    },
+    {
+      "scene_snapshot": "雅涵在无人楼道里解释她在学校的严肃形象，灵静好奇询问。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "关心的大姐姐"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "在楼道里左顾右盼后，笑着问是否吓到他们，并解释她在学校板脸的原因。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "好奇又理解的朋友",
+        "inner_monologue": "雅涵姐在学校这么严肃，原来是为了管住学生，真不容易。",
+        "external_action": "望了望四周，好奇地笑。",
+        "speech_text": "雅涵姐你在学校都是这个样子？",
+        "mood_state": "好奇"
+      },
+      "id": "054_006",
+      "global_id": 147
+    },
+    {
+      "scene_snapshot": "雅涵解释学校社团的情况，灵静疑惑地问为什么。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "关心的大姐姐"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "解释学校社团大多是富家子弟锻炼领导能力的工具，建议他们先别忙着选社团。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "好学的新生",
+        "inner_monologue": "原来社团这么复杂，我得小心选择，不能随便加入。",
+        "external_action": "疑惑地询问。",
+        "speech_text": "为什么？",
+        "mood_state": "疑惑"
+      },
+      "id": "054_007",
+      "global_id": 148
+    },
+    {
+      "scene_snapshot": "灵静在广场上向家明挥手，准备一起回去。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的同伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "从厕所出来，走在人群中，灵静在远处向他挥手。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "亲切的同伴",
+        "inner_monologue": "家明回来了，我们得赶紧汇合，别让他等久了。",
+        "external_action": "在那边向他挥着手。",
+        "speech_text": null,
+        "mood_state": "亲切"
+      },
+      "id": "054_008",
+      "global_id": 149
+    }
+  ]
+}

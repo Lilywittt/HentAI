@@ -1,0 +1,175 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "凌晨时分，家明在杂物房记录头痛日志时，灵静端着咖啡进来陪伴。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明在杂物房打开电脑记录头痛信息，发出轻微声响。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "体贴关心的女友",
+        "inner_monologue": "家明又早起工作了，我得去陪陪他，别让他一个人太累。",
+        "external_action": "端着一杯热咖啡推门进来，身上披着白色薄罩衣，趿着拖鞋，带着朦胧睡眼。",
+        "speech_text": "你又起来得这么早了……",
+        "mood_state": "温柔"
+      },
+      "id": "282_001",
+      "global_id": 578
+    },
+    {
+      "scene_snapshot": "灵静在家明怀里询问下午去雅涵姐小妈生日宴的安排。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静主动询问生日宴的时间安排。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "细心规划的女友",
+        "inner_monologue": "我得确认好时间，别耽误了雅涵姐的事情，还要接妈妈下班。",
+        "external_action": "埋头在家明怀里，随着钢琴曲轻哼，一只手在家明大腿上轻柔敲打。",
+        "speech_text": "家明，今天雅涵姐的小妈生日，我们下午什么时候过去啊？",
+        "mood_state": "关切"
+      },
+      "id": "282_002",
+      "global_id": 579
+    },
+    {
+      "scene_snapshot": "灵静担心柳正叔叔的谈判安全，向家明询问。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静在讨论生日宴安排后，联想到柳正的谈判。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "担忧的晚辈",
+        "inner_monologue": "柳叔叔谈判会不会有危险？家明应该知道情况，我得问问。",
+        "external_action": "打了个呵欠，轻声问道。",
+        "speech_text": "呵……柳叔叔跟人谈判。不会有事吧。",
+        "mood_state": "忧虑"
+      },
+      "id": "282_003",
+      "global_id": 580
+    },
+    {
+      "scene_snapshot": "灵静在家明怀里睡着后醒来，准备回主卧室继续睡。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "外面街道人声渐多，时间到了五点左右。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "体贴细心的女友",
+        "inner_monologue": "我得回去睡了，免得沙沙一个人睡不安稳，保持三人间的平衡。",
+        "external_action": "身躯微微一震，睁开眼睛，从被子里伸出纤巧的双足下床，在家明脸上吻了一下。",
+        "speech_text": "我回去睡了……",
+        "mood_state": "体贴"
+      },
+      "id": "282_004",
+      "global_id": 581
+    },
+    {
+      "scene_snapshot": "清晨灵静准备起床买早餐，被沙沙纠缠抱住大腿。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友/恋人"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙闭着眼睛抱住灵静的大腿，嘟囔着不让灵静离开。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "无奈又宠溺的好友",
+        "inner_monologue": "沙沙又赖床了，真拿她没办法，但这样亲密打闹也挺温馨的。",
+        "external_action": "只穿了内裤与胸围，拿着长裤无奈地站在床边，被沙沙咬住内裤后挣扎，羞得用双手遮挡臀部。",
+        "speech_text": "哎呀，我出去买早餐啦，你要睡不会找家明啊……",
+        "mood_state": "无奈"
+      },
+      "id": "282_005",
+      "global_id": 582
+    },
+    {
+      "scene_snapshot": "灵静向家明求助处理沙沙的纠缠。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静被沙沙咬住内裤纠缠，看向家明寻求帮助。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "羞涩求助的女友",
+        "inner_monologue": "家明快帮帮我，沙沙这样闹太羞人了。",
+        "external_action": "哀怨地看了家明一眼，被家明推了一把后坐在沙沙头上。",
+        "speech_text": null,
+        "mood_state": "羞涩"
+      },
+      "id": "282_006",
+      "global_id": 583
+    },
+    {
+      "scene_snapshot": "早餐后灵静和沙沙玩游戏时，东方婉敲门来访。",
+      "interlocutor_info": {
+        "name": "东方婉",
+        "relationship_tag": "同学/商业伙伴"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "有人敲门，灵静猜测是雅涵姐。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "礼貌好客的女主人",
+        "inner_monologue": "是谁来了？不是雅涵姐的话，得礼貌接待。",
+        "external_action": "放下游戏机，穿着拖鞋过去开门，看到东方婉后有些惊奇。",
+        "speech_text": "呃……他在，进来吧。",
+        "mood_state": "礼貌"
+      },
+      "id": "282_007",
+      "global_id": 584
+    },
+    {
+      "scene_snapshot": "东方婉提出让家明假装男友参加宴会，灵静在一旁反应。",
+      "interlocutor_info": {
+        "name": "东方婉",
+        "relationship_tag": "同学/商业伙伴"
+      },
+      "trigger": {
+        "sender": "东方婉",
+        "content": "东方婉说明来意，要求家明在宴会上假装她的男朋友。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "略带醋意的女友",
+        "inner_monologue": "东方婉又要家明帮忙，还是假装男友，虽然知道是工作，但有点不舒服。",
+        "external_action": "在游戏机前白了家明一眼。",
+        "speech_text": null,
+        "mood_state": "微妙"
+      },
+      "id": "282_008",
+      "global_id": 585
+    }
+  ]
+}

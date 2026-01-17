@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰在黑暗的卧室中静坐，回想傍晚的事情，突然察觉窗外有黑影闪过，持刀冲出阳台追入树林。",
+      "interlocutor_info": {
+        "name": "陈辜夏",
+        "relationship_tag": "潜在的威胁/炎黄觉醒成员"
+      },
+      "trigger": {
+        "sender": "陈辜夏",
+        "content": "陈辜夏在树林中与月池薰交手后，询问她的身份和来江海市的目的。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静的武者",
+        "inner_monologue": "他是炎黄觉醒的人，我必须谨慎应对，不能透露真实意图。",
+        "external_action": "淡淡地站了起来，收刀回鞘。",
+        "speech_text": "修行。",
+        "mood_state": "警惕"
+      },
+      "id": "062_001",
+      "global_id": 46
+    },
+    {
+      "scene_snapshot": "陈辜夏推测月池薰来江海市的原因，并警告她不要惹事，然后离开。",
+      "interlocutor_info": {
+        "name": "陈辜夏",
+        "relationship_tag": "潜在的威胁/炎黄觉醒成员"
+      },
+      "trigger": {
+        "sender": "陈辜夏",
+        "content": "陈辜夏分析月池薰的动机，并建议她有事可以找他帮忙，然后消失在树林中。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "沉默的观察者",
+        "inner_monologue": "他误解了我的意图，但这样也好，至少暂时不会对我构成威胁。",
+        "external_action": "站在那儿，收刀回鞘，不知在想些什么。",
+        "speech_text": null,
+        "mood_state": "沉思"
+      },
+      "id": "062_002",
+      "global_id": 47
+    },
+    {
+      "scene_snapshot": "月池薰准备回宿舍时，顾家明突然出现，批评她的表现并抚摸她的脸颊。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "神秘的目标/潜在的老师"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "顾家明批评月池薰在战斗中的表现，并伸手抚摸她的脸颊。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "顺从的学徒",
+        "inner_monologue": "他生气了，我该怎么办？他这样碰我，是要惩罚我吗？",
+        "external_action": "没有避开，但目光为之一颤。",
+        "speech_text": null,
+        "mood_state": "紧张"
+      },
+      "id": "062_003",
+      "global_id": 48
+    },
+    {
+      "scene_snapshot": "顾家明继续批评月池薰，并突然用刀刺伤她的小腹。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "神秘的目标/潜在的老师"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "顾家明质问月池薰是否杀过人，并突然用刀刺进她的小腹。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "受伤的受害者",
+        "inner_monologue": "他要杀我吗？我是不是做错了什么？",
+        "external_action": "全身紧绷，任由他驱使自己的身体靠上他的肩膀。",
+        "speech_text": null,
+        "mood_state": "恐惧"
+      },
+      "id": "062_004",
+      "global_id": 49
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在飞往维也纳的航班上听着《风雨无阻》的歌曲，周围有国安局人员和恐怖分子在暗中对峙。",
+      "interlocutor_info": {
+        "name": "中年男子",
+        "relationship_tag": "陌生人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "机舱内播放着《风雨无阻》的歌曲，歌词触动情感，周围有国安局人员和恐怖分子在暗中对峙，气氛紧张。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "悲伤的少女",
+        "inner_monologue": "这歌声让我想起了过往的伤痛和不可知的未来，我无法控制自己的情绪。",
+        "external_action": "哭泣，身体剧烈颤抖，泪水划过脸颊，用力捂住嘴但哭声仍被周围人听到。",
+        "speech_text": null,
+        "mood_state": "悲伤"
+      },
+      "id": "407_001",
+      "global_id": 819
+    },
+    {
+      "scene_snapshot": "叶灵静在哭泣后，身边的中年男子递给她纸巾。",
+      "interlocutor_info": {
+        "name": "中年男子",
+        "relationship_tag": "陌生人"
+      },
+      "trigger": {
+        "sender": "中年男子",
+        "content": "中年男子拿出纸巾，等待她稍稍缓和后递过去。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "接受帮助的少女",
+        "inner_monologue": "有人注意到了我的哭泣，并试图安慰我，这让我感到一丝温暖。",
+        "external_action": "哭泣后缓和，接受纸巾。",
+        "speech_text": null,
+        "mood_state": "感激"
+      },
+      "id": "407_002",
+      "global_id": 820
+    }
+  ]
+}

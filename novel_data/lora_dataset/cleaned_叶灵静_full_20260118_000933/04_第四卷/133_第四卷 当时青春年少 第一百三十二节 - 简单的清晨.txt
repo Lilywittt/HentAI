@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静在卧室里换衣服，与家明和沙沙闲聊关于校庆和方雨思的话题。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密室友/恋人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "评论方雨思过气，并调侃灵静的胸部不如方雨思，但称赞灵静更有潜力。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "俏皮反驳的少女",
+        "inner_monologue": "家明又在开玩笑了，不过他说我比方雨思有潜力，心里还是有点开心的。",
+        "external_action": "白了家明一眼，忍不住笑出来。",
+        "speech_text": "去，方雨思哪里过气了。",
+        "mood_state": "amused"
+      },
+      "id": "133_001",
+      "global_id": 370
+    },
+    {
+      "scene_snapshot": "灵静穿好衣服后，沙沙请求她帮忙完成数学作业。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密室友/好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "请求灵静帮忙完成未做完的数学作业，并撒娇说“我们俩是什么关系”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "无奈又照顾人的朋友",
+        "inner_monologue": "沙沙又偷懒了，明明昨天说写完了，现在还得我来帮忙。",
+        "external_action": "怔了一怔，翻了个白眼，从沙发书堆里找出作业本。",
+        "speech_text": "你昨天晚上明明说写完了才玩游戏的，你还跟我抢遥控器来着……",
+        "mood_state": "exasperated"
+      },
+      "id": "133_002",
+      "global_id": 371
+    },
+    {
+      "scene_snapshot": "灵静在客厅帮沙沙写作业，抱怨自己像沙沙的妈妈。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密室友/恋人"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静主动向家明抱怨沙沙的作业问题，并调侃沙沙比自己大却需要照顾。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "抱怨但关心的朋友",
+        "inner_monologue": "沙沙总是这样，我得帮她，但有时候真觉得累，像在照顾小孩子。",
+        "external_action": "打开作业本，抱怨题目简单但沙沙做不出来。",
+        "speech_text": "家明，我记得沙沙比我们俩都要大吧？为什么我觉得自己像她老妈一样。哇哦。这道题都做不出来，沙沙你要气死我啊……你改名叫傻傻好了……",
+        "mood_state": "frustrated"
+      },
+      "id": "133_003",
+      "global_id": 372
+    },
+    {
+      "scene_snapshot": "沙沙从卧室跑出来抱住灵静，灵静向家明求助。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密室友/好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙从背后抱住灵静，撒娇称呼她为“灵静妈妈”表示感谢。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "被逗笑但假装生气的朋友",
+        "inner_monologue": "沙沙又来闹了，不过她这样撒娇，我也没法真的生气。",
+        "external_action": "被沙沙抱住，向家明喊话求助。",
+        "speech_text": "你你你……我帮你写作业，你还来吵我……顾家明，把你大老婆抱走啦……",
+        "mood_state": "playful"
+      },
+      "id": "133_004",
+      "global_id": 373
+    }
+  ]
+}

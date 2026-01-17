@@ -1,0 +1,217 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰在医院里默默跟随顾家明，并在下棋时暗中帮助对手。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "救命恩人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "顾家明在庭院、长椅、水池边和凉亭活动，月池薰跟随并观察。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "沉默的跟随者",
+        "inner_monologue": "我跟着他，或许能学到什么或表达感谢。",
+        "external_action": "静静跟随、坐下、蹲下、观看下棋，并在家明占上风时用手指虚点棋盘提示对手。",
+        "speech_text": null,
+        "mood_state": "专注"
+      },
+      "id": "041_001",
+      "global_id": 27
+    },
+    {
+      "scene_snapshot": "深夜，月池薰向顾家明提出一个重要的请求。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "救命恩人"
+      },
+      "trigger": {
+        "sender": "月池薰",
+        "content": "轻声呼唤顾家明，并请求他听一件事。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "恳求者",
+        "inner_monologue": "我必须鼓起勇气问他这件事，这关系到我的未来。",
+        "external_action": "轻声说话，等待回应。",
+        "speech_text": "顾家明……你……对不起，恕我冒昧，可以……可以拜托你一件事吗？",
+        "mood_state": "紧张"
+      },
+      "id": "041_002",
+      "global_id": 28
+    },
+    {
+      "scene_snapshot": "顾家明拒绝后，月池薰坚持解释她的困境。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "救命恩人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "用日语拒绝月池薰的请求。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坚持的求助者",
+        "inner_monologue": "我不能放弃，这件事太重要了，必须让他听完。",
+        "external_action": "在沉默后再次开口。",
+        "speech_text": "抱歉……可是，这件事对我来说，很重要，不知道顾君可不可以……将它听完再做决定……",
+        "mood_state": "执着"
+      },
+      "id": "041_003",
+      "global_id": 29
+    },
+    {
+      "scene_snapshot": "月池薰询问顾家明是否有与女孩的经验。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "救命恩人"
+      },
+      "trigger": {
+        "sender": "月池薰",
+        "content": "直接问顾家明是否有与女孩的经验。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "直率的询问者",
+        "inner_monologue": "我需要知道他的经验，才能提出我的请求。",
+        "external_action": "小声说话。",
+        "speech_text": "我想问一下，顾君……有没有跟女孩子那个……那个的经验……",
+        "mood_state": "羞怯"
+      },
+      "id": "041_004",
+      "global_id": 30
+    },
+    {
+      "scene_snapshot": "顾家明嘲讽后，月池薰确认她的意图。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "救命恩人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "嘲讽月池薰，问她是否想跟他做。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "确认的求助者",
+        "inner_monologue": "是的，我想用这种方式解决我的问题。",
+        "external_action": "小声回应。",
+        "speech_text": "是……是的，不知道是不是可以……",
+        "mood_state": "决心"
+      },
+      "id": "041_005",
+      "global_id": 31
+    },
+    {
+      "scene_snapshot": "顾家明进一步拒绝并开玩笑，月池薰道歉并解释家庭危机。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "救命恩人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "拒绝并开玩笑说用铅笔戳破。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "解释者",
+        "inner_monologue": "我必须让他理解我的处境，月池家正面临危机。",
+        "external_action": "道歉并解释。",
+        "speech_text": "对、对不起……可是……不知道顾君知不知道，我们月池家，目前正面临一场危机……",
+        "mood_state": "忧虑"
+      },
+      "id": "041_006",
+      "global_id": 32
+    },
+    {
+      "scene_snapshot": "月池薰继续解释家庭安排和她的请求。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "救命恩人"
+      },
+      "trigger": {
+        "sender": "月池薰",
+        "content": "解释父亲要她与天雨正则订婚，希望将第一次给顾家明。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "绝望的求助者",
+        "inner_monologue": "我无法违背父亲，但至少想控制自己的第一次。",
+        "external_action": "继续说话。",
+        "speech_text": "……因为这样，家里请求了高天原的帮助，为了巩固这一层关系，上次还在日本的时候，父亲曾经跟我提过，要我跟天雨家的长男订婚，我没有见过天雨家的正则君，但这次回去，无法违背父亲的意见，所以希望，至少将第一次……",
+        "mood_state": "无奈"
+      },
+      "id": "041_007",
+      "global_id": 33
+    },
+    {
+      "scene_snapshot": "顾家明开玩笑后，月池薰认真请求借铅笔。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "救命恩人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "开玩笑说用铅笔戳破，并赞扬自己。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "认真的执行者",
+        "inner_monologue": "如果铅笔能解决问题，我愿意尝试。",
+        "external_action": "下床走到顾家明床边，伸出双手。",
+        "speech_text": "我……我想借铅笔……",
+        "mood_state": "严肃"
+      },
+      "id": "041_008",
+      "global_id": 34
+    },
+    {
+      "scene_snapshot": "顾家明大笑并解释后，月池薰询问他对裴罗嘉的熟悉程度。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "救命恩人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "大笑并解释铅笔玩笑，安慰月池薰。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "好奇的询问者",
+        "inner_monologue": "他似乎知道很多，或许能帮我更多。",
+        "external_action": "询问。",
+        "speech_text": "顾君，你……很熟悉裴罗嘉？",
+        "mood_state": "好奇"
+      },
+      "id": "041_009",
+      "global_id": 35
+    },
+    {
+      "scene_snapshot": "顾家明否认后，月池薰进一步询问他是否认识天雨正则。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "救命恩人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "否认与裴罗嘉的关系，并提到天雨正则。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "追问者",
+        "inner_monologue": "他认识天雨正则吗？这或许能改变我的处境。",
+        "external_action": "询问。",
+        "speech_text": "顾君……认识天雨君？",
+        "mood_state": "期待"
+      },
+      "id": "041_010",
+      "global_id": 36
+    }
+  ]
+}

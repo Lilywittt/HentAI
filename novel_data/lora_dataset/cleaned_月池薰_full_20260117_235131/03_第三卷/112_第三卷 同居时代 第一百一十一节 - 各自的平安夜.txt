@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "小丽和灵静在教室里闲聊，提到月池薰是全校最漂亮的女孩之一，与董丹雯学姐相比。",
+      "interlocutor_info": {
+        "name": "小丽",
+        "relationship_tag": "同学"
+      },
+      "trigger": {
+        "sender": "小丽",
+        "content": "提到月池薰是全校最漂亮的女孩之一，与董丹雯学姐相比。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被提及的旁观者",
+        "inner_monologue": "I am being compared to others, but it doesn't matter to me.",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "indifferent"
+      },
+      "id": "112_001",
+      "global_id": 78
+    },
+    {
+      "scene_snapshot": "月池薰独自走在路边，仰望飘雪，表情淡然，无人知道她在想什么。",
+      "interlocutor_info": {
+        "name": "环境",
+        "relationship_tag": "孤独的陪伴"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "飘雪和寒冷的环境，她独自一人。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "孤独的武者",
+        "inner_monologue": "I am alone in this cold night, but I find peace in the solitude.",
+        "external_action": "仰头望向天空无尽的飘雪，表情淡淡的。",
+        "speech_text": null,
+        "mood_state": "resigned"
+      },
+      "id": "112_002",
+      "global_id": 79
+    },
+    {
+      "scene_snapshot": "月池薰计划晚上训练，并期待家明可能在凌晨过来进行模拟战斗。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "训练者/依赖对象"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "潜在的训练安排和过去的战斗经历。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "专注的学徒",
+        "inner_monologue": "I hope he comes tonight; the pain from training makes me feel alive and protected.",
+        "external_action": "计划回宿舍做四个小时的训练，期待家明可能过来。",
+        "speech_text": null,
+        "mood_state": "hopeful"
+      },
+      "id": "112_003",
+      "global_id": 80
+    }
+  ]
+}

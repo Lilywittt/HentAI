@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙在同学会中与沈家伟发生冲突，气氛紧张。",
+      "interlocutor_info": {
+        "name": "沈家伟",
+        "relationship_tag": "敌对的同学"
+      },
+      "trigger": {
+        "sender": "沈家伟",
+        "content": "沈家伟带着刻薄与讽刺的表情走向柳怀沙，开口说话挑衅。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静对峙者",
+        "inner_monologue": "我倒要看看这家伙想玩什么把戏。",
+        "external_action": "脸上带着淡淡的冷笑，看着沈家伟说话。",
+        "speech_text": null,
+        "mood_state": "轻蔑"
+      },
+      "id": "472_001",
+      "global_id": 752
+    },
+    {
+      "scene_snapshot": "柳怀沙看到雅涵出现，用唇语向家明示意。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "雅涵从楼梯间出现，灵静和柳怀沙注意到她。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "俏皮提醒者",
+        "inner_monologue": "这下家明要头疼了，看他怎么应付。",
+        "external_action": "目光朝家明这边望过来，伸手指了指，用唇语无声说道。",
+        "speech_text": null,
+        "mood_state": "戏谑"
+      },
+      "id": "472_002",
+      "global_id": 753
+    },
+    {
+      "scene_snapshot": "柳怀沙和灵静一起走向雅涵，形成三足鼎立局面。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "情敌/朋友"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "雅涵发现灵静和柳怀沙朝她走来，家明无奈摊手。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "主动参与者",
+        "inner_monologue": "我们一起去会会雅涵，看看家明怎么收场。",
+        "external_action": "朝着灵静小跑而去，与灵静一起迎向雅涵。",
+        "speech_text": null,
+        "mood_state": "好奇"
+      },
+      "id": "472_003",
+      "global_id": 754
+    },
+    {
+      "scene_snapshot": "柳怀沙和灵静回到座位后，与家明赌气不说话。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明给柳怀沙和灵静夹菜，试图缓和气氛。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "赌气沉默者",
+        "inner_monologue": "我就不理他，看他能忍到什么时候。",
+        "external_action": "与灵静一起坚决不跟家明说话，但给家明夹菜添饭。",
+        "speech_text": null,
+        "mood_state": "赌气"
+      },
+      "id": "472_004",
+      "global_id": 755
+    },
+    {
+      "scene_snapshot": "柳怀沙在远处看到沈家伟醉酒闹事，关注事态发展。",
+      "interlocutor_info": {
+        "name": "沈家伟",
+        "relationship_tag": "敌对的同学"
+      },
+      "trigger": {
+        "sender": "沈家伟",
+        "content": "沈家伟醉酒后大放厥词，提到武馆和威胁话语。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "警觉观察者",
+        "inner_monologue": "这家伙又在胡说什么，得小心他搞事。",
+        "external_action": "朝沈家伟那边望过来，关注冲突进展。",
+        "speech_text": null,
+        "mood_state": "警觉"
+      },
+      "id": "472_005",
+      "global_id": 756
+    }
+  ]
+}

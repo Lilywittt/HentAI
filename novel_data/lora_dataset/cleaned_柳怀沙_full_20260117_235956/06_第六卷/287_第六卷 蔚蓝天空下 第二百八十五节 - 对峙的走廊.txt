@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静被文从易搭讪，家明介入后，沙沙在一旁观察并互动。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静暗地里朝文从易那边努了努嘴，露出一个嫌恶的目光。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "轻松旁观者",
+        "inner_monologue": "灵静又在调皮了，不过文从易确实有点烦人。",
+        "external_action": "沙沙好笑地挑了挑眉，一耸肩，转身跟雅涵打老虎机去了。",
+        "speech_text": null,
+        "mood_state": "amused"
+      },
+      "id": "287_001",
+      "global_id": 501
+    },
+    {
+      "scene_snapshot": "在走廊中遇到泰拳团队，气氛紧张，沙沙感到不安。",
+      "interlocutor_info": {
+        "name": "希里旺",
+        "relationship_tag": "敌对威胁"
+      },
+      "trigger": {
+        "sender": "希里旺",
+        "content": "希里旺一见走在旁边的家明，双眼眯了一眯，露出一丝凶芒。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "警惕同伴",
+        "inner_monologue": "这些泰国人看起来好凶，希望家明能处理好。",
+        "external_action": "灵静、沙沙心中忐忑，不怎么敢看那张有些帅气又饱含凶狠的脸。",
+        "speech_text": null,
+        "mood_state": "apprehensive"
+      },
+      "id": "287_002",
+      "global_id": 502
+    },
+    {
+      "scene_snapshot": "家明用手枪吓退泰拳团队后，沙沙在离开时轻笑。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明将手枪对准了花瓶，然后开始浇花，泰拳团队被吓退。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "轻松同伴",
+        "inner_monologue": "家明总是这么出人意料，这下那些泰国人肯定气坏了。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "relieved"
+      },
+      "id": "287_003",
+      "global_id": 503
+    }
+  ]
+}

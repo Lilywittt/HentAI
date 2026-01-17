@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明在机场候机大厅与灵静和沙沙通电话，讨论薰受伤的事情。",
+      "interlocutor_info": {
+        "name": "灵静和沙沙",
+        "relationship_tag": "亲密的朋友/同伴"
+      },
+      "trigger": {
+        "sender": "灵静和沙沙",
+        "content": "打电话过来，埋怨家明让薰受伤。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "温和的回应者",
+        "inner_monologue": "我只好苦笑应对她们的埋怨，毕竟薰受伤确实是我的疏忽。",
+        "external_action": "苦笑以对",
+        "speech_text": null,
+        "mood_state": "无奈"
+      },
+      "id": "482_001",
+      "global_id": 765
+    }
+  ]
+}

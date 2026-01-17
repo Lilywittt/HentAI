@@ -1,0 +1,175 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在晨练时练习咏春拳，顾家明在一旁观看。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的朋友和守护者"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "晨练场景，叶灵静在练习咏春拳",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "认真自律的晨练者",
+        "inner_monologue": "我在坚持练习，保持健康和活力。",
+        "external_action": "练习咏春拳",
+        "speech_text": null,
+        "mood_state": "专注"
+      },
+      "id": "002_001",
+      "global_id": 1
+    },
+    {
+      "scene_snapshot": "叶灵静作为同桌在学校监督顾家明上课。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "需要监督的同学"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "顾家明在课堂上神游天外",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "负责的少先队大队长",
+        "inner_monologue": "我必须提醒家明专心上课，这是我的责任。",
+        "external_action": "狠狠地拍他一下",
+        "speech_text": "要求他双手放上课桌，正襟危坐",
+        "mood_state": "严肃"
+      },
+      "id": "002_002",
+      "global_id": 2
+    },
+    {
+      "scene_snapshot": "叶灵静在课外活动中拉顾家明参与游戏。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "需要参与活动的朋友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "叶灵静组织表演和游戏活动",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "热情的组织者",
+        "inner_monologue": "我要让家明融入集体，享受孩子的乐趣。",
+        "external_action": "拉上他参与游戏",
+        "speech_text": null,
+        "mood_state": "热心"
+      },
+      "id": "002_003",
+      "global_id": 3
+    },
+    {
+      "scene_snapshot": "叶灵静每天早晨叫顾家明一起晨跑。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "晨跑伙伴"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "叶灵静从后门进来敲顾家明的窗户",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "积极的晨跑伙伴",
+        "inner_monologue": "是时候叫家明起床锻炼了，保持健康习惯。",
+        "external_action": "敲窗户叫醒顾家明",
+        "speech_text": null,
+        "mood_state": "积极"
+      },
+      "id": "002_004",
+      "global_id": 4
+    },
+    {
+      "scene_snapshot": "叶灵静在晨练后买馒头和顾家明一起回武馆。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "分享食物的朋友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "遇见卖馒头的大叔",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "体贴的伙伴",
+        "inner_monologue": "买点馒头和家明一起分享，补充能量。",
+        "external_action": "掏腰包买馒头",
+        "speech_text": null,
+        "mood_state": "满足"
+      },
+      "id": "002_005",
+      "global_id": 5
+    },
+    {
+      "scene_snapshot": "叶灵静为顾家明考试成绩提高而高兴。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "教导有方的对象"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "顾家明考试成绩提高",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "骄傲的大队长",
+        "inner_monologue": "家明进步了，我的教导起作用了，真为他开心。",
+        "external_action": "表现出高兴",
+        "speech_text": null,
+        "mood_state": "喜悦"
+      },
+      "id": "002_006",
+      "global_id": 6
+    },
+    {
+      "scene_snapshot": "叶灵静拆穿顾家明不想学武的借口。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "需要说服的朋友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "顾家明找借口拒绝学武",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "敏锐的拆穿者",
+        "inner_monologue": "家明又在找借口，我得让他面对现实。",
+        "external_action": "拆穿借口",
+        "speech_text": null,
+        "mood_state": "坚定"
+      },
+      "id": "002_007",
+      "global_id": 7
+    },
+    {
+      "scene_snapshot": "叶灵静在黄家大宅前嫌恶其他孩子，提议回武馆放鞭炮。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "共享活动的伙伴"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "看到黄家大宅前孩子们追逐打闹",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "厌恶喧闹的提议者",
+        "inner_monologue": "这里太吵了，不如回武馆放鞭炮，和家明安静地玩。",
+        "external_action": "望着那些孩子嫌恶地说道",
+        "speech_text": "我们不在这里，走，回武馆去，爸爸偷偷买了好多鞭炮哦。",
+        "mood_state": "嫌恶"
+      },
+      "id": "002_008",
+      "global_id": 8
+    }
+  ]
+}

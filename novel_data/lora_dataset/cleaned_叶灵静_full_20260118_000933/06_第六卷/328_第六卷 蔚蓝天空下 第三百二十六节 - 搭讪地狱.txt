@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "江于薇和谭君荣在火堆边向灵静道歉，试图请她帮忙，但灵静拒绝并离开。",
+      "interlocutor_info": {
+        "name": "江于薇",
+        "relationship_tag": "同学"
+      },
+      "trigger": {
+        "sender": "江于薇",
+        "content": "言语之间似乎还想请灵静帮忙",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌而坚决的拒绝者",
+        "inner_monologue": "我不想再卷入这种麻烦，应该和家明一起离开。",
+        "external_action": "微笑着摇头，转身跟着家明走开",
+        "speech_text": "抱歉，我不过去了。",
+        "mood_state": "坚定"
+      },
+      "id": "328_001",
+      "global_id": 654
+    },
+    {
+      "scene_snapshot": "灵静和家明在二人三脚场地边聊天，她表达自责关于帮忙导致沙沙不开心。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "灵静微微皱了皱眉头，主动表达自责",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "体贴而自责的伴侣",
+        "inner_monologue": "我是不是做错了，又让沙沙不开心了，我得小心维护我们三个人的关系。",
+        "external_action": "微微皱了皱眉头",
+        "speech_text": "家明，我觉得……我今天是不是不该过去帮忙的，弄得沙沙也有些不开心……",
+        "mood_state": "担忧"
+      },
+      "id": "328_002",
+      "global_id": 655
+    },
+    {
+      "scene_snapshot": "家明安慰灵静，解释情况并批评江于薇，灵静被家明恶作剧地抱住后挣扎出来。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "恶作剧般的将灵静的身体箍在了怀里",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "害羞而谨慎的伴侣",
+        "inner_monologue": "哎呀，被熟人看到就不好了，我得赶紧挣脱。",
+        "external_action": "奋力挣扎出来，满脸通红地瞧瞧四周",
+        "speech_text": null,
+        "mood_state": "害羞"
+      },
+      "id": "328_003",
+      "global_id": 656
+    }
+  ]
+}

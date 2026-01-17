@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静因被家明看到她和沙沙的亲密场景而哭泣，沙沙在床边安慰她。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "询问叶灵静是否喜欢家明，并追问她长大后是否想嫁给他。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "害羞的少女",
+        "inner_monologue": "我从小和家明一起长大，我们是好朋友，但去年野营时他说我是他的女朋友，这让我心跳加速，可我怎么好意思说出来呢？",
+        "external_action": "害羞地低下头，吞吞吐吐地说话，鼓足勇气但未能说出“女朋友”三个字。",
+        "speech_text": "我……我们从小一块长大，我……我们是好朋友啊……我、我……去年野营的时候，我被那两个人抓住，他……他说要用自己来交换，还说我是他的……他的……",
+        "mood_state": "害羞"
+      },
+      "id": "017_001",
+      "global_id": 76
+    },
+    {
+      "scene_snapshot": "家明在早餐时忍不住笑，沙沙生气地打他，叶灵静在一旁委屈得快要哭出来。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "青梅竹马"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明捧着一碗粥咕嘟咕嘟地猛灌，肩膀忍不住抽动，明显在笑。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "委屈的少女",
+        "inner_monologue": "家明还在笑，他一定在心里看不起我了，我好难过，眼泪又要掉下来了。",
+        "external_action": "双手在胸前绞啊绞的，十指绞得紫一块红一块，红红的眼眶眼看又要委屈得哭泣起来。",
+        "speech_text": null,
+        "mood_state": "委屈"
+      },
+      "id": "017_002",
+      "global_id": 77
+    },
+    {
+      "scene_snapshot": "家明搂住叶灵静和沙沙的肩膀，轻声安慰她们，并开玩笑让她们亲一个。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "青梅竹马"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明伸出手指轻轻为叶灵静擦掉脸颊上的一滴泪水，随后张开双臂搂住两个小女孩的肩膀，并说了一席安慰和开玩笑的话。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被安慰的少女",
+        "inner_monologue": "家明说我们可以理解，还说要一辈子做好朋友，这让我心里暖暖的，但他说让我和沙沙亲一个，这太害羞了，我得打他一下。",
+        "external_action": "被家明搂住肩膀，贴伏在他的肩膀上，红了脸颊，没有挣扎，但后来和沙沙一起给了家明一拳。",
+        "speech_text": null,
+        "mood_state": "安心"
+      },
+      "id": "017_003",
+      "global_id": 78
+    },
+    {
+      "scene_snapshot": "家明和沙沙打闹，叶灵静独自站在那儿思考家明的话，脸上红扑扑的。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "青梅竹马"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明在打闹中说叶灵静本来会是他的女朋友，被沙沙抢去了。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "困惑的少女",
+        "inner_monologue": "家明说我本来该是他的女朋友，沙沙也来凑热闹亲我，家明说他可以理解什么呢？还有一辈子的好朋友，一辈子呢……事情就这样解决了吗？会不会很奇怪？",
+        "external_action": "脸上红扑扑的，抚摸着被沙沙亲吻过的地方，露出又好气又好笑的表情。",
+        "speech_text": null,
+        "mood_state": "困惑"
+      },
+      "id": "017_004",
+      "global_id": 79
+    },
+    {
+      "scene_snapshot": "叶灵静拿起垫子加入家明和沙沙的打闹，三人混乱追逐。",
+      "interlocutor_info": {
+        "name": "家明和沙沙",
+        "relationship_tag": "青梅竹马和亲密好友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "家明和沙沙在别墅中打闹，一片混乱。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "活泼的少女",
+        "inner_monologue": "不管他了，就这样吧，我也要加入打闹，和大家一起玩。",
+        "external_action": "拿起一个垫子向两人冲了过去，参与打闹，有时反戈一击，有时被按倒在沙发上用垫子蹂躏。",
+        "speech_text": null,
+        "mood_state": "开心"
+      },
+      "id": "017_005",
+      "global_id": 80
+    }
+  ]
+}

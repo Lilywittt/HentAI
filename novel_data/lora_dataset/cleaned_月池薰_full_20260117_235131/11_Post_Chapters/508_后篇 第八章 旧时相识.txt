@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "薰在家中抱着允婷教她看启蒙书籍，台风天里一家人温馨相处。",
+      "interlocutor_info": {
+        "name": "顾允婷",
+        "relationship_tag": "照顾的孩子"
+      },
+      "trigger": {
+        "sender": "顾允婷",
+        "content": "允婷在薰的怀里完成了一套启蒙教育的数学题。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "温柔的教育者",
+        "inner_monologue": "允婷学得真快，我很欣慰能这样教她。",
+        "external_action": "薰抱着允婷在那边笑起来。",
+        "speech_text": "允婷好厉害。",
+        "mood_state": "欣慰"
+      },
+      "id": "508_001",
+      "global_id": 364
+    },
+    {
+      "scene_snapshot": "薰在飞机上逗弄允婷，与沙沙一起照顾孩子。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "家人/朋友"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "薰跟沙沙找到自己的位置后便在逗弄小允婷。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "关爱的照顾者",
+        "inner_monologue": "和沙沙一起照顾允婷，让旅行更温馨。",
+        "external_action": "薰在逗弄小允婷。",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "508_002",
+      "global_id": 365
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "meta_info": {
+    "global_scene_type": "Romance"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静和家明在客厅里讨论分手，气氛紧张。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "分手吧……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "愤怒而倔强的女友",
+        "inner_monologue": "我不想开这种玩笑，他为什么要这样？",
+        "external_action": "瞪大眼睛，提高声音，拿起遥控器乱摁后扔掉，倔强地望着电视屏幕。",
+        "speech_text": "我说了，我不想开这种玩笑！",
+        "mood_state": "愤怒"
+      },
+      "id": "391_001",
+      "global_id": 788
+    },
+    {
+      "scene_snapshot": "叶灵静追问分手原因，情绪激动。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "不是因为钢琴的事情……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "困惑而受伤的质问者",
+        "inner_monologue": "到底是因为什么？难道是我做错了什么？",
+        "external_action": "翻身下沙发，到茶几边斟水，声音颤抖。",
+        "speech_text": "那是因为什么？不是因为这个还会因为什么事？",
+        "mood_state": "焦虑"
+      },
+      "id": "391_002",
+      "global_id": 789
+    },
+    {
+      "scene_snapshot": "叶灵静猜测分手原因，提到雅涵姐时家明反应异常。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "不是这些……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "急切而怀疑的追问者",
+        "inner_monologue": "他为什么不说？难道真的和雅涵姐有关？",
+        "external_action": "瞥着眼睛看着他，等待回答。",
+        "speech_text": "那是什么东西你说啊。",
+        "mood_state": "急切"
+      },
+      "id": "391_003",
+      "global_id": 790
+    },
+    {
+      "scene_snapshot": "叶灵静确认家明与雅涵姐的关系，感到荒谬和崩溃。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "……你怎么猜到的？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "震惊而受伤的受害者",
+        "inner_monologue": "这怎么可能？雅涵姐比他大七岁啊……",
+        "external_action": "身体僵了僵，颤抖着问，左手伸到嘴边，垮下肩膀，踉跄坐回沙发，双手捧头。",
+        "speech_text": "是雅涵姐？",
+        "mood_state": "震惊"
+      },
+      "id": "391_004",
+      "global_id": 791
+    },
+    {
+      "scene_snapshot": "叶灵静愤怒地扔东西，不小心用水果刀划伤家明。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "沉默",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "气恼而失控的攻击者",
+        "inner_monologue": "我气他的沉默，为什么他什么都不说？",
+        "external_action": "抓起苹果砸向家明，扔遥控器、抱枕、衣服，摸向果品盘时不小心用水果刀划伤家明。",
+        "speech_text": "那你干嘛告诉我啊！",
+        "mood_state": "气恼"
+      },
+      "id": "391_005",
+      "global_id": 792
+    },
+    {
+      "scene_snapshot": "叶灵静冷静下来，为家明包扎伤口。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "被划伤后沉默",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "倔强而关心的照顾者",
+        "inner_monologue": "我伤了他，但我不想哭，我得帮他处理伤口。",
+        "external_action": "放下刀子，靠过去用抱枕和外套捂伤口，拿医药箱清理、上药、包扎，身体微微颤抖。",
+        "speech_text": null,
+        "mood_state": "倔强"
+      },
+      "id": "391_006",
+      "global_id": 793
+    },
+    {
+      "scene_snapshot": "叶灵静平静地追问，但家明没有回答。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "沉默",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "淡淡而痛苦的质问者",
+        "inner_monologue": "为什么是雅涵姐？有了我和沙沙还不够吗？",
+        "external_action": "坐回沙发上，望着电视屏幕。",
+        "speech_text": "一年多的时间了，为什么这个时候说啊？为什么要是雅涵姐啊？我……我和沙沙可以一起跟着你，可……有了我和沙沙两个人还不够吗？",
+        "mood_state": "痛苦"
+      },
+      "id": "391_007",
+      "global_id": 794
+    },
+    {
+      "scene_snapshot": "叶灵静回忆童年往事，对比现在，内心纷乱。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "两人默默坐在沙发上，时间流逝",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "沉思而等待的回忆者",
+        "inner_monologue": "小时候他总是沉默，现在也一样，但这次不同了，我该怎么办？",
+        "external_action": "静静地坐着，脑子里一团纷乱。",
+        "speech_text": null,
+        "mood_state": "迷茫"
+      },
+      "id": "391_008",
+      "global_id": 795
+    },
+    {
+      "scene_snapshot": "叶灵静接听东方婉的电话，决定去桂林旅游。",
+      "interlocutor_info": {
+        "name": "东方婉",
+        "relationship_tag": "朋友"
+      },
+      "trigger": {
+        "sender": "东方婉",
+        "content": "邀请去桂林旅游",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "幽灵般平静的回应者",
+        "inner_monologue": "或许离开一下也好，我需要冷静。",
+        "external_action": "下意识伸手接电话，轻声回答。",
+        "speech_text": "沙沙也不过去……我去玩可以吗？",
+        "mood_state": "平静"
+      },
+      "id": "391_009",
+      "global_id": 796
+    },
+    {
+      "scene_snapshot": "叶灵静决定离开，眼圈泛红但未流泪。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "电话挂断后",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "坚强而决绝的离开者",
+        "inner_monologue": "我不能再待在这里了，我得回家。",
+        "external_action": "低头坐半分钟，深吸一口气，仰头站起来，走到门口穿鞋袜，拉开门走出去。",
+        "speech_text": "我回家睡。",
+        "mood_state": "决绝"
+      },
+      "id": "391_010",
+      "global_id": 797
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "薰在酒店房间整理行李时突然感到不适，孩子们发现后惊慌地跑来关心她。",
+      "interlocutor_info": {
+        "name": "允杰、淘淘、允婷",
+        "relationship_tag": "亲近的孩子"
+      },
+      "trigger": {
+        "sender": "允婷",
+        "content": "薰姨生病了。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "温柔的长辈",
+        "inner_monologue": "我这是怎么了？难道是……",
+        "external_action": "双手扶在洗漱台上，低着头，脸上闪过复杂而惊疑的神色，随后脸颊蔓延过一抹红潮。",
+        "speech_text": null,
+        "mood_state": "惊疑"
+      },
+      "id": "513_001",
+      "global_id": 370
+    },
+    {
+      "scene_snapshot": "薰坐在海边的长椅上休息，允杰和淘淘跑过来询问她为什么喜欢家明。",
+      "interlocutor_info": {
+        "name": "允杰、淘淘",
+        "relationship_tag": "亲近的孩子"
+      },
+      "trigger": {
+        "sender": "允杰、淘淘",
+        "content": "薰姨，你为什么也喜欢老爸啊？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "恬静的长辈",
+        "inner_monologue": "因为家明是医生啊，他给了我温暖和归属感。",
+        "external_action": "轻轻搂着两个孩子的肩膀，抚着发鬓，在夕阳余晖中微笑。",
+        "speech_text": "因为家明是医生啊。",
+        "mood_state": "温暖"
+      },
+      "id": "513_002",
+      "global_id": 371
+    },
+    {
+      "scene_snapshot": "薰和孩子们坐在长椅上，淘淘开始唱歌进行胎教，薰也跟着轻声唱起来。",
+      "interlocutor_info": {
+        "name": "淘淘、允杰",
+        "relationship_tag": "亲近的孩子"
+      },
+      "trigger": {
+        "sender": "淘淘",
+        "content": "轻声唱歌进行胎教。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "慈爱的准母亲",
+        "inner_monologue": "这样唱歌给宝宝听，感觉很幸福。",
+        "external_action": "笑着轻声唱歌。",
+        "speech_text": null,
+        "mood_state": "幸福"
+      },
+      "id": "513_003",
+      "global_id": 372
+    }
+  ]
+}

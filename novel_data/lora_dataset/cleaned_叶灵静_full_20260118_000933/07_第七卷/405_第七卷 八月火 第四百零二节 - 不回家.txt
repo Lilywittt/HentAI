@@ -1,0 +1,280 @@
+{
+  "meta_info": {
+    "global_scene_type": "Romance"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "在旅游大巴上，东方婉询问叶灵静关于去维也纳的决定。",
+      "interlocutor_info": {
+        "name": "东方婉",
+        "relationship_tag": "值得结交的朋友"
+      },
+      "trigger": {
+        "sender": "东方婉",
+        "content": "“灵静你还真的决定到维也纳去啊？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "平静而忧伤的少女",
+        "inner_monologue": "我挣扎了好久才做出这个决定，维也纳的环境或许能让我好受一点。",
+        "external_action": "扭过了头，脸上露出一个清澈的笑容。",
+        "speech_text": "“维也纳的环境……应该会好一点吧……”",
+        "mood_state": "忧伤"
+      },
+      "id": "405_001",
+      "global_id": 798
+    },
+    {
+      "scene_snapshot": "东方婉继续询问叶灵静动身时间并提议聚会。",
+      "interlocutor_info": {
+        "name": "东方婉",
+        "relationship_tag": "值得结交的朋友"
+      },
+      "trigger": {
+        "sender": "东方婉",
+        "content": "“呃，你既然决定了那就……什么时候动身？临走之前大家弄个聚会啊，怎么样？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "犹豫而急切的少女",
+        "inner_monologue": "我明天就要走了，时间很急，所以才趁这之前跟大家去旅游。",
+        "external_action": "微微耸了耸肩。",
+        "speech_text": "“大概……明天吧……有些急……”",
+        "mood_state": "急切"
+      },
+      "id": "405_002",
+      "global_id": 799
+    },
+    {
+      "scene_snapshot": "东方婉问起家明是否会来接叶灵静。",
+      "interlocutor_info": {
+        "name": "东方婉",
+        "relationship_tag": "值得结交的朋友"
+      },
+      "trigger": {
+        "sender": "东方婉",
+        "content": "“他待会会过来接你吧？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "不确定而担忧的少女",
+        "inner_monologue": "家明大概不会来吧，或许是沙沙，但她的电话打不通，我心里很乱。",
+        "external_action": null,
+        "speech_text": "“家明他……大概不会吧，或许是沙沙，我跟她打过电话说今天这个时候到。不过今天早上她的电话一直打不通的样子……”",
+        "mood_state": "担忧"
+      },
+      "id": "405_003",
+      "global_id": 800
+    },
+    {
+      "scene_snapshot": "叶灵静下车后看到家明走过来，内心剧烈波动。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "深爱但复杂的人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "家明从停车场对面朝这边走过来。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "震惊而僵硬的少女",
+        "inner_monologue": "是家明！我全身的力量都被抽空了，心脏被揪住，喘不上气，不知道该往哪里走。",
+        "external_action": "咽了一口口水，感觉喉间发出好大的“咕嘟”声响，脚步僵硬，目光无法移开。",
+        "speech_text": null,
+        "mood_state": "震惊"
+      },
+      "id": "405_004",
+      "global_id": 801
+    },
+    {
+      "scene_snapshot": "家明提起旅行包并与东方婉聊天，叶灵静沉默观察。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "深爱但复杂的人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明提起了她的大旅行包，顺口与东方婉聊了几句。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "沉默而困惑的少女",
+        "inner_monologue": "他手臂上的绷带不见了，到底为什么呢？我想说些什么，但找不到话语。",
+        "external_action": "目光移到他的手臂上，那天被自己划了一刀的地方，绷带已经不见了。",
+        "speech_text": null,
+        "mood_state": "困惑"
+      },
+      "id": "405_005",
+      "global_id": 802
+    },
+    {
+      "scene_snapshot": "家明说“我们走吧”，叶灵静跟随离开。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "深爱但复杂的人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "“我们走吧。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "顺从而痛苦的少女",
+        "inner_monologue": "我只能跟着他走，心里满是委屈和不解。",
+        "external_action": "皱了皱眉，跟着他穿过了人群。",
+        "speech_text": null,
+        "mood_state": "痛苦"
+      },
+      "id": "405_006",
+      "global_id": 803
+    },
+    {
+      "scene_snapshot": "在出租车上，叶灵静艰难地向家明道谢并关上车门。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "深爱但复杂的人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明拉开车门，灵静坐了进去，顺手接过了旅行包。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "疏离而挣扎的少女",
+        "inner_monologue": "谢谢你来接我，但我必须保持距离，否则我会崩溃。",
+        "external_action": "砰地一声，将车门拉上。",
+        "speech_text": "“谢谢你来接我。”",
+        "mood_state": "挣扎"
+      },
+      "id": "405_007",
+      "global_id": 804
+    },
+    {
+      "scene_snapshot": "叶灵静在厨房做饭时，家明进来询问肉是否还能吃。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "深爱但复杂的人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "“那些肉放了好多天了，还能吃吗？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "平淡而熟练的少女",
+        "inner_monologue": "没关系的，就像以前一样，我闭着眼睛也会做这些事。",
+        "external_action": null,
+        "speech_text": "“没关系，没坏。”",
+        "mood_state": "平淡"
+      },
+      "id": "405_008",
+      "global_id": 805
+    },
+    {
+      "scene_snapshot": "晚餐时，叶灵静告诉家明她明天去维也纳。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "深爱但复杂的人"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "“我明天去维也纳。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "直接而悲伤的少女",
+        "inner_monologue": "我必须告诉他，但心里好痛，不知道该怎么面对沙沙。",
+        "external_action": "深吸了一口气，盯着他。",
+        "speech_text": "“我明天去维也纳。”",
+        "mood_state": "悲伤"
+      },
+      "id": "405_009",
+      "global_id": 806
+    },
+    {
+      "scene_snapshot": "叶灵静询问家明如何向沙沙解释去维也纳的理由。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "深爱但复杂的人"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "“我怎么跟她说啊？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "质问而无奈的少女",
+        "inner_monologue": "你还没跟沙沙坦白雅涵姐的事，我该怎么跟她说？我无法面对这一切。",
+        "external_action": "淡淡的语气，盯着他。",
+        "speech_text": "“我怎么跟她说啊？你还没跟她说你跟雅涵姐的事情吧，我……我可以跟她说些什么啊？对着沙沙说我去维也纳的理由……”",
+        "mood_state": "无奈"
+      },
+      "id": "405_010",
+      "global_id": 807
+    },
+    {
+      "scene_snapshot": "家明给叶灵静一些东西，她询问他手腕上的伤。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "深爱但复杂的人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明将东西放到灵静身边，包括名片和银行卡。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "关切而怀疑的少女",
+        "inner_monologue": "他手腕上的伤到底怎么弄的？他从来不会不小心，一定有原因。",
+        "external_action": "望着家明那绑着绷带的手腕好一会儿。",
+        "speech_text": "“那里怎么弄的啊？”",
+        "mood_state": "关切"
+      },
+      "id": "405_011",
+      "global_id": 808
+    },
+    {
+      "scene_snapshot": "叶灵静冲过来抱住家明，哭喊着询问原因。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "深爱但复杂的人"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "“到底是因为什么原因，你告诉我啊！”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "崩溃而绝望的少女",
+        "inner_monologue": "我再也忍受不了了，必须知道真相，否则我会疯掉。",
+        "external_action": "蓦地冲了过来，一把将他拦腰抱住，声音哽咽，哭喊了出来。",
+        "speech_text": "“到底是因为什么原因，你告诉我啊！”",
+        "mood_state": "绝望"
+      },
+      "id": "405_012",
+      "global_id": 809
+    },
+    {
+      "scene_snapshot": "叶灵静主动亲吻家明并说今晚不回去。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "深爱但复杂的人"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "“今天晚上……我不回去了……”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冲动而深情的少女",
+        "inner_monologue": "这是我最后的夜晚，我不想留下遗憾，哪怕只是短暂的温暖。",
+        "external_action": "搂住了他的脖子，双唇颤抖地寻找着家明的嘴，生疏得仿佛是两人之间的第一次。",
+        "speech_text": "“今天晚上……我不回去了……”",
+        "mood_state": "深情"
+      },
+      "id": "405_013",
+      "global_id": 810
+    }
+  ]
+}

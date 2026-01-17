@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰在教室里被同学观察，她与顾家明有独特的互动关系。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "生死之交的朋友"
+      },
+      "trigger": {
+        "sender": "叙述者",
+        "content": "描述月池薰在教室里的日常行为，包括她只搭理顾家明，忘记带文具，以及考试交白卷的事件。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "冷漠而专注的日本转学生",
+        "inner_monologue": "我只信任顾家明，其他人无法进入我的内心。",
+        "external_action": "忘记带文具，考试时拒绝别人的笔而交白卷，与顾家明窃窃私语时偶尔微笑。",
+        "speech_text": null,
+        "mood_state": "reserved"
+      },
+      "id": "132_001",
+      "global_id": 91
+    },
+    {
+      "scene_snapshot": "月池薰在教室里被顾家明抄袭作业。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的朋友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "抄袭月池薰的作业。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "默许的朋友",
+        "inner_monologue": "我允许他这样做，因为他是唯一能接近我的人。",
+        "external_action": "提供作业给顾家明抄袭。",
+        "speech_text": null,
+        "mood_state": "accepting"
+      },
+      "id": "132_002",
+      "global_id": 92
+    },
+    {
+      "scene_snapshot": "月池薰在教室后与顾家明窃窃私语。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "信任的伙伴"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "与月池薰私下交谈。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "投入的交谈者",
+        "inner_monologue": "我很享受这些时刻，只有他能让我放松。",
+        "external_action": "双眼亮晶晶，偶尔露出明媚的微笑。",
+        "speech_text": null,
+        "mood_state": "engaged"
+      },
+      "id": "132_003",
+      "global_id": 93
+    }
+  ]
+}

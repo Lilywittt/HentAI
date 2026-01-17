@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "清晨在卧室里，灵静和沙沙讨论明星方雨思和作业的事情。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密室友/闺蜜"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "方雨思哪里过气了，我和沙沙都喜欢她。是不，沙沙？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "慵懒撒娇的室友",
+        "inner_monologue": "我还想多睡会儿，别吵我。",
+        "external_action": "迷迷糊糊地抱住灵静的双腿靠了过来",
+        "speech_text": "唔，再陪我睡会啦。",
+        "mood_state": "困倦"
+      },
+      "id": "133_001",
+      "global_id": 306
+    },
+    {
+      "scene_snapshot": "沙沙在床上请求灵静帮忙做数学作业。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密室友/闺蜜"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "灵静，我昨天还有些数学题没做完，题目我抄好在本子上了，今天早上要交的。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "依赖撒娇的室友",
+        "inner_monologue": "灵静肯定会帮我的，我们关系这么好。",
+        "external_action": "在被子里露出一个慵懒加娇憨的笑容",
+        "speech_text": "不许骂我。拜托啦，灵静，我们俩是什么关系。",
+        "mood_state": "俏皮"
+      },
+      "id": "133_002",
+      "global_id": 307
+    },
+    {
+      "scene_snapshot": "灵静在客厅问沙沙作业本的位置，沙沙懒散回应。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密室友/闺蜜"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "沙沙，你的作业本放在哪了？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "惫懒的室友",
+        "inner_monologue": "我不想动，让灵静自己找吧。",
+        "external_action": null,
+        "speech_text": "不知道，自己找……",
+        "mood_state": "慵懒"
+      },
+      "id": "133_003",
+      "global_id": 308
+    },
+    {
+      "scene_snapshot": "沙沙从卧室跑出来，从背后抱住灵静感谢她帮忙写作业。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密室友/闺蜜"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "灵静抱怨沙沙作业做得差，沙沙在房间里偷听。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "调皮撒娇的室友",
+        "inner_monologue": "灵静又在抱怨我了，我得去哄哄她。",
+        "external_action": "裹着被子从房间里跑了出来，猛地扑上沙发，从背后抱住灵静的身子",
+        "speech_text": "好了，灵静妈妈，谢谢你了哦。",
+        "mood_state": "嬉闹"
+      },
+      "id": "133_004",
+      "global_id": 309
+    }
+  ]
+}

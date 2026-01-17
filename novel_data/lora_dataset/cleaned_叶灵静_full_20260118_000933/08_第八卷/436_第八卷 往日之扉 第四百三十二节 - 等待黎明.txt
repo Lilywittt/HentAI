@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静回到家后，母亲段静娴关心地询问她今天的去向。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "今天去哪了呢？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "疲惫而恍惚的女儿",
+        "inner_monologue": "我去了圣心学院找雅涵姐，但她已经不在了，这让我更加迷茫。",
+        "external_action": "将一根榨菜放进嘴里缓缓地咀嚼",
+        "speech_text": "去了……圣心学院那边……本来找雅涵姐，她不在那里了。",
+        "mood_state": "恍惚"
+      },
+      "id": "436_001",
+      "global_id": 854
+    },
+    {
+      "scene_snapshot": "母亲段静娴提到雅涵怀孕并生了一个女儿，叶灵静感到震惊和困惑。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "雅涵啊，她来过几次的。从怀孕之后就没在圣心了吧，这两年就在她家里的公司做事了。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "震惊而困惑的女儿",
+        "inner_monologue": "雅涵姐怀孕了？这怎么可能，她不是一直单身吗？这消息让我措手不及。",
+        "external_action": "愣了愣",
+        "speech_text": "怀、怀孕……",
+        "mood_state": "震惊"
+      },
+      "id": "436_002",
+      "global_id": 855
+    },
+    {
+      "scene_snapshot": "叶灵静听到雅涵女儿的名字和出生日期后，开始联想并怀疑雅涵与家明的关系。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "生了个女儿，长得很可爱的，小名叫淘淘，你看了一定也很喜欢的……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "沉思而焦虑的女儿",
+        "inner_monologue": "淘淘……零一年十月……零零年十一月……这时间点太巧合了，难道家明离开后是和雅涵姐在一起？他们还生了个女儿？那我该怎么办，家明现在又在哪里呢……",
+        "external_action": "放下筷子，喃喃自语",
+        "speech_text": "淘淘……",
+        "mood_state": "焦虑"
+      },
+      "id": "436_003",
+      "global_id": 856
+    },
+    {
+      "scene_snapshot": "叶灵静在得知雅涵未婚生女的消息后，情绪低落并决定明天去见雅涵。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "她也不肯说那个孩子的父亲是谁……你雅涵姐守着淘淘也过得很开心。倒是没这方面打算的样子……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "低落而决断的女儿",
+        "inner_monologue": "我必须去见雅涵姐，弄清楚这一切，家明和她的关系，还有那个孩子……这让我心乱如麻。",
+        "external_action": "低下头，捂住了脑袋",
+        "speech_text": "妈，我明天……去见见雅涵姐……",
+        "mood_state": "低落"
+      },
+      "id": "436_004",
+      "global_id": 857
+    },
+    {
+      "scene_snapshot": "叶灵静在凌晨醒来，沉浸在关于家明的梦境中，回忆过往并等待黎明。",
+      "interlocutor_info": {
+        "name": "无",
+        "relationship_tag": "无"
+      },
+      "trigger": {
+        "sender": "梦境",
+        "content": "梦到与家明在学校的过往，包括上课时的互动和情感纠葛。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "怀旧而感伤的女孩",
+        "inner_monologue": "这个梦让我回到了过去，和家明在一起的日子，那种生涩又熟悉的感觉，仿佛我们从未分开过，可现实却如此残酷。",
+        "external_action": "坐在床上，看着床尾的小电风扇一直在吹，窗外银色的月光洒进来",
+        "speech_text": null,
+        "mood_state": "感伤"
+      },
+      "id": "436_005",
+      "global_id": 858
+    }
+  ]
+}

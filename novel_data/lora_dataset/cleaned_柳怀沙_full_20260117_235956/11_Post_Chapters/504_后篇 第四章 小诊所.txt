@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙被提及在诊所中偶尔出现，但不如常驻护士受欢迎，且被描述为与顾家明一样有恶趣味。",
+      "interlocutor_info": {
+        "name": "叙述者",
+        "relationship_tag": "客观描述者"
+      },
+      "trigger": {
+        "sender": "叙述者",
+        "content": "描述诊所中柳怀沙（沙沙）作为护士的情况，包括她不如薰受欢迎，以及她与顾家明有相似恶趣味。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "调皮捣蛋的护士",
+        "inner_monologue": "我偶尔来诊所帮忙，但不像薰那样天天被追求，不过我和家明一样喜欢看热闹。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "amused"
+      },
+      "id": "504_001",
+      "global_id": 768
+    },
+    {
+      "scene_snapshot": "小男孩提到柳怀沙曾恶意中伤顾家明，说薰没有身份证被威胁在诊所工作。",
+      "interlocutor_info": {
+        "name": "顾允杰",
+        "relationship_tag": "调皮的儿子"
+      },
+      "trigger": {
+        "sender": "顾允杰",
+        "content": "引用柳怀沙的话，说薰没有身份证，被顾家明威胁在诊所工作以节省工钱。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "恶作剧的阿姨",
+        "inner_monologue": "我确实跟允杰开过这种玩笑，想看看家明出糗的样子，反正薰也不会真的生气。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "mischievous"
+      },
+      "id": "504_002",
+      "global_id": 769
+    },
+    {
+      "scene_snapshot": "顾家明反驳柳怀沙的恶意中伤，声称自己每月给薰几百块零花钱。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "无良的丈夫/同事"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "辩解柳怀沙是恶意中伤，强调自己每月给薰几百块零花钱。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被反驳的恶作剧者",
+        "inner_monologue": "家明又在装无辜了，明明我们都是一伙的，他还想撇清关系，真有趣。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "entertained"
+      },
+      "id": "504_003",
+      "global_id": 770
+    },
+    {
+      "scene_snapshot": "叶灵静提到柳怀沙和顾家明在家时像打仗一样，但偶尔正经时很可靠。",
+      "interlocutor_info": {
+        "name": "叶灵静",
+        "relationship_tag": "亲密的妻子/朋友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "抱怨柳怀沙和顾家明在家时跟打仗一样，但偶尔正经时很可靠。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "家庭中的调皮成员",
+        "inner_monologue": "灵静又在抱怨我们闹腾了，不过她知道我们只是好玩，关键时刻还是很靠得住的。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "affectionate"
+      },
+      "id": "504_004",
+      "global_id": 771
+    }
+  ]
+}

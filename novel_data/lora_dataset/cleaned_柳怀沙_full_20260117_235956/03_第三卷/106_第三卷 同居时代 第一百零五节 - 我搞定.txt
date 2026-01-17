@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙在欣欣花店工作，与顾家明和叶灵静一起负责轻松活，老板娘胡寡妇提议让家明带沙沙或灵静出去兜风。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "同事兼朋友"
+      },
+      "trigger": {
+        "sender": "胡寡妇",
+        "content": "老板娘提议让家明带沙沙或灵静出去兜一圈，顺便带些点心回来吃。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "合作的工作伙伴",
+        "inner_monologue": "我在这里工作很轻松，和家明、灵静一起做事挺愉快的，老板娘对我们很好。",
+        "external_action": "在花店负责洒水剪枝、引导推销等轻松活。",
+        "speech_text": null,
+        "mood_state": "relaxed"
+      },
+      "id": "106_001",
+      "global_id": 267
+    },
+    {
+      "scene_snapshot": "家明在送花时想起前天和沙沙看的一套组合柜，觉得在房间里放有些奇怪。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明心中想起前天跟沙沙看的那套组合柜，虽然其它东西都不够漂亮的时候在房间里放一套组合柜有些奇怪。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "日常生活中的朋友",
+        "inner_monologue": "家明还记得我们前天一起看组合柜的事，他可能在想怎么布置房间吧。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "thoughtful"
+      },
+      "id": "106_002",
+      "global_id": 268
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静和沙沙在床上与家明打闹，讨论雅涵发现他们关系的事情。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/伴侣"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "询问家明雅涵在晚会后台叫他去说了什么，因为雅涵神情不对。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心且好奇的伴侣",
+        "inner_monologue": "我担心雅涵姐的反应，想知道家明怎么处理这件事。",
+        "external_action": "瞪大了眼睛",
+        "speech_text": "那……那你怎么跟她说的？说你跟我还是跟沙沙？",
+        "mood_state": "anxious"
+      },
+      "id": "166_001",
+      "global_id": 452
+    },
+    {
+      "scene_snapshot": "家明坦白后，叶灵静和沙沙在床上窃窃私语议论此事。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密朋友/伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明离开房间后，叶灵静和沙沙开始私下讨论。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "八卦且担忧的伴侣",
+        "inner_monologue": "我得和沙沙好好聊聊雅涵姐的事，这可能会影响我们的关系。",
+        "external_action": "与沙沙窃窃私语",
+        "speech_text": null,
+        "mood_state": "concerned"
+      },
+      "id": "166_002",
+      "global_id": 453
+    },
+    {
+      "scene_snapshot": "叶灵静在阳台上与家明依偎，询问雅涵是否喜欢家明。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/伴侣"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "叶灵静主动走到阳台，用按摩器给家明按摩并拥抱他。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "体贴且试探的伴侣",
+        "inner_monologue": "我想确认雅涵姐的感情，避免未来可能的麻烦。",
+        "external_action": "轻轻抱住家明，用按摩器按摩他的后颈",
+        "speech_text": "家明，你说……雅涵姐她是不是喜欢你啊。",
+        "mood_state": "inquisitive"
+      },
+      "id": "166_003",
+      "global_id": 454
+    },
+    {
+      "scene_snapshot": "叶灵静在家明否认后，表达对他的坚定支持。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明解释雅涵不可能喜欢他，列举自己的缺点。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "忠诚且安慰的伴侣",
+        "inner_monologue": "不管别人怎么想，我都会一直支持家明，他对我最好。",
+        "external_action": "用力搂紧家明的身体",
+        "speech_text": "才不是……不管怎么样，我都会觉得你好的，你最好了……",
+        "mood_state": "affectionate"
+      },
+      "id": "166_004",
+      "global_id": 455
+    },
+    {
+      "scene_snapshot": "叶灵静在家明安慰后，轻松地确认自己唱歌表现。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/伴侣"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "叶灵静询问家明自己今天唱歌是否真的不好。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "俏皮且寻求认可的伴侣",
+        "inner_monologue": "我想听家明夸我唱得好，这让我开心。",
+        "external_action": null,
+        "speech_text": "还有……我今天唱得真的不好吗？",
+        "mood_state": "playful"
+      },
+      "id": "166_005",
+      "global_id": 456
+    },
+    {
+      "scene_snapshot": "叶灵静在家明肯定后，满意地哼唱歌曲。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明安慰叶灵静说她唱得很好。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "愉悦且放松的伴侣",
+        "inner_monologue": "家明夸我了，我很高兴，可以轻松地享受这个夜晚。",
+        "external_action": "轻声哼唱歌曲",
+        "speech_text": "嘻，算你会说话……",
+        "mood_state": "content"
+      },
+      "id": "166_006",
+      "global_id": 457
+    }
+  ]
+}

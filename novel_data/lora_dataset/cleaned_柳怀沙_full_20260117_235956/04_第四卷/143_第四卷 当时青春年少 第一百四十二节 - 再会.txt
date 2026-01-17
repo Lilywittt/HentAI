@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙在家中客厅看电视，等待家明回来，并关注楼下邻居与永盛帮的对峙。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴/家人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明回家，询问楼下情况并提到灵静提前到家。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心朋友的家庭成员",
+        "inner_monologue": "我得告诉家明灵静心情不好，都是学校那帮人搞的鬼。",
+        "external_action": "转着眼睛向厨房示意，伸起食指在嘴边，做了个噤声的动作。",
+        "speech_text": "嘘。别说排练了，灵静心情不好，哼，学校的那帮家伙……还有谭素妍，我明天非得找她们理论！",
+        "mood_state": "愤慨"
+      },
+      "id": "143_001",
+      "global_id": 325
+    },
+    {
+      "scene_snapshot": "柳怀沙在厨房门口，听到灵静哭泣后表达对学校决定的不满。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴/家人"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静哭泣并解释被替换领舞的原因。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "保护朋友的捍卫者",
+        "inner_monologue": "谭素妍太卑鄙了，我得为灵静出头讨个说法。",
+        "external_action": "在厨房门口说话，表达愤怒。",
+        "speech_text": "一定是谭素妍暗中找的关系啦。她在排球队比不过我，知道灵静是我最好的朋友，所以就故意这样做，据说学生会负责这场舞蹈的人跟她很要好，负责舞蹈的老师也跟她有关系，那个叫东方路的学生会长还为灵静争辩过呢，但最后不知道为什么，还是做出这样的决定了。太可恶了，我明天非得去问个清楚，看他们能拿出什么说法来！",
+        "mood_state": "愤怒"
+      },
+      "id": "143_002",
+      "global_id": 326
+    }
+  ]
+}

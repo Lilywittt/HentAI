@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙被绑在椅子上，目睹家明被曹东峰用竹刀拷打，奋力挣扎并发出声音。",
+      "interlocutor_info": {
+        "name": "曹东峰",
+        "relationship_tag": "施暴者/敌人"
+      },
+      "trigger": {
+        "sender": "曹东峰",
+        "content": "竹刀打在家明身上，曹东峰嘲笑家明不痛，并挑衅沙沙。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "愤怒而痛苦的受害者",
+        "inner_monologue": "我受不了了，家明在挨打，这比打在我身上还痛。",
+        "external_action": "在椅子上奋力挣扎，口中“呜呜呜”地喊，椅子四脚跳动并最终扑倒在地，摔在地上后抬头，双目圆睁流泪。",
+        "speech_text": null,
+        "mood_state": "痛苦"
+      },
+      "id": "033_001",
+      "global_id": 91
+    },
+    {
+      "scene_snapshot": "沙沙摔倒在地后，曹东峰停下拷打，让手下取出她口中的布团。",
+      "interlocutor_info": {
+        "name": "曹东峰",
+        "relationship_tag": "施暴者/敌人"
+      },
+      "trigger": {
+        "sender": "曹东峰",
+        "content": "曹东峰让手下取出沙沙口中的布团，想听她说什么。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "勇敢而挑衅的挑战者",
+        "inner_monologue": "我要保护家明，不能让他再受苦了。",
+        "external_action": null,
+        "speech_text": "曹东峰，你有什么事冲我来！有种就跟我单挑！",
+        "mood_state": "愤怒"
+      },
+      "id": "033_002",
+      "global_id": 92
+    },
+    {
+      "scene_snapshot": "曹东峰无视沙沙的挑战，继续打家明，沙沙开始骂他。",
+      "interlocutor_info": {
+        "name": "曹东峰",
+        "relationship_tag": "施暴者/敌人"
+      },
+      "trigger": {
+        "sender": "曹东峰",
+        "content": "曹东峰回身又打家明一下。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "绝望而愤怒的抗议者",
+        "inner_monologue": "他还在打家明，我必须阻止他，但无能为力。",
+        "external_action": null,
+        "speech_text": "曹东峰，你这个混蛋……你不是男人，你就是个孬种……跟女人单挑都不敢，你要打打我……",
+        "mood_state": "绝望"
+      },
+      "id": "033_003",
+      "global_id": 93
+    },
+    {
+      "scene_snapshot": "沙沙的骂声逐渐转为哭声和求饶声，她看着家明挨打，心痛不已。",
+      "interlocutor_info": {
+        "name": "曹东峰",
+        "relationship_tag": "施暴者/敌人"
+      },
+      "trigger": {
+        "sender": "曹东峰",
+        "content": "曹东峰持续打家明，沙沙目睹家明受苦。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "崩溃而哀求的受害者",
+        "inner_monologue": "家明要被打死了，我不能再忍受了，必须求他停下来。",
+        "external_action": "声嘶力竭地哭喊，脸上布满泪水。",
+        "speech_text": "不要再打了……求求你，别打了，你会打死他的……",
+        "mood_state": "崩溃"
+      },
+      "id": "033_004",
+      "global_id": 94
+    },
+    {
+      "scene_snapshot": "沙沙背着椅子跪倒在地，用膝盖向前挪动，试图接近家明。",
+      "interlocutor_info": {
+        "name": "曹东峰",
+        "relationship_tag": "施暴者/敌人"
+      },
+      "trigger": {
+        "sender": "曹东峰",
+        "content": "曹东峰在月池老头的指导下继续拷打，沙沙目睹家明被打晕。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "执着而悲伤的救援者",
+        "inner_monologue": "家明晕过去了，我必须到他身边去，不能让他一个人。",
+        "external_action": "背着椅子跪倒在地上，用被绑住的膝盖一小步一小步向前挪，在地上拖出爬行痕迹。",
+        "speech_text": "不要、不要打了……",
+        "mood_state": "悲伤"
+      },
+      "id": "033_005",
+      "global_id": 95
+    },
+    {
+      "scene_snapshot": "沙沙挪到离家明不到一米的地方，看到家明抬起头睁开眼，眼神异常。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "保护对象/朋友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明抬起头睁开双眼，眼中充满茫然和殷红。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "恐惧而困惑的观察者",
+        "inner_monologue": "家明怎么了？他的眼神好可怕，我从未见过他这样。",
+        "external_action": "定住了，声音在喉间未喊出。",
+        "speech_text": "家明……",
+        "mood_state": "恐惧"
+      },
+      "id": "033_006",
+      "global_id": 96
+    }
+  ]
+}

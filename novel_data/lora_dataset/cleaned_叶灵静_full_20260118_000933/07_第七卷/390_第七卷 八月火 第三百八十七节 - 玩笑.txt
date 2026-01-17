@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静和沙沙、家明在高中租住的房子里收拾东西，准备搬回武馆。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "大概替灵静收拾好东西，沙沙双手叉腰抒发着感慨，随后抱起书桌上一只招财猫模样的储钱罐亲了一口，摇晃几下，里面的钱币发出了沉重的响声。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "温和抱怨的朋友",
+        "inner_monologue": "沙沙总是不回来住，让我有点失落。",
+        "external_action": "灵静耸了耸肩",
+        "speech_text": "“自己布置的嘛，当然好啦。可是你都不回来住……”",
+        "mood_state": "怨念"
+      },
+      "id": "390_001",
+      "global_id": 784
+    },
+    {
+      "scene_snapshot": "灵静和家明从武馆逃出来，因为亲戚们劝她出国去维也纳，让她感到压力很大。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "恋人/亲密伙伴"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明在厨房躲避亲戚的劝说，出来后灵静追打他。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "恼怒的恋人",
+        "inner_monologue": "家明居然躲起来，让我一个人面对亲戚的轰炸，太气人了。",
+        "external_action": "追着家明一阵拳打脚踢",
+        "speech_text": "“我不知道维也纳好啊，我不知道维也纳好啊，要不是因为你和沙沙，我都出国了，你还笑，那些人在外面劝我的时候，你居然给我躲在厨房里，你还笑、还笑还笑……”",
+        "mood_state": "气愤"
+      },
+      "id": "390_002",
+      "global_id": 785
+    },
+    {
+      "scene_snapshot": "灵静询问家明对于她出国还是去北京的看法，家明开玩笑说为了她的未来应该去维也纳。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "恋人/亲密伙伴"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "“我来说的话，当然希望你陪着去北京啦，不过，为了你的未来好，我觉得维也纳……”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被激怒的恋人",
+        "inner_monologue": "家明怎么可以说这种话，他明明知道我不想离开他和沙沙。",
+        "external_action": "追着家明便是没头没脑地乱打",
+        "speech_text": "“我杀了你，顾家明！”",
+        "mood_state": "嗔恼"
+      },
+      "id": "390_003",
+      "global_id": 786
+    },
+    {
+      "scene_snapshot": "灵静在沙发上和家明看电视，提议去桂林玩，但家明拒绝并开玩笑说分手。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "恋人/亲密伙伴"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "“那我们分手吧。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静克制的恋人",
+        "inner_monologue": "家明在开这种玩笑，我不想回应，这太伤人了。",
+        "external_action": "身体僵了一僵，盯着家明望了几秒钟，随后目光若无其事地转向了电视屏幕，伸手用遥控器换了台。搭在家明腿上的赤足收回来，少女曲起双腿",
+        "speech_text": "“我不想开这种玩笑。”",
+        "mood_state": "受伤"
+      },
+      "id": "390_004",
+      "global_id": 787
+    }
+  ]
+}

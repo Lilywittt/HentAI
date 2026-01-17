@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在诊所里与薰一起看八卦杂志，讨论猛男肌肉。",
+      "interlocutor_info": {
+        "name": "薰",
+        "relationship_tag": "朋友/同事"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "日常在诊所里混日子，与薰一起看八卦杂志。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "懒散悠闲的伙伴",
+        "inner_monologue": "反正没事做，跟薰看看杂志打发时间也挺好。",
+        "external_action": "与薰一起看八卦杂志，研究图片上的猛男肌肉。",
+        "speech_text": null,
+        "mood_state": "悠闲"
+      },
+      "id": "489_001",
+      "global_id": 766
+    },
+    {
+      "scene_snapshot": "沙沙和薰拉着灵静，不让她靠近被劫匪挟持的家明。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "朋友/家人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "劫匪挟持家明，人群混乱，警察在场。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "保护性的朋友",
+        "inner_monologue": "灵静怀孕了，不能让她靠近危险，我得拉住她。",
+        "external_action": "拉着灵静，不让她靠近危险区域。",
+        "speech_text": null,
+        "mood_state": "紧张"
+      },
+      "id": "489_002",
+      "global_id": 767
+    }
+  ]
+}

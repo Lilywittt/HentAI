@@ -1,0 +1,154 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "在救护车上，沙沙和灵静坐在一起，面对叶妈段静娴，气氛尴尬。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "养母/长辈"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "介绍秦医生，并让三人打招呼。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "乖巧晚辈",
+        "inner_monologue": "我得表现得规矩点，不能让叶妈更生气。",
+        "external_action": "文静地笑",
+        "speech_text": "秦阿姨好。",
+        "mood_state": "惭愧"
+      },
+      "id": "468_001",
+      "global_id": 735
+    },
+    {
+      "scene_snapshot": "在救护车上，段静娴提到沙沙瘦了，沙沙回应。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "养母/长辈"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "说沙沙瘦了好多。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "文静晚辈",
+        "inner_monologue": "叶妈注意到我瘦了，我得保持低调。",
+        "external_action": "文静地笑",
+        "speech_text": null,
+        "mood_state": "惭愧"
+      },
+      "id": "468_002",
+      "global_id": 736
+    },
+    {
+      "scene_snapshot": "在急救室外，沙沙和灵静、家明小声讨论回家后的处境。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "好友/姐妹"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "担心回家被叶爸叶妈批评。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "担忧同伴",
+        "inner_monologue": "我们这次回来太突然，叶爸叶妈肯定很生气，得想办法缓和。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "担忧"
+      },
+      "id": "468_003",
+      "global_id": 737
+    },
+    {
+      "scene_snapshot": "在叶家门口，沙沙面对叶涵，感到不好意思。",
+      "interlocutor_info": {
+        "name": "叶涵",
+        "relationship_tag": "养父/长辈"
+      },
+      "trigger": {
+        "sender": "叶涵",
+        "content": "打开门看到沙沙等人回来，目光打转。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "愧疚晚辈",
+        "inner_monologue": "叶爸看到我们一定很意外，我得表现得自然些。",
+        "external_action": "不好意思地抓了抓头发",
+        "speech_text": "叶爸……",
+        "mood_state": "不好意思"
+      },
+      "id": "468_004",
+      "global_id": 738
+    },
+    {
+      "scene_snapshot": "在餐桌前，叶涵给沙沙糖罐，沙沙回应。",
+      "interlocutor_info": {
+        "name": "叶涵",
+        "relationship_tag": "养父/长辈"
+      },
+      "trigger": {
+        "sender": "叶涵",
+        "content": "将糖罐推给沙沙，提到她以前喜欢加糖。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "感激晚辈",
+        "inner_monologue": "叶爸还记得我的习惯，这让我感到温暖。",
+        "external_action": "连忙点头",
+        "speech_text": "哦。",
+        "mood_state": "感激"
+      },
+      "id": "468_005",
+      "global_id": 739
+    },
+    {
+      "scene_snapshot": "在餐桌前，沙沙回答叶涵关于她这几年情况的问题。",
+      "interlocutor_info": {
+        "name": "叶涵",
+        "relationship_tag": "养父/长辈"
+      },
+      "trigger": {
+        "sender": "叶涵",
+        "content": "问起沙沙这几年的情况。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "掩饰真相的晚辈",
+        "inner_monologue": "我不能说特工训练的事，得编个普通故事让叶爸放心。",
+        "external_action": "笑着回答",
+        "speech_text": "自然也不能说接受了特工之类的训练，只说这几年在欧洲，捏造了普通人的生活，说一些威尼斯的景色。",
+        "mood_state": "谨慎"
+      },
+      "id": "468_006",
+      "global_id": 740
+    },
+    {
+      "scene_snapshot": "饭后，沙沙和灵静抢着帮段静娴收拾碗筷。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "养母/长辈"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "收拾碗筷进厨房。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "勤快晚辈",
+        "inner_monologue": "我得帮忙做点家务，弥补之前的缺席。",
+        "external_action": "抢着过去帮忙",
+        "speech_text": null,
+        "mood_state": "积极"
+      },
+      "id": "468_007",
+      "global_id": 741
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙在远处狙击敌人，成功打断了维克托的手臂，得到队友的称赞。",
+      "interlocutor_info": {
+        "name": "小孟",
+        "relationship_tag": "队友/前辈"
+      },
+      "trigger": {
+        "sender": "小孟",
+        "content": "沙沙干得漂亮。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静的狙击手",
+        "inner_monologue": "这只是巧合，没什么值得高兴的。",
+        "external_action": "咬着一颗狙击弹，深吸一口气后将它按进枪膛。",
+        "speech_text": "巧合。",
+        "mood_state": "冷静"
+      },
+      "id": "441_001",
+      "global_id": 659
+    },
+    {
+      "scene_snapshot": "柳怀沙被敌人追击，小孟冒险开枪掩护她。",
+      "interlocutor_info": {
+        "name": "小孟",
+        "relationship_tag": "队友/前辈"
+      },
+      "trigger": {
+        "sender": "小孟",
+        "content": "沙沙快跑！有人朝你来了！",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "警觉的战士",
+        "inner_monologue": "敌人很强，我必须立刻撤退。",
+        "external_action": "调转枪口，在阳台上蹲起，转身跳下楼逃跑。",
+        "speech_text": "你快回去！",
+        "mood_state": "紧张"
+      },
+      "id": "441_002",
+      "global_id": 660
+    },
+    {
+      "scene_snapshot": "柳怀沙被纳塔丽救下后，坐在路边发抖，小孟过来安慰她。",
+      "interlocutor_info": {
+        "name": "小孟",
+        "relationship_tag": "队友/前辈"
+      },
+      "trigger": {
+        "sender": "小孟",
+        "content": "很激动吧？那一枪是你打中的。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "疲惫的幸存者",
+        "inner_monologue": "家明以前就是和这种怪物战斗的吗？他一定很辛苦，却从不告诉我们。",
+        "external_action": "用双手擦了擦脸，全身发抖。",
+        "speech_text": "家明……家明他以前……就是跟这种层次的人作战啊……",
+        "mood_state": "悲伤"
+      },
+      "id": "441_003",
+      "global_id": 661
+    },
+    {
+      "scene_snapshot": "柳怀沙反思与灵静的关系，感到无法面对她。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "姐妹/情敌"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "回忆过往和当前处境，触发内心反思。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "孤独的回忆者",
+        "inner_monologue": "我们都是傻子，即使拾起过往的碎片，心也无法再温暖起来。",
+        "external_action": "坐在台阶上，望着城市灯光。",
+        "speech_text": null,
+        "mood_state": "疏离"
+      },
+      "id": "441_004",
+      "global_id": 662
+    }
+  ]
+}

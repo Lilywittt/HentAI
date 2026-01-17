@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明在体育馆中与荒卷真世对决，薰作为旁观者目睹了整个过程。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "崇拜的老师"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明干净利落地用枪爆头击杀荒卷真世，震惊了所有人。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "忠实的学生",
+        "inner_monologue": "我从未想过老师会如此迅速地解决荒卷真世，这让我更加崇拜他了。",
+        "external_action": "目睹家明的行动，内心震撼",
+        "speech_text": null,
+        "mood_state": "震撼"
+      },
+      "id": "398_001",
+      "global_id": 309
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静在家明怀里醒来，慵懒地打招呼。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "早晨醒来，在海上漂流的小船上。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "温柔依赖的恋人",
+        "inner_monologue": "我睡得好舒服，家明在身边真安心。",
+        "external_action": "揉了揉眼睛，慵懒地一笑。",
+        "speech_text": "家明……早安。",
+        "mood_state": "慵懒"
+      },
+      "id": "095_001",
+      "global_id": 284
+    },
+    {
+      "scene_snapshot": "灵静让家明帮她穿衣服，撒娇地提出要求。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "递给她烘干的衣服。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "撒娇任性的恋人",
+        "inner_monologue": "我想让家明多照顾我一点，这样感觉好亲密。",
+        "external_action": "笑着不肯去接衣服，从毛毯中舒展出双足，伸懒腰让毛毯滑到胸部以下。",
+        "speech_text": "家明，我要你帮我穿……",
+        "mood_state": "撒娇"
+      },
+      "id": "095_002",
+      "global_id": 285
+    },
+    {
+      "scene_snapshot": "灵静担心沙沙和星梦号的情况，询问家明。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "内心担忧沙沙和星梦号。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "担忧的朋友",
+        "inner_monologue": "沙沙不知道我们怎么样了，我好怕她出事。",
+        "external_action": "在家明照顾她时问道。",
+        "speech_text": "家明，你说……星梦号现在怎么样了？沙沙她……",
+        "mood_state": "担忧"
+      },
+      "id": "095_003",
+      "global_id": 286
+    },
+    {
+      "scene_snapshot": "灵静憧憬未来三人出海的生活，开玩笑说要把家明榨干。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "在海上漂流，只有两人独处。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "浪漫憧憬的恋人",
+        "inner_monologue": "如果能和家明、沙沙永远这样在一起多好啊，无忧无虑的。",
+        "external_action": "憧憬地笑道。",
+        "speech_text": "没有啊，我想沙沙一定会很羡慕我们俩呢，只有我们，其他什么人都没有。这艘船就好像是我们两个人的家一样……要是有一天我们赚到了很多钱，就这样买一艘船出海，就只有你和我和沙沙三个人，那该多开心啊……我和沙沙要每天不穿衣服在你面前走来走去，一直把家明你榨干……",
+        "mood_state": "憧憬"
+      },
+      "id": "095_004",
+      "global_id": 287
+    },
+    {
+      "scene_snapshot": "灵静突然打断家明，表达不想让他用危险方法赚钱的担忧。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "提到如果灵静喜欢，他可以去弄钱。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "保护欲强的恋人",
+        "inner_monologue": "我不能再让家明冒险了，昨天战斗时我害怕极了。",
+        "external_action": "陡然大叫着打断他的话，眼眶微红，语气哽咽。",
+        "speech_text": "不要！……呃，我是说……我不想让家明你用危险的办法去赚钱。我们自己的家，要用我们自己的办法一点一点的建起来的，我不想让家明你冒任何的危险了……家明，昨天……昨天你那样战斗的时候，我觉得好害怕，我不要再看见你遇上那样的事情了……",
+        "mood_state": "担忧"
+      },
+      "id": "095_005",
+      "global_id": 288
+    },
+    {
+      "scene_snapshot": "灵静将小船收拾成温馨的家，并向家明介绍她的改造。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "在海上漂流，灵静主动收拾船只。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "勤劳持家的恋人",
+        "inner_monologue": "我要把这里弄得像我们的家一样，让家明感到温暖。",
+        "external_action": "找出扫把、抹布忙碌，收拾破烂东西，擦洗血迹，整理物件，挂衣服，并拢床铺，敲铁皮。",
+        "speech_text": "这是他们海上别墅的豪华露台。",
+        "mood_state": "积极"
+      },
+      "id": "095_006",
+      "global_id": 289
+    },
+    {
+      "scene_snapshot": "灵静望着家明睡觉，回想自己的乌龙事，内心充满歉意和爱意。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "家明在卧室睡觉，灵静守在外面。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "深情反思的恋人",
+        "inner_monologue": "家明总是包容我的错误，他是世界上最棒的男孩子，我的丈夫。",
+        "external_action": "捧着咖啡杯走动，到卧室门口望着家明安详的睡姿，嘴角露出饱含歉意的笑容。",
+        "speech_text": null,
+        "mood_state": "深情"
+      },
+      "id": "095_007",
+      "global_id": 290
+    },
+    {
+      "scene_snapshot": "灵静强迫家明睡觉到傍晚，晚上两人亲密聊天和互动。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "主动安排家明休息和晚上活动。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "体贴亲密的恋人",
+        "inner_monologue": "我要照顾好家明，让他多休息，我们在一起的时间真幸福。",
+        "external_action": "强迫家明睡觉到傍晚，晚上脱掉鞋子与家明窝在椅子上聊天，温顺地在家明怀里褪去衣物，贴合在一起。",
+        "speech_text": null,
+        "mood_state": "幸福"
+      },
+      "id": "095_008",
+      "global_id": 291
+    },
+    {
+      "scene_snapshot": "灵静发现远处有小岛，兴奋地叫家明来看。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "在甲板上看到远处海面上的小岛。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "兴奋的探险者",
+        "inner_monologue": "有岛！我们可能有救了，或者能探索新地方，好激动！",
+        "external_action": "在甲板上喊叫，快跑进来拉家明的手跑上甲板，兴奋地指着远方。",
+        "speech_text": "家明，你看、你看……",
+        "mood_state": "兴奋"
+      },
+      "id": "095_009",
+      "global_id": 292
+    }
+  ]
+}

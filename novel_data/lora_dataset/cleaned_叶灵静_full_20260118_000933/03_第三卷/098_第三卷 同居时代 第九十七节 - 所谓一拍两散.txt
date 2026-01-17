@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在岩石堆中找到躲避的灵静，随后佣兵冲进树林，东方兄妹被佣兵袭击，东方婉即将被凌辱时叶灵静出现救援。",
+      "interlocutor_info": {
+        "name": "东方婉",
+        "relationship_tag": "需要救援的同学"
+      },
+      "trigger": {
+        "sender": "野牛",
+        "content": "野牛将东方婉拖入灌木丛试图施暴，撕开她的衣服并压在她身上。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "救援者",
+        "inner_monologue": "我必须赶紧救她，不能再让这个混蛋伤害她了。",
+        "external_action": "从草丛中出来，推开野牛的尸体，紧张地挥手示意东方婉跟她走。",
+        "speech_text": "你们跟我来……",
+        "mood_state": "紧张"
+      },
+      "id": "098_001",
+      "global_id": 303
+    }
+  ]
+}

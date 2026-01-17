@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Negotiation"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "在会议室中，律师宣布柳正的遗嘱，将大部分产业转让给杨振兴等人，以将沙沙与黑道分离。",
+      "interlocutor_info": {
+        "name": "律师",
+        "relationship_tag": "中立的法律执行者"
+      },
+      "trigger": {
+        "sender": "律师",
+        "content": "宣布柳正的遗嘱，将产业转让给杨振兴等人，并说明沙沙将继承财产但与黑道割裂。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静的旁观者",
+        "inner_monologue": "我不在乎这些产业，我只知道父亲想保护我远离黑道。",
+        "external_action": "在场听遗嘱宣布，但未描述具体动作",
+        "speech_text": null,
+        "mood_state": "冷静"
+      },
+      "id": "362_001",
+      "global_id": 600
+    },
+    {
+      "scene_snapshot": "会议室中，杨振兴和小孟等人争吵关于贩毒和公司管理权的问题，沙沙在场。",
+      "interlocutor_info": {
+        "name": "杨振兴",
+        "relationship_tag": "可疑的帮派成员"
+      },
+      "trigger": {
+        "sender": "杨振兴",
+        "content": "辩解贩毒行为，并试图安抚沙沙，提出给双倍遗产以稳定公司。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坚定的反对者",
+        "inner_monologue": "他还在狡辩贩毒的事，父亲就是因此而死，我不能妥协。",
+        "external_action": "目光冷冷地转了一圈",
+        "speech_text": "没关系，我喜欢听。",
+        "mood_state": "冷漠"
+      },
+      "id": "362_002",
+      "global_id": 601
+    },
+    {
+      "scene_snapshot": "杨振兴继续解释贩毒问题，并试图劝沙沙不要管公司事务。",
+      "interlocutor_info": {
+        "name": "杨振兴",
+        "relationship_tag": "可疑的帮派成员"
+      },
+      "trigger": {
+        "sender": "杨振兴",
+        "content": "说沙沙不明白黑道事务，并试图转移话题到公司稳定上。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "道德坚守者",
+        "inner_monologue": "他还在避重就轻，贩毒就是不对的，不管黑道怎么辩解。",
+        "external_action": null,
+        "speech_text": "我只知道贩毒是不对的。",
+        "mood_state": "坚定"
+      },
+      "id": "362_003",
+      "global_id": 602
+    },
+    {
+      "scene_snapshot": "杨振兴提出给双倍遗产，小孟支持沙沙管理公司，沙沙再次表态。",
+      "interlocutor_info": {
+        "name": "杨振兴",
+        "relationship_tag": "可疑的帮派成员"
+      },
+      "trigger": {
+        "sender": "杨振兴",
+        "content": "提出给双倍遗产，并试图劝沙沙不要管公司。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "不屑一顾的继承者",
+        "inner_monologue": "我不需要他的钱，我只想坚持父亲反对贩毒的立场。",
+        "external_action": "冷冷地望着他",
+        "speech_text": "我不在乎。我知道贩毒是不对的……",
+        "mood_state": "不屑"
+      },
+      "id": "362_004",
+      "global_id": 603
+    }
+  ]
+}

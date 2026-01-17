@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "薰安静地坐在帐篷边，看着灵静和江于薇聊天。",
+      "interlocutor_info": {
+        "name": "江于薇",
+        "relationship_tag": "陌生人/同学的朋友"
+      },
+      "trigger": {
+        "sender": "江于薇",
+        "content": "江于薇询问灵静关于薰的来历，表达对日本人的偏见。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "安静的旁观者",
+        "inner_monologue": "I am being discussed as a Japanese person, but I am just sitting here quietly.",
+        "external_action": "抱着膝盖安静地坐在一边",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "325_001",
+      "global_id": 232
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在房间里与方雨思和顾家明互动，试图化解尴尬气氛。",
+      "interlocutor_info": {
+        "name": "方雨思",
+        "relationship_tag": "崇拜的偶像"
+      },
+      "trigger": {
+        "sender": "方雨思",
+        "content": "询问他们是否是概念乐队。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "热情友好的朋友",
+        "inner_monologue": "我得掩饰一下我们的身份，不能让她知道真相。",
+        "external_action": "站在原地，回头与家明对望了一眼，随后欲盖弥彰地笑了笑。",
+        "speech_text": "那个……不是啦，我们、我们只是过来打杂的。概念乐队几个人都已经下班走了，呵呵、呵呵……",
+        "mood_state": "紧张"
+      },
+      "id": "151_001",
+      "global_id": 398
+    },
+    {
+      "scene_snapshot": "叶灵静主动与方雨思交谈，试图缓和气氛。",
+      "interlocutor_info": {
+        "name": "方雨思",
+        "relationship_tag": "崇拜的偶像"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "询问方雨思是否喜欢概念乐队的歌。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "热情友好的朋友",
+        "inner_monologue": "我想听听她对概念乐队的看法，这让我很开心。",
+        "external_action": "提着水壶，故作无意地问道。",
+        "speech_text": "那个……方小姐你也喜欢概念的歌吗？",
+        "mood_state": "好奇"
+      },
+      "id": "151_002",
+      "global_id": 399
+    },
+    {
+      "scene_snapshot": "叶灵静听到方雨思赞美概念乐队的词曲作者，感到自豪。",
+      "interlocutor_info": {
+        "name": "方雨思",
+        "relationship_tag": "崇拜的偶像"
+      },
+      "trigger": {
+        "sender": "方雨思",
+        "content": "赞美概念乐队的词曲作者是天才。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "自豪的朋友",
+        "inner_monologue": "家明被夸了，我真为他感到骄傲。",
+        "external_action": "自豪地望了家明一眼。",
+        "speech_text": null,
+        "mood_state": "自豪"
+      },
+      "id": "151_003",
+      "global_id": 400
+    },
+    {
+      "scene_snapshot": "叶灵静在方雨思道歉后，表示不介意并试图维持友好。",
+      "interlocutor_info": {
+        "name": "方雨思",
+        "relationship_tag": "崇拜的偶像"
+      },
+      "trigger": {
+        "sender": "方雨思",
+        "content": "道歉说进来添麻烦了。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "热情友好的朋友",
+        "inner_monologue": "没事的，我们很开心她能来，得让她感觉受欢迎。",
+        "external_action": null,
+        "speech_text": "没事没事的，我们开心都来不及呢，家明你说是吧。",
+        "mood_state": "热情"
+      },
+      "id": "151_004",
+      "global_id": 401
+    },
+    {
+      "scene_snapshot": "叶灵静低声询问顾家明关于沙沙为什么不高兴。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的朋友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "低声向家明询问沙沙的情况。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心的朋友",
+        "inner_monologue": "沙沙看起来很不高兴，我得问问家明怎么回事。",
+        "external_action": "低声向家明问道。",
+        "speech_text": "沙沙怎么了，很不高兴的样子。",
+        "mood_state": "关切"
+      },
+      "id": "151_005",
+      "global_id": 402
+    },
+    {
+      "scene_snapshot": "叶灵静听到顾家明提起她被撤下领舞的事情，感到迟疑。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的朋友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "向方雨思提起叶灵静被撤下领舞的事情。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "迟疑的朋友",
+        "inner_monologue": "家明不该用这种事情麻烦方小姐，这让我有点不安。",
+        "external_action": "迟疑着叫了一声。",
+        "speech_text": "家明……",
+        "mood_state": "不安"
+      },
+      "id": "151_006",
+      "global_id": 403
+    },
+    {
+      "scene_snapshot": "叶灵静在顾家明继续说话后，再次表达反对。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的朋友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "继续请求方雨思帮忙恢复叶灵静的领舞位置。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "反对的朋友",
+        "inner_monologue": "这种事情真的没必要麻烦方小姐，算了啦。",
+        "external_action": null,
+        "speech_text": "家、家明……这种事情……算了啦。",
+        "mood_state": "反对"
+      },
+      "id": "151_007",
+      "global_id": 404
+    },
+    {
+      "scene_snapshot": "叶灵静听到方雨思的夸奖后，害羞地回应。",
+      "interlocutor_info": {
+        "name": "方雨思",
+        "relationship_tag": "崇拜的偶像"
+      },
+      "trigger": {
+        "sender": "方雨思",
+        "content": "夸奖叶灵静的舞蹈跳得很好，并承诺会帮忙。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "害羞的朋友",
+        "inner_monologue": "被偶像夸奖了，我真不好意思，但也很开心。",
+        "external_action": "红着脸说道。",
+        "speech_text": "其实……我跳得也不好啦，没必要去说的……",
+        "mood_state": "害羞"
+      },
+      "id": "151_008",
+      "global_id": 405
+    },
+    {
+      "scene_snapshot": "叶灵静在顾家明离开时，轻声询问他和沙沙为什么怪怪的。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的朋友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "说要去洗手间并提醒叶灵静注意时间。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "困惑的朋友",
+        "inner_monologue": "家明和沙沙都怪怪的，我得问清楚怎么回事。",
+        "external_action": "待将家明送到门边，方才轻声说道。",
+        "speech_text": "怎么了啊？你和沙沙都怪怪的。",
+        "mood_state": "困惑"
+      },
+      "id": "151_009",
+      "global_id": 406
+    },
+    {
+      "scene_snapshot": "叶灵静听到顾家明的解释后，失笑并反驳。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的朋友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "解释自己拘束并提醒叶灵静帮沙沙要签名。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "轻松的朋友",
+        "inner_monologue": "家明平时少根筋，现在却这么拘束，真有趣。",
+        "external_action": "不由得失笑道。",
+        "speech_text": "切。平时看你少根筋，什么都无所谓的样子，雨思姐很和气的啊。",
+        "mood_state": "轻松"
+      },
+      "id": "151_010",
+      "global_id": 407
+    }
+  ]
+}

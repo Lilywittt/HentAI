@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静被教导主任叫到办公室，被告知因同居传闻被取消保送资格并记大过。",
+      "interlocutor_info": {
+        "name": "教导主任",
+        "relationship_tag": "虚伪的权威人物"
+      },
+      "trigger": {
+        "sender": "教导主任",
+        "content": "宣布因同居影响风纪，取消叶灵静的保送资格并记大过。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "压抑愤怒的好学生",
+        "inner_monologue": "这太不公平了，他明明是在找借口打压我，还污蔑我们的人格。",
+        "external_action": "低着头一言不发，随后将文件摔在办公桌上转身离开。",
+        "speech_text": null,
+        "mood_state": "愤慨"
+      },
+      "id": "049_001",
+      "global_id": 126
+    },
+    {
+      "scene_snapshot": "叶灵静和顾家明听到喧闹声，跑去教导处看到沙沙在追打教导主任。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的朋友/同伴"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "门外传来喧闹声，沙沙在教导处捣乱的消息传来。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "担忧的朋友",
+        "inner_monologue": "沙沙怎么这么冲动，我得赶紧去看看，别让她出事。",
+        "external_action": "跑出教室，与顾家明一起挤进人群查看情况。",
+        "speech_text": "怎么了？我听他们说沙沙跑去捣乱了……",
+        "mood_state": "焦急"
+      },
+      "id": "049_002",
+      "global_id": 127
+    },
+    {
+      "scene_snapshot": "叶灵静在教导处看到保卫围攻沙沙，憋了一肚子火气出手相助。",
+      "interlocutor_info": {
+        "name": "学校保卫",
+        "relationship_tag": "敌对的外来威胁"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "保卫冲进教导处围攻沙沙，冲突升级。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "果断的武术练习者",
+        "inner_monologue": "这些人太过分了，欺负沙沙，我不能再忍了。",
+        "external_action": "插入战斗，单手架住一名保卫的拳头，一记旋踢踢飞另一名保卫。",
+        "speech_text": null,
+        "mood_state": "愤怒"
+      },
+      "id": "049_003",
+      "global_id": 128
+    },
+    {
+      "scene_snapshot": "叶灵静在击败保卫后，一言不发地走向被围的沙沙。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "亲密的朋友/同伴"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "两名保卫被击败，沙沙仍被围困。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "冷静的保护者",
+        "inner_monologue": "沙沙没事吧，我得去帮她，确保她安全。",
+        "external_action": "一言不发地朝着被围的沙沙走了过去。",
+        "speech_text": null,
+        "mood_state": "坚定"
+      },
+      "id": "049_004",
+      "global_id": 129
+    }
+  ]
+}

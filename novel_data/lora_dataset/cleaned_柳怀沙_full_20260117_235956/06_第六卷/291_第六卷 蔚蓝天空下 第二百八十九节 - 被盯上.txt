@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "在宴会上，沙沙与灵静、雅涵坐在一起说悄悄话并打闹。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静与沙沙在一块叽叽喳喳地说着话，随后灵静跑到家明身边，俯身说道：“沙沙叫我跟你说，注意下会缠上东方婉的那只狂蜂浪蝶，护花使者要称职才行。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "俏皮闺蜜",
+        "inner_monologue": "我让灵静提醒家明注意东方婉的追求者，看他会不会认真对待。",
+        "external_action": "与灵静咬耳朵说悄悄话",
+        "speech_text": null,
+        "mood_state": "playful"
+      },
+      "id": "291_001",
+      "global_id": 509
+    },
+    {
+      "scene_snapshot": "沙沙通过灵静传话，威胁家明如果不帮忙就不许碰她。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静笑着跑了回去，在沙沙耳边说话，显然是转达家明这句毫无悬念地回答，两个女孩咬了一阵耳朵，灵静笑着又跑了过来：“她说你对东方婉显然没什么责任心，所以如果你不帮忙，今天晚上就不许你碰她。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "威胁者",
+        "inner_monologue": "我让灵静传话威胁家明，看他会不会重视我的要求。",
+        "external_action": "与灵静咬耳朵说悄悄话",
+        "speech_text": null,
+        "mood_state": "teasing"
+      },
+      "id": "291_002",
+      "global_id": 510
+    },
+    {
+      "scene_snapshot": "沙沙听到家明和灵静的私密对话后，冲家明瞪了一眼。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静笑着跑回座椅，与沙沙说了几句话，沙沙则是冲家明瞪了一眼，家明也只好摊手表示无辜。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "不满女友",
+        "inner_monologue": "家明和灵静说那些私密话，还提到我，我得瞪他一眼表示不满。",
+        "external_action": "冲家明瞪了一眼",
+        "speech_text": null,
+        "mood_state": "annoyed"
+      },
+      "id": "291_003",
+      "global_id": 511
+    },
+    {
+      "scene_snapshot": "雷庆醉醺醺地坐在家明旁边，提到沙沙的黑帮背景。",
+      "interlocutor_info": {
+        "name": "雷庆",
+        "relationship_tag": "讨厌的追求者"
+      },
+      "trigger": {
+        "sender": "雷庆",
+        "content": "雷庆只是坐下，将这句话当成完全没有听见。段静娴、叶涵都是疑惑地将目光望向了这个看起来与家明有过节的人，片刻之后，一张被酒气薰红的脸望向家明：“喂，问你个事。” “什么？” “嗝……我找人查你……”大概是喝醉酒的缘故，雷庆说起话来丝毫不顾忌，开门见山，事实上，以他的家世，倒也没有顾忌家明的必要，“我得承认。你有点背景，黄家不算什么，呃……最主要的……最主要地是那个柳怀沙的黑帮背景吧……” 他醉醺醺的指了指坐在圆桌对面的沙沙：“江海市最大的黑帮，所以侦探社查不到你很多地资料，不过我也懒得用更深的力量去查了。你不值得，嗝……有些事情我们都知道。你其实很聪明，你电脑很厉害吧，我其实只是想问你，过年……呃，过年那次，我的车开不了门是不是你搞的鬼……你坦白说。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被提及者",
+        "inner_monologue": "雷庆这个讨厌鬼喝醉了，居然当众提到我的黑帮背景，真让人不爽。",
+        "external_action": "坐在圆桌对面被雷庆指着",
+        "speech_text": null,
+        "mood_state": "irritated"
+      },
+      "id": "291_004",
+      "global_id": 512
+    },
+    {
+      "scene_snapshot": "沙沙在应子丰离开后，恨恨地评论他的嚣张态度。",
+      "interlocutor_info": {
+        "name": "应子丰",
+        "relationship_tag": "傲慢的陌生人"
+      },
+      "trigger": {
+        "sender": "应子丰",
+        "content": "应子丰点了点头，带着雷庆转身离开，不过看他的目光之中，似乎隐然有着一丝怒火。这应子丰出身大富之家，本身也有种明显的优越感和压迫感，桌上的人静了一静，段静娴皱起眉头，轻声对家明说道：“这人不怎么样，太傲，你以后少跟他打交道。”来龙去脉，对方的身份自然不必问，叶爸叶妈始终是站在他这边的。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "愤慨旁观者",
+        "inner_monologue": "应子丰这家伙太嚣张了，仗着家世好就目中无人，真让人生气。",
+        "external_action": "恨恨地说着话",
+        "speech_text": "嚣张什么嚣张……",
+        "mood_state": "angry"
+      },
+      "id": "291_005",
+      "global_id": 513
+    }
+  ]
+}

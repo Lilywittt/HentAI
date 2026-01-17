@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙和灵静在学校里遇到休学后变得孤僻的许毅婷，只能偶尔打招呼。",
+      "interlocutor_info": {
+        "name": "许毅婷",
+        "relationship_tag": "需要同情的同学"
+      },
+      "trigger": {
+        "sender": "许毅婷",
+        "content": "休学后变得阴郁孤僻，不讨喜",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "同情但无奈的同学",
+        "inner_monologue": "我同情她的遭遇，但想不出办法帮她。",
+        "external_action": "偶尔打招呼",
+        "speech_text": null,
+        "mood_state": "sympathetic"
+      },
+      "id": "168_001",
+      "global_id": 371
+    }
+  ]
+}

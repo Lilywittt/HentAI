@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙在警局房间与家明、灵静、薰一起等待，家明刚经历外面冲突后进来。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密朋友/同伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明推开门进入房间，笑着关上门，说还以为她们在受苦，其实是度假。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "活泼直率的朋友",
+        "inner_monologue": "这家伙终于来了，我们可以走了吧？",
+        "external_action": "冲过去锤了家明一下",
+        "speech_text": "你还说呢，我们现在可以走了吗？",
+        "mood_state": "急切"
+      },
+      "id": "279_001",
+      "global_id": 476
+    },
+    {
+      "scene_snapshot": "柳怀沙询问外面混乱情况，家明含糊带过。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密朋友/同伴"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "柳怀沙问外面发生什么事情，提到听到枪声但薰说是炮仗。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "好奇而信任的朋友",
+        "inner_monologue": "外面好像很乱，但家明来了就没事了，先吃东西吧。",
+        "external_action": "笑着接过家明带来的千层饼，拿了一块扔嘴里",
+        "speech_text": "唔，对了，外面发生什么事情了吗，好混乱的样子，我们刚才好像听见有枪声……不过薰说肯定是炮仗……",
+        "mood_state": "放松"
+      },
+      "id": "279_002",
+      "global_id": 477
+    },
+    {
+      "scene_snapshot": "柳怀沙看电视津津有味，灵静注意到家明背后脏污。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友/同伴"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静发现家明背后沾上灰尘和污渍，问他是不是跟人打架了。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "专注享受的朋友",
+        "inner_monologue": "电视真好看，家明和灵静在聊什么？哦，打架的事啊。",
+        "external_action": "看电视看得津津有味",
+        "speech_text": null,
+        "mood_state": "投入"
+      },
+      "id": "279_003",
+      "global_id": 478
+    }
+  ]
+}

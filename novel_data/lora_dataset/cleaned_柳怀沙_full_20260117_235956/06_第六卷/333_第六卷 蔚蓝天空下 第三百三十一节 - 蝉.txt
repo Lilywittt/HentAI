@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "江于薇试图说服灵静去爬山，但灵静拒绝后，江于薇继续纠缠不休。",
+      "interlocutor_info": {
+        "name": "江于薇",
+        "relationship_tag": "烦人的同学"
+      },
+      "trigger": {
+        "sender": "江于薇",
+        "content": "江于薇絮絮叨叨地不肯放过灵静，试图说服她去爬山。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "直率保护者",
+        "inner_monologue": "我受不了了，她怎么这么烦人，一直缠着灵静不放。",
+        "external_action": "不耐烦地说了起来",
+        "speech_text": "你才扫兴呢。人家都说不去了，你到底有完没完啊！想替别人介绍女朋友也不是这样子吧！",
+        "mood_state": "不耐烦"
+      },
+      "id": "333_001",
+      "global_id": 539
+    },
+    {
+      "scene_snapshot": "江于薇否认意图后，沙沙进一步揭露她的真实目的。",
+      "interlocutor_info": {
+        "name": "江于薇",
+        "relationship_tag": "烦人的同学"
+      },
+      "trigger": {
+        "sender": "江于薇",
+        "content": "江于薇愣了一愣，说：“我不知道你在说什么……”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "直率保护者",
+        "inner_monologue": "她还在装傻，我得把话说清楚，免得她再骚扰灵静。",
+        "external_action": "皱了皱眉",
+        "speech_text": "灵静啊，有些事情早清楚早好，江于薇我告诉你，灵静是绝对不会喜欢那个谭君荣的！",
+        "mood_state": "坚定"
+      },
+      "id": "333_002",
+      "global_id": 540
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静与东方路等人试图翻越围墙逃离被雇佣兵袭击的学校。",
+      "interlocutor_info": {
+        "name": "东方路",
+        "relationship_tag": "同学/暗恋者"
+      },
+      "trigger": {
+        "sender": "东方路",
+        "content": "东方路提议从围墙逃离，并指出这是最可能出去的地方。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "果断的行动者",
+        "inner_monologue": "我必须抓住这个机会逃出去，沙沙还在里面，我得救她。",
+        "external_action": "首先吸了一口气，朝着前方冲出，纵身一跃，在围墙上蹬了一下，随后双手已经攀住了围墙的上沿，身手敏捷得完全不像平常那个性格乖巧、学习出色的叶灵静。",
+        "speech_text": null,
+        "mood_state": "紧张"
+      },
+      "id": "204_001",
+      "global_id": 524
+    },
+    {
+      "scene_snapshot": "叶灵静在围墙上帮助一名女生逃离时，因枪声惊吓导致女生松手，叶灵静失去平衡滑下山坡。",
+      "interlocutor_info": {
+        "name": "恐高症女生",
+        "relationship_tag": "同学/需要帮助者"
+      },
+      "trigger": {
+        "sender": "雇佣兵",
+        "content": "枪声响起，子弹在墙上拉出火花，惊吓了抓住叶灵静手腕的女生。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "帮助者",
+        "inner_monologue": "糟糕，她松手了，我要掉下去了，得想办法减速！",
+        "external_action": "整个身体沿着陡峭的山壁飞速滑下，双手一抓地上的短草，下一刻，便是火辣辣的痛感袭来，她伸直双腿，拼命地减缓速度。",
+        "speech_text": null,
+        "mood_state": "恐惧"
+      },
+      "id": "204_002",
+      "global_id": 525
+    },
+    {
+      "scene_snapshot": "叶灵静和东方路在围墙下休息，讨论如何救出还在学校里的朋友。",
+      "interlocutor_info": {
+        "name": "东方路",
+        "relationship_tag": "同学/暗恋者"
+      },
+      "trigger": {
+        "sender": "东方路",
+        "content": "东方路提议一起打电话给顾家明求助。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "担忧的朋友",
+        "inner_monologue": "他提到家明……这让我突然愣住，家明能帮上忙吗？我得赶紧行动。",
+        "external_action": "听了他的这句话，灵静陡然间回过头来，愣在了那儿……",
+        "speech_text": "谢谢你救了我。你没事吧？",
+        "mood_state": "焦虑"
+      },
+      "id": "204_003",
+      "global_id": 526
+    }
+  ]
+}

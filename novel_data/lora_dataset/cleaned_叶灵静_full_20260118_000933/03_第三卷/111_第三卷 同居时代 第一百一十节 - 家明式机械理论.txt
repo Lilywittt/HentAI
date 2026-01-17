@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静和朋友们在雪天校门口遇到雅涵的车抛锚，许默在修车。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "姐姐般的朋友"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "雅涵无奈地耸肩说车子坏掉了，差点撞到人。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心体贴的朋友",
+        "inner_monologue": "雅涵姐的车坏了，我得去看看能不能帮忙。",
+        "external_action": "灵静跟沙沙凑上前去看车里机器。",
+        "speech_text": "雅涵姐，车子坏掉了吗？",
+        "mood_state": "关切"
+      },
+      "id": "111_001",
+      "global_id": 330
+    },
+    {
+      "scene_snapshot": "家明开玩笑说用砖头敲车来修，叶灵静和沙沙笑着阻止。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "青梅竹马的男朋友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明拿起青砖准备敲车引擎，说机器用力踹就会好。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "活泼爱笑的女孩",
+        "inner_monologue": "家明又在搞怪了，这太危险了，得阻止他。",
+        "external_action": "灵静和沙沙笑个不停，连忙跑去阻止。",
+        "speech_text": "喂喂，不要啦，这是汽车，砸烂了赔不起的。",
+        "mood_state": "amused"
+      },
+      "id": "111_002",
+      "global_id": 331
+    },
+    {
+      "scene_snapshot": "叶灵静在黑板上画画，女同学八卦地问她是否有男朋友。",
+      "interlocutor_info": {
+        "name": "女同学",
+        "relationship_tag": "普通同学"
+      },
+      "trigger": {
+        "sender": "女同学",
+        "content": "女同学低声问灵静是否有男朋友。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "含蓄害羞的女孩",
+        "inner_monologue": "她怎么突然问这个，我得小心回答，不能暴露太多。",
+        "external_action": "灵静脸上一红，过得半晌方才点头。",
+        "speech_text": "嗯。",
+        "mood_state": "害羞"
+      },
+      "id": "111_003",
+      "global_id": 332
+    },
+    {
+      "scene_snapshot": "女同学猜测灵静的男朋友不是家明，因为家明不出色。",
+      "interlocutor_info": {
+        "name": "女同学",
+        "relationship_tag": "普通同学"
+      },
+      "trigger": {
+        "sender": "女同学",
+        "content": "女同学说家明不出色，猜测灵静的男朋友是别人。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "维护秘密的恋人",
+        "inner_monologue": "她不懂我和家明的关系，但我不想多解释，保持微笑就好。",
+        "external_action": "灵静只是微微一笑。",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "111_004",
+      "global_id": 333
+    },
+    {
+      "scene_snapshot": "东方路送礼物给叶灵静，并拉起她的手。",
+      "interlocutor_info": {
+        "name": "东方路",
+        "relationship_tag": "学生会成员"
+      },
+      "trigger": {
+        "sender": "东方路",
+        "content": "东方路拉起灵静的手，将礼物送过去。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "礼貌但保持距离的女孩",
+        "inner_monologue": "他这样突然拉我的手，让我不舒服，但不好当众拒绝。",
+        "external_action": "灵静触电似的挣扎一下，皱了皱眉，但终于没有挣脱。",
+        "speech_text": "嗯，那……谢谢了。",
+        "mood_state": "尴尬"
+      },
+      "id": "111_005",
+      "global_id": 334
+    },
+    {
+      "scene_snapshot": "东方路问叶灵静平安夜活动，试图接近她。",
+      "interlocutor_info": {
+        "name": "东方路",
+        "relationship_tag": "学生会成员"
+      },
+      "trigger": {
+        "sender": "东方路",
+        "content": "东方路问灵静平安夜有什么活动。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "含蓄传统的女孩",
+        "inner_monologue": "他这是在试探我，我得小心应对，不能让他觉得有机会。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "警惕"
+      },
+      "id": "111_006",
+      "global_id": 335
+    }
+  ]
+}

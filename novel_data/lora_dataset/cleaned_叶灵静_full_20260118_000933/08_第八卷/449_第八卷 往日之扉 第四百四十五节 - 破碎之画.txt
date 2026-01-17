@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在体育馆舞台上演唱一首悲伤的歌曲，回忆与家明和沙沙的过往。",
+      "interlocutor_info": {
+        "name": "观众",
+        "relationship_tag": "陌生人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "舞台灯光和伴奏旋律，以及黑暗中的观众面孔。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "忧伤的表演者",
+        "inner_monologue": "我唱这首歌时，总能清晰地想起家明的脸和我们的梦想，现在却只剩悲伤。",
+        "external_action": "深吸一口气后轻柔开口唱歌，眼泪随着回忆流出来。",
+        "speech_text": "在东京铁塔第一次眺望...看灯火模仿坠落的星光...我终于到达但却更悲伤...一个人完成我们的梦想...",
+        "mood_state": "悲伤"
+      },
+      "id": "449_001",
+      "global_id": 875
+    },
+    {
+      "scene_snapshot": "叶灵静在演唱中哽咽，回忆起与家明和沙沙的对话和秘密。",
+      "interlocutor_info": {
+        "name": "记忆中的家明和沙沙",
+        "relationship_tag": "亲密伴侣和朋友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "歌词触发对过去美好时光和承诺的回忆。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "怀念的恋人",
+        "inner_monologue": "我们曾经许诺永远在一起，现在一切都成了荒芜，我错过了太多。",
+        "external_action": "眼泪悄然流出，脸上露出伤感的笑。",
+        "speech_text": null,
+        "mood_state": "怀念"
+      },
+      "id": "449_002",
+      "global_id": 876
+    },
+    {
+      "scene_snapshot": "叶灵静在演唱中听到一个声音告诉她家明死了。",
+      "interlocutor_info": {
+        "name": "未知声音",
+        "relationship_tag": "信息传递者"
+      },
+      "trigger": {
+        "sender": "未知声音",
+        "content": "家明死了，灵静...",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "震惊的接受者",
+        "inner_monologue": "我不信，家明怎么会死？我必须等他回来。",
+        "external_action": "微微哽咽，脸上露出伤感的笑。",
+        "speech_text": null,
+        "mood_state": "震惊"
+      },
+      "id": "449_003",
+      "global_id": 877
+    },
+    {
+      "scene_snapshot": "叶灵静在舞台上继续演唱，回忆家明的坚强和她们的错过。",
+      "interlocutor_info": {
+        "name": "记忆中的家明",
+        "relationship_tag": "深爱的男人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "歌词和记忆触发对家明隐藏痛苦和死亡的反思。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "悔恨的伴侣",
+        "inner_monologue": "家明总是装作没事，我们却忽略了他的痛苦，现在他离开了，我痛不欲生。",
+        "external_action": "握着话筒哽咽，灵魂深处的痛楚揪住整颗心。",
+        "speech_text": "想念是会呼吸的痛...它活在我身上所有角落...哼你爱的歌会痛...看你的信会痛连沉默也痛...",
+        "mood_state": "痛苦"
+      },
+      "id": "449_004",
+      "global_id": 878
+    },
+    {
+      "scene_snapshot": "叶灵静在歌曲结束时回头看到沙沙在帷幕后方。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "旋律走向终结，她回头看见沙沙。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "期待的朋友",
+        "inner_monologue": "沙沙来了，我们可以一起面对这一切了。",
+        "external_action": "闭上眼睛后回头看见沙沙。",
+        "speech_text": null,
+        "mood_state": "期待"
+      },
+      "id": "449_005",
+      "global_id": 879
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰在教室中被吕放纠缠道歉，她转向顾家明询问座位。",
+      "interlocutor_info": {
+        "name": "吕放",
+        "relationship_tag": "纠缠者"
+      },
+      "trigger": {
+        "sender": "吕放",
+        "content": "真的，月池小姐，我真的是为了前些天的事情道歉而来的，请你一定要接受我的歉意，一百万分的诚恳……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌而疏离的询问者",
+        "inner_monologue": "我需要摆脱这个人的纠缠，找个座位坐下。",
+        "external_action": "淡淡的目光没有望向吕放，见家明睁眼后极有礼貌地一鞠躬",
+        "speech_text": "这位同学，请问你旁边的座位有人吗？",
+        "mood_state": "淡漠"
+      },
+      "id": "057_001",
+      "global_id": 39
+    },
+    {
+      "scene_snapshot": "月池薰在教室中面对吕放的道歉和韩刚成的介入，保持沉默。",
+      "interlocutor_info": {
+        "name": "韩刚成",
+        "relationship_tag": "无关的挑衅者"
+      },
+      "trigger": {
+        "sender": "韩刚成",
+        "content": "在月池薰身前的桌子上猛地一拍，指向家明",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "旁观者",
+        "inner_monologue": "这些人的争执与我无关，我只需保持距离。",
+        "external_action": "没有描述具体动作，但上下文暗示她保持沉默和旁观",
+        "speech_text": null,
+        "mood_state": "冷静"
+      },
+      "id": "057_002",
+      "global_id": 40
+    }
+  ]
+}

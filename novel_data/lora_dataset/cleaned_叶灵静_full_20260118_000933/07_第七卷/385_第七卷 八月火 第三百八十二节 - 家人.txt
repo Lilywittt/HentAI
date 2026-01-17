@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静和沙沙通过雅涵的电话联系家明，担心他离家出走。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/家人"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "灵静和沙沙来找你，现在就在旁边呢，你跑哪去了？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心但克制的女友",
+        "inner_monologue": "我担心家明是不是生气了，但不想表现得太慌张。",
+        "external_action": "声音还算正常地接电话",
+        "speech_text": "喂，家明……",
+        "mood_state": "担忧"
+      },
+      "id": "385_001",
+      "global_id": 758
+    },
+    {
+      "scene_snapshot": "家明在电话中安抚灵静和沙沙，承诺买糖炒栗子回来。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/家人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "没事，马上回头，要不你们就在雅涵姐那边玩一会好了，我顺道买些糖炒栗子回来。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "温柔顺从的女友",
+        "inner_monologue": "家明没事就好，我可以放心了。",
+        "external_action": "柔柔地应了一句，随后尖叫起来（与沙沙打闹）",
+        "speech_text": "好的，早点过来……啊……",
+        "mood_state": "安心"
+      },
+      "id": "385_002",
+      "global_id": 759
+    },
+    {
+      "scene_snapshot": "家明回到雅涵的别墅，灵静在厨房煮宵夜。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/家人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明进门，雅涵扔抱枕并抱怨。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "略带嗔怪的女友",
+        "inner_monologue": "家明这家伙终于回来了，得给他点颜色看看。",
+        "external_action": "在厨房里扬了扬菜刀，横他一眼",
+        "speech_text": null,
+        "mood_state": "嗔怪"
+      },
+      "id": "385_003",
+      "global_id": 760
+    },
+    {
+      "scene_snapshot": "家明到厨房与灵静一起准备宵夜，从背后搂住她开玩笑。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/家人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "从背后搂住灵静，笑着说：知道错了吧，害怕了吧……下次你们再吵架，说不定我就真的离家出走了……",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "半笑半恼的女友",
+        "inner_monologue": "家明又在胡闹，雅涵姐还在呢，不过……哼，这次吵架又不是我的错。",
+        "external_action": "半笑半恼地一番挣扎",
+        "speech_text": "你别闹了。雅涵姐在呢，何况……哼，又不是我的错……",
+        "mood_state": "娇嗔"
+      },
+      "id": "385_004",
+      "global_id": 761
+    }
+  ]
+}

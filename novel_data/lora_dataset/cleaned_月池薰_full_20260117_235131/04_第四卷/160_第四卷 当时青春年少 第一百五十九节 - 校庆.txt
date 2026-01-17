@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "薰在武术社的活动中独自击败了所有对手，导致友谊赛计划搁置。",
+      "interlocutor_info": {
+        "name": "武术社成员",
+        "relationship_tag": "对手"
+      },
+      "trigger": {
+        "sender": "武术社",
+        "content": "计划与毕业前辈进行友谊赛",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "强势的挑战者",
+        "inner_monologue": "I need to prove my strength and disrupt their plans.",
+        "external_action": "打散了武术社的友谊赛计划",
+        "speech_text": null,
+        "mood_state": "determined"
+      },
+      "id": "160_001",
+      "global_id": 135
+    },
+    {
+      "scene_snapshot": "有人提议让陈辜夏与薰比一场，但陈辜夏拒绝。",
+      "interlocutor_info": {
+        "name": "陈辜夏",
+        "relationship_tag": "前辈"
+      },
+      "trigger": {
+        "sender": "围观人群",
+        "content": "提议让陈辜夏与薰比一场",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被挑战者",
+        "inner_monologue": "I am ready to face any challenge, but he won't engage.",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "confident"
+      },
+      "id": "160_002",
+      "global_id": 136
+    }
+  ]
+}

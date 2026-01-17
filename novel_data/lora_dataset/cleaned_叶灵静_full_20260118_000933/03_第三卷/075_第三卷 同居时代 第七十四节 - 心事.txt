@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静在北欧幻想餐厅准备下班时，经理张竞峰询问她国庆请假的事并试图送她一张星梦游轮的船票。",
+      "interlocutor_info": {
+        "name": "张竞峰",
+        "relationship_tag": "经理"
+      },
+      "trigger": {
+        "sender": "张竞峰",
+        "content": "询问灵静国庆请假原因并递给她一张星梦游轮的船票作为奖励。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌而疏离的员工",
+        "inner_monologue": "我包里已经有五张更好的船票了，但我们不打算去，这真有点尴尬。",
+        "external_action": "嘴角微微拉出一个无奈的笑容。",
+        "speech_text": "呃……唔，知道啊。",
+        "mood_state": "无奈"
+      },
+      "id": "075_001",
+      "global_id": 204
+    }
+  ]
+}

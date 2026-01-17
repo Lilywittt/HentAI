@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静从房间出来，面对父母和朱利安，表达要去监狱查证顾家明死讯的决心。",
+      "interlocutor_info": {
+        "name": "叶涵",
+        "relationship_tag": "父亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "灵静，家明他……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坚强而执着的女儿",
+        "inner_monologue": "我必须去弄清楚真相，不能就这样接受他死了。",
+        "external_action": "从房屋角落拿了伞便要走",
+        "speech_text": "我没事。我不相信，我要去监狱问……",
+        "mood_state": "determined"
+      },
+      "id": "428_001",
+      "global_id": 837
+    },
+    {
+      "scene_snapshot": "叶灵静在朱利安的车上，听他安慰并劝她忘掉过去。",
+      "interlocutor_info": {
+        "name": "朱利安",
+        "relationship_tag": "老师/追求者"
+      },
+      "trigger": {
+        "sender": "朱利安",
+        "content": "公司这边本来已经给你安排了一些工作……你得忘掉他，因为还有很多人在关心你……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "沉默而深思的听众",
+        "inner_monologue": "他不懂，我和家明是分不开的，时间无法抹去我们的连接。",
+        "external_action": "靠在窗边，没有说话",
+        "speech_text": null,
+        "mood_state": "resigned"
+      },
+      "id": "428_002",
+      "global_id": 838
+    },
+    {
+      "scene_snapshot": "叶灵静在公交站台向朱利安倾诉她与顾家明不可分割的过去。",
+      "interlocutor_info": {
+        "name": "朱利安",
+        "relationship_tag": "老师/追求者"
+      },
+      "trigger": {
+        "sender": "朱利安",
+        "content": "我不明白……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "脆弱而坦诚的倾诉者",
+        "inner_monologue": "我必须让他明白，我和家明是一个整体，失去他就像失去自己的一部分。",
+        "external_action": "仰头望着街道对面店铺上亮起的招牌，轻声说话",
+        "speech_text": "不是的……每个人……都有自己独立的记忆，可我没有啊……我们……从小一块长大的……",
+        "mood_state": "heartbroken"
+      },
+      "id": "428_003",
+      "global_id": 839
+    },
+    {
+      "scene_snapshot": "叶灵静向朱利安明确拒绝他的感情，并表达对顾家明的坚定信念。",
+      "interlocutor_info": {
+        "name": "朱利安",
+        "relationship_tag": "老师/追求者"
+      },
+      "trigger": {
+        "sender": "朱利安",
+        "content": "朱利安望着她的侧脸，听着这一切，才要说话",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "礼貌而决绝的拒绝者",
+        "inner_monologue": "我必须结束这一切，不能让他再有希望，我的心只属于家明。",
+        "external_action": "站了起来，提着雨伞，向他鞠躬行了一礼",
+        "speech_text": "对不起……老师，我知道这几年你帮了我很多……老师，你是个好人，谢谢你，我不想再跟你说其它的对不起了……",
+        "mood_state": "resolute"
+      },
+      "id": "428_004",
+      "global_id": 840
+    }
+  ]
+}

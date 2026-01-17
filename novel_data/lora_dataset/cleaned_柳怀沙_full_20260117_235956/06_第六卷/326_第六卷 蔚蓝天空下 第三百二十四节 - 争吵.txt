@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在帮助灵静做饭时，因向三个旁观女生索要物品未果而引发争吵。",
+      "interlocutor_info": {
+        "name": "三个旁观女生",
+        "relationship_tag": "傲慢无礼的陌生人"
+      },
+      "trigger": {
+        "sender": "三个旁观女生",
+        "content": "对沙沙的请求不予回应并阴阳怪气地讽刺。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "直率冲动的保护者",
+        "inner_monologue": "这些人凭什么这么无礼？我们好心帮忙，她们却冷嘲热讽，太气人了！",
+        "external_action": "与对方争吵后，愤怒地拉了灵静和雅涵离开。",
+        "speech_text": "什么东西，是我们过去帮她，饭都不会煮也就罢了，连稍微动动手都不肯，居然还在那里讽刺来讽刺去，凭什么要帮她啊……",
+        "mood_state": "愤怒"
+      },
+      "id": "326_001",
+      "global_id": 527
+    },
+    {
+      "scene_snapshot": "沙沙向家明等人抱怨争吵的起因，表达对那三个女生的不满。",
+      "interlocutor_info": {
+        "name": "家明、灵静、雅涵",
+        "relationship_tag": "亲密的朋友和家人"
+      },
+      "trigger": {
+        "sender": "家明等人",
+        "content": "询问争吵的经过。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坦率直言的倾诉者",
+        "inner_monologue": "我得把这事说清楚，让大家知道她们有多过分，不能就这么算了。",
+        "external_action": "一脸不爽地讲述事情经过。",
+        "speech_text": "关灵静你什么事，是江于薇叫你过去的好不好，帮了是人情，不帮是道理，你没听见她们口中说的什么吗……说你家里不过是开小武馆的，哼哼，以为家里多有钱一样，了不起啊。随便打个电话就让她家的公司再也开不下去……",
+        "mood_state": "愤慨"
+      },
+      "id": "326_002",
+      "global_id": 528
+    }
+  ]
+}

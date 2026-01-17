@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明在电脑上搜索叶灵静在维也纳的资料，试图整理记忆。",
+      "interlocutor_info": {
+        "name": "方雨思",
+        "relationship_tag": "朋友/关心者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "搜索叶灵静的资料并询问'灵静……叶灵静……是谁……'",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心者",
+        "inner_monologue": "我担心家明的记忆问题，他连灵静都记不清了。",
+        "external_action": "介绍叶灵静在维也纳的信息，并观察家明的反应。",
+        "speech_text": "你真的忘记了？",
+        "mood_state": "担忧"
+      },
+      "id": "439_001",
+      "global_id": 864
+    },
+    {
+      "scene_snapshot": "家明看到叶灵静的照片后突然发病，额头血管贲张，全身颤抖出汗。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "重要的人/记忆关联者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "看着叶灵静的照片和英文介绍，出现生理反应（发病）。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "照顾者",
+        "inner_monologue": "我必须赶紧处理家明的突发状况，这太吓人了。",
+        "external_action": "关掉电脑，拿毛巾擦汗，打电话给医院和穆清清。",
+        "speech_text": null,
+        "mood_state": "惊慌"
+      },
+      "id": "439_002",
+      "global_id": 865
+    }
+  ]
+}

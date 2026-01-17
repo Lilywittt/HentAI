@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在黑暗中看到家明，他握住她的手，阻止手雷爆炸，同时坦克攻击家明。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴/保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "在黑暗中握住沙沙的手，稳定手雷，对她露出抱歉和安定的笑容。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "恐惧但依赖的同伴",
+        "inner_monologue": "我不想死，也怕死，手雷在我手里好可怕，但家明的手让我感到可靠。",
+        "external_action": "眼睛酸了，流着眼泪，望着家明被打。",
+        "speech_text": null,
+        "mood_state": "恐惧"
+      },
+      "id": "216_001",
+      "global_id": 444
+    },
+    {
+      "scene_snapshot": "家明与坦克决斗后，沙沙扶起受伤的薰，家明接手处理。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴/保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明说'我来吧'，并抱起薰。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心同伴的助手",
+        "inner_monologue": "薰伤得好重，家明抱得不对，我得帮忙。",
+        "external_action": "小心翼翼地扶起薰，手忙脚乱地围着薰转。",
+        "speech_text": "你……你这样抱着她当然不舒服啊，她中了三枪呢，流了这么多血，你还说她……",
+        "mood_state": "焦急"
+      },
+      "id": "216_002",
+      "global_id": 445
+    },
+    {
+      "scene_snapshot": "沙沙对家明快速结束决斗感到疑惑，询问原因。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴/保护者"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙问'你不是说跟那个人决斗吗？怎么这么快……'",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "好奇的同伴",
+        "inner_monologue": "家明怎么这么快就赢了，有点奇怪。",
+        "external_action": "回头疑惑地看着家明。",
+        "speech_text": "唉，家明……你不是说跟那个人决斗吗？怎么这么快……",
+        "mood_state": "疑惑"
+      },
+      "id": "216_003",
+      "global_id": 446
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "在酒店的小型宴会上，叶灵静在厅堂一角为大家弹钢琴。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明笑着用手中的果汁与小孟碰了杯，并提到灵静以后成了大明星，他可以给她当经纪人。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "温柔支持者",
+        "inner_monologue": "我弹钢琴给大家听，家明在和小孟哥聊天，他提到我的未来，虽然有点开玩笑，但感觉他一直在为我们着想。",
+        "external_action": "在厅堂一角弹钢琴",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "467_001",
+      "global_id": 937
+    },
+    {
+      "scene_snapshot": "聚会结束后，叶灵静和沙沙一起走在夜风中，讨论百合话题并回忆往事。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明问起多年前第一次看见灵静和沙沙光着身子在床上的那个早晨，到底是在干什么。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "俏皮伙伴",
+        "inner_monologue": "家明怎么还记得这种陈年旧事，真是的，不过现在想起来还挺有趣的，我和沙沙那时候什么都不懂。",
+        "external_action": "和沙沙一起追打家明",
+        "speech_text": "这么多年了你还记着这个干嘛啊！",
+        "mood_state": "嬉闹"
+      },
+      "id": "467_002",
+      "global_id": 938
+    },
+    {
+      "scene_snapshot": "叶灵静笑着解释多年前那个早晨的事情经过。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明坚持询问多年前那个早晨的事情。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坦诚分享者",
+        "inner_monologue": "既然家明这么好奇，我就告诉他吧，反正都是过去的事了，现在想想还挺怀念的。",
+        "external_action": "笑着把事情缘由经过说出来",
+        "speech_text": null,
+        "mood_state": "怀念"
+      },
+      "id": "467_003",
+      "global_id": 939
+    },
+    {
+      "scene_snapshot": "叶灵静听到母亲段静娴的声音在车祸现场，下意识拉住家明和沙沙的手。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "段静娴的声音从车祸现场传来，喊着她是医生并让大家让开。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "担忧女儿",
+        "inner_monologue": "是妈妈的声音！她怎么会在这里？我得赶紧过去看看，希望她没事。",
+        "external_action": "下意识拉住家明和沙沙的手",
+        "speech_text": "是妈妈，她怎么到这里来了……",
+        "mood_state": "紧张"
+      },
+      "id": "467_004",
+      "global_id": 940
+    }
+  ]
+}

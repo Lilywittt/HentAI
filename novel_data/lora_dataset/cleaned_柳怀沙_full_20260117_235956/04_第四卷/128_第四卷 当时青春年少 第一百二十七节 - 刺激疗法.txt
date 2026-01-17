@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙和灵静与家明在沙发上打闹，争夺按摩器。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明开玩笑说灵静和沙沙是百合，并调侃按摩器的用途。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "活泼直率的少女",
+        "inner_monologue": "这家伙又在胡说八道，看我不教训他！",
+        "external_action": "一脚踢向家明，并啐了一口。",
+        "speech_text": "哼，爱要不要，灵静，这家伙又在说我们百合了。",
+        "mood_state": "嗔怒"
+      },
+      "id": "128_001",
+      "global_id": 302
+    },
+    {
+      "scene_snapshot": "沙沙参与抢夺按摩器，与家明和灵静在沙发上打闹。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明将按摩器压在身下，拒绝归还。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "调皮好动的伙伴",
+        "inner_monologue": "正好借这个机会报复他一下！",
+        "external_action": "扑在家明背上抢夺按摩器，参与打闹。",
+        "speech_text": null,
+        "mood_state": "兴奋"
+      },
+      "id": "128_002",
+      "global_id": 303
+    },
+    {
+      "scene_snapshot": "雅涵敲门来访，沙沙和灵静整理仪容。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "熟悉的朋友/姐姐般的人物"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "雅涵在门外敲门并呼唤家明。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "略显慌乱的少女",
+        "inner_monologue": "哎呀，雅涵姐来了，得赶紧整理一下。",
+        "external_action": "从沙发上跳起来，整理凌乱的衣裳与发丝。",
+        "speech_text": null,
+        "mood_state": "慌乱"
+      },
+      "id": "128_003",
+      "global_id": 304
+    }
+  ]
+}

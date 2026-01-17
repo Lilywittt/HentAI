@@ -1,0 +1,175 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙和灵静在早晨醒来，发现两人赤裸相拥，回忆起昨晚的打闹，感到尴尬和害羞。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静试图悄无声息地挣脱沙沙的拥抱，惊醒了沙沙。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "镇定安抚者",
+        "inner_monologue": "我得先冷静下来，不能让灵静更慌。",
+        "external_action": "拥着被子向灵静靠过去。",
+        "speech_text": "我们……昨晚没什么事的……",
+        "mood_state": "尴尬"
+      },
+      "id": "016_001",
+      "global_id": 49
+    },
+    {
+      "scene_snapshot": "沙沙和灵静互相安慰，担心昨晚的行为可能影响她们的处女身份。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静带着哭腔说担心两人可能都不是处女了。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "困惑安慰者",
+        "inner_monologue": "这怎么可能？我们只是闹着玩，但灵静这么担心，我得安抚她。",
+        "external_action": "艰难地咽下一口口水。",
+        "speech_text": "不……不会吧……",
+        "mood_state": "紧张"
+      },
+      "id": "016_002",
+      "global_id": 50
+    },
+    {
+      "scene_snapshot": "沙沙同意让灵静检查她的处女膜，以缓解两人的担忧。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静提议检查处女膜，并先帮沙沙看。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "羞涩配合者",
+        "inner_monologue": "这太羞人了，但为了弄清楚，我只能硬着头皮上。",
+        "external_action": "红着脸想了许久，有如就义一般坐到床头柜上，羞涩地褪下小内裤，双眼一闭，在灵静面前张开了腿。",
+        "speech_text": "好、好吧……",
+        "mood_state": "羞涩"
+      },
+      "id": "016_003",
+      "global_id": 51
+    },
+    {
+      "scene_snapshot": "沙沙在检查过程中感到不适，提醒灵静不要乱摸。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静双手颤抖地伸过去检查。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "娇喘抗议者",
+        "inner_monologue": "这感觉好奇怪，我得阻止她乱来。",
+        "external_action": "语带娇喘。",
+        "speech_text": "你……你别说啦……不、不要乱摸，呃……不许、不许伸手进去……呃……",
+        "mood_state": "娇羞"
+      },
+      "id": "016_004",
+      "global_id": 52
+    },
+    {
+      "scene_snapshot": "沙沙想起第一次会流血和痛，提议检查血迹，两人发现是乌龙后相拥欢呼。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙想起第一次会流血和痛，提议检查血迹。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "机智提醒者",
+        "inner_monologue": "对了，这个可能更直接，我们快看看。",
+        "external_action": "打开床头柜找手电筒，泪水在眼眶中打转。",
+        "speech_text": "对了，我……我听说女孩子的第一次会流血的，又会很痛，我们昨晚也不痛，快看看有没有血……",
+        "mood_state": "急切"
+      },
+      "id": "016_005",
+      "global_id": 53
+    },
+    {
+      "scene_snapshot": "沙沙露出坏笑，要报复性地看回灵静的身体，两人在床上打闹。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙脸上露出坏坏的笑容，说要看回灵静。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "顽皮报复者",
+        "inner_monologue": "刚才被你看光了，现在轮到我啦，别想跑！",
+        "external_action": "飞扑、挠痒、咬人，将灵静按到在床上，扒掉她的内裤。",
+        "speech_text": "就要，你别想跑……",
+        "mood_state": "顽皮"
+      },
+      "id": "016_006",
+      "global_id": 54
+    },
+    {
+      "scene_snapshot": "家明突然开门进来，看到两人赤裸交缠的场面，沙沙和灵静尖叫并扔东西。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "朋友/同学"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明开门进来，看到两人赤裸交缠。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "尴尬尖叫者",
+        "inner_monologue": "糟了，被家明看到了，这太丢人了！",
+        "external_action": "和灵静一起尖叫，扔枕头、录像带、睡衣、内裤往房门那边。",
+        "speech_text": "滚啦——",
+        "mood_state": "羞愤"
+      },
+      "id": "016_007",
+      "global_id": 55
+    },
+    {
+      "scene_snapshot": "沙沙穿好衣服后，灵静坐在床边哭泣，沙沙默默陪伴。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静穿好衣服后，坐在床边捂着脸哭泣。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "沉默陪伴者",
+        "inner_monologue": "灵静哭了，我得陪着她，但不知道说什么好。",
+        "external_action": "穿好衣服，默默陪伴。",
+        "speech_text": null,
+        "mood_state": "关切"
+      },
+      "id": "016_008",
+      "global_id": 56
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙因急性阑尾炎手术后在医院沉睡，她的父亲柳正和朋友们在手术室外焦急等待。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "医生/长辈"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "告知柳正和灵静沙沙的病情是急性阑尾炎，手上有点伤但问题不大，并请求柳正让开通道。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "沉睡的病人",
+        "inner_monologue": "我什么都不知道，还在麻醉中沉睡。",
+        "external_action": "沉睡中，无动作",
+        "speech_text": null,
+        "mood_state": "unconscious"
+      },
+      "id": "173_001",
+      "global_id": 373
+    },
+    {
+      "scene_snapshot": "柳正和段静娴在办公室聊天，讨论柳怀沙和灵静与家明的关系。",
+      "interlocutor_info": {
+        "name": "柳正",
+        "relationship_tag": "父亲"
+      },
+      "trigger": {
+        "sender": "柳正",
+        "content": "开玩笑问家明是选柳怀沙还是灵静，并说如果选灵静就要给沙沙安排相亲。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被讨论的对象",
+        "inner_monologue": "我还在沉睡，不知道父亲在拿我的感情开玩笑。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "unaware"
+      },
+      "id": "173_002",
+      "global_id": 374
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明在医院给沙沙送饭，灵静也在医院照顾沙沙和薰。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明给沙沙送饭，并每日去医院看望薰。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "被照顾的病人",
+        "inner_monologue": "我受伤了，家明和灵静都在照顾我，这让我感到温暖。",
+        "external_action": "在医院病房中休养，接受家明送饭和灵静的照顾。",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "221_001",
+      "global_id": 453
+    },
+    {
+      "scene_snapshot": "灵静在医院照顾沙沙和薰，沙沙和薰的互动被描述。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密的朋友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静每天守在医院，在沙沙和薰的病房来回跑，照顾她们。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "被照顾的病人",
+        "inner_monologue": "灵静这么关心我，让我很感激，但我也希望自己能快点好起来。",
+        "external_action": "在医院病房中休养，接受灵静的照顾。",
+        "speech_text": null,
+        "mood_state": "感激"
+      },
+      "id": "221_002",
+      "global_id": 454
+    }
+  ]
+}

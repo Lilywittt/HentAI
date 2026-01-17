@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静因排练晚归，沙沙表达担忧并抱怨她过于投入方雨思的伴舞活动。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "亲密好友/同居伙伴"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "每天都很晚才回来，永盛帮的人还在准备继续捣乱呢，我和家明都很担心你知不知道？那个方雨思比我和家明还重要吗？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "体贴安抚者",
+        "inner_monologue": "我确实回来晚了，让沙沙和家明担心了，我得赶紧道歉并想办法让她开心起来。",
+        "external_action": "从房间里拿出方雨思签名的笔记本递给沙沙",
+        "speech_text": "没有啦，她们那些人一直要求多练习几遍，我也没办法……呐，转送给你，别生气了好不好。",
+        "mood_state": "歉意"
+      },
+      "id": "142_001",
+      "global_id": 392
+    },
+    {
+      "scene_snapshot": "灵静试图用方雨思的签名笔记本安抚沙沙，但沙沙拒绝后要求新的签名。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "亲密好友/同居伙伴"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "算了，我不要……上面都写了你名字的，下次见到她，你得让她也给我特别签一个！",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "热情分享者",
+        "inner_monologue": "沙沙果然还是想要签名，我得告诉她我和雨思姐关系很好，下次一定能帮她拿到。",
+        "external_action": null,
+        "speech_text": "当然没问题，告诉你，雨思姐跟我很谈得来的哦，昨天她过来的时候跟我聊过好多东西，还问过我家里的事情呢，我说我家里是开武馆的，老妈是医生，她还说想要过去学习呢，你要是早说，昨天我就给你要一个签名来！嗯，还要让她给家明签一个，呵呵……",
+        "mood_state": "兴奋"
+      },
+      "id": "142_002",
+      "global_id": 393
+    }
+  ]
+}

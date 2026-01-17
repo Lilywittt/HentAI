@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙拿着塑料袋从操场外走进来，与灵静和家明会合，准备参加校庆晚会。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友/恋人"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静笑着搂住了沙沙的腰，让她在身边坐下，并说“谢谢沙沙，唔，身上好香……”。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "活泼俏皮的少女",
+        "inner_monologue": "灵静又在闹我了，不过这种亲昵的感觉真好。",
+        "external_action": "沙沙笑着敲了敲灵静的额头，按住了正移向她胸口的一双手。",
+        "speech_text": "别乱摸啦，当心回去让你好看。",
+        "mood_state": "愉悦"
+      },
+      "id": "163_001",
+      "global_id": 358
+    },
+    {
+      "scene_snapshot": "沙沙和灵静在座位上打闹，沙沙提到要挑战排球队队长谭素妍。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友/恋人"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静俏皮地吐了吐舌头说“回到家里的好看，不都是让家明占了便宜……沙沙你果然很偏心，只知道疼家明……”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调皮又坚定的朋友",
+        "inner_monologue": "灵静又在吃醋了，我得逗逗她。",
+        "external_action": "沙沙笑着，与灵静在座位上闹成了一团。",
+        "speech_text": "那就疼你好了……",
+        "mood_state": "开心"
+      },
+      "id": "163_002",
+      "global_id": 359
+    },
+    {
+      "scene_snapshot": "沙沙俯身揉动小腿，提到训练和挑战谭素妍的事情。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友/恋人"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静问“只是简单的比赛而已，非得那样拼命吗？”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "竞争心强的运动员",
+        "inner_monologue": "谭素妍抢了灵静的伴舞资格，我必须给她点颜色看看。",
+        "external_action": "沙沙望着家明一笑。",
+        "speech_text": "当然要全力以赴才行。谭素妍这些天为了伴舞的事情根本没有去训练，整个人神气得不得了，她还以为自己是从灵静那抢去的资格……哼，那就让我抢掉她的排球队队长，让她清醒下好了。",
+        "mood_state": "坚定"
+      },
+      "id": "163_003",
+      "global_id": 360
+    },
+    {
+      "scene_snapshot": "灵静为沙沙按摩双腿，沙沙在笑闹中躺下。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友/恋人"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静抱起了沙沙的双腿，将她的身体横过去，伸手在腿上敲打，并说“给我的骑士按摩啊……”。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "放松又害羞的接受者",
+        "inner_monologue": "灵静按摩得真舒服，但这样好痒啊。",
+        "external_action": "一番挣扎与笑闹之后，沙沙终于还是在那边的座位上躺了下来。",
+        "speech_text": "乖……嗯，可是……这样好奇怪，哈哈，那里会痒……哈哈……拜托轻一点，灵静……哈哈……我不要了……",
+        "mood_state": "放松"
+      },
+      "id": "163_004",
+      "global_id": 361
+    },
+    {
+      "scene_snapshot": "沙沙、灵静和家明走向大礼堂后门，遇到谭素妍阻拦。",
+      "interlocutor_info": {
+        "name": "谭素妍",
+        "relationship_tag": "竞争对手/讨厌的人"
+      },
+      "trigger": {
+        "sender": "谭素妍",
+        "content": "谭素妍故意将门口打开的距离压小，说“抱歉，这次演出的地方已经不够……非组织者，表演者不许进后台，你们如果要找方小姐签名……”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "不屑一顾的挑战者",
+        "inner_monologue": "谭素妍又在耍小聪明，真让人讨厌。",
+        "external_action": "一看见她，沙沙就立刻将白眼翻到了一边。",
+        "speech_text": null,
+        "mood_state": "轻蔑"
+      },
+      "id": "163_005",
+      "global_id": 362
+    },
+    {
+      "scene_snapshot": "东方婉出来迎接，沙沙挑衅谭素妍。",
+      "interlocutor_info": {
+        "name": "谭素妍",
+        "relationship_tag": "竞争对手/讨厌的人"
+      },
+      "trigger": {
+        "sender": "东方婉",
+        "content": "东方婉领了灵静三人进去，谭素妍质疑节目单上没有他们。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "得意洋洋的胜利者",
+        "inner_monologue": "看谭素妍那副样子，真是解气。",
+        "external_action": "沙沙兴致高昂地走在后面，挑衅似的向谭素妍挑了挑眉毛。",
+        "speech_text": null,
+        "mood_state": "得意"
+      },
+      "id": "163_006",
+      "global_id": 363
+    }
+  ]
+}

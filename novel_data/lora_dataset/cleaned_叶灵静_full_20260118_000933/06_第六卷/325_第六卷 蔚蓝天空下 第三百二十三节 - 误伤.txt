@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在帐篷边与江于薇聊天，讨论家明和东方婉。",
+      "interlocutor_info": {
+        "name": "江于薇",
+        "relationship_tag": "小学同学"
+      },
+      "trigger": {
+        "sender": "江于薇",
+        "content": "家明呢？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "友好而略带维护的友人",
+        "inner_monologue": "我有点不高兴她这样评论家明。",
+        "external_action": "微有些疑惑",
+        "speech_text": "去树林找人去了。怎么，你找他有事？",
+        "mood_state": "平静"
+      },
+      "id": "325_001",
+      "global_id": 645
+    },
+    {
+      "scene_snapshot": "江于薇质疑叶灵静和家明的关系，提到家明曾被欺负。",
+      "interlocutor_info": {
+        "name": "江于薇",
+        "relationship_tag": "小学同学"
+      },
+      "trigger": {
+        "sender": "江于薇",
+        "content": "要是家明一直都被人欺负，一直都要你照顾他，当他的女朋友，你不觉得吃亏啊？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "怀旧而坦诚的朋友",
+        "inner_monologue": "我其实希望家明能多依赖我一些。",
+        "external_action": "露出一个缅怀的表情，偏了偏脑袋，笑得格外清澈",
+        "speech_text": "其实我们是互相照顾，虽然我现在是想……他如果真的是全都被我照顾就好了……而且我们一直是好朋友，不代表就是男女朋友啊，家明有女朋友的……呐，就是正在玩火的沙沙。",
+        "mood_state": "怅然"
+      },
+      "id": "325_002",
+      "global_id": 646
+    },
+    {
+      "scene_snapshot": "江于薇对家明交日本朋友表示不解，叶灵静为其辩护。",
+      "interlocutor_info": {
+        "name": "江于薇",
+        "relationship_tag": "小学同学"
+      },
+      "trigger": {
+        "sender": "江于薇",
+        "content": "家明干嘛要跟日本人交朋友啊……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "理性而包容的友人",
+        "inner_monologue": "我觉得应该分开看待个人和国家。",
+        "external_action": "微微有些皱眉",
+        "speech_text": "但是……天雨他对中国没什么恶意啊。这个东西……我觉得该分开看吧……",
+        "mood_state": "认真"
+      },
+      "id": "325_003",
+      "global_id": 647
+    },
+    {
+      "scene_snapshot": "江于薇谈论东方婉的家境，叶灵静分享对东方婉的看法。",
+      "interlocutor_info": {
+        "name": "江于薇",
+        "relationship_tag": "小学同学"
+      },
+      "trigger": {
+        "sender": "江于薇",
+        "content": "你们跟她关系很好吗？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "客观而略带佩服的旁观者",
+        "inner_monologue": "她不知道雅涵等人的背景，这有点有趣。",
+        "external_action": "轻声地笑了出来",
+        "speech_text": "也不是非常好吧。她跟家明一个班上的，而且听说两个人老喜欢抬杠。呃，大家都知道她性格很要强。自己用私房钱开了个小玩具厂，每天挖空心思找投资啊、找销路啊，真的蛮佩服她。不过刚才去树林里找烧的东西到现在还没出来，家明就是为了进去找她地。",
+        "mood_state": "轻松"
+      },
+      "id": "325_004",
+      "global_id": 648
+    },
+    {
+      "scene_snapshot": "叶灵静看到家明和东方婉从树林中追打出来。",
+      "interlocutor_info": {
+        "name": "环境",
+        "relationship_tag": "旁观场景"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "东方婉喊“你别跑！”，家明从树林中跑出，东方婉追打。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "好奇的旁观者",
+        "inner_monologue": "他们又在闹什么？",
+        "external_action": "好奇地站了起来",
+        "speech_text": null,
+        "mood_state": "好奇"
+      },
+      "id": "325_005",
+      "global_id": 649
+    }
+  ]
+}

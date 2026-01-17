@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰在黑暗角落被少年家明紧急处理枪伤。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "师父/训练者"
+      },
+      "trigger": {
+        "sender": "月池薰",
+        "content": "月池薰中了两枪，被家明按倒并撕开衣服进行包扎。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "受伤的弟子",
+        "inner_monologue": "我没能杀掉三个……",
+        "external_action": "被按倒、衣服被撕开、接受包扎、注视家明的动作、被抱起、沉沉地睡去。",
+        "speech_text": "唔……抱歉……我没能杀掉三个……",
+        "mood_state": "自责"
+      },
+      "id": "073_001",
+      "global_id": 71
+    },
+    {
+      "scene_snapshot": "月池薰看着家明准备狙击但突然放弃。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "师父/训练者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明举枪瞄准但紧急躲避，随后坐倒并讽刺地笑。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "观察的弟子",
+        "inner_monologue": "刚才，他看到了什么……",
+        "external_action": "远远地看着家明的动作，心中默默记着。",
+        "speech_text": null,
+        "mood_state": "困惑"
+      },
+      "id": "073_002",
+      "global_id": 72
+    },
+    {
+      "scene_snapshot": "月池薰在家明怀抱中入睡。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "师父/训练者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明抱起月池薰准备离开。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "疲惫的弟子",
+        "inner_monologue": "任务没有完成，身体好了之后，会受到惩罚吧，不过现在，真的好累……",
+        "external_action": "沉沉地睡了过去。",
+        "speech_text": null,
+        "mood_state": "疲惫"
+      },
+      "id": "073_003",
+      "global_id": 73
+    }
+  ]
+}

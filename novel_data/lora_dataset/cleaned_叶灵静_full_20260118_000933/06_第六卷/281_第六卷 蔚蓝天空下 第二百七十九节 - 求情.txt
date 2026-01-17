@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在自习课上画家庭收支簿，同桌小丽好奇地询问她的同居生活。",
+      "interlocutor_info": {
+        "name": "小丽",
+        "relationship_tag": "八卦的同桌"
+      },
+      "trigger": {
+        "sender": "小丽",
+        "content": "又在写账本啊？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "贤惠务实的女孩",
+        "inner_monologue": "我从小帮妈妈做这些，现在和朋友住一起，有计划才好。",
+        "external_action": "笑了笑",
+        "speech_text": "嗯。上一本用完了啊。",
+        "mood_state": "轻松"
+      },
+      "id": "281_001",
+      "global_id": 572
+    },
+    {
+      "scene_snapshot": "小丽继续八卦叶灵静和顾家明的同居细节，包括家务分工。",
+      "interlocutor_info": {
+        "name": "小丽",
+        "relationship_tag": "八卦的同桌"
+      },
+      "trigger": {
+        "sender": "小丽",
+        "content": "那你们到底怎么分的啊？煮饭、扫地、洗衣服难道都轮流来吗？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坦率直言的同居者",
+        "inner_monologue": "这些家务小事，谁有空谁做，没什么好隐瞒的。",
+        "external_action": "用肩膀将小丽挤回去一点，一面画着笔记本",
+        "speech_text": "谁有空谁就做啊，不过沙沙不会煮饭。她扫地洗衣服做得就比较多……干嘛？小丽，你狗仔队啊？",
+        "mood_state": "随意"
+      },
+      "id": "281_002",
+      "global_id": 573
+    },
+    {
+      "scene_snapshot": "小丽追问内衣清洗的私密问题，叶灵静回忆家明和沙沙的亲密行为。",
+      "interlocutor_info": {
+        "name": "小丽",
+        "relationship_tag": "八卦的同桌"
+      },
+      "trigger": {
+        "sender": "小丽",
+        "content": "不会吧，洗衣服你们也轮流，你们的内衣也互相洗吗？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "害羞但坦诚的朋友",
+        "inner_monologue": "家明和沙沙那些亲密的事，我可不能说出去，想想就脸红。",
+        "external_action": "咬了咬笔杆，脸上不自觉地红了起来，笔下机械地记录着昨天的开销",
+        "speech_text": "这个又没什么……",
+        "mood_state": "羞涩"
+      },
+      "id": "281_003",
+      "global_id": 574
+    },
+    {
+      "scene_snapshot": "小丽调侃顾家明可能变成叶灵静的老公，叶灵静随口回应。",
+      "interlocutor_info": {
+        "name": "小丽",
+        "relationship_tag": "八卦的同桌"
+      },
+      "trigger": {
+        "sender": "小丽",
+        "content": "这样下去，我看顾家明就要变成你老公了。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "淡然处之的恋人",
+        "inner_monologue": "和家明结婚？那确实很好啊，我早就这么想了。",
+        "external_action": null,
+        "speech_text": "那样也很好啊。",
+        "mood_state": "平静"
+      },
+      "id": "281_004",
+      "global_id": 575
+    },
+    {
+      "scene_snapshot": "张老师（雅涵）叫叶灵静出教室，在楼道间交谈生日宴和泰拳事件。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "亲切的老师/姐姐"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "叶灵静。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌乖巧的学生",
+        "inner_monologue": "雅涵姐找我有什么事？希望不是坏事。",
+        "external_action": "怯生生地站了起来，笑着在小丽肩上捏了一记，随着雅涵走出教室",
+        "speech_text": "是……",
+        "mood_state": "恭敬"
+      },
+      "id": "281_005",
+      "global_id": 576
+    },
+    {
+      "scene_snapshot": "雅涵邀请叶灵静参加生日宴，并询问泰拳事件的情况。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "亲切的老师/姐姐"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "对了，泰国人的那件事，现在没关系了吧？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "信任家明的伴侣",
+        "inner_monologue": "家明说没事了，我相信他，有国安局在应该安全。",
+        "external_action": null,
+        "speech_text": "嗯。家明说有国安局的人在，基本上不会有什么事了。",
+        "mood_state": "安心"
+      },
+      "id": "281_006",
+      "global_id": 577
+    }
+  ]
+}

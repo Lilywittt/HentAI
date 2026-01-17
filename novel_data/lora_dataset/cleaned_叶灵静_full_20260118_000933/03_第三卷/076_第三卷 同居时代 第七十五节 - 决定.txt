@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静下班后与家明在餐厅后巷会面，分享工作奖励。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "等很久了吗？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "活泼可爱的女友",
+        "inner_monologue": "我刚才收到张经理的奖励，好想跟家明分享这个有趣的事情。",
+        "external_action": "背着小包从后巷出来，坐到自行车后座上",
+        "speech_text": "等很久了吗？",
+        "mood_state": "开心"
+      },
+      "id": "076_001",
+      "global_id": 205
+    },
+    {
+      "scene_snapshot": "叶灵静向家明解释张经理送船票的奖励，并讨论潜在意图。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "今天怎么这么晚才出来。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "俏皮自信的女孩",
+        "inner_monologue": "家明肯定在担心我，我得赶紧告诉他奖励的事，免得他胡思乱想。",
+        "external_action": "笑了起来",
+        "speech_text": "刚才好有意思哦，张经理说是发给我最近这段时间工作出色的奖励，你猜猜是什么。",
+        "mood_state": "兴奋"
+      },
+      "id": "076_002",
+      "global_id": 206
+    },
+    {
+      "scene_snapshot": "叶灵静回应家明对张经理意图的猜测，表达自己的立场。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "那个张经理难道想追你？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "忠诚体贴的女友",
+        "inner_monologue": "家明吃醋了，我得安抚他，表明我的心意。",
+        "external_action": "笑了笑",
+        "speech_text": "哪有啊，别胡说了。",
+        "mood_state": "安抚"
+      },
+      "id": "076_003",
+      "global_id": 207
+    },
+    {
+      "scene_snapshot": "叶灵静进一步分析张经理的背景，并考虑辞职以避嫌。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "不过就算工作再出色，也不至于送船票吧。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "理性果断的女孩",
+        "inner_monologue": "如果张经理真有不良意图，我宁愿辞职也不让家明担心。",
+        "external_action": "可爱地一笑，回过头望向餐厅方向微微皱了皱眉",
+        "speech_text": "吃醋了？",
+        "mood_state": "关切"
+      },
+      "id": "076_004",
+      "global_id": 208
+    },
+    {
+      "scene_snapshot": "叶灵静明确表态对家明的忠诚，并提出辞职的可能性。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "有人觊觎我家灵静的美色，我吃醋不是很正常吗？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坚定忠诚的女友",
+        "inner_monologue": "我必须让家明放心，我不会做任何对不起他的事。",
+        "external_action": null,
+        "speech_text": "好啦好啦，我知道的啦，我可不是会红杏出墙的女孩子。而且人家可是大家族的公子，听说老爸的事业很大，他是刚出学校，所以跑来这个餐厅随便玩玩而已，书上说这种人喜欢成熟性感的大胸脯，看不上我这样的清粥小菜的啦。要是他真的是这样，我就辞职好了，嗯？",
+        "mood_state": "坚定"
+      },
+      "id": "076_005",
+      "global_id": 209
+    }
+  ]
+}

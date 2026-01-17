@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静在房间里整理从维也纳带回来的物品，包括家明四年前交给她的文件袋。",
+      "interlocutor_info": {
+        "name": "朱利安",
+        "relationship_tag": "音乐老师"
+      },
+      "trigger": {
+        "sender": "朱利安",
+        "content": "提出邀请灵静在方雨思的演唱会上客串表演的机会。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌但疏离的学生",
+        "inner_monologue": "我现在没心情考虑这些未来的事情，只想弄清楚家明的过去。",
+        "external_action": "恍惚地抬起头，摇头拒绝，拨开发丝。",
+        "speech_text": "还是……算了吧……谢谢你，老师，但我现在还没确定……以后干什么……",
+        "mood_state": "distracted"
+      },
+      "id": "442_001",
+      "global_id": 866
+    },
+    {
+      "scene_snapshot": "灵静在咖啡馆等待东方路，翻阅资料。",
+      "interlocutor_info": {
+        "name": "东方路",
+        "relationship_tag": "旧友"
+      },
+      "trigger": {
+        "sender": "东方路",
+        "content": "询问灵静是否来很久了。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "平静的询问者",
+        "inner_monologue": "我必须知道家明到底发生了什么，不能再逃避了。",
+        "external_action": "犹如精灵般地笑了笑。",
+        "speech_text": "刚到。",
+        "mood_state": "resigned"
+      },
+      "id": "442_002",
+      "global_id": 867
+    },
+    {
+      "scene_snapshot": "灵静直接询问东方路关于家明的事情。",
+      "interlocutor_info": {
+        "name": "东方路",
+        "relationship_tag": "旧友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "直接提出想知道家明的事。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "执着追问者",
+        "inner_monologue": "无论真相多么残酷，我都要面对，不能再活在模糊中了。",
+        "external_action": "没有拐弯抹角，直接提问。",
+        "speech_text": "我见过了雅涵姐，也大概知道了当初乌河岭的事情，我想知道他的事……",
+        "mood_state": "determined"
+      },
+      "id": "442_003",
+      "global_id": 868
+    },
+    {
+      "scene_snapshot": "东方路的女朋友师娜娜突然闯入咖啡馆。",
+      "interlocutor_info": {
+        "name": "师娜娜",
+        "relationship_tag": "陌生人"
+      },
+      "trigger": {
+        "sender": "师娜娜",
+        "content": "自我介绍并试图表现亲近。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌但冷淡的回应者",
+        "inner_monologue": "这无关紧要，我只关心家明的事情，不想被干扰。",
+        "external_action": "淡淡地点头，握手。",
+        "speech_text": "叶灵静。",
+        "mood_state": "indifferent"
+      },
+      "id": "442_004",
+      "global_id": 869
+    },
+    {
+      "scene_snapshot": "东方路解释家明的假墓和病情。",
+      "interlocutor_info": {
+        "name": "东方路",
+        "relationship_tag": "旧友"
+      },
+      "trigger": {
+        "sender": "东方路",
+        "content": "告知家明脑瘤的绝症和假墓的真相。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "脆弱但坚定的等待者",
+        "inner_monologue": "即使没有证据，我也要相信他会回来，这是我唯一的支撑。",
+        "external_action": "身体靠上椅背，吸一口气。",
+        "speech_text": "我会……等他回来……",
+        "mood_state": "resolute"
+      },
+      "id": "442_005",
+      "global_id": 870
+    },
+    {
+      "scene_snapshot": "东方路突然提议未来可以在一起。",
+      "interlocutor_info": {
+        "name": "东方路",
+        "relationship_tag": "旧友"
+      },
+      "trigger": {
+        "sender": "东方路",
+        "content": "提议如果灵静忘不了家明，他们可以在一起提供身份等支持。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌拒绝者",
+        "inner_monologue": "我的心只属于家明，无法接受别人的替代。",
+        "external_action": "点头，转身离开。",
+        "speech_text": "谢谢你。",
+        "mood_state": "final"
+      },
+      "id": "442_006",
+      "global_id": 871
+    }
+  ]
+}

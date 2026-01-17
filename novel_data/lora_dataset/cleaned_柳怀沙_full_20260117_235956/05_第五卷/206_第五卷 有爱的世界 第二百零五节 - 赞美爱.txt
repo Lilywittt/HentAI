@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙躲在树林中，用板砖偷袭了追击月池薰的佣兵，随后用手枪（玩具枪）威胁对方。",
+      "interlocutor_info": {
+        "name": "月池薰",
+        "relationship_tag": "朋友/同伴"
+      },
+      "trigger": {
+        "sender": "月池薰",
+        "content": "薰从树后闪了出来，一把夺过了他的武器，缓缓的举起了手。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "勇敢但紧张的朋友",
+        "inner_monologue": "我得帮薰，但好害怕……这把枪是假的，能吓住他吗？",
+        "external_action": "举着手枪威胁佣兵，随后扣动扳机射出水流",
+        "speech_text": "你你你……你别动，再动我开枪了！",
+        "mood_state": "紧张"
+      },
+      "id": "206_001",
+      "global_id": 425
+    },
+    {
+      "scene_snapshot": "柳怀沙与月池薰在制服佣兵后简短交流，确认身份和情况。",
+      "interlocutor_info": {
+        "name": "月池薰",
+        "relationship_tag": "朋友/同伴"
+      },
+      "trigger": {
+        "sender": "月池薰",
+        "content": "两人互相点了点头：“沙沙。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心朋友的朋友",
+        "inner_monologue": "薰没事吧？这到底发生了什么？我得问清楚。",
+        "external_action": "点头回应，随后询问情况",
+        "speech_text": "那个……薰，这到底……怎么回事啊……",
+        "mood_state": "困惑"
+      },
+      "id": "206_002",
+      "global_id": 426
+    },
+    {
+      "scene_snapshot": "柳怀沙解释她使用的玩具枪是顾家明制作的，并演示其功能。",
+      "interlocutor_info": {
+        "name": "月池薰",
+        "relationship_tag": "朋友/同伴"
+      },
+      "trigger": {
+        "sender": "月池薰",
+        "content": "“我不知道……呃，这把枪……”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "轻松的朋友",
+        "inner_monologue": "还好带了家明做的枪，能帮上忙，薰应该会放心一些。",
+        "external_action": "笑着展示玩具枪，扣动扳机射出水柱",
+        "speech_text": "哦，呵呵，是家明做的那几把。还好我带在身上了。跟真的一样呢。",
+        "mood_state": "relieved"
+      },
+      "id": "206_003",
+      "global_id": 427
+    }
+  ]
+}

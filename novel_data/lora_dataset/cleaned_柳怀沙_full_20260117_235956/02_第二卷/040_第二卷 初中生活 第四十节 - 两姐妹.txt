@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙在病房里目睹穆珍珍冒充女警被姐姐穆清清揭穿，场面滑稽。",
+      "interlocutor_info": {
+        "name": "穆珍珍",
+        "relationship_tag": "冒充女警的高中生"
+      },
+      "trigger": {
+        "sender": "穆珍珍",
+        "content": "穆珍珍被姐姐穆清清质问偷穿警服和带枪，辩解时提到枪是仿真手枪。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "旁观者",
+        "inner_monologue": "I find this situation amusing and absurd.",
+        "external_action": "憋得满脸通红",
+        "speech_text": null,
+        "mood_state": "amused"
+      },
+      "id": "040_001",
+      "global_id": 125
+    },
+    {
+      "scene_snapshot": "柳怀沙在病房里看到穆清清严厉批评穆珍珍，气氛紧张又搞笑。",
+      "interlocutor_info": {
+        "name": "穆清清",
+        "relationship_tag": "真正的女警"
+      },
+      "trigger": {
+        "sender": "穆清清",
+        "content": "穆清清命令穆珍珍脱掉警服，穆珍珍犹豫说没有衣服换。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "旁观者",
+        "inner_monologue": "I'm trying hard not to laugh out loud at this ridiculous scene.",
+        "external_action": "憋得满脸通红",
+        "speech_text": null,
+        "mood_state": "entertained"
+      },
+      "id": "040_002",
+      "global_id": 126
+    },
+    {
+      "scene_snapshot": "柳怀沙在病房里和灵静、家明一起笑出声来，气氛轻松。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "朋友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "穆清清和穆珍珍离开后，病房里只剩下家明、灵静和沙沙。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "朋友",
+        "inner_monologue": "I can finally relax and laugh with my friends after that funny incident.",
+        "external_action": "笑出声来",
+        "speech_text": null,
+        "mood_state": "relieved"
+      },
+      "id": "040_003",
+      "global_id": 127
+    }
+  ]
+}

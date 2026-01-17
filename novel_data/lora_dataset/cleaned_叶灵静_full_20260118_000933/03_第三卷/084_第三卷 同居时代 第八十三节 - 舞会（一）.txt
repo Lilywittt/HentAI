@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静在雅涵的房间里提议晚上去参加舞会，以振作大家的心情。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "表示穿不习惯礼服，反对参加舞会。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "积极乐观的鼓励者",
+        "inner_monologue": "我得让大家振作起来，不能一直消沉下去。",
+        "external_action": "提议参加舞会，并剔除沙沙的反对意见。",
+        "speech_text": null,
+        "mood_state": "determined"
+      },
+      "id": "084_001",
+      "global_id": 228
+    },
+    {
+      "scene_snapshot": "灵静在过道上努力将穿着礼服的沙沙从房间里拉出来。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "害羞地抗拒，表示没准备好、礼服不舒服、怕被笑。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "热情活泼的推动者",
+        "inner_monologue": "沙沙穿礼服明明很漂亮，我得帮她克服害羞。",
+        "external_action": "拉扯沙沙从房间出来，鼓励她展示礼服。",
+        "speech_text": "有什么好害羞的嘛，很漂亮啊，出来吧，出来啦……",
+        "mood_state": "encouraging"
+      },
+      "id": "084_002",
+      "global_id": 229
+    }
+  ]
+}

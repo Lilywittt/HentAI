@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明和薰在排球场边测试遥控直升机，家明向薰传授机械知识和杀手技能。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "导师/主人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明在测试遥控直升机时，向薰讲解机械原理和杀手技能，并布置学习任务。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "专注的学生",
+        "inner_monologue": "我必须尽快掌握这些知识，时间很宝贵，不能辜负家明的期望。",
+        "external_action": "点头离开，去图书馆寻找相关知识。",
+        "speech_text": null,
+        "mood_state": "专注"
+      },
+      "id": "168_001",
+      "global_id": 137
+    }
+  ]
+}

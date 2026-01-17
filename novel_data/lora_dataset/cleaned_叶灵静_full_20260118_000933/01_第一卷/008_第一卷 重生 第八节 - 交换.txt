@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明提出用自己交换被匪徒挟持的灵静和张雅涵，声称灵静是他的女朋友。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/暗恋对象"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明指着灵静，脸红着说她是我的女朋友，并提出交换人质。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "感动而担忧的少女",
+        "inner_monologue": "家明说我是他的女朋友，这让我心跳加速，但我不想让他冒险。",
+        "external_action": "双眼仿佛发出光芒，随后哽咽。",
+        "speech_text": "家明你不要来……",
+        "mood_state": "感动"
+      },
+      "id": "008_001",
+      "global_id": 39
+    },
+    {
+      "scene_snapshot": "家明走到近处，拉住灵静的手安慰她。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/暗恋对象"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明拉住灵静的手，轻声说没事的。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "信任而坚强的女孩",
+        "inner_monologue": "家明让我放心，我相信他，我不应该害怕。",
+        "external_action": "含泪点头。",
+        "speech_text": "我不怕……",
+        "mood_state": "坚定"
+      },
+      "id": "008_002",
+      "global_id": 40
+    },
+    {
+      "scene_snapshot": "五人在山林中行进，灵静被家明牵着手，内心混乱而甜蜜。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/暗恋对象"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "被匪徒劫持在山林中行进，家明牵着灵静的手。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "情窦初开的少女",
+        "inner_monologue": "想起家明说我是他的女朋友，我感到小手和脸颊滚烫，有他在身边我就不怕了。",
+        "external_action": "被家明牵着手走。",
+        "speech_text": null,
+        "mood_state": "甜蜜"
+      },
+      "id": "008_003",
+      "global_id": 41
+    }
+  ]
+}

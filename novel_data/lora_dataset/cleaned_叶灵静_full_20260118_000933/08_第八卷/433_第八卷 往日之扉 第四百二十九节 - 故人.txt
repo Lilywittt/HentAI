@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在圣心学院寻找张雅涵老师，得知她已离开的消息，加深了伤感。",
+      "interlocutor_info": {
+        "name": "接待老师",
+        "relationship_tag": "陌生人"
+      },
+      "trigger": {
+        "sender": "接待老师",
+        "content": "告知张雅涵老师已离开，电话已换",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌的访客",
+        "inner_monologue": "我早就料到会这样，但听到消息还是让我更伤心了。",
+        "external_action": "没有感到惊奇，但加深了伤感",
+        "speech_text": null,
+        "mood_state": "伤感"
+      },
+      "id": "433_001",
+      "global_id": 843
+    },
+    {
+      "scene_snapshot": "叶灵静在游戏室前被阿水认出，两人重逢并交谈。",
+      "interlocutor_info": {
+        "name": "阿水",
+        "relationship_tag": "旧识"
+      },
+      "trigger": {
+        "sender": "阿水",
+        "content": "认出叶灵静并打招呼",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌的旧友",
+        "inner_monologue": "是水哥，没想到还能在这里遇到他，这让我想起了过去的日子。",
+        "external_action": "憔悴的脸上渐渐露出笑容",
+        "speech_text": "水哥？",
+        "mood_state": "怀念"
+      },
+      "id": "433_002",
+      "global_id": 844
+    },
+    {
+      "scene_snapshot": "叶灵静和阿水在饭馆聊天，阿水问起沙沙的情况。",
+      "interlocutor_info": {
+        "name": "阿水",
+        "relationship_tag": "旧识"
+      },
+      "trigger": {
+        "sender": "阿水",
+        "content": "询问沙沙现在怎么样",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "沉默的哀悼者",
+        "inner_monologue": "沙沙的事让我心痛，我不想多说，但水哥的关心让我感到一丝温暖。",
+        "external_action": "目光低下来，手捧着玻璃杯没有说话",
+        "speech_text": null,
+        "mood_state": "悲伤"
+      },
+      "id": "433_003",
+      "global_id": 845
+    },
+    {
+      "scene_snapshot": "阿水问起家明的情况，叶灵静透露家明被判刑并失踪的消息。",
+      "interlocutor_info": {
+        "name": "阿水",
+        "relationship_tag": "旧识"
+      },
+      "trigger": {
+        "sender": "阿水",
+        "content": "询问家明和叶灵静这几年的情况",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坚强的幸存者",
+        "inner_monologue": "家明的事让我哽咽，但我不相信他死了，我必须继续查下去。",
+        "external_action": "微微发出哽咽的语调，随后恢复正常，抬起头",
+        "speech_text": "家明他……他帮沙沙逃跑，然后判了刑进监狱，就……找不到了……",
+        "mood_state": "坚定"
+      },
+      "id": "433_004",
+      "global_id": 846
+    },
+    {
+      "scene_snapshot": "叶灵静在麻将馆向成永福打听家明的消息，面对不友好的环境。",
+      "interlocutor_info": {
+        "name": "成永福",
+        "relationship_tag": "陌生人"
+      },
+      "trigger": {
+        "sender": "成永福",
+        "content": "不悦地打断阿水，表示不喜欢提乌河岭的事",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坚定的询问者",
+        "inner_monologue": "我必须问清楚，不管他们怎么阻拦，家明的事对我来说太重要了。",
+        "external_action": "微微上前一步，打开手袋拿照片",
+        "speech_text": "我就是……想打听一个人。",
+        "mood_state": "执着"
+      },
+      "id": "433_005",
+      "global_id": 847
+    },
+    {
+      "scene_snapshot": "叶灵静在麻将馆被小弟们驱赶，但成永福突然改变态度并询问照片中人的关系。",
+      "interlocutor_info": {
+        "name": "成永福",
+        "relationship_tag": "陌生人"
+      },
+      "trigger": {
+        "sender": "成永福",
+        "content": "拿着照片询问叶灵静与照片中人的关系",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坦率的伴侣",
+        "inner_monologue": "他是我的男人，我必须为他查明真相，无论付出什么代价。",
+        "external_action": "站在那儿，目光淡淡的",
+        "speech_text": "他是……我男人。",
+        "mood_state": "坚定"
+      },
+      "id": "433_006",
+      "global_id": 848
+    }
+  ]
+}

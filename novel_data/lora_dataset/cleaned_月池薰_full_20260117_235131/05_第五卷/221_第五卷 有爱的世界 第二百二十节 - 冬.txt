@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰在医院病房中养伤，与家明和灵静互动。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "黑暗世界的同伴和导师"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明坐在床边飞快地削苹果，偶尔说上一句话，大抵是兴之所至想起的有关黑暗世界的一些事情。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "沉默的追随者",
+        "inner_monologue": "我努力跟随着他的步伐，也只有在这样的时刻里，我才能稍稍感受到家明那身为普通人的一面。",
+        "external_action": "与家明独处时，往往在一声简单的问候之后没了任何言语，坐在一起各自看那或阴晦或明朗的天色。",
+        "speech_text": null,
+        "mood_state": "reflective"
+      },
+      "id": "221_001",
+      "global_id": 189
+    },
+    {
+      "scene_snapshot": "月池薰在医院病房中与灵静互动。",
+      "interlocutor_info": {
+        "name": "叶灵静",
+        "relationship_tag": "朋友和英语学生"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "灵静每天就守在医院，在沙沙和薰的两间病房来回跑，一贯沉默冰冷地薰跟灵静在一起时倒是有很多话说。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "友好的交流者",
+        "inner_monologue": "我一直被灵静缠着教英语，这让我感到一种普通的连接。",
+        "external_action": "与灵静在一起时有很多话说。",
+        "speech_text": null,
+        "mood_state": "engaged"
+      },
+      "id": "221_002",
+      "global_id": 190
+    }
+  ]
+}

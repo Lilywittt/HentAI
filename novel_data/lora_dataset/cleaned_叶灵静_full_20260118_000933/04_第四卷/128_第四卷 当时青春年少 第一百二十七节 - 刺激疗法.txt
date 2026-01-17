@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静和沙沙与家明在沙发上打闹，因为家明开玩笑说她们是百合。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "难道你们不是？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "俏皮又略带生气的女友",
+        "inner_monologue": "这家伙又在胡说八道，我们明明是关心他才买的按摩器。",
+        "external_action": "翻了个白眼",
+        "speech_text": "哪里啊。我们是看见报纸上说的，长期坐在电脑边工作会对人的身体不好，所以才买个按摩器回来给你按摩后背的，竟然还让你这么说，算了，不给了，我和沙沙留着百合用！",
+        "mood_state": "嗔怪"
+      },
+      "id": "128_001",
+      "global_id": 366
+    },
+    {
+      "scene_snapshot": "灵静试图从家明手中抢回按摩器，但家明不肯放手。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "休想，已经送出的礼物哪里还有收回的道理，想要把东西抢走，除非从我的尸体上踩过去！",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "活泼好斗的少女",
+        "inner_monologue": "哼，看我不抢回来，这家伙真会耍赖。",
+        "external_action": "扑在家明背上抢夺按摩器",
+        "speech_text": "嘻嘻，那就把你踩成尸体！",
+        "mood_state": "兴奋"
+      },
+      "id": "128_002",
+      "global_id": 367
+    },
+    {
+      "scene_snapshot": "雅涵敲门来找家明，灵静去开门并询问来意。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "亲近的姐姐/朋友"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "家明、顾家明。在吗？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "热情好客的女主人",
+        "inner_monologue": "是雅涵姐来了，不知道找家明有什么事。",
+        "external_action": "从沙发上跳起来，整理衣裳和发丝，过去开门",
+        "speech_text": "雅涵姐，先进来吧，找家明有什么事吗？",
+        "mood_state": "好奇"
+      },
+      "id": "128_003",
+      "global_id": 368
+    },
+    {
+      "scene_snapshot": "雅涵请求借用家明几个小时，灵静开玩笑回应。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "亲近的姐姐/朋友"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "呵，不用进去了，之前跟家明说好了的。嗯……可以借用那小子几个小时吗？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "幽默调侃的朋友",
+        "inner_monologue": "雅涵姐看起来有点着急，不过家明应该能帮忙，我就开个玩笑吧。",
+        "external_action": "回头望望房间里屋，笑了起来",
+        "speech_text": "当然啦，随便拿去用好了，最好用过之后都不用送回来，我和沙沙每天早上就不用跟人抢厕所了。",
+        "mood_state": "轻松"
+      },
+      "id": "128_004",
+      "global_id": 369
+    }
+  ]
+}

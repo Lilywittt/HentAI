@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静、家明和沙沙在书店结账时，收银员提供答题活动以获取赠书和优惠卡。",
+      "interlocutor_info": {
+        "name": "收银员",
+        "relationship_tag": "陌生人"
+      },
+      "trigger": {
+        "sender": "收银员",
+        "content": "提供答题活动，询问是否参与。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "积极参与者",
+        "inner_monologue": "我想占这个便宜，和家明、沙沙一起答题应该很有趣。",
+        "external_action": "决定参与答题，并分配每人回答一个问题。",
+        "speech_text": "商量一下，灵静决定好三个人每人回答一个，也算是一家人同心协力的成果。",
+        "mood_state": "兴奋"
+      },
+      "id": "182_001",
+      "global_id": 480
+    },
+    {
+      "scene_snapshot": "收银员提出第二道文学题，灵静回答正确后提醒家明轮到答题。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "收银员",
+        "content": "提问茅盾的农村三部曲是什么。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "知识渊博者",
+        "inner_monologue": "这道题我知道答案，家明别只顾着吃冰激凌了。",
+        "external_action": "望了一眼家明，随后笑道。",
+        "speech_text": "是《春蚕》、《秋收》、《残冬》吧，家明别吃了，轮到你了哦。",
+        "mood_state": "轻松"
+      },
+      "id": "182_002",
+      "global_id": 481
+    },
+    {
+      "scene_snapshot": "家明在答题时给出滑稽答案，灵静和沙沙爆笑，随后在海边大堤上灵静吃冷饮。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "回答第三题时给出幽默答案“斩草不除根”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "开心伙伴",
+        "inner_monologue": "家明总是这么搞笑，虽然答案不对但很有趣。",
+        "external_action": "爆笑过后的红潮还未褪去，吃着冷饮。",
+        "speech_text": null,
+        "mood_state": "愉悦"
+      },
+      "id": "182_003",
+      "global_id": 482
+    },
+    {
+      "scene_snapshot": "沙沙追杀家明时，灵静笑着劝阻，担心家明弄脏衣服影响约会。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "恶狠狠地追杀家明，喊着“叫你斩草不除根”。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "调解者",
+        "inner_monologue": "沙沙别闹了，家明还得去见东方路呢。",
+        "external_action": "笑道。",
+        "speech_text": "好啦好啦，你把他身上打得脏兮兮的他怎么出去见人啊。",
+        "mood_state": "关切"
+      },
+      "id": "182_004",
+      "global_id": 483
+    },
+    {
+      "scene_snapshot": "沙沙调侃灵静心疼家明，灵静脸红否认，并询问家明东方路找他的原因。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "暧昧地笑道“有人心疼了？”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "害羞否认者",
+        "inner_monologue": "沙沙又在开玩笑了，我有点不好意思。",
+        "external_action": "脸上一红。",
+        "speech_text": "哪有！不过，东方路到底干嘛要找你啊，你们在学校又没什么交情……",
+        "mood_state": "羞涩"
+      },
+      "id": "182_005",
+      "global_id": 484
+    },
+    {
+      "scene_snapshot": "沙沙猜测东方路可能为了灵静找家明，警告家明不要出卖灵静。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "嫌恶地皱鼻子，警告家明不要出卖灵静。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "尴尬旁观者",
+        "inner_monologue": "沙沙说得太直白了，这让我有点尴尬。",
+        "external_action": null,
+        "speech_text": "沙沙你说什么呢……",
+        "mood_state": "尴尬"
+      },
+      "id": "182_006",
+      "global_id": 485
+    }
+  ]
+}

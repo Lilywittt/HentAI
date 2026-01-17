@@ -1,0 +1,175 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在黑暗的林间脱下外衣给东方婉穿上，帮助她躲避搜索。",
+      "interlocutor_info": {
+        "name": "东方婉",
+        "relationship_tag": "需要帮助的同伴"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "东方婉因身上沾满鲜血而脱掉衣服，感到寒冷。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "体贴的照顾者",
+        "inner_monologue": "我得帮她保暖，不能让她冻着。",
+        "external_action": "脱下外衣给东方婉穿上。",
+        "speech_text": null,
+        "mood_state": "关切"
+      },
+      "id": "099_001",
+      "global_id": 304
+    },
+    {
+      "scene_snapshot": "叶灵静在山石间为东方路包扎手上的枪伤。",
+      "interlocutor_info": {
+        "name": "东方路",
+        "relationship_tag": "受伤的同伴"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "东方路手上被子弹射穿，需要处理伤口。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "细心的救助者",
+        "inner_monologue": "我得赶紧帮他止血包扎，不能让他感染。",
+        "external_action": "从口袋里拿出绷带为东方路包扎伤口。",
+        "speech_text": null,
+        "mood_state": "专注"
+      },
+      "id": "099_002",
+      "global_id": 305
+    },
+    {
+      "scene_snapshot": "叶灵静在躲避时因寒冷而发抖，直到枪声消失。",
+      "interlocutor_info": {
+        "name": "环境",
+        "relationship_tag": "威胁性的环境"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "枪声和寒冷的环境持续威胁着安全。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "坚韧的幸存者",
+        "inner_monologue": "好冷，但必须坚持住，等安全了再说。",
+        "external_action": "抱着身子缩起来发抖。",
+        "speech_text": null,
+        "mood_state": "紧张"
+      },
+      "id": "099_003",
+      "global_id": 306
+    },
+    {
+      "scene_snapshot": "叶灵静带领众人来到山脚下的藏身处，与顾家明重逢。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的同伴"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "顾家明从藏身处出来，轻声询问叶灵静是否没事。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "可靠的向导",
+        "inner_monologue": "家明没事就好，我们终于安全了。",
+        "external_action": "带领众人到达藏身处。",
+        "speech_text": null,
+        "mood_state": "欣慰"
+      },
+      "id": "099_004",
+      "global_id": 307
+    },
+    {
+      "scene_snapshot": "叶灵静与顾家明编造谎言解释郁金香先生的事情。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "合作撒谎的同伴"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "东方兄妹和付胖子怀疑顾家明的身份和行动。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "机智的掩护者",
+        "inner_monologue": "得帮家明圆谎，不能让他们发现真相。",
+        "external_action": "与顾家明一起编造谎言。",
+        "speech_text": null,
+        "mood_state": "谨慎"
+      },
+      "id": "099_005",
+      "global_id": 308
+    },
+    {
+      "scene_snapshot": "叶灵静在东方婉嘲讽顾家明时脸色变冷，表达不满。",
+      "interlocutor_info": {
+        "name": "东方婉",
+        "relationship_tag": "不友善的同伴"
+      },
+      "trigger": {
+        "sender": "东方婉",
+        "content": "东方婉讽刺顾家明可能只能当牙医。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "护短的捍卫者",
+        "inner_monologue": "她怎么能这样嘲笑家明？我讨厌这种语气。",
+        "external_action": "脸色冷了下来。",
+        "speech_text": "我妈可不是牙医……不过就算是牙医，也没什么不好的。",
+        "mood_state": "不悦"
+      },
+      "id": "099_006",
+      "global_id": 309
+    },
+    {
+      "scene_snapshot": "叶灵静在深夜为顾家明包扎肩上的枪伤，流着眼泪。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "受伤的亲密同伴"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "顾家明肩上有未愈的枪伤，需要处理。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "心疼的照顾者",
+        "inner_monologue": "家明一定很痛，我得小心帮他处理伤口。",
+        "external_action": "用绷带包扎顾家明的伤口，流着眼泪。",
+        "speech_text": "没什么，前几天家明受了伤，现在还没有好呢。",
+        "mood_state": "心疼"
+      },
+      "id": "099_007",
+      "global_id": 310
+    },
+    {
+      "scene_snapshot": "叶灵静回答东方婉关于郁金香先生的疑问，安抚她。",
+      "interlocutor_info": {
+        "name": "东方婉",
+        "relationship_tag": "担忧的同伴"
+      },
+      "trigger": {
+        "sender": "东方婉",
+        "content": "东方婉询问郁金香先生如何躲雨和应对风暴。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "安抚的安慰者",
+        "inner_monologue": "她担心郁金香，我得让她放心，家明会有办法的。",
+        "external_action": "轻柔一笑，擦眼泪。",
+        "speech_text": "不知道，他不喜欢跟我们在一起，但是他一定会有办法的，放心吧。",
+        "mood_state": "安抚"
+      },
+      "id": "099_008",
+      "global_id": 311
+    }
+  ]
+}

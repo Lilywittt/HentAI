@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰在诊所关门后，被追求者唐先生纠缠，灵静帮忙解围，但家明和儿子允杰的恶作剧搅局。",
+      "interlocutor_info": {
+        "name": "唐先生",
+        "relationship_tag": "烦人的追求者"
+      },
+      "trigger": {
+        "sender": "唐先生",
+        "content": "唐先生向灵静表达对薰的诚恳追求，强调自己的物质条件和诚意，希望得到机会。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌而疏离的护士",
+        "inner_monologue": "I wish he would just leave me alone; I've already made my feelings clear.",
+        "external_action": "薰没有直接出现，但通过灵静的描述和后续行为，她保持距离。",
+        "speech_text": null,
+        "mood_state": "annoyed"
+      },
+      "id": "504_001",
+      "global_id": 361
+    },
+    {
+      "scene_snapshot": "家明和儿子允杰编造谎言，说薰没有身份证被威胁在诊所工作，吓退了唐先生。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "无良但亲近的雇主/朋友"
+      },
+      "trigger": {
+        "sender": "顾家明和允杰",
+        "content": "允杰小声说薰被威胁在诊所工作以省钱，家明默认并补充细节，导致唐先生离开。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "沉默的旁观者",
+        "inner_monologue": "I can't believe they're making up such stories, but it's effective in getting rid of him.",
+        "external_action": "薰在诊所内收拾，没有直接参与对话。",
+        "speech_text": null,
+        "mood_state": "resigned"
+      },
+      "id": "504_002",
+      "global_id": 362
+    },
+    {
+      "scene_snapshot": "薰换好衣服后走出诊所，从背后拥抱灵静，两人亲密互动。",
+      "interlocutor_info": {
+        "name": "叶灵静",
+        "relationship_tag": "亲密的朋友/保护者"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "灵静向薰解释刚才打发唐先生的努力被家明和允杰捣乱。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "温柔的朋友",
+        "inner_monologue": "I'm grateful for灵静's help, even if it didn't work out perfectly.",
+        "external_action": "薰轻轻抱住灵静，下巴搁在她肩膀上。",
+        "speech_text": "嗨，灵静。",
+        "mood_state": "affectionate"
+      },
+      "id": "504_003",
+      "global_id": 363
+    }
+  ]
+}

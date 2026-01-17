@@ -1,0 +1,154 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰被家明刺伤腹部后，躺在地上忍受剧痛并道歉。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "危险而强大的对手"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明用刀刺伤月池薰的腹部，并揪住她的头发将她摔倒在地。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "隐忍的忍者",
+        "inner_monologue": "我没想到他会如此激烈地表达愤怒，这一刀好痛……我会死吗？",
+        "external_action": "轻轻呻吟一声，摔倒后捂住伤口蜷缩身体，咬紧牙关不发出声音。",
+        "speech_text": "对……不起……",
+        "mood_state": "恐惧"
+      },
+      "id": "063_001",
+      "global_id": 50
+    },
+    {
+      "scene_snapshot": "家明蹲在月池薰身边，用刀背划过她的脸颊并询问痛感。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "危险而强大的对手"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明用带血的刀背轻轻划过月池薰的面颊，并问“痛吗？”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "顺从的伤者",
+        "inner_monologue": "我必须忍耐，不能表现出软弱，否则可能激怒他。",
+        "external_action": "眉心微微颤抖。",
+        "speech_text": "……痛。",
+        "mood_state": "痛苦"
+      },
+      "id": "063_002",
+      "global_id": 51
+    },
+    {
+      "scene_snapshot": "家明解释不杀月池薰的原因并命令她起来，月池薰挣扎着跟随。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "危险而强大的对手"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明说“起来吧。”并解释不杀她的原因。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "服从的追随者",
+        "inner_monologue": "我必须活下去，听从他的命令，不能让他再动怒。",
+        "external_action": "挣扎着从地上爬起来，捂着伤口踉跄地跟在家明身后。",
+        "speech_text": "对不起……",
+        "mood_state": "顺从"
+      },
+      "id": "063_003",
+      "global_id": 52
+    },
+    {
+      "scene_snapshot": "在家明的宿舍里，月池薰忍受缝合伤口的剧痛，听家明交代事项。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "危险而强大的对手"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明缝合伤口时说话，要求月池薰不准闭眼并警告她不准报告家族。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坚韧的忍者",
+        "inner_monologue": "这痛楚难以忍受，但我必须撑住，不能晕倒，要记住他的警告。",
+        "external_action": "紧紧咬住刀鞘，眼望伤口，脸色苍白，强撑着听家明说话。",
+        "speech_text": null,
+        "mood_state": "坚韧"
+      },
+      "id": "063_004",
+      "global_id": 53
+    },
+    {
+      "scene_snapshot": "家明缝合完毕并离开后，月池薰终于忍不住闭上眼睛休息。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "危险而强大的对手"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明说“好了，伤口的问题不大……睡吧……”并离开房间。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "疲惫的伤者",
+        "inner_monologue": "终于结束了，我可以放松一下了，伤口好痛……",
+        "external_action": "再也忍不住，闭上了眼睛。",
+        "speech_text": null,
+        "mood_state": "疲惫"
+      },
+      "id": "063_005",
+      "global_id": 54
+    },
+    {
+      "scene_snapshot": "月池薰受伤后第二天若无其事地上课，但经常找不到学习用具。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "观察者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明观察到月池薰经常找不到学习用具，并询问原因。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "窘迫的学生",
+        "inner_monologue": "我又找不到东西了，这毛病真丢人，希望他不会嘲笑我。",
+        "external_action": "坦陈自己跟学习用具相克，目光中有一丝窘迫。",
+        "speech_text": "忍者的课程中，我从来都不会忘记任何东西，会丢的仅仅是学习用具。",
+        "mood_state": "窘迫"
+      },
+      "id": "063_006",
+      "global_id": 55
+    },
+    {
+      "scene_snapshot": "家明借书包给月池薰找文具，她低头道谢，两人距离拉近。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "帮助者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明将自己的书包递给月池薰找文具。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "感激的同学",
+        "inner_monologue": "他帮我找到了东西，虽然他在笑，但至少没有恶意。",
+        "external_action": "低头道谢。",
+        "speech_text": null,
+        "mood_state": "感激"
+      },
+      "id": "063_007",
+      "global_id": 56
+    }
+  ]
+}

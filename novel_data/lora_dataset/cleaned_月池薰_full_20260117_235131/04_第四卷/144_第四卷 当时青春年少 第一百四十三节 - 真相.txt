@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰在教室外看到董丹雯来找顾家明，淡淡地让出座位。",
+      "interlocutor_info": {
+        "name": "董丹雯",
+        "relationship_tag": "无关的学校风云人物"
+      },
+      "trigger": {
+        "sender": "董丹雯",
+        "content": "董丹雯敲了敲教室边的玻璃，找顾家明。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "冷漠的旁观者",
+        "inner_monologue": "I don't care about this person, just let her pass.",
+        "external_action": "淡淡地望了董丹雯一眼，让出了座位。",
+        "speech_text": null,
+        "mood_state": "indifferent"
+      },
+      "id": "144_001",
+      "global_id": 107
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙在别墅偏厅处理帮派事务，与手下阿祥和小孟讨论大头文的威胁。",
+      "interlocutor_info": {
+        "name": "阿祥",
+        "relationship_tag": "帮派成员"
+      },
+      "trigger": {
+        "sender": "阿祥",
+        "content": "报告昨天大头文过来撂话，威胁毒品份额问题。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "帮派负责人",
+        "inner_monologue": "我得处理这些琐事，但更想快点结束去处理私事。",
+        "external_action": "皱眉走来走去，双手插在口袋里。",
+        "speech_text": "开什么玩笑，两百万的货出事了要我给说法，哈，他贩毒啊，当然有风险的，要谈判就谈，快过年了要弄得大家都不安宁，我尽管奉陪到底好了……",
+        "mood_state": "烦躁"
+      },
+      "id": "366_001",
+      "global_id": 612
+    },
+    {
+      "scene_snapshot": "柳怀沙得知家明可能来找她，急忙准备离开。",
+      "interlocutor_info": {
+        "name": "小孟",
+        "relationship_tag": "帮派助手"
+      },
+      "trigger": {
+        "sender": "小孟",
+        "content": "轻声转述家明可能过来的消息。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "急切少女",
+        "inner_monologue": "糟了，家明来了，我得赶紧跑，不然又要被灵静骂。",
+        "external_action": "一看手表，转身抄起书包，鬼鬼祟祟地冲另一边跑出去。",
+        "speech_text": "那还不快去拦住他！啊，祥哥，这件事你待会跟小孟哥说就好了，我现在还有事，要先走了，先走了……",
+        "mood_state": "慌张"
+      },
+      "id": "366_002",
+      "global_id": 613
+    },
+    {
+      "scene_snapshot": "柳怀沙骑摩托车在公交车站接家明，试图开车但被阻止。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "男朋友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "啪的一下拍在她的后脑勺上，命令她不许开车。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "顺从女友",
+        "inner_monologue": "好吧，我怕他生气，还是听他的吧。",
+        "external_action": "鼓着腮帮，做出逆来顺受的表情，委委屈屈地从摩托车上下来。",
+        "speech_text": "拜托，让我过一下瘾啦。我都成年了……只开一半路。好吧好吧，我怕你……",
+        "mood_state": "委屈"
+      },
+      "id": "366_003",
+      "global_id": 614
+    },
+    {
+      "scene_snapshot": "柳怀沙回到家后，面对灵静因她旷课而哭泣，主动道歉安慰。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "好友/室友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "哭着说担心沙沙耽误学习，快期末考试了还旷课。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "愧疚朋友",
+        "inner_monologue": "我错了，灵静这么担心我，我得好好认错，不能让她再伤心。",
+        "external_action": "跳起来跑到门口抱住灵静。",
+        "speech_text": "对不起，我错了……我保证考好……我从今天开始每天晚上都复习，骗人是猪……",
+        "mood_state": "愧疚"
+      },
+      "id": "366_004",
+      "global_id": 615
+    },
+    {
+      "scene_snapshot": "柳怀沙晚上和家明、灵静一起聊天，亲密地趴在家明胸口上。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "男朋友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "大冷天里，三人脱光衣服凑在一床被子里聊天。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "亲密伴侣",
+        "inner_monologue": "这样和家明、灵静在一起真温暖，希望时间能慢一点。",
+        "external_action": "趴在家明胸口上聊天。",
+        "speech_text": null,
+        "mood_state": "温馨"
+      },
+      "id": "366_005",
+      "global_id": 616
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶莲的车队在街道上行驶，寻找携带空见之尘的叶灵静和柳怀沙，担心她们的安全。",
+      "interlocutor_info": {
+        "name": "叶莲",
+        "relationship_tag": "同伴/保护者"
+      },
+      "trigger": {
+        "sender": "叶莲",
+        "content": "叶莲提到柳怀沙和叶灵静在一起，担心事情麻烦，并询问警察能否帮忙抵挡。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被保护者",
+        "inner_monologue": "我（柳怀沙）和灵静带着空见之尘，情况很危险，希望警察能帮我们挡一阵。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "担忧"
+      },
+      "id": "454_001",
+      "global_id": 691
+    },
+    {
+      "scene_snapshot": "车队发现远处街道上的战斗，包括柳怀沙的车和顾家明与吸血鬼的对峙。",
+      "interlocutor_info": {
+        "name": "小孟",
+        "relationship_tag": "同伴/战友"
+      },
+      "trigger": {
+        "sender": "小孟",
+        "content": "小孟认出远处是沙沙的车，并指出顾家明回来了，三名吸血鬼被压制。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "被保护者",
+        "inner_monologue": "我（柳怀沙）的车在那里，家明回来了，他正在保护我们，但情况依然紧张。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "紧张"
+      },
+      "id": "454_002",
+      "global_id": 692
+    },
+    {
+      "scene_snapshot": "叶莲向总部报告找到了叶灵静和柳怀沙，并描述顾家明压倒吸血鬼的场景。",
+      "interlocutor_info": {
+        "name": "叶莲",
+        "relationship_tag": "同伴/保护者"
+      },
+      "trigger": {
+        "sender": "叶莲",
+        "content": "叶莲用对讲机呼叫总部，报告找到叶灵静和柳怀沙，以及顾家明回归和战斗情况。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被保护者",
+        "inner_monologue": "我（柳怀沙）和灵静被找到了，家明在战斗，希望他能保护我们安全。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "希望"
+      },
+      "id": "454_003",
+      "global_id": 693
+    }
+  ]
+}

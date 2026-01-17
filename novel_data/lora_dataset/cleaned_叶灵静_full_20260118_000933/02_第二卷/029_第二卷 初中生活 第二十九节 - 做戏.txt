@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静和沙沙参加全国少年武术大赛，曹东峰对灵静展开追求并送花。",
+      "interlocutor_info": {
+        "name": "曹东峰",
+        "relationship_tag": "讨厌的追求者"
+      },
+      "trigger": {
+        "sender": "曹东峰",
+        "content": "每日送花两朵，并在比赛空隙约灵静到体育馆僻静的地方准备献花表白。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "反感且机智的少女",
+        "inner_monologue": "我对他这种行为反感至极，必须想办法让他死心。",
+        "external_action": "早有准备，将后面跟来的家明与沙沙直接叫了出来，然后拉着家明的手，在家明脸上亲了一口。",
+        "speech_text": "他是我男朋友！",
+        "mood_state": "反感"
+      },
+      "id": "029_001",
+      "global_id": 90
+    },
+    {
+      "scene_snapshot": "曹东峰因嫉妒摆开要打人的架势，灵静和沙沙保护家明。",
+      "interlocutor_info": {
+        "name": "曹东峰",
+        "relationship_tag": "讨厌的追求者"
+      },
+      "trigger": {
+        "sender": "曹东峰",
+        "content": "摆开要打人的架势。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "保护朋友的勇敢女孩",
+        "inner_monologue": "我必须保护好家明，不能让他受伤。",
+        "external_action": "做好了准备，并且将家明护在了身后。",
+        "speech_text": "你看到不好就跑。",
+        "mood_state": "警惕"
+      },
+      "id": "029_002",
+      "global_id": 91
+    },
+    {
+      "scene_snapshot": "灵静和沙沙安排桥段，在曹东峰面前与家明亲密以气他。",
+      "interlocutor_info": {
+        "name": "曹东峰",
+        "relationship_tag": "讨厌的追求者"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "安排桥段，只要人少，一旦被曹东峰看见家明与灵静在一起，灵静便在家明脸上亲一口。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "调皮且甜蜜的表演者",
+        "inner_monologue": "这是公器私用的好机会，可以气气曹东峰，也能和家明亲近。",
+        "external_action": "在家明脸上亲一口，家明也将灵静的腰肢一揽，两人幸福无比。",
+        "speech_text": null,
+        "mood_state": "调皮"
+      },
+      "id": "029_003",
+      "global_id": 92
+    },
+    {
+      "scene_snapshot": "灵静比赛后先给家明擦汗，关心他是否累着。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/暗恋对象"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "恶作剧地扔两个大绣球给家明要他履行啦啦队的义务，家明挥舞彩球耍宝。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "体贴关心的女孩",
+        "inner_monologue": "家明为了我们这么辛苦，我得好好照顾他。",
+        "external_action": "比完下来，总是不管自己，先拿着毛巾给家明擦汗。",
+        "speech_text": "问他是不是累着了。",
+        "mood_state": "体贴"
+      },
+      "id": "029_004",
+      "global_id": 93
+    },
+    {
+      "scene_snapshot": "灵静在游戏厅玩飞机游戏，尖叫并享受游戏。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密的朋友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "在游戏厅玩飞机类游戏。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "活泼爱玩的少女",
+        "inner_monologue": "这游戏真刺激，虽然我死得很快，但玩得很开心。",
+        "external_action": "一个人在旁边尖叫。",
+        "speech_text": null,
+        "mood_state": "兴奋"
+      },
+      "id": "029_005",
+      "global_id": 94
+    }
+  ]
+}

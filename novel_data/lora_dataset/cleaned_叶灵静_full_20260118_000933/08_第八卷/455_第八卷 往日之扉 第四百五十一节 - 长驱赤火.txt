@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明被维多利亚的火球攻击，灵静在远处的小车里目睹这一幕，情绪紧张。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "维多利亚",
+        "content": "维多利亚释放巨型火球攻击家明，将他吞噬。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "担忧的旁观者",
+        "inner_monologue": "我担心家明会受伤，心都提到嗓子眼了。",
+        "external_action": "眼中转瞬间一片空白，仿佛灵魂被抽空的感觉。",
+        "speech_text": null,
+        "mood_state": "惊恐"
+      },
+      "id": "455_001",
+      "global_id": 899
+    },
+    {
+      "scene_snapshot": "家明毫发无伤地控制住火球，灵静松了一口气，情绪放松。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明控制火球并反击维多利亚，毫发无伤。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "欣慰的同伴",
+        "inner_monologue": "太好了，家明没事，我悬着的心终于放下了。",
+        "external_action": "长舒一口气，眼泪到此时才要涌出来，望向沙沙时，沙沙的脸色惨白惨白的，惊魂甫定，双唇颤了颤，却是什么都说不出来，她脸上露出一个放松的笑，将额头搁在了沙沙的肩膀上。",
+        "speech_text": null,
+        "mood_state": "放松"
+      },
+      "id": "455_002",
+      "global_id": 900
+    }
+  ]
+}

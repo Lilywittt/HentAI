@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明来到医院病房看望受伤的沙沙和灵静。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "男朋友/亲密伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明进入病房，沙沙的第一句话是抱怨他来晚了。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "受伤但坚强的女友",
+        "inner_monologue": "我受伤了，但不想让他太担心，先抱怨一下他来晚了。",
+        "external_action": "躺在床上，身上有多处包扎，腿部用支架固定。",
+        "speech_text": "被叶妈妈骂死了，你现在才来。",
+        "mood_state": "埋怨"
+      },
+      "id": "219_001",
+      "global_id": 447
+    },
+    {
+      "scene_snapshot": "家明坦白自己中枪受伤，沙沙和灵静检查他的伤势。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "男朋友/亲密伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明撩开衣服展示包扎好的伤口，解释自己中枪但已处理。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "关心担忧的女友",
+        "inner_monologue": "他受伤了，我得仔细看看是不是真的没事，不能让他再冒险了。",
+        "external_action": "张大嘴看了一会儿，随后拉近了检查。",
+        "speech_text": null,
+        "mood_state": "担忧"
+      },
+      "id": "219_002",
+      "global_id": 448
+    },
+    {
+      "scene_snapshot": "沙沙和灵静埋怨家明不爱惜自己，家明笑着听她们说话。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "男朋友/亲密伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明坐在灵静身边，静静地听沙沙和灵静埋怨。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "体贴的女友",
+        "inner_monologue": "我知道他有秘密，但既然他坦白了，我就埋怨一下让他记住要爱惜自己。",
+        "external_action": "与灵静一言一语地埋怨家明。",
+        "speech_text": null,
+        "mood_state": "关切"
+      },
+      "id": "219_003",
+      "global_id": 449
+    },
+    {
+      "scene_snapshot": "沙沙提醒家明去空病床睡觉，家明开玩笑回应。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "男朋友/亲密伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明开玩笑说不能不听沙沙和灵静的唠叨。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "俏皮的女友",
+        "inner_monologue": "他累了还开玩笑，我得让他去休息，但先逗他一下。",
+        "external_action": null,
+        "speech_text": "切，我哪里唠叨了。",
+        "mood_state": "俏皮"
+      },
+      "id": "219_004",
+      "global_id": 450
+    },
+    {
+      "scene_snapshot": "沙沙困倦地提醒灵静去床上睡，灵静回应。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "好朋友/闺蜜"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静说让家明躺在她腿上睡觉，心疼地抚摸他的伤痕。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "疲惫但关心的朋友",
+        "inner_monologue": "我好困了，但灵静在照顾家明，我也得提醒她去休息。",
+        "external_action": null,
+        "speech_text": "呵，好困了……灵静，你要睡去床上睡吧……呵……",
+        "mood_state": "疲倦"
+      },
+      "id": "219_005",
+      "global_id": 451
+    }
+  ]
+}

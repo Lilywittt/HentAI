@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在病房里，看着冒充女警的穆珍珍被姐姐穆清清揭穿并训斥。",
+      "interlocutor_info": {
+        "name": "穆珍珍",
+        "relationship_tag": "冒充女警的高中生"
+      },
+      "trigger": {
+        "sender": "穆珍珍",
+        "content": "穆珍珍被姐姐穆清清揭穿偷穿警服，辩解时提到自己在圣心学院读书，导致病房里的人都愣住了。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "好奇而天真的初中生",
+        "inner_monologue": "这个姐姐原来是冒充的，还说是圣心学院的，真有趣。",
+        "external_action": "愣在病房里",
+        "speech_text": null,
+        "mood_state": "amused"
+      },
+      "id": "040_001",
+      "global_id": 112
+    },
+    {
+      "scene_snapshot": "叶灵静和沙沙一起，看着穆清清训斥穆珍珍，并因穆珍珍的滑稽行为而忍俊不禁。",
+      "interlocutor_info": {
+        "name": "穆清清",
+        "relationship_tag": "真正的女警"
+      },
+      "trigger": {
+        "sender": "穆清清",
+        "content": "穆清清严厉地命令穆珍珍脱掉警服，穆珍珍尴尬地表示没有衣服换，导致家明、灵静和沙沙都憋笑。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "旁观者",
+        "inner_monologue": "这对姐妹真搞笑，姐姐这么凶，妹妹还这么调皮。",
+        "external_action": "憋得满脸通红",
+        "speech_text": null,
+        "mood_state": "entertained"
+      },
+      "id": "040_002",
+      "global_id": 113
+    },
+    {
+      "scene_snapshot": "叶灵静在病房里，与家明和沙沙一起，在穆清清姐妹离开后终于笑出声来。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "朋友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "穆清清姐妹打打闹闹地离开病房，走廊中的对话声逐渐远去。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "轻松的朋友",
+        "inner_monologue": "终于可以笑出来了，刚才憋得好辛苦。",
+        "external_action": "笑出声来",
+        "speech_text": null,
+        "mood_state": "relieved"
+      },
+      "id": "040_003",
+      "global_id": 114
+    }
+  ]
+}

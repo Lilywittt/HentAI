@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "薰在教室安静坐着，老师刚下课离开，东方婉进来与家明交谈。",
+      "interlocutor_info": {
+        "name": "老师",
+        "relationship_tag": "无关人物"
+      },
+      "trigger": {
+        "sender": "老师",
+        "content": "老师宣布下课并离开教室。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "安静的学生",
+        "inner_monologue": "我没什么特别的想法，只是安静地待着。",
+        "external_action": "薰安静地坐在旁边，依旧是清冷的模样。",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "389_001",
+      "global_id": 261
+    },
+    {
+      "scene_snapshot": "薰在宿舍楼前准备离开，灵静和沙沙跑来送别。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静跑过来问薰是否就要走了，并邀请她留下来玩。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌的告别者",
+        "inner_monologue": "我其实有事必须回日本，但不想让她们太担心。",
+        "external_action": "少女的脸色明显柔和了许多，将大熊猫放到座位上，一转身便被沙沙抱住，灵静拉起她的手。",
+        "speech_text": "志愿不用我填了，不过，说不定将来可以在北京再见呢。",
+        "mood_state": "温和"
+      },
+      "id": "389_002",
+      "global_id": 262
+    },
+    {
+      "scene_snapshot": "薰在宿舍楼前与沙沙和灵静拥抱告别。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙附和灵静，邀请薰留下来玩，表达沮丧。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坚定的告别者",
+        "inner_monologue": "我必须回日本处理事情，不能留下来。",
+        "external_action": "与沙沙抱了抱，与灵静又抱了抱。",
+        "speech_text": "有事的。",
+        "mood_state": "坚定"
+      },
+      "id": "389_003",
+      "global_id": 263
+    },
+    {
+      "scene_snapshot": "薰走到家明面前，犹豫是否要拥抱告别。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "重要的人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明笑着抱住薰，并说一路顺风。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "恭敬的追随者",
+        "inner_monologue": "我应该向他表达我的忠诚和等待。",
+        "external_action": "有些迟疑地走到家明面前，正不知道该不该同样伸手。",
+        "speech_text": "我会在东京，等您过来。",
+        "mood_state": "恭敬"
+      },
+      "id": "389_004",
+      "global_id": 264
+    },
+    {
+      "scene_snapshot": "薰在车内向灵静、沙沙和家明挥手告别。",
+      "interlocutor_info": {
+        "name": "灵静、沙沙、家明",
+        "relationship_tag": "亲密朋友和重要的人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "薰进入车厢，准备离开。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "告别的朋友",
+        "inner_monologue": "我要好好告别，希望将来能再见面。",
+        "external_action": "进到车厢里，她隔着窗户朝三人挥着手。",
+        "speech_text": null,
+        "mood_state": "落寞"
+      },
+      "id": "389_005",
+      "global_id": 265
+    }
+  ]
+}

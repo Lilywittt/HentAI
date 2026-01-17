@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙、灵静和家明被教导主任叫到办公室，被告知因同居传闻被记大过并取消灵静的保送资格。",
+      "interlocutor_info": {
+        "name": "教导主任",
+        "relationship_tag": "虚伪的权威人物"
+      },
+      "trigger": {
+        "sender": "教导主任",
+        "content": "宣布因同居传闻对三人记大过，并取消灵静的保送资格，声称是为了学校风纪和他们的未来。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "愤怒的叛逆者",
+        "inner_monologue": "这个秃子太无耻了，用这种理由欺负我们，我忍不了了！",
+        "external_action": "眼睛里几乎当场便要喷出火来",
+        "speech_text": null,
+        "mood_state": "furious"
+      },
+      "id": "049_001",
+      "global_id": 140
+    },
+    {
+      "scene_snapshot": "沙沙在教导处挥舞球棒追打教导主任，引发混乱。",
+      "interlocutor_info": {
+        "name": "教导主任",
+        "relationship_tag": "可恨的敌人"
+      },
+      "trigger": {
+        "sender": "教导主任",
+        "content": "被沙沙追打，嗷嗷直叫，并叫保卫抓住她。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "暴力的复仇者",
+        "inner_monologue": "我要狠狠教训这个混蛋，为灵静出气！",
+        "external_action": "挥舞着球棒，一个劲地追杀那教导主任",
+        "speech_text": null,
+        "mood_state": "enraged"
+      },
+      "id": "049_002",
+      "global_id": 141
+    },
+    {
+      "scene_snapshot": "学校保卫冲进教导处围殴沙沙，她被逼得节节败退。",
+      "interlocutor_info": {
+        "name": "学校保卫",
+        "relationship_tag": "敌对的打手"
+      },
+      "trigger": {
+        "sender": "学校保卫",
+        "content": "操着板凳扫帚朝沙沙招呼过去，将她逼退。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "顽强的抵抗者",
+        "inner_monologue": "这些人真难缠，但我不能退缩！",
+        "external_action": "被逼得节节败退",
+        "speech_text": null,
+        "mood_state": "determined"
+      },
+      "id": "049_003",
+      "global_id": 142
+    }
+  ]
+}

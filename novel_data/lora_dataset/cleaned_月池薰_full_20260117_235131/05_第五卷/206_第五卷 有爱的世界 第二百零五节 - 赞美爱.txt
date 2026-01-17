@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰在黑暗的房间里包扎伤口，听着外面诸神无念的广播和搜索声。",
+      "interlocutor_info": {
+        "name": "诸神无念",
+        "relationship_tag": "敌人"
+      },
+      "trigger": {
+        "sender": "诸神无念",
+        "content": "广播里播放歌曲《Ils S'Adorent》并发表关于都市生活和爱的话语，同时外面有搜索声和喊话声。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "警觉的战士",
+        "inner_monologue": "我必须保持警惕，外面有敌人在搜索，伤口需要处理，但形势危急。",
+        "external_action": "蜷缩在角落包扎小腿伤口，口中咬着匕首，拿酒精瓶准备。",
+        "speech_text": null,
+        "mood_state": "紧张"
+      },
+      "id": "206_001",
+      "global_id": 161
+    },
+    {
+      "scene_snapshot": "月池薰被敌人用火箭筒威胁，冲出房屋进行反击。",
+      "interlocutor_info": {
+        "name": "佣兵",
+        "relationship_tag": "敌人"
+      },
+      "trigger": {
+        "sender": "佣兵",
+        "content": "喊话要求月池薰投降，否则使用火箭筒，并炸毁隔壁房屋。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "果断的逃亡者",
+        "inner_monologue": "我不能坐以待毙，必须冲出去反击，利用酒精瓶制造混乱。",
+        "external_action": "咬牙提起酒精瓶冲向门口，扑出躲避火箭筒，扔出酒精瓶引发火雨。",
+        "speech_text": null,
+        "mood_state": "决绝"
+      },
+      "id": "206_002",
+      "global_id": 162
+    },
+    {
+      "scene_snapshot": "月池薰在逃跑中被两名敌人围堵，使用池樱千幻技巧翻上阳台战斗。",
+      "interlocutor_info": {
+        "name": "佣兵",
+        "relationship_tag": "敌人"
+      },
+      "trigger": {
+        "sender": "佣兵",
+        "content": "子弹从转角另一端射来，两名敌人堵住逃离路线。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "敏捷的格斗家",
+        "inner_monologue": "前有堵截，后有追兵，必须用池樱千幻快速突破，避免被包围。",
+        "external_action": "抓住水管在空中翻上半圆上二楼阳台，与大汉近身格斗，膝撞对方后撞破房门逃离。",
+        "speech_text": null,
+        "mood_state": "专注"
+      },
+      "id": "206_003",
+      "global_id": 163
+    },
+    {
+      "scene_snapshot": "月池薰在小树林中被敌人追赶，沙沙用板砖和假枪帮助她。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "朋友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙用板砖敲击敌人头部，并拿假枪威胁敌人别动。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "协作的幸存者",
+        "inner_monologue": "沙沙在这里帮忙，机会来了，我可以趁机夺枪控制局面。",
+        "external_action": "从树后闪出夺过敌人武器，缓缓举手，与沙沙对话。",
+        "speech_text": "沙沙。",
+        "mood_state": "relieved"
+      },
+      "id": "206_004",
+      "global_id": 164
+    },
+    {
+      "scene_snapshot": "月池薰和沙沙对话，使用假枪喷水制服敌人。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "朋友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙询问怎么回事，并解释枪是家明做的假枪。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冷静的伙伴",
+        "inner_monologue": "沙沙带了假枪，这能帮我们脱身，先制服敌人再解释。",
+        "external_action": "点头回应沙沙，扣动假枪扳机喷水到敌人脸上。",
+        "speech_text": "我不知道……呃，这把枪……",
+        "mood_state": "calm"
+      },
+      "id": "206_005",
+      "global_id": 165
+    }
+  ]
+}

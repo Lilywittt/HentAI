@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明在村落里与沙沙和小孟一起吃午饭，随后去海边送别沙沙。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "深爱的人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "告诉沙沙灵静会去维也纳，并安排沙沙去欧洲。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "悲伤而依赖的恋人",
+        "inner_monologue": "我真的不想离开家明，但事情闹得这么大，我只能听他的安排去欧洲。",
+        "external_action": "哭了起来",
+        "speech_text": "真的要走吗？这次的事情……明明是别人陷害的……你怎么不跟我们一块走啊……",
+        "mood_state": "sad"
+      },
+      "id": "412_001",
+      "global_id": 650
+    },
+    {
+      "scene_snapshot": "沙沙向家明道歉，认为自己的任性导致了麻烦。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "深爱的人"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "表达歉意，认为自己的任性是问题根源。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "自责的恋人",
+        "inner_monologue": "我太任性了，如果不是我非要弄帮派，就不会连累家明和灵静。",
+        "external_action": null,
+        "speech_text": "抱歉啊……如果不是我一直任性地想要弄什么帮派，也就不会这样子……",
+        "mood_state": "guilty"
+      },
+      "id": "412_002",
+      "global_id": 651
+    },
+    {
+      "scene_snapshot": "家明安慰沙沙，承诺会帮她摆平一切。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "深爱的人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "安慰沙沙，承诺会帮她解决所有问题。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "依赖的恋人",
+        "inner_monologue": "家明总是这样保护我，但我还是担心他，不想离开他。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "reassured"
+      },
+      "id": "412_003",
+      "global_id": 652
+    },
+    {
+      "scene_snapshot": "沙沙被送上快艇离开，家明挥手道别。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "深爱的人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "快艇离开，沙沙在船上挥手。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "不舍的恋人",
+        "inner_monologue": "我要走了，家明还在那里挥手，我好想留下来，但只能听他的安排。",
+        "external_action": "在船上不断挥手",
+        "speech_text": null,
+        "mood_state": "nostalgic"
+      },
+      "id": "412_004",
+      "global_id": 653
+    },
+    {
+      "scene_snapshot": "沙沙在威尼斯幽暗天琴看到家明的资料后哭泣并冲出门外。",
+      "interlocutor_info": {
+        "name": "凯莉",
+        "relationship_tag": "陌生的联系人"
+      },
+      "trigger": {
+        "sender": "凯莉",
+        "content": "将几份关于家明的资料放到桌上给沙沙看。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "崩溃的恋人",
+        "inner_monologue": "家明生病了，他可能会死，他一直在骗我，我无法接受这个事实。",
+        "external_action": "身体颤抖，渐至无可抑制的哭泣，推翻了书桌上的所有东西，转身冲向门外",
+        "speech_text": null,
+        "mood_state": "devastated"
+      },
+      "id": "412_005",
+      "global_id": 654
+    }
+  ]
+}

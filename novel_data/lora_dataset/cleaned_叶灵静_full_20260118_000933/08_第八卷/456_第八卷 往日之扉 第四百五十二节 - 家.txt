@@ -1,0 +1,259 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静和沙沙坐在缺了后挡风玻璃的小车里，等待家明从大厦后巷出来。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "家明从大厦后巷出来，走向小车。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "安静陪伴者",
+        "inner_monologue": "我还在想刚才的事情，心里乱糟糟的。",
+        "external_action": "坐在副驾驶座上，低着头。",
+        "speech_text": null,
+        "mood_state": "沉思"
+      },
+      "id": "456_001",
+      "global_id": 901
+    },
+    {
+      "scene_snapshot": "家明开车，灵静和沙沙挤在副驾驶座上，小车驶出小巷。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙起身要从座位中间往后座去，脚下被绊了一下。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "体贴朋友",
+        "inner_monologue": "沙沙差点摔倒，我得扶住她。",
+        "external_action": "笑着将沙沙抱住。",
+        "speech_text": "沙沙跟我坐一起。",
+        "mood_state": "关切"
+      },
+      "id": "456_002",
+      "global_id": 902
+    },
+    {
+      "scene_snapshot": "小车行驶在街道上，气氛安静，家明想说话但没说完。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "深爱之人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明开口说“我……”，然后笑了笑，望向灵静和沙沙。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "温柔回应者",
+        "inner_monologue": "家明好像有话要说，但没说出来，气氛有点微妙。",
+        "external_action": "和沙沙一起望向家明。",
+        "speech_text": null,
+        "mood_state": "期待"
+      },
+      "id": "456_003",
+      "global_id": 903
+    },
+    {
+      "scene_snapshot": "家明说“还是先回家……”，灵静和沙沙开始轻声聊天。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "深爱之人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明说“还是先回家……”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "活跃参与者",
+        "inner_monologue": "回家这个话题让我们都放松了一些，可以聊点轻松的。",
+        "external_action": "和沙沙轻轻柔柔地说上一两句。",
+        "speech_text": "那个粥铺还在呢……",
+        "mood_state": "放松"
+      },
+      "id": "456_004",
+      "global_id": 904
+    },
+    {
+      "scene_snapshot": "三人在超市购物，灵静将一盒避孕套扔进购物车。",
+      "interlocutor_info": {
+        "name": "环境",
+        "relationship_tag": "公共场合"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "在购物台结账时。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "自然行动者",
+        "inner_monologue": "我们需要这个，没什么好害羞的。",
+        "external_action": "将一盒避孕套扔进购物车。",
+        "speech_text": null,
+        "mood_state": "坦然"
+      },
+      "id": "456_005",
+      "global_id": 905
+    },
+    {
+      "scene_snapshot": "灵静坐在客厅择菜，家明在厨房弄煤气罐。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "深爱之人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "家明在厨房弄煤气罐，灵静在客厅择菜。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "居家帮手",
+        "inner_monologue": "我在择菜，家明在弄煤气，这种感觉很温馨。",
+        "external_action": "坐在客厅里择菜。",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "456_006",
+      "global_id": 906
+    },
+    {
+      "scene_snapshot": "家明和沙沙互动后，灵静回应沙沙关于叶爸叶妈的话。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙说“不知道叶爸叶妈再看到他会是什么样子。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "幽默调侃者",
+        "inner_monologue": "沙沙在担心家明，我开个玩笑缓解一下。",
+        "external_action": "耸了耸肩，抿嘴一笑。",
+        "speech_text": "估计得再打死一次去……",
+        "mood_state": "轻松"
+      },
+      "id": "456_007",
+      "global_id": 907
+    },
+    {
+      "scene_snapshot": "晚上睡觉时，灵静满眼泪光望着家明。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "深爱之人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "家明睁开眼睛，看见灵静满眼泪光望着他。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "情感爆发者",
+        "inner_monologue": "这四年我有多想你，现在终于能发泄出来了。",
+        "external_action": "满眼泪光望着家明，咬紧牙关。",
+        "speech_text": null,
+        "mood_state": "悲伤"
+      },
+      "id": "456_008",
+      "global_id": 908
+    },
+    {
+      "scene_snapshot": "灵静伸手在家明胸口打了两拳。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "深爱之人"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静对望家明后，情绪激动。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "愤怒发泄者",
+        "inner_monologue": "我恨你这四年离开我们，让我打你几下出气。",
+        "external_action": "伸手在家明胸口上打了一拳，随后又是一拳。",
+        "speech_text": null,
+        "mood_state": "愤怒"
+      },
+      "id": "456_009",
+      "global_id": 909
+    },
+    {
+      "scene_snapshot": "沙沙在客厅哭泣，灵静下床去安慰她。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙在客厅嘤嘤恸哭。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "安慰者",
+        "inner_monologue": "沙沙哭得这么伤心，我得去陪陪她。",
+        "external_action": "赤足下床，走到客厅在沙沙身边坐下。",
+        "speech_text": "沙沙啊……",
+        "mood_state": "同情"
+      },
+      "id": "456_010",
+      "global_id": 910
+    },
+    {
+      "scene_snapshot": "灵静哽咽着问家明这四年怎么过的。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "深爱之人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明解释自己这四年的经历。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关切询问者",
+        "inner_monologue": "家明受了这么多苦，我得问清楚他怎么样了。",
+        "external_action": "抹了抹眼泪，哽咽着。",
+        "speech_text": "你这四年怎么过的啊？头还痛不痛啊？",
+        "mood_state": "担忧"
+      },
+      "id": "456_011",
+      "global_id": 911
+    },
+    {
+      "scene_snapshot": "灵静听不懂家明的解释，哽咽着问“什么啊？”。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "深爱之人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明说“脑袋里被放了一些东西……”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "困惑追问者",
+        "inner_monologue": "家明在说什么？我听不懂，但很担心他。",
+        "external_action": "哽咽着。",
+        "speech_text": "什么啊？",
+        "mood_state": "困惑"
+      },
+      "id": "456_012",
+      "global_id": 912
+    }
+  ]
+}

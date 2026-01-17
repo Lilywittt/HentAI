@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰浑身是血地驾车回到月池家老宅，在众人面前出现。",
+      "interlocutor_info": {
+        "name": "月池政空",
+        "relationship_tag": "父亲"
+      },
+      "trigger": {
+        "sender": "月池政空",
+        "content": "命令手下扶薰去治疗，并试图与她交流。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "冷漠而决绝的战士",
+        "inner_monologue": "我不需要他们的帮助，这一切已经与我无关了。",
+        "external_action": "用枪口对准试图扶她的人，拒绝治疗，然后走到父亲身边检查他的伤口。",
+        "speech_text": "走开！",
+        "mood_state": "疲惫"
+      },
+      "id": "479_001",
+      "global_id": 331
+    },
+    {
+      "scene_snapshot": "薰在父亲手臂的绷带上打了一个蝴蝶结，然后独自离开。",
+      "interlocutor_info": {
+        "name": "月池政空",
+        "relationship_tag": "父亲"
+      },
+      "trigger": {
+        "sender": "月池政空",
+        "content": "薰拉起他的手臂检查伤口，周围人沉默观望。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "怀旧而疏离的女儿",
+        "inner_monologue": "这是我最后能为父亲做的事了，像母亲曾经那样，但一切都太晚了。",
+        "external_action": "用绷带在父亲手臂上打出一个蝴蝶结，然后默默离开。",
+        "speech_text": null,
+        "mood_state": "安详"
+      },
+      "id": "479_002",
+      "global_id": 332
+    },
+    {
+      "scene_snapshot": "薰独自回到自己的小院落，开始清理伤口并回忆往事。",
+      "interlocutor_info": {
+        "name": "无",
+        "relationship_tag": "无"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "薰坐在房间里，身体疼痛，周围有灯光和人声但被忽略。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "孤独的终结者",
+        "inner_monologue": "该做的事情都做完了，我很累，但终于可以放松了，母亲，我做得很好吧？",
+        "external_action": "脱掉衣物，擦拭身体上的血迹，穿起母亲留下的红色和服，抱起熊猫玩偶。",
+        "speech_text": null,
+        "mood_state": "安详"
+      },
+      "id": "479_003",
+      "global_id": 333
+    },
+    {
+      "scene_snapshot": "薰在恍惚中看到家明的幻影，准备结束自己的生命。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "老师/爱人"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "在薰的幻觉中出现，握住她持刀的手并夸奖她。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "释然的学生",
+        "inner_monologue": "老师终于夸奖我了，我可以安心地离开了。",
+        "external_action": "抽出枕头下的刀，在幻觉中与家明互动。",
+        "speech_text": "老师……",
+        "mood_state": "释然"
+      },
+      "id": "479_004",
+      "global_id": 334
+    }
+  ]
+}

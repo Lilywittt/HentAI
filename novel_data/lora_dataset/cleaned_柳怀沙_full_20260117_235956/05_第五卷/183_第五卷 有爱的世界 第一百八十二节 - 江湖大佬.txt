@@ -1,0 +1,238 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在酒店房间洗澡后先下楼，灵静去找家明准备参加柳正的生日宴会。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "询问沙沙是否还在洗澡",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "活泼女友",
+        "inner_monologue": "我已经洗好澡先下去了，让灵静去叫家明吧。",
+        "external_action": "已下楼等待",
+        "speech_text": null,
+        "mood_state": "轻松"
+      },
+      "id": "183_001",
+      "global_id": 388
+    },
+    {
+      "scene_snapshot": "沙沙在宴会厅角落与家明、灵静坐在一起，看到父亲柳正作为江湖大佬的风采。",
+      "interlocutor_info": {
+        "name": "柳正",
+        "relationship_tag": "父亲"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "柳正在宴会厅中受到众人尊敬，展现江湖大佬风范",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "好奇女儿",
+        "inner_monologue": "哇，老爸真威风，整个大厅的人都围着他转，我有点羡慕这种风采。",
+        "external_action": "观察父亲的表现",
+        "speech_text": null,
+        "mood_state": "羡慕"
+      },
+      "id": "183_002",
+      "global_id": 389
+    },
+    {
+      "scene_snapshot": "沙沙喝了几杯酒后，轻声向家明和灵静表达对继承父亲老大位置的幻想。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "轻声说不知道老爸将来会不会把老大位置传给我",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调皮女友",
+        "inner_monologue": "我有点喝醉了，开个玩笑幻想一下当老大的感觉，家明肯定会取笑我。",
+        "external_action": "脸颊红扑扑地说话",
+        "speech_text": "哇哦，不知道老爸将来会不会把老大位置传给我……",
+        "mood_state": "俏皮"
+      },
+      "id": "183_003",
+      "global_id": 390
+    },
+    {
+      "scene_snapshot": "家明取笑沙沙想继承黑道位置，灵静调侃家明喜欢沙沙的大腿。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "说沙沙想出来混当心柳正打断她的腿",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "害羞女友",
+        "inner_monologue": "家明又在取笑我，灵静还拿我的大腿开玩笑，真让人脸红。",
+        "external_action": "轻啐一声，脸上更红",
+        "speech_text": null,
+        "mood_state": "羞涩"
+      },
+      "id": "183_004",
+      "global_id": 391
+    },
+    {
+      "scene_snapshot": "沙沙、家明和灵静走到酒店门口呼吸新鲜空气，沙沙疑惑地回头看家明扔东西。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "听到金属碰撞声，看到家明在扔东西",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "关心女友",
+        "inner_monologue": "家明在扔什么？声音有点奇怪，我得问问他。",
+        "external_action": "疑惑地回头",
+        "speech_text": null,
+        "mood_state": "好奇"
+      },
+      "id": "183_005",
+      "global_id": 392
+    },
+    {
+      "scene_snapshot": "沙沙看到家明腮帮鼓起吃香蕉，开玩笑说他怕噎死。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "腮帮鼓起吃香蕉",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "调皮女友",
+        "inner_monologue": "家明吃相真搞笑，一口吃那么多，我得逗逗他。",
+        "external_action": "不由得一笑",
+        "speech_text": "一口吃那么多，不怕噎死你啊。",
+        "mood_state": "玩笑"
+      },
+      "id": "183_006",
+      "global_id": 393
+    },
+    {
+      "scene_snapshot": "家明要分香蕉给沙沙吃，沙沙脸红跑开并拉起灵静挡在前面。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密男友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "要扑过来哺给她吃香蕉",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "害羞女友",
+        "inner_monologue": "家明好恶心，想用嘴喂我，我才不要呢，快躲开。",
+        "external_action": "脸红连忙笑着跑开，拉起灵静挡在前面",
+        "speech_text": "好恶心，你分给灵静吃好了，我可不要。",
+        "mood_state": "羞涩"
+      },
+      "id": "183_007",
+      "global_id": 394
+    },
+    {
+      "scene_snapshot": "穆珍珍认出沙沙等人，沙沙疑惑是否见过她。",
+      "interlocutor_info": {
+        "name": "穆珍珍",
+        "relationship_tag": "旧识"
+      },
+      "trigger": {
+        "sender": "穆珍珍",
+        "content": "询问沙沙是否叫“什么什么沙”，并提起旧事",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌熟人",
+        "inner_monologue": "这个人是谁？她说见过我们，但我没什么印象。",
+        "external_action": "有些疑惑",
+        "speech_text": "我们……见过吗？",
+        "mood_state": "困惑"
+      },
+      "id": "183_008",
+      "global_id": 395
+    },
+    {
+      "scene_snapshot": "穆珍珍警告宴会可能发生火拼，沙沙焦急追问并透露自己是柳正女儿。",
+      "interlocutor_info": {
+        "name": "穆珍珍",
+        "relationship_tag": "警察旧识"
+      },
+      "trigger": {
+        "sender": "穆珍珍",
+        "content": "说宴会是黑社会老大生日，可能会发生火拼",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "担忧女儿",
+        "inner_monologue": "什么？可能会火拼？我得问清楚，希望有警察在不会出事。",
+        "external_action": "睁大眼睛焦急追问",
+        "speech_text": "不太平？怎么了？",
+        "mood_state": "焦急"
+      },
+      "id": "183_009",
+      "global_id": 396
+    },
+    {
+      "scene_snapshot": "沙沙向穆珍珍解释自己是柳正女儿，并希望警察能防止火拼。",
+      "interlocutor_info": {
+        "name": "穆珍珍",
+        "relationship_tag": "警察旧识"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "穆珍珍尴尬地意识到沙沙是宴会参与者",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "坦诚女儿",
+        "inner_monologue": "我是柳正女儿，这没什么好隐瞒的，只希望今晚平安无事。",
+        "external_action": "不好意思地说着",
+        "speech_text": "嗯，那个……柳正就是我老爸啦，今天是他生日。",
+        "mood_state": "坦诚"
+      },
+      "id": "183_010",
+      "global_id": 397
+    },
+    {
+      "scene_snapshot": "沙沙追问穆珍珍是否有警察在就能防止火拼。",
+      "interlocutor_info": {
+        "name": "穆珍珍",
+        "relationship_tag": "警察旧识"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "焦急地问有警察看着是否不会打起来",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "担忧女儿",
+        "inner_monologue": "拜托，一定要告诉我警察能控制住局面，我不想老爸的生日出事。",
+        "external_action": "焦急地追问",
+        "speech_text": "有警察看着，他们一定不会打起来的，哦？",
+        "mood_state": "急切"
+      },
+      "id": "183_011",
+      "global_id": 398
+    }
+  ]
+}

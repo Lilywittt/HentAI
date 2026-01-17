@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在体育馆排球馆观看柳怀沙的比赛，并为她加油。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "亲密好友/青梅竹马"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "柳怀沙在排球比赛中扣球得分，看到叶灵静进来后，用眼神询问。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "活泼开朗的闺蜜",
+        "inner_monologue": "我早点回来给沙沙一个惊喜，她打球的样子真帅。",
+        "external_action": "笑着用动作表示等待，双手拢在嘴边喊“加油！沙沙！”",
+        "speech_text": null,
+        "mood_state": "兴奋"
+      },
+      "id": "120_001",
+      "global_id": 357
+    },
+    {
+      "scene_snapshot": "叶灵静在更衣室外与柳怀沙交谈，帮她整理衣领并开玩笑。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "亲密好友/青梅竹马"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "沙沙问叶灵静为什么提前回来。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调皮戏谑的闺蜜",
+        "inner_monologue": "我故意逗逗沙沙，看她会不会害羞。",
+        "external_action": "顺手帮沙沙整理衣领，笑着开玩笑。",
+        "speech_text": "早点回来不欢迎吗？呵呵，你这个样子，不会是想趁着我和家明不在，跑出来勾引哪个女孩子吧？",
+        "mood_state": "戏谑"
+      },
+      "id": "120_002",
+      "global_id": 358
+    },
+    {
+      "scene_snapshot": "叶灵静与柳怀沙打闹，解释提前回来的原因并询问排球赛情况。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "亲密好友/青梅竹马"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "沙沙揽住叶灵静的腰肢打闹。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "亲昵撒娇的闺蜜",
+        "inner_monologue": "沙沙总是这么热情，我得赶紧解释清楚免得她误会。",
+        "external_action": "笑着打闹，求饶。",
+        "speech_text": "好啦，昨天祭完祖，今天早上正好有车，我就赶快赶回来了，然后立刻过来找你，对你够好了吧……呵呵，我是怕我和家明离开太久，你会因为生活不能自理而饿死掉。哈哈，好了好了，别呵我痒，我投降了……对了，你在排球队里挂名那么久，这好像还是你第一次上场吧？",
+        "mood_state": "亲昵"
+      },
+      "id": "120_003",
+      "global_id": 359
+    },
+    {
+      "scene_snapshot": "叶灵静与柳怀沙继续交谈，提到顾家明并开玩笑。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "亲密好友/青梅竹马"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "沙沙问顾家明是否会提前回来。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "假装幽怨的闺蜜",
+        "inner_monologue": "沙沙又在关心家明了，我得逗逗她表达我的‘不满’。",
+        "external_action": "挽着沙沙的手，做出一脸幽怨的样子。",
+        "speech_text": "家明老家比较远，应该还得明天啦，有我还不够吗？我就知道，你心里就只有家明，根本没有人家嘛，呵呵，好了好了，不来了……",
+        "mood_state": "戏谑"
+      },
+      "id": "120_004",
+      "global_id": 360
+    },
+    {
+      "scene_snapshot": "叶灵静与柳怀沙在商场保健用品专柜前看电动按摩棒。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "亲密好友/青梅竹马"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "两人进入商场，站在保健用品专柜前。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "好奇的少女",
+        "inner_monologue": "这个按摩棒看起来挺有趣的，沙沙会不会想歪呢？",
+        "external_action": "笑着看电动按摩棒。",
+        "speech_text": null,
+        "mood_state": "好奇"
+      },
+      "id": "120_005",
+      "global_id": 361
+    }
+  ]
+}

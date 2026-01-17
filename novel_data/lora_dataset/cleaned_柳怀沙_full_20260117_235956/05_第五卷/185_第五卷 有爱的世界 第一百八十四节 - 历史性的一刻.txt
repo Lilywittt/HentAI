@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在宴会上公开宣称家明是她老公，以拒绝华为的礼物，引发紧张对峙。",
+      "interlocutor_info": {
+        "name": "华为",
+        "relationship_tag": "敌对帮派头目"
+      },
+      "trigger": {
+        "sender": "华为",
+        "content": "华为无视家明，再次递出礼品盒，目光投向柳正，试图施压。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "忠诚女友",
+        "inner_monologue": "我必须维护家明的面子，不能收这个礼物，否则他会不高兴。",
+        "external_action": "脸颊变得彤红，没有说话，让家明代为处理。",
+        "speech_text": null,
+        "mood_state": "embarrassed"
+      },
+      "id": "185_001",
+      "global_id": 404
+    },
+    {
+      "scene_snapshot": "家明与华为对峙，气氛紧张，华为威胁家明，沙沙和灵静在一旁担忧。",
+      "interlocutor_info": {
+        "name": "华为",
+        "relationship_tag": "敌对帮派头目"
+      },
+      "trigger": {
+        "sender": "华为",
+        "content": "华为以冰冷目光和杀意威胁家明，暗示家明活不长。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "支持女友",
+        "inner_monologue": "家明为了我出头，我很担心他的安全，但相信他能处理好。",
+        "external_action": "与灵静靠过来，关注事态发展。",
+        "speech_text": null,
+        "mood_state": "concerned"
+      },
+      "id": "185_002",
+      "global_id": 405
+    },
+    {
+      "scene_snapshot": "家明挑衅华为后，华文义提出单挑，家明同意，沙沙和灵静私下交谈。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静调笑沙沙，说家明为她出头是因为沙沙之前说的话让他开心。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "害羞女友",
+        "inner_monologue": "我羡慕灵静有家明为她唱歌，但家明为我打架也让我感到被珍视。",
+        "external_action": "脸上一红，与灵静互相调笑。",
+        "speech_text": "哪有……我还羡慕那次平安夜他为了你唱歌的事情呢……他又没帮我写《东风破》……",
+        "mood_state": "affectionate"
+      },
+      "id": "185_003",
+      "global_id": 406
+    },
+    {
+      "scene_snapshot": "家明在单挑中逃跑并扔鱼汤，沙沙看到后发笑。",
+      "interlocutor_info": {
+        "name": "华文义",
+        "relationship_tag": "敌对帮派成员"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明从桌下钻出，形象狼狈，引发众人反应。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "轻松旁观者",
+        "inner_monologue": "家明总是用出其不意的方式应对，这很有趣，我相信他不会有事。",
+        "external_action": "首先笑了出来。",
+        "speech_text": null,
+        "mood_state": "amused"
+      },
+      "id": "185_004",
+      "global_id": 407
+    },
+    {
+      "scene_snapshot": "家明拔枪对峙，华为父子误拔香蕉，沙沙目睹这滑稽一幕。",
+      "interlocutor_info": {
+        "name": "华为",
+        "relationship_tag": "敌对帮派头目"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明拔出手枪枪柄，华为父子误拔香蕉，场面尴尬。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "惊讶旁观者",
+        "inner_monologue": "家明居然带了枪，这太危险了，但看到华为父子出丑，又觉得好笑。",
+        "external_action": "观察事态，可能与其他旁观者一样感到震惊或好笑。",
+        "speech_text": null,
+        "mood_state": "surprised"
+      },
+      "id": "185_005",
+      "global_id": 408
+    }
+  ]
+}

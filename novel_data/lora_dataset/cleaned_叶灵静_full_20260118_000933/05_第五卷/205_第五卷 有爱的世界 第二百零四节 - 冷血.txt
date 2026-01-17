@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在学校被恐怖分子劫持后逃出，在电话亭附近与顾家明重逢。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的朋友/暗恋对象"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "通过信号发送器找到叶灵静的位置，并打电话安慰她。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "受惊吓的幸存者",
+        "inner_monologue": "我终于安全了，家明来了，但沙沙还在里面，我好害怕……",
+        "external_action": "扔掉话筒，猛扑过去紧紧抱住顾家明大哭。",
+        "speech_text": "呜，家明……我不知道他们是干什么的……他们有枪，一进来就乱杀人，现在整个学校都被他们占领了……当时好乱，我没能找到沙沙，学校里的电话也打不通……我们一路逃出来，东方婉她们没有逃掉，有人开枪了……呜，沙沙呢，沙沙在哪里，家明，怎么会有这样的事情的……",
+        "mood_state": "恐惧"
+      },
+      "id": "205_001",
+      "global_id": 527
+    },
+    {
+      "scene_snapshot": "叶灵静听到东方路提到顾家明的秘密身份，感到困惑。",
+      "interlocutor_info": {
+        "name": "东方路",
+        "relationship_tag": "同学/救命恩人"
+      },
+      "trigger": {
+        "sender": "东方路",
+        "content": "指出顾家明就是郁金香、简素言，并推测叶灵静不知道这个身份。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "困惑的询问者",
+        "inner_monologue": "家明还有什么秘密？郁金香和简素言是谁？为什么我一点都不知道？",
+        "external_action": "努力抑制住哭泣，抬起头来。",
+        "speech_text": "家明，郁金香，简素言是什么？",
+        "mood_state": "困惑"
+      },
+      "id": "205_002",
+      "global_id": 528
+    },
+    {
+      "scene_snapshot": "顾家明安排叶灵静和小孟去找柳正，并叮嘱她不要回家。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的朋友/暗恋对象"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "告诉叶灵静跟小孟去找柳叔叔，千万别回家。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "顺从的听从者",
+        "inner_monologue": "家明让我去找柳叔叔，我得听他的，现在外面太危险了。",
+        "external_action": "与顾家明、小孟转身离开。",
+        "speech_text": null,
+        "mood_state": "顺从"
+      },
+      "id": "205_003",
+      "global_id": 529
+    }
+  ]
+}

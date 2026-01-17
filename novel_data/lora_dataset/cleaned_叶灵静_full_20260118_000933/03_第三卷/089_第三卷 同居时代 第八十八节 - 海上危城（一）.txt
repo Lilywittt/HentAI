@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "警铃拉响后，灵静、雅涵和沙沙在房间听到广播要求乘客躲避，得知可能遇上海盗。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "朋友/姐姐"
+      },
+      "trigger": {
+        "sender": "广播",
+        "content": "要求乘客立刻到船舱内层舱室躲避",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "担忧的朋友",
+        "inner_monologue": "糟了，家明刚才说出去吃点心，那他现在在哪儿啊？",
+        "external_action": "匆忙换衣服，推开门看到走廊里人群涌动",
+        "speech_text": null,
+        "mood_state": "anxious"
+      },
+      "id": "089_001",
+      "global_id": 255
+    },
+    {
+      "scene_snapshot": "雅涵的父亲张敬安催促大家离开，沙沙坚持要等家明。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "不行。家明还没回来，我要在这里等他的，要不然他回来找不到我们……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "支持的朋友",
+        "inner_monologue": "沙沙说得对，家明还没回来，我们得等他。",
+        "external_action": "点头附和沙沙的话",
+        "speech_text": null,
+        "mood_state": "concerned"
+      },
+      "id": "089_002",
+      "global_id": 256
+    },
+    {
+      "scene_snapshot": "雅涵决定先离开，拉起灵静和沙沙的手跟着父母走。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "朋友/姐姐"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "不管他了，他一个大男人，可以找到我们的。放心吧。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "顺从的同伴",
+        "inner_monologue": "雅涵说得有道理，家明应该能照顾好自己，我们先跟着大家走比较安全。",
+        "external_action": "被雅涵拉着手走向走廊尽头",
+        "speech_text": null,
+        "mood_state": "resigned"
+      },
+      "id": "089_003",
+      "global_id": 257
+    },
+    {
+      "scene_snapshot": "在楼梯转角看到海盗炮艇攻击游轮，灵静等人目睹战斗场面。",
+      "interlocutor_info": {
+        "name": "环境",
+        "relationship_tag": "危险情境"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "看到风雨中海盗炮艇冲向游轮并开火，枪声和爆炸声响起",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "震惊的旁观者",
+        "inner_monologue": "天啊，这真的是海盗攻击，太可怕了，我们得赶快躲起来。",
+        "external_action": "多看两眼战斗场面，然后连忙转进轮船内部",
+        "speech_text": null,
+        "mood_state": "shocked"
+      },
+      "id": "089_004",
+      "global_id": 258
+    }
+  ]
+}

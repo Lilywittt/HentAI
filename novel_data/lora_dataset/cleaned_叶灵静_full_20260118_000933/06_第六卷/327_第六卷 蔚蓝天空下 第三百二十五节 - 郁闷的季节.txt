@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "杜丽因心情郁闷和嫉妒，在野炊时与沙沙发生争吵，叶灵静被江于薇叫来帮忙后，杜丽冷眼旁观并嘲讽。",
+      "interlocutor_info": {
+        "name": "杜丽",
+        "relationship_tag": "嫉妒的陌生人"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "让杜丽将一个水壶扔过去",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "旁观者",
+        "inner_monologue": "我懒得理这些事，反正这次露营已经让我失望了。",
+        "external_action": "跟何云以及另一个女孩子在旁边说话",
+        "speech_text": null,
+        "mood_state": "indifferent"
+      },
+      "id": "327_001",
+      "global_id": 652
+    },
+    {
+      "scene_snapshot": "杜丽和何云在争吵后私下讨论谭君荣对叶灵静的兴趣，推测叶灵静的背景和可能的发展。",
+      "interlocutor_info": {
+        "name": "何云",
+        "relationship_tag": "八卦的同伴"
+      },
+      "trigger": {
+        "sender": "何云",
+        "content": "俯上杜丽的耳边，提到谭君荣对叶灵静有兴趣，并讨论叶灵静的背景",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被讨论的对象",
+        "inner_monologue": "他们又在背后议论我，真无聊。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "annoyed"
+      },
+      "id": "327_002",
+      "global_id": 653
+    }
+  ]
+}

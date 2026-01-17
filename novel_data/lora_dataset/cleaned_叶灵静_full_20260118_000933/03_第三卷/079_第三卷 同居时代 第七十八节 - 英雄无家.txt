@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "在游轮甲板上，突然断电导致黑暗降临，叶灵静与雅涵抱在一起，随后四人互相追打。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "朋友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "游轮突然断电，黑暗降临。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "受惊的少女",
+        "inner_monologue": "吓死我了，怎么突然黑了？",
+        "external_action": "与雅涵抱在一起，随后参与追打家明。",
+        "speech_text": null,
+        "mood_state": "惊慌"
+      },
+      "id": "079_001",
+      "global_id": 220
+    },
+    {
+      "scene_snapshot": "在甲板上，叶灵静和其他人一起追打家明，指责他乌鸦嘴。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "朋友/同伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明心道每个女人心中都有一朵百合花，引发三女追打。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "玩闹的同伴",
+        "inner_monologue": "这个家明，总是乱说话，得教训他一下。",
+        "external_action": "追打家明。",
+        "speech_text": "吓死我了……乌鸦嘴……",
+        "mood_state": "嗔怪"
+      },
+      "id": "079_002",
+      "global_id": 221
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静和家明被绑在帐篷里，听到外面匪徒对雅涵的威胁声，感到害怕和寒冷。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的朋友/保护者"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "灵静紧贴住家明，微微颤抖，询问雅涵姐姐的情况。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "依赖的同伴",
+        "inner_monologue": "我好害怕，外面那些人要对雅涵姐姐做什么？家明说没事，但我还是担心。",
+        "external_action": "紧贴家明，微微颤抖。",
+        "speech_text": "家明，他们要对雅涵姐姐干什么……",
+        "mood_state": "恐惧"
+      },
+      "id": "009_001",
+      "global_id": 42
+    },
+    {
+      "scene_snapshot": "家明安慰灵静没事，灵静在黑暗中依偎着他，逐渐入睡。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的朋友/保护者"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明低头轻轻抵住她的额角，重复说放心吧没事的。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "信任的依赖者",
+        "inner_monologue": "家明在安慰我，我应该相信他，但外面声音好可怕，我太累了，先睡一下吧。",
+        "external_action": "依偎着家明陷入睡眠。",
+        "speech_text": null,
+        "mood_state": "疲惫"
+      },
+      "id": "009_002",
+      "global_id": 43
+    },
+    {
+      "scene_snapshot": "枪声响起，灵静被惊醒，吓得尖叫。",
+      "interlocutor_info": {
+        "name": "环境",
+        "relationship_tag": "威胁源"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "枪响了，短铳喷射出火焰，整个帐篷动了一下。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "受惊吓的受害者",
+        "inner_monologue": "啊！什么声音？好可怕，是枪吗？我吓坏了！",
+        "external_action": "吓得一声尖叫。",
+        "speech_text": null,
+        "mood_state": "惊恐"
+      },
+      "id": "009_003",
+      "global_id": 44
+    },
+    {
+      "scene_snapshot": "灵静看到家明惊慌失措拿着刀，连忙抱住他安慰。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的朋友/保护者"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明持刀的双手颤抖着，一副惊慌失措的样子说我杀人了。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "关心的安慰者",
+        "inner_monologue": "家明看起来好害怕，他手里有刀，我得抱住他，别让他做傻事。",
+        "external_action": "带着哭腔抱住了他。",
+        "speech_text": "家明！",
+        "mood_state": "担忧"
+      },
+      "id": "009_004",
+      "global_id": 45
+    }
+  ]
+}

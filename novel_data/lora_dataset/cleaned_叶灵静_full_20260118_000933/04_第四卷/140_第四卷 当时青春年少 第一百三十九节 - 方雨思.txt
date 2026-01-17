@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在礼堂排练舞蹈后，被张雅涵叫过来与方雨思等人见面。",
+      "interlocutor_info": {
+        "name": "方雨思",
+        "relationship_tag": "崇拜的偶像"
+      },
+      "trigger": {
+        "sender": "张雅涵",
+        "content": "灵静，你过来一下。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌而紧张的学生",
+        "inner_monologue": "我有点紧张，但能见到方雨思小姐真是太激动了。",
+        "external_action": "小跑过来，神情微有些局促地打招呼",
+        "speech_text": "张老师，张经理，好久不见，还有……嗯，方小姐，你好……",
+        "mood_state": "nervous"
+      },
+      "id": "140_001",
+      "global_id": 382
+    },
+    {
+      "scene_snapshot": "叶灵静听到方雨思夸奖她的舞蹈，感到惊喜。",
+      "interlocutor_info": {
+        "name": "方雨思",
+        "relationship_tag": "崇拜的偶像"
+      },
+      "trigger": {
+        "sender": "张雅涵",
+        "content": "是啊，刚才方小姐都夸奖你的舞跳得真的很好哦。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "兴奋的粉丝",
+        "inner_monologue": "天啊，方小姐真的夸我了，这太不可思议了！",
+        "external_action": "一下子睁大了眼睛，惊喜万分",
+        "speech_text": "真、真的吗？",
+        "mood_state": "excited"
+      },
+      "id": "140_002",
+      "global_id": 383
+    },
+    {
+      "scene_snapshot": "叶灵静被东方路鼓励去向方雨思要签名。",
+      "interlocutor_info": {
+        "name": "东方路",
+        "relationship_tag": "学生会主席/帮助者"
+      },
+      "trigger": {
+        "sender": "东方路",
+        "content": "你不是一向很崇拜方小姐吗。现在可以向方小姐要签名了，还不把握机会？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "犹豫而期待的学生",
+        "inner_monologue": "我真的可以要签名吗？今天不是说不能要吗？",
+        "external_action": null,
+        "speech_text": "真的可以吗？不是说今天……",
+        "mood_state": "hesitant"
+      },
+      "id": "140_003",
+      "global_id": 384
+    },
+    {
+      "scene_snapshot": "叶灵静确认可以要签名后，准备去拿本子。",
+      "interlocutor_info": {
+        "name": "东方路",
+        "relationship_tag": "学生会主席/帮助者"
+      },
+      "trigger": {
+        "sender": "东方路",
+        "content": "那还不快去拿签名的东西来，你难道希望方小姐替你签在衣服上吗？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "俏皮而感激的学生",
+        "inner_monologue": "哈哈，东方路真会开玩笑，我得赶紧去拿本子。",
+        "external_action": "吐了吐舌头",
+        "speech_text": "可惜衣服不是我的，否则倒真的想要哦……我去拿本子过来。",
+        "mood_state": "playful"
+      },
+      "id": "140_004",
+      "global_id": 385
+    }
+  ]
+}

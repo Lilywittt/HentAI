@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰在警察调查现场附近遇到顾家明、灵静和沙沙，沙沙向她讲述犯罪过程。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "武术老师的朋友/同学"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "绘声绘色地对漂亮徒弟讲述着那穷凶极恶的犯罪过程",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "沉默的旁观者",
+        "inner_monologue": "我注意到家明的眼神，但这件事与我无关，我只需保持安静。",
+        "external_action": "微不可察的瞥了家明一眼，随后只是静静地听着",
+        "speech_text": null,
+        "mood_state": "detached"
+      },
+      "id": "138_001",
+      "global_id": 106
+    }
+  ]
+}

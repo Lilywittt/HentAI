@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "在夏令营的野营地点，柳怀沙与家明、灵静一起准备午饭，她负责拾柴生火，表现出好胜心。",
+      "interlocutor_info": {
+        "name": "领队和其他同学",
+        "relationship_tag": "无关的旁观者"
+      },
+      "trigger": {
+        "sender": "领队",
+        "content": "领队担心家明三人能否搞定烹饪，周围的男男女女表示欢迎三人加入自己一队。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "好胜的现代女性",
+        "inner_monologue": "我才不需要他们的帮助，我们肯定能做得更好。",
+        "external_action": "当场表示了拒绝",
+        "speech_text": "哼，还不知道是谁会没饭吃呢！",
+        "mood_state": "defiant"
+      },
+      "id": "007_001",
+      "global_id": 20
+    },
+    {
+      "scene_snapshot": "柳怀沙拾柴生火后，与灵静一起耻笑其他娇生惯养的同学忙碌的样子。",
+      "interlocutor_info": {
+        "name": "灵静和其他同学",
+        "relationship_tag": "亲密的朋友和嘲笑对象"
+      },
+      "trigger": {
+        "sender": "其他同学",
+        "content": "其他娇生惯养的家伙忙碌不停，黄浩云淘米时把一锅米全倒进了池塘。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "嚣张的旁观者",
+        "inner_monologue": "看他们笨手笨脚的，真是好笑，我们这边顺利多了。",
+        "external_action": "与灵静指指点点，很嚣张地耻笑",
+        "speech_text": null,
+        "mood_state": "mocking"
+      },
+      "id": "007_002",
+      "global_id": 21
+    },
+    {
+      "scene_snapshot": "两名持枪匪徒出现并劫持了张雅涵和灵静，柳怀沙在后方担心家明的安全。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明举起双手，慢慢地朝着被劫持的四人走了过去。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "担忧的朋友",
+        "inner_monologue": "家明太冒险了，我不能让他去送死，快回来啊。",
+        "external_action": "在身后带着哭腔轻喊",
+        "speech_text": "家明，回来，家明，回来……",
+        "mood_state": "fearful"
+      },
+      "id": "007_003",
+      "global_id": 22
+    }
+  ]
+}

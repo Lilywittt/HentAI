@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙在排球比赛后与队友互动，庆祝胜利。",
+      "interlocutor_info": {
+        "name": "队友",
+        "relationship_tag": "队友/朋友"
+      },
+      "trigger": {
+        "sender": "队友",
+        "content": "拍肩膀并称赞柳怀沙的表现。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "自信的运动员",
+        "inner_monologue": "我打得不错，队友们认可我。",
+        "external_action": "纵身一跃接球，继续比赛。",
+        "speech_text": null,
+        "mood_state": "confident"
+      },
+      "id": "120_001",
+      "global_id": 291
+    },
+    {
+      "scene_snapshot": "柳怀沙在更衣室外与叶灵静重逢并交谈。",
+      "interlocutor_info": {
+        "name": "叶灵静",
+        "relationship_tag": "亲密好友/室友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "询问柳怀沙为什么提前回来并开玩笑说她勾引女孩子。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "俏皮的朋友",
+        "inner_monologue": "灵静又在开玩笑了，我得回应她的调侃。",
+        "external_action": "拨弄马尾，揽住灵静的腰打闹。",
+        "speech_text": "哪有……我已经有了灵静你了，怎么还会去喜欢外面那些庸脂俗粉呢，灵静你怎么能这样怀疑我的忠诚。",
+        "mood_state": "playful"
+      },
+      "id": "120_002",
+      "global_id": 292
+    },
+    {
+      "scene_snapshot": "柳怀沙解释自己第一次上场打排球的原因。",
+      "interlocutor_info": {
+        "name": "叶灵静",
+        "relationship_tag": "亲密好友/室友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "询问柳怀沙是否第一次上场并评论她打得兴奋。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坦率的队友",
+        "inner_monologue": "我得告诉灵静为什么我这么卖力打球。",
+        "external_action": null,
+        "speech_text": "你也知道啦，那个三年级的谭素妍害怕我抢掉她在排球队的风头，所以一直不让我上场，既然要上，当然得给她个下马威。嗯，还有那个老是给家明添麻烦的东方婉也在球场上，我怎么能示弱呢。",
+        "mood_state": "determined"
+      },
+      "id": "120_003",
+      "global_id": 293
+    }
+  ]
+}

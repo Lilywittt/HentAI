@@ -1,0 +1,196 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明挟持曹东峰，带着沙沙和月池薰退向伐木场后方，沙沙担心地望着受伤的家明。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明以曹东峰为人质，满口鲜血，陷入疯狂状态，匕首挑断沙沙身上的绳索，大喊着让所有人退开。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "担忧的同伴",
+        "inner_monologue": "他一定很痛，很害怕吧，他到底是从哪里得来现在的这种勇气呢？",
+        "external_action": "一面跟随着，一面担心地望着此时的家明。",
+        "speech_text": null,
+        "mood_state": "担忧"
+      },
+      "id": "034_001",
+      "global_id": 97
+    },
+    {
+      "scene_snapshot": "沙沙回想家明平时在武馆的表现，对比他现在的勇敢行动。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/保护者"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "家明刚才使用格斗技巧救出沙沙，动作灵敏迅速，但沙沙看到他手臂和身躯微微颤抖。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "观察者",
+        "inner_monologue": "然而在刚才，他的那几下动作，却很明显都是叶叔叔兴之所至曾经教过的几个格斗技巧，冲过去，抓人，躲避，一系列动作灵敏迅速，一气呵成，甚至连那个变态的日本老头都没有跟上。但在他的身边，自己却很明显地看到了他手臂和身躯的微微颤抖。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "困惑"
+      },
+      "id": "034_002",
+      "global_id": 98
+    },
+    {
+      "scene_snapshot": "沙沙思考退路，看到家明半疯狂状态，内心复杂。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/保护者"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "三人退到伐木场后方，沙沙意识到退路不理想，看到家明半疯狂状态。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "自责的同伴",
+        "inner_monologue": "从来都是自己和灵静在保护他的，现在却因为自己家里的原因，让他挨了打，变成这样。不过，望着他这样歇斯底里地保护着自己，迫退所有虎视眈眈的坏人，心中又有一丝莫名的甜意。",
+        "external_action": "想了一想，她又望了望身边半疯狂状态的家明。",
+        "speech_text": null,
+        "mood_state": "自责"
+      },
+      "id": "034_003",
+      "global_id": 99
+    },
+    {
+      "scene_snapshot": "家明要求沙沙先走，沙沙拒绝并哭泣。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明大喊要求沙沙必须走，自己留下拖住敌人。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "固执的同伴",
+        "inner_monologue": "我不走，要走我们一块走，我不能留下你在这里……",
+        "external_action": "沙沙摇着头，满脸都是泪水。",
+        "speech_text": "我不走，要走我们一块走，我不能留下你在这里……",
+        "mood_state": "悲伤"
+      },
+      "id": "034_004",
+      "global_id": 100
+    },
+    {
+      "scene_snapshot": "沙沙自责因家庭背景连累家明，拒绝离开。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明继续催促沙沙离开。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "自责的同伴",
+        "inner_monologue": "是我害你被打的，要是我爸爸不是黑道的……",
+        "external_action": null,
+        "speech_text": "是我害你被打的，要是我爸爸不是黑道的……",
+        "mood_state": "内疚"
+      },
+      "id": "034_005",
+      "global_id": 101
+    },
+    {
+      "scene_snapshot": "家明踢了沙沙一脚，沙沙委屈哭泣。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明一脚踢在沙沙肚子上，让她踉跄摔倒。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "受伤的同伴",
+        "inner_monologue": "家明，你踢我……",
+        "external_action": "捂着肚子站起来，她委屈地哭道。",
+        "speech_text": "家明，你踢我……",
+        "mood_state": "委屈"
+      },
+      "id": "034_006",
+      "global_id": 102
+    },
+    {
+      "scene_snapshot": "家明道歉并解释害怕，沙沙哭泣更厉害。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明道歉，解释自己害怕但必须留下，要求沙沙逃走叫警察。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "感动的同伴",
+        "inner_monologue": "眼望着此时的家明，沙沙更加哭得厉害了起来。",
+        "external_action": "眼望着此时的家明，沙沙更加哭得厉害了起来。",
+        "speech_text": null,
+        "mood_state": "感动"
+      },
+      "id": "034_007",
+      "global_id": 103
+    },
+    {
+      "scene_snapshot": "沙沙同意离开，但要求家明答应逃走并让她亲一口。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/保护者"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "家明解释后，沙沙情绪平复一些。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "深情的同伴",
+        "inner_monologue": "好……我一定会叫警察过来的，但是家明你要答应我，一定也要逃走，不能被他们抓到了啊。还有……你可不可以……让我亲一口……",
+        "external_action": null,
+        "speech_text": "好……我一定会叫警察过来的，但是家明你要答应我，一定也要逃走，不能被他们抓到了啊。还有……你可不可以……让我亲一口……",
+        "mood_state": "深情"
+      },
+      "id": "034_008",
+      "global_id": 104
+    },
+    {
+      "scene_snapshot": "沙沙亲吻家明嘴角的鲜血，然后哭泣着跑进树林。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/保护者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明惊愕地同意亲吻。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "决绝的同伴",
+        "inner_monologue": "柔软湿滑的小舌伸了出来，直到舔去了家明嘴角的鲜血，方才停下来。",
+        "external_action": "沙沙走了过来，柔软的双唇贴上来，却并非对着家明的嘴，而是贴上他嘴角的那些鲜血。随后，她一抹眼泪，轻声哭泣着朝树林深处跑了进去。",
+        "speech_text": null,
+        "mood_state": "决绝"
+      },
+      "id": "034_009",
+      "global_id": 105
+    }
+  ]
+}

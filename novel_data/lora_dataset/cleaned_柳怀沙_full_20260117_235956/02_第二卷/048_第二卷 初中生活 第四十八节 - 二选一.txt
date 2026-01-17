@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在游泳池中游泳，与灵静、家明和雅涵一起享受悠闲的暑假时光。",
+      "interlocutor_info": {
+        "name": "张雅涵",
+        "relationship_tag": "新加入的家庭成员，视为大姐头"
+      },
+      "trigger": {
+        "sender": "张雅涵",
+        "content": "雅涵在塑胶床上舒展四肢，发出满足的呻吟，表达对自由人生的幸福感。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "活泼开朗的少女",
+        "inner_monologue": "雅涵姐真会享受，这种生活太棒了。",
+        "external_action": "在游泳池中舒展游动",
+        "speech_text": null,
+        "mood_state": "relaxed"
+      },
+      "id": "048_001",
+      "global_id": 138
+    },
+    {
+      "scene_snapshot": "雅涵生病后，沙沙和灵静一起送她去医院，在车上安慰她。",
+      "interlocutor_info": {
+        "name": "张雅涵",
+        "relationship_tag": "生病需要帮助的朋友"
+      },
+      "trigger": {
+        "sender": "张雅涵",
+        "content": "雅涵虚弱地请求不要送她回张家结婚，想和家明、灵静、沙沙在一起。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心朋友、情感丰富的女孩",
+        "inner_monologue": "雅涵姐好可怜，我一定要帮她，不能让她回去受苦。",
+        "external_action": "哭成泪人，安慰雅涵",
+        "speech_text": null,
+        "mood_state": "sad"
+      },
+      "id": "048_002",
+      "global_id": 139
+    }
+  ]
+}

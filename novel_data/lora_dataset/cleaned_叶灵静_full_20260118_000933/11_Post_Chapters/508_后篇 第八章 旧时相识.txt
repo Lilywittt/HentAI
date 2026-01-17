@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在家中沙发上用电脑查询沙特旅游信息，与家人讨论暑假旅行计划。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "丈夫"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "抱怨去沙特艾卜哈而不是利雅得，质疑艾卜哈有什么好玩的。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "温和反驳者",
+        "inner_monologue": "我得纠正家明的误解，艾卜哈其实是个不错的避暑地。",
+        "external_action": "捧着电脑，拿资料反驳",
+        "speech_text": "艾卜哈不错啊。艾卜哈是沙特的避暑胜地呢，说是夏天才不到三十度，就是要夏天去才好。",
+        "mood_state": "平静"
+      },
+      "id": "508_001",
+      "global_id": 999
+    },
+    {
+      "scene_snapshot": "在餐会上，叶灵静与小学同学靳姝萍重逢并互相介绍。",
+      "interlocutor_info": {
+        "name": "靳姝萍",
+        "relationship_tag": "小学同学"
+      },
+      "trigger": {
+        "sender": "靳姝萍",
+        "content": "迟疑地询问叶灵静和顾家明是否是红星小学的同学。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "惊喜重逢者",
+        "inner_monologue": "天啊，居然是靳姝萍，这么多年没见了，真意外！",
+        "external_action": "吃惊地笑起来，拉着家明的手摇啊摇",
+        "speech_text": "不会吧。",
+        "mood_state": "惊喜"
+      },
+      "id": "508_002",
+      "global_id": 1000
+    },
+    {
+      "scene_snapshot": "叶灵静向靳姝萍介绍顾家明的情况，解释他们如何参加这次旅行。",
+      "interlocutor_info": {
+        "name": "靳姝萍",
+        "relationship_tag": "小学同学"
+      },
+      "trigger": {
+        "sender": "靳姝萍",
+        "content": "询问顾家明现在在做什么，对家明开小诊所表示疑惑。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "解释者",
+        "inner_monologue": "我得说明清楚，我们只是被邀请来旅游的，不是商业代表。",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "耐心"
+      },
+      "id": "508_003",
+      "global_id": 1001
+    },
+    {
+      "scene_snapshot": "叶灵静在飞机上与靳姝萍聊天，回忆往事并八卦经济界秘闻。",
+      "interlocutor_info": {
+        "name": "靳姝萍",
+        "relationship_tag": "小学同学"
+      },
+      "trigger": {
+        "sender": "靳姝萍",
+        "content": "分享经济界的秘闻和消息，与叶灵静八卦。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "倾听者",
+        "inner_monologue": "这些八卦听起来离奇但靠谱，我得认真听听。",
+        "external_action": "连连点头",
+        "speech_text": null,
+        "mood_state": "好奇"
+      },
+      "id": "508_004",
+      "global_id": 1002
+    }
+  ]
+}

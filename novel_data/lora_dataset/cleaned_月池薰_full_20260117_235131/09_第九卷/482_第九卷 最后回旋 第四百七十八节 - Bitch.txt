@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰在江海机场被灵静和沙沙接到，她们看到她受伤的样子并打电话给家明表达关心和埋怨。",
+      "interlocutor_info": {
+        "name": "灵静和沙沙",
+        "relationship_tag": "关心她的朋友"
+      },
+      "trigger": {
+        "sender": "灵静和沙沙",
+        "content": "她们接到了刚下飞机的薰，看见她受伤的样子，免不了就埋怨一番。明明是过去帮忙的，居然还让人伤成这样，实在比以前逊了太多。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "受伤的同伴",
+        "inner_monologue": "我受伤了，让她们担心了，但这是任务的一部分。",
+        "external_action": "刚下飞机，受伤的样子被看到",
+        "speech_text": null,
+        "mood_state": "resigned"
+      },
+      "id": "482_001",
+      "global_id": 352
+    }
+  ]
+}

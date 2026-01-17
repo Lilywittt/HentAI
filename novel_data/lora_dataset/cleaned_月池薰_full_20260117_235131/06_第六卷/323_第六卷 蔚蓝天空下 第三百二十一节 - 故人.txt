@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "在露营大巴上，天雨正则组织大家拍照，沙沙拉薰起来参与。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "薰，起来、起来照相啦。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "安静旁观者",
+        "inner_monologue": "我不想拍照，但沙沙是我的朋友，我不能让她失望。",
+        "external_action": "被沙沙拉起来，表情带着些许愕然和不情愿",
+        "speech_text": null,
+        "mood_state": "不情愿"
+      },
+      "id": "323_001",
+      "global_id": 225
+    },
+    {
+      "scene_snapshot": "江于薇介绍她的男朋友安迪给众人，薰被介绍时淡淡打招呼。",
+      "interlocutor_info": {
+        "name": "安迪",
+        "relationship_tag": "陌生人"
+      },
+      "trigger": {
+        "sender": "江于薇",
+        "content": "介绍安迪给众人，包括薰",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌但疏离",
+        "inner_monologue": "这个人我不认识，只是出于礼貌打个招呼。",
+        "external_action": "淡淡地回头打个招呼",
+        "speech_text": null,
+        "mood_state": "淡然"
+      },
+      "id": "323_002",
+      "global_id": 226
+    },
+    {
+      "scene_snapshot": "安迪在车上高谈阔论武术，薰始终倚在窗边看风景，不感兴趣。",
+      "interlocutor_info": {
+        "name": "安迪",
+        "relationship_tag": "陌生人"
+      },
+      "trigger": {
+        "sender": "安迪",
+        "content": "滔滔不绝地谈论武术见解，加大声音希望引起注意",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "漠不关心",
+        "inner_monologue": "我对这些话题没兴趣，只想安静看风景。",
+        "external_action": "始终倚在窗边看风景",
+        "speech_text": null,
+        "mood_state": "漠然"
+      },
+      "id": "323_003",
+      "global_id": 227
+    }
+  ]
+}

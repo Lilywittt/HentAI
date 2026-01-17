@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙在舞会中与顾家明互动，讨论她的去向和想法。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密伙伴/恋人"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "询问沙沙的去向",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调皮策划者",
+        "inner_monologue": "我正策划一个大胆的计划，需要喝酒壮胆，家明肯定猜不到我的真实意图。",
+        "external_action": "被顾家明提及她离开去喝酒壮胆，可能在思考或策划某事",
+        "speech_text": null,
+        "mood_state": "兴奋"
+      },
+      "id": "086_001",
+      "global_id": 239
+    },
+    {
+      "scene_snapshot": "柳怀沙被灵静和顾家明在对话中提及，讨论荒岛生活的幻想。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友/同居伙伴"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "开玩笑说荒岛上没有避孕措施，柳怀沙和灵静会生很多孩子",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "幽默参与者",
+        "inner_monologue": "家明又在开这种玩笑，不过我和灵静确实说过要割掉他的坏东西，这想法挺有趣的。",
+        "external_action": "被灵静引用她的话（帅割帅割）",
+        "speech_text": null,
+        "mood_state": "戏谑"
+      },
+      "id": "086_002",
+      "global_id": 240
+    }
+  ]
+}

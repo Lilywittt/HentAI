@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在敲铜锣游戏中走错方向，家明大声提醒她。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "男朋友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "眼见场地上的沙沙走错了方向，大喊几声“左边一点”",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "活泼好奇的女友",
+        "inner_monologue": "我得赶紧调整方向，别让家明和灵静等急了。",
+        "external_action": "走错方向后调整，敲到铜锣领到手链",
+        "speech_text": null,
+        "mood_state": "专注"
+      },
+      "id": "329_001",
+      "global_id": 531
+    },
+    {
+      "scene_snapshot": "沙沙看到人群聚集准备打架，兴奋地拉家明去看热闹。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "男朋友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "不远处的一块空草坪间，不少人围起了一个长方形的圈子，工作人员们从远处地车上拿来了照明灯光，周围的人大都兴致勃勃的样子",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "爱凑热闹的年轻女孩",
+        "inner_monologue": "这年头还有人为了女人打架？太有趣了，我得拉家明一起去看看。",
+        "external_action": "拉着家明要过去看热闹",
+        "speech_text": "什么啊。这年头还有人会为了女人打架？弄这么大……",
+        "mood_state": "兴奋"
+      },
+      "id": "329_002",
+      "global_id": 532
+    },
+    {
+      "scene_snapshot": "沙沙和灵静一起玩DV机，家明教她们操作。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "男朋友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明将镜头扫过整个场地四周，沙沙和灵静大感兴趣地从家明手中抢了过来玩",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "好奇的学习者",
+        "inner_monologue": "这DV机真好玩，我得和灵静一起多学学怎么用。",
+        "external_action": "从家明手中抢过DV机玩，和灵静说笑",
+        "speech_text": null,
+        "mood_state": "开心"
+      },
+      "id": "329_003",
+      "global_id": 533
+    },
+    {
+      "scene_snapshot": "谭君荣试图介入教DV操作，但沙沙和灵静在家明身边说笑不理他。",
+      "interlocutor_info": {
+        "name": "谭君荣",
+        "relationship_tag": "不熟悉的追求者（对灵静）"
+      },
+      "trigger": {
+        "sender": "谭君荣",
+        "content": "谭君荣熟络地走了过来，笑着说道：“嗨，玩DV吗？这个我知道，我教你们啊。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "支持男友的伴侣",
+        "inner_monologue": "这家伙又来搭讪灵静了，我得和灵静一起在家明身边，别让他得逞。",
+        "external_action": "和灵静在家明身体的另一侧说笑着，仿佛谭君荣不存在",
+        "speech_text": null,
+        "mood_state": "冷淡"
+      },
+      "id": "329_004",
+      "global_id": 534
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静独自躲在黑暗的角落里，担心顾家明的安危，听到枪声和惨叫声后情绪崩溃。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "深爱的男友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "顾家明消失在黑暗中，远处传来枪声和惨叫声，暗示危险发生。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "担忧的恋人",
+        "inner_monologue": "家明要去干什么，他说的什么秘密，他……会不会有事……",
+        "external_action": "双手紧紧捧着热咖啡，在角落里缩成一团，眼泪夺眶而出，低声哭喊家明的名字。",
+        "speech_text": "家明……家明……",
+        "mood_state": "恐惧"
+      },
+      "id": "093_001",
+      "global_id": 268
+    },
+    {
+      "scene_snapshot": "顾家明安全返回，叶灵静冲到他怀里哭泣，表达失而复得的喜悦。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "深爱的男友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "顾家明出现在门口，放下枪支，略带歉意地道歉。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "激动的恋人",
+        "inner_monologue": "这一刻，她在乎的不是其他的任何事情，而仅仅是：家明还活着……",
+        "external_action": "哇的一声冲到顾家明怀里，嘤嘤地哭泣。",
+        "speech_text": null,
+        "mood_state": "释然"
+      },
+      "id": "093_002",
+      "global_id": 269
+    },
+    {
+      "scene_snapshot": "顾家明解释自己的秘密过去，叶灵静打断并表达对他的喜爱和支持。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "深爱的男友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "顾家明讲述自己过去的经历和选择隐藏能力的原因。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "支持的女友",
+        "inner_monologue": "我……好喜欢好喜欢这样的顾家明……",
+        "external_action": "笑着紧搂住他的脖子。",
+        "speech_text": "所以家明你就再也不在人前逞能了？他们让你上擂台的时候，你也就只是逃跑，坚决不出手了，对吗？",
+        "mood_state": "深情"
+      },
+      "id": "093_003",
+      "global_id": 270
+    },
+    {
+      "scene_snapshot": "叶灵静要求顾家明在危险中保护自己，并设定新规则。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "深爱的男友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "顾家明安慰叶灵静不要担心，暗示自己有能力保护自己。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坚定的伴侣",
+        "inner_monologue": "我和沙沙才不要放心呢，要是还有这样的事情，你一定不准乱出手，否则，我就和沙沙一块过去找你，要是死掉了，让你后悔一辈子！",
+        "external_action": "不满地打断顾家明的话。",
+        "speech_text": "不要。什么事情都会有危险的，何况这种事情，他们拿的是枪啊，子弹乱飞，谁也躲不过去的，只要稍微一个不小心就有可能被打中了。不，小心也没什么用……我和沙沙才不要放心呢，要是还有这样的事情，你一定不准乱出手，否则，我就和沙沙一块过去找你，要是死掉了，让你后悔一辈子！",
+        "mood_state": "坚决"
+      },
+      "id": "093_004",
+      "global_id": 271
+    },
+    {
+      "scene_snapshot": "叶灵静与顾家明在紧张环境中嬉闹，缓解压力。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "深爱的男友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "顾家明开玩笑地回应叶灵静的试探。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "调皮的恋人",
+        "inner_monologue": "我就试了。哼，让你撞我……",
+        "external_action": "在家明额头上敲了一下，笑着挣扎和讨饶。",
+        "speech_text": "那……你现在是平时的家明吗？",
+        "mood_state": "俏皮"
+      },
+      "id": "093_005",
+      "global_id": 272
+    },
+    {
+      "scene_snapshot": "叶灵静跟随顾家明在黑暗中潜行，学习开枪并参与战斗。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "深爱的男友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "前后都有敌人接近，电光晃动，情况危急。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "勇敢的助手",
+        "inner_monologue": "前面、后面都来人了，怎么办、怎么办……虽然是危急关头，但是我们的灵静很镇定，她记起了家明说的话，她不要成为家明的累赘。",
+        "external_action": "确定了弹夹，拉枪栓、扣扳机，开枪射击敌人。",
+        "speech_text": null,
+        "mood_state": "镇定"
+      },
+      "id": "093_006",
+      "global_id": 273
+    },
+    {
+      "scene_snapshot": "叶灵静在战斗后向顾家明道歉，顾家明安慰她。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "深爱的男友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "叶灵静为自己可能添麻烦而道歉。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "自责的伴侣",
+        "inner_monologue": "对、对不起……家明……",
+        "external_action": null,
+        "speech_text": "对、对不起……家明……",
+        "mood_state": "愧疚"
+      },
+      "id": "093_007",
+      "global_id": 274
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "薰在寒假期间选择留在江海，并受邀住进了武馆，与灵静和沙沙一起生活。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "朋友/邀请者"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "邀请薰住进武馆",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "安静礼貌的日本少女",
+        "inner_monologue": "我选择留在江海，能和朋友一起生活，这让我感到安心。",
+        "external_action": "接受了邀请，住进了武馆",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "368_001",
+      "global_id": 251
+    },
+    {
+      "scene_snapshot": "薰在武馆中表现出良好的礼仪，赢得了叶爸叶妈的好感。",
+      "interlocutor_info": {
+        "name": "叶爸叶妈",
+        "relationship_tag": "长辈/寄宿家庭"
+      },
+      "trigger": {
+        "sender": "叶爸叶妈",
+        "content": "观察薰的行为举止",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "文静温和的日本少女",
+        "inner_monologue": "我受的是日本家庭教育，必须保持礼仪，不能让他们失望。",
+        "external_action": "表现出极好的礼仪",
+        "speech_text": null,
+        "mood_state": "恭敬"
+      },
+      "id": "368_002",
+      "global_id": 252
+    },
+    {
+      "scene_snapshot": "薰在武馆中写寒假作业，导致文具经常失踪，给家明带来不便。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "朋友/间接受影响者"
+      },
+      "trigger": {
+        "sender": "薰",
+        "content": "在武馆写寒假作业，文具散落各处",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "粗心但专注的学生",
+        "inner_monologue": "我专注于作业，没注意到文具放乱了，希望不会太打扰别人。",
+        "external_action": "写作业导致文具失踪在沙发缝等处",
+        "speech_text": null,
+        "mood_state": "专注"
+      },
+      "id": "368_003",
+      "global_id": 253
+    }
+  ]
+}

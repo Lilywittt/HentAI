@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "月池薰从昏迷中醒来，被变态老头扛在肩上走向木料加工厂，她暗中准备用鹅卵石反击。",
+      "interlocutor_info": {
+        "name": "变态老头",
+        "relationship_tag": "敌人"
+      },
+      "trigger": {
+        "sender": "变态老头",
+        "content": "扛着月池薰走路，没有直接对话或行动针对她，但环境压迫导致她疼痛。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "隐忍的复仇者",
+        "inner_monologue": "我必须抓住机会反击，即使双手受伤，这块石头是我唯一的武器。",
+        "external_action": "身体静得像死了一样，缓慢移动鹅卵石从衣袖滑下。",
+        "speech_text": null,
+        "mood_state": "determined"
+      },
+      "id": "036_001",
+      "global_id": 13
+    },
+    {
+      "scene_snapshot": "老头闻到血腥味并听到枪声，月池薰趁机从肩上飞起，用鹅卵石攻击他。",
+      "interlocutor_info": {
+        "name": "变态老头",
+        "relationship_tag": "敌人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "枪响和血腥味分散了老头的注意力。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "敏捷的刺客",
+        "inner_monologue": "现在是最好的时机，用池樱千幻攻击他的后脑。",
+        "external_action": "身体飞起，和服旋转，用鹅卵石划向老头的颈项和后脑。",
+        "speech_text": null,
+        "mood_state": "focused"
+      },
+      "id": "036_002",
+      "global_id": 14
+    },
+    {
+      "scene_snapshot": "月池薰被老头抡飞摔在地上，身受重伤，但仍紧握石头。",
+      "interlocutor_info": {
+        "name": "变态老头",
+        "relationship_tag": "敌人"
+      },
+      "trigger": {
+        "sender": "变态老头",
+        "content": "抓住月池薰的衣服将她抡飞出去。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "顽强的幸存者",
+        "inner_monologue": "我伤得太重了，但绝不能放弃，这块石头是我最后的希望。",
+        "external_action": "摔在地上挣扎，口中吐血，右手仍紧握石头。",
+        "speech_text": null,
+        "mood_state": "resigned"
+      },
+      "id": "036_003",
+      "global_id": 15
+    },
+    {
+      "scene_snapshot": "老头查看后脑伤口并挑衅月池薰，她头晕目眩地看到广场上的尸体和男孩。",
+      "interlocutor_info": {
+        "name": "变态老头",
+        "relationship_tag": "敌人"
+      },
+      "trigger": {
+        "sender": "变态老头",
+        "content": "笑着说“薰，你这次偷袭没有成功，可以再来一次……”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "观察者",
+        "inner_monologue": "他在试探我，但我已经无力再战，必须看清周围情况。",
+        "external_action": "挣扎侧身，和老头一起望向广场上的尸体和男孩。",
+        "speech_text": null,
+        "mood_state": "confused"
+      },
+      "id": "036_004",
+      "global_id": 16
+    },
+    {
+      "scene_snapshot": "男孩清洗完武器后转身用日语打招呼，月池薰在迷惑中看着他。",
+      "interlocutor_info": {
+        "name": "男孩",
+        "relationship_tag": "未知人物"
+      },
+      "trigger": {
+        "sender": "男孩",
+        "content": "说“两位好久不见，真是巧遇啊。欢迎来到中国。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "警觉的受害者",
+        "inner_monologue": "这个孩子是谁？他怎么会说日语，而且这里发生了什么？",
+        "external_action": "在迷惑的视野中看着男孩。",
+        "speech_text": null,
+        "mood_state": "bewildered"
+      },
+      "id": "036_005",
+      "global_id": 17
+    }
+  ]
+}

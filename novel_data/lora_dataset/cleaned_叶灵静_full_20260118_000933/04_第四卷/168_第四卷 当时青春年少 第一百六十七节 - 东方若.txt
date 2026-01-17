@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静在中午吃饭时向家明表达了对雅涵态度变化的困惑。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密的朋友/恋人"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "上午的时候遇见雅涵姐了，跟我说话的感觉好尴尬……老实说我还以为她会说我和沙沙一顿呢，她没有说，我又觉得好别扭，认识雅涵姐几年了，第一次觉得我们像是陌生人一样……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "困惑而敏感的朋友",
+        "inner_monologue": "我本以为雅涵姐会像以前一样责备我们，但她没有，这反而让我感到不安，好像我们之间的亲密关系突然消失了。",
+        "external_action": "在吃饭时向家明倾诉",
+        "speech_text": "上午的时候遇见雅涵姐了，跟我说话的感觉好尴尬……老实说我还以为她会说我和沙沙一顿呢，她没有说，我又觉得好别扭，认识雅涵姐几年了，第一次觉得我们像是陌生人一样……",
+        "mood_state": "困惑"
+      },
+      "id": "168_001",
+      "global_id": 458
+    }
+  ]
+}

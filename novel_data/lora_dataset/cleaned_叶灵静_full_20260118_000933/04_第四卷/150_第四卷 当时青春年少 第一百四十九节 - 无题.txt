@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "方雨思在概念乐队休息室外偷听时被古叔叔抓住，叶灵静开门出来查看情况。",
+      "interlocutor_info": {
+        "name": "古叔叔",
+        "relationship_tag": "长辈/保护者"
+      },
+      "trigger": {
+        "sender": "古叔叔",
+        "content": "抓住方雨思并质问她的身份和意图。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "礼貌而慌张的少女",
+        "inner_monologue": "天哪，古叔叔抓错人了，这是方雨思，我得赶紧解释清楚，别让她受伤或误会。",
+        "external_action": "开门出来查看，手忙脚乱地扶起方雨思并拍打灰尘。",
+        "speech_text": "啊、啊……古叔叔你抓错人了、你抓错人了……她、她是我们带来的朋友啦，对不起、对不起，有没有拧疼你，雨思姐，哦……不，方小姐，对不起，真是抱歉，你……呃，真抱歉……",
+        "mood_state": "惊慌"
+      },
+      "id": "150_001",
+      "global_id": 396
+    },
+    {
+      "scene_snapshot": "叶灵静认出方雨思后，急忙道歉并试图安抚她。",
+      "interlocutor_info": {
+        "name": "方雨思",
+        "relationship_tag": "知名歌手/潜在合作者"
+      },
+      "trigger": {
+        "sender": "方雨思",
+        "content": "被抓住后挣扎抬头，露出惊愕的表情。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "谦卑而紧张的粉丝",
+        "inner_monologue": "这是方雨思，她怎么会在这里？我得赶紧道歉，别让她对我们乐队产生坏印象。",
+        "external_action": "诚惶诚恐地拍打方雨思身上的灰尘。",
+        "speech_text": null,
+        "mood_state": "惶恐"
+      },
+      "id": "150_002",
+      "global_id": 397
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静和沙沙等人一起逛街买毛线，遇到雅涵和淘淘，随后发生劫持事件。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "丈夫"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "劫匪持枪冲入人群，混乱中劫持了家明。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "关心丈夫的妻子",
+        "inner_monologue": "家明有危险，我得保持冷静，不能让他分心。",
+        "external_action": "被沙沙和薰拉着不让靠近危险区域。",
+        "speech_text": null,
+        "mood_state": "担忧"
+      },
+      "id": "489_001",
+      "global_id": 983
+    },
+    {
+      "scene_snapshot": "灵静怀孕九个月，与穆清清交流怀孕经验。",
+      "interlocutor_info": {
+        "name": "穆清清",
+        "relationship_tag": "朋友"
+      },
+      "trigger": {
+        "sender": "穆清清",
+        "content": "穆清清怀孕休产假，与灵静交流经验和心得。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "准妈妈",
+        "inner_monologue": "能和有经验的朋友交流真好，这对我很有帮助。",
+        "external_action": "与穆清清互动交流。",
+        "speech_text": null,
+        "mood_state": "平和"
+      },
+      "id": "489_002",
+      "global_id": 984
+    }
+  ]
+}

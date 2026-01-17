@@ -1,0 +1,238 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "黄浩兵带着一群孩子冲过来要欺负顾家明，叶灵静挺身而出保护他。",
+      "interlocutor_info": {
+        "name": "黄浩兵",
+        "relationship_tag": "欺负人的同学"
+      },
+      "trigger": {
+        "sender": "黄浩兵",
+        "content": "黄浩兵带着一群孩子冲过来，目标是顾家明。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "保护者",
+        "inner_monologue": "我必须保护家明，不能让他们欺负他。",
+        "external_action": "站到顾家明身前，摆开武打姿势。",
+        "speech_text": "“黄浩兵！你要干什么！？”",
+        "mood_state": "警惕"
+      },
+      "id": "003_001",
+      "global_id": 9
+    },
+    {
+      "scene_snapshot": "黄浩兵挑衅叶灵静，试图绕过她直接对付顾家明。",
+      "interlocutor_info": {
+        "name": "黄浩兵",
+        "relationship_tag": "欺负人的同学"
+      },
+      "trigger": {
+        "sender": "黄浩兵",
+        "content": "“哼，叶灵静，我是找他，又不是找你，你让开！”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "捍卫者",
+        "inner_monologue": "他以为放假了就能为所欲为，但我绝不会退缩。",
+        "external_action": "继续挡在顾家明身前。",
+        "speech_text": "“哼，你们老是欺负他，我不许你欺负他！”",
+        "mood_state": "坚定"
+      },
+      "id": "003_002",
+      "global_id": 10
+    },
+    {
+      "scene_snapshot": "黄浩兵继续挑衅，强调放假后叶灵静无法告状。",
+      "interlocutor_info": {
+        "name": "黄浩兵",
+        "relationship_tag": "欺负人的同学"
+      },
+      "trigger": {
+        "sender": "黄浩兵",
+        "content": "“哼，现在放假了，你又不能去老师那里告状，叶灵静，你别以为我怕你！”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "勇敢者",
+        "inner_monologue": "他以为我怕他？我才不会示弱。",
+        "external_action": "摆出武打姿势，毫不退缩。",
+        "speech_text": "“哼，我也不怕你！”",
+        "mood_state": "无畏"
+      },
+      "id": "003_003",
+      "global_id": 11
+    },
+    {
+      "scene_snapshot": "黄浩兵试图让陈明代打，叶灵静识破并拒绝。",
+      "interlocutor_info": {
+        "name": "黄浩兵",
+        "relationship_tag": "欺负人的同学"
+      },
+      "trigger": {
+        "sender": "黄浩兵",
+        "content": "“不过跟你打还用我出手吗？陈明，你帮我打她，我的对手是顾家明，家明，你别想跑！”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "机智者",
+        "inner_monologue": "他想耍花招，我才不会上当。",
+        "external_action": "大声反驳。",
+        "speech_text": "“你羞羞脸，黄浩兵，你自己出来跟我打。”",
+        "mood_state": "愤怒"
+      },
+      "id": "003_004",
+      "global_id": 12
+    },
+    {
+      "scene_snapshot": "黄浩兵嘲笑叶灵静是顾家明的老婆，引发群体起哄。",
+      "interlocutor_info": {
+        "name": "黄浩兵",
+        "relationship_tag": "欺负人的同学"
+      },
+      "trigger": {
+        "sender": "黄浩兵",
+        "content": "“难道你是他的老婆？哦！叶灵静是顾家明的老婆哦！羞羞脸，不要脸……”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "受害者",
+        "inner_monologue": "他们怎么能这样说？这太伤人了，我好想哭。",
+        "external_action": "眼中有了雾气，快要哭出来。",
+        "speech_text": "“你们欺负我！”",
+        "mood_state": "委屈"
+      },
+      "id": "003_005",
+      "global_id": 13
+    },
+    {
+      "scene_snapshot": "叶灵静在委屈中爆发，踢倒陈明并开始打他。",
+      "interlocutor_info": {
+        "name": "陈明",
+        "relationship_tag": "黄浩兵的跟班"
+      },
+      "trigger": {
+        "sender": "陈明",
+        "content": "陈明被黄浩兵指派出来代打，挡在前面。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "反击者",
+        "inner_monologue": "我受不了了，我要反击！",
+        "external_action": "飞起一脚踢倒陈明，然后按倒他拼命打。",
+        "speech_text": null,
+        "mood_state": "狂暴"
+      },
+      "id": "003_006",
+      "global_id": 14
+    },
+    {
+      "scene_snapshot": "顾家明拉起叶灵静想逃跑，但她不愿意。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "被保护的朋友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明拉起灵静说“快跑”。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "固执者",
+        "inner_monologue": "我不想跑，我要继续打他们。",
+        "external_action": "一面哭一面张牙舞爪地乱打，不愿被拉动。",
+        "speech_text": null,
+        "mood_state": "倔强"
+      },
+      "id": "003_007",
+      "global_id": 15
+    },
+    {
+      "scene_snapshot": "柳怀沙介入后，叶灵静破涕为笑并解释情况。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "新认识的女孩"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "柳怀沙用树枝指著家明说“还有你！”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "澄清者",
+        "inner_monologue": "她误会了，家明不是坏人。",
+        "external_action": "破涕为笑。",
+        "speech_text": "“不是啦。”",
+        "mood_state": "轻松"
+      },
+      "id": "003_008",
+      "global_id": 16
+    },
+    {
+      "scene_snapshot": "柳怀沙批评顾家明没出息，叶灵静为他辩护。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "新认识的女孩"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "“你一个男孩子，居然要女孩子保护，真没出息！”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "维护者",
+        "inner_monologue": "家明不是那样的，我得帮他说话。",
+        "external_action": "连忙为家明说话。",
+        "speech_text": "“没有啦，家明他本来就不会打架。”",
+        "mood_state": "维护"
+      },
+      "id": "003_009",
+      "global_id": 17
+    },
+    {
+      "scene_snapshot": "柳怀沙主动介绍自己，叶灵静迟疑后回应。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "新认识的女孩"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "“你好，我叫柳怀沙，你呢？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌者",
+        "inner_monologue": "她是隔壁学校的坏学生代表，但我应该礼貌回应。",
+        "external_action": "迟疑地伸出手。",
+        "speech_text": "“呃，我叫叶灵静。”",
+        "mood_state": "谨慎"
+      },
+      "id": "003_010",
+      "global_id": 18
+    },
+    {
+      "scene_snapshot": "柳怀沙询问叶灵静是否会武术，两人开始交流。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "新认识的女孩"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "“灵静，你真的会武术吗？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "自信者",
+        "inner_monologue": "我会很多武术，可以教她一些。",
+        "external_action": "聊天变得愉快。",
+        "speech_text": "“当然，我会咏春、太极、长拳、伏虎、柔道……”",
+        "mood_state": "热情"
+      },
+      "id": "003_011",
+      "global_id": 19
+    }
+  ]
+}

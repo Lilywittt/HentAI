@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙来到武馆声称要踢馆，并指名要与顾家明比试。",
+      "interlocutor_info": {
+        "name": "叶涵",
+        "relationship_tag": "武馆主人/长辈"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "柳怀沙鞠躬并说自己是来踢馆的，指向顾家明要跟他比试。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "挑战者/自信的初学者",
+        "inner_monologue": "我来踢馆是为了测试武馆的实力，如果连女孩子都比不过，学武还有什么意义？",
+        "external_action": "脱掉沾满积雪的火红短靴，手指可爱地在空中转圈。",
+        "speech_text": "不是，我是来……踢馆的！我要跟他比试！",
+        "mood_state": "determined"
+      },
+      "id": "004_001",
+      "global_id": 8
+    },
+    {
+      "scene_snapshot": "叶涵同意比试，柳怀沙准备与顾家明在擂台上对决。",
+      "interlocutor_info": {
+        "name": "叶灵静",
+        "relationship_tag": "武馆学员/朋友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "灵静偷偷跟柳怀沙说了些什么，柳怀沙点头后上了擂台。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "严肃的挑战者",
+        "inner_monologue": "我最讨厌要女孩子帮忙的男孩了，这次我要好好教训他。",
+        "external_action": "上了擂台，轻声说话。",
+        "speech_text": "我最讨厌要女孩子帮忙的男孩了，你等着吧！",
+        "mood_state": "disdainful"
+      },
+      "id": "004_002",
+      "global_id": 9
+    },
+    {
+      "scene_snapshot": "比试开始，柳怀沙追逐逃跑的顾家明，但抓不住他。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "对手/被鄙视的男孩"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明喊“救命啊”并逃跑，柳怀沙追不上他。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "挫败的追逐者",
+        "inner_monologue": "这个男孩怎么这么能跑？父亲说过真正的男人应该勇敢面对挑战，他却只会逃跑，真让人看不起。",
+        "external_action": "大喊“不许跑”、“看我抓住你”、“你再跑我就杀了你”，并拼命追逐。",
+        "speech_text": "不许跑……看我抓住你……你再跑我就杀了你……",
+        "mood_state": "frustrated"
+      },
+      "id": "004_003",
+      "global_id": 10
+    },
+    {
+      "scene_snapshot": "柳怀沙追得气喘吁吁，喊停止比试，但被顾家明戏弄后愤怒反击。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "狡猾的对手"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明在柳怀沙喊停止后停住，笑着靠近并问是否平手。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "愤怒的失败者",
+        "inner_monologue": "他居然还敢笑我？我一定要抓住他报仇！",
+        "external_action": "大声喘息，目光斜瞥，然后突然张牙舞爪地扑过去。",
+        "speech_text": "我不来了！你就知道跑。啊——我要杀了你！",
+        "mood_state": "furious"
+      },
+      "id": "004_004",
+      "global_id": 11
+    },
+    {
+      "scene_snapshot": "柳怀沙被顾家明摔倒并压制在擂台上，拼命挣扎。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "压制者/对手"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明抱住柳怀沙的腰将她摔倒，并压住她的双手。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "无助的挣扎者",
+        "inner_monologue": "我竟然被这个男孩压制住了，太丢脸了！我一定要挣脱开。",
+        "external_action": "张牙舞爪地拼命挣扎，发出尖叫，试图咬人。",
+        "speech_text": "放开我！放开！啊——我要杀掉你——",
+        "mood_state": "humiliated"
+      },
+      "id": "004_005",
+      "global_id": 12
+    }
+  ]
+}

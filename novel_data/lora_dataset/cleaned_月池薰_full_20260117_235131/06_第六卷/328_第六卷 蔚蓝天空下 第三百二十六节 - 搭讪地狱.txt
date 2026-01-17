@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "薰在聚会中抱着斑点狗布偶，吸引了大量搭讪者，陷入尴尬境地。",
+      "interlocutor_info": {
+        "name": "搭讪者们",
+        "relationship_tag": "陌生人"
+      },
+      "trigger": {
+        "sender": "搭讪者们",
+        "content": "以各种理由接近和搭讪薰，人数越来越多，几乎将她淹没。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "安静而冰冷的少女",
+        "inner_monologue": "我抱着布偶时，气质变得柔和，但这些人为什么都围过来？这太烦人了。",
+        "external_action": "抱着斑点狗布偶，气质从冰冷变得柔和，显出青涩与稚嫩的气息。",
+        "speech_text": null,
+        "mood_state": "困扰"
+      },
+      "id": "328_001",
+      "global_id": 234
+    },
+    {
+      "scene_snapshot": "家明等人开溜，留下薰独自面对搭讪者，东方婉谴责他们没义气。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "朋友/保护者"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明拉着沙沙走开，并开玩笑说这是薰的考验，拒绝去当挡箭牌。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被遗弃的同伴",
+        "inner_monologue": "家明他们就这样走了？我独自面对这些搭讪者，真是无奈。",
+        "external_action": "被搭讪者围住，无法脱身。",
+        "speech_text": null,
+        "mood_state": "无奈"
+      },
+      "id": "328_002",
+      "global_id": 235
+    },
+    {
+      "scene_snapshot": "东方婉最终决定不去帮薰，推着若若离开，让薰自求多福。",
+      "interlocutor_info": {
+        "name": "东方婉",
+        "relationship_tag": "朋友"
+      },
+      "trigger": {
+        "sender": "东方婉",
+        "content": "东方婉嘟囔着抱怨，但最终推着若若离开，决定不去帮薰解围。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "孤立无援的少女",
+        "inner_monologue": "连东方婉也走了，我只能自己应付这些搭讪者了。",
+        "external_action": "继续被搭讪者纠缠。",
+        "speech_text": null,
+        "mood_state": "孤立"
+      },
+      "id": "328_003",
+      "global_id": 236
+    }
+  ]
+}

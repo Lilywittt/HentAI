@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在操场上给顾家明送苹果，并观看柳怀沙打排球。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "提着一只塑料袋出现在操场附近，朝教学楼挥手，待家明下来后递给他苹果",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "活泼体贴的朋友",
+        "inner_monologue": "我买了漂亮的苹果给家明和沙沙，还准备了矿泉水，我真有当球队经理的天分呢。",
+        "external_action": "递给家明一只洗过的大红苹果，自己也捧着一只，随后跳起来为沙沙加油",
+        "speech_text": "刚才在外面买的，真的很漂亮啊，给沙沙也买了一个，然后……还有矿泉水，给她们喝的，我发现我真的有当球队经理人的天分哦。",
+        "mood_state": "开心"
+      },
+      "id": "201_001",
+      "global_id": 522
+    },
+    {
+      "scene_snapshot": "叶灵静看到柳怀沙被排球砸中后，急忙上前帮忙处理鼻血。",
+      "interlocutor_info": {
+        "name": "柳怀沙",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "柳怀沙",
+        "content": "被排球砸中脸部，流着鼻血蹲下",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "关心照顾的朋友",
+        "inner_monologue": "沙沙受伤了，我得赶紧帮她止血，最近天气干燥她容易上火。",
+        "external_action": "拧开矿泉水冲沙沙的鼻子，让她仰脸坐着",
+        "speech_text": "当心。",
+        "mood_state": "担忧"
+      },
+      "id": "201_002",
+      "global_id": 523
+    }
+  ]
+}

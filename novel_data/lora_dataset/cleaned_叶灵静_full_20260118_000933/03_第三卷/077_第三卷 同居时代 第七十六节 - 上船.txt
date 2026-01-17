@@ -1,0 +1,154 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静和家明、沙沙一起吃早餐，讨论豪华海上旅游的事情。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "确定了豪华海上旅游的事情",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "活泼女友",
+        "inner_monologue": "我很高兴能和家明、沙沙一起出去玩，家明很少主动决定事情，但一旦他提出意见，我们都会照做。",
+        "external_action": "显得很高兴",
+        "speech_text": null,
+        "mood_state": "高兴"
+      },
+      "id": "077_001",
+      "global_id": 210
+    },
+    {
+      "scene_snapshot": "叶灵静和沙沙听说月池薰遇袭受伤，感到愤慨。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "打听到月池薰遇袭受伤的消息",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "关心朋友",
+        "inner_monologue": "这帮人太过分了，两年前是这样，现在又是这样，老是对着一个女孩子出手，还好薰被及时救出来了。",
+        "external_action": "大为愤慨",
+        "speech_text": null,
+        "mood_state": "愤慨"
+      },
+      "id": "077_002",
+      "global_id": 211
+    },
+    {
+      "scene_snapshot": "叶灵静和家明、沙沙去医院看望受伤的月池薰。",
+      "interlocutor_info": {
+        "name": "月池薰",
+        "relationship_tag": "朋友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "月池薰在医院接受治疗",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "体贴朋友",
+        "inner_monologue": "薰的伤势没什么大碍，但豪华旅行自然是没有她的份了，真可惜。",
+        "external_action": "跑去医院看望",
+        "speech_text": null,
+        "mood_state": "同情"
+      },
+      "id": "077_003",
+      "global_id": 212
+    },
+    {
+      "scene_snapshot": "叶灵静和沙沙兴奋地策划着家里要购置的东西。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "家明卖掉了多余的船票，获利七千多块",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "居家女友",
+        "inner_monologue": "我们可以买漂亮的沙发、茶几、洗衣机、热水器，再凑一些钱就能买电脑了，感觉像成了世界首富一样。",
+        "external_action": "兴奋地策划着家里要购置的东西",
+        "speech_text": null,
+        "mood_state": "兴奋"
+      },
+      "id": "077_004",
+      "global_id": 213
+    },
+    {
+      "scene_snapshot": "叶灵静和沙沙想念许久不见的小丑猫阿丑。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密朋友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "回忆阿丑被交给沙沙爸爸照顾",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "爱宠人士",
+        "inner_monologue": "阿丑会自己找东西吃，估计饿不死，但不知道有没有被其他的公猫勾引跑掉，好久不见，真有点想它。",
+        "external_action": "有些想它",
+        "speech_text": null,
+        "mood_state": "怀念"
+      },
+      "id": "077_005",
+      "global_id": 214
+    },
+    {
+      "scene_snapshot": "叶灵静在武馆与家明、沙沙会合，准备出发去港口。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "在以前晨练的地方跟两个女孩子会合",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "清丽女友",
+        "inner_monologue": "几个月都没有再来这里，感觉有些新鲜感，我穿着平时的白色外衣和长裙，还戴了耳坠，增添了点成熟感。",
+        "external_action": "倒仍然像平时一样的白色外衣、长裙飘逸，清丽可人，晶莹的耳垂上挂了一副小巧的耳坠",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "077_006",
+      "global_id": 215
+    },
+    {
+      "scene_snapshot": "叶灵静和家明、沙沙、雅涵一起到达港口，准备上船。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "小车到达港口，看见超大型游轮和周围的人群",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "好奇游客",
+        "inner_monologue": "这艘游轮真大，像白天鹅一样，周围好多名车和保镖，我们拿着行李准备上船了。",
+        "external_action": "拿着各自的行李往船上走去",
+        "speech_text": null,
+        "mood_state": "好奇"
+      },
+      "id": "077_007",
+      "global_id": 216
+    }
+  ]
+}

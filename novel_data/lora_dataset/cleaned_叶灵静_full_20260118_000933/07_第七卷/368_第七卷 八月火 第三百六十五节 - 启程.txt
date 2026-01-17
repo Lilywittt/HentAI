@@ -1,0 +1,154 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静在厨房询问家明为何突然想去巴黎。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "提议去巴黎旅行",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心朋友",
+        "inner_monologue": "家明怎么突然想去巴黎？我得问问清楚。",
+        "external_action": "从沙发上起来，用皮箍拢起脑后的头发，走向厨房",
+        "speech_text": "去巴黎？家明你怎么突然想着去那？",
+        "mood_state": "好奇"
+      },
+      "id": "368_001",
+      "global_id": 738
+    },
+    {
+      "scene_snapshot": "灵静支持与东方婉同行去巴黎。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "询问是否想一起去巴黎",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "体贴朋友",
+        "inner_monologue": "和东方婉一起去也好，可以互相照应。",
+        "external_action": "端了洗脸水，笑着从厨房出来",
+        "speech_text": "也好。正好一块过去，免得寒假里沙沙又是乱七八糟的不回家……",
+        "mood_state": "轻松"
+      },
+      "id": "368_002",
+      "global_id": 739
+    },
+    {
+      "scene_snapshot": "灵静猜测柳士杰在巴黎。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "提到有人在巴黎策划大案子",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "敏锐观察者",
+        "inner_monologue": "家明提到巴黎的大案子，难道是柳士杰？",
+        "external_action": "轻抚着鬓角的散发，眨了眨眼睛",
+        "speech_text": "柳士杰？",
+        "mood_state": "警觉"
+      },
+      "id": "368_003",
+      "global_id": 740
+    },
+    {
+      "scene_snapshot": "灵静决定不去巴黎，建议家明与东方婉同行。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "表示不去巴黎",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "体贴朋友",
+        "inner_monologue": "沙沙不去了，我也不去，但家明应该和东方婉一起去。",
+        "external_action": "拧干了毛巾递给家明",
+        "speech_text": "那我也不去了。那待会打个电话给小婉吧，家明，你跟她们一块去怎么样？会影响巴黎的事情吗？",
+        "mood_state": "关切"
+      },
+      "id": "368_004",
+      "global_id": 741
+    },
+    {
+      "scene_snapshot": "灵静调侃家明与东方婉的关系。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "解释去巴黎不是旅游",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "俏皮调侃者",
+        "inner_monologue": "东方婉对家明这么热心，说不定有意思呢。",
+        "external_action": "拿眼睛瞥他",
+        "speech_text": "人家那么诚心过来请你了，你明明要去，却非得自己走，那她也会不高兴地嘛，小婉那个人对谁都热心……哇喔，好像对你特别热心一点，她不会对你有意思吧？",
+        "mood_state": "戏谑"
+      },
+      "id": "368_005",
+      "global_id": 742
+    },
+    {
+      "scene_snapshot": "灵静与沙沙一起嘲笑家明的自夸。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "自夸内在美吸引女孩子",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "轻松朋友",
+        "inner_monologue": "家明又在自恋了，真受不了。",
+        "external_action": "与里屋的沙沙同时一笑",
+        "speech_text": "切——",
+        "mood_state": "愉悦"
+      },
+      "id": "368_006",
+      "global_id": 743
+    },
+    {
+      "scene_snapshot": "灵静在早晨为家明准备早餐并送行。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "家明准备出发去机场",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "细心照顾者",
+        "inner_monologue": "家明要走了，我得帮他准备好早餐。",
+        "external_action": "在厨房与叶妈妈一起准备早餐，挥手送别",
+        "speech_text": null,
+        "mood_state": "温暖"
+      },
+      "id": "368_007",
+      "global_id": 744
+    }
+  ]
+}

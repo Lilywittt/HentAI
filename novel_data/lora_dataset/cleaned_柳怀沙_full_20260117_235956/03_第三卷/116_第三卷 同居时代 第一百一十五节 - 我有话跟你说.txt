@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙和灵静在厨房准备菜肴，为雅涵追打家明加油。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "朋友/闺蜜"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "雅涵拿着抱枕追打家明，沙沙和灵静为她加油。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "支持者",
+        "inner_monologue": "我支持雅涵教训家明，他太可恶了。",
+        "external_action": "从厨房拿出菜肴和饮料，为雅涵加油。",
+        "speech_text": null,
+        "mood_state": "amused"
+      },
+      "id": "116_001",
+      "global_id": 277
+    },
+    {
+      "scene_snapshot": "沙沙和雅涵听灵静描述家明写歌的事，要求家明表演。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "男友/亲密伙伴"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静问起《东风破》的事情，描述宴会情景。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "质疑者",
+        "inner_monologue": "我不相信家明会写歌，他肯定是从别处学来的。",
+        "external_action": "瞪大眼睛，盯着家明。",
+        "speech_text": "肯定不是啦。我从来没见他碰过这些东西。",
+        "mood_state": "skeptical"
+      },
+      "id": "116_002",
+      "global_id": 278
+    },
+    {
+      "scene_snapshot": "沙沙关掉电视机，准备听家明弹唱《再别康桥》。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "男友/亲密伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明说要应景唱《再别康桥》送给雅涵。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "听众",
+        "inner_monologue": "我想听听家明唱什么，但我不太相信他的才华。",
+        "external_action": "关掉电视机。",
+        "speech_text": null,
+        "mood_state": "curious"
+      },
+      "id": "116_003",
+      "global_id": 279
+    },
+    {
+      "scene_snapshot": "沙沙和灵静交头接耳，对家明的表演表示惊叹。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "好友/闺蜜"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明唱完《再别康桥》，三人露出惊叹表情。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "分享者",
+        "inner_monologue": "家明唱得不错，但我和灵静私下讨论他的真实能力。",
+        "external_action": "和灵静交头接耳。",
+        "speech_text": null,
+        "mood_state": "impressed"
+      },
+      "id": "116_004",
+      "global_id": 280
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "谭君荣和杜丽在早餐后过来向灵静道歉，试图修复关系。",
+      "interlocutor_info": {
+        "name": "谭君荣",
+        "relationship_tag": "追求者"
+      },
+      "trigger": {
+        "sender": "谭君荣",
+        "content": "道歉并解释昨天的不当行为，试图接近灵静。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌但疏远",
+        "inner_monologue": "我对他没什么兴趣，保持距离就好。",
+        "external_action": "有礼貌但明显疏远的态度。",
+        "speech_text": null,
+        "mood_state": "冷淡"
+      },
+      "id": "333_001",
+      "global_id": 671
+    },
+    {
+      "scene_snapshot": "江于薇邀请灵静去爬山，为谭君荣制造机会，但被灵静拒绝。",
+      "interlocutor_info": {
+        "name": "江于薇",
+        "relationship_tag": "同学"
+      },
+      "trigger": {
+        "sender": "江于薇",
+        "content": "邀请灵静去爬山，试图说服她参加活动。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "友好但坚定",
+        "inner_monologue": "我不想参与这种活动，更不想被卷入谭君荣的事情中。",
+        "external_action": "笑着解释留在帐篷里下棋很有趣。",
+        "speech_text": "在帐篷里下游戏棋也很有趣啊。",
+        "mood_state": "平静"
+      },
+      "id": "333_002",
+      "global_id": 672
+    },
+    {
+      "scene_snapshot": "江于薇继续纠缠灵静，沙沙不耐烦地介入并揭露江于薇的意图。",
+      "interlocutor_info": {
+        "name": "江于薇",
+        "relationship_tag": "同学"
+      },
+      "trigger": {
+        "sender": "江于薇",
+        "content": "继续试图说服灵静去爬山，不肯放弃。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "歉然但支持朋友",
+        "inner_monologue": "沙沙说得对，我应该早点表明态度，避免误会。",
+        "external_action": "开口阻止沙沙，但耸肩表示歉意。",
+        "speech_text": "沙沙，别说了。",
+        "mood_state": "无奈"
+      },
+      "id": "333_003",
+      "global_id": 673
+    }
+  ]
+}

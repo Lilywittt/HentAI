@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "雅涵和家明在雪地中行走，讨论家明的敌人和月池薰的事情。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "朋友/关心者"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "这么说来，薰居然是你的徒弟，难怪她在学校里只跟你一个人说话，也只听你的……我原来还以为那是因为她跟灵静的关系好呢……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被讨论的徒弟/冰山美女",
+        "inner_monologue": "I am being discussed as someone who only listens to and follows 家明, which reflects my loyalty and focused nature.",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "neutral"
+      },
+      "id": "257_001",
+      "global_id": 191
+    },
+    {
+      "scene_snapshot": "雅涵责备家明对月池薰的严厉态度，提到薰为他打架受伤的事。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "朋友/关心者"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "不过你这家伙也真绝情，知道吗？薰那样的冰山美女啊，在学校多少男孩子想追，她搭理都不搭理别人，就对你一个人言听计从哦。那次就因为人家武术社说你的坏话，她就跑过去一个人打几十个，还受了伤，结果你好话没一句，让人家一个受了伤的女孩子去操场上跑马拉松，还淋了雨……没人性……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "忠诚的徒弟/受伤者",
+        "inner_monologue": "I acted out of loyalty to 家明 by fighting those who spoke ill of him, even if it led to injury and punishment.",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "resigned"
+      },
+      "id": "257_002",
+      "global_id": 192
+    },
+    {
+      "scene_snapshot": "家明解释为什么对月池薰严格要求，强调她未来任务的危险性。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "师父/严厉指导者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "但薰不能有那样的情绪，我不管她怎么想的，但不该做的就是不该做的，这些事情上没有理由和借口可说，因为她将来要做的事情，只要失误一次，就死掉了。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "受训的徒弟/潜在牺牲者",
+        "inner_monologue": "I understand that my training is strict because any mistake in my future tasks could be fatal, and I must accept this discipline.",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "determined"
+      },
+      "id": "257_003",
+      "global_id": 193
+    },
+    {
+      "scene_snapshot": "雅涵表达对月池薰的喜爱和关心，询问家明是否必须让她参与危险任务。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "朋友/关心者"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "你还真的打算让薰去做那种事情啊，这个女孩子我挺喜欢的，我是说……应该是因为你的关系了，她对我态度也很好的，偶尔也说说话，打打招呼，对别人来说应该是很难得的事情了吧。而且你不是说那些日本人只是想把薰当成美人计来用，她不一定非得参与到那些事情里面去吧？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被关心的徒弟/潜在工具",
+        "inner_monologue": "I appreciate 雅涵's concern for me, but my path is my own choice, even if it involves being used as a pawn by others.",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "appreciative"
+      },
+      "id": "257_004",
+      "global_id": 194
+    },
+    {
+      "scene_snapshot": "家明回应雅涵，解释月池薰的选择和当前局势。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "师父/严厉指导者"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "但那是她自己选择的路啊，每个人都有表现和证明自己的欲望的。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "自主的徒弟/追求证明者",
+        "inner_monologue": "I chose this path to prove myself and fulfill my own desires, despite the risks involved.",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "resolute"
+      },
+      "id": "257_005",
+      "global_id": 195
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静、雅涵与沙沙在小溪边洗菜择菜，准备野炊。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "朋友/同伴"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "野炊活动中，小组分工进行洗菜等准备工作。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "勤劳的参与者",
+        "inner_monologue": "我得和雅涵、沙沙一起把菜洗干净，这样大家才能早点吃上饭。",
+        "external_action": "到小溪边洗菜择菜。",
+        "speech_text": null,
+        "mood_state": "专注"
+      },
+      "id": "324_001",
+      "global_id": 640
+    },
+    {
+      "scene_snapshot": "灵静走到家明身边询问东方婉的去向。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/伙伴"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静主动走到家明身边询问东方婉在哪里。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心的朋友",
+        "inner_monologue": "小婉怎么还没回来？我得问问家明，别出什么事了。",
+        "external_action": "走到家明身边。",
+        "speech_text": "小婉呢？",
+        "mood_state": "关切"
+      },
+      "id": "324_002",
+      "global_id": 641
+    },
+    {
+      "scene_snapshot": "家明告诉灵静东方婉还在树林里，并调侃她拾柴慢。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明回答东方婉在树林里，并开玩笑说她拾柴慢。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "轻松的朋友",
+        "inner_monologue": "家明又在开小婉的玩笑了，不过她确实没干过活，我得去找找她。",
+        "external_action": "笑了出来。",
+        "speech_text": "当心她听到了又要跟你PK。",
+        "mood_state": "轻松"
+      },
+      "id": "324_003",
+      "global_id": 642
+    },
+    {
+      "scene_snapshot": "灵静提议自己去找东方婉，但家明阻止并决定自己去。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/伙伴"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静提议去找东方婉。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "主动的关心者",
+        "inner_monologue": "小婉可能迷路了，我得去帮忙找找，不能让她一个人在林子里。",
+        "external_action": null,
+        "speech_text": "我去找找她。",
+        "mood_state": "担忧"
+      },
+      "id": "324_004",
+      "global_id": 643
+    },
+    {
+      "scene_snapshot": "家明阻止灵静，担心她迷路，并决定自己去树林找东方婉。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明阻止灵静，说怕她迷路，并决定自己去。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "微嗔的抗议者",
+        "inner_monologue": "家明总是这样保护我，但我又不是小孩子，怎么会迷路呢？",
+        "external_action": "微嗔的抗议之中。",
+        "speech_text": null,
+        "mood_state": "微嗔"
+      },
+      "id": "324_005",
+      "global_id": 644
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "清晨，沙沙和灵静在床上醒来，准备去高中报到。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友/恋人"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静醒来后推开沙沙的脸，并提醒她今天是开学报名的日子。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "慵懒撒娇的恋人",
+        "inner_monologue": "我还想多睡一会儿，抱着灵静好舒服。",
+        "external_action": "嘟囔着拒绝起床，再次抱住灵静的腰肢。",
+        "speech_text": "唔，不要啦。",
+        "mood_state": "慵懒"
+      },
+      "id": "053_001",
+      "global_id": 155
+    },
+    {
+      "scene_snapshot": "灵静下床收拾衣物，沙沙仍在床上赖着。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友/恋人"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静推开沙沙，说她压住了自己的内裤。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "调皮赖床的恋人",
+        "inner_monologue": "我就想多抱抱灵静，不想起来。",
+        "external_action": "被推得翻滚几周，但仍赖在床上。",
+        "speech_text": "我们就是百合……",
+        "mood_state": "顽皮"
+      },
+      "id": "053_002",
+      "global_id": 156
+    },
+    {
+      "scene_snapshot": "家明进入卧室，看到沙沙还在床上睡觉。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明将沙沙抱起来，准备带她去浴室。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "依赖恋人的少女",
+        "inner_monologue": "家明来抱我了，好安心。",
+        "external_action": "自然而然地搂住家明的脖子，但半睡半醒。",
+        "speech_text": null,
+        "mood_state": "依赖"
+      },
+      "id": "053_003",
+      "global_id": 157
+    },
+    {
+      "scene_snapshot": "沙沙被放入浴缸，灵静准备帮她洗澡。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明开玩笑说要把沙沙当成早餐吃掉。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "活泼反击的恋人",
+        "inner_monologue": "家明又在开玩笑了，我得反击一下。",
+        "external_action": "从浴缸里将水花踢向家明。",
+        "speech_text": null,
+        "mood_state": "开心"
+      },
+      "id": "053_004",
+      "global_id": 158
+    },
+    {
+      "scene_snapshot": "早餐时，三人在饭桌前讨论今天的计划和要购买的东西。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友/恋人"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静拿出小荷包和购买表，念着要买的物品清单。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "积极参与的家庭成员",
+        "inner_monologue": "我们要开始独立生活了，得认真计划一下。",
+        "external_action": "参与打闹和讨论，补充要完成的事情。",
+        "speech_text": null,
+        "mood_state": "兴奋"
+      },
+      "id": "053_005",
+      "global_id": 159
+    }
+  ]
+}

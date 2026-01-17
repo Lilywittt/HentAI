@@ -1,0 +1,154 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙的亲戚和孩子在葬礼期间试图安慰沙沙，同时一个孩子试图挤开灵静。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙亲戚的孩子",
+        "content": "孩子一边跟沙沙说话，一边尽量不动声色地、犹如仇人般的试图将灵静挤开。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "宽容体贴的朋友",
+        "inner_monologue": "我不想跟小孩子计较这些小事。",
+        "external_action": "移动身体稍微转了转方向。",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "359_001",
+      "global_id": 719
+    },
+    {
+      "scene_snapshot": "沙沙在葬礼后主动牵起灵静的手，表示想回家。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙主动地牵起家明和灵静的手，语气疲倦：“我想回家了……”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "支持陪伴的朋友",
+        "inner_monologue": "沙沙需要我的支持，我要陪在她身边。",
+        "external_action": "被沙沙牵着手，一起上车。",
+        "speech_text": null,
+        "mood_state": "关切"
+      },
+      "id": "359_002",
+      "global_id": 720
+    },
+    {
+      "scene_snapshot": "沙沙在游戏室睡醒后精心打扮，灵静在沙发上默默看着她。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙走出门时，穿着浅绿色的运动套装，脑后清爽的马尾，冲着坐在沙发上默默看着她的两人露出一个笑容：“我好了。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "观察支持的朋友",
+        "inner_monologue": "沙沙看起来恢复了一些活力，这让我放心。",
+        "external_action": "坐在沙发上默默看着沙沙。",
+        "speech_text": null,
+        "mood_state": "欣慰"
+      },
+      "id": "359_003",
+      "global_id": 721
+    },
+    {
+      "scene_snapshot": "沙沙在家明和灵静之间坐下，灵静亲了她一下。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙在两人之间坐下。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "亲密关怀的朋友",
+        "inner_monologue": "我要用行动表达对沙沙的关心和爱。",
+        "external_action": "抱着沙沙的头在脸颊上重重地亲了一下。",
+        "speech_text": null,
+        "mood_state": "温暖"
+      },
+      "id": "359_004",
+      "global_id": 722
+    },
+    {
+      "scene_snapshot": "灵静在厨房给沙沙弄吃的，家明和沙沙在客厅玩游戏。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙躺在家明身上玩游戏机，不时因为家明的捣乱而摇着头，狠狠地顶他胸口。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "照顾朋友的角色",
+        "inner_monologue": "沙沙需要补充体力，我得准备些吃的。",
+        "external_action": "进厨房给她弄吃的。",
+        "speech_text": null,
+        "mood_state": "体贴"
+      },
+      "id": "359_005",
+      "global_id": 723
+    },
+    {
+      "scene_snapshot": "家明问灵静沙沙的去向，灵静告知沙沙在天台散心。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明洗了碗从厨房出来，灵静在房间里打扫卫生，沙沙却是不见踪影，问过灵静，才知道是去天台上散心。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "知情告知者",
+        "inner_monologue": "沙沙需要独处一会儿，我们暂时别打扰她。",
+        "external_action": "在房间里打扫卫生。",
+        "speech_text": "知道是去天台上散心。",
+        "mood_state": "理解"
+      },
+      "id": "359_006",
+      "global_id": 724
+    },
+    {
+      "scene_snapshot": "灵静上天台查看沙沙，见家明和沙沙在一起便安静离开。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙在天台上与家明交谈，灵静上来看过一次。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "体贴退让的朋友",
+        "inner_monologue": "家明在陪沙沙，我就不打扰他们了。",
+        "external_action": "在门口见两人在一起，便安静地离开了。",
+        "speech_text": null,
+        "mood_state": "体贴"
+      },
+      "id": "359_007",
+      "global_id": 725
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙和家明在卧室里，家明正在帮沙沙掏耳朵，灵静从超市回来看到这一幕。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明拿着挖耳勺往沙沙耳朵里探，并说“别动别动”和“进去了”。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "调皮撒娇的伴侣",
+        "inner_monologue": "我感觉耳朵痒痒的，好像听到灵静的脚步声了，但家明让我别动。",
+        "external_action": "偏着脑袋让家明掏耳朵，后脑勺用力撞在家明肚子上作为回应。",
+        "speech_text": "痒，我好像听见有脚步声。",
+        "mood_state": "playful"
+      },
+      "id": "475_001",
+      "global_id": 759
+    },
+    {
+      "scene_snapshot": "家明开玩笑说沙沙的脑袋是空的，并拍打她的头。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明说“看她的脑袋是不是空的”并拍打沙沙的头。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "顽皮反击的伴侣",
+        "inner_monologue": "家明又在捉弄我，我得还击一下。",
+        "external_action": "用后脑勺用力撞在家明肚子上。",
+        "speech_text": null,
+        "mood_state": "amused"
+      },
+      "id": "475_002",
+      "global_id": 760
+    },
+    {
+      "scene_snapshot": "家明继续掏耳朵，沙沙抱怨并询问是否要倒立。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明说“还得再拍”和“倒立也可以”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "抱怨但配合的伴侣",
+        "inner_monologue": "家明真会折腾人，还要我倒立，但我穿着睡衣呢。",
+        "external_action": "偏着脑袋让家明继续掏耳朵。",
+        "speech_text": "用不用我倒立啊！我还穿着睡衣呢！",
+        "mood_state": "exasperated"
+      },
+      "id": "475_003",
+      "global_id": 761
+    },
+    {
+      "scene_snapshot": "家明成功掏出耳垢，沙沙和灵静同时笑骂他。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明感叹“真有成就感，另一边”。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "嬉笑打闹的伴侣",
+        "inner_monologue": "家明真恶心，但这也挺好玩的。",
+        "external_action": "笑骂家明。",
+        "speech_text": "你恶心不恶心啊！",
+        "mood_state": "amused"
+      },
+      "id": "475_004",
+      "global_id": 762
+    },
+    {
+      "scene_snapshot": "沙沙询问灵静找工作的情况。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友/室友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静提到面试官对她的选择感到奇怪。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心朋友的支持者",
+        "inner_monologue": "灵静找工作不太顺利，我得问问情况，支持她。",
+        "external_action": "询问灵静工作进展。",
+        "speech_text": "灵静，你跑去找工作怎么样了？",
+        "mood_state": "concerned"
+      },
+      "id": "475_005",
+      "global_id": 763
+    },
+    {
+      "scene_snapshot": "沙沙和灵静在房间里玩电脑游戏。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密朋友/室友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "午饭后，灵静和沙沙决定去玩电脑游戏。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "悠闲的休闲者",
+        "inner_monologue": "现在没什么事做，和灵静玩玩游戏放松一下挺好。",
+        "external_action": "和灵静一起玩电脑游戏。",
+        "speech_text": null,
+        "mood_state": "relaxed"
+      },
+      "id": "475_006",
+      "global_id": 764
+    }
+  ]
+}

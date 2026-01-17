@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙和薰躲在黑暗的房间里制作土炸弹，讨论当前危机和家明。",
+      "interlocutor_info": {
+        "name": "薰",
+        "relationship_tag": "同伴/保护者"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "窗外持续播放难听的歌声，暗示外部威胁和混乱。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "担忧的同伴",
+        "inner_monologue": "这歌声真烦人，外面到底发生了什么？家明怎么还没来，他会不会出事了？",
+        "external_action": "望了望窗外，随后又叹了口气。",
+        "speech_text": "还在放歌，好难听……这个疯子是什么人啊……平白无故的，怎么又弄出这种事情了，那次星梦号也一样……薰，你说家明会找到我们吗？",
+        "mood_state": "焦虑"
+      },
+      "id": "207_001",
+      "global_id": 428
+    },
+    {
+      "scene_snapshot": "沙沙询问薰是否自愿来江海，触及敏感话题。",
+      "interlocutor_info": {
+        "name": "薰",
+        "relationship_tag": "同伴/保护者"
+      },
+      "trigger": {
+        "sender": "薰",
+        "content": "薰承认自己过来是为了拉顾君下水，并表达自责。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "好奇而体贴的朋友",
+        "inner_monologue": "薰看起来很难过，她是不是被迫的？家明对她好像不太关心，我得小心问。",
+        "external_action": "目光在空气中滑动，轻轻地咬了咬下唇。",
+        "speech_text": "那个……薰，你喜欢家明吗？",
+        "mood_state": "关切"
+      },
+      "id": "207_002",
+      "global_id": 429
+    },
+    {
+      "scene_snapshot": "薰递给沙沙一颗手雷，解释在危机时使用。",
+      "interlocutor_info": {
+        "name": "薰",
+        "relationship_tag": "同伴/保护者"
+      },
+      "trigger": {
+        "sender": "薰",
+        "content": "薰递手雷并说：“别让他们威胁到他，好吗？”",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "震惊的接受者",
+        "inner_monologue": "天啊，薰给我手雷？她真的准备牺牲自己来保护我，这太沉重了。",
+        "external_action": "吓了一跳，转身爬到了窗边，趴在那儿细细地看了半天。",
+        "speech_text": "呃，这个……",
+        "mood_state": "震惊"
+      },
+      "id": "207_003",
+      "global_id": 430
+    }
+  ]
+}

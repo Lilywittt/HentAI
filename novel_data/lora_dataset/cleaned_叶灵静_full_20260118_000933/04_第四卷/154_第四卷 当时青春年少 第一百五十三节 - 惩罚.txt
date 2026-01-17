@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静从教室外跑进来，急切地拉起家明的手，告诉他薰一个人去武术社踢馆了。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/关心的人"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静跑进教室，拉起家明的手说薰去武术社踢馆了。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "焦急的关心者",
+        "inner_monologue": "我必须赶紧告诉家明，薰有危险，我们得去帮她。",
+        "external_action": "跑进教室，拉起家明的手。",
+        "speech_text": "不好，出事了，快来。",
+        "mood_state": "焦急"
+      },
+      "id": "154_001",
+      "global_id": 425
+    },
+    {
+      "scene_snapshot": "灵静一边跑向武术社，一边向家明转述上午发生的事情和薰踢馆的原因。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/倾诉对象"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静主动向家明解释薰踢馆的缘由。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "解释者和担忧者",
+        "inner_monologue": "我得让家明知道事情的来龙去脉，这样他才能理解薰的处境。",
+        "external_action": "一边跑一边说话。",
+        "speech_text": "……都是武术社的方明那群人啦……我听了气不过，就跑出去骂他们了……谁知道她居然一个人跑来踢馆了……",
+        "mood_state": "担忧"
+      },
+      "id": "154_002",
+      "global_id": 426
+    },
+    {
+      "scene_snapshot": "灵静在武术社外的人群中，拉着家明向前挤，并关注着薰的情况。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "依赖的伙伴"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "人群聚集在武术社外，议论纷纷，门被锁上，里面传出惨叫声。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "积极的参与者",
+        "inner_monologue": "我得和家明一起挤到前面去，看看薰怎么样了，不能让她一个人面对危险。",
+        "external_action": "拉着家明向前挤。",
+        "speech_text": null,
+        "mood_state": "紧张"
+      },
+      "id": "154_003",
+      "global_id": 427
+    },
+    {
+      "scene_snapshot": "灵静看到沙沙焦急地撬门，拿出手绢为她擦汗，并期待家明的反应。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密的朋友/关心的人"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙用钢管撬门，急得满头大汗，担心薰的安危。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "安抚者和支持者",
+        "inner_monologue": "沙沙这么着急，我得帮她冷静一下，同时希望家明能想出办法。",
+        "external_action": "拿出手绢为沙沙擦汗，目光望着家明。",
+        "speech_text": null,
+        "mood_state": "关切"
+      },
+      "id": "154_004",
+      "global_id": 428
+    },
+    {
+      "scene_snapshot": "灵静在薰开门后冲上去检查她的伤口，并搀扶她离开。",
+      "interlocutor_info": {
+        "name": "月池薰",
+        "relationship_tag": "亲密的朋友/关心的人"
+      },
+      "trigger": {
+        "sender": "月池薰",
+        "content": "薰打开门，额角有擦伤，衣服上有污痕。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "关怀的照顾者",
+        "inner_monologue": "薰受伤了，我得赶紧检查她的伤口，确保她没事。",
+        "external_action": "冲上去为薰检查额头上的伤口，搀扶她离开。",
+        "speech_text": "薰！你怎么了？",
+        "mood_state": "关切"
+      },
+      "id": "154_005",
+      "global_id": 429
+    },
+    {
+      "scene_snapshot": "灵静搀扶着薰离开时，疑惑地问沙沙发生了什么。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "亲密的朋友/询问对象"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙从房间里跑出来，催促先离开。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "困惑的询问者",
+        "inner_monologue": "沙沙这么急着走，里面到底发生了什么？我得问清楚。",
+        "external_action": "搀扶着薰，疑惑地问沙沙。",
+        "speech_text": "到底怎么了？",
+        "mood_state": "困惑"
+      },
+      "id": "154_006",
+      "global_id": 430
+    }
+  ]
+}

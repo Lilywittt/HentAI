@@ -1,0 +1,238 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "薰和家明在晚上开车回月池家后，薰询问家明对东京的熟悉程度。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "尊敬的朋友/老师"
+      },
+      "trigger": {
+        "sender": "月池薰",
+        "content": "薰问起顾君以前来过东京的问题。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "好奇的询问者",
+        "inner_monologue": "我注意到家明对东京很熟悉，甚至知道裴罗嘉的秘密产业，这让我疑惑他来的目的，但我不愿主动问。",
+        "external_action": "有些疑惑地询问。",
+        "speech_text": "顾君以前来过东京？",
+        "mood_state": "疑惑"
+      },
+      "id": "395_001",
+      "global_id": 286
+    },
+    {
+      "scene_snapshot": "薰和家明在月池家看电视，薰抱着玩偶坐在床边。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲近的朋友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "家明已经洗完澡躺在床上看漫画，电视机声音开得很大。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "安静的陪伴者",
+        "inner_monologue": "家明过来了，我很高兴能和他这样简单地相处，即使只是看电视说几句话。",
+        "external_action": "洗浴后抱着大熊猫玩偶屈腿坐在床边看电视。",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "395_002",
+      "global_id": 287
+    },
+    {
+      "scene_snapshot": "薰早起发现家明已经在走廊系鞋带准备跑步。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "尊敬的老师"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明已经坐在走廊系鞋带，薰起床后才发现。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "敬佩的学生",
+        "inner_monologue": "家明起床我居然没察觉，他的实力真是深不可测，让我更加敬佩。",
+        "external_action": "穿着简单的运动衫走到走廊，发现家明后感到敬佩。",
+        "speech_text": null,
+        "mood_state": "敬佩"
+      },
+      "id": "395_003",
+      "global_id": 288
+    },
+    {
+      "scene_snapshot": "家明开玩笑说薰可以变成动画片里的美少女。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲近的朋友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明指着薰的额头开玩笑说绑上头巾写必胜可以变成动画片里的美少女。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "害羞的回应者",
+        "inner_monologue": "家明又在开玩笑了，这让我有点不好意思，但心里其实挺开心的。",
+        "external_action": "赧然回应。",
+        "speech_text": "不是所有都那样的。",
+        "mood_state": "害羞"
+      },
+      "id": "395_004",
+      "global_id": 289
+    },
+    {
+      "scene_snapshot": "薰和家明在跑步时聊起天雨正则和武术交流的事情。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "尊敬的老师"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明问起天雨正则最近是否过来。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "诚实的回答者",
+        "inner_monologue": "家明问起天雨君，我如实回答，但心里更关注家明的计划和想法。",
+        "external_action": "一边跑步一边回答。",
+        "speech_text": "我没有找他，不过，听说天雨君最近在接待一批做武术交流的客人，圣心的陈老师也在里面的样子。",
+        "mood_state": "专注"
+      },
+      "id": "395_005",
+      "global_id": 290
+    },
+    {
+      "scene_snapshot": "薰向家明介绍荒卷真世的名藏剑道馆。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "尊敬的老师"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明提到荒卷真世，薰回应道场信息。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "恭敬的说明者",
+        "inner_monologue": "荒卷真世是剑道大师，即使他是裴罗嘉的人，我也该用敬称，但更在意家明的反应。",
+        "external_action": "用敬称说明道场信息。",
+        "speech_text": "嗯，应该是在荒卷真世大师的名藏剑道馆。",
+        "mood_state": "恭敬"
+      },
+      "id": "395_006",
+      "global_id": 291
+    },
+    {
+      "scene_snapshot": "薰看到父亲月池政空和哥哥月池哲也站在广场边。",
+      "interlocutor_info": {
+        "name": "月池政空",
+        "relationship_tag": "冷漠的父亲"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "薰和家明跑步出树林，看到月池政空和月池哲也站在广场边。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "紧张的女儿",
+        "inner_monologue": "父亲和哥哥在这里，让我情绪有些变化，不知道他们会说什么。",
+        "external_action": "情绪有了些许变化，小声跟家明介绍。",
+        "speech_text": "他们是……我的父亲和异母哥哥。",
+        "mood_state": "紧张"
+      },
+      "id": "395_007",
+      "global_id": 292
+    },
+    {
+      "scene_snapshot": "月池政空叫薰过去谈话，薰低头跟随。",
+      "interlocutor_info": {
+        "name": "月池政空",
+        "relationship_tag": "冷漠的父亲"
+      },
+      "trigger": {
+        "sender": "月池政空",
+        "content": "月池政空打量两人后叫薰过去谈话。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "顺从的女儿",
+        "inner_monologue": "父亲叫我过去，我必须服从，但心里很不安，不知道他要说什么。",
+        "external_action": "跟随父亲走远。",
+        "speech_text": null,
+        "mood_state": "不安"
+      },
+      "id": "395_008",
+      "global_id": 293
+    },
+    {
+      "scene_snapshot": "薰从树林走出来，脸上有红印，家明询问情况。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "关心的朋友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明看到薰脸上的红印，皱眉询问怎么了。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "隐忍的受害者",
+        "inner_monologue": "父亲打了我，但我不能在家明面前表现出来，不想让他担心。",
+        "external_action": "低着头走出来，脸颊上有清晰的红印。",
+        "speech_text": "没什么。",
+        "mood_state": "隐忍"
+      },
+      "id": "395_009",
+      "global_id": 294
+    },
+    {
+      "scene_snapshot": "薰质问文太郎和月池哲也要对家明做什么。",
+      "interlocutor_info": {
+        "name": "文太郎",
+        "relationship_tag": "家族成员"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "薰看到家明被文太郎和月池哲也围着，担心他们要切磋。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "保护的朋友",
+        "inner_monologue": "他们想对家明不利，我必须站出来阻止，不能让他们伤害家明。",
+        "external_action": "目光紧张地质问。",
+        "speech_text": "你们要干什么？",
+        "mood_state": "担忧"
+      },
+      "id": "395_010",
+      "global_id": 295
+    },
+    {
+      "scene_snapshot": "薰望着家明，目光复杂，担心切磋的事情。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "关心的朋友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "文太郎解释约家明用竹刀切磋，薰看着家明。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "担忧的旁观者",
+        "inner_monologue": "家明可能要被迫切磋，这让我很担心，但我也无能为力。",
+        "external_action": "望着家明，目光复杂。",
+        "speech_text": null,
+        "mood_state": "复杂"
+      },
+      "id": "395_011",
+      "global_id": 296
+    }
+  ]
+}

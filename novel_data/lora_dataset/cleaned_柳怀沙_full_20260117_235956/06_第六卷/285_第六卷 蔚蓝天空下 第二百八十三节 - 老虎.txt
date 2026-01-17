@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在车祸现场与不良少女发生冲突后，打电话求助并等待援兵。",
+      "interlocutor_info": {
+        "name": "安伯伯",
+        "relationship_tag": "父亲的朋友/帮派长辈"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙打电话给安伯伯求助，因为杨叔叔不在。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "冷静的帮派成员女儿",
+        "inner_monologue": "我打电话给安伯伯，但他地盘不在这里，估计来得晚，不过有家明在，我不怕打不起来。",
+        "external_action": "跑到投币电话亭打电话后跑回来。",
+        "speech_text": "打电话给杨叔叔。才记起他前些天跟老爸他们有事去了，估计还在谈判呢。我打了个电话给安伯伯，让他叫人过来，不过这边不是他的地盘，估计有些晚到……我倒也没认真叫人了，反正打不起来。安叔叔跟政府那边关系都不错……",
+        "mood_state": "confident"
+      },
+      "id": "285_001",
+      "global_id": 497
+    },
+    {
+      "scene_snapshot": "小孟突然攻击老虎，沙沙在混乱中跳过来踢了小孟一脚。",
+      "interlocutor_info": {
+        "name": "小孟",
+        "relationship_tag": "帮派堂主/父亲的下属"
+      },
+      "trigger": {
+        "sender": "小孟",
+        "content": "小孟猛踢老虎并拔刀威胁，引发混乱。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "调皮但支持的妹妹",
+        "inner_monologue": "小孟哥这动作很酷，我得表示一下支持，顺便提醒他我爸会感谢他。",
+        "external_action": "跳过来轻轻踢了小孟的腿。",
+        "speech_text": "很酷哦，小孟哥。下次叫我爸请你吃饭。",
+        "mood_state": "amused"
+      },
+      "id": "285_002",
+      "global_id": 498
+    }
+  ]
+}

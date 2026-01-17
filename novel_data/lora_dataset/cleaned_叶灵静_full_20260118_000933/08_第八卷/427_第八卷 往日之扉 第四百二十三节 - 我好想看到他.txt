@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在房间里哭泣，得知顾家明去世的消息后情绪崩溃。",
+      "interlocutor_info": {
+        "name": "段静娴",
+        "relationship_tag": "母亲"
+      },
+      "trigger": {
+        "sender": "段静娴",
+        "content": "告知顾家明去世的细节，包括他生病、不肯见人、去世后被安葬在观音岭。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "悲伤的女儿",
+        "inner_monologue": "我不相信这是真的，他怎么能就这样离开……",
+        "external_action": "哭泣、擦眼泪、摇头、目光望向虚空",
+        "speech_text": "我……我不相信……",
+        "mood_state": "heartbroken"
+      },
+      "id": "427_001",
+      "global_id": 835
+    },
+    {
+      "scene_snapshot": "叶灵静在杂物间找到锄头，准备去墓地看顾家明。",
+      "interlocutor_info": {
+        "name": "叶涵",
+        "relationship_tag": "父亲"
+      },
+      "trigger": {
+        "sender": "叶涵",
+        "content": "提醒灵静墓里是骨灰，暗示她不需要锄头。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "脆弱的女儿",
+        "inner_monologue": "我好想看到他，哪怕只是他的坟墓……",
+        "external_action": "肩膀垮下、咬住下唇、转向一边、抹眼泪、走到父亲怀里哭泣",
+        "speech_text": "爸，我好想看到他啊……",
+        "mood_state": "longing"
+      },
+      "id": "427_002",
+      "global_id": 836
+    }
+  ]
+}

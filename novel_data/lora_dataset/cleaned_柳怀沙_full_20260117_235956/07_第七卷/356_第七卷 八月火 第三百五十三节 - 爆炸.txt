@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "在柳正的灵堂上，新宁帮的薛诚带人挑衅，指责沙沙作为女儿没有尽到家属答礼的责任。",
+      "interlocutor_info": {
+        "name": "薛诚",
+        "relationship_tag": "敌对的黑社会头目"
+      },
+      "trigger": {
+        "sender": "薛诚",
+        "content": "指责沙沙在丧礼上没有家属答礼，并挑衅沙竹帮的亲戚。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "悲伤沉默的丧主",
+        "inner_monologue": "我父亲刚去世，这些人就来闹事，我该怎么办……",
+        "external_action": "神色木然，没有直接回应，由灵静和家明出面处理。",
+        "speech_text": null,
+        "mood_state": "悲痛"
+      },
+      "id": "356_001",
+      "global_id": 584
+    },
+    {
+      "scene_snapshot": "薛诚试图调戏灵静，被家明阻止，沙沙在一旁坐着。",
+      "interlocutor_info": {
+        "name": "薛诚",
+        "relationship_tag": "敌对的黑社会头目"
+      },
+      "trigger": {
+        "sender": "薛诚",
+        "content": "试图握灵静的手并自我介绍，挑衅家明。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "无助的旁观者",
+        "inner_monologue": "家明和灵静在保护我，但我什么都做不了……",
+        "external_action": "坐在灵堂旁，由灵静照顾。",
+        "speech_text": null,
+        "mood_state": "无助"
+      },
+      "id": "356_002",
+      "global_id": 585
+    },
+    {
+      "scene_snapshot": "沙沙的表舅私下找家明谈话，反对沙沙和家明早恋，并强调亲戚会照顾沙沙。",
+      "interlocutor_info": {
+        "name": "表舅",
+        "relationship_tag": "控制欲强的亲戚"
+      },
+      "trigger": {
+        "sender": "表舅",
+        "content": "私下找家明谈话，反对沙沙早恋，声称亲戚会负责照顾她。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被忽视的当事人",
+        "inner_monologue": "他们都在替我做决定，但我只想和家明在一起……",
+        "external_action": "在灵堂跪着，没有参与谈话，但后来偎在家明肩膀上流泪。",
+        "speech_text": null,
+        "mood_state": "委屈"
+      },
+      "id": "356_003",
+      "global_id": 586
+    },
+    {
+      "scene_snapshot": "沙沙跪了一天，身心俱疲，被灵静扶进去休息，但坚持晚上还要守灵。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密的朋友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "想给沙沙宽衣休息，家明和叶氏夫妇也劝她睡觉。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "固执的丧主",
+        "inner_monologue": "我不能睡，父亲需要我守灵，但我也好累……",
+        "external_action": "摇头拒绝休息，声音哽咽沙哑，后来忍不住哭泣。",
+        "speech_text": "不要了，晚上还有人要来的……",
+        "mood_state": "疲惫"
+      },
+      "id": "356_004",
+      "global_id": 587
+    },
+    {
+      "scene_snapshot": "宴会上，薛诚再次挑衅，要求沙沙出来露面，家明出面应对。",
+      "interlocutor_info": {
+        "name": "薛诚",
+        "relationship_tag": "敌对的黑社会头目"
+      },
+      "trigger": {
+        "sender": "薛诚",
+        "content": "在宴会上叫嚷要求沙沙出来露面，挑衅沙竹帮。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "缺席的丧主",
+        "inner_monologue": "外面又闹起来了，家明和灵静在保护我，但我只能躲在这里……",
+        "external_action": "在房间里休息，没有直接参与宴会场景。",
+        "speech_text": null,
+        "mood_state": "焦虑"
+      },
+      "id": "356_005",
+      "global_id": 588
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静和朋友们在游轮甲板上欣赏夜景，家明提议做一件毕生难忘的事情。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密朋友/暗恋对象"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "提议让叶灵静站到船头张开双手闭上眼睛，他在后面抱着她，说这会是一件毕生难忘的事情。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "害羞的少女",
+        "inner_monologue": "天啊，家明怎么突然这么大胆，雅涵还在旁边呢，这么多人看着，太丢脸了。",
+        "external_action": "满脸羞红地摇了摇头",
+        "speech_text": "才不要——",
+        "mood_state": "羞涩"
+      },
+      "id": "078_001",
+      "global_id": 217
+    },
+    {
+      "scene_snapshot": "家明转而拉沙沙做船头动作，叶灵静在一旁看着。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密朋友/暗恋对象"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明转而拉沙沙做船头动作，并开玩笑说船会沉掉。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "旁观的朋友",
+        "inner_monologue": "家明又在捉弄沙沙了，不过这样也好，免得我尴尬，看他俩玩得挺开心的。",
+        "external_action": "笑了出来",
+        "speech_text": null,
+        "mood_state": "轻松"
+      },
+      "id": "078_002",
+      "global_id": 218
+    },
+    {
+      "scene_snapshot": "游轮突然停电，整艘船陷入黑暗，叶灵静在甲板上。",
+      "interlocutor_info": {
+        "name": "环境",
+        "relationship_tag": "意外事件"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "整艘船上所有的亮光完全消失，黑暗降临。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "受惊的乘客",
+        "inner_monologue": "怎么回事？船怎么突然全黑了，好可怕，家明和沙沙他们没事吧？",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "惊慌"
+      },
+      "id": "078_003",
+      "global_id": 219
+    }
+  ]
+}

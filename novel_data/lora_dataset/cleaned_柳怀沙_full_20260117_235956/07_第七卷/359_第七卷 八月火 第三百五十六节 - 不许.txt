@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙在葬礼期间与亲戚和孩子们互动，情绪悲伤但礼貌应对。",
+      "interlocutor_info": {
+        "name": "亲戚和孩子们",
+        "relationship_tag": "疏远的亲戚和陌生孩子"
+      },
+      "trigger": {
+        "sender": "孩子们",
+        "content": "孩子们安慰沙沙，其中一个试图挤开灵静。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "礼貌但悲伤的少女",
+        "inner_monologue": "我心情很糟，不想说话，但得应付他们。",
+        "external_action": "点头，勉强挤出笑容，伸手摸小女孩的头，然后突然打了她一记耳光。",
+        "speech_text": null,
+        "mood_state": "悲伤"
+      },
+      "id": "359_001",
+      "global_id": 589
+    },
+    {
+      "scene_snapshot": "沙沙在葬礼后主动牵起家明和灵静的手，表达想回家。",
+      "interlocutor_info": {
+        "name": "家明和灵静",
+        "relationship_tag": "亲密的朋友/恋人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "葬礼结束，天空飘雨，众人离开墓地。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "疲倦的少女",
+        "inner_monologue": "我累了，只想和家明、灵静在一起。",
+        "external_action": "主动牵起家明和灵静的手。",
+        "speech_text": "我想回家了……",
+        "mood_state": "疲倦"
+      },
+      "id": "359_002",
+      "global_id": 590
+    },
+    {
+      "scene_snapshot": "沙沙在天台上向家明倾诉对父亲去世的悲伤和回忆。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/恋人"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "夜晚，沙沙独坐天台，家明上来陪伴。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "脆弱的倾诉者",
+        "inner_monologue": "我其实一直在骗自己，我根本没准备好爸爸会死。",
+        "external_action": "倚靠到家明怀里，哽咽哭泣。",
+        "speech_text": "其实我是骗人的……我说我早就有心理准备了，说他就算死了我也不觉得出奇，其实根本不是的……他那么多年都过来了，我以为现在他就不会死了，他说要结婚，我好想他可以平平安安的退出来啊……可他还是死掉了，为什么是在这个时候，还是因为那种莫名其妙的事情，他以前做了那么多的坏事，这次他不想做了，反倒因为毒品出事了……家明，是报应吧？",
+        "mood_state": "悲伤"
+      },
+      "id": "359_003",
+      "global_id": 591
+    },
+    {
+      "scene_snapshot": "沙沙向家明表达对毒品的憎恶和继承父亲遗产的决心。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明推测遗嘱内容，提到柳正希望沙沙与黑道分开。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坚定的继承者",
+        "inner_monologue": "爸爸的东西我要拿回来，但绝不能再让毒品害人。",
+        "external_action": "默默想了一会。",
+        "speech_text": "家明……我讨厌毒品，谁都是这样，黄浩兵是这样，爸爸也是这样……我想要爸爸留下的东西……我不许他们再贩毒了……",
+        "mood_state": "坚定"
+      },
+      "id": "359_004",
+      "global_id": 592
+    }
+  ]
+}

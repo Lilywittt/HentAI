@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明在巴黎机场与纳塔丽告别后，返回江海与灵静等人过着日常学习生活。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "恋人/同居伴侣"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明从巴黎返回，与灵静通电话告知行程，并带回礼物。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关心体贴的女友",
+        "inner_monologue": "我担心家明的行程和安全，也期待他回来团聚。",
+        "external_action": "接听电话，接收礼物。",
+        "speech_text": null,
+        "mood_state": "关切"
+      },
+      "id": "382_001",
+      "global_id": 749
+    },
+    {
+      "scene_snapshot": "灵静为三人的未来大学和专业选择而烦恼，与雅涵讨论。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "信赖的姐姐/朋友"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "雅涵建议灵静选择钢琴专业，而非为了家明学医，并分析利弊。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "认真规划未来的学生",
+        "inner_monologue": "我在为我们的未来做打算，想选一个既能和家明在一起又适合自己的专业，但雅涵姐的话让我犹豫。",
+        "external_action": "倾听雅涵的建议，内心挣扎。",
+        "speech_text": null,
+        "mood_state": "纠结"
+      },
+      "id": "382_002",
+      "global_id": 750
+    },
+    {
+      "scene_snapshot": "沙沙沉迷黑社会事务，成绩下滑，与灵静发生矛盾。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "好友/同居室友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙频繁外出旷课，不重视学业，影响家庭和谐。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "担忧生气的朋友",
+        "inner_monologue": "沙沙这样下去会毁掉她的未来，我很生气，但也不想伤害我们的友谊。",
+        "external_action": "对沙沙的行为生气，说教并哭泣。",
+        "speech_text": "时不时地说上两句。",
+        "mood_state": "愤怒"
+      },
+      "id": "382_003",
+      "global_id": 751
+    },
+    {
+      "scene_snapshot": "沙沙月考成绩糟糕，灵静被气哭。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "好友/同居室友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙月考考得一塌糊涂。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "失望的朋友",
+        "inner_monologue": "沙沙的成绩让我很失望，我担心她的前途，也为我们的关系感到难过。",
+        "external_action": "被气哭。",
+        "speech_text": null,
+        "mood_state": "悲伤"
+      },
+      "id": "382_004",
+      "global_id": 752
+    }
+  ]
+}

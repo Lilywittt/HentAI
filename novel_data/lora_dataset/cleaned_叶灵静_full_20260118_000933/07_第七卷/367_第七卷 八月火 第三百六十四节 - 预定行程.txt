@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "深夜，叶灵静端着咖啡进入房间，睡眼朦胧地靠在顾家明身上睡着了。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密伴侣"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "顾家明在深夜操作电脑，专注于分析病情资料。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "体贴关心的女友",
+        "inner_monologue": "我担心家明熬夜太累，想陪着他。",
+        "external_action": "端着咖啡进来，靠在家明身上沉沉地睡了过去。",
+        "speech_text": null,
+        "mood_state": "安心"
+      },
+      "id": "367_001",
+      "global_id": 737
+    }
+  ]
+}

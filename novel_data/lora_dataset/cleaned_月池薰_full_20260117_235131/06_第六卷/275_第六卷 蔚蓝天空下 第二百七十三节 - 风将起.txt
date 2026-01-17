@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "吕放带着武术社成员和阿姆雷进入教室挑衅顾家明，月池薰在场安静地吃南瓜饼看书。",
+      "interlocutor_info": {
+        "name": "吕放",
+        "relationship_tag": "畏惧的挑衅者"
+      },
+      "trigger": {
+        "sender": "吕放",
+        "content": "吕放带着一群人进入教室，试图叫顾家明出去谈话，并言语挑衅顾家明。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "冷静的旁观者",
+        "inner_monologue": "I am not interested in their petty conflicts, but I will protect顾君 if necessary.",
+        "external_action": "平静地转过目光望了吕放一眼，然后继续吃南瓜饼、看书、擦嘴角。",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "275_001",
+      "global_id": 203
+    },
+    {
+      "scene_snapshot": "阿姆雷挑衅月池薰，提出比武要求。",
+      "interlocutor_info": {
+        "name": "阿姆雷",
+        "relationship_tag": "危险的挑战者"
+      },
+      "trigger": {
+        "sender": "阿姆雷",
+        "content": "阿姆雷站出来，肆无忌惮地打量月池薰，评论日本武术，并提出比武。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "冰冷的防御者",
+        "inner_monologue": "This boy is full of杀气 and arrogance; I must be cautious but not show weakness.",
+        "external_action": "冷冷地盯着阿姆雷，没有说话。",
+        "speech_text": null,
+        "mood_state": "警惕"
+      },
+      "id": "275_002",
+      "global_id": 204
+    },
+    {
+      "scene_snapshot": "吕放继续挑衅顾家明，月池薰站起来回应。",
+      "interlocutor_info": {
+        "name": "吕放",
+        "relationship_tag": "烦人的骚扰者"
+      },
+      "trigger": {
+        "sender": "吕放",
+        "content": "吕放嘲讽顾家明躲在女人后面，并继续挑衅。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "保护性的介入者",
+        "inner_monologue": "I cannot let them disrespect顾君; I will handle this directly.",
+        "external_action": "从座位上站起来，将冰冷的目光望向吕放。",
+        "speech_text": "顾君说他不想跟你说话。我跟你出去可以吗？",
+        "mood_state": "冷峻"
+      },
+      "id": "275_003",
+      "global_id": 205
+    },
+    {
+      "scene_snapshot": "阿姆雷在离开时再次挑衅月池薰。",
+      "interlocutor_info": {
+        "name": "阿姆雷",
+        "relationship_tag": "挑衅的对手"
+      },
+      "trigger": {
+        "sender": "阿姆雷",
+        "content": "阿姆雷转身时，刻意伸手向月池薰点了点，露出放肆的笑容。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "沉默的观察者",
+        "inner_monologue": "His挑衅 is noted; I will remember this if he becomes a threat.",
+        "external_action": "没有描述具体动作，但上下文暗示她可能冷冷地注视或无视。",
+        "speech_text": null,
+        "mood_state": "冷静"
+      },
+      "id": "275_004",
+      "global_id": 206
+    }
+  ]
+}

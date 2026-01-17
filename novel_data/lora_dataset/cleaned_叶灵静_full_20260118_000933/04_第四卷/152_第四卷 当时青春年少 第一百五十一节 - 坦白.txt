@@ -1,0 +1,301 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静和沙沙看完电影后，与家明一起走在回家的路上，讨论着电影和签名本的事。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "搂住灵静的肩膀，问道：“跟大明星谈得怎么样？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坚持己见的朋友",
+        "inner_monologue": "我还是坚持不参加舞蹈了，反正撤掉了回去也没什么意思。",
+        "external_action": "仰起脸一笑",
+        "speech_text": "我还是坚持不参加舞蹈了，反正……撤掉了回去也没什么意思。黄瓜还是跟香蕉、茄子在一起会比较合适吧，呵呵……",
+        "mood_state": "轻松"
+      },
+      "id": "152_001",
+      "global_id": 408
+    },
+    {
+      "scene_snapshot": "灵静在家明的陪伴下，犹豫地询问他和沙沙是否隐瞒了关于雨思姐的事情。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/恋人"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "迟疑着问道：“其实……家明，你和沙沙都在瞒着我一些事情吗？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "困惑的询问者",
+        "inner_monologue": "雨思姐一直在很含蓄地道歉，沙沙会有那样的态度，不是因为签名，对吗？",
+        "external_action": "目光变得有些犹豫",
+        "speech_text": "雨思姐……她一直在很含蓄地道歉……家明，沙沙会有那样的态度，不是因为签名，对吗？",
+        "mood_state": "疑惑"
+      },
+      "id": "152_002",
+      "global_id": 409
+    },
+    {
+      "scene_snapshot": "灵静向家明解释她如何察觉到不对劲，并追问是否早就知道雨思姐的事。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "问道：“什么时候觉得不对的？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "敏锐的观察者",
+        "inner_monologue": "就是雨思姐对你说抱歉的那个时候啊，然后你也跟着沙沙一块出去，我就觉得更加奇怪了。",
+        "external_action": "倚靠在家明的肩膀之上，目光清澈，嫣然一笑",
+        "speech_text": "就是雨思姐对你说抱歉的那个时候啊，然后你也跟着沙沙一块出去，我就觉得更加奇怪了，第一次看见雨思姐的时候你在礼堂里唱什么only you，呵呵……弄得场面一塌糊涂，你怎么可能会拘束嘛。这些事情联系起来以后，我故意提了几次舞蹈的事情，雨思姐的表情似乎有些尴尬，虽然没有明说，不过也听得出她在道歉，后来还想多问，就什么都问不出来，快到九点的时候想到看电影，我就慌慌忙忙地说再见……你跟沙沙真的早就知道了？",
+        "mood_state": "好奇"
+      },
+      "id": "152_003",
+      "global_id": 410
+    },
+    {
+      "scene_snapshot": "灵静在家明的默认下，确认了雨思姐是幕后黑手，感到惊讶和不解。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "说道：“呵……她在乐坛打滚这么久，真不想说的东西，你又怎么可能探出更多的口风来。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "震惊的受害者",
+        "inner_monologue": "那……真的是雨思姐？但是，没理由啊，雨思姐干嘛要那样做，我又没做过什么……",
+        "external_action": "微微愣了一愣",
+        "speech_text": "那……真的是雨思姐？",
+        "mood_state": "惊讶"
+      },
+      "id": "152_004",
+      "global_id": 411
+    },
+    {
+      "scene_snapshot": "灵静在家明的安慰下，沉默后轻声询问他和沙沙隐瞒的原因。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "解释道：“如果打个比方，你就好像是走在街上被人不小心泼了一盆水，纯粹是无妄之灾而已。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "伤心的朋友",
+        "inner_monologue": "所以你就和沙沙一块帮忙隐瞒吗，因为我知道了会伤心？",
+        "external_action": "沉默了一会儿",
+        "speech_text": "所以你就和沙沙一块帮忙隐瞒吗，因为我知道了会伤心？",
+        "mood_state": "沮丧"
+      },
+      "id": "152_005",
+      "global_id": 412
+    },
+    {
+      "scene_snapshot": "灵静在家明的逗笑下放松，转而关心雨思姐上门的目的。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "说道：“就好像我们唱歌的时候下面有人喊黄瓜我爱你，谁又能知道灵静同学其实只是个盲目追星的幼稚小女生而已呢？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被逗乐的朋友",
+        "inner_monologue": "对了，那雨思姐这次上门来，其实是为了让你给她写歌吧？",
+        "external_action": "被逗得一笑，鼓起腮帮似乎想要发作，但随即又将气势放松了下来",
+        "speech_text": "对了，那雨思姐这次上门来，其实是为了让你给她写歌吧？",
+        "mood_state": "轻松"
+      },
+      "id": "152_006",
+      "global_id": 413
+    },
+    {
+      "scene_snapshot": "灵静表达不希望家明因为她的原因帮雨思姐写歌，并担心后续问题。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "说道：“还是写一首吧，她道歉了，而且让你很开心，你还要了她的签名，不是吗？一首歌，举手之劳而已。”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "担忧的朋友",
+        "inner_monologue": "可是这之后，她不会还想要更多吗？",
+        "external_action": "微微有些犹豫",
+        "speech_text": "可是……可是这之后，她不会还想要更多吗？",
+        "mood_state": "担忧"
+      },
+      "id": "152_007",
+      "global_id": 414
+    },
+    {
+      "scene_snapshot": "灵静在家明的安慰下，决定回去感谢沙沙，并让家明通知父母她不回家。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/恋人"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "忽然转身，撑起雨伞，向着来时的方向冲了出去。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "冲动的朋友",
+        "inner_monologue": "我忽然觉得，得回去谢谢沙沙。",
+        "external_action": "在雨中飘逸地一转身，滑出一个漂亮的舞步，挥了挥手，灿烂地笑道",
+        "speech_text": "我忽然觉得，得回去谢谢沙沙，家明你去告诉老爸老妈我今天晚上不回去了好吗？",
+        "mood_state": "兴奋"
+      },
+      "id": "152_008",
+      "global_id": 415
+    },
+    {
+      "scene_snapshot": "灵静在家明的坚持下，与他一起返回，并开玩笑地展示自己的武力。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "说道：“算了，我送你过去吧，世道这么乱，要是你遇上劫道的，我岂不是损失惨重……”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "自信的朋友",
+        "inner_monologue": "我又不是不会打架。",
+        "external_action": "朝着前方迅速地挥出两拳，虎虎生风",
+        "speech_text": "我又不是不会打架。别看你小老婆这个样子，每天都练，很厉害的哦。",
+        "mood_state": "自信"
+      },
+      "id": "152_009",
+      "global_id": 416
+    },
+    {
+      "scene_snapshot": "灵静在家明的专制下，轻声嘟囔并甜蜜地接受。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "说道：“专制怎么了？还独裁呢。刚刚犯过错的人还敢顶嘴！”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "顺从的朋友",
+        "inner_monologue": "专制……",
+        "external_action": "抱着脑袋，轻声嘟囔，连忙伸手遮住脑后，“喔”的一声",
+        "speech_text": "专制……",
+        "mood_state": "甜蜜"
+      },
+      "id": "152_010",
+      "global_id": 417
+    },
+    {
+      "scene_snapshot": "灵静提出要背家明，并坚持自己的想法。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/恋人"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "说道：“家明，让我背你好吗？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "俏皮的朋友",
+        "inner_monologue": "我就是想要背背你。",
+        "external_action": "俏皮地一点头",
+        "speech_text": "是啊，就是我背你。",
+        "mood_state": "俏皮"
+      },
+      "id": "152_011",
+      "global_id": 418
+    },
+    {
+      "scene_snapshot": "灵静成功背起家明，开心地走着，并与他轮流背。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "说道：“我很重的，你一个女孩子……”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "坚持的朋友",
+        "inner_monologue": "一点也不重。",
+        "external_action": "冲过来抱住家明的腰，一使劲，便将家明的双脚抱离了地面",
+        "speech_text": "一点也不重。好啦，让我背一下啦，放心，不会让你摔倒的……",
+        "mood_state": "开心"
+      },
+      "id": "152_012",
+      "global_id": 419
+    },
+    {
+      "scene_snapshot": "灵静背着家明走了一段路，开心地笑着并提议轮流背。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/恋人"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "说道：“我觉得还是背你比较习惯……”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "开心的朋友",
+        "inner_monologue": "轮流来，每人背一条街。",
+        "external_action": "笑个不停",
+        "speech_text": "轮流来，每人背一条街。",
+        "mood_state": "开心"
+      },
+      "id": "152_013",
+      "global_id": 420
+    },
+    {
+      "scene_snapshot": "灵静在家明背上，轻声表达想知道他背着她们的辛苦。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/恋人"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "趴伏在家明背上，撑起雨伞，发出一声舒服地呻吟",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "体贴的朋友",
+        "inner_monologue": "我就是想知道，家明你一直背着我和沙沙过来，会有多辛苦……",
+        "external_action": "柔软地一笑，趴伏了好一阵子",
+        "speech_text": "我就是想知道，家明你一直背着我和沙沙过来，会有多辛苦……",
+        "mood_state": "体贴"
+      },
+      "id": "152_014",
+      "global_id": 421
+    }
+  ]
+}

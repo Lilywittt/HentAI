@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "在电影院里，沙沙因大笑而捶打家明，灵静在一旁低声提醒她注意影响。",
+      "interlocutor_info": {
+        "name": "沙沙",
+        "relationship_tag": "好朋友"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙一边大笑一边在家明的肩膀上拼命锤。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "体贴的朋友",
+        "inner_monologue": "沙沙又这样了，我得提醒她别太引人注目。",
+        "external_action": "低笑",
+        "speech_text": "哎呀，沙沙你别笑了，你看好多人都在看着你呢……",
+        "mood_state": "amused"
+      },
+      "id": "044_001",
+      "global_id": 121
+    },
+    {
+      "scene_snapshot": "三人捡到一只小猫，灵静建议给它取名咩咩。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "喜欢的男孩子"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "三人捡到一笼小猫，只有一只被灵静捂活了过来。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "善良的少女",
+        "inner_monologue": "这只小猫真可怜，我得好好照顾它。",
+        "external_action": "捧在怀里捂活小猫",
+        "speech_text": "灵静说它像是刚生出来的小羊羔，建议叫它咩咩。",
+        "mood_state": "compassionate"
+      },
+      "id": "044_002",
+      "global_id": 122
+    },
+    {
+      "scene_snapshot": "张雅涵上门送订婚请柬，灵静和沙沙高兴地接待她。",
+      "interlocutor_info": {
+        "name": "张雅涵",
+        "relationship_tag": "老师/朋友"
+      },
+      "trigger": {
+        "sender": "张雅涵",
+        "content": "张雅涵盛装打扮上门送订婚请柬。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "高兴的学生",
+        "inner_monologue": "雅涵姐姐要订婚了，真为她高兴。",
+        "external_action": "高兴地接待",
+        "speech_text": null,
+        "mood_state": "happy"
+      },
+      "id": "044_003",
+      "global_id": 123
+    }
+  ]
+}

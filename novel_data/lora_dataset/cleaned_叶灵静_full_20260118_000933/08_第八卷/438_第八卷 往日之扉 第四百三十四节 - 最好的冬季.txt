@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Romance"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "灵静和雅涵在早餐店见面，讨论家明的病情和过去。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "曾经的好姐妹，现在因家明而关系复杂"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "雅涵提到家明得了脑瘤，并描述了家明最后几个月的痛苦。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "悲伤而困惑的旧情人",
+        "inner_monologue": "我不信家明会这样，这太像肥皂剧了，怎么可能……",
+        "external_action": "抿了抿嘴，连张了几次嘴，有些发不出声音。",
+        "speech_text": "我不信……弄得跟肥皂剧一样，怎么……怎么可能生什么脑瘤……",
+        "mood_state": "难以置信"
+      },
+      "id": "438_001",
+      "global_id": 859
+    },
+    {
+      "scene_snapshot": "灵静质问雅涵关于家明和孩子的事情。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "曾经的好姐妹，现在因家明而关系复杂"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "雅涵解释淘淘是家明的孩子，并说家明最在意的是灵静和沙沙。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "受伤而愤怒的旧情人",
+        "inner_monologue": "可家明跟你生了孩子，这让我怎么接受……",
+        "external_action": "哭了起来，擦掉眼泪。",
+        "speech_text": "可他跟你生了淘淘。",
+        "mood_state": "痛苦"
+      },
+      "id": "438_002",
+      "global_id": 860
+    },
+    {
+      "scene_snapshot": "灵静表达对家明的思念和怨恨。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "曾经的好姐妹，现在因家明而关系复杂"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "雅涵说家明害怕灵静看到他无能为力的样子。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "脆弱而渴望理解的旧情人",
+        "inner_monologue": "我只想跟他在一起，不管什么时候都只想陪着他，而不是被蒙在鼓里恨他四年……",
+        "external_action": "声音轻柔渺不可闻。",
+        "speech_text": "是啊，他是个懦夫……雅涵姐，可以把……你最后跟他在一起那段时间的事情……说给我听吗？",
+        "mood_state": "悲伤"
+      },
+      "id": "438_003",
+      "global_id": 861
+    },
+    {
+      "scene_snapshot": "灵静听完雅涵的叙述后，情绪有所缓和。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "曾经的好姐妹，现在因家明而关系复杂"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "雅涵安慰灵静，并说家明如果还能回来就一定会找回来。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "接受现实的旧情人",
+        "inner_monologue": "雅涵姐承受的痛苦不比我轻，或许我该试着理解……",
+        "external_action": "点点头，忽然抱住了雅涵。",
+        "speech_text": "雅涵姐……对不起……雅涵姐，谢谢你在那三个月里陪在他身边……",
+        "mood_state": "释然"
+      },
+      "id": "438_004",
+      "global_id": 862
+    },
+    {
+      "scene_snapshot": "灵静和雅涵聊起其他话题，关系逐渐修复。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "曾经的好姐妹，现在因家明而关系复杂"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "雅涵提到淘淘和波板糖的事情。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "恢复友好的朋友",
+        "inner_monologue": "或许我们可以重新开始，像以前一样……",
+        "external_action": "笑了笑。",
+        "speech_text": "有空的时候我可以去看淘淘吗？",
+        "mood_state": "平静"
+      },
+      "id": "438_005",
+      "global_id": 863
+    }
+  ]
+}

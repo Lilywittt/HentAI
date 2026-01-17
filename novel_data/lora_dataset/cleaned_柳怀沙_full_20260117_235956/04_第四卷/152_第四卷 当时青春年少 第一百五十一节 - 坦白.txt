@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙与灵静、家明看完电影《泰坦尼克号》后，在雨夜中走出电影院。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "“这么狗血，早知道不来看了，还不如再看一遍大话西游呢……”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "活泼少女",
+        "inner_monologue": "I agree, but I don't want to admit I cried too much.",
+        "external_action": "眼眶红通通，与灵静交换眼神",
+        "speech_text": "“嗯，回家看大话西游、看大话西游，嘻，刚刚坐我们后面那个人哭得好大声对不对？”",
+        "mood_state": "playful"
+      },
+      "id": "152_001",
+      "global_id": 340
+    },
+    {
+      "scene_snapshot": "家明调侃灵静和沙沙在电影院里哭泣，三人互相推卸责任。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "“喂，我说你们两个，说这种话太没立场了吧？刚才到底是谁在我身上……”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "俏皮少女",
+        "inner_monologue": "I know he's teasing us, but I'll play along to avoid embarrassment.",
+        "external_action": "与灵静一起指着对方，异口同声说话",
+        "speech_text": "“是沙沙（灵静）哭湿的……”",
+        "mood_state": "teasing"
+      },
+      "id": "152_002",
+      "global_id": 341
+    },
+    {
+      "scene_snapshot": "家明和灵静在送沙沙回家后，讨论方雨思的事情，提到沙沙的态度。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "“一路上沙沙也没有提过……”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "沉默旁观者",
+        "inner_monologue": "I'm glad she didn't bring it up; it's better to keep this hidden for now.",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "reserved"
+      },
+      "id": "152_003",
+      "global_id": 342
+    },
+    {
+      "scene_snapshot": "灵静询问家明是否和沙沙在隐瞒关于方雨思的事情。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "“其实……家明，你和沙沙都在瞒着我一些事情吗？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "保护者",
+        "inner_monologue": "I hope she doesn't find out the truth; it might hurt her.",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "concerned"
+      },
+      "id": "152_004",
+      "global_id": 343
+    },
+    {
+      "scene_snapshot": "灵静决定回去感谢沙沙，并让家明通知父母她不回家。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "“我忽然觉得，得回去谢谢沙沙，家明你去告诉老爸老妈我今天晚上不回去了好吗？”",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "被感谢者",
+        "inner_monologue": "I'm touched she wants to thank me; it shows she values our friendship.",
+        "external_action": null,
+        "speech_text": null,
+        "mood_state": "touched"
+      },
+      "id": "152_005",
+      "global_id": 344
+    }
+  ]
+}

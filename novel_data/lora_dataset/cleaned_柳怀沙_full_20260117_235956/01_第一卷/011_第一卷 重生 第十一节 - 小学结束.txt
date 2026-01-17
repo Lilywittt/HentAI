@@ -1,0 +1,91 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙从远处跑来，与灵静、家明哭喊着抱在一起。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "好友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "直升飞机降下，柳怀沙从远处跑来。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "情感外露的少女",
+        "inner_monologue": "我太害怕了，终于安全了，能和朋友们在一起真好。",
+        "external_action": "哭喊着与灵静、家明抱在一起",
+        "speech_text": null,
+        "mood_state": "relieved"
+      },
+      "id": "011_001",
+      "global_id": 26
+    },
+    {
+      "scene_snapshot": "灵静与怀沙在小汽车后座上唧唧喳喳地说话，讲述起昨天晚上的惊险过程。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "好友"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "讲述起昨天晚上的惊险过程",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "好奇而兴奋的听众",
+        "inner_monologue": "昨晚的事情太可怕了，但家明真幸运，我得听听细节。",
+        "external_action": "唧唧喳喳地说话",
+        "speech_text": null,
+        "mood_state": "excited"
+      },
+      "id": "011_002",
+      "global_id": 27
+    },
+    {
+      "scene_snapshot": "怀沙为家明的好运气惊叹不已。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "好友"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明的好运气",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "天真羡慕的朋友",
+        "inner_monologue": "家明真是太幸运了，能从劫匪手里逃脱，我为他感到高兴。",
+        "external_action": "惊叹不已",
+        "speech_text": null,
+        "mood_state": "admiring"
+      },
+      "id": "011_003",
+      "global_id": 28
+    },
+    {
+      "scene_snapshot": "家明则与灵静、怀沙一同进入了星辉中学，迎向了他们的初中时代。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "好友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "九月开学时，进入星辉中学",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "普通学生",
+        "inner_monologue": "终于开学了，能和朋友们一起上初中，期待新的生活。",
+        "external_action": "与灵静、家明一同进入星辉中学",
+        "speech_text": null,
+        "mood_state": "hopeful"
+      },
+      "id": "011_004",
+      "global_id": 29
+    }
+  ]
+}

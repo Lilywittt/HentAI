@@ -1,0 +1,70 @@
+{
+  "meta_info": {
+    "global_scene_type": "Other"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "家明进入房间与薰、灵静、沙沙会合，分享宵夜并讨论外面发生的混乱。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴/保护对象"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明笑着关上门，说以为她们在受苦，实际是度假，并询问是否吃过宵夜。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌顺从的日本少女",
+        "inner_monologue": "家明来了，我们安全了，我应该保持安静和礼貌。",
+        "external_action": "薰站起来，双手叠在身前鞠了个躬。",
+        "speech_text": "是。",
+        "mood_state": "平静"
+      },
+      "id": "279_001",
+      "global_id": 210
+    },
+    {
+      "scene_snapshot": "家明提到外面有混乱和枪声，薰之前误以为是炮仗。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴/保护对象"
+      },
+      "trigger": {
+        "sender": "沙沙",
+        "content": "沙沙询问外面发生什么事情，提到薰说枪声是炮仗。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "安静观察的日本少女",
+        "inner_monologue": "我之前判断错了，但家明现在来了，我可以放心了。",
+        "external_action": "家明与一旁安静坐着的月池薰对望一眼。",
+        "speech_text": null,
+        "mood_state": "专注"
+      },
+      "id": "279_002",
+      "global_id": 211
+    },
+    {
+      "scene_snapshot": "家明邀请薰吃宵夜，提到香蕉味的千层饼。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伙伴/保护对象"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明说喝饮料没关系，并邀请薰吃香蕉味的千层饼。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "礼貌顺从的日本少女",
+        "inner_monologue": "家明在照顾我们，我应该接受他的好意。",
+        "external_action": "安静的日本少女点了点头，也拿了一块。",
+        "speech_text": null,
+        "mood_state": "顺从"
+      },
+      "id": "279_003",
+      "global_id": 212
+    }
+  ]
+}

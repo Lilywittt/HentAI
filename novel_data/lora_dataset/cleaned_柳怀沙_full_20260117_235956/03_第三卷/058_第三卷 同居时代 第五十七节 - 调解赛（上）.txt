@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙与顾家明、叶灵静在学生餐厅讨论下午的武术比赛。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密伙伴/男友"
+      },
+      "trigger": {
+        "sender": "顾家明",
+        "content": "家明鼓励似的笑笑，说他会拼命躲逃，比不过就认输。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "支持但担忧的同伴",
+        "inner_monologue": "我担心家明会受伤或丢面子，但不想直接说出来伤他自尊。",
+        "external_action": "望了望四周，随后将一只手搭上两人的手背。",
+        "speech_text": "加油。",
+        "mood_state": "关切"
+      },
+      "id": "058_001",
+      "global_id": 178
+    },
+    {
+      "scene_snapshot": "柳怀沙在体育馆准备支持顾家明，手持球棒以防不测。",
+      "interlocutor_info": {
+        "name": "顾家明",
+        "relationship_tag": "亲密伙伴/男友"
+      },
+      "trigger": {
+        "sender": "环境",
+        "content": "家明被簇拥进入体育馆，柳怀沙和叶灵静挤进来跟在他身边。",
+        "type": "environment"
+      },
+      "character_response": {
+        "active_persona": "保护性的支持者",
+        "inner_monologue": "我得准备好，万一他们欺负家明，我就用球棒帮忙。",
+        "external_action": "沙沙手中拿着她最喜欢的球棒。",
+        "speech_text": null,
+        "mood_state": "警惕"
+      },
+      "id": "058_002",
+      "global_id": 179
+    }
+  ]
+}

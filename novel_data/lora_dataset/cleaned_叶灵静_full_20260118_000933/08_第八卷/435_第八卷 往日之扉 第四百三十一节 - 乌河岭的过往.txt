@@ -1,0 +1,112 @@
+{
+  "meta_info": {
+    "global_scene_type": "Suspense"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "叶灵静在乌河岭向福哥询问顾家明的过往，福哥开始讲述顾家明在监狱中的经历。",
+      "interlocutor_info": {
+        "name": "福哥",
+        "relationship_tag": "乌河岭事件的知情者"
+      },
+      "trigger": {
+        "sender": "叶灵静",
+        "content": "他当时在乌河岭的时候怎么样，可以告诉我吗？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "关切而坚定的询问者",
+        "inner_monologue": "我必须知道家明在乌河岭发生了什么，这对我很重要。",
+        "external_action": "露出一个缅怀的笑容，语音轻柔",
+        "speech_text": "他当时在乌河岭的时候怎么样，可以告诉我吗？",
+        "mood_state": "怀念"
+      },
+      "id": "435_001",
+      "global_id": 849
+    },
+    {
+      "scene_snapshot": "福哥提到顾家明在监狱中被打断双手，叶灵静震惊地询问原因。",
+      "interlocutor_info": {
+        "name": "福哥",
+        "relationship_tag": "乌河岭事件的知情者"
+      },
+      "trigger": {
+        "sender": "福哥",
+        "content": "两只手，当时都断过，我都没必要瞒你。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "震惊而担忧的倾听者",
+        "inner_monologue": "家明竟然受过这样的伤害，这让我心痛不已。",
+        "external_action": "愣了愣",
+        "speech_text": "他做的？",
+        "mood_state": "震惊"
+      },
+      "id": "435_002",
+      "global_id": 850
+    },
+    {
+      "scene_snapshot": "福哥描述顾家明在监狱中被暴力袭击，叶灵静身体颤抖并质问暴力行为。",
+      "interlocutor_info": {
+        "name": "福哥",
+        "relationship_tag": "乌河岭事件的知情者"
+      },
+      "trigger": {
+        "sender": "福哥",
+        "content": "打了他一巴掌，他没还手。然后有人踢了他一脚，他也没什么反应。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "痛苦而愤怒的质问者",
+        "inner_monologue": "为什么他们要这样伤害家明？这太残忍了。",
+        "external_action": "身子颤了颤",
+        "speech_text": "为什么……非要这样呢……",
+        "mood_state": "痛苦"
+      },
+      "id": "435_003",
+      "global_id": 851
+    },
+    {
+      "scene_snapshot": "福哥回忆顾家明在监狱中的暴力反击，叶灵静眼中含泪并解释顾家明的身份。",
+      "interlocutor_info": {
+        "name": "福哥",
+        "relationship_tag": "乌河岭事件的知情者"
+      },
+      "trigger": {
+        "sender": "福哥",
+        "content": "你们真的是一起长大的？他不会真的是鬼上身吧？",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "悲伤而坦诚的解释者",
+        "inner_monologue": "家明不是鬼，他只是经历过太多，我必须为他辩护。",
+        "external_action": "眼中有泪，摇了摇头",
+        "speech_text": "不是……他以前说过自己是……是杀手……",
+        "mood_state": "悲伤"
+      },
+      "id": "435_004",
+      "global_id": 852
+    },
+    {
+      "scene_snapshot": "福哥结束讲述后，叶灵静追问顾家明的后续情况。",
+      "interlocutor_info": {
+        "name": "福哥",
+        "relationship_tag": "乌河岭事件的知情者"
+      },
+      "trigger": {
+        "sender": "福哥",
+        "content": "十一月四号以后，就再没看见过他了……",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "执着而急切的追问者",
+        "inner_monologue": "家明后来怎么样了？我必须知道更多细节。",
+        "external_action": null,
+        "speech_text": "那……后来呢？",
+        "mood_state": "急切"
+      },
+      "id": "435_005",
+      "global_id": 853
+    }
+  ]
+}

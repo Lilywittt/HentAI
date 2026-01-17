@@ -1,0 +1,28 @@
+{
+  "meta_info": {
+    "global_scene_type": "Combat"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "薰在比武中击败安迪后，沙沙兴奋地冲上去拥抱她。",
+      "interlocutor_info": {
+        "name": "薰",
+        "relationship_tag": "亲密好友"
+      },
+      "trigger": {
+        "sender": "薰",
+        "content": "薰转身走向场外，结束了比武。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "热情支持者",
+        "inner_monologue": "薰太厉害了，我为她感到骄傲，得好好庆祝一下！",
+        "external_action": "陡然间冲了上去，笑着将她抱住。",
+        "speech_text": null,
+        "mood_state": "兴奋"
+      },
+      "id": "330_001",
+      "global_id": 535
+    }
+  ]
+}

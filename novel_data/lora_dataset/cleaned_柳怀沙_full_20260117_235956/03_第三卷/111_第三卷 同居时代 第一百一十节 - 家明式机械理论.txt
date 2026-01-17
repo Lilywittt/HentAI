@@ -1,0 +1,49 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "柳怀沙与灵静、家明在圣心学院门口遇到雅涵的车抛锚，许默正在修理。",
+      "interlocutor_info": {
+        "name": "雅涵",
+        "relationship_tag": "朋友/姐姐般的人物"
+      },
+      "trigger": {
+        "sender": "雅涵",
+        "content": "雅涵无奈地耸了耸肩，解释车子坏掉的情况。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "活泼好奇的朋友",
+        "inner_monologue": "我很好奇家明是不是真的会修车，这场景挺有趣的。",
+        "external_action": "笑着说话，凑上前去看车里的机器。",
+        "speech_text": "不是吧，家明你会修汽车？",
+        "mood_state": "amused"
+      },
+      "id": "111_001",
+      "global_id": 275
+    },
+    {
+      "scene_snapshot": "家明开玩笑说用砖头敲打汽车引擎来修理，柳怀沙和灵静笑着阻止。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密的朋友/青梅竹马"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明开玩笑说机器用力踹就会好，拿起青砖准备敲打汽车。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "嬉笑打闹的伙伴",
+        "inner_monologue": "家明又在搞怪了，这太胡闹了，但看着挺好玩的。",
+        "external_action": "笑个不停，跑去阻止家明砸车。",
+        "speech_text": "喂喂，不要啦，这是汽车，砸烂了赔不起的。",
+        "mood_state": "playful"
+      },
+      "id": "111_002",
+      "global_id": 276
+    }
+  ]
+}

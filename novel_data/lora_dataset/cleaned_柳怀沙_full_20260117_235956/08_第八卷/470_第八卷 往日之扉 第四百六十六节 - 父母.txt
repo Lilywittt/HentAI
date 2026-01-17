@@ -1,0 +1,133 @@
+{
+  "meta_info": {
+    "global_scene_type": "Daily_Life"
+  },
+  "interaction_units": [
+    {
+      "scene_snapshot": "沙沙和灵静在卧室里打闹，沙沙找到了灵静以前的日记并开玩笑要读给家明听。",
+      "interlocutor_info": {
+        "name": "灵静",
+        "relationship_tag": "亲密好友/姐妹"
+      },
+      "trigger": {
+        "sender": "灵静",
+        "content": "灵静扑在沙沙身上要抢日记，抢不过来便抡起枕头往沙沙身上拍。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "调皮活泼的好友",
+        "inner_monologue": "我找到灵静的秘密了，正好逗逗家明，看看他的反应。",
+        "external_action": "身体蜷缩起来，拼命护住怀里的日记。",
+        "speech_text": "家明，我找到灵静以前写的日记了，你要不要听。里面有灵静心里的白马王子类型哦……啊——",
+        "mood_state": "嬉闹"
+      },
+      "id": "470_001",
+      "global_id": 742
+    },
+    {
+      "scene_snapshot": "沙沙和灵静在武馆里帮忙，沙沙看到家明轻松击败学徒后，好胜心被激起，上台挑战家明。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/青梅竹马"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明在擂台上轻松击败学徒，展示了高超的武艺。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "好胜的挑战者",
+        "inner_monologue": "家明又在耍帅了，我也要试试我的身手，不能让他小看我。",
+        "external_action": "翻身上了擂台，以无比凌厉的姿态直扑过去。",
+        "speech_text": "就会欺负人。",
+        "mood_state": "竞争"
+      },
+      "id": "470_002",
+      "global_id": 743
+    },
+    {
+      "scene_snapshot": "沙沙在擂台上追打家明，家明一直躲闪，沙沙要求他停止躲闪。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/青梅竹马"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明在擂台上不断躲闪沙沙的进攻，包括跳跃、空翻等动作。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "执着的好胜者",
+        "inner_monologue": "家明老是躲来躲去，真烦人，我要逼他正面跟我打。",
+        "external_action": "不信邪地追过去，在擂台上追打家明。",
+        "speech_text": "不许躲。",
+        "mood_state": "急躁"
+      },
+      "id": "470_003",
+      "global_id": 744
+    },
+    {
+      "scene_snapshot": "沙沙在擂台上与家明正面交锋，十几分钟后气喘吁吁地停止进攻。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/青梅竹马"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明停止躲闪，在前方不断挥手格挡沙沙的进攻。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "疲惫的挑战者",
+        "inner_monologue": "累死了，家明这家伙还是这么强，我得想个办法结束这场比试。",
+        "external_action": "气喘吁吁地停止进攻，趁家明停手时一拳打在他脸上。",
+        "speech_text": "不来了！",
+        "mood_state": "顽皮"
+      },
+      "id": "470_004",
+      "global_id": 745
+    },
+    {
+      "scene_snapshot": "沙沙在擂台上宣布胜利，家明被灵静拖下去敷药。",
+      "interlocutor_info": {
+        "name": "家明",
+        "relationship_tag": "亲密伴侣/青梅竹马"
+      },
+      "trigger": {
+        "sender": "家明",
+        "content": "家明被沙沙一拳打中，直挺挺地倒在擂台上。",
+        "type": "action"
+      },
+      "character_response": {
+        "active_persona": "胜利的顽皮者",
+        "inner_monologue": "哈哈，终于赢了家明一次，虽然用了点小手段，但胜利就是胜利。",
+        "external_action": "大呼“胜利了”在台上挥手乱跳。",
+        "speech_text": null,
+        "mood_state": "得意"
+      },
+      "id": "470_005",
+      "global_id": 746
+    },
+    {
+      "scene_snapshot": "晚上一家人讨论未来计划，沙沙和家明对未来没有多少打算。",
+      "interlocutor_info": {
+        "name": "叶妈",
+        "relationship_tag": "长辈/关心者"
+      },
+      "trigger": {
+        "sender": "叶妈",
+        "content": "叶妈询问家明和沙沙的未来打算，建议他们去学校进修。",
+        "type": "dialogue"
+      },
+      "character_response": {
+        "active_persona": "随和的参与者",
+        "inner_monologue": "未来的事慢慢来吧，反正有家明和灵静在身边，怎么样都行。",
+        "external_action": "参与讨论，但没有明确表态。",
+        "speech_text": null,
+        "mood_state": "平静"
+      },
+      "id": "470_006",
+      "global_id": 747
+    }
+  ]
+}
