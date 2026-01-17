@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-±¾½Å±¾ÓÃÓÚ½«¡¶ÒşÉ±¡·³¤ÆªĞ¡Ëµ TXT ÎÄ¼ş°´¾íºÍÕÂ½Ú½øĞĞ×Ô¶¯»¯²ğ·Ö¡£
-Ö÷Òª¹¦ÄÜ£º
-1. ×Ô¶¯Ê¶±ğ¡°µÚX¾í¡±¡¢¡°µÚXÕÂ/½Ú¡±ÒÔ¼°¡°ÍâÆª¡±±êÖ¾¡£
-2. ½«²»Í¬¾íµÄÄÚÈİ´æ·ÅÔÚ¶ÀÁ¢µÄ×ÓÎÄ¼ş¼ĞÖĞ¡£
-3. ½«Ô­Ê¼ GBK ±àÂë×ª»»Îª UTF-8 ±àÂë£¬½â¾öÂÒÂëÎÊÌâ¡£
-4. ÇåÏ´ÎÄ¼şÃû£¬È·±£ÔÚ Windows ÏµÍ³ÏÂºÏ·¨ÇÒ¿É¶Á¡£
+æœ¬è„šæœ¬ç”¨äºå°†ã€Šéšæ€ã€‹é•¿ç¯‡å°è¯´ TXT æ–‡ä»¶æŒ‰å·å’Œç« èŠ‚è¿›è¡Œè‡ªåŠ¨åŒ–æ‹†åˆ†ã€‚
+ä¸»è¦åŠŸèƒ½ï¼š
+1. è‡ªåŠ¨è¯†åˆ«â€œç¬¬Xå·â€ã€â€œç¬¬Xç« /èŠ‚â€ä»¥åŠâ€œå¤–ç¯‡â€æ ‡å¿—ã€‚
+2. å°†ä¸åŒå·çš„å†…å®¹å­˜æ”¾åœ¨ç‹¬ç«‹çš„å­æ–‡ä»¶å¤¹ä¸­ã€‚
+3. å°†åŸå§‹ GBK ç¼–ç è½¬æ¢ä¸º UTF-8 ç¼–ç ï¼Œè§£å†³ä¹±ç é—®é¢˜ã€‚
+4. æ¸…æ´—æ–‡ä»¶åï¼Œç¡®ä¿åœ¨ Windows ç³»ç»Ÿä¸‹åˆæ³•ä¸”å¯è¯»ã€‚
 """
 import os
 import re
@@ -22,8 +22,13 @@ def split_novel(file_path, output_root):
     with open(file_path, 'r', encoding='gbk', errors='ignore') as f:
         content = f.read()
 
-    # Pattern using Unicode escapes
-    pattern = r'\n(?=\u7b2c[\u4e00\u4e8c\u4e09\u56db\u4e94\u516d\u4e03\u516b\u4e5d\u5341\u767e\u5343\u4e07]+[\u5377\u7ae0\u8282]|--\u5916\u7bc7--|\u5916\u7bc7\s+\u7b2c[\u4e00\u4e8c\u4e09\u56db\u4e94\u516d\u4e03\u516b\u4e5d\u5341\u767e\u5343\u4e07]+\u8282)'
+    # æ­£åˆ™è¡¨è¾¾å¼åŒ¹é…ï¼š
+    # 1. ç¬¬Xå·/ç« /èŠ‚
+    # 2. --å¤–ç¯‡--
+    # 3. å¤–ç¯‡ ç¬¬XèŠ‚
+    # 4. --åç¯‡--
+    # 5. åç¯‡ ç¬¬Xç« /èŠ‚
+    pattern = r'\n(?=ç¬¬[ä¸€äºŒä¸‰å››äº”å…­ä¸ƒå…«ä¹åç™¾åƒä¸‡]+[å·ç« èŠ‚]|--å¤–ç¯‡--|å¤–ç¯‡\s+ç¬¬[ä¸€äºŒä¸‰å››äº”å…­ä¸ƒå…«ä¹åç™¾åƒä¸‡]+èŠ‚|--åç¯‡--|åç¯‡\s+ç¬¬[ä¸€äºŒä¸‰å››äº”å…­ä¸ƒå…«ä¹åç™¾åƒä¸‡]+[ç« èŠ‚])'
     
     parts = re.split(pattern, content)
     
@@ -47,9 +52,10 @@ def split_novel(file_path, output_root):
             
         title = lines[0].strip()
         
-        # Check volume start
-        vol_match = re.match(r'^(\u7b2c[\u4e00\u4e8c\u4e09\u56db\u4e94\u516d\u4e03\u516b\u4e5d\u5341\u767e\u5343\u4e07]+\u5377)', title)
-        outer_match = "--\u5916\u7bc7--" in title or title.startswith("\u5916\u7bc7")
+        # æ£€æŸ¥å·åå¼€å§‹
+        vol_match = re.match(r'^(ç¬¬[ä¸€äºŒä¸‰å››äº”å…­ä¸ƒå…«ä¹åç™¾åƒä¸‡]+å·)', title)
+        outer_match = "--å¤–ç¯‡--" in title or title.startswith("å¤–ç¯‡")
+        post_match = "--åç¯‡--" in title or title.startswith("åç¯‡")
         
         if vol_match:
             vol_title_str = vol_match.group(1)
@@ -63,6 +69,9 @@ def split_novel(file_path, output_root):
         elif outer_match and "Outer_Chapters" not in current_vol_name:
             current_vol_idx += 1
             current_vol_name = f"{current_vol_idx:02d}_Outer_Chapters"
+        elif post_match and "Post_Chapters" not in current_vol_name:
+            current_vol_idx += 1
+            current_vol_name = f"{current_vol_idx:02d}_Post_Chapters"
             
         vol_path = os.path.join(output_root, current_vol_name)
         if not os.path.exists(vol_path):
