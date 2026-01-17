@@ -2,6 +2,7 @@
 You are a strict Data Parser. Your task is to extract interaction data from the novel text based on the provided schema.
 
 ### Target Subject
+Source Novel: **{source_novel}**
 Character: **{character_name}**
 
 ### Directive

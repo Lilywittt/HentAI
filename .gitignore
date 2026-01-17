@@ -41,3 +41,6 @@ novel_data/.cache/
 
 # log files
 logs/
+
+# Discarded
+discarded_modules/

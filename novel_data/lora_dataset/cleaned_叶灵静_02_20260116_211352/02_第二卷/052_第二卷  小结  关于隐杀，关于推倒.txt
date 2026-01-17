@@ -1,6 +1,0 @@
-{
-  "meta_info": {
-    "global_scene_type": "Other"
-  },
-  "interaction_units": []
-}

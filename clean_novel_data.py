@@ -13,6 +13,7 @@ import logging
 import asyncio
 import hashlib
 import json
+import shutil
 from typing import List, Optional, Tuple, Dict
 from tqdm.asyncio import tqdm
 from openai import AsyncOpenAI
@@ -121,6 +122,7 @@ class StatsManager:
 class NovelCleaner:
     """封装了从扫描文件到调用 API 处理的完整清洗流程"""
     def __init__(self, target_prefix: Optional[str] = None, char_name: str = "顾家明", 
+                 nickname_list: Optional[List[str]] = None, source_novel: Optional[str] = None,
                  prompt_instruction_file: str = "prompts/prompt_instruction.txt", 
                  output_schema_file: str = "prompts/output_schema.txt",
                  force_refresh: bool = False):
@@ -130,6 +132,8 @@ class NovelCleaner:
         self.semaphore = asyncio.Semaphore(Config.MAX_CONCURRENT_TASKS)
         self.target_prefix = target_prefix or "full"
         self.char_name = char_name
+        self.nickname_list = nickname_list or []
+        self.source_novel = source_novel or ""
         self.system_prompt = PromptManager.load_composed_prompt(prompt_instruction_file, output_schema_file)
         self.force_refresh = force_refresh
         
@@ -137,9 +141,23 @@ class NovelCleaner:
         timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
         self.output_root = os.path.join(Config.LORA_DATASET_DIR, f"cleaned_{self.char_name}_{self.target_prefix}_{timestamp}")
         os.makedirs(self.output_root, exist_ok=True)
+        
+        # 如果强制刷新，先清空缓存目录
+        if self.force_refresh:
+            self._clear_cache()
+            
         os.makedirs(Config.CACHE_DIR, exist_ok=True)
         
         self._setup_logging()
+
+    def _clear_cache(self):
+        """清空缓存目录"""
+        if os.path.exists(Config.CACHE_DIR):
+            try:
+                shutil.rmtree(Config.CACHE_DIR)
+                print(f"Cache cleared: {Config.CACHE_DIR}")
+            except Exception as e:
+                print(f"Failed to clear cache: {e}")
 
     def _setup_logging(self):
         """初始化日志系统"""
@@ -181,7 +199,14 @@ class NovelCleaner:
             
             # 本地语义过滤：跳过不含主角名称关键部分的章节
             short_name = char_name[1:] if len(char_name) > 1 else char_name
-            if char_name not in content and short_name not in content:
+            
+            # 构建关键词集合：全名 + 短名 + 自定义昵称
+            keywords = {char_name, short_name}
+            if self.nickname_list:
+                keywords.update(self.nickname_list)
+            
+            # 只要包含任意一个关键词，即视为命中
+            if not any(k in content for k in keywords if k):
                 await self.stats.update_status("skipped")
                 self.logger.info(f"章节 {file_name} 本地过滤跳过 (未发现角色关键词)")
                 # 即使跳过也生成空文件
@@ -215,6 +240,9 @@ class NovelCleaner:
             # 并发控制
             async with self.semaphore:
                 formatted_system_prompt = self.system_prompt.replace("{character_name}", char_name)
+                if "{source_novel}" in formatted_system_prompt:
+                    formatted_system_prompt = formatted_system_prompt.replace("{source_novel}", self.source_novel)
+                
                 response = await self._api_call([
                     {"role": "system", "content": formatted_system_prompt},
                     {"role": "user", "content": f"目标角色: {char_name}\n来源文件: {file_name}\n\n待处理文本:\n{content}"}
@@ -289,6 +317,10 @@ class NovelCleaner:
                 self.logger.info(f"进度: {done}/{len(tasks_list)} | 成功:{self.stats.success} 失败:{self.stats.failed} 跳过/空:{self.stats.skipped} | 成本: {self.stats.get_cost():.2f} CNY")
 
         self.logger.info("开始标记序号...")
+        # 确保按文件名排序，保证全局ID的顺序正确
+        generated_files.sort(key=lambda p: os.path.basename(p))
+        
+        global_counter = 1
         for file_path in generated_files:
             try:
                 with open(file_path, 'r', encoding='utf-8') as f: data = json.load(f)
@@ -296,6 +328,8 @@ class NovelCleaner:
                     prefix = os.path.basename(file_path).split('_')[0]
                     for i, unit in enumerate(data["interaction_units"], 1):
                         unit["id"] = f"{prefix}_{i:03d}"
+                        unit["global_id"] = global_counter
+                        global_counter += 1
                     with open(file_path, 'w', encoding='utf-8') as f:
                         json.dump(data, f, ensure_ascii=False, indent=2)
             except Exception as e:

@@ -38,6 +38,8 @@ class CharacterResponse(BaseModel):
     mood_state: str
 
 class InteractionUnit(BaseModel):
+    id: Optional[str] = None
+    global_id: Optional[int] = None
     scene_snapshot: str
     interlocutor_info: InterlocutorInfo
     trigger: Trigger

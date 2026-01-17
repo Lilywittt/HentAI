@@ -6,6 +6,7 @@
 import asyncio
 import sys
 import os
+import json
 import datetime
 import logging
 from clean_novel_data import NovelCleaner
@@ -24,10 +25,32 @@ logging.basicConfig(
 )
 logger = logging.getLogger("pipeline")
 
+def load_nicknames(char_name, source_novel=None, map_file="nickname_map.json"):
+    """从外部 JSON 文件加载角色昵称，支持按作品归类"""
+    if not os.path.exists(map_file):
+        logger.warning(f"昵称映射文件 {map_file} 不存在，将不使用额外昵称")
+        return []
+    try:
+        with open(map_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        # 优先在指定作品下查找
+        if source_novel and source_novel in data:
+            return data[source_novel].get(char_name, [])
+        
+        # 兼容性处理：如果没有找到或未指定作品，尝试直接查找（针对旧格式）
+        if char_name in data and isinstance(data[char_name], list):
+            return data[char_name]
+            
+        return []
+    except Exception as e:
+        logger.error(f"读取昵称映射文件失败: {e}")
+        return []
+
 async def run_pipeline():
     # --- 任务配置中心 ---
     # 1. 选择卷前缀 (如 "03", "04", 或 None 代表全本)
-    TARGET_PREFIX = "02"
+    TARGET_PREFIX = None
     
     # 2. 选择章节范围 (基于文件开头的数字编号，None 代表不限制)
     # 示例：处理第 100 到 150 章
@@ -35,7 +58,12 @@ async def run_pipeline():
     END_CHAPTER = None    # 结束编号
     
     # 3. 目标角色配置
-    TARGET_CHARACTER = "叶灵静"
+    TARGET_CHARACTER = "柳怀沙"
+    SOURCE_NOVEL = "隐杀" # 原作名称，用于从昵称库中检索
+    
+    # 从配置文件自动加载昵称
+    NICKNAME_LIST = load_nicknames(TARGET_CHARACTER, SOURCE_NOVEL)
+    logger.info(f"已加载角色 [{TARGET_CHARACTER}] (出自: {SOURCE_NOVEL}) 的昵称列表: {NICKNAME_LIST}")
 
     # 4. Prompt 模板文件配置
     PROMPT_INSTRUCTION_FILE = "prompts/prompt_instruction.txt"
@@ -52,6 +80,8 @@ async def run_pipeline():
     cleaner = NovelCleaner(
         target_prefix=TARGET_PREFIX, 
         char_name=TARGET_CHARACTER, 
+        nickname_list=NICKNAME_LIST,
+        source_novel=SOURCE_NOVEL,
         prompt_instruction_file=PROMPT_INSTRUCTION_FILE, 
         output_schema_file=OUTPUT_SCHEMA_FILE, 
         force_refresh=FORCE_REFRESH
