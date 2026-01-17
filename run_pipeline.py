@@ -7,9 +7,10 @@ import asyncio
 import sys
 import os
 import json
+import argparse
 import datetime
 import logging
-from clean_novel_data import NovelCleaner
+from clean_novel_data import NovelCleaner, load_nicknames
 from validate_data import validate_one
 
 # 配置日志
@@ -25,41 +26,48 @@ logging.basicConfig(
 )
 logger = logging.getLogger("pipeline")
 
-def load_nicknames(char_name, source_novel=None, map_file="nickname_map.json"):
-    """从外部 JSON 文件加载角色昵称，支持按作品归类"""
-    if not os.path.exists(map_file):
-        logger.warning(f"昵称映射文件 {map_file} 不存在，将不使用额外昵称")
-        return []
-    try:
-        with open(map_file, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        
-        # 优先在指定作品下查找
-        if source_novel and source_novel in data:
-            return data[source_novel].get(char_name, [])
-        
-        # 兼容性处理：如果没有找到或未指定作品，尝试直接查找（针对旧格式）
-        if char_name in data and isinstance(data[char_name], list):
-            return data[char_name]
-            
-        return []
-    except Exception as e:
-        logger.error(f"读取昵称映射文件失败: {e}")
-        return []
+
+def load_config(config_file="config.json"):
+    """加载外部 JSON 配置文件"""
+    if os.path.exists(config_file):
+        try:
+            with open(config_file, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception as e:
+            logger.warning(f"无法读取配置文件 {config_file}: {e}")
+    return {}
+
+def parse_args():
+    """解析命令行参数"""
+    parser = argparse.ArgumentParser(description="小说数据清洗流程编排")
+    parser.add_argument("--character", type=str, help="目标角色名称")
+    parser.add_argument("--novel", type=str, help="来源小说名称")
+    parser.add_argument("--prefix", type=str, help="卷前缀 (如 '03')")
+    parser.add_argument("--start", type=int, help="起始章节编号")
+    parser.add_argument("--end", type=int, help="结束章节编号")
+    parser.add_argument("--no-refresh", action="store_true", help="不强制刷新缓存 (默认强制刷新)")
+    # 这里的 parse_known_args 允许有未定义的参数传入而不报错，增强兼容性
+    args, _ = parser.parse_known_args()
+    return args
 
 async def run_pipeline():
+    # 加载外部配置 (优先级: CLI > Config > 默认值)
+    config = load_config()
+    args = parse_args()
+
     # --- 任务配置中心 ---
-    # 1. 选择卷前缀 (如 "03", "04", 或 None 代表全本)
-    TARGET_PREFIX = None
     
-    # 2. 选择章节范围 (基于文件开头的数字编号，None 代表不限制)
-    # 示例：处理第 100 到 150 章
-    START_CHAPTER = None  # 起始编号
-    END_CHAPTER = None    # 结束编号
+    # 1. 选择卷前缀 (默认 None 代表全本)
+    # 逻辑: 如果 CLI 有值则用 CLI，否则尝试用 Config，最后回退到 None
+    TARGET_PREFIX = args.prefix if args.prefix else config.get("target_prefix")
     
-    # 3. 目标角色配置
-    TARGET_CHARACTER = "柳怀沙"
-    SOURCE_NOVEL = "隐杀" # 原作名称，用于从昵称库中检索
+    # 2. 选择章节范围 (默认 None 不限制)
+    START_CHAPTER = args.start if args.start is not None else config.get("start_chapter")
+    END_CHAPTER = args.end if args.end is not None else config.get("end_chapter")
+    
+    # 3. 目标角色配置 (默认: 叶灵静 / 隐杀)
+    TARGET_CHARACTER = args.character or config.get("target_character") or "叶灵静"
+    SOURCE_NOVEL = args.novel or config.get("source_novel") or "隐杀"
     
     # 从配置文件自动加载昵称
     NICKNAME_LIST = load_nicknames(TARGET_CHARACTER, SOURCE_NOVEL)
@@ -70,11 +78,17 @@ async def run_pipeline():
     OUTPUT_SCHEMA_FILE = "prompts/output_schema.txt"
 
     # 5. 是否强制刷新缓存 (True: 忽略缓存强制重跑; False: 优先使用缓存)
-    FORCE_REFRESH = True
+    # 逻辑: 默认 True。CLI --no-refresh 设为 False。Config 可覆盖。
+    if args.no_refresh:
+        FORCE_REFRESH = False
+    else:
+        # Config 默认为 True
+        FORCE_REFRESH = config.get("force_refresh", True)
 
 
     
     logger.info(f"=== 开始执行流程 ===")
+    logger.info(f"配置生效: 角色=[{TARGET_CHARACTER}] 来源=[{SOURCE_NOVEL}] 卷=[{TARGET_PREFIX}] 范围=[{START_CHAPTER}-{END_CHAPTER}] 强刷=[{FORCE_REFRESH}]")
     logger.info(f"1. 正在生成数据: 角色[{TARGET_CHARACTER}] | 卷前缀[{TARGET_PREFIX}]...")
     
     cleaner = NovelCleaner(

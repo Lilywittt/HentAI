@@ -73,9 +73,40 @@ def validate_one(file_path: str) -> bool:
     except ValidationError as e:
         logger.error(f"Schema 不匹配: {file_path}")
         for err in e.errors():
-            loc = "->".join(str(l) for l in err['loc'])
+            loc_tuple = err['loc']
+            loc = "->".join(str(l) for l in loc_tuple)
             msg = err['msg']
-            logger.error(f"  - 位置: {loc}, 错误信息: {msg}")
+
+            # 尝试获取出错数据的 ID 信息
+            id_info = ""
+            # 如果错误发生在 interaction_units 列表中的某一项
+            if len(loc_tuple) >= 2 and loc_tuple[0] == 'interaction_units' and isinstance(loc_tuple[1], int):
+                try:
+                    idx = loc_tuple[1]
+                    # 确保 data 是字典且包含 interaction_units 列表，且索引有效
+                    if (isinstance(data, dict) and 
+                        "interaction_units" in data and 
+                        isinstance(data["interaction_units"], list) and 
+                        0 <= idx < len(data["interaction_units"])):
+                        
+                        item = data["interaction_units"][idx]
+                        if isinstance(item, dict):
+                            # 提取 id 和 global_id
+                            curr_id = item.get("id")
+                            curr_global_id = item.get("global_id")
+                            
+                            parts = []
+                            if curr_id is not None:
+                                parts.append(f"id={curr_id}")
+                            if curr_global_id is not None:
+                                parts.append(f"global_id={curr_global_id}")
+                            
+                            if parts:
+                                id_info = f" (Data: {', '.join(parts)})"
+                except Exception:
+                    pass
+
+            logger.error(f"  - 位置: {loc}, 错误信息: {msg}{id_info}")
         return False
     except Exception as e:
         logger.error(f"处理 {file_path} 时发生未知错误: {str(e)}")
@@ -112,7 +143,7 @@ def validate_path(path: str):
 
 if __name__ == "__main__":
     # 默认目标
-    target = "novel_data/lora_dataset/cleaned_顾家明_02_20260116_203605.txt"
+    target = "novel_data/lora_dataset/cleaned_叶灵静_full_20260117_222334"
     
     # 命令行参数支持
     if len(sys.argv) > 1:

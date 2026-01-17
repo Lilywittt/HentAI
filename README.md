@@ -4,87 +4,86 @@
 
 ---
 
+## ?? 新人快速指南 (Quick Start)
+
+### 1. 环境准备
+确保已安装 Python 环境，并安装依赖：
+```bash
+pip install -r requirements.txt
+```
+确保项目根目录存在 `.env` 文件，并填入 API 密钥：
+`DEEPSEEK_API_KEY=你的_API_密钥`
+
+### 2. 运行项目
+我们使用 `run_pipeline.py` 作为统一入口，它会自动读取配置、清洗数据并进行校验。
+
+**方式一：直接运行（使用默认配置）**
+```bash
+python run_pipeline.py
+```
+*默认读取 `config.json` 中的设置。*
+
+**方式二：通过命令行覆盖配置（推荐调试用）**
+```bash
+# 仅处理第 5 卷的前 10 章，且不强制刷新缓存
+python run_pipeline.py --prefix 05 --start 1 --end 10 --no-refresh
+
+# 查看所有可用参数
+python run_pipeline.py --help
+```
+
+---
+
+## ?? 配置文件详解 (`config.json`)
+
+为了避免频繁修改代码，项目引入了 `config.json` 作为全局配置文件。该文件位于项目根目录，被 `run_pipeline.py` 关联并读取。
+
+### 字段说明
+你可以直接编辑此文件来固化你的常用设置：
+
+```json
+{
+  "target_character": "叶灵静",   // 目标角色名称，用于筛选交互
+  "source_novel": "隐杀",        // 小说名，用于关联 nickname_map.json 中的昵称
+  "target_prefix": null,         // 卷前缀筛选（如 "03"），null 表示处理全本
+  "start_chapter": null,         // 起始章节编号（整数），null 不限制
+  "end_chapter": null,           // 结束章节编号（整数），null 不限制
+  "force_refresh": true          // true: 即使有缓存也重新调用 API; false: 优先使用缓存
+}
+```
+
+> **注意**：命令行参数（CLI）的优先级高于 `config.json`。如果你在命令行中指定了 `--prefix 05`，那么 `config.json` 中的 `target_prefix` 将被忽略。
+
+---
+
 ## ?? 核心功能模块
 
-### 1. 小说文本自动化分割 (`split_novel.py`)
-将百万字级别的原始长篇 TXT 文本拆分为易于处理的章节单元。
-*   **编码修复**：自动识别并转换 `GBK` 等旧式编码为标准 `UTF-8`。
-*   **智能分卷**：基于正则匹配自动识别“卷”与“章节”标记，构建多级目录。
-*   **内容聚合**：智能识别正文与非正文内容（如外篇、感言等）。
+### 1. 数据预处理 (`split_novel.py`)
+将 TXT 长文本切分为章节文件。
+*   **输入**：`novel_data/original_data/` 下的 TXT 文件。
+*   **输出**：`novel_data/split_data/` 下的分卷目录。
+*   **用法**：通常只需要在引入新小说时运行一次。
 
-### 2. 交互语料智能清洗 (`clean_novel_data.py`)
-利用大语言模型（默认 DeepSeek）对拆分后的章节进行语义级特征提取。
-*   **角色行为聚焦**：自动识别指定角色相关的交互场景，剔除冗余干扰文本。
-*   **高性能异步架构**：基于 `asyncio` 设计，支持大规模并发请求，极大缩短处理周期。
-*   **深层语义推演**：除提取原始台词外，更能结合上下文逻辑自动推演角色的心理活动与情绪状态。
-*   **工业级缓存机制**：引入 MD5 哈希校验，确保内容未变时不重复计费，支持大规模任务断点续传。
+### 2. 数据清洗与提取 (`clean_novel_data.py`)
+利用 LLM 提取角色交互数据。
+*   **核心逻辑**：基于 `prompts/prompt_instruction.txt` 中的指令进行提取。
+*   **输出**：`novel_data/lora_dataset/` 下的结构化数据。
+*   **用法**：一般不需要直接运行，由 `run_pipeline.py` 调用。
 
----
-
-## ? 文件结构指南
-
-### 1. 输入文件要求 (Input)
-将需要处理的小说原始文件放入：
-*   `novel_data/original_data/你的小说名.txt` (支持多种编码格式的 TXT)
-
-### 2. 预处理产出 (Intermediate)
-运行 `split_novel.py` 后，系统会自动生成章节化的中间文件，存储路径为：
-```text
-novel_data/split_data/
-├── 01_第一卷/
-│   ├── 001_重生_回到过去.txt
-│   └── ...
-├── 02_第二卷/
-└── ...
-```
-
-### 3. 清洗后的中间态数据 (Intermediate Cleaned Data)
-运行 `clean_novel_data.py` 后生成的**中间态树状结构数据集**。这是一个关键的过渡状态，包含了从每一章中提取的主角交互信息。
-
-*   **数据形态**：保留了小说原始的“卷-章”树状目录结构。
-*   **文件内容**：虽然文件名可能保留 `.txt` 后缀，但内容实际上是结构化的 **JSON** 数据。
-*   **后续用途**：这些分散的 JSON 数据将被进一步组装（Flatten & Merge），最终生成用于 LoRA 模型微调的单一 `.jsonl` 数据集。
-
-存放路径：
-```text
-novel_data/lora_dataset/cleaned_{prefix}_{timestamp}/
-├── {卷名}/
-│   ├── {章节编号}_{章节名}.txt  <-- 内部为 JSON 格式
-│   └── ...
-└── processing.log (完整的处理日志与 Token 消耗统计)
-```
+### 3. 数据校验 (`validate_data.py`)
+检查生成的 JSON 数据是否符合 Schema。
+*   **核心逻辑**：基于 `validate_data.py` 中的 Pydantic 模型进行校验。
+*   **用法**：由 `run_pipeline.py` 自动调用。
 
 ---
 
-## ? 快速上手
+## ? 常见问题
 
-### 环境准备
-```bash
-pip install openai python-dotenv tqdm tenacity httpx
-```
-并在项目根目录创建 `.env` 文件，填入：
-`DEEPSEEK_API_KEY=你的 API 密钥`
+**Q: 如何添加新的小说？**
+A: 把 TXT 放入 `novel_data/original_data/`，先运行 `python split_novel.py`，然后修改 `config.json` 中的 `source_novel` 字段。
 
-### 执行流程
-1.  **分卷预处理**: 运行 `python split_novel.py` 将长文本切碎。
-2.  **提取指令配置**: 编辑 `prompt_template.txt` 设定你希望 AI 扮演的角色专家及提取逻辑。
-3.  **启动清洗引擎**: 在 `clean_novel_data.py` 中设定目标角色名，执行 `python clean_novel_data.py`。
+**Q: 生成的文件名乱码怎么办？**
+A: Windows 终端默认编码可能导致显示乱码，但这不影响文件内容的 UTF-8 编码。建议使用 VS Code 的文件资源管理器查看结果。
 
----
-
-## ?? 开发者配置接口
-
-### 任务范围控制
-在 `clean_novel_data.py` 的 `if __name__ == "__main__":` 区域进行动态配置：
-*   **卷筛选**: 修改 `TARGET_PREFIX`（如 `"01"` 代表仅处理第一卷）。
-*   **章节筛选**: 通过 `START_CHAPTER` 与 `END_CHAPTER` 精准控制处理的数字编号范围。
-
-### 性能与成本控制
-*   `MAX_CONCURRENT_TASKS`: 在 `Config` 类中修改，建议范围 5-20。
-
----
-
-## ? 技术亮点
-*   **指数退避重试**: 应对网络波动的健壮性。
-*   **多编码兼容**: 鲁棒的文件 IO 系统，自动处理多种字符集。
-*   **成本透明化**: 实时监控并计算每一批次的预估成本。
+**Q: 如何控制成本？**
+A: 使用 `--no-refresh` 参数利用缓存；或者在 `config.json` 中设置具体的章节范围 (`start_chapter`, `end_chapter`) 进行小范围测试。

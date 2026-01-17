@@ -85,7 +85,32 @@ class Config:
             raise ValueError("未在 .env 文件中找到 DEEPSEEK_API_KEY")
 
 # ==========================================
-# 3. 统计管理模块
+# 3. 辅助函数
+# ==========================================
+def load_nicknames(char_name: str, source_novel: Optional[str] = None, map_file: str = "nickname_map.json") -> List[str]:
+    """从外部 JSON 文件加载角色昵称，支持按作品归类"""
+    if not os.path.exists(map_file):
+        logging.warning(f"昵称映射文件 {map_file} 不存在，将不使用额外昵称")
+        return []
+    try:
+        with open(map_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        # 优先在指定作品下查找
+        if source_novel and source_novel in data:
+            return data[source_novel].get(char_name, [])
+        
+        # 兼容性处理：如果没有找到或未指定作品，尝试直接查找（针对旧格式）
+        if char_name in data and isinstance(data[char_name], list):
+            return data[char_name]
+            
+        return []
+    except Exception as e:
+        logging.error(f"读取昵称映射文件失败: {e}")
+        return []
+
+# ==========================================
+# 4. 统计管理模块
 # ==========================================
 class StatsManager:
     """负责实时统计 Token 消耗量、任务成功率及预估费用"""
@@ -243,9 +268,12 @@ class NovelCleaner:
                 if "{source_novel}" in formatted_system_prompt:
                     formatted_system_prompt = formatted_system_prompt.replace("{source_novel}", self.source_novel)
                 
+                # 组装昵称信息
+                nickname_str = f" (昵称: {', '.join(self.nickname_list)})" if self.nickname_list else ""
+                
                 response = await self._api_call([
                     {"role": "system", "content": formatted_system_prompt},
-                    {"role": "user", "content": f"目标角色: {char_name}\n来源文件: {file_name}\n\n待处理文本:\n{content}"}
+                    {"role": "user", "content": f"目标角色: {char_name}{nickname_str}\n来源文件: {file_name}\n\n待处理文本:\n{content}"}
                 ])
                 await self.stats.update_usage(response.usage)
                 res_content = response.choices[0].message.content
@@ -342,5 +370,20 @@ if __name__ == "__main__":
     if sys.platform == 'win32':
         asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
     
-    cleaner = NovelCleaner(target_prefix="02", char_name="顾家明", force_refresh=True)
+    # 示例配置
+    TARGET_PREFIX = "02"
+    CHAR_NAME = "顾家明"
+    SOURCE_NOVEL = "隐杀"
+    
+    # 加载昵称
+    nicknames = load_nicknames(CHAR_NAME, SOURCE_NOVEL)
+    print(f"Loaded nicknames for {CHAR_NAME}: {nicknames}")
+    
+    cleaner = NovelCleaner(
+        target_prefix=TARGET_PREFIX, 
+        char_name=CHAR_NAME, 
+        nickname_list=nicknames,
+        source_novel=SOURCE_NOVEL,
+        force_refresh=True
+    )
     asyncio.run(cleaner.run())
