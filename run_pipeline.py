@@ -27,7 +27,7 @@ logger = logging.getLogger("pipeline")
 async def run_pipeline():
     # --- 任务配置中心 ---
     # 1. 选择卷前缀 (如 "03", "04", 或 None 代表全本)
-    TARGET_PREFIX = None
+    TARGET_PREFIX = "02"
     
     # 2. 选择章节范围 (基于文件开头的数字编号，None 代表不限制)
     # 示例：处理第 100 到 150 章
@@ -35,7 +35,7 @@ async def run_pipeline():
     END_CHAPTER = None    # 结束编号
     
     # 3. 目标角色配置
-    TARGET_CHARACTER = "顾家明"
+    TARGET_CHARACTER = "叶灵静"
 
     # 4. Prompt 模板文件配置
     PROMPT_INSTRUCTION_FILE = "prompts/prompt_instruction.txt"

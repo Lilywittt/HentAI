@@ -108,6 +108,7 @@ class StatsManager:
             if status == "success": self.success += 1
             elif status == "failed": self.failed += 1
             elif status == "skipped": self.skipped += 1
+            elif status == "empty": self.skipped += 1
 
     def get_cost(self) -> float:
         """根据当前消耗计算预估成本"""
@@ -178,27 +179,42 @@ class NovelCleaner:
         try:
             content = self._read_file(file_path)
             
-            # 本地语义过滤：跳过不含主角名称的章节，节省 API 成本
-            if char_name not in content and char_name[1:] not in content:
+            # 本地语义过滤：跳过不含主角名称关键部分的章节
+            short_name = char_name[1:] if len(char_name) > 1 else char_name
+            if char_name not in content and short_name not in content:
                 await self.stats.update_status("skipped")
-                return None
+                self.logger.info(f"章节 {file_name} 本地过滤跳过 (未发现角色关键词)")
+                # 即使跳过也生成空文件
+                with open(output_path, 'w', encoding='utf-8') as f:
+                    json.dump({"meta_info": {"global_scene_type": "Other"}, "interaction_units": []}, f, ensure_ascii=False, indent=2)
+                return output_path
 
-            # 缓存校验：将 "Prompt 内容" 加入哈希计算，确保 Prompt 修改后缓存自动失效
-            # 如果 force_refresh 为 True，则跳过缓存检查
+            # 创建输出目录（如果不存在）
+            os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+            # 缓存校验
             c_hash = self._get_hash(content + self.system_prompt)
             c_path = os.path.join(Config.CACHE_DIR, f"{c_hash}.json")
             
             if not self.force_refresh and os.path.exists(c_path):
-                res = self._read_file(c_path)
-                with open(output_path, 'w', encoding='utf-8') as f: f.write(res)
-                await self.stats.update_status("success")
-                return output_path
+                try:
+                    res_data = json.loads(self._read_file(c_path))
+                    with open(output_path, 'w', encoding='utf-8') as f: 
+                        json.dump(res_data, f, ensure_ascii=False, indent=2)
+                    
+                    if not res_data.get("interaction_units"):
+                        await self.stats.update_status("empty")
+                        self.logger.info(f"章节 {file_name} 缓存命中: 角色无互动 (空)")
+                    else:
+                        await self.stats.update_status("success")
+                        self.logger.info(f"章节 {file_name} 缓存命中: 提取成功")
+                    return output_path
+                except:
+                    pass
 
-            # 并发控制：在信号量槽位空闲时发起请求
+            # 并发控制
             async with self.semaphore:
-                # 动态替换 System Prompt 中的角色占位符
                 formatted_system_prompt = self.system_prompt.replace("{character_name}", char_name)
-                
                 response = await self._api_call([
                     {"role": "system", "content": formatted_system_prompt},
                     {"role": "user", "content": f"目标角色: {char_name}\n来源文件: {file_name}\n\n待处理文本:\n{content}"}
@@ -206,110 +222,91 @@ class NovelCleaner:
                 await self.stats.update_usage(response.usage)
                 res_content = response.choices[0].message.content
                 
-                # 写入结果文件并存入缓存
-                with open(output_path, 'w', encoding='utf-8') as f: f.write(res_content)
-                with open(c_path, 'w', encoding='utf-8') as f: f.write(res_content)
-                await self.stats.update_status("success")
-                return output_path
+                try:
+                    res_data = json.loads(res_content)
+                    with open(output_path, 'w', encoding='utf-8') as f: 
+                        json.dump(res_data, f, ensure_ascii=False, indent=2)
+                    with open(c_path, 'w', encoding='utf-8') as f: 
+                        json.dump(res_data, f, ensure_ascii=False, indent=2)
+
+                    if not res_data.get("interaction_units"):
+                        await self.stats.update_status("empty")
+                        self.logger.info(f"章节 {file_name} 处理完毕: 角色无互动 (空)")
+                    else:
+                        await self.stats.update_status("success")
+                        self.logger.info(f"章节 {file_name} 处理完毕: 提取成功")
+                    return output_path
+                except json.JSONDecodeError:
+                    self.logger.error(f"解析 {file_name} 的 AI 响应失败: 格式非 JSON")
+                    await self.stats.update_status("failed")
+                    return None
         except Exception as e:
             self.logger.error(f"处理 {file_name} 时发生错误: {e}")
             await self.stats.update_status("failed")
             return None
 
     async def run(self, start_idx: Optional[int] = None, end_idx: Optional[int] = None) -> List[str]:
-        """
-        启动清洗任务主循环
-        :param start_idx: 起始章节编号 (包含)
-        :param end_idx: 结束章节编号 (包含)
-        """
-        # 扫描并过滤目标卷册
+        """启动清洗任务主循环"""
         vols = sorted([d for d in glob.glob(os.path.join(Config.BASE_INPUT_DIR, "[0-9][0-9]_*")) if os.path.isdir(d)])
         if self.target_prefix != "full":
             vols = [v for v in vols if os.path.basename(v).startswith(self.target_prefix)]
         
         if not vols:
             self.logger.error(f"未找到前缀为 {self.target_prefix} 的目标文件夹")
-            return
+            return []
 
-        # 构造异步任务列表
         tasks_list = []
         for vol in vols:
             vol_out = os.path.join(self.output_root, os.path.basename(vol))
             os.makedirs(vol_out, exist_ok=True)
-            
-            # 获取当前卷下的所有章节文件
             chapter_files = sorted(glob.glob(os.path.join(vol, "*.txt")))
             
             for cf in chapter_files:
                 file_name = os.path.basename(cf)
-                # 提取文件名开头的数字编号 (如 "001")
                 try:
                     current_file_idx = int(file_name.split('_')[0])
-                except (ValueError, IndexError):
+                except:
                     current_file_idx = -1
 
-                # 范围过滤逻辑
-                if start_idx is not None and current_file_idx < start_idx:
-                    continue
-                if end_idx is not None and current_file_idx > end_idx:
-                    continue
+                if start_idx is not None and current_file_idx < start_idx: continue
+                if end_idx is not None and current_file_idx > end_idx: continue
 
                 tasks_list.append(self.process_chapter(cf, os.path.join(vol_out, file_name), self.char_name))
 
         if not tasks_list:
-            self.logger.warning(f"在指定范围 [{start_idx} ~ {end_idx}] 内未找到可处理的任务")
+            self.logger.warning(f"未找到可处理的任务")
             return []
 
-        self.logger.info(f"清洗任务启动: {self.target_prefix} | 范围: {start_idx or 'Start'} ~ {end_idx or 'End'} | 待处理章节: {len(tasks_list)}")
+        self.logger.info(f"清洗任务启动: {len(tasks_list)} 章节")
         
         generated_files = []
-        # 利用 tqdm.asyncio 显示并发进度
         for f in tqdm.as_completed(tasks_list, total=len(tasks_list), desc=f"Cleaning {self.target_prefix}"):
             res = await f
-            if res:
-                generated_files.append(res)
+            if res: generated_files.append(res)
             
             done = self.stats.success + self.stats.failed + self.stats.skipped
-            # 每完成 10 章输出一次阶段性状态
             if done % 10 == 0 or done == len(tasks_list):
-                self.logger.info(f"任务进度: {done}/{len(tasks_list)} | 成功:{self.stats.success} 失败:{self.stats.failed} 跳过:{self.stats.skipped} | 预估成本: {self.stats.get_cost():.2f} CNY")
+                self.logger.info(f"进度: {done}/{len(tasks_list)} | 成功:{self.stats.success} 失败:{self.stats.failed} 跳过/空:{self.stats.skipped} | 成本: {self.stats.get_cost():.2f} CNY")
+
+        self.logger.info("开始标记序号...")
+        for file_path in generated_files:
+            try:
+                with open(file_path, 'r', encoding='utf-8') as f: data = json.load(f)
+                if "interaction_units" in data and data["interaction_units"]:
+                    prefix = os.path.basename(file_path).split('_')[0]
+                    for i, unit in enumerate(data["interaction_units"], 1):
+                        unit["id"] = f"{prefix}_{i:03d}"
+                    with open(file_path, 'w', encoding='utf-8') as f:
+                        json.dump(data, f, ensure_ascii=False, indent=2)
+            except Exception as e:
+                self.logger.error(f"标记序号出错 {file_path}: {e}")
         
-        self.logger.info("-" * 30)
-        self.logger.info(f"清洗完毕。最终预估成本: {self.stats.get_cost():.2f} CNY. 输出结果已存至: {self.output_root}")
+        self.logger.info(f"清洗完毕。输出至: {self.output_root}")
         return generated_files
 
-# ==========================================
-# 5. 执行入口
-# ==========================================
 if __name__ == "__main__":
-    # 配置 Windows 平台异步事件循环策略，防止运行时警告
     if sys.platform == 'win32':
         asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
     
-    # --- 任务配置中心 ---
-    # 1. 选择卷前缀 (如 "03", "04", 或 None 代表全本)
-    TARGET_PREFIX = "02" 
-    
-    # 2. 选择章节范围 (基于文件开头的数字编号，None 代表不限制)
-    # 示例：处理第 100 到 150 章
-    START_CHAPTER = None  # 起始编号
-    END_CHAPTER = None    # 结束编号
-    
-    # 3. 目标角色配置
-    TARGET_CHARACTER = "顾家明"
-
-    # 4. Prompt 模板文件配置
-    PROMPT_INSTRUCTION_FILE = "prompts/prompt_instruction.txt"
-    OUTPUT_SCHEMA_FILE = "prompts/output_schema.txt"
-
-    # 5. 是否强制刷新缓存 (True: 忽略缓存强制重跑; False: 优先使用缓存)
-    FORCE_REFRESH = True
-    
-    cleaner = NovelCleaner(
-        target_prefix=TARGET_PREFIX, 
-        char_name=TARGET_CHARACTER, 
-        prompt_instruction_file=PROMPT_INSTRUCTION_FILE, 
-        output_schema_file=OUTPUT_SCHEMA_FILE, 
-        force_refresh=FORCE_REFRESH
-    )
-    asyncio.run(cleaner.run(start_idx=START_CHAPTER, end_idx=END_CHAPTER))
+    cleaner = NovelCleaner(target_prefix="02", char_name="顾家明", force_refresh=True)
+    asyncio.run(cleaner.run())

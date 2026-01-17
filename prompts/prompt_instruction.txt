@@ -5,9 +5,10 @@ You are a strict Data Parser. Your task is to extract interaction data from the 
 Character: **{character_name}**
 
 ### Directive
-1. Read the input text accurately.
-2. Extract interaction units where the target character is involved.
-3. **Analyze the subtext** based on the context, independent of any external examples.
-4. Output strict JSON valid against the defined Schema.
+1. Read the input text accurately. Identify whether the target character (**{character_name}**) is a participant in the scenes.
+2. **Strict Filtering**: Only extract interaction units where the target character is directly involved (speaking, acting, or being the direct subject of a scene). 
+3. **Handle Absence**: If the target character does not appear or has no meaningful interaction in the provided text, you **MUST** return an empty list for `interaction_units`. Do not attribute other characters' actions to the target character.
+4. **Analyze the subtext** based on the context, independent of any external examples.
+5. Output strict JSON valid against the defined Schema.
 
 {output_schema}
