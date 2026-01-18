@@ -13,9 +13,15 @@ import logging
 from clean_novel_data import NovelCleaner, load_nicknames
 from validate_data import validate_one
 
+# 获取当前脚本所在目录 (data_cleaning)
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+# 获取项目根目录 (即 data_cleaning 的上一级)
+PROJECT_ROOT = os.path.dirname(CURRENT_DIR)
+
 # 配置日志
-os.makedirs("logs", exist_ok=True)
-log_filename = f"logs/pipeline_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+LOG_DIR = os.path.join(PROJECT_ROOT, "logs")
+os.makedirs(LOG_DIR, exist_ok=True)
+log_filename = os.path.join(LOG_DIR, f"pipeline_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.log")
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s [%(levelname)s] %(name)s: %(message)s',
@@ -27,8 +33,11 @@ logging.basicConfig(
 logger = logging.getLogger("pipeline")
 
 
-def load_config(config_file="config.json"):
+def load_config(config_file=None):
     """加载外部 JSON 配置文件"""
+    if config_file is None:
+        config_file = os.path.join(CURRENT_DIR, "config.json")
+
     if os.path.exists(config_file):
         try:
             with open(config_file, 'r', encoding='utf-8') as f:
@@ -74,8 +83,8 @@ async def run_pipeline():
     logger.info(f"已加载角色 [{TARGET_CHARACTER}] (出自: {SOURCE_NOVEL}) 的昵称列表: {NICKNAME_LIST}")
 
     # 4. Prompt 模板文件配置
-    PROMPT_INSTRUCTION_FILE = "prompts/prompt_instruction.txt"
-    OUTPUT_SCHEMA_FILE = "prompts/output_schema.txt"
+    PROMPT_INSTRUCTION_FILE = os.path.join(CURRENT_DIR, "prompts", "prompt_instruction.txt")
+    OUTPUT_SCHEMA_FILE = os.path.join(CURRENT_DIR, "prompts", "output_schema.txt")
 
     # 5. 是否强制刷新缓存 (True: 忽略缓存强制重跑; False: 优先使用缓存)
     # 逻辑: 默认 True。CLI --no-refresh 设为 False。Config 可覆盖。

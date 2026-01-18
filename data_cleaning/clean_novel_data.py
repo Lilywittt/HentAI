@@ -20,6 +20,11 @@ from openai import AsyncOpenAI
 from dotenv import load_dotenv
 from tenacity import retry, stop_after_attempt, wait_exponential
 
+# 获取当前脚本所在目录 (data_cleaning)
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+# 获取项目根目录 (即 data_cleaning 的上一级)
+PROJECT_ROOT = os.path.dirname(CURRENT_DIR)
+
 # ==========================================
 # 1. Prompt 模板管理器 (从外部文件加载)
 # ==========================================
@@ -69,9 +74,9 @@ class Config:
     BASE_URL = os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
     
     # 路径定义
-    BASE_INPUT_DIR = "novel_data/split_data"
-    LORA_DATASET_DIR = "novel_data/lora_dataset"
-    CACHE_DIR = "novel_data/.cache"
+    BASE_INPUT_DIR = os.path.join(PROJECT_ROOT, "novel_data", "split_data")
+    LORA_DATASET_DIR = os.path.join(PROJECT_ROOT, "novel_data", "lora_dataset")
+    CACHE_DIR = os.path.join(PROJECT_ROOT, "novel_data", ".cache")
     
     # 并发与费用配置
     MAX_CONCURRENT_TASKS = 10 # 同时进行的 API 请求数
@@ -87,8 +92,11 @@ class Config:
 # ==========================================
 # 3. 辅助函数
 # ==========================================
-def load_nicknames(char_name: str, source_novel: Optional[str] = None, map_file: str = "nickname_map.json") -> List[str]:
+def load_nicknames(char_name: str, source_novel: Optional[str] = None, map_file: str = None) -> List[str]:
     """从外部 JSON 文件加载角色昵称，支持按作品归类"""
+    if map_file is None:
+        map_file = os.path.join(CURRENT_DIR, "nickname_map.json")
+
     if not os.path.exists(map_file):
         logging.warning(f"昵称映射文件 {map_file} 不存在，将不使用额外昵称")
         return []
@@ -148,9 +156,14 @@ class NovelCleaner:
     """封装了从扫描文件到调用 API 处理的完整清洗流程"""
     def __init__(self, target_prefix: Optional[str] = None, char_name: str = "顾家明", 
                  nickname_list: Optional[List[str]] = None, source_novel: Optional[str] = None,
-                 prompt_instruction_file: str = "prompts/prompt_instruction.txt", 
-                 output_schema_file: str = "prompts/output_schema.txt",
+                 prompt_instruction_file: str = None, 
+                 output_schema_file: str = None,
                  force_refresh: bool = False):
+        if prompt_instruction_file is None:
+            prompt_instruction_file = os.path.join(CURRENT_DIR, "prompts", "prompt_instruction.txt")
+        if output_schema_file is None:
+            output_schema_file = os.path.join(CURRENT_DIR, "prompts", "output_schema.txt")
+            
         Config.validate()
         self.client = AsyncOpenAI(api_key=Config.API_KEY, base_url=Config.BASE_URL)
         self.stats = StatsManager()

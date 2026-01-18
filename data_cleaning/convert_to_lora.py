@@ -12,6 +12,11 @@ import argparse
 import re
 from typing import List, Dict, Any, Optional
 
+# 获取当前脚本所在目录 (data_cleaning)
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+# 获取项目根目录 (即 data_cleaning 的上一级)
+PROJECT_ROOT = os.path.dirname(CURRENT_DIR)
+
 # ==========================================
 # 1. 配置与常量
 # ==========================================
@@ -51,8 +56,11 @@ MOOD_MAP = {
     "委屈": "aggrieved"
 }
 
-def load_config(config_path: str = "config.json") -> Dict[str, Any]:
+def load_config(config_path: str = None) -> Dict[str, Any]:
     """加载配置文件"""
+    if config_path is None:
+        config_path = os.path.join(CURRENT_DIR, "config.json")
+
     if os.path.exists(config_path):
         try:
             with open(config_path, 'r', encoding='utf-8') as f:
@@ -208,11 +216,11 @@ def main():
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     
     # Setup Output Dir
-    output_dir = os.path.join("novel_data", "lora_train_dataset")
+    output_dir = os.path.join(PROJECT_ROOT, "novel_data", "lora_train_dataset")
     os.makedirs(output_dir, exist_ok=True)
     
     # Setup Logging
-    log_dir = "logs"
+    log_dir = os.path.join(PROJECT_ROOT, "logs")
     os.makedirs(log_dir, exist_ok=True)
     log_file = os.path.join(log_dir, f"conversion_{timestamp}.log")
     

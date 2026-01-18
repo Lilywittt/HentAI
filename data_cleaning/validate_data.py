@@ -12,6 +12,11 @@ import logging
 from typing import List, Optional, Literal
 from pydantic import BaseModel, ValidationError
 
+# 获取当前脚本所在目录 (data_cleaning)
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+# 获取项目根目录 (即 data_cleaning 的上一级)
+PROJECT_ROOT = os.path.dirname(CURRENT_DIR)
+
 logger = logging.getLogger("validator")
 
 # ==========================================
@@ -143,7 +148,7 @@ def validate_path(path: str):
 
 if __name__ == "__main__":
     # 默认目标
-    target = "novel_data/lora_dataset/cleaned_叶灵静_full_20260117_222334"
+    target = os.path.join(PROJECT_ROOT, "novel_data", "lora_dataset")
     
     # 命令行参数支持
     if len(sys.argv) > 1:

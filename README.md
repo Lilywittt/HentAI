@@ -15,28 +15,28 @@ pip install -r requirements.txt
 `DEEPSEEK_API_KEY=你的_API_密钥`
 
 ### 2. 运行项目
-我们使用 `run_pipeline.py` 作为统一入口，它会自动读取配置、清洗数据并进行校验。
+我们使用 `data_cleaning/run_pipeline.py` 作为统一入口，它会自动读取配置、清洗数据并进行校验。
 
 **方式一：直接运行（使用默认配置）**
 ```bash
-python run_pipeline.py
+python data_cleaning/run_pipeline.py
 ```
-*默认读取 `config.json` 中的设置。*
+*默认读取 `data_cleaning/config.json` 中的设置。*
 
 **方式二：通过命令行覆盖配置（推荐调试用）**
 ```bash
 # 仅处理第 5 卷的前 10 章，且不强制刷新缓存
-python run_pipeline.py --prefix 05 --start 1 --end 10 --no-refresh
+python data_cleaning/run_pipeline.py --prefix 05 --start 1 --end 10 --no-refresh
 
 # 查看所有可用参数
-python run_pipeline.py --help
+python data_cleaning/run_pipeline.py --help
 ```
 
 ---
 
 ## ?? 配置文件详解 (`config.json`)
 
-为了避免频繁修改代码，项目引入了 `config.json` 作为全局配置文件。该文件位于项目根目录，被 `run_pipeline.py` 关联并读取。
+为了避免频繁修改代码，项目引入了 `config.json` 作为全局配置文件。该文件位于 `data_cleaning` 目录下，被 `run_pipeline.py` 关联并读取。
 
 ### 字段说明
 你可以直接编辑此文件来固化你的常用设置：
@@ -63,10 +63,13 @@ python run_pipeline.py --help
 *   **输入**：`novel_data/original_data/` 下的 TXT 文件。
 *   **输出**：`novel_data/split_data/` 下的分卷目录。
 *   **用法**：通常只需要在引入新小说时运行一次。
+    ```bash
+    python data_cleaning/split_novel.py
+    ```
 
 ### 2. 数据清洗与提取 (`clean_novel_data.py`)
 利用 LLM 提取角色交互数据。
-*   **核心逻辑**：基于 `prompts/prompt_instruction.txt` 中的指令进行提取。
+*   **核心逻辑**：基于 `data_cleaning/prompts/prompt_instruction.txt` 中的指令进行提取。
 *   **输出**：`novel_data/lora_dataset/` 下的结构化数据。
 *   **用法**：一般不需要直接运行，由 `run_pipeline.py` 调用。
 
@@ -82,10 +85,10 @@ python run_pipeline.py --help
 *   **用法**：
     ```bash
     # 处理整个文件夹（自动识别角色名）
-    python convert_to_lora.py --input novel_data/lora_dataset/cleaned_柳怀沙_...
+    python data_cleaning/convert_to_lora.py --input novel_data/lora_dataset/cleaned_柳怀沙_...
 
     # 处理单文件（指定角色名）
-    python convert_to_lora.py --input example1.txt --name 柳怀沙
+    python data_cleaning/convert_to_lora.py --input example1.txt --name 柳怀沙
     ```
 
 ---
@@ -93,7 +96,7 @@ python run_pipeline.py --help
 ## ? 常见问题
 
 **Q: 如何添加新的小说？**
-A: 把 TXT 放入 `novel_data/original_data/`，先运行 `python split_novel.py`，然后修改 `config.json` 中的 `source_novel` 字段。
+A: 把 TXT 放入 `novel_data/original_data/`，先运行 `python data_cleaning/split_novel.py`，然后修改 `data_cleaning/config.json` 中的 `source_novel` 字段。
 
 **Q: 生成的文件名乱码怎么办？**
 A: Windows 终端默认编码可能导致显示乱码，但这不影响文件内容的 UTF-8 编码。建议使用 VS Code 的文件资源管理器查看结果。

@@ -11,6 +11,11 @@ import os
 import re
 import shutil
 
+# 获取当前脚本所在目录 (data_cleaning)
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+# 获取项目根目录 (即 data_cleaning 的上一级)
+PROJECT_ROOT = os.path.dirname(CURRENT_DIR)
+
 def split_novel(file_path, output_root):
     """
     Splits a novel text file into volumes and chapters.
@@ -94,7 +99,7 @@ def split_novel(file_path, output_root):
     print(f"Output directory: {output_root}")
 
 if __name__ == "__main__":
-    source_dir = 'novel_data/original_data'
+    source_dir = os.path.join(PROJECT_ROOT, 'novel_data', 'original_data')
     target_file = None
     if os.path.exists(source_dir):
         for f in os.listdir(source_dir):
@@ -103,6 +108,6 @@ if __name__ == "__main__":
                 break
     
     if target_file:
-        split_novel(target_file, 'novel_data/split_data')
+        split_novel(target_file, os.path.join(PROJECT_ROOT, 'novel_data', 'split_data'))
     else:
         print("Source file not found")

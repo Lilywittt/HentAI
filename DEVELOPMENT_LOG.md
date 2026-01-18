@@ -190,3 +190,14 @@ class AnalysisOutput(BaseModel):
   - **ID 溯源**: 输出包含源数据的 `global_id`。
   - **灵活输入**: 支持单文件或文件夹输入；支持路径自动提取角色名。
   - **工程化**: 日志统一输出至 `logs/`，结果输出至 `novel_data/lora_train_dataset/`。
+
+### [2026/01/18] 项目结构重构 (Refactoring)
+将所有数据清洗相关的脚本、配置和 Prompts 统一归档至 `data_cleaning` 目录，以净化项目根目录。
+
+- **目录结构变更**:
+  - `clean_novel_data.py`, `convert_to_lora.py`, `split_novel.py`, `validate_data.py`, `run_pipeline.py` 移入 `data_cleaning/`。
+  - `config.json`, `nickname_map.json` 及 `prompts/` 目录移入 `data_cleaning/`。
+
+- **代码适配**:
+  - 所有脚本均已修改为使用 `os.path.dirname(os.path.abspath(__file__))` 动态解析路径。
+  - 确保了脚本无论在根目录还是子目录下执行，均能正确索引到父级目录的 `novel_data/` 和 `logs/`。
