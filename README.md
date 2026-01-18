@@ -103,3 +103,51 @@ A: Windows 终端默认编码可能导致显示乱码，但这不影响文件内
 
 **Q: 如何控制成本？**
 A: 使用 `--no-refresh` 参数利用缓存；或者在 `config.json` 中设置具体的章节范围 (`start_chapter`, `end_chapter`) 进行小范围测试。
+
+---
+
+## ?? 自动化训练部署 (Auto Deployment)
+
+为了简化 LoRA 训练环境的搭建，项目在 `lora_deploy/` 目录下提供了自动化脚本，支持一键部署训练框架与基座模型。
+
+### 1. 快速部署 (`deploy_server.sh`)
+在服务器上拉取本项目后，直接运行此脚本即可完成环境准备：
+
+```bash
+cd lora_deploy
+# 若下载受限模型，需先设置 Token：export HF_TOKEN="your_token"
+bash deploy_server.sh
+```
+
+**配置说明**：
+*   **更换模型**：编辑 `deploy_server.sh` 顶部的 `MODEL_REPO` 变量。
+*   **Hugging Face Access Token**：若模型需要授权（如某些 Llama 模型或私有模型），必须配置 `HF_TOKEN`。推荐通过环境变量传入：`export HF_TOKEN=hf_xxxxxxxxxxxx`。
+
+该脚本会自动执行：
+*   在项目外部创建 `../train_env` 目录。
+*   拉取 **LLaMA-Factory** 训练框架并安装依赖。
+*   下载指定的基座模型（支持断点续传）。
+
+### 2. 数据接入 (`data_interface.py`)
+当数据清洗完成（即 `novel_data/lora_train_dataset` 下有 JSONL 文件后），使用此脚本将指定数据“挂载”到训练环境：
+
+```bash
+# 方式一：自动使用最新生成的 JSONL 文件
+python lora_deploy/data_interface.py
+
+# 方式二：指定文件名（需位于默认数据目录中）
+python lora_deploy/data_interface.py --file lora_dataset_叶灵静_20260118.jsonl
+
+# 方式三：指定绝对路径
+python lora_deploy/data_interface.py --path /path/to/your/custom.jsonl
+```
+*   在 LLaMA-Factory 的 data 目录下创建软链接。
+*   自动修改 `dataset_info.json` 进行注册。
+
+### 3. 环境自检 (`check_env.py`)
+随时运行此脚本检查部署状态：
+
+```bash
+python lora_deploy/check_env.py
+```
+*   输出训练框架、模型路径及数据集注册状态的检查报告。
