@@ -1,0 +1,6 @@
+# Coding Standards
+
+## File Encoding
+- **Python Scripts**: Always explicitly use `encoding='utf-8'` when opening files for reading or writing (e.g., `open(filename, 'r', encoding='utf-8')`).
+- **Source Files**: Ensure all generated source code files are saved with UTF-8 encoding.
+- **Output**: When scripts output text to stdout/stderr, ensure they handle UTF-8 characters correctly, especially on Windows.

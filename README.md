@@ -75,6 +75,19 @@ python run_pipeline.py --help
 *   **核心逻辑**：基于 `validate_data.py` 中的 Pydantic 模型进行校验。
 *   **用法**：由 `run_pipeline.py` 自动调用。
 
+### 4. LoRA 格式转换 (`convert_to_lora.py`)
+将中间态树状 JSON 转换为 Alpaca 格式的 `.jsonl` 训练数据。
+*   **输入**：`novel_data/lora_dataset/` 下的文件夹或单文件。
+*   **输出**：`novel_data/lora_train_dataset/` 下的 `.jsonl` 和日志文件。
+*   **用法**：
+    ```bash
+    # 处理整个文件夹（自动识别角色名）
+    python convert_to_lora.py --input novel_data/lora_dataset/cleaned_柳怀沙_...
+
+    # 处理单文件（指定角色名）
+    python convert_to_lora.py --input example1.txt --name 柳怀沙
+    ```
+
 ---
 
 ## ? 常见问题

@@ -175,3 +175,18 @@ class AnalysisOutput(BaseModel):
 - **CLI 支持**: `run_pipeline.py` 新增命令行参数支持（`argparse`），实现了 `CLI > Config > 默认值` 的三级配置优先级。
 - **代码清理**: 移除了 `run_pipeline.py` 中冗余的硬编码初始化逻辑。
 - **文档更新**: 重写 `README.md`，新增“新人快速指南”及配置详解，清理了过时的操作说明。
+
+### [2026/01/18] LoRA 格式转换器 (Format Converter)
+
+开发了 `convert_to_lora.py`，用于将中间态树状数据扁平化为 LoRA 训练所需的 `.jsonl` 格式。
+
+- **格式转换**:
+  - 输入：中间态 JSON (树状，包含 `interaction_units`)。
+  - 输出：Alpaca 格式 JSONL (`instruction`, `input`, `output`)。
+  - 自动将心声 (`<think>`)、动作 (`*action*`)、台词和情绪标签 (`<mood>`) 组合为 Output。
+  - 内置中英情绪映射表 (如 "愤怒" -> "angry")。
+- **增强特性**:
+  - **角色注入**: 自动在 Instruction 中构建 System Prompt。
+  - **ID 溯源**: 输出包含源数据的 `global_id`。
+  - **灵活输入**: 支持单文件或文件夹输入；支持路径自动提取角色名。
+  - **工程化**: 日志统一输出至 `logs/`，结果输出至 `novel_data/lora_train_dataset/`。
