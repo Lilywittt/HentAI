@@ -14,7 +14,14 @@ HENTAI_ROOT = os.path.dirname(SCRIPT_DIR)
 WORKSPACE_ROOT = os.path.dirname(HENTAI_ROOT)
 
 # 定义预期的外部资源路径
-TRAIN_ENV_DIR = os.path.join(WORKSPACE_ROOT, "train_env")
+# 优先检测本地高速数据盘 (与 deploy_server.sh 逻辑一致)
+LOCAL_DISK = "/root/local-nvme"
+if os.path.exists(LOCAL_DISK) and os.access(LOCAL_DISK, os.W_OK):
+    BASE_DEPLOY_DIR = LOCAL_DISK
+else:
+    BASE_DEPLOY_DIR = WORKSPACE_ROOT
+
+TRAIN_ENV_DIR = os.path.join(BASE_DEPLOY_DIR, "train_env")
 LLAMA_FACTORY_DIR = os.path.join(TRAIN_ENV_DIR, "LLaMA-Factory")
 MODELS_DIR = os.path.join(TRAIN_ENV_DIR, "models")
 DATASET_INFO_PATH = os.path.join(LLAMA_FACTORY_DIR, "data", "dataset_info.json")
@@ -26,6 +33,7 @@ def print_status(item, status, message=""):
 
 def check_environment():
     print("=== 开始环境自检 ===\n")
+    print(f"部署根目录: {TRAIN_ENV_DIR}\n")
     
     all_passed = True
 

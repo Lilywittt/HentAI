@@ -28,6 +28,50 @@
 
 ---
 
-## ?? 运行建议
-1.  **磁盘**: 确保挂载了本地数据盘，否则 Qwen-14B 等模型会下载失败。
-2.  **显存**: 训练 14B 模型建议在启动参数中加入 `4-bit` 量化。
+## ?? 体验与对话 (How to Chat)
+
+> **注意**: 如果提示缺失 `bitsandbytes`，请先执行: `pip install bitsandbytes>=0.39.0`
+
+### 方式 A: Web 交互界面
+```bash
+source /root/local-nvme/train_env/venv/bin/activate
+cd /root/local-nvme/train_env/LLaMA-Factory
+llamafactory-cli webui \
+    --model_name_or_path /root/local-nvme/train_env/models/Qwen3-14B-abliterated \
+    --template qwen \
+    --quantization_bit 4 \
+    --port 7860
+```
+*   **访问**: 浏览器打开 `http://localhost:7860`，进入 **Chat** 标签页。
+
+### 方式 B: 终端命令行
+```bash
+source /root/local-nvme/train_env/venv/bin/activate
+llamafactory-cli chat \
+    --model_name_or_path /root/local-nvme/train_env/models/Qwen3-14B-abliterated \
+    --template qwen \
+    --quantization_bit 4
+```
+*   **交互指令**: 输入 `clear` 清理对话历史释放显存；输入 `exit` 退出对话并完全释放。
+
+### 进阶：调整生成参数 (Parameters)
+若觉得回复单一，可尝试调整参数：
+
+*   **Web 界面**: 在界面中的 "Generation" / "参数" 面板中调整 `Temperature` (温度) 和 `Top P`。
+*   **命令行**: 增加启动参数，例如：
+    ```bash
+    llamafactory-cli chat \
+        --model_name_or_path /root/local-nvme/train_env/models/Qwen3-14B-abliterated \
+        --template qwen \
+        --quantization_bit 4 \
+        --temperature 0.95 \
+        --top_p 0.7 \
+        --repetition_penalty 1.1
+    ```
+    *   `--temperature`: 越高越随机 (默认 0.95)。
+    *   `--repetition_penalty`: 重复惩罚，大于 1.0 可减少复读 (默认 1.0)。
+
+### 相关路径
+*   **虚拟环境**: `/root/local-nvme/train_env/venv`
+*   **框架目录**: `/root/local-nvme/train_env/LLaMA-Factory`
+*   **模型文件**: `/root/local-nvme/train_env/models/Qwen3-14B-abliterated`
