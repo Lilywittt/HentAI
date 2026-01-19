@@ -19,8 +19,19 @@ HENTAI_ROOT="$(dirname "$SCRIPT_DIR")"
 # 获取工作区根目录 (HentAI 的上一级)，这是放置重资产的地方
 WORKSPACE_ROOT="$(dirname "$HENTAI_ROOT")"
 
+# --- 自动检测本地数据盘 (Local NVMe) ---
+# 很多云服务器/容器会将高速数据盘挂载在 /root/local-nvme
+LOCAL_DISK="/root/local-nvme"
+if [ -d "$LOCAL_DISK" ] && [ -w "$LOCAL_DISK" ]; then
+    echo "[Info] 检测到本地高速数据盘: $LOCAL_DISK，将优先部署至此处。"
+    BASE_DEPLOY_DIR="$LOCAL_DISK"
+else
+    echo "[Warning] 未检测到本地数据盘，将部署至默认工作区根目录。注意：若系统盘空间不足可能导致下载失败。"
+    BASE_DEPLOY_DIR="$WORKSPACE_ROOT"
+fi
+
 # 定义外部部署目录名称
-TRAIN_ENV_DIR="$WORKSPACE_ROOT/train_env"
+TRAIN_ENV_DIR="$BASE_DEPLOY_DIR/train_env"
 LLAMA_FACTORY_DIR="$TRAIN_ENV_DIR/LLaMA-Factory"
 MODELS_DIR="$TRAIN_ENV_DIR/models"
 
@@ -35,6 +46,10 @@ MODEL_REPO="huihui-ai/Qwen3-14B-abliterated"
 
 # 国内用户可能需要配置 HF 镜像 (已启用)
 export HF_ENDPOINT=https://hf-mirror.com
+
+# 配置 Hugging Face 缓存路径到数据盘，防止撑爆系统盘
+export HF_HOME="$TRAIN_ENV_DIR/.cache/huggingface"
+mkdir -p "$HF_HOME"
 
 # [可选] Hugging Face Access Token
 # 下载受限模型或私有模型时需要。建议通过环境变量传入，也可在此处硬编码。

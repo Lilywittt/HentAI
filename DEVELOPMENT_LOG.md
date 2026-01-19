@@ -202,21 +202,16 @@ class AnalysisOutput(BaseModel):
   - 所有脚本均已修改为使用 `os.path.dirname(os.path.abspath(__file__))` 动态解析路径。
   - 确保了脚本无论在根目录还是子目录下执行，均能正确索引到父级目录的 `novel_data/` 和 `logs/`。
 
-### [2026/01/18] 自动化部署与环境准备套件 (Deployment Suite)
+### [2026/01/19] 部署套件磁盘架构优化 (Storage Optimization)
 
-为了简化服务器端的 LoRA 训练环境搭建，开发了一套自动化部署与检测工具，实现了“代码仓库”与“重资产”的解耦。
+针对云服务器/容器环境下系统盘空间紧张（通常只有 30GB）的问题，对部署脚本进行了针对性升级。
 
-- **核心理念**:
-  - `HentAI` 仓库仅包含轻量级脚本与数据，不包含训练框架与模型。
-  - 脚本执行时自动在仓库**外部**部署重型资产，保持 Git 仓库整洁。
-
-- **功能模块 (`lora_deploy/`)**:
-  1.  **部署脚本 (`deploy_server.sh`)**:
-      - 自动化克隆 `LLaMA-Factory` 到 `../train_env/`。
-      - 自动化下载/检查基座模型 (如 Qwen2.5) 到 `../train_env/models/`。
-      - 处理依赖安装与 git-lfs 初始化。
-  2.  **数据接口 (`data_interface.py`)**:
-      - 实现了 HentAI 数据与 LLaMA-Factory 的“软连接”。
-      - 自动扫描最新 JSONL 数据集，并在训练框架中注册 `hentai_lora` 数据集配置 (`dataset_info.json`)，无需手动搬运文件。
-  3.  **环境自检 (`check_env.py`)**:
-      - 一键检查框架、模型、数据集注册状态，输出通过/失败报告。
+- **磁盘感知部署**:
+  - `deploy_server.sh` 升级了路径自动检测逻辑，优先利用 `/root/local-nvme` 等本地高速数据盘进行环境部署。
+  - 有效避免了因下载大型基座模型（如 Qwen-14B 约 30GB+）导致系统盘写满的问题。
+- **Hugging Face 缓存治理**:
+  - 引入了 `HF_HOME` 强制重定向。所有通过 HF 库下载的权重、分词器及临时文件将强制存储在数据盘的 `train_env/.cache` 下。
+  - 解决了 Hugging Face 默认缓存（`~/.cache/huggingface`）在系统盘可能导致的磁盘溢出风险。
+- **文档重构**:
+  - 重新梳理了根目录 `README.md` 与 `lora_deploy/README.md` 的职责。
+  - 根目录 README 专注于数据清洗流程；部署套件 README 专注于环境与训练接入，清晰解耦了“产出数据”与“消耗数据”两个阶段。
