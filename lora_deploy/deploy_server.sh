@@ -156,7 +156,8 @@ else
     # 优先尝试使用 huggingface-cli 下载 (更稳定)
     if command -v huggingface-cli &> /dev/null; then
         # 如果设置了 HF_TOKEN，huggingface-cli 会自动读取
-        huggingface-cli download --resume-download "$MODEL_REPO" --local-dir "$TARGET_MODEL_PATH" --local-dir-use-symlinks False
+        # 禁用 symlinks，解决部分环境下的兼容性问题，并显式指定使用新版下载方式
+        huggingface-cli download "$MODEL_REPO" --local-dir "$TARGET_MODEL_PATH"
     else
         # 回退到 git clone
         echo "[Info] 未找到 huggingface-cli，使用 git clone 下载..."
