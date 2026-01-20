@@ -77,9 +77,10 @@ cat <<EOF > "${LLAMA_FACTORY_DIR}/data/dataset_info.json"
 }
 EOF
 
-# 强化 Checkpoint 挂载：将 local-nvme 下的产物目录软链到 LLaMA-Factory 内部，确保 WebUI 可见
+# 强化 Checkpoint 可见性：将数据盘上的原始产物目录软链到 LLaMA-Factory 内部
+# 这样即使尚未执行收割脚本，WebUI 也能直接看到历史检查点
 mkdir -p "${LLAMA_FACTORY_DIR}/saves/Qwen3-14B-Base/lora"
-ln -sf /root/local-nvme/train_output/hentai_lora_results "${LLAMA_FACTORY_DIR}/saves/Qwen3-14B-Base/lora/harvested_results"
+ln -sf /root/local-nvme/train_output/hentai_lora_results "${LLAMA_FACTORY_DIR}/saves/Qwen3-14B-Base/lora/data_disk_checkpoints"
 
 # 5. 自动调整 YAML 配置并静默注入
 echo "--- 正在注入训练配置 ---"
