@@ -12,34 +12,27 @@
 *   **索引机制**: 脚本会自动生成 `dataset_info.json` 并动态调整训练配置。（实现方式：通过环境变量与索引注入将项目路径直接指向 LLaMA-Factory，非物理复制）
 
 ### 2. 自动化训练 (Process)
-*   **执行示例**: 
-    ```bash
-    # 方式A: 自动加载最新语料
-    ./run_webui.sh 
-    
-    # 方式B: 指定特定语料
-    ./run_webui.sh my_special_data.jsonl
-    ```
-*   **配置载入**: **100% 自动静默填充**。脚本通过劫持 LLaMA-Factory 缓存与配置目录，确保启动后模型、数据集、输出路径等参数已全部回填，无需手动点击。
-*   **存储重定向**: 训练产物（Checkpoint/Log）存储在数据盘 `/root/local-nvme/train_output/hentai_lora_results`。
+*   **执行脚本**: `./run_webui.sh`。
+*   **模型来源**: `/root/local-nvme/train_env/models/Qwen3-14B-Base` (已建立指向 abliterated 的软连接)。
+*   **配置载入**: **100% 自动静默填充**。脚本通过劫持 LLaMA-Factory 缓存与配置目录，确保启动后参数已自动回填。
+*   **存储重定向**: 训练产物存储在数据盘 `/root/local-nvme/train_output/hentai_lora_results`。
 
 ### 3. 产物收割 (Harvest)
 *   **执行脚本**: `./collect_lora.sh`。
-*   **动作**: 从数据盘同步 LoRA 核心权重（`adapter_*`）到项目目录 `novel_data/lora_train_output/harvested_lora`。
+*   **动作**: 将 LoRA 核心权重从数据盘同步到项目目录 `novel_data/lora_train_output/harvested_lora`。
 
 ### 4. 体验验证 (Test)
-*   **执行脚本**: `./chat_webui.sh`。
-*   **动作**: 抓取 `harvested_lora` 目录下的权重启动 Web 对话端。
+*   **执行脚本**: `./chat_webui.sh [可选外部LoRA路径]`。
+*   **灵活接口**: 
+    *   **默认**: 直接运行 `./chat_webui.sh`，加载 `harvested_lora` 目录下的权重。
+    *   **指定路径**: 传入路径（如 `./chat_webui.sh /root/local-nvme/train_output/checkpoint-10`）可直接测试原始 Checkpoint。
 
 ## 脚本清单
 | 脚本 | 功能 | 默认不运行 |
 | :--- | :--- | :---: |
-| `run_webui.sh` | 接受数据集路径、自动生成索引、强制注入配置并启动 WebUI | 否 |
+| `run_webui.sh` | 接受数据集路径、自动注入配置并启动训练 WebUI | 否 |
 | `collect_lora.sh` | 将 LoRA 核心权重同步到项目目录 (Git 排除) | 是 |
-| `chat_webui.sh` | 加载收割后的 LoRA 产物进行对话测试 | 是 |
+| `chat_webui.sh` | 接受 LoRA 路径参数（默认收割目录），启动对话测试 | 是 |
 
 ## 配置接口
-主要参数在 `configs/hentai_webui_config.yaml` 中配置，包括：
-*   `top.model_name`: 基座模型名称。
-*   `top.checkpoint_path`: 检查点加载接口。
-*   `train.output_dir`: 产物输出路径。
+主要参数在 `configs/hentai_webui_config.yaml` 中配置，包括模型名称、输出路径等。

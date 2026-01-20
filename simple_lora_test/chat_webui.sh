@@ -1,50 +1,66 @@
 #!/bin/bash
 
 # ==============================================================================
-# HentAI LoRA 聊天体验脚本
+# HentAI LoRA 聊天体验脚本 (灵活接口优化版)
 # ==============================================================================
-# 功能：抓取指定位置的 LoRA 产物，加载基座模型并打开 Web 聊天端。
+# 功能：
+# 1. 自动环境配置与进程清理
+# 2. 支持参数传入外部 LoRA 目录，默认为项目收割目录
+# 3. 显式 0.0.0.0 监听，确保外部访问
+# 4. 支持 Ctrl+C 平滑退出，清理残留进程
 # ==============================================================================
 
-# --- 配置接口 (可复用) ---
+# --- 配置接口 ---
 VENV_DIR="/root/local-nvme/train_env/venv"
 LLAMA_FACTORY_DIR="/root/local-nvme/train_env/LLaMA-Factory"
-# 基座模型路径
 MODEL_PATH="/root/local-nvme/train_env/models/Qwen3-14B-abliterated"
-# LoRA 产物路径 (可指定收割后的目录或原始输出目录)
-LORA_PATH="/root/workspace/HentAI/novel_data/lora_train_output/harvested_lora"
+DEFAULT_LORA_PATH="/root/workspace/HentAI/novel_data/lora_train_output/harvested_lora"
 
-# 1. 环境激活
-if [ -f "${VENV_DIR}/bin/activate" ]; then
-    source "${VENV_DIR}/bin/activate"
+# 0. 信号捕获逻辑：实现 Ctrl+C 平滑退出
+cleanup() {
+    echo -e "\n--- 正在关闭聊天体验服务 ---"
+    pkill -f "llamafactory.cli webui" || true
+    echo "清理完毕，脚本已退出。"
+    exit 0
+}
+trap cleanup SIGINT SIGTERM
+
+# 1. 接口处理：获取 LoRA 路径
+INPUT_PATH=$1
+if [ -n "$INPUT_PATH" ]; then
+    if [[ "$INPUT_PATH" != /* ]]; then
+        LORA_PATH="$(realpath "$INPUT_PATH")"
+    else
+        LORA_PATH="$INPUT_PATH"
+    fi
+    echo "提示: 正在使用外部 LoRA 路径: $LORA_PATH"
 else
-    echo "错误: 未找到虚拟环境 ${VENV_DIR}。"
-    exit 1
+    LORA_PATH="$DEFAULT_LORA_PATH"
+    echo "提示: 正在使用默认收割目录: $LORA_PATH"
 fi
 
+# 2. 环境激活
+source "${VENV_DIR}/bin/activate"
 export PYTHONPATH="${LLAMA_FACTORY_DIR}/src:$PYTHONPATH"
 
-# 2. 检查 LoRA 路径
+# 3. 检查 LoRA 路径有效性
 if [ ! -f "${LORA_PATH}/adapter_config.json" ]; then
-    echo "错误: 在 ${LORA_PATH} 未找到有效的 LoRA 适配器文件。"
-    echo "请先运行 ./collect_lora.sh 或检查训练输出。"
+    echo "错误: 在 ${LORA_PATH} 未找到有效的 LoRA 适配器 (adapter_config.json)。"
     exit 1
 fi
 
-# 3. 启动聊天 WebUI
-echo "--- 正在启动聊天体验 WebUI ---"
-echo "基座模型: ${MODEL_PATH}"
-echo "LoRA 适配器: ${LORA_PATH}"
-
-# 在后台尝试打开浏览器 (默认端口 7860)
-(
-  sleep 5
-  python3 -m webbrowser "http://localhost:7860" 2>/dev/null || echo "请手动访问 http://localhost:7860"
-) &
-
-# 运行推理端
+# 4. 启动聊天 WebUI
+echo "--- 正在启动 HentAI 聊天 WebUI ---"
 cd "${LLAMA_FACTORY_DIR}"
-python -m llamafactory.cli webui \
+# 强制清理可能残留的进程
+pkill -f "llamafactory.cli webui" || true
+
+echo "----------------------------------------------------------------"
+echo "聊天环境已准备就绪。如需退出，请按下 Ctrl+C。"
+echo "----------------------------------------------------------------"
+
+# 显式指定 0.0.0.0 监听，利用 Gradio 原生浏览器管理
+GRADIO_SERVER_NAME="0.0.0.0" python -m llamafactory.cli webui \
     --model_name_or_path "${MODEL_PATH}" \
     --adapter_name_or_path "${LORA_PATH}" \
     --template qwen3 \

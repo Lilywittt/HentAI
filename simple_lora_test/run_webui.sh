@@ -65,7 +65,7 @@ echo "--- 正在清理历史环境 ---"
 find "${LLAMA_FACTORY_DIR}/data/" -maxdepth 1 -type l -lname "/root/workspace/*" -delete
 rm -f "${LLAMA_FACTORY_DIR}/data/dataset_info.json"
 
-# 4. 动态挂载、生成索引并挂载外部 Checkpoint (如果存在)
+# 4. 动态挂载、生成索引
 echo "--- 正在同步环境与索引 ---"
 ln -sf "${SELECTED_PATH}" "${LLAMA_FACTORY_DIR}/data/${DATASET_FILENAME}"
 cat <<EOF > "${LLAMA_FACTORY_DIR}/data/dataset_info.json"
@@ -78,9 +78,10 @@ cat <<EOF > "${LLAMA_FACTORY_DIR}/data/dataset_info.json"
 EOF
 
 # 强化 Checkpoint 可见性：将数据盘上的原始产物目录软链到 LLaMA-Factory 内部
-# 这样即使尚未执行收割脚本，WebUI 也能直接看到历史检查点
+# 修正：软链名称改为极其明确的 data_disk_raw_checkpoints，避免与“收割”混淆
 mkdir -p "${LLAMA_FACTORY_DIR}/saves/Qwen3-14B-Base/lora"
-ln -sf /root/local-nvme/train_output/hentai_lora_results "${LLAMA_FACTORY_DIR}/saves/Qwen3-14B-Base/lora/data_disk_checkpoints"
+rm -f "${LLAMA_FACTORY_DIR}/saves/Qwen3-14B-Base/lora/harvested_results" # 彻底清理旧的误导性名称
+ln -sf /root/local-nvme/train_output/hentai_lora_results "${LLAMA_FACTORY_DIR}/saves/Qwen3-14B-Base/lora/data_disk_raw_checkpoints"
 
 # 5. 自动调整 YAML 配置并静默注入
 echo "--- 正在注入训练配置 ---"
