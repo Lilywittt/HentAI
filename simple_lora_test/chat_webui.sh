@@ -47,7 +47,7 @@ cd "${LLAMA_FACTORY_DIR}"
 python -m llamafactory.cli webui \
     --model_name_or_path "${MODEL_PATH}" \
     --adapter_name_or_path "${LORA_PATH}" \
-    --template qwen \
+    --template qwen3 \
     --finetuning_type lora \
     --quantization_bit 4 \
     --infer_backend vllm

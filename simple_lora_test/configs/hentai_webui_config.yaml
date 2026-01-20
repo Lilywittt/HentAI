@@ -5,7 +5,7 @@ top.model_name: Qwen3-14B-Base
 top.quantization_bit: '4'
 top.quantization_method: bnb
 top.rope_scaling: none
-top.template: qwen
+top.template: qwen3
 train.additional_target: ''
 train.apollo_rank: 16
 train.apollo_scale: 32
