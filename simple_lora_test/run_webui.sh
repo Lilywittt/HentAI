@@ -65,7 +65,7 @@ echo "--- 正在清理历史环境 ---"
 find "${LLAMA_FACTORY_DIR}/data/" -maxdepth 1 -type l -lname "/root/workspace/*" -delete
 rm -f "${LLAMA_FACTORY_DIR}/data/dataset_info.json"
 
-# 4. 动态挂载与生成索引
+# 4. 动态挂载、生成索引并挂载外部 Checkpoint (如果存在)
 echo "--- 正在同步环境与索引 ---"
 ln -sf "${SELECTED_PATH}" "${LLAMA_FACTORY_DIR}/data/${DATASET_FILENAME}"
 cat <<EOF > "${LLAMA_FACTORY_DIR}/data/dataset_info.json"
@@ -77,24 +77,21 @@ cat <<EOF > "${LLAMA_FACTORY_DIR}/data/dataset_info.json"
 }
 EOF
 
+# 强化 Checkpoint 挂载：将 local-nvme 下的产物目录软链到 LLaMA-Factory 内部，确保 WebUI 可见
+mkdir -p "${LLAMA_FACTORY_DIR}/saves/Qwen3-14B-Base/lora"
+ln -sf /root/local-nvme/train_output/hentai_lora_results "${LLAMA_FACTORY_DIR}/saves/Qwen3-14B-Base/lora/harvested_results"
+
 # 5. 自动调整 YAML 配置并静默注入
-echo "--- 正在注入 HentAI 训练配置 ---"
-# 命名规则：使用 hentai_auto_ 前缀明确标识脚本生成的配置
+echo "--- 正在注入训练配置 ---"
 TIMESTAMP=$(date +"%Y-%m-%d-%H-%M-%S")
-AUTO_CONFIG_NAME="hentai_auto_${TIMESTAMP}.yaml"
-CONFIG_TARGET_DIR="${LLAMA_FACTORY_DIR}/llamaboard_config"
+rm -f "${LLAMA_FACTORY_DIR}/llamaboard_config"/*.yaml
 
-# 重要：彻底清理 llamaboard_config 下的所有旧配置和临时配置
-rm -f "${CONFIG_TARGET_DIR}"/*.yaml
-
-TEMP_CONFIG_FILE="${CONFIG_TARGET_DIR}/${AUTO_CONFIG_NAME}"
+TEMP_CONFIG_FILE="${LLAMA_FACTORY_DIR}/llamaboard_config/hentai_auto_${TIMESTAMP}.yaml"
 mkdir -p "$(dirname "$TEMP_CONFIG_FILE")"
 
-# 动态替换数据集名称
 cp "${HENTAI_CONFIG_TEMPLATE}" "$TEMP_CONFIG_FILE"
 sed -i "s/- lora_train_dataset/- ${DATASET_KEY}/g" "$TEMP_CONFIG_FILE"
 
-# 强制劫持 WebUI 缓存
 mkdir -p "${LLAMA_FACTORY_DIR}/llamaboard_cache"
 cat <<EOF > "${LLAMA_FACTORY_DIR}/llamaboard_cache/user_config.yaml"
 lang: zh
@@ -109,8 +106,8 @@ cd "${LLAMA_FACTORY_DIR}"
 pkill -f "llamafactory.cli webui" || true
 
 echo "----------------------------------------------------------------"
-echo "自动生效策略：已加载由脚本生成的配置 ${AUTO_CONFIG_NAME}。"
-echo "数据集锁定为 ${DATASET_KEY}。参数已自动回填。"
+echo "自动生效策略：已将训练目标锁定为 ${DATASET_KEY}。"
+echo "配置已自动填充。产物每 10 步自动存盘。"
 echo "----------------------------------------------------------------"
 
 GRADIO_SERVER_NAME="0.0.0.0" python -m llamafactory.cli webui --share false

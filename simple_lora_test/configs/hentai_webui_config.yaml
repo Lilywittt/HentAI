@@ -54,7 +54,7 @@ train.neat_packing: false
 train.neftune_alpha: 0
 train.num_train_epochs: '3.0'
 train.output_dir: /root/local-nvme/train_output/hentai_lora_results
-train.packing: true
+train.packing: false
 train.ppo_score_norm: false
 train.ppo_whiten_rewards: false
 train.pref_beta: 0.1
@@ -63,7 +63,7 @@ train.pref_loss: sigmoid
 train.report_to: none
 train.resize_vocab: false
 train.reward_model: []
-train.save_steps: 50
+train.save_steps: 10
 train.swanlab_api_key: ''
 train.swanlab_link: null
 train.swanlab_mode: cloud
