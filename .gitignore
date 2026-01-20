@@ -31,6 +31,17 @@ yarn-error.log*
 
 # Data
 novel_data/lora_dataset/
+novel_data/lora_train_dataset/lora_dataset_*_2026*.jsonl
+novel_data/lora_train_dataset/lora_dataset_*_sample_data.jsonl
+
+# LoRA Training Outputs
+simple_lora_test/saves/
+simple_lora_test/output/
+simple_lora_test/llamaboard_cache/
+*.pt
+*.safetensors
+*.bin
+*.pth
 
 # Python cache
 __pycache__/

@@ -1,0 +1,10 @@
+{
+  "sample_data": {
+    "file_name": "sample_data.jsonl",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+}
