@@ -25,7 +25,7 @@ train.dataset_dir: data
 train.ds_offload: false
 train.ds_stage: none
 train.enable_thinking: true
-train.extra_args: '{"optim": "adamw_torch"}'
+train.extra_args: '{"optim": "paged_adamw_8bit"}'
 train.freeze_extra_modules: ''
 train.freeze_language_model: false
 train.freeze_multi_modal_projector: true
@@ -36,14 +36,15 @@ train.galore_rank: 16
 train.galore_scale: 2
 train.galore_target: all
 train.galore_update_interval: 200
-train.gradient_accumulation_steps: 8
+train.gradient_accumulation_steps: 4
+train.gradient_checkpointing: true
 train.image_max_pixels: 768*768
 train.image_min_pixels: 32*32
 train.learning_rate: 1e-4
 train.logging_steps: 5
-train.lora_alpha: 64
-train.lora_dropout: 0
-train.lora_rank: 32
+train.lora_alpha: 128
+train.lora_dropout: 0.05
+train.lora_rank: 64
 train.lora_target: all
 train.loraplus_lr_ratio: 0
 train.lr_scheduler_type: cosine
@@ -51,8 +52,8 @@ train.mask_history: false
 train.max_grad_norm: '1.0'
 train.max_samples: '100000'
 train.neat_packing: false
-train.neftune_alpha: 0
-train.num_train_epochs: '3.0'
+train.neftune_alpha: 5
+train.num_train_epochs: '7.0'
 train.output_dir: /root/local-nvme/train_output/hentai_lora_results
 train.packing: false
 train.ppo_score_norm: false
@@ -63,7 +64,7 @@ train.pref_loss: sigmoid
 train.report_to: none
 train.resize_vocab: false
 train.reward_model: []
-train.save_steps: 10
+train.save_steps: 100
 train.swanlab_api_key: ''
 train.swanlab_link: null
 train.swanlab_mode: cloud
@@ -72,6 +73,7 @@ train.swanlab_run_name: ''
 train.swanlab_workspace: ''
 train.train_on_prompt: false
 train.training_stage: Supervised Fine-Tuning
+train.upcast_layernorm: true
 train.use_apollo: false
 train.use_badam: false
 train.use_dora: false
@@ -83,4 +85,4 @@ train.use_swanlab: false
 train.val_size: 0
 train.video_max_pixels: 256*256
 train.video_min_pixels: 16*16
-train.warmup_steps: 0
+train.warmup_steps: 40
