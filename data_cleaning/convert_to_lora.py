@@ -203,6 +203,14 @@ def main():
     total_sample_count = 0
     
     for input_path in input_paths:
+        # Check for existence, fallback to default directory if needed
+        if not os.path.exists(input_path):
+            default_dataset_dir = os.path.join(PROJECT_ROOT, "novel_data", "lora_dataset")
+            potential_path = os.path.join(default_dataset_dir, input_path)
+            if os.path.exists(potential_path):
+                log(f"[Info] Input path not found locally, resolved to default dir: {potential_path}")
+                input_path = potential_path
+
         log(f"[Info] Processing input path: {input_path}")
         files_to_process = []
         if os.path.isfile(input_path):

@@ -18,19 +18,15 @@ python data_cleaning/split_novel.py
 使用 LLM 提取角色交互数据。支持多种 Prompt 模板（位于 `data_cleaning/prompts/`）。
 ```bash
 # 模式 A: 基础人格提取 (还原原著)
-python data_cleaning/run_pipeline.py --instruction prompt_instruction_base.txt --schema output_schema_base.txt
-
-# 模式 B: 情欲推演 (Hentai 扩展)
-python data_cleaning/run_pipeline.py --instruction prompt_instruction_hentai.txt --schema output_schema_hentai.txt
-
-# 模式 C: 身份认知强化 (防混淆)
-python data_cleaning/run_pipeline.py --instruction prompt_instruction_identity.txt --schema output_schema_identity.txt
+python data_cleaning/run_pipeline.py --instruction prompt_instruction_v0.0.txt --schema output_schema_v0.0.txt
 
 # 常用参数:
 # --character <角色名> : 指定目标角色 (默认: 叶灵静)
-# --prefix <卷号>      : 仅处理特定卷 (如: 03)
-# --start <章号>       : 起始章节 (如: 100)
-# --end <章号>         : 结束章节 (如: 105)
+# --prefix <卷号>      : 仅处理特定卷 (如: 03，默认全本)
+# --start <章号>       : 限制起始章节 (如: 100，默认不限制)
+# --end <章号>         : 限制结束章节 (如: 105，默认不限制)
+# --instruction <文件名>: prompt版本（目录固定，传入文件名）
+# --schema <文件名>     : 格式版本 （目录固定，传入文件名）
 ```
 
 **步骤 3: 格式转换**
