@@ -21,41 +21,6 @@ PROJECT_ROOT = os.path.dirname(CURRENT_DIR)
 # 1. 配置与常量
 # ==========================================
 
-# 情绪映射表 (中文 -> 英文)
-MOOD_MAP = {
-    "愤怒": "angry",
-    "开心": "happy",
-    "悲伤": "sad",
-    "恐惧": "fearful",
-    "惊讶": "surprised",
-    "厌恶": "disgusted",
-    "中性": "neutral",
-    "平静": "calm",
-    "期待": "expectant",
-    "焦虑": "anxious",
-    "羞涩": "shy",
-    "害羞": "shy",
-    "尴尬": "awkward",
-    "惘然": "dazed",
-    "不知所措": "overwhelmed",
-    "失落": "lost",
-    "绝望": "hopeless",
-    "兴奋": "excited",
-    "疲惫": "tired",
-    "疑惑": "confused",
-    "坚定": "determined",
-    "痛苦": "painful",
-    "温柔": "gentle",
-    "冷漠": "indifferent",
-    "得意": "proud",
-    "无奈": "helpless",
-    "紧张": "nervous",
-    "警惕": "vigilant",
-    "愧疚": "guilty",
-    "感动": "touched",
-    "委屈": "aggrieved"
-}
-
 def load_config(config_path: str = None) -> Dict[str, Any]:
     """加载配置文件"""
     if config_path is None:
@@ -69,25 +34,11 @@ def load_config(config_path: str = None) -> Dict[str, Any]:
             pass
     return {}
 
-def get_mood_en(mood_zh: str) -> str:
-    """将中文情绪转换为英文，未知情绪保留原样或尝试映射"""
+def get_mood_label(mood_zh: str) -> str:
+    """直接返回原始情绪词，若为空则返回 neutral"""
     if not mood_zh:
         return "neutral"
-    
-    # 直接匹配
-    if mood_zh in MOOD_MAP:
-        return MOOD_MAP[mood_zh]
-    
-    # 尝试查找包含关键词的映射 (例如 "非常愤怒" -> "angry")
-    for k, v in MOOD_MAP.items():
-        if k in mood_zh:
-            return v
-            
-    # 如果全是ASCII，假设已经是英文
-    if all(ord(c) < 128 for c in mood_zh):
-        return mood_zh
-        
-    return "neutral" # 默认 fallback
+    return mood_zh.strip()
 
 # ==========================================
 # 2. 核心处理逻辑
@@ -135,7 +86,7 @@ def construct_output(unit: Dict) -> Optional[str]:
     external_action = char_resp.get("external_action")
     speech_text = char_resp.get("speech_text")
     mood_state = char_resp.get("mood_state", "neutral")
-    mood_en = get_mood_en(mood_state)
+    mood_label = get_mood_label(mood_state)
     
     # 组装 parts
     parts = []
@@ -152,7 +103,7 @@ def construct_output(unit: Dict) -> Optional[str]:
         parts.append(speech_text.strip())
         
     # 4. <mood:...>
-    parts.append(f"<mood:{mood_en}>")
+    parts.append(f"<mood:{mood_label}>")
     
     return " ".join(parts)
 
@@ -170,7 +121,20 @@ def process_file(file_path: str, target_character: str) -> List[Dict]:
         interaction_units = data.get("interaction_units", [])
         
         for unit in interaction_units:
-            # 1. Construct Input
+            # 0. Check for New Direct Schema (Base/Hentai/Identity)
+            if "input" in unit and "output" in unit:
+                # Direct mapping: Input (Director Instruction) -> Instruction, Output -> Output
+                # The 'input' field in Alpaca JSONL is left empty as context is embedded in instruction
+                entry = {
+                    "id": unit.get("global_id") or unit.get("id"),
+                    "instruction": unit["input"],
+                    "input": "",
+                    "output": unit["output"]
+                }
+                results.append(entry)
+                continue
+
+            # 1. Construct Input (Legacy Schema)
             inp = construct_input(unit)
             if not inp:
                 continue
@@ -207,11 +171,12 @@ def process_file(file_path: str, target_character: str) -> List[Dict]:
 
 def main():
     parser = argparse.ArgumentParser(description="Convert intermediate novel data to LoRA JSONL format.")
-    parser.add_argument("--input", "-i", type=str, required=True, help="Input file or directory path")
+    parser.add_argument("--input", "-i", type=str, nargs='+', required=True, help="Input file or directory paths (can be multiple)")
     parser.add_argument("--name", "-n", type=str, help="Target character name (overrides auto-detection)")
+    parser.add_argument("--output", "-o", type=str, help="Custom output filename (under lora_train_dataset/)")
     args = parser.parse_args()
     
-    input_path = args.input
+    input_paths = args.input
     target_character = args.name
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     
@@ -232,68 +197,70 @@ def main():
         except:
             pass
             
-    # 1. Determine Target Character
-    if not target_character:
-        # Try to infer from path
-        basename = os.path.basename(os.path.normpath(input_path))
-        # Pattern: cleaned_{Name}_{Type}_{Timestamp}
-        match = re.match(r"cleaned_([^_]+)_", basename)
-        if match:
-            target_character = match.group(1)
-            log(f"[Info] Detected character name from path: {target_character}")
-        else:
-            # Fallback to config
-            config = load_config()
-            target_character = config.get("target_character")
-            if target_character:
-                log(f"[Info] Using character name from config: {target_character}")
-            else:
-                target_character = "Unknown"
-                log(f"[Warning] Could not detect character name. Using default: {target_character}")
-    else:
-        log(f"[Info] Using specified character name: {target_character}")
-
-    log(f"[Info] Input Path: {input_path}")
-    log(f"[Info] Log file: {log_file}")
-
-    # 2. Collect Files
-    files_to_process = []
-    if os.path.isfile(input_path):
-        files_to_process.append(input_path)
-    elif os.path.isdir(input_path):
-        files_to_process.extend(glob.glob(os.path.join(input_path, "**/*.txt"), recursive=True))
-        files_to_process.extend(glob.glob(os.path.join(input_path, "**/*.json"), recursive=True))
-    else:
-        log(f"[Error] Input path not found: {input_path}")
-        return
-
-    log(f"[Info] Found {len(files_to_process)} files to process.")
-
-    # 3. Process Data
+    # 2. Collect Files from all input paths
     all_entries = []
-    file_count = 0
-    sample_count = 0
+    total_file_count = 0
+    total_sample_count = 0
     
-    for fp in files_to_process:
-        entries = process_file(fp, target_character)
-        if entries:
-            all_entries.extend(entries)
-            file_count += 1
-            sample_count += len(entries)
+    for input_path in input_paths:
+        log(f"[Info] Processing input path: {input_path}")
+        files_to_process = []
+        if os.path.isfile(input_path):
+            files_to_process.append(input_path)
+        elif os.path.isdir(input_path):
+            files_to_process.extend(glob.glob(os.path.join(input_path, "**/*.txt"), recursive=True))
+            files_to_process.extend(glob.glob(os.path.join(input_path, "**/*.json"), recursive=True))
+        else:
+            log(f"[Error] Input path not found: {input_path}")
+            continue
+
+        log(f"[Info] Found {len(files_to_process)} files in this path.")
+
+        # 3. Process Data for current path
+        current_character = target_character
+        if not current_character:
+            # Try to infer from current path
+            basename = os.path.basename(os.path.normpath(input_path))
+            match = re.match(r"cleaned_([^_]+)_", basename)
+            if match:
+                current_character = match.group(1)
+                log(f"[Info] Inferred character for this path: {current_character}")
+            else:
+                config = load_config()
+                current_character = config.get("target_character") or "Unknown"
+                log(f"[Info] Using fallback character for this path: {current_character}")
+
+        for fp in files_to_process:
+            entries = process_file(fp, current_character)
+            if entries:
+                all_entries.extend(entries)
+                total_file_count += 1
+                total_sample_count += len(entries)
+    
+    # Re-index IDs to ensure uniqueness across merged datasets
+    log(f"[Info] Re-indexing {len(all_entries)} entries to ensure unique IDs...")
+    for idx, entry in enumerate(all_entries, 1):
+        entry["id"] = idx
             
     # 4. Write Output
     if not all_entries:
         log("[Warning] No valid data extracted.")
         return
 
-    output_filename = f"lora_dataset_{target_character}_{timestamp}.jsonl"
+    if args.output:
+        output_filename = args.output
+    else:
+        # Use first character name if multiple might exist
+        display_name = target_character or "merged"
+        output_filename = f"lora_dataset_{display_name}_{timestamp}.jsonl"
+        
     output_path = os.path.join(output_dir, output_filename)
     
     try:
         with open(output_path, 'w', encoding='utf-8') as f:
             for entry in all_entries:
                 f.write(json.dumps(entry, ensure_ascii=False) + "\n")
-        log(f"[Success] Processed {file_count} files, generated {sample_count} samples.")
+        log(f"[Success] Total processed {total_file_count} files, generated {total_sample_count} samples.")
         log(f"[Output] Saved to: {output_path}")
     except Exception as e:
         log(f"[Error] Failed to write output file: {e}")

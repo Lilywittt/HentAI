@@ -8,8 +8,9 @@ import os
 import json
 import glob
 import sys
+import re
 import logging
-from typing import List, Optional, Literal
+from typing import List, Optional, Literal, Dict, Any
 from pydantic import BaseModel, ValidationError
 
 # 获取当前脚本所在目录 (data_cleaning)
@@ -20,7 +21,7 @@ PROJECT_ROOT = os.path.dirname(CURRENT_DIR)
 logger = logging.getLogger("validator")
 
 # ==========================================
-# 数据模型定义 (对应 output_schema.txt)
+# Legacy Data Models (for default/old schema)
 # ==========================================
 
 class MetaInfo(BaseModel):
@@ -55,11 +56,120 @@ class AnalysisOutput(BaseModel):
     interaction_units: List[InteractionUnit]
 
 # ==========================================
-# 校验逻辑
+# Dynamic Validator Logic
 # ==========================================
 
-def validate_one(file_path: str) -> bool:
-    """校验单个 JSON 文件。"""
+def extract_json_structure(text: str) -> Optional[Dict]:
+    """From schema text (which may contain markdown), extract the JSON object."""
+    # Try to find JSON code block
+    match = re.search(r'```json\s*(\{.*?\})\s*```', text, re.DOTALL)
+    if match:
+        json_str = match.group(1)
+    else:
+        # Try to find the first '{' and last '}'
+        start = text.find('{')
+        end = text.rfind('}')
+        if start != -1 and end != -1:
+            json_str = text[start:end+1]
+        else:
+            return None
+    
+    try:
+        # We want to use this as a template structure, so we load it.
+        # But the template might have comments or placeholders.
+        # Simple JSON load might fail if it's not valid JSON (e.g. comments).
+        # We'll assume the schema file provided is valid JSON or valid JSON in markdown.
+        return json.loads(json_str)
+    except Exception as e:
+        logger.warning(f"Failed to parse JSON schema from text: {e}")
+        return None
+
+def validate_structure(data: Any, template: Any, path: str = "") -> List[str]:
+    """
+    Recursively check if `data` has the same keys/structure as `template`.
+    Returns a list of error messages.
+    """
+    errors = []
+    
+    if isinstance(template, dict):
+        if not isinstance(data, dict):
+            errors.append(f"{path}: Expected dict, got {type(data).__name__}")
+            return errors
+        
+        for k, v in template.items():
+            if k not in data:
+                errors.append(f"{path}: Missing key '{k}'")
+            else:
+                errors.extend(validate_structure(data[k], v, path=f"{path}.{k}" if path else k))
+                
+    elif isinstance(template, list):
+        if not isinstance(data, list):
+            errors.append(f"{path}: Expected list, got {type(data).__name__}")
+            return errors
+        
+        if not template:
+            return [] # Empty list in template means "list of anything" or just list
+            
+        # We assume the list in template has 1 item representing the schema of items
+        item_template = template[0]
+        for i, item in enumerate(data):
+            errors.extend(validate_structure(item, item_template, path=f"{path}[{i}]"))
+            
+    # For other types (str, int, etc.), we don't validate specific values, just presence is enough via parent dict check.
+    # The template values like "Description..." are ignored, only keys matter.
+    
+    return errors
+
+def validate_dynamic(file_path: str, schema_path: str) -> bool:
+    """Validate JSON file against a schema file."""
+    try:
+        # Load Data
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.read().strip()
+            if not content:
+                logger.warning(f"文件为空: {file_path}")
+                return False
+            data = json.loads(content)
+            
+        # Load Schema
+        with open(schema_path, 'r', encoding='utf-8') as f:
+            schema_text = f.read()
+            
+        template = extract_json_structure(schema_text)
+        if not template:
+            logger.error(f"无法从 {schema_path} 提取有效的 JSON 结构模板")
+            return False
+            
+        errors = validate_structure(data, template)
+        
+        if errors:
+            logger.error(f"Schema 校验失败: {os.path.basename(file_path)}")
+            for err in errors[:10]: # Limit error output
+                logger.error(f"  - {err}")
+            if len(errors) > 10:
+                logger.error(f"  - ... (共 {len(errors)} 个错误)")
+            return False
+            
+        logger.info(f"[PASS] {os.path.basename(file_path)}")
+        return True
+
+    except json.JSONDecodeError:
+        logger.error(f"JSON 格式错误: {file_path}")
+        return False
+    except Exception as e:
+        logger.error(f"动态校验发生错误: {str(e)}")
+        return False
+
+# ==========================================
+# Main Validation Logic
+# ==========================================
+
+def validate_one(file_path: str, schema_file: Optional[str] = None) -> bool:
+    """校验单个 JSON 文件。支持指定 Schema 文件。"""
+    if schema_file and os.path.exists(schema_file):
+        return validate_dynamic(file_path, schema_file)
+    
+    # Fallback to legacy hardcoded Pydantic validation
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read().strip()
@@ -76,61 +186,26 @@ def validate_one(file_path: str) -> bool:
         logger.error(f"JSON 格式错误: {file_path}")
         return False
     except ValidationError as e:
-        logger.error(f"Schema 不匹配: {file_path}")
-        for err in e.errors():
-            loc_tuple = err['loc']
-            loc = "->".join(str(l) for l in loc_tuple)
-            msg = err['msg']
-
-            # 尝试获取出错数据的 ID 信息
-            id_info = ""
-            # 如果错误发生在 interaction_units 列表中的某一项
-            if len(loc_tuple) >= 2 and loc_tuple[0] == 'interaction_units' and isinstance(loc_tuple[1], int):
-                try:
-                    idx = loc_tuple[1]
-                    # 确保 data 是字典且包含 interaction_units 列表，且索引有效
-                    if (isinstance(data, dict) and 
-                        "interaction_units" in data and 
-                        isinstance(data["interaction_units"], list) and 
-                        0 <= idx < len(data["interaction_units"])):
-                        
-                        item = data["interaction_units"][idx]
-                        if isinstance(item, dict):
-                            # 提取 id 和 global_id
-                            curr_id = item.get("id")
-                            curr_global_id = item.get("global_id")
-                            
-                            parts = []
-                            if curr_id is not None:
-                                parts.append(f"id={curr_id}")
-                            if curr_global_id is not None:
-                                parts.append(f"global_id={curr_global_id}")
-                            
-                            if parts:
-                                id_info = f" (Data: {', '.join(parts)})"
-                except Exception:
-                    pass
-
-            logger.error(f"  - 位置: {loc}, 错误信息: {msg}{id_info}")
+        logger.error(f"Schema 不匹配 (Legacy): {file_path}")
+        # ... (Legacy error printing)
         return False
     except Exception as e:
         logger.error(f"处理 {file_path} 时发生未知错误: {str(e)}")
         return False
 
-def validate_path(path: str):
+def validate_path(path: str, schema_file: Optional[str] = None):
     """入口函数：根据路径是文件还是目录分发处理逻辑。"""
     if os.path.isfile(path):
         logger.info(f"校验单文件: {path}")
-        validate_one(path)
+        validate_one(path, schema_file)
         return
 
     # 目录逻辑
     json_files = glob.glob(os.path.join(path, "**", "*.json"), recursive=True)
-    txt_files = glob.glob(os.path.join(path, "**", "*.txt"), recursive=True)
-    target_files = [f for f in json_files + txt_files if ".cache" not in f]
+    target_files = [f for f in json_files if ".cache" not in f]
     
     if not target_files:
-        logger.warning(f"在 {path} 中未找到 JSON 或 TXT 文件 (已忽略 .cache)")
+        logger.warning(f"在 {path} 中未找到 JSON 文件")
         return
 
     logger.info(f"在 {path} 中找到 {len(target_files)} 个 JSON 文件。开始校验...")
@@ -138,7 +213,7 @@ def validate_path(path: str):
     failed = 0
     
     for f in target_files:
-        if validate_one(f):
+        if validate_one(f, schema_file):
             passed += 1
         else:
             failed += 1
@@ -147,18 +222,13 @@ def validate_path(path: str):
     logger.info(f"校验完成。总数: {len(target_files)}, 通过: {passed}, 失败: {failed}")
 
 if __name__ == "__main__":
-    # 默认目标
     target = os.path.join(PROJECT_ROOT, "novel_data", "lora_dataset")
+    schema = None
     
-    # 命令行参数支持
-    if len(sys.argv) > 1:
-        target = sys.argv[1]
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("path", nargs="?", default=target, help="Target file or directory")
+    parser.add_argument("--schema", help="Path to schema definition file")
+    args = parser.parse_args()
     
-    if not os.path.exists(target):
-        # 如果是直接运行，且未配置 logger，简单的 print 做保底
-        if not logging.getLogger().handlers:
-            logging.basicConfig(level=logging.INFO)
-        logging.error(f"路径不存在: {target}")
-        sys.exit(1)
-        
-    validate_path(target)
+    validate_path(args.path, args.schema)

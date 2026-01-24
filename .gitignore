@@ -55,3 +55,10 @@ logs/
 
 # Discarded
 discarded_modules/
+
+# Generated Prompts
+data_cleaning/prompts/output_schema_*.txt
+data_cleaning/prompts/prompt_instruction_base.txt
+data_cleaning/prompts/prompt_instruction_hentai.txt
+data_cleaning/prompts/prompt_instruction_identity.txt
+data_cleaning/prompts/prompt_instruction_v1.1.txt

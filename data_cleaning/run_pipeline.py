@@ -54,6 +54,8 @@ def parse_args():
     parser.add_argument("--prefix", type=str, help="卷前缀 (如 '03')")
     parser.add_argument("--start", type=int, help="起始章节编号")
     parser.add_argument("--end", type=int, help="结束章节编号")
+    parser.add_argument("--instruction", "-ins", type=str, help="自定义 Prompt 指令文件名 (在 prompts 目录下)")
+    parser.add_argument("--schema", "-sch", type=str, help="自定义 Output Schema 文件名 (在 prompts 目录下)")
     parser.add_argument("--no-refresh", action="store_true", help="不强制刷新缓存 (默认强制刷新)")
     # 这里的 parse_known_args 允许有未定义的参数传入而不报错，增强兼容性
     args, _ = parser.parse_known_args()
@@ -82,9 +84,12 @@ async def run_pipeline():
     NICKNAME_LIST = load_nicknames(TARGET_CHARACTER, SOURCE_NOVEL)
     logger.info(f"已加载角色 [{TARGET_CHARACTER}] (出自: {SOURCE_NOVEL}) 的昵称列表: {NICKNAME_LIST}")
 
-    # 4. Prompt 模板文件配置
-    PROMPT_INSTRUCTION_FILE = os.path.join(CURRENT_DIR, "prompts", "prompt_instruction.txt")
-    OUTPUT_SCHEMA_FILE = os.path.join(CURRENT_DIR, "prompts", "output_schema.txt")
+    # 4. Prompt 模板文件配置 (优先级: CLI > 默认值)
+    ins_file = args.instruction or "prompt_instruction.txt"
+    sch_file = args.schema or "output_schema.txt"
+    
+    PROMPT_INSTRUCTION_FILE = os.path.join(CURRENT_DIR, "prompts", ins_file)
+    OUTPUT_SCHEMA_FILE = os.path.join(CURRENT_DIR, "prompts", sch_file)
 
     # 5. 是否强制刷新缓存 (True: 忽略缓存强制重跑; False: 优先使用缓存)
     # 逻辑: 默认 True。CLI --no-refresh 设为 False。Config 可覆盖。
@@ -122,7 +127,8 @@ async def run_pipeline():
     failed_count = 0
     
     for fpath in generated_files:
-        is_valid = validate_one(fpath)
+        # 使用当前配置的 Schema 文件进行动态校验
+        is_valid = validate_one(fpath, schema_file=OUTPUT_SCHEMA_FILE)
         if is_valid:
             passed_count += 1
         else:

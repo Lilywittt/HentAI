@@ -7,11 +7,39 @@
 ## ?? 快速开始 (Usage)
 
 ### 1. 数据生产流程 (Data Cleaning)
-| 步骤 | 运行命令 | 数据来源 (Input) | 数据去向 (Output) | 关键配置 |
-| :--- | :--- | :--- | :--- | :--- |
-| **1. 切分章节** | `python data_cleaning/split_novel.py` | `novel_data/original_data/*.txt` | `novel_data/split_data/` | 无 |
-| **2. 提取交互** | `python data_cleaning/run_pipeline.py` | `novel_data/split_data/` | `novel_data/lora_dataset/` | `config.json`, `nickname_map.json` |
-| **3. 格式转换** | `python data_cleaning/convert_to_lora.py --input <路径>` | `novel_data/lora_dataset/` | `novel_data/lora_train_dataset/` | 无 |
+
+**步骤 1: 切分章节**
+将 `novel_data/original_data/` 下的 TXT 小说切分为独立章节。
+```bash
+python data_cleaning/split_novel.py
+```
+
+**步骤 2: 提取交互 (核心)**
+使用 LLM 提取角色交互数据。支持多种 Prompt 模板（位于 `data_cleaning/prompts/`）。
+```bash
+# 模式 A: 基础人格提取 (还原原著)
+python data_cleaning/run_pipeline.py --instruction prompt_instruction_base.txt --schema output_schema_base.txt
+
+# 模式 B: 情欲推演 (Hentai 扩展)
+python data_cleaning/run_pipeline.py --instruction prompt_instruction_hentai.txt --schema output_schema_hentai.txt
+
+# 模式 C: 身份认知强化 (防混淆)
+python data_cleaning/run_pipeline.py --instruction prompt_instruction_identity.txt --schema output_schema_identity.txt
+
+# 常用参数:
+# --character <角色名> : 指定目标角色 (默认: 叶灵静)
+# --prefix <卷号>      : 仅处理特定卷 (如: 03)
+# --start <章号>       : 起始章节 (如: 100)
+# --end <章号>         : 结束章节 (如: 105)
+```
+
+**步骤 3: 格式转换**
+将提取出的多个数据集目录合并为一个 LoRA 训练文件。
+```bash
+python data_cleaning/convert_to_lora.py \
+  --input novel_data/lora_dataset/cleaned_叶灵静_base_xxx novel_data/lora_dataset/cleaned_叶灵静_hentai_xxx \
+  --output final_train.jsonl
+```
 
 ### 2. 训练环境部署 (Deployment)
 > **详细文档请参考: [lora_deploy/README.md](lora_deploy/README.md)**
@@ -30,6 +58,10 @@
 *   **配置文件**: `data_cleaning/config.json`
     *   `target_character`: 目标角色。
     *   `source_novel`: 小说名，决定 `nickname_map.json` 中的检索逻辑。
+*   **Prompt 模板**: `data_cleaning/prompts/`
+    *   `base`: 还原原著，构建基础人格。
+    *   `hentai`: 高淫乱值推演，处理生理/理智拉扯。
+    *   `identity`: 强化身份认知，解决“我是谁”问题。
 *   **环境变量**:
     *   `DEEPSEEK_API_KEY`: 必须在根目录 `.env` 或系统变量中提供。
     *   `HF_TOKEN`: 下载受限模型时，通过 `export HF_TOKEN=xxx` 传入。
