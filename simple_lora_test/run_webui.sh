@@ -81,7 +81,8 @@ EOF
 # 修正：软链名称改为极其明确的 data_disk_raw_checkpoints，避免与“收割”混淆
 mkdir -p "${LLAMA_FACTORY_DIR}/saves/Qwen3-14B-Base/lora"
 rm -f "${LLAMA_FACTORY_DIR}/saves/Qwen3-14B-Base/lora/harvested_results" # 彻底清理旧的误导性名称
-ln -sf /root/local-nvme/train_output/hentai_lora_results "${LLAMA_FACTORY_DIR}/saves/Qwen3-14B-Base/lora/data_disk_raw_checkpoints"
+# 动态创建指向当前任务输出目录的软链，方便在 WebUI 中查看历史 Checkpoint
+ln -sf "/root/local-nvme/train_output/hentai_lora_results_${DATASET_KEY}" "${LLAMA_FACTORY_DIR}/saves/Qwen3-14B-Base/lora/${DATASET_KEY}_checkpoints"
 
 # 5. 自动调整 YAML 配置并静默注入
 echo "--- 正在注入训练配置 ---"
@@ -93,6 +94,8 @@ mkdir -p "$(dirname "$TEMP_CONFIG_FILE")"
 
 cp "${HENTAI_CONFIG_TEMPLATE}" "$TEMP_CONFIG_FILE"
 sed -i "s/- lora_train_dataset/- ${DATASET_KEY}/g" "$TEMP_CONFIG_FILE"
+# 动态修改输出目录，加上数据集名称后缀，防止覆盖
+sed -i "s|train.output_dir: .*|train.output_dir: /root/local-nvme/train_output/hentai_lora_results_${DATASET_KEY}|g" "$TEMP_CONFIG_FILE"
 
 mkdir -p "${LLAMA_FACTORY_DIR}/llamaboard_cache"
 cat <<EOF > "${LLAMA_FACTORY_DIR}/llamaboard_cache/user_config.yaml"
