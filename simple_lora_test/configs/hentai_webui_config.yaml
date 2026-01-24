@@ -25,7 +25,7 @@ train.dataset_dir: data
 train.ds_offload: false
 train.ds_stage: none
 train.enable_thinking: true
-train.extra_args: '{"optim": "paged_adamw_8bit"}'
+train.extra_args: '{"optim": "paged_adamw_8bit", "gradient_checkpointing": true, "upcast_layernorm": true}'
 train.freeze_extra_modules: ''
 train.freeze_language_model: false
 train.freeze_multi_modal_projector: true
@@ -37,7 +37,6 @@ train.galore_scale: 2
 train.galore_target: all
 train.galore_update_interval: 200
 train.gradient_accumulation_steps: 4
-train.gradient_checkpointing: true
 train.image_max_pixels: 768*768
 train.image_min_pixels: 32*32
 train.learning_rate: 1e-4
@@ -73,7 +72,6 @@ train.swanlab_run_name: ''
 train.swanlab_workspace: ''
 train.train_on_prompt: false
 train.training_stage: Supervised Fine-Tuning
-train.upcast_layernorm: true
 train.use_apollo: false
 train.use_badam: false
 train.use_dora: false
