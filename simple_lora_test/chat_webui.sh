@@ -49,6 +49,40 @@ if [ ! -f "${LORA_PATH}/adapter_config.json" ]; then
     exit 1
 fi
 
+# 3.5 自动映射：创建软链接以适配 WebUI 读取逻辑
+# 即使直接传参，LlamaFactory WebUI 有时仍需在 saves 目录下有对应结构才能正确加载或显示
+echo "--- 正在构建模型映射 ---"
+
+# 智能生成链接名称 (处理 checkpoint-xxx 的情况)
+LORA_DIR_NAME=$(basename "${LORA_PATH}")
+if [[ "${LORA_DIR_NAME}" == checkpoint-* ]]; then
+    PARENT_DIR=$(dirname "${LORA_PATH}")
+    PARENT_NAME=$(basename "${PARENT_DIR}")
+    LINK_NAME="${PARENT_NAME}_${LORA_DIR_NAME}"
+else
+    LINK_NAME="${LORA_DIR_NAME}"
+fi
+
+# 双向映射：同时映射到当前使用的模型目录 和 Qwen3-14B-Base (防止跨模型加载时的路径查找失败)
+CURRENT_MODEL_NAME=$(basename "${MODEL_PATH}")
+TARGET_MODELS=("${CURRENT_MODEL_NAME}" "Qwen3-14B-Base")
+PREV_TARGET=""
+
+for TARGET_MODEL in "${TARGET_MODELS[@]}"; do
+    # 简单去重
+    if [ "$TARGET_MODEL" == "$PREV_TARGET" ]; then continue; fi
+    
+    SAVES_DIR="${LLAMA_FACTORY_DIR}/saves/${TARGET_MODEL}/lora"
+    mkdir -p "${SAVES_DIR}"
+    
+    LINK_PATH="${SAVES_DIR}/${LINK_NAME}"
+    echo "创建映射 [${TARGET_MODEL}]: ${LINK_PATH} -> ${LORA_PATH}"
+    rm -f "${LINK_PATH}"
+    ln -sf "${LORA_PATH}" "${LINK_PATH}"
+    
+    PREV_TARGET="$TARGET_MODEL"
+done
+
 # 4. 启动聊天 WebUI
 echo "--- 正在启动 HentAI 聊天 WebUI ---"
 cd "${LLAMA_FACTORY_DIR}"

@@ -229,7 +229,7 @@ class AnalysisOutput(BaseModel):
   - 提供 `collect_lora.sh` 脚本，精准收割 LoRA 核心权重回项目目录。
 - **闭环验证体验 (chat_webui.sh)**:
   - 新增一键验证脚本，自动挂载收割后的权重并启动聊天 Web 端。
-- **文档体系完善**: 更新 `README.md`，详细规范了数据流向、接口使用方法及配置维护指南。
+f- **文档体系完善**: 更新 `README.md`，详细规范了数据流向、接口使用方法及配置维护指南。
 
 ### [2026/01/22] 数据生产线灵活性升级与针对性 Prompt 设计
 
@@ -249,3 +249,4 @@ class AnalysisOutput(BaseModel):
 - **基础人格 (Base)**: `prompt_instruction_base.txt`。通过逆向侧写提取原著交互，构建角色基础文风与口癖。
 - **情欲推演 (Hentai)**: `prompt_instruction_hentai.txt`。平行宇宙推演，强化高淫乱值下的生理失控与理智拉扯。
 - **身份认知 (Identity)**: `prompt_instruction_identity.txt`。注入认知锚点，通过身份拷问解决模型常见的自他混淆问题。
+

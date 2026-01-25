@@ -18,8 +18,12 @@
 *   **存储重定向**: 训练产物存储在数据盘 `/root/local-nvme/train_output/hentai_lora_results`。
 
 ### 3. 产物收割 (Harvest)
-*   **执行脚本**: `./collect_lora.sh`。
-*   **动作**: 将 LoRA 核心权重从数据盘同步到项目目录 `novel_data/lora_train_output/harvested_lora`。
+*   **执行脚本**: `./collect_lora.sh [来源路径/名称] [目标路径/名称]`。
+*   **动作**: 将 LoRA 核心权重同步到项目目录。
+*   **用法示例**:
+    *   **默认**: `./collect_lora.sh` (从默认输出目录同步到默认收割目录)。
+    *   **相对路径**: `./collect_lora.sh my_run my_version` (在默认基目录下操作)。
+    *   **绝对路径**: `./collect_lora.sh /tmp/src /tmp/dst`。
 
 ### 4. 体验验证 (Test)
 *   **执行脚本**: `./chat_webui.sh [可选外部LoRA路径]`。

@@ -39,10 +39,10 @@ train.galore_update_interval: 200
 train.gradient_accumulation_steps: 4
 train.image_max_pixels: 768*768
 train.image_min_pixels: 32*32
-train.learning_rate: 1e-4
+train.learning_rate: 5e-5
 train.logging_steps: 5
 train.lora_alpha: 128
-train.lora_dropout: 0.05
+train.lora_dropout: 0.1
 train.lora_rank: 64
 train.lora_target: all
 train.loraplus_lr_ratio: 0
@@ -52,7 +52,7 @@ train.max_grad_norm: '1.0'
 train.max_samples: '100000'
 train.neat_packing: false
 train.neftune_alpha: 5
-train.num_train_epochs: '7.0'
+train.num_train_epochs: '4.0'
 train.output_dir: /root/local-nvme/train_output/hentai_lora_results
 train.packing: false
 train.ppo_score_norm: false
@@ -63,7 +63,7 @@ train.pref_loss: sigmoid
 train.report_to: none
 train.resize_vocab: false
 train.reward_model: []
-train.save_steps: 100
+train.save_steps: 500
 train.swanlab_api_key: ''
 train.swanlab_link: null
 train.swanlab_mode: cloud
@@ -83,4 +83,4 @@ train.use_swanlab: false
 train.val_size: 0
 train.video_max_pixels: 256*256
 train.video_min_pixels: 16*16
-train.warmup_steps: 40
+train.warmup_steps: 100

@@ -81,12 +81,20 @@ EOF
 # 修正：软链名称改为极其明确的 data_disk_raw_checkpoints，避免与“收割”混淆
 mkdir -p "${LLAMA_FACTORY_DIR}/saves/Qwen3-14B-Base/lora"
 rm -f "${LLAMA_FACTORY_DIR}/saves/Qwen3-14B-Base/lora/harvested_results" # 彻底清理旧的误导性名称
+
+# 生成带时间戳的输出路径，防止覆盖
+TIMESTAMP=$(date +"%Y-%m-%d-%H-%M-%S")
+OUTPUT_DIR="/root/local-nvme/train_output/hentai_lora_results_${DATASET_KEY}_${TIMESTAMP}"
+mkdir -p "${OUTPUT_DIR}"
+
 # 动态创建指向当前任务输出目录的软链，方便在 WebUI 中查看历史 Checkpoint
-ln -sf "/root/local-nvme/train_output/hentai_lora_results_${DATASET_KEY}" "${LLAMA_FACTORY_DIR}/saves/Qwen3-14B-Base/lora/${DATASET_KEY}_checkpoints"
+# 同时更新一个 latest 软链方便快速访问
+ln -sf "${OUTPUT_DIR}" "${LLAMA_FACTORY_DIR}/saves/Qwen3-14B-Base/lora/${DATASET_KEY}_${TIMESTAMP}_checkpoints"
+ln -sf "${OUTPUT_DIR}" "${LLAMA_FACTORY_DIR}/saves/Qwen3-14B-Base/lora/${DATASET_KEY}_latest_checkpoints"
 
 # 5. 自动调整 YAML 配置并静默注入
 echo "--- 正在注入训练配置 ---"
-TIMESTAMP=$(date +"%Y-%m-%d-%H-%M-%S")
+# TIMESTAMP 已在上方定义
 rm -f "${LLAMA_FACTORY_DIR}/llamaboard_config"/*.yaml
 
 TEMP_CONFIG_FILE="${LLAMA_FACTORY_DIR}/llamaboard_config/hentai_auto_${TIMESTAMP}.yaml"
@@ -94,8 +102,8 @@ mkdir -p "$(dirname "$TEMP_CONFIG_FILE")"
 
 cp "${HENTAI_CONFIG_TEMPLATE}" "$TEMP_CONFIG_FILE"
 sed -i "s/- lora_train_dataset/- ${DATASET_KEY}/g" "$TEMP_CONFIG_FILE"
-# 动态修改输出目录，加上数据集名称后缀，防止覆盖
-sed -i "s|train.output_dir: .*|train.output_dir: /root/local-nvme/train_output/hentai_lora_results_${DATASET_KEY}|g" "$TEMP_CONFIG_FILE"
+# 动态修改输出目录，使用带时间戳的路径
+sed -i "s|train.output_dir: .*|train.output_dir: ${OUTPUT_DIR}|g" "$TEMP_CONFIG_FILE"
 
 mkdir -p "${LLAMA_FACTORY_DIR}/llamaboard_cache"
 cat <<EOF > "${LLAMA_FACTORY_DIR}/llamaboard_cache/user_config.yaml"

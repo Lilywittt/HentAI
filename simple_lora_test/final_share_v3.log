@@ -1,0 +1,203 @@
+[INFO|tokenization_utils_base.py:2093] 2026-01-26 02:04:41,062 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2093] 2026-01-26 02:04:41,062 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2093] 2026-01-26 02:04:41,062 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2093] 2026-01-26 02:04:41,062 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2093] 2026-01-26 02:04:41,062 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2093] 2026-01-26 02:04:41,062 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2093] 2026-01-26 02:04:41,062 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2364] 2026-01-26 02:04:41,369 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[INFO|configuration_utils.py:763] 2026-01-26 02:04:41,370 >> loading configuration file /root/local-nvme/train_env/models/Qwen3-14B-abliterated/config.json
+[INFO|configuration_utils.py:839] 2026-01-26 02:04:41,371 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 17408,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 40,
+  "model_type": "qwen3",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 40,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.1",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[INFO|tokenization_utils_base.py:2093] 2026-01-26 02:04:41,372 >> loading file vocab.json
+[INFO|tokenization_utils_base.py:2093] 2026-01-26 02:04:41,372 >> loading file merges.txt
+[INFO|tokenization_utils_base.py:2093] 2026-01-26 02:04:41,372 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2093] 2026-01-26 02:04:41,372 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2093] 2026-01-26 02:04:41,372 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2093] 2026-01-26 02:04:41,372 >> loading file tokenizer_config.json
+[INFO|tokenization_utils_base.py:2093] 2026-01-26 02:04:41,372 >> loading file chat_template.jinja
+[INFO|tokenization_utils_base.py:2364] 2026-01-26 02:04:41,667 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+--- Loading Model ---
+Base Model: /root/local-nvme/train_env/models/Qwen3-14B-abliterated
+Adapter: /root/local-nvme/train_output/hentai_lora_results_lora_dataset_叶灵静_merged_v1.2_2026-01-25-21-42-36
+Template: qwen3
+Using LoRA Adapter: /root/local-nvme/train_output/hentai_lora_results_lora_dataset_叶灵静_merged_v1.2_2026-01-25-21-42-36
+[WARNING|2026-01-26 02:04:41] llamafactory.data.template:148 >> You are using reasoning template, please add `_nothink` suffix if the model is not a reasoning model. e.g., qwen3_vl_nothink
+[INFO|configuration_utils.py:763] 2026-01-26 02:04:41,688 >> loading configuration file /root/local-nvme/train_env/models/Qwen3-14B-abliterated/config.json
+[INFO|configuration_utils.py:839] 2026-01-26 02:04:41,690 >> Model config Qwen3Config {
+  "architectures": [
+    "Qwen3ForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "dtype": "bfloat16",
+  "eos_token_id": 151645,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 5120,
+  "initializer_range": 0.02,
+  "intermediate_size": 17408,
+  "layer_types": [
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention",
+    "full_attention"
+  ],
+  "max_position_embeddings": 40960,
+  "max_window_layers": 40,
+  "model_type": "qwen3",
+  "num_attention_heads": 40,
+  "num_hidden_layers": 40,
+  "num_key_value_heads": 8,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000,
+  "sliding_window": null,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.57.1",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+[WARNING|logging.py:328] 2026-01-26 02:04:41,690 >> `torch_dtype` is deprecated! Use `dtype` instead!
+[INFO|2026-01-26 02:04:41] llamafactory.model.model_utils.quantization:143 >> Quantizing model to 4 bit with bitsandbytes.
+[INFO|2026-01-26 02:04:41] llamafactory.model.model_utils.kv_cache:143 >> KV cache is enabled for faster generation.
+[WARNING|logging.py:328] 2026-01-26 02:04:41,820 >> `torch_dtype` is deprecated! Use `dtype` instead!
+[INFO|modeling_utils.py:1169] 2026-01-26 02:04:43,161 >> loading weights file /root/local-nvme/train_env/models/Qwen3-14B-abliterated/model.safetensors.index.json
+[INFO|modeling_utils.py:2341] 2026-01-26 02:04:43,161 >> Instantiating Qwen3ForCausalLM model under default dtype torch.bfloat16.
+[INFO|configuration_utils.py:986] 2026-01-26 02:04:43,162 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "eos_token_id": 151645
+}
+
+Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:  17%|█▋        | 1/6 [00:03<00:15,  3.17s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [00:07<00:14,  3.72s/it]Loading checkpoint shards:  50%|█████     | 3/6 [00:11<00:11,  3.85s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [00:15<00:07,  3.94s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [00:19<00:03,  3.98s/it]Loading checkpoint shards: 100%|██████████| 6/6 [00:22<00:00,  3.59s/it]Loading checkpoint shards: 100%|██████████| 6/6 [00:22<00:00,  3.71s/it]
+[INFO|configuration_utils.py:939] 2026-01-26 02:05:05,820 >> loading configuration file /root/local-nvme/train_env/models/Qwen3-14B-abliterated/generation_config.json
+[INFO|configuration_utils.py:986] 2026-01-26 02:05:05,821 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "do_sample": true,
+  "eos_token_id": [
+    151645,
+    151643
+  ],
+  "pad_token_id": 151643,
+  "temperature": 0.6,
+  "top_k": 20,
+  "top_p": 0.95
+}
+
+[INFO|dynamic_module_utils.py:423] 2026-01-26 02:05:05,821 >> Could not locate the custom_generate/generate.py inside /root/local-nvme/train_env/models/Qwen3-14B-abliterated.
+[INFO|2026-01-26 02:05:05] llamafactory.model.model_utils.attention:143 >> Using torch SDPA for faster training and inference.
+[INFO|2026-01-26 02:05:13] llamafactory.model.adapter:143 >> Loaded adapter(s): /root/local-nvme/train_output/hentai_lora_results_lora_dataset_叶灵静_merged_v1.2_2026-01-25-21-42-36
+[INFO|2026-01-26 02:05:13] llamafactory.model.loader:143 >> all params: 15,025,208,320
+/root/local-nvme/train_env/venv/lib/python3.12/site-packages/gradio/chat_interface.py:348: UserWarning: The 'tuples' format for chatbot messages is deprecated and will be removed in a future version of Gradio. Please set type='messages' instead, which uses openai-style 'role' and 'content' keys.
+  self.chatbot = Chatbot(
+--- Launching Service ---
